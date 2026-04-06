@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Flocations\u002F[store_number]","\u002Fmenu\u002F[product_code]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
