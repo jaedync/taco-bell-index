@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.52,
+    "avg": 2.39,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
-    "std_dev": 0.21,
-    "store_count": 8
+    "median": 2.24,
+    "std_dev": 0.25,
+    "store_count": 10
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 1
+      "count": 5
     },
     {
       "bucket": "$2.29",
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 3
+      "count": 1
     },
     {
       "bucket": "$2.59",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.52,
-      "store_count": 8
+      "avg_price": 2.41,
+      "store_count": 9
     }
   ],
   "nutrition": null,
@@ -58,25 +58,39 @@
       "price": 2.19
     },
     {
+      "store_number": "038757",
+      "name": "Taco Bell",
+      "city": "Jamaica",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "035416",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "037051",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "price": 2.19
+    },
+    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
-    },
-    {
-      "store_number": "038980",
-      "name": "Taco Bell",
-      "city": "Yonkers",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
-      "store_number": "037380",
-      "name": "Taco Bell",
-      "city": "Yonkers",
-      "state": "NY",
-      "price": 2.49
     },
     {
       "store_number": "035828",
@@ -108,7 +122,11 @@
     }
   ],
   "min_price_store_numbers": [
-    "037525"
+    "037525",
+    "038757",
+    "035416",
+    "037051",
+    "041105"
   ],
   "priciest_stores": [
     {
@@ -140,25 +158,39 @@
       "price": 2.49
     },
     {
-      "store_number": "037380",
-      "name": "Taco Bell",
-      "city": "Yonkers",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
-      "store_number": "038980",
-      "name": "Taco Bell",
-      "city": "Yonkers",
-      "state": "NY",
-      "price": 2.49
-    },
-    {
       "store_number": "040658",
       "name": "Taco Bell",
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "price": 2.19
+    },
+    {
+      "store_number": "037051",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "035416",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "038757",
+      "name": "Taco Bell",
+      "city": "Jamaica",
+      "state": "NY",
+      "price": 2.19
     },
     {
       "store_number": "037525",
@@ -169,6 +201,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-10T21:02:17.600518+00:00"
+    },
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:29.662357+00:00"
+    },
+    {
+      "store_number": "037380",
+      "store_name": "Taco Bell",
+      "city": "Yonkers",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:18.454959+00:00"
+    },
+    {
+      "store_number": "038980",
+      "store_name": "Taco Bell",
+      "city": "Yonkers",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:17.607250+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-09T20:38:16.405869+00:00"
+    },
+    {
+      "store_number": "037051",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-08T21:50:39.719548+00:00"
+    },
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-08T21:50:27.367065+00:00"
+    },
+    {
+      "store_number": "038757",
+      "store_name": "Taco Bell",
+      "city": "Jamaica",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-06T21:37:22.988794+00:00"
+    },
     {
       "store_number": "038857",
       "store_name": "Taco Bell",
@@ -305,30 +417,48 @@
       "NY"
     ],
     [
+      "038757",
+      40.70585013667496,
+      -73.79174928226273,
+      2.19,
+      "Taco Bell",
+      "Jamaica",
+      "NY"
+    ],
+    [
+      "035416",
+      40.86429248720709,
+      -73.92606473960909,
+      2.19,
+      "Taco Bell Cantina Cantina",
+      "New York",
+      "NY"
+    ],
+    [
+      "037051",
+      40.64434179808303,
+      -74.01147223422221,
+      2.19,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      2.19,
+      "Taco Bell",
+      "Jefferson",
+      "GA"
+    ],
+    [
       "040658",
       40.88004873961616,
       -73.90439336532398,
       2.29,
       "Taco Bell",
       "Bronx",
-      "NY"
-    ],
-    [
-      "038980",
-      40.9088609,
-      -73.8747205,
-      2.49,
-      "Taco Bell",
-      "Yonkers",
-      "NY"
-    ],
-    [
-      "037380",
-      40.9656474813647,
-      -73.87303188222636,
-      2.49,
-      "Taco Bell",
-      "Yonkers",
       "NY"
     ],
     [
@@ -371,11 +501,11 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.48,
+      "avg_price": 2.39,
       "min_price": 2.19,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 2.32
+      "happier_hour_avg": 1.57
     }
   ]
 }

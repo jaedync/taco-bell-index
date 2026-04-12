@@ -15,27 +15,27 @@
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 6.75,
+    "avg": 6.74,
     "min": 6.49,
     "max": 6.99,
-    "median": 6.99,
+    "median": 6.74,
     "std_dev": 0.25,
     "store_count": 86
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$6.99",
-      "count": 44
+      "count": 43
     }
   ],
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 6.75,
+      "avg_price": 6.74,
       "store_count": 86
     }
   ],
@@ -140,11 +140,11 @@
     "002569",
     "019299",
     "034587",
-    "027868",
     "030591",
     "017107",
     "019832",
     "035438",
+    "018792",
     "034585",
     "029890",
     "035450",
@@ -167,7 +167,8 @@
     "038774",
     "033473",
     "033929",
-    "031304"
+    "031304",
+    "032211"
   ],
   "priciest_stores": [
     {
@@ -242,6 +243,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034591",
+      "store_name": "Taco Bell",
+      "city": "Italy",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-11T21:01:55.326794+00:00"
+    },
+    {
+      "store_number": "027868",
+      "store_name": "Taco Bell",
+      "city": "Richardson",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:20.517559+00:00"
+    },
+    {
+      "store_number": "028434",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:48.706010+00:00"
+    },
+    {
+      "store_number": "032211",
+      "store_name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-07T21:20:12.214446+00:00"
+    },
+    {
+      "store_number": "018792",
+      "store_name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-06T21:41:47.291495+00:00"
+    },
+    {
+      "store_number": "034591",
+      "store_name": "Taco Bell",
+      "city": "Italy",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:37:21.809427+00:00"
+    },
     {
       "store_number": "018792",
       "store_name": "Taco Bell",
@@ -1255,15 +1316,6 @@
       "TX"
     ],
     [
-      "027868",
-      32.961806624747986,
-      -96.73628260265104,
-      6.49,
-      "Taco Bell",
-      "Richardson",
-      "TX"
-    ],
-    [
       "030591",
       33.14437160738071,
       -97.10590389530762,
@@ -1297,6 +1349,15 @@
       6.49,
       "Taco Bell",
       "Dallas",
+      "TX"
+    ],
+    [
+      "018792",
+      32.82406121307065,
+      -96.6463677585125,
+      6.49,
+      "Taco Bell",
+      "Mesquite",
       "TX"
     ],
     [
@@ -1507,6 +1568,15 @@
       "TX"
     ],
     [
+      "032211",
+      32.768511000008154,
+      -96.62746394660803,
+      6.49,
+      "Taco Bell",
+      "Mesquite",
+      "TX"
+    ],
+    [
       "040361",
       32.23483142103328,
       -97.76624627797061,
@@ -1567,15 +1637,6 @@
       6.99,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "028434",
-      32.76218959908323,
-      -97.48283942356822,
-      6.99,
-      "Taco Bell",
-      "Fort Worth",
       "TX"
     ],
     [

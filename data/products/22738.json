@@ -17,12 +17,12 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 289
+    "store_count": 285
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 78
+      "count": 76
     },
     {
       "bucket": "$0.20",
@@ -38,11 +38,11 @@
     },
     {
       "bucket": "$0.35",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$0.40",
-      "count": 87
+      "count": 86
     },
     {
       "bucket": "$0.45",
@@ -105,14 +105,9 @@
       "store_count": 28
     },
     {
-      "state": "TX",
-      "avg_price": 0.2,
-      "store_count": 5
-    },
-    {
       "state": "AZ",
       "avg_price": 0.03,
-      "store_count": 16
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -187,16 +182,16 @@
       "price": 0.0
     },
     {
-      "store_number": "041631",
+      "store_number": "041624",
       "name": "Taco Bell",
-      "city": "Mesa",
+      "city": "Apache Junction",
       "state": "AZ",
       "price": 0.0
     },
     {
-      "store_number": "041624",
+      "store_number": "041625",
       "name": "Taco Bell",
-      "city": "Apache Junction",
+      "city": "Mesa",
       "state": "AZ",
       "price": 0.0
     }
@@ -210,7 +205,6 @@
     "036411",
     "037045",
     "036165",
-    "041631",
     "041624",
     "041625",
     "037542",
@@ -278,7 +272,6 @@
     "033926",
     "032638",
     "036765",
-    "030426",
     "031564"
   ],
   "priciest_stores": [
@@ -354,6 +347,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027824",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.4,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:01:50.918006+00:00"
+    },
+    {
+      "store_number": "042288",
+      "store_name": "Taco Bell",
+      "city": "Odessa",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.35,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:00:58.683212+00:00"
+    },
+    {
+      "store_number": "041631",
+      "store_name": "Taco Bell",
+      "city": "Mesa",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:57.384109+00:00"
+    },
+    {
+      "store_number": "003148",
+      "store_name": "Taco Bell",
+      "city": "El Monte",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-04-07T21:28:54.174181+00:00"
+    },
+    {
+      "store_number": "000290",
+      "store_name": "Taco Bell",
+      "city": "Davis",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.4,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:26:45.428770+00:00"
+    },
+    {
+      "store_number": "030426",
+      "store_name": "Taco Bell",
+      "city": "Herriman",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:29:34.717611+00:00"
+    },
     {
       "store_number": "031342",
       "store_name": "Taco Bell",
@@ -1293,66 +1346,6 @@
       "old_price": null,
       "new_price": 0.0,
       "observed_at": "2026-03-30T00:55:55.812361+00:00"
-    },
-    {
-      "store_number": "030293",
-      "store_name": "Taco Bell",
-      "city": "Roseburg",
-      "state": "OR",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.4,
-      "observed_at": "2026-03-30T00:55:54.516423+00:00"
-    },
-    {
-      "store_number": "023080",
-      "store_name": "Taco Bell",
-      "city": "Riverton",
-      "state": "WY",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.3,
-      "observed_at": "2026-03-30T00:55:50.663566+00:00"
-    },
-    {
-      "store_number": "002474",
-      "store_name": "Taco Bell",
-      "city": "Santa Maria",
-      "state": "CA",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.0,
-      "observed_at": "2026-03-30T00:55:43.406428+00:00"
-    },
-    {
-      "store_number": "034200",
-      "store_name": "Taco Bell",
-      "city": "Chico",
-      "state": "CA",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.0,
-      "observed_at": "2026-03-30T00:55:42.113287+00:00"
-    },
-    {
-      "store_number": "031340",
-      "store_name": "Taco Bell",
-      "city": "Redmond",
-      "state": "WA",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.25,
-      "observed_at": "2026-03-30T00:55:39.366522+00:00"
-    },
-    {
-      "store_number": "032951",
-      "store_name": "Taco Bell",
-      "city": "Gladstone",
-      "state": "OR",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.0,
-      "observed_at": "2026-03-30T00:55:38.359328+00:00"
     }
   ],
   "calories_from_menu": 5,
@@ -1431,15 +1424,6 @@
       "Taco Bell",
       "San Jose",
       "CA"
-    ],
-    [
-      "041631",
-      33.394847419748814,
-      -111.5973193797625,
-      0.0,
-      "Taco Bell",
-      "Mesa",
-      "AZ"
     ],
     [
       "041624",
@@ -2045,15 +2029,6 @@
       "CA"
     ],
     [
-      "030426",
-      40.508346251205424,
-      -112.01243340969086,
-      0.0,
-      "Taco Bell",
-      "Herriman",
-      "UT"
-    ],
-    [
       "031564",
       33.96773332658209,
       -118.18710365373903,
@@ -2495,15 +2470,6 @@
       "CA"
     ],
     [
-      "042288",
-      31.890843186467603,
-      -102.34886259086885,
-      0.35,
-      "Taco Bell",
-      "Odessa",
-      "TX"
-    ],
-    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -2828,15 +2794,6 @@
       "OR"
     ],
     [
-      "000290",
-      38.54685119304383,
-      -121.74010679125786,
-      0.4,
-      "Taco Bell",
-      "Davis",
-      "CA"
-    ],
-    [
       "033846",
       39.91428294844639,
       -104.94192123413086,
@@ -2934,15 +2891,6 @@
       "Taco Bell",
       "Eugene",
       "OR"
-    ],
-    [
-      "027824",
-      32.7968530432187,
-      -97.34916780890671,
-      0.4,
-      "Taco Bell",
-      "Fort Worth",
-      "TX"
     ],
     [
       "017560",
@@ -3285,6 +3233,15 @@
       "Taco Bell",
       "Reno",
       "NV"
+    ],
+    [
+      "003148",
+      34.06313715951854,
+      -118.03542204206678,
+      0.4,
+      "Taco Bell",
+      "El Monte",
+      "CA"
     ],
     [
       "004863",

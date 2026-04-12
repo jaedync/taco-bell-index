@@ -13,21 +13,21 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.89,
+    "avg": 3.88,
     "min": 3.79,
     "max": 3.99,
-    "median": 3.89,
+    "median": 3.79,
     "std_dev": 0.1,
     "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$3.79",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$3.99",
-      "count": 16
+      "count": 15
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.81,
+      "avg_price": 3.79,
       "store_count": 13
     }
   ],
@@ -144,7 +144,8 @@
     "002984",
     "027489",
     "027416",
-    "021422"
+    "021422",
+    "001331"
   ],
   "priciest_stores": [
     {
@@ -219,6 +220,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001331",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-04-11T20:58:53.745174+00:00"
+    },
+    {
+      "store_number": "022811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:21:16.937867+00:00"
+    },
     {
       "store_number": "021422",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -690,6 +711,15 @@
       "TX"
     ],
     [
+      "001331",
+      32.82675010523157,
+      -96.83056600394593,
+      3.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Dallas",
+      "TX"
+    ],
+    [
       "036171",
       35.9973883,
       -115.1277426,
@@ -697,15 +727,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Henderson",
       "NV"
-    ],
-    [
-      "022811",
-      30.075174271564272,
-      -95.51512733101845,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Spring",
-      "TX"
     ],
     [
       "040343",

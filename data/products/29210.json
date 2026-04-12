@@ -19,19 +19,19 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 30
+    "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 30
+      "count": 32
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 8.99,
-      "store_count": 30
+      "store_count": 32
     }
   ],
   "nutrition": {
@@ -99,6 +99,13 @@
       "price": 8.99
     },
     {
+      "store_number": "032986",
+      "name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
       "store_number": "032988",
       "name": "Taco Bell",
       "city": "Battle Creek",
@@ -111,13 +118,6 @@
       "city": "Fruitport",
       "state": "MI",
       "price": 8.99
-    },
-    {
-      "store_number": "032996",
-      "name": "Taco Bell",
-      "city": "Kalamazoo",
-      "state": "MI",
-      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
@@ -128,6 +128,7 @@
     "032987",
     "032989",
     "042642",
+    "032986",
     "032988",
     "033044",
     "032996",
@@ -150,9 +151,17 @@
     "033023",
     "032574",
     "032995",
-    "039000"
+    "039000",
+    "032999"
   ],
   "priciest_stores": [
+    {
+      "store_number": "032999",
+      "name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "price": 8.99
+    },
     {
       "store_number": "039000",
       "name": "Taco Bell",
@@ -215,16 +224,69 @@
       "city": "Greenville",
       "state": "MI",
       "price": 8.99
-    },
-    {
-      "store_number": "033016",
-      "name": "Taco Bell",
-      "city": "Jenison",
-      "state": "MI",
-      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039000",
+      "store_name": "Taco Bell",
+      "city": "Zeeland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-04-11T20:57:31.270207+00:00"
+    },
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-04-09T21:14:07.746250+00:00"
+    },
+    {
+      "store_number": "039000",
+      "store_name": "Taco Bell",
+      "city": "Zeeland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:59.932833+00:00"
+    },
+    {
+      "store_number": "032999",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-04-07T21:28:35.440960+00:00"
+    },
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:27:56.161928+00:00"
+    },
+    {
+      "store_number": "032986",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-04-07T21:26:20.320682+00:00"
+    },
     {
       "store_number": "039000",
       "store_name": "Taco Bell",
@@ -628,6 +690,15 @@
       "MI"
     ],
     [
+      "032986",
+      42.91240676476649,
+      -85.65277126426932,
+      8.99,
+      "Taco Bell",
+      "Wyoming",
+      "MI"
+    ],
+    [
       "032988",
       42.260658101733554,
       -85.18805533647543,
@@ -832,6 +903,15 @@
       8.99,
       "Taco Bell",
       "Zeeland",
+      "MI"
+    ],
+    [
+      "032999",
+      42.34044468386268,
+      -85.1550086454519,
+      8.99,
+      "Taco Bell",
+      "Battle Creek",
       "MI"
     ]
   ]

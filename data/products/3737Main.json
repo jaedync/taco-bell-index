@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:43:53.681925+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 3.83,
+    "avg": 3.81,
     "min": 3.49,
     "max": 4.29,
     "median": 3.49,
-    "std_dev": 0.4,
-    "store_count": 20
+    "std_dev": 0.39,
+    "store_count": 19
   },
   "histogram": [
     {
@@ -31,14 +31,14 @@
     },
     {
       "bucket": "$4.29",
-      "count": 8
+      "count": 7
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 4.25,
-      "store_count": 8
+      "store_count": 7
     },
     {
       "state": "TX",
@@ -189,13 +189,6 @@
       "price": 4.29
     },
     {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
-      "state": "CA",
-      "price": 4.29
-    },
-    {
       "store_number": "039835",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Rancho Cucamonga",
@@ -215,9 +208,26 @@
       "city": "Irving",
       "state": "TX",
       "price": 3.49
+    },
+    {
+      "store_number": "027489",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "price": 3.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:55:56.871862+00:00"
+    },
     {
       "store_number": "027505",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -599,15 +609,6 @@
       4.29,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Rancho Cucamonga",
-      "CA"
-    ],
-    [
-      "039811",
-      34.60209988736434,
-      -118.14504776896683,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Palmdale",
       "CA"
     ],
     [

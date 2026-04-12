@@ -11,31 +11,31 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:15.152915+00:00",
-  "availability_pct": 1.7,
+  "availability_pct": 1.5,
   "price_stats": {
     "avg": 4.49,
     "min": 4.49,
     "max": 4.49,
     "median": 4.49,
     "std_dev": 0.0,
-    "store_count": 131
+    "store_count": 118
   },
   "histogram": [
     {
       "bucket": "$4.49",
-      "count": 131
+      "count": 118
     }
   ],
   "state_prices": [
     {
       "state": "IN",
       "avg_price": 4.49,
-      "store_count": 25
+      "store_count": 20
     },
     {
       "state": "IL",
       "avg_price": 4.49,
-      "store_count": 106
+      "store_count": 98
     }
   ],
   "nutrition": {
@@ -72,6 +72,13 @@
       "name": "Taco Bell",
       "city": "Vernon Hills",
       "state": "IL",
+      "price": 4.49
+    },
+    {
+      "store_number": "041205",
+      "name": "Taco Bell",
+      "city": "Hebron",
+      "state": "IN",
       "price": 4.49
     },
     {
@@ -115,19 +122,13 @@
       "city": "Plainfield",
       "state": "IL",
       "price": 4.49
-    },
-    {
-      "store_number": "042001",
-      "name": "Taco Bell",
-      "city": "Westville",
-      "state": "IN",
-      "price": 4.49
     }
   ],
   "min_price_store_numbers": [
     "040019",
     "040018",
     "041115",
+    "041205",
     "041099",
     "041795",
     "040902",
@@ -135,7 +136,6 @@
     "041843",
     "041497",
     "042001",
-    "042059",
     "041638",
     "034772",
     "035174",
@@ -147,17 +147,13 @@
     "041773",
     "041163",
     "036389",
-    "036452",
     "041824",
     "037329",
     "036430",
     "037826",
     "002682",
-    "002907",
     "032104",
-    "032495",
     "002872",
-    "032492",
     "005090",
     "026744",
     "002747",
@@ -170,7 +166,6 @@
     "032487",
     "002433",
     "002513",
-    "026754",
     "030402",
     "015757",
     "016508",
@@ -179,11 +174,10 @@
     "027898",
     "016605",
     "027903",
-    "032088",
     "026753",
     "019752",
+    "015971",
     "002693",
-    "026742",
     "027902",
     "027896",
     "032084",
@@ -192,16 +186,12 @@
     "004191",
     "030651",
     "020283",
-    "032098",
     "002131",
     "004442",
     "032083",
-    "026749",
     "015773",
     "026745",
     "032108",
-    "026746",
-    "015195",
     "002360",
     "030409",
     "001423",
@@ -223,7 +213,6 @@
     "042743",
     "042747",
     "002189",
-    "032493",
     "003832",
     "003613",
     "002051",
@@ -234,7 +223,7 @@
     "026747",
     "026750",
     "002459",
-    "004289",
+    "032031",
     "004752",
     "002076",
     "031070",
@@ -246,22 +235,20 @@
     "040351",
     "026737",
     "032135",
-    "032711",
     "042746",
     "037107",
     "033484",
     "032134",
-    "032494",
     "026743",
     "026755",
     "027900",
-    "026736"
+    "030407"
   ],
   "priciest_stores": [
     {
-      "store_number": "026736",
+      "store_number": "030407",
       "name": "Taco Bell",
-      "city": "Bensenville",
+      "city": "Chicago",
       "state": "IL",
       "price": 4.49
     },
@@ -284,13 +271,6 @@
       "name": "Taco Bell",
       "city": "Orland Hills",
       "state": "IL",
-      "price": 4.49
-    },
-    {
-      "store_number": "032494",
-      "name": "Taco Bell",
-      "city": "Hobart",
-      "state": "IN",
       "price": 4.49
     },
     {
@@ -322,14 +302,371 @@
       "price": 4.49
     },
     {
-      "store_number": "032711",
+      "store_number": "032135",
       "name": "Taco Bell",
-      "city": "Winfield",
-      "state": "IN",
+      "city": "Addison",
+      "state": "IL",
+      "price": 4.49
+    },
+    {
+      "store_number": "026737",
+      "name": "Taco Bell",
+      "city": "Villa Park",
+      "state": "IL",
       "price": 4.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031070",
+      "store_name": "Taco Bell",
+      "city": "Highland",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-11T21:01:05.956483+00:00"
+    },
+    {
+      "store_number": "026736",
+      "store_name": "Taco Bell",
+      "city": "Bensenville",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T21:00:36.982696+00:00"
+    },
+    {
+      "store_number": "032031",
+      "store_name": "Taco Bell",
+      "city": "Alsip",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-11T21:00:31.622453+00:00"
+    },
+    {
+      "store_number": "032493",
+      "store_name": "Taco Bell",
+      "city": "Crown Point",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:59:46.820039+00:00"
+    },
+    {
+      "store_number": "027890",
+      "store_name": "Taco Bell",
+      "city": "Morris",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-11T20:59:29.540155+00:00"
+    },
+    {
+      "store_number": "032098",
+      "store_name": "Taco Bell",
+      "city": "Waukegan",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:51.022103+00:00"
+    },
+    {
+      "store_number": "030401",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:36.494481+00:00"
+    },
+    {
+      "store_number": "032088",
+      "store_name": "Taco Bell",
+      "city": "Buffalo Grove",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:23.514974+00:00"
+    },
+    {
+      "store_number": "019297",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:12.069234+00:00"
+    },
+    {
+      "store_number": "032494",
+      "store_name": "Taco Bell",
+      "city": "Hobart",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:54.816238+00:00"
+    },
+    {
+      "store_number": "032492",
+      "store_name": "Taco Bell",
+      "city": "Saint John",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:54.480361+00:00"
+    },
+    {
+      "store_number": "032495",
+      "store_name": "Taco Bell",
+      "city": "Rensselaer",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:52.699146+00:00"
+    },
+    {
+      "store_number": "002907",
+      "store_name": "Taco Bell",
+      "city": "Des Plaines",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:49.745696+00:00"
+    },
+    {
+      "store_number": "036452",
+      "store_name": "Taco Bell",
+      "city": "Hammond",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:29.505462+00:00"
+    },
+    {
+      "store_number": "032104",
+      "store_name": "Taco Bell",
+      "city": "Mundelein",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-09T21:44:51.150164+00:00"
+    },
+    {
+      "store_number": "031070",
+      "store_name": "Taco Bell",
+      "city": "Highland",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:37:59.656182+00:00"
+    },
+    {
+      "store_number": "004289",
+      "store_name": "Taco Bell",
+      "city": "Des Plaines",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:28:54.065884+00:00"
+    },
+    {
+      "store_number": "032100",
+      "store_name": "Taco Bell",
+      "city": "Lake In The Hills",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-09T21:02:29.661188+00:00"
+    },
+    {
+      "store_number": "015195",
+      "store_name": "Taco Bell",
+      "city": "Schaumburg",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:01:57.205673+00:00"
+    },
+    {
+      "store_number": "026742",
+      "store_name": "Taco Bell",
+      "city": "New Lenox",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:00:36.831077+00:00"
+    },
+    {
+      "store_number": "015971",
+      "store_name": "Taco Bell",
+      "city": "Hammond",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-09T20:58:15.931928+00:00"
+    },
+    {
+      "store_number": "030407",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-09T20:54:56.890233+00:00"
+    },
+    {
+      "store_number": "042059",
+      "store_name": "Taco Bell",
+      "city": "Crown Point",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:20.090310+00:00"
+    },
+    {
+      "store_number": "032100",
+      "store_name": "Taco Bell",
+      "city": "Lake In The Hills",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-08T21:54:40.108595+00:00"
+    },
+    {
+      "store_number": "004442",
+      "store_name": "Taco Bell",
+      "city": "Westchester",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-08T21:54:12.827295+00:00"
+    },
+    {
+      "store_number": "030401",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-08T21:53:21.653335+00:00"
+    },
+    {
+      "store_number": "019297",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-08T21:52:00.135482+00:00"
+    },
+    {
+      "store_number": "026754",
+      "store_name": "Taco Bell",
+      "city": "Streamwood",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-08T21:51:48.831010+00:00"
+    },
+    {
+      "store_number": "032104",
+      "store_name": "Taco Bell",
+      "city": "Mundelein",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-08T21:51:23.336240+00:00"
+    },
+    {
+      "store_number": "027890",
+      "store_name": "Taco Bell",
+      "city": "Morris",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:27:59.138206+00:00"
+    },
+    {
+      "store_number": "026746",
+      "store_name": "Taco Bell",
+      "city": "Naperville",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:27:24.952186+00:00"
+    },
+    {
+      "store_number": "026749",
+      "store_name": "Taco Bell",
+      "city": "Elgin",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:27:18.560638+00:00"
+    },
+    {
+      "store_number": "032711",
+      "store_name": "Taco Bell",
+      "city": "Winfield",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:37:25.265430+00:00"
+    },
+    {
+      "store_number": "004442",
+      "store_name": "Taco Bell",
+      "city": "Westchester",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:35:08.498729+00:00"
+    },
+    {
+      "store_number": "041205",
+      "store_name": "Taco Bell",
+      "city": "Hebron",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-06T21:08:30.107214+00:00"
+    },
     {
       "store_number": "042059",
       "store_name": "Taco Bell",
@@ -979,356 +1316,6 @@
       "old_price": null,
       "new_price": 4.49,
       "observed_at": "2026-03-30T00:55:22.944196+00:00"
-    },
-    {
-      "store_number": "032491",
-      "store_name": "Taco Bell",
-      "city": "Valparaiso",
-      "state": "IN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:55:20.274066+00:00"
-    },
-    {
-      "store_number": "019629",
-      "store_name": "Taco Bell",
-      "city": "Aurora",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:55:16.845405+00:00"
-    },
-    {
-      "store_number": "042745",
-      "store_name": "Taco Bell",
-      "city": "Yorkville",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:55:07.995487+00:00"
-    },
-    {
-      "store_number": "032100",
-      "store_name": "Taco Bell",
-      "city": "Lake In The Hills",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:55:01.436799+00:00"
-    },
-    {
-      "store_number": "001423",
-      "store_name": "Taco Bell",
-      "city": "Arlington Heights",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:53.072483+00:00"
-    },
-    {
-      "store_number": "030409",
-      "store_name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:39.883134+00:00"
-    },
-    {
-      "store_number": "002360",
-      "store_name": "Taco Bell",
-      "city": "Glendale Heights",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:31.267615+00:00"
-    },
-    {
-      "store_number": "015195",
-      "store_name": "Taco Bell",
-      "city": "Schaumburg",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:27.131577+00:00"
-    },
-    {
-      "store_number": "026746",
-      "store_name": "Taco Bell",
-      "city": "Naperville",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:26.008826+00:00"
-    },
-    {
-      "store_number": "032108",
-      "store_name": "Taco Bell",
-      "city": "Waukegan",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:25.420629+00:00"
-    },
-    {
-      "store_number": "009538",
-      "store_name": "Taco Bell",
-      "city": "Merrillville",
-      "state": "IN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:20.180175+00:00"
-    },
-    {
-      "store_number": "026745",
-      "store_name": "Taco Bell",
-      "city": "Joliet",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:15.882842+00:00"
-    },
-    {
-      "store_number": "015773",
-      "store_name": "Taco Bell",
-      "city": "Markham",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:54:14.979537+00:00"
-    },
-    {
-      "store_number": "026749",
-      "store_name": "Taco Bell",
-      "city": "Elgin",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:34.958103+00:00"
-    },
-    {
-      "store_number": "032083",
-      "store_name": "Taco Bell",
-      "city": "Round Lake Beach",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:31.517841+00:00"
-    },
-    {
-      "store_number": "004442",
-      "store_name": "Taco Bell",
-      "city": "Westchester",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:31.483291+00:00"
-    },
-    {
-      "store_number": "002131",
-      "store_name": "Taco Bell",
-      "city": "Palatine",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:23.660559+00:00"
-    },
-    {
-      "store_number": "032098",
-      "store_name": "Taco Bell",
-      "city": "Waukegan",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:23.097201+00:00"
-    },
-    {
-      "store_number": "020283",
-      "store_name": "Taco Bell",
-      "city": "Wood Dale",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:20.598137+00:00"
-    },
-    {
-      "store_number": "030651",
-      "store_name": "Taco Bell",
-      "city": "Oswego",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:08.936645+00:00"
-    },
-    {
-      "store_number": "004191",
-      "store_name": "Taco Bell",
-      "city": "Wheaton",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:53:07.938673+00:00"
-    },
-    {
-      "store_number": "041816",
-      "store_name": "Taco Bell",
-      "city": "Glen Ellyn",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:58.092346+00:00"
-    },
-    {
-      "store_number": "032490",
-      "store_name": "Taco Bell",
-      "city": "Michigan City",
-      "state": "IN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:51.300134+00:00"
-    },
-    {
-      "store_number": "032084",
-      "store_name": "Taco Bell",
-      "city": "McHenry",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:40.152209+00:00"
-    },
-    {
-      "store_number": "027896",
-      "store_name": "Taco Bell",
-      "city": "Ottawa",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:40.101152+00:00"
-    },
-    {
-      "store_number": "027902",
-      "store_name": "Taco Bell",
-      "city": "Park Forest",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:39.191027+00:00"
-    },
-    {
-      "store_number": "026742",
-      "store_name": "Taco Bell",
-      "city": "New Lenox",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:37.567383+00:00"
-    },
-    {
-      "store_number": "002693",
-      "store_name": "Taco Bell",
-      "city": "Bolingbrook",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:26.205085+00:00"
-    },
-    {
-      "store_number": "015971",
-      "store_name": "Taco Bell",
-      "city": "Hammond",
-      "state": "IN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:21.071999+00:00"
-    },
-    {
-      "store_number": "019752",
-      "store_name": "Taco Bell",
-      "city": "Hobart",
-      "state": "IN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:19.938182+00:00"
-    },
-    {
-      "store_number": "026753",
-      "store_name": "Taco Bell",
-      "city": "South Elgin",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:14.333383+00:00"
-    },
-    {
-      "store_number": "032088",
-      "store_name": "Taco Bell",
-      "city": "Buffalo Grove",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:52:10.421501+00:00"
-    },
-    {
-      "store_number": "027903",
-      "store_name": "Taco Bell",
-      "city": "Minooka",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:51:36.158796+00:00"
-    },
-    {
-      "store_number": "016605",
-      "store_name": "Taco Bell",
-      "city": "Saint Charles",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:51:31.217558+00:00"
-    },
-    {
-      "store_number": "027898",
-      "store_name": "Taco Bell",
-      "city": "Peru",
-      "state": "IL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 4.49,
-      "observed_at": "2026-03-30T00:51:24.579838+00:00"
     }
   ],
   "calories_from_menu": 370,
@@ -1362,6 +1349,15 @@
       "Taco Bell",
       "Vernon Hills",
       "IL"
+    ],
+    [
+      "041205",
+      41.329244,
+      -87.199578,
+      4.49,
+      "Taco Bell",
+      "Hebron",
+      "IN"
     ],
     [
       "041099",
@@ -1424,15 +1420,6 @@
       4.49,
       "Taco Bell",
       "Westville",
-      "IN"
-    ],
-    [
-      "042059",
-      41.41983,
-      -87.32736,
-      4.49,
-      "Taco Bell",
-      "Crown Point",
       "IN"
     ],
     [
@@ -1535,15 +1522,6 @@
       "IL"
     ],
     [
-      "036452",
-      41.69621457058919,
-      -87.51837660385304,
-      4.49,
-      "Taco Bell",
-      "Hammond",
-      "IN"
-    ],
-    [
       "041824",
       41.91836393738077,
       -87.65278630613425,
@@ -1589,15 +1567,6 @@
       "IL"
     ],
     [
-      "002907",
-      42.03453129614077,
-      -87.94019766225945,
-      4.49,
-      "Taco Bell",
-      "Des Plaines",
-      "IL"
-    ],
-    [
       "032104",
       42.27607779611406,
       -88.04039075033876,
@@ -1607,15 +1576,6 @@
       "IL"
     ],
     [
-      "032495",
-      40.940316,
-      -87.215662,
-      4.49,
-      "Taco Bell",
-      "Rensselaer",
-      "IN"
-    ],
-    [
       "002872",
       41.718514961113605,
       -87.83632099628454,
@@ -1623,15 +1583,6 @@
       "Taco Bell",
       "Hickory Hills",
       "IL"
-    ],
-    [
-      "032492",
-      41.46459328597798,
-      -87.4709676904854,
-      4.49,
-      "Taco Bell",
-      "Saint John",
-      "IN"
     ],
     [
       "005090",
@@ -1742,15 +1693,6 @@
       "IL"
     ],
     [
-      "026754",
-      42.019814185836594,
-      -88.20223597576842,
-      4.49,
-      "Taco Bell",
-      "Streamwood",
-      "IL"
-    ],
-    [
       "030402",
       42.217112724949345,
       -88.25541302879999,
@@ -1823,15 +1765,6 @@
       "IL"
     ],
     [
-      "032088",
-      42.139306301042375,
-      -87.95981109725857,
-      4.49,
-      "Taco Bell",
-      "Buffalo Grove",
-      "IL"
-    ],
-    [
       "026753",
       41.9771073510313,
       -88.3414158015512,
@@ -1850,21 +1783,21 @@
       "IN"
     ],
     [
+      "015971",
+      41.62992734935938,
+      -87.50822981988524,
+      4.49,
+      "Taco Bell",
+      "Hammond",
+      "IN"
+    ],
+    [
       "002693",
       41.710178163920204,
       -88.06827150290701,
       4.49,
       "Taco Bell",
       "Bolingbrook",
-      "IL"
-    ],
-    [
-      "026742",
-      41.51709918259192,
-      -87.97966361045832,
-      4.49,
-      "Taco Bell",
-      "New Lenox",
       "IL"
     ],
     [
@@ -1940,15 +1873,6 @@
       "IL"
     ],
     [
-      "032098",
-      42.410466998625544,
-      -87.85553865332352,
-      4.49,
-      "Taco Bell",
-      "Waukegan",
-      "IL"
-    ],
-    [
       "002131",
       42.1166094990642,
       -88.034339636597,
@@ -1976,15 +1900,6 @@
       "IL"
     ],
     [
-      "026749",
-      42.02595104858424,
-      -88.3125047644277,
-      4.49,
-      "Taco Bell",
-      "Elgin",
-      "IL"
-    ],
-    [
       "015773",
       41.60042831870267,
       -87.69301687182633,
@@ -2009,24 +1924,6 @@
       4.49,
       "Taco Bell",
       "Waukegan",
-      "IL"
-    ],
-    [
-      "026746",
-      41.763233344111775,
-      -88.20053767738654,
-      4.49,
-      "Taco Bell",
-      "Naperville",
-      "IL"
-    ],
-    [
-      "015195",
-      42.04863027222513,
-      -88.0861611172414,
-      4.49,
-      "Taco Bell",
-      "Schaumburg",
       "IL"
     ],
     [
@@ -2219,15 +2116,6 @@
       "IL"
     ],
     [
-      "032493",
-      41.43620959417888,
-      -87.36516684293753,
-      4.49,
-      "Taco Bell",
-      "Crown Point",
-      "IN"
-    ],
-    [
       "003832",
       41.90223968514989,
       -88.08410651721974,
@@ -2318,12 +2206,12 @@
       "IL"
     ],
     [
-      "004289",
-      42.02344867367876,
-      -87.89637027075514,
+      "032031",
+      41.67910169304596,
+      -87.72018933312398,
       4.49,
       "Taco Bell",
-      "Des Plaines",
+      "Alsip",
       "IL"
     ],
     [
@@ -2426,15 +2314,6 @@
       "IL"
     ],
     [
-      "032711",
-      41.42068209355331,
-      -87.24237933754921,
-      4.49,
-      "Taco Bell",
-      "Winfield",
-      "IN"
-    ],
-    [
       "042746",
       41.708142656164135,
       -88.20640262836726,
@@ -2471,15 +2350,6 @@
       "IL"
     ],
     [
-      "032494",
-      41.55107030132261,
-      -87.23690144672466,
-      4.49,
-      "Taco Bell",
-      "Hobart",
-      "IN"
-    ],
-    [
       "026743",
       41.60073396103226,
       -87.84643827821128,
@@ -2507,12 +2377,12 @@
       "IL"
     ],
     [
-      "026736",
-      41.93226129783192,
-      -87.94010431321112,
+      "030407",
+      41.75244929284412,
+      -87.58651092281517,
       4.49,
       "Taco Bell",
-      "Bensenville",
+      "Chicago",
       "IL"
     ]
   ]

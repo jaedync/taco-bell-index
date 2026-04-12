@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.26,
+    "avg": 4.28,
     "min": 2.0,
     "max": 4.99,
     "median": 4.19,
     "std_dev": 0.86,
-    "store_count": 37
+    "store_count": 38
   },
   "histogram": [
     {
@@ -35,14 +35,14 @@
     },
     {
       "bucket": "$4.99",
-      "count": 5
+      "count": 6
     }
   ],
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.71,
-      "store_count": 18
+      "avg_price": 4.73,
+      "store_count": 19
     },
     {
       "state": "TX",
@@ -144,6 +144,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039835",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Rancho Cucamonga",
+      "state": "CA",
+      "price": 4.99
+    },
+    {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
@@ -205,16 +212,19 @@
       "city": "Lake Forest",
       "state": "CA",
       "price": 4.79
-    },
-    {
-      "store_number": "039797",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Simi Valley",
-      "state": "CA",
-      "price": 4.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039835",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Rancho Cucamonga",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-11T20:57:48.653561+00:00"
+    },
     {
       "store_number": "021422",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -923,12 +933,21 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
       "CA"
+    ],
+    [
+      "039835",
+      34.12121122880951,
+      -117.59313364328591,
+      4.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Rancho Cucamonga",
+      "CA"
     ]
   ],
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 4.82,
+      "avg_price": 4.83,
       "min_price": 4.59,
       "max_price": 5.29,
       "calories": 580,
@@ -936,7 +955,7 @@
     },
     {
       "size": "SMALL",
-      "avg_price": 4.26,
+      "avg_price": 4.28,
       "min_price": 2.0,
       "max_price": 4.99,
       "calories": 440,

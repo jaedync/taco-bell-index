@@ -18,12 +18,12 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.2,
-    "store_count": 7707
+    "store_count": 7706
   },
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$1.59",
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4294
+      "count": 4296
     },
     {
       "bucket": "$2.00",
@@ -139,11 +139,11 @@
     },
     {
       "bucket": "$2.89",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$2.99",
-      "count": 45
+      "count": 44
     },
     {
       "bucket": "$3.08",
@@ -175,7 +175,7 @@
     {
       "state": "NY",
       "avg_price": 2.34,
-      "store_count": 252
+      "store_count": 251
     },
     {
       "state": "MA",
@@ -185,7 +185,7 @@
     {
       "state": "CA",
       "avg_price": 2.22,
-      "store_count": 841
+      "store_count": 840
     },
     {
       "state": "NH",
@@ -238,6 +238,11 @@
       "store_count": 139
     },
     {
+      "state": "IL",
+      "avg_price": 2.06,
+      "store_count": 288
+    },
+    {
       "state": "IA",
       "avg_price": 2.06,
       "store_count": 49
@@ -251,11 +256,6 @@
       "state": "PA",
       "avg_price": 2.06,
       "store_count": 201
-    },
-    {
-      "state": "IL",
-      "avg_price": 2.06,
-      "store_count": 288
     },
     {
       "state": "AR",
@@ -310,7 +310,7 @@
     {
       "state": "SC",
       "avg_price": 1.99,
-      "store_count": 116
+      "store_count": 117
     },
     {
       "state": "AZ",
@@ -434,13 +434,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "040318",
-      "name": "Taco Bell",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 0.99
-    },
-    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -502,10 +495,16 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
+    },
+    {
+      "store_number": "034828",
+      "name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "040318",
     "003056"
   ],
   "priciest_stores": [
@@ -581,6 +580,186 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036214",
+      "store_name": "Taco Bell",
+      "city": "Marengo",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T22:02:26.170831+00:00"
+    },
+    {
+      "store_number": "036211",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T21:54:05.455434+00:00"
+    },
+    {
+      "store_number": "042163",
+      "store_name": "Taco Bell",
+      "city": "Lincolnshire",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T21:50:36.931941+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T21:50:31.122677+00:00"
+    },
+    {
+      "store_number": "036247",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T21:50:27.087272+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T21:50:22.420520+00:00"
+    },
+    {
+      "store_number": "040908",
+      "store_name": "Taco Bell",
+      "city": "Genoa",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 0.99,
+      "new_price": 1.99,
+      "observed_at": "2026-04-08T21:50:22.300802+00:00"
+    },
+    {
+      "store_number": "036214",
+      "store_name": "Taco Bell",
+      "city": "Marengo",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-07T21:29:20.832769+00:00"
+    },
+    {
+      "store_number": "002469",
+      "store_name": "Taco Bell",
+      "city": "Okemos",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-07T21:27:47.124939+00:00"
+    },
+    {
+      "store_number": "031489",
+      "store_name": "Taco Bell",
+      "city": "Eau Claire",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-07T21:27:45.246261+00:00"
+    },
+    {
+      "store_number": "036211",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-07T21:27:08.284881+00:00"
+    },
+    {
+      "store_number": "042163",
+      "store_name": "Taco Bell",
+      "city": "Lincolnshire",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-07T21:20:58.520190+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-07T21:20:22.462259+00:00"
+    },
+    {
+      "store_number": "036247",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-07T21:20:12.492098+00:00"
+    },
+    {
+      "store_number": "040908",
+      "store_name": "Taco Bell",
+      "city": "Genoa",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-07T21:20:07.385862+00:00"
+    },
+    {
+      "store_number": "004238",
+      "store_name": "Taco Bell",
+      "city": "Moncks Corner",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-06T21:37:08.556725+00:00"
+    },
+    {
+      "store_number": "002469",
+      "store_name": "Taco Bell",
+      "city": "Okemos",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:35:53.910166+00:00"
+    },
+    {
+      "store_number": "031489",
+      "store_name": "Taco Bell",
+      "city": "Eau Claire",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:35:52.114696+00:00"
+    },
     {
       "store_number": "004238",
       "store_name": "Taco Bell",
@@ -1400,186 +1579,6 @@
       "old_price": null,
       "new_price": 2.19,
       "observed_at": "2026-03-30T00:59:38.598987+00:00"
-    },
-    {
-      "store_number": "039776",
-      "store_name": "Taco Bell",
-      "city": "Lynchburg",
-      "state": "VA",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.89,
-      "observed_at": "2026-03-30T00:59:38.547262+00:00"
-    },
-    {
-      "store_number": "034151",
-      "store_name": "Taco Bell",
-      "city": "Belpre",
-      "state": "OH",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.89,
-      "observed_at": "2026-03-30T00:59:38.500887+00:00"
-    },
-    {
-      "store_number": "034079",
-      "store_name": "Taco Bell",
-      "city": "Olive Branch",
-      "state": "MS",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:38.276870+00:00"
-    },
-    {
-      "store_number": "041055",
-      "store_name": "Taco Bell",
-      "city": "Gassville",
-      "state": "AR",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.983752+00:00"
-    },
-    {
-      "store_number": "032638",
-      "store_name": "Taco Bell",
-      "city": "Saint George",
-      "state": "UT",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.957172+00:00"
-    },
-    {
-      "store_number": "033370",
-      "store_name": "Taco Bell",
-      "city": "Longmont",
-      "state": "CO",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.700805+00:00"
-    },
-    {
-      "store_number": "034076",
-      "store_name": "Taco Bell",
-      "city": "Ferris",
-      "state": "TX",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.79,
-      "observed_at": "2026-03-30T00:59:37.669681+00:00"
-    },
-    {
-      "store_number": "032959",
-      "store_name": "Taco Bell",
-      "city": "Ocoee",
-      "state": "FL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 2.19,
-      "observed_at": "2026-03-30T00:59:37.634488+00:00"
-    },
-    {
-      "store_number": "040770",
-      "store_name": "Taco Bell",
-      "city": "Little Rock",
-      "state": "AR",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.410803+00:00"
-    },
-    {
-      "store_number": "037830",
-      "store_name": "Taco Bell",
-      "city": "Old Hickory",
-      "state": "TN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.373415+00:00"
-    },
-    {
-      "store_number": "033806",
-      "store_name": "Taco Bell",
-      "city": "Molalla",
-      "state": "OR",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.311207+00:00"
-    },
-    {
-      "store_number": "033932",
-      "store_name": "Taco Bell",
-      "city": "Ruidoso",
-      "state": "NM",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 2.29,
-      "observed_at": "2026-03-30T00:59:37.263877+00:00"
-    },
-    {
-      "store_number": "040607",
-      "store_name": "Taco Bell",
-      "city": "Suamico",
-      "state": "WI",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.89,
-      "observed_at": "2026-03-30T00:59:37.221645+00:00"
-    },
-    {
-      "store_number": "034298",
-      "store_name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 2.99,
-      "observed_at": "2026-03-30T00:59:37.164759+00:00"
-    },
-    {
-      "store_number": "036145",
-      "store_name": "Taco Bell",
-      "city": "Homosassa",
-      "state": "FL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.99,
-      "observed_at": "2026-03-30T00:59:37.117528+00:00"
-    },
-    {
-      "store_number": "034603",
-      "store_name": "Taco Bell",
-      "city": "Decatur",
-      "state": "AL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.89,
-      "observed_at": "2026-03-30T00:59:37.072356+00:00"
-    },
-    {
-      "store_number": "039604",
-      "store_name": "Taco Bell",
-      "city": "Baton Rouge",
-      "state": "LA",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.89,
-      "observed_at": "2026-03-30T00:59:37.023946+00:00"
-    },
-    {
-      "store_number": "038979",
-      "store_name": "Taco Bell",
-      "city": "Newark",
-      "state": "DE",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 2.19,
-      "observed_at": "2026-03-30T00:59:36.995958+00:00"
     }
   ],
   "calories_from_menu": 170,
@@ -1587,15 +1586,6 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      0.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
     [
       "003056",
       33.98985419924158,
@@ -17138,6 +17128,15 @@
       "Taco Bell",
       "Little Rock",
       "AR"
+    ],
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      1.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "041646",
@@ -50746,6 +50745,15 @@
       "VA"
     ],
     [
+      "004238",
+      33.19007109424935,
+      -79.99742835760122,
+      1.99,
+      "Taco Bell",
+      "Moncks Corner",
+      "SC"
+    ],
+    [
       "042818",
       30.68370406040473,
       -88.06090991476809,
@@ -70339,15 +70347,6 @@
       "CA"
     ],
     [
-      "002299",
-      41.70290898796661,
-      -122.64434516429901,
-      2.89,
-      "Taco Bell",
-      "Yreka",
-      "CA"
-    ],
-    [
       "033947",
       40.68064583239703,
       -73.9494459457638,
@@ -70513,15 +70512,6 @@
       "040461",
       40.737938736089966,
       -73.99677289625586,
-      2.99,
-      "Taco Bell",
-      "New York",
-      "NY"
-    ],
-    [
-      "036026",
-      40.737924,
-      -73.981477,
       2.99,
       "Taco Bell",
       "New York",

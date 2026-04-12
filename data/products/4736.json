@@ -12,21 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:20.349621+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 1.06,
+    "avg": 1.0,
     "min": 1.0,
-    "max": 2.69,
+    "max": 1.0,
     "median": 1.0,
-    "std_dev": 0.31,
-    "store_count": 30
+    "std_dev": 0.0,
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$1.00",
       "count": 29
-    },
-    {
-      "bucket": "$2.69",
-      "count": 1
     }
   ],
   "state_prices": [
@@ -155,13 +151,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "036118",
-      "name": "Taco Bell",
-      "city": "Fort Collins",
-      "state": "CO",
-      "price": 2.69
-    },
-    {
       "store_number": "042636",
       "name": "Taco Bell",
       "city": "Grand Rapids",
@@ -223,9 +212,46 @@
       "city": "South Haven",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "033000",
+      "name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033019",
+      "store_name": "Taco Bell",
+      "city": "Ionia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:01:35.303578+00:00"
+    },
+    {
+      "store_number": "036118",
+      "store_name": "Taco Bell",
+      "city": "Fort Collins",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:38:53.266320+00:00"
+    },
+    {
+      "store_number": "033019",
+      "store_name": "Taco Bell",
+      "city": "Ionia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-04-07T21:27:16.808485+00:00"
+    },
     {
       "store_number": "042639",
       "store_name": "Taco Bell",
@@ -832,15 +858,6 @@
       "Taco Bell",
       "Grand Rapids",
       "MI"
-    ],
-    [
-      "036118",
-      40.5741969174071,
-      -105.08451007582228,
-      2.69,
-      "Taco Bell",
-      "Fort Collins",
-      "CO"
     ]
   ]
 }

@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 3.88,
+    "avg": 3.85,
     "min": 2.0,
     "max": 4.49,
     "median": 3.99,
-    "std_dev": 0.74,
-    "store_count": 32
+    "std_dev": 0.76,
+    "store_count": 30
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 10
+      "count": 8
     },
     {
       "bucket": "$4.49",
@@ -45,8 +45,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.26,
-      "store_count": 13
+      "avg_price": 4.25,
+      "store_count": 11
     },
     {
       "state": "TX",
@@ -169,13 +169,6 @@
       "price": 4.49
     },
     {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 4.29
-    },
-    {
       "store_number": "031895",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Las Vegas",
@@ -216,9 +209,36 @@
       "city": "Hemet",
       "state": "CA",
       "price": 4.29
+    },
+    {
+      "store_number": "039804",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Orange",
+      "state": "CA",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041613",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:59:41.102913+00:00"
+    },
+    {
+      "store_number": "041617",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Temecula",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-04-07T21:26:48.289066+00:00"
+    },
     {
       "store_number": "002689",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -755,15 +775,6 @@
       "CA"
     ],
     [
-      "041617",
-      33.525104655154095,
-      -117.16031938791275,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Temecula",
-      "CA"
-    ],
-    [
       "039852",
       33.746993553105185,
       -117.00733342770036,
@@ -816,15 +827,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "041613",
-      32.64483632374036,
-      -116.99737478794304,
-      4.29,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Chula Vista",
-      "CA"
     ],
     [
       "040343",

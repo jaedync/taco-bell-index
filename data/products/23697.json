@@ -12,21 +12,25 @@
   "first_seen_at": "2026-03-30T00:52:20.123626+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.7,
+    "avg": 6.92,
     "min": 6.49,
-    "max": 6.99,
-    "median": 6.49,
-    "std_dev": 0.27,
+    "max": 7.99,
+    "median": 6.99,
+    "std_dev": 0.53,
     "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$6.99",
       "count": 3
+    },
+    {
+      "bucket": "$7.99",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -67,13 +71,6 @@
       "price": 6.49
     },
     {
-      "store_number": "033037",
-      "name": "Taco Bell",
-      "city": "Marysville",
-      "state": "OH",
-      "price": 6.49
-    },
-    {
       "store_number": "020944",
       "name": "Taco Bell",
       "city": "Columbus",
@@ -88,18 +85,24 @@
       "price": 6.99
     },
     {
+      "store_number": "032994",
+      "name": "Taco Bell",
+      "city": "Fremont",
+      "state": "MI",
+      "price": 6.99
+    },
+    {
       "store_number": "035312",
       "name": "Taco Bell",
       "city": "Lacey",
       "state": "WA",
-      "price": 6.99
+      "price": 7.99
     }
   ],
   "min_price_store_numbers": [
     "038828",
     "030763",
-    "033947",
-    "033037"
+    "033947"
   ],
   "priciest_stores": [
     {
@@ -107,6 +110,13 @@
       "name": "Taco Bell",
       "city": "Lacey",
       "state": "WA",
+      "price": 7.99
+    },
+    {
+      "store_number": "032994",
+      "name": "Taco Bell",
+      "city": "Fremont",
+      "state": "MI",
       "price": 6.99
     },
     {
@@ -122,13 +132,6 @@
       "city": "Columbus",
       "state": "OH",
       "price": 6.99
-    },
-    {
-      "store_number": "033037",
-      "name": "Taco Bell",
-      "city": "Marysville",
-      "state": "OH",
-      "price": 6.49
     },
     {
       "store_number": "033947",
@@ -153,6 +156,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035312",
+      "store_name": "Taco Bell",
+      "city": "Lacey",
+      "state": "WA",
+      "change_type": "price_change",
+      "old_price": 6.99,
+      "new_price": 7.99,
+      "observed_at": "2026-04-11T20:58:15.614219+00:00"
+    },
+    {
+      "store_number": "032994",
+      "store_name": "Taco Bell",
+      "city": "Fremont",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-08T22:01:55.593630+00:00"
+    },
+    {
+      "store_number": "038828",
+      "store_name": "Taco Bell",
+      "city": "Madras",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-07T21:26:41.411104+00:00"
+    },
+    {
+      "store_number": "038828",
+      "store_name": "Taco Bell",
+      "city": "Madras",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:34:35.763061+00:00"
+    },
+    {
+      "store_number": "033037",
+      "store_name": "Taco Bell",
+      "city": "Marysville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:21:55.701688+00:00"
+    },
     {
       "store_number": "030784",
       "store_name": "Taco Bell",
@@ -337,15 +390,6 @@
       "NY"
     ],
     [
-      "033037",
-      40.23600332846404,
-      -83.35486572737587,
-      6.49,
-      "Taco Bell",
-      "Marysville",
-      "OH"
-    ],
-    [
       "020944",
       40.14013051280587,
       -82.98090845346445,
@@ -364,10 +408,19 @@
       "CO"
     ],
     [
+      "032994",
+      43.46763133551232,
+      -85.96733306646347,
+      6.99,
+      "Taco Bell",
+      "Fremont",
+      "MI"
+    ],
+    [
       "035312",
       47.04986811863236,
       -122.80902474070899,
-      6.99,
+      7.99,
       "Taco Bell",
       "Lacey",
       "WA"

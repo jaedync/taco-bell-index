@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.76,
+    "avg": 6.78,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.59,
-    "std_dev": 0.34,
-    "store_count": 16
+    "median": 6.49,
+    "std_dev": 0.41,
+    "store_count": 11
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 8
+      "count": 6
     },
     {
       "bucket": "$6.69",
@@ -31,30 +31,22 @@
     },
     {
       "bucket": "$6.79",
-      "count": 2
-    },
-    {
-      "bucket": "$6.89",
       "count": 1
     },
     {
-      "bucket": "$6.99",
+      "bucket": "$7.19",
       "count": 1
-    },
-    {
-      "bucket": "$7.29",
-      "count": 2
     },
     {
       "bucket": "$7.49",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.89,
-      "store_count": 8
+      "avg_price": 6.97,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -72,13 +64,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "033481",
-      "name": "Taco Bell",
-      "city": "Villa Rica",
-      "state": "GA",
-      "price": 6.49
-    },
     {
       "store_number": "032542",
       "name": "Taco Bell",
@@ -122,72 +107,11 @@
       "price": 6.49
     },
     {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
       "store_number": "039932",
       "name": "Taco Bell",
       "city": "McDonough",
       "state": "GA",
       "price": 6.69
-    },
-    {
-      "store_number": "029107",
-      "name": "Taco Bell",
-      "city": "Alexander City",
-      "state": "AL",
-      "price": 6.79
-    }
-  ],
-  "min_price_store_numbers": [
-    "033481",
-    "032542",
-    "042903",
-    "042121",
-    "042134",
-    "031389",
-    "002649",
-    "024403"
-  ],
-  "priciest_stores": [
-    {
-      "store_number": "041225",
-      "name": "Taco Bell",
-      "city": "Lithonia",
-      "state": "GA",
-      "price": 7.49
-    },
-    {
-      "store_number": "041229",
-      "name": "Taco Bell",
-      "city": "Powder Springs",
-      "state": "GA",
-      "price": 7.29
-    },
-    {
-      "store_number": "041322",
-      "name": "Taco Bell",
-      "city": "Dacula",
-      "state": "GA",
-      "price": 7.29
-    },
-    {
-      "store_number": "029112",
-      "name": "Taco Bell",
-      "city": "Birmingham",
-      "state": "AL",
-      "price": 6.99
-    },
-    {
-      "store_number": "016821",
-      "name": "Taco Bell",
-      "city": "Kennesaw",
-      "state": "GA",
-      "price": 6.89
     },
     {
       "store_number": "036937",
@@ -197,9 +121,54 @@
       "price": 6.79
     },
     {
-      "store_number": "029107",
+      "store_number": "027858",
       "name": "Taco Bell",
-      "city": "Alexander City",
+      "city": "Buford",
+      "state": "GA",
+      "price": 7.19
+    },
+    {
+      "store_number": "041225",
+      "name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "price": 7.49
+    }
+  ],
+  "min_price_store_numbers": [
+    "032542",
+    "042903",
+    "042121",
+    "042134",
+    "031389",
+    "002649"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "041223",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 7.49
+    },
+    {
+      "store_number": "041225",
+      "name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "price": 7.49
+    },
+    {
+      "store_number": "027858",
+      "name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "price": 7.19
+    },
+    {
+      "store_number": "036937",
+      "name": "Taco Bell",
+      "city": "Millbrook",
       "state": "AL",
       "price": 6.79
     },
@@ -211,21 +180,132 @@
       "price": 6.69
     },
     {
-      "store_number": "024403",
-      "name": "Taco Bell",
-      "city": "Crossville",
-      "state": "TN",
-      "price": 6.49
-    },
-    {
       "store_number": "002649",
       "name": "Taco Bell / KFC",
       "city": "Charleston",
       "state": "SC",
       "price": 6.49
+    },
+    {
+      "store_number": "031389",
+      "name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "price": 6.49
+    },
+    {
+      "store_number": "042134",
+      "name": "Taco Bell",
+      "city": "Mary Esther",
+      "state": "FL",
+      "price": 6.49
+    },
+    {
+      "store_number": "042121",
+      "name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "price": 6.49
+    },
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:59:44.638092+00:00"
+    },
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-04-11T20:59:10.402961+00:00"
+    },
+    {
+      "store_number": "027858",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.19,
+      "observed_at": "2026-04-11T20:59:05.408780+00:00"
+    },
+    {
+      "store_number": "029107",
+      "store_name": "Taco Bell",
+      "city": "Alexander City",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.79,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:40.144078+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:34.898806+00:00"
+    },
+    {
+      "store_number": "041322",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.29,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:58:17.164331+00:00"
+    },
+    {
+      "store_number": "029112",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:40.842444+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:19.643123+00:00"
+    },
+    {
+      "store_number": "016821",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.89,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:00:31.979110+00:00"
+    },
     {
       "store_number": "041223",
       "store_name": "Taco Bell",
@@ -592,15 +672,6 @@
   ],
   "map_data": [
     [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      6.49,
-      "Taco Bell",
-      "Villa Rica",
-      "GA"
-    ],
-    [
       "032542",
       32.31307877793498,
       -81.05568834507177,
@@ -655,15 +726,6 @@
       "SC"
     ],
     [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      6.49,
-      "Taco Bell",
-      "Crossville",
-      "TN"
-    ],
-    [
       "039932",
       33.42989815104501,
       -84.17856936158387,
@@ -671,15 +733,6 @@
       "Taco Bell",
       "McDonough",
       "GA"
-    ],
-    [
-      "029107",
-      32.92721387566783,
-      -85.9629169553682,
-      6.79,
-      "Taco Bell",
-      "Alexander City",
-      "AL"
     ],
     [
       "036937",
@@ -691,39 +744,12 @@
       "AL"
     ],
     [
-      "016821",
-      34.05976172931764,
-      -84.59213782848565,
-      6.89,
+      "027858",
+      34.07882955591635,
+      -83.91751042267758,
+      7.19,
       "Taco Bell",
-      "Kennesaw",
-      "GA"
-    ],
-    [
-      "029112",
-      33.468575587285244,
-      -86.81857690215111,
-      6.99,
-      "Taco Bell",
-      "Birmingham",
-      "AL"
-    ],
-    [
-      "041322",
-      34.00032217144678,
-      -83.90880189647538,
-      7.29,
-      "Taco Bell",
-      "Dacula",
-      "GA"
-    ],
-    [
-      "041229",
-      33.85923288371655,
-      -84.67192824394984,
-      7.29,
-      "Taco Bell",
-      "Powder Springs",
+      "Buford",
       "GA"
     ],
     [
@@ -733,6 +759,15 @@
       7.49,
       "Taco Bell",
       "Lithonia",
+      "GA"
+    ],
+    [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      7.49,
+      "Taco Bell",
+      "Ellenwood",
       "GA"
     ]
   ]

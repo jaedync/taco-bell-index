@@ -17,7 +17,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 189
+    "store_count": 194
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$0.85",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$0.95",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$0.99",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$1.20",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$1.29",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$1.59",
@@ -97,23 +97,23 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.13,
-      "store_count": 5
+      "avg_price": 1.14,
+      "store_count": 6
     },
     {
       "state": "MI",
-      "avg_price": 1.06,
-      "store_count": 50
+      "avg_price": 1.07,
+      "store_count": 51
     },
     {
       "state": "TX",
       "avg_price": 1.0,
-      "store_count": 7
+      "store_count": 6
     },
     {
       "state": "OH",
-      "avg_price": 1.0,
-      "store_count": 21
+      "avg_price": 0.99,
+      "store_count": 23
     },
     {
       "state": "IN",
@@ -147,8 +147,13 @@
     },
     {
       "state": "ID",
-      "avg_price": 0.84,
-      "store_count": 6
+      "avg_price": 0.85,
+      "store_count": 7
+    },
+    {
+      "state": "WI",
+      "avg_price": 0.83,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -249,6 +254,13 @@
       "price": 1.59
     },
     {
+      "store_number": "021521",
+      "name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "price": 1.49
+    },
+    {
       "store_number": "032350",
       "name": "Taco Bell",
       "city": "Delphos",
@@ -303,16 +315,79 @@
       "city": "Ann Arbor",
       "state": "MI",
       "price": 1.49
-    },
-    {
-      "store_number": "003584",
-      "name": "Taco Bell",
-      "city": "Wayne",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038881",
+      "store_name": "Taco Bell",
+      "city": "New Lexington",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-04-11T20:59:10.971162+00:00"
+    },
+    {
+      "store_number": "036183",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Antioch",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.2,
+      "observed_at": "2026-04-11T20:58:50.266568+00:00"
+    },
+    {
+      "store_number": "021521",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-11T20:57:41.355033+00:00"
+    },
+    {
+      "store_number": "030174",
+      "store_name": "Taco Bell",
+      "city": "North Ridgeville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-11T20:57:40.061968+00:00"
+    },
+    {
+      "store_number": "032093",
+      "store_name": "Taco Bell",
+      "city": "West Baraboo",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-04-08T21:51:58.539939+00:00"
+    },
+    {
+      "store_number": "017387",
+      "store_name": "Taco Bell",
+      "city": "Boise",
+      "state": "ID",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-04-08T21:51:41.743191+00:00"
+    },
+    {
+      "store_number": "031021",
+      "store_name": "Taco Bell",
+      "city": "Tomball",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:19:04.563741+00:00"
+    },
     {
       "store_number": "032350",
       "store_name": "Taco Bell",
@@ -1242,76 +1317,6 @@
       "old_price": null,
       "new_price": 0.95,
       "observed_at": "2026-03-30T00:52:23.208553+00:00"
-    },
-    {
-      "store_number": "029568",
-      "store_name": "Taco Bell",
-      "city": "Pinellas Park",
-      "state": "FL",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.0,
-      "observed_at": "2026-03-30T00:52:21.606446+00:00"
-    },
-    {
-      "store_number": "029659",
-      "store_name": "Taco Bell",
-      "city": "Byrnes Mill",
-      "state": "MO",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.0,
-      "observed_at": "2026-03-30T00:52:18.959972+00:00"
-    },
-    {
-      "store_number": "020292",
-      "store_name": "Taco Bell",
-      "city": "Flint",
-      "state": "MI",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.0,
-      "observed_at": "2026-03-30T00:52:13.228995+00:00"
-    },
-    {
-      "store_number": "036271",
-      "store_name": "Taco Bell",
-      "city": "Stevens Point",
-      "state": "WI",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.8,
-      "observed_at": "2026-03-30T00:51:18.585172+00:00"
-    },
-    {
-      "store_number": "033841",
-      "store_name": "Taco Bell",
-      "city": "Broomfield",
-      "state": "CO",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 1.0,
-      "observed_at": "2026-03-30T00:51:14.251393+00:00"
-    },
-    {
-      "store_number": "028905",
-      "store_name": "Taco Bell",
-      "city": "Indianapolis",
-      "state": "IN",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.9,
-      "observed_at": "2026-03-30T00:51:04.650604+00:00"
-    },
-    {
-      "store_number": "004523",
-      "store_name": "Taco Bell",
-      "city": "Wichita",
-      "state": "KS",
-      "change_type": "item_added",
-      "old_price": null,
-      "new_price": 0.9,
-      "observed_at": "2026-03-30T00:51:01.418928+00:00"
     }
   ],
   "calories_from_menu": 60,
@@ -1536,6 +1541,15 @@
       "NC"
     ],
     [
+      "030174",
+      41.38634973233023,
+      -81.97625585982728,
+      0.8,
+      "Taco Bell",
+      "North Ridgeville",
+      "OH"
+    ],
+    [
       "041558",
       30.44372294481631,
       -90.14212220907211,
@@ -1660,6 +1674,15 @@
       "Taco Bell",
       "Pendleton",
       "IN"
+    ],
+    [
+      "017387",
+      43.590403851490976,
+      -116.26969112271021,
+      0.9,
+      "Taco Bell",
+      "Boise",
+      "ID"
     ],
     [
       "023076",
@@ -2328,6 +2351,15 @@
       "OH"
     ],
     [
+      "038881",
+      39.71955126955784,
+      -82.2067198902642,
+      0.95,
+      "Taco Bell",
+      "New Lexington",
+      "OH"
+    ],
+    [
       "036262",
       39.4836008,
       -88.33129439999999,
@@ -2424,15 +2456,6 @@
       1.0,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Spring",
-      "TX"
-    ],
-    [
-      "031021",
-      30.11340351479166,
-      -95.55398046970367,
-      1.0,
-      "Taco Bell",
-      "Tomball",
       "TX"
     ],
     [
@@ -2769,6 +2792,15 @@
       "TX"
     ],
     [
+      "032093",
+      43.47615914039065,
+      -89.76932062651025,
+      1.0,
+      "Taco Bell",
+      "West Baraboo",
+      "WI"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -2829,6 +2861,15 @@
       1.2,
       "Taco Bell",
       "Gurnee",
+      "IL"
+    ],
+    [
+      "036183",
+      42.47049081195997,
+      -88.09437820318635,
+      1.2,
+      "Taco Bell / Pizza Hut",
+      "Antioch",
       "IL"
     ],
     [
@@ -3010,6 +3051,15 @@
       "Taco Bell",
       "Delphos",
       "OH"
+    ],
+    [
+      "021521",
+      42.27505747978539,
+      -83.4783241955785,
+      1.49,
+      "Taco Bell",
+      "Canton",
+      "MI"
     ],
     [
       "041883",

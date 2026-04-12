@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 5.43,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.16,
-    "store_count": 27
+    "std_dev": 0.17,
+    "store_count": 24
   },
   "histogram": [
     {
@@ -27,19 +27,19 @@
     },
     {
       "bucket": "$5.49",
-      "count": 24
+      "count": 21
     }
   ],
   "state_prices": [
     {
-      "state": "AL",
-      "avg_price": 5.49,
-      "store_count": 6
+      "state": "GA",
+      "avg_price": 5.45,
+      "store_count": 13
     },
     {
-      "state": "GA",
-      "avg_price": 5.43,
-      "store_count": 16
+      "state": "AL",
+      "avg_price": 5.42,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -72,10 +72,10 @@
       "price": 4.99
     },
     {
-      "store_number": "043134",
+      "store_number": "038733",
       "name": "Taco Bell",
-      "city": "Evans",
-      "state": "GA",
+      "city": "Demopolis",
+      "state": "AL",
       "price": 4.99
     },
     {
@@ -121,9 +121,9 @@
       "price": 5.49
     },
     {
-      "store_number": "029138",
+      "store_number": "040382",
       "name": "Taco Bell",
-      "city": "Birmingham",
+      "city": "Tallassee",
       "state": "AL",
       "price": 5.49
     }
@@ -131,34 +131,34 @@
   "min_price_store_numbers": [
     "033481",
     "043129",
-    "043134"
+    "038733"
   ],
   "priciest_stores": [
     {
-      "store_number": "041229",
+      "store_number": "033445",
       "name": "Taco Bell",
-      "city": "Powder Springs",
+      "city": "Montevallo",
+      "state": "AL",
+      "price": 5.49
+    },
+    {
+      "store_number": "039923",
+      "name": "Taco Bell",
+      "city": "Statesboro",
       "state": "GA",
       "price": 5.49
     },
     {
-      "store_number": "042832",
+      "store_number": "039944",
       "name": "Taco Bell",
-      "city": "Pensacola",
-      "state": "FL",
+      "city": "Griffin",
+      "state": "GA",
       "price": 5.49
     },
     {
       "store_number": "039946",
       "name": "Taco Bell",
       "city": "Monroe",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
-      "store_number": "041216",
-      "name": "Taco Bell",
-      "city": "Decatur",
       "state": "GA",
       "price": 5.49
     },
@@ -206,6 +206,156 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033445",
+      "store_name": "Taco Bell",
+      "city": "Montevallo",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-11T21:02:29.920468+00:00"
+    },
+    {
+      "store_number": "003652",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:59:08.406104+00:00"
+    },
+    {
+      "store_number": "041216",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:59:07.969098+00:00"
+    },
+    {
+      "store_number": "029138",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:57:41.652321+00:00"
+    },
+    {
+      "store_number": "038733",
+      "store_name": "Taco Bell",
+      "city": "Demopolis",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-11T20:57:31.304563+00:00"
+    },
+    {
+      "store_number": "042119",
+      "store_name": "Taco Bell",
+      "city": "Hope Hull",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-11T20:56:46.471518+00:00"
+    },
+    {
+      "store_number": "042832",
+      "store_name": "Taco Bell",
+      "city": "Pensacola",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-09T20:39:02.278603+00:00"
+    },
+    {
+      "store_number": "043134",
+      "store_name": "Taco Bell",
+      "city": "Evans",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-08T21:52:36.623420+00:00"
+    },
+    {
+      "store_number": "037155",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-08T21:50:32.571017+00:00"
+    },
+    {
+      "store_number": "039923",
+      "store_name": "Taco Bell",
+      "city": "Statesboro",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-07T21:25:59.249482+00:00"
+    },
+    {
+      "store_number": "042119",
+      "store_name": "Taco Bell",
+      "city": "Hope Hull",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-07T21:20:09.367124+00:00"
+    },
+    {
+      "store_number": "039944",
+      "store_name": "Taco Bell",
+      "city": "Griffin",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-06T21:36:21.334987+00:00"
+    },
+    {
+      "store_number": "041247",
+      "store_name": "Taco Bell",
+      "city": "Oakwood",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:34:51.190112+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-06T21:34:47.513120+00:00"
+    },
+    {
+      "store_number": "037155",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-06T21:10:12.212315+00:00"
+    },
     {
       "store_number": "041229",
       "store_name": "Taco Bell",
@@ -721,13 +871,13 @@
       "SC"
     ],
     [
-      "043134",
-      33.53469681759676,
-      -82.12696243824212,
+      "038733",
+      32.502785945950606,
+      -87.83829904543784,
       4.99,
       "Taco Bell",
-      "Evans",
-      "GA"
+      "Demopolis",
+      "AL"
     ],
     [
       "037099",
@@ -784,15 +934,6 @@
       "TN"
     ],
     [
-      "029138",
-      33.42927563150793,
-      -86.70754820108414,
-      5.49,
-      "Taco Bell",
-      "Birmingham",
-      "AL"
-    ],
-    [
       "040382",
       32.544172412004265,
       -85.90615375967491,
@@ -811,30 +952,12 @@
       "FL"
     ],
     [
-      "041247",
-      34.22726084330739,
-      -83.86797934770584,
-      5.49,
-      "Taco Bell",
-      "Oakwood",
-      "GA"
-    ],
-    [
       "041235",
       34.07381942775987,
       -84.16499994233163,
       5.49,
       "Taco Bell",
       "Suwanee",
-      "GA"
-    ],
-    [
-      "003652",
-      33.82720920627591,
-      -84.32565768064705,
-      5.49,
-      "Taco Bell",
-      "Atlanta",
       "GA"
     ],
     [
@@ -910,15 +1033,6 @@
       "AL"
     ],
     [
-      "041216",
-      33.71689565332906,
-      -84.21496087389771,
-      5.49,
-      "Taco Bell",
-      "Decatur",
-      "GA"
-    ],
-    [
       "039946",
       33.79201875090728,
       -83.73402078556178,
@@ -928,22 +1042,31 @@
       "GA"
     ],
     [
-      "042832",
-      30.5336733589741,
-      -87.27316802173264,
+      "039944",
+      33.27618130148277,
+      -84.29192100855713,
       5.49,
       "Taco Bell",
-      "Pensacola",
-      "FL"
+      "Griffin",
+      "GA"
     ],
     [
-      "041229",
-      33.85923288371655,
-      -84.67192824394984,
+      "039923",
+      32.43643812662501,
+      -81.75874776673481,
       5.49,
       "Taco Bell",
-      "Powder Springs",
+      "Statesboro",
       "GA"
+    ],
+    [
+      "033445",
+      33.101925767425,
+      -86.8609822651587,
+      5.49,
+      "Taco Bell",
+      "Montevallo",
+      "AL"
     ]
   ]
 }

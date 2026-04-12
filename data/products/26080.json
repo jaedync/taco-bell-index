@@ -18,19 +18,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 13
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 13
+      "count": 14
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 13
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -132,9 +132,17 @@
     "030386",
     "033288",
     "033283",
-    "033280"
+    "033280",
+    "030384"
   ],
   "priciest_stores": [
+    {
+      "store_number": "030384",
+      "name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "price": 7.0
+    },
     {
       "store_number": "033280",
       "name": "Taco Bell",
@@ -197,16 +205,39 @@
       "city": "El Reno",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "028019",
-      "name": "Taco Bell",
-      "city": "Enid",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030388",
+      "store_name": "Taco Bell",
+      "city": "El Reno",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-04-11T20:59:08.387017+00:00"
+    },
+    {
+      "store_number": "030384",
+      "store_name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-04-11T20:57:48.413069+00:00"
+    },
+    {
+      "store_number": "030388",
+      "store_name": "Taco Bell",
+      "city": "El Reno",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-04-09T21:02:22.319693+00:00"
+    },
     {
       "store_number": "033280",
       "store_name": "Taco Bell",
@@ -378,7 +409,7 @@
       "observed_at": "2026-03-30T00:48:25.343572+00:00"
     }
   ],
-  "calories_from_menu": 920,
+  "calories_from_menu": 0,
   "calories_min": 920,
   "calories_max": 1200,
   "combo_groups": [
@@ -529,6 +560,15 @@
       7.0,
       "Taco Bell",
       "Edmond",
+      "OK"
+    ],
+    [
+      "030384",
+      35.4971053401798,
+      -97.74209359411932,
+      7.0,
+      "Taco Bell",
+      "Yukon",
       "OK"
     ]
   ]
