@@ -12,26 +12,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:20.349621+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 8.99,
     "min": 8.99,
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 27
+    "store_count": 26
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 27
+      "count": 26
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 8.99,
-      "store_count": 27
+      "store_count": 26
     }
   ],
   "nutrition": {
@@ -143,7 +143,6 @@
     "033006",
     "033008",
     "040369",
-    "033075",
     "033002",
     "033020",
     "033001",
@@ -175,13 +174,6 @@
       "store_number": "033002",
       "name": "Taco Bell",
       "city": "Holland",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
-      "store_number": "033075",
-      "name": "Taco Bell",
-      "city": "Grand Rapids",
       "state": "MI",
       "price": 8.99
     },
@@ -219,9 +211,26 @@
       "city": "Muskegon",
       "state": "MI",
       "price": 8.99
+    },
+    {
+      "store_number": "033026",
+      "name": "Taco Bell",
+      "city": "Albion",
+      "state": "MI",
+      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033075",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:44.803438+00:00"
+    },
     {
       "store_number": "033019",
       "store_name": "Taco Bell",
@@ -325,7 +334,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 5,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -543,15 +552,6 @@
       8.99,
       "Taco Bell",
       "Battle Creek",
-      "MI"
-    ],
-    [
-      "033075",
-      42.91239617566594,
-      -85.51890074553435,
-      8.99,
-      "Taco Bell",
-      "Grand Rapids",
       "MI"
     ],
     [

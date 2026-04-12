@@ -17,7 +17,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 194
+    "store_count": 191
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$0.79",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 53
+      "count": 52
     },
     {
       "bucket": "$0.95",
-      "count": 36
+      "count": 35
     },
     {
       "bucket": "$0.99",
@@ -103,7 +103,7 @@
     {
       "state": "MI",
       "avg_price": 1.07,
-      "store_count": 51
+      "store_count": 50
     },
     {
       "state": "TX",
@@ -147,8 +147,8 @@
     },
     {
       "state": "ID",
-      "avg_price": 0.85,
-      "store_count": 7
+      "avg_price": 0.84,
+      "store_count": 6
     },
     {
       "state": "WI",
@@ -207,13 +207,6 @@
       "price": 0.75
     },
     {
-      "store_number": "031556",
-      "name": "Taco Bell",
-      "city": "Leominster",
-      "state": "MA",
-      "price": 0.75
-    },
-    {
       "store_number": "042476",
       "name": "Taco Bell",
       "city": "Newcastle",
@@ -238,6 +231,13 @@
       "store_number": "035832",
       "name": "Taco Bell",
       "city": "Rocky River",
+      "state": "OH",
+      "price": 0.8
+    },
+    {
+      "store_number": "021478",
+      "name": "Taco Bell",
+      "city": "Sandusky",
       "state": "OH",
       "price": 0.8
     }
@@ -318,6 +318,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031556",
+      "store_name": "Taco Bell",
+      "city": "Leominster",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:51.504961+00:00"
+    },
+    {
+      "store_number": "032148",
+      "store_name": "Taco Bell",
+      "city": "Jerome",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:44.283822+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:30.673445+00:00"
+    },
     {
       "store_number": "038881",
       "store_name": "Taco Bell",
@@ -461,7 +491,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 5,
+    "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -514,15 +544,6 @@
       "Taco Bell",
       "Oconomowoc",
       "WI"
-    ],
-    [
-      "031556",
-      42.53162003006179,
-      -71.74406562747208,
-      0.75,
-      "Taco Bell",
-      "Leominster",
-      "MA"
     ],
     [
       "042476",
@@ -957,15 +978,6 @@
       "MI"
     ],
     [
-      "032148",
-      42.69198372656764,
-      -114.51901854582567,
-      0.9,
-      "Taco Bell",
-      "Jerome",
-      "ID"
-    ],
-    [
       "037588",
       46.79416562181213,
       -100.7514838278621,
@@ -1206,15 +1218,6 @@
       0.95,
       "Taco Bell",
       "Macomb",
-      "MI"
-    ],
-    [
-      "041027",
-      41.9491,
-      -83.401,
-      0.95,
-      "Taco Bell",
-      "Monroe",
       "MI"
     ],
     [

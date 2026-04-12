@@ -17,19 +17,19 @@
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 29
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 29
+      "count": 27
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.0,
-      "store_count": 29
+      "store_count": 27
     }
   ],
   "nutrition": {
@@ -130,7 +130,6 @@
     "033014",
     "033022",
     "033010",
-    "042634",
     "032984",
     "032992",
     "033011",
@@ -142,7 +141,6 @@
     "033006",
     "033008",
     "040369",
-    "033075",
     "033015",
     "033002",
     "033020",
@@ -186,13 +184,6 @@
       "price": 1.0
     },
     {
-      "store_number": "033075",
-      "name": "Taco Bell",
-      "city": "Grand Rapids",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
       "store_number": "040369",
       "name": "Taco Bell",
       "city": "Battle Creek",
@@ -219,9 +210,36 @@
       "city": "Coopersville",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "032994",
+      "name": "Taco Bell",
+      "city": "Fremont",
+      "state": "MI",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033075",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:44.803438+00:00"
+    },
+    {
+      "store_number": "042634",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:39.716451+00:00"
+    },
     {
       "store_number": "033019",
       "store_name": "Taco Bell",
@@ -305,7 +323,7 @@
   ],
   "activity_summary": {
     "added": 4,
-    "removed": 4,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -414,15 +432,6 @@
       "MI"
     ],
     [
-      "042634",
-      43.02070476985877,
-      -85.68843215703964,
-      1.0,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
       "032984",
       43.20027462493129,
       -86.26270034912523,
@@ -519,15 +528,6 @@
       1.0,
       "Taco Bell",
       "Battle Creek",
-      "MI"
-    ],
-    [
-      "033075",
-      42.91239617566594,
-      -85.51890074553435,
-      1.0,
-      "Taco Bell",
-      "Grand Rapids",
       "MI"
     ],
     [

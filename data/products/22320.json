@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 93.5,
+  "availability_pct": 93.4,
   "price_stats": {
     "avg": 5.77,
     "min": 3.69,
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7202
+    "store_count": 7200
   },
   "histogram": [
     {
@@ -95,7 +95,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 357
+      "count": 356
     },
     {
       "bucket": "$5.49",
@@ -139,7 +139,7 @@
     },
     {
       "bucket": "$5.89",
-      "count": 310
+      "count": 311
     },
     {
       "bucket": "$5.99",
@@ -163,7 +163,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 578
+      "count": 576
     },
     {
       "bucket": "$6.20",
@@ -301,7 +301,7 @@
     {
       "state": "OK",
       "avg_price": 6.03,
-      "store_count": 127
+      "store_count": 126
     },
     {
       "state": "RI",
@@ -326,7 +326,7 @@
     {
       "state": "WI",
       "avg_price": 5.92,
-      "store_count": 144
+      "store_count": 143
     },
     {
       "state": "HI",
@@ -643,6 +643,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 5.39,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:43.369027+00:00"
+    },
+    {
+      "store_number": "031572",
+      "store_name": "Taco Bell",
+      "city": "Danville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.89,
+      "observed_at": "2026-04-12T22:16:06.807086+00:00"
+    },
+    {
+      "store_number": "030386",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:15:57.801553+00:00"
+    },
+    {
+      "store_number": "035130",
+      "store_name": "Taco Bell",
+      "city": "Versailles",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:48:05.406239+00:00"
+    },
     {
       "store_number": "002616",
       "store_name": "Taco Bell",
@@ -6565,8 +6605,8 @@
     }
   ],
   "activity_summary": {
-    "added": 31,
-    "removed": 518,
+    "added": 32,
+    "removed": 521,
     "price_changed": 43,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21442,15 +21482,6 @@
       "Taco Bell / KFC",
       "West Branch",
       "MI"
-    ],
-    [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      5.39,
-      "Taco Bell",
-      "Portage",
-      "WI"
     ],
     [
       "030555",
@@ -39685,6 +39716,15 @@
       "Taco Bell",
       "Peoria",
       "AZ"
+    ],
+    [
+      "031572",
+      39.758433007089415,
+      -86.50967279079856,
+      5.89,
+      "Taco Bell",
+      "Danville",
+      "IN"
     ],
     [
       "001281",
@@ -58893,15 +58933,6 @@
       "AR"
     ],
     [
-      "035130",
-      39.067002300720674,
-      -85.25389111868418,
-      6.19,
-      "Taco Bell",
-      "Versailles",
-      "IN"
-    ],
-    [
       "035417",
       40.96521165981996,
       -76.61870221520432,
@@ -59728,15 +59759,6 @@
       "Taco Bell",
       "Cincinnati",
       "OH"
-    ],
-    [
-      "030386",
-      35.46621998183862,
-      -97.52875283360481,
-      6.19,
-      "Taco Bell",
-      "Oklahoma City",
-      "OK"
     ],
     [
       "038939",

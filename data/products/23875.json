@@ -18,24 +18,24 @@
     "max": 4.49,
     "median": 4.49,
     "std_dev": 0.0,
-    "store_count": 118
+    "store_count": 112
   },
   "histogram": [
     {
       "bucket": "$4.49",
-      "count": 118
+      "count": 112
     }
   ],
   "state_prices": [
     {
       "state": "IN",
       "avg_price": 4.49,
-      "store_count": 20
+      "store_count": 19
     },
     {
       "state": "IL",
       "avg_price": 4.49,
-      "store_count": 98
+      "store_count": 93
     }
   ],
   "nutrition": {
@@ -53,13 +53,6 @@
     "serving_size_g": 178.6018
   },
   "cheapest_stores": [
-    {
-      "store_number": "040019",
-      "name": "Taco Bell",
-      "city": "Cedar Lake",
-      "state": "IN",
-      "price": 4.49
-    },
     {
       "store_number": "040018",
       "name": "Taco Bell",
@@ -122,10 +115,16 @@
       "city": "Plainfield",
       "state": "IL",
       "price": 4.49
+    },
+    {
+      "store_number": "042001",
+      "name": "Taco Bell",
+      "city": "Westville",
+      "state": "IN",
+      "price": 4.49
     }
   ],
   "min_price_store_numbers": [
-    "040019",
     "040018",
     "041115",
     "041205",
@@ -169,7 +168,6 @@
     "030402",
     "015757",
     "016508",
-    "002156",
     "032086",
     "027898",
     "016605",
@@ -194,8 +192,6 @@
     "032108",
     "002360",
     "030409",
-    "001423",
-    "032100",
     "042745",
     "019629",
     "032491",
@@ -205,7 +201,6 @@
     "032168",
     "030539",
     "026738",
-    "027897",
     "032111",
     "005514",
     "027890",
@@ -240,7 +235,6 @@
     "033484",
     "032134",
     "026743",
-    "026755",
     "027900",
     "030407"
   ],
@@ -256,13 +250,6 @@
       "store_number": "027900",
       "name": "Taco Bell",
       "city": "Chicago",
-      "state": "IL",
-      "price": 4.49
-    },
-    {
-      "store_number": "026755",
-      "name": "Taco Bell",
-      "city": "Frankfort",
       "state": "IL",
       "price": 4.49
     },
@@ -314,9 +301,76 @@
       "city": "Villa Park",
       "state": "IL",
       "price": 4.49
+    },
+    {
+      "store_number": "040351",
+      "name": "Taco Bell",
+      "city": "Oak Lawn",
+      "state": "IL",
+      "price": 4.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027897",
+      "store_name": "Taco Bell",
+      "city": "Manteno",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:01.156508+00:00"
+    },
+    {
+      "store_number": "026755",
+      "store_name": "Taco Bell",
+      "city": "Frankfort",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:58.176574+00:00"
+    },
+    {
+      "store_number": "032100",
+      "store_name": "Taco Bell",
+      "city": "Lake In The Hills",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:52.336988+00:00"
+    },
+    {
+      "store_number": "001423",
+      "store_name": "Taco Bell",
+      "city": "Arlington Heights",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:50.619573+00:00"
+    },
+    {
+      "store_number": "002156",
+      "store_name": "Taco Bell",
+      "city": "Countryside",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:17.538174+00:00"
+    },
+    {
+      "store_number": "040019",
+      "store_name": "Taco Bell",
+      "city": "Cedar Lake",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:30.098620+00:00"
+    },
     {
       "store_number": "031070",
       "store_name": "Taco Bell",
@@ -860,7 +914,7 @@
   ],
   "activity_summary": {
     "added": 18,
-    "removed": 36,
+    "removed": 42,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -869,15 +923,6 @@
   "calories_max": 370,
   "combo_groups": [],
   "map_data": [
-    [
-      "040019",
-      41.37634875376213,
-      -87.46939630871344,
-      4.49,
-      "Taco Bell",
-      "Cedar Lake",
-      "IN"
-    ],
     [
       "040018",
       41.568922522295324,
@@ -1266,15 +1311,6 @@
       "IL"
     ],
     [
-      "002156",
-      41.78832825319039,
-      -87.86825188656755,
-      4.49,
-      "Taco Bell",
-      "Countryside",
-      "IL"
-    ],
-    [
       "032086",
       42.39295289953766,
       -88.18411019135986,
@@ -1491,24 +1527,6 @@
       "IL"
     ],
     [
-      "001423",
-      42.094717788641915,
-      -87.95317505301682,
-      4.49,
-      "Taco Bell",
-      "Arlington Heights",
-      "IL"
-    ],
-    [
-      "032100",
-      42.1776572023178,
-      -88.33470949533876,
-      4.49,
-      "Taco Bell",
-      "Lake In The Hills",
-      "IL"
-    ],
-    [
       "042745",
       41.65863050332449,
       -88.44791346413919,
@@ -1587,15 +1605,6 @@
       4.49,
       "Taco Bell",
       "Montgomery",
-      "IL"
-    ],
-    [
-      "027897",
-      41.24933685049473,
-      -87.84809210796925,
-      4.49,
-      "Taco Bell",
-      "Manteno",
       "IL"
     ],
     [
@@ -1902,15 +1911,6 @@
       4.49,
       "Taco Bell",
       "Orland Hills",
-      "IL"
-    ],
-    [
-      "026755",
-      41.523575707571084,
-      -87.85058346390997,
-      4.49,
-      "Taco Bell",
-      "Frankfort",
       "IL"
     ],
     [

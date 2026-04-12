@@ -17,7 +17,7 @@
     "max": 6.69,
     "median": 4.59,
     "std_dev": 0.59,
-    "store_count": 3405
+    "store_count": 3408
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 281
+      "count": 284
     },
     {
       "bucket": "$4.20",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$4.49",
-      "count": 309
+      "count": 310
     },
     {
       "bucket": "$4.59",
@@ -110,7 +110,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 256
+      "count": 255
     },
     {
       "bucket": "$4.89",
@@ -122,7 +122,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 402
+      "count": 401
     },
     {
       "bucket": "$5.06",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$5.50",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$5.59",
@@ -201,8 +201,8 @@
     },
     {
       "state": "MT",
-      "avg_price": 5.44,
-      "store_count": 26
+      "avg_price": 5.45,
+      "store_count": 27
     },
     {
       "state": "HI",
@@ -231,8 +231,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 4.7,
-      "store_count": 188
+      "avg_price": 4.69,
+      "store_count": 187
     },
     {
       "state": "IL",
@@ -297,7 +297,7 @@
     {
       "state": "IN",
       "avg_price": 4.37,
-      "store_count": 126
+      "store_count": 127
     },
     {
       "state": "NV",
@@ -337,7 +337,7 @@
     {
       "state": "SD",
       "avg_price": 4.16,
-      "store_count": 13
+      "store_count": 14
     },
     {
       "state": "PA",
@@ -360,14 +360,14 @@
       "store_count": 60
     },
     {
+      "state": "WY",
+      "avg_price": 4.05,
+      "store_count": 10
+    },
+    {
       "state": "KS",
       "avg_price": 4.04,
       "store_count": 74
-    },
-    {
-      "state": "WY",
-      "avg_price": 4.03,
-      "store_count": 9
     },
     {
       "state": "ND",
@@ -562,6 +562,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023080",
+      "store_name": "Taco Bell",
+      "city": "Riverton",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-12T22:17:03.544925+00:00"
+    },
+    {
+      "store_number": "031425",
+      "store_name": "Taco Bell",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-12T22:16:37.385956+00:00"
+    },
+    {
+      "store_number": "009552",
+      "store_name": "Taco Bell",
+      "city": "Kalispell",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.5,
+      "observed_at": "2026-04-12T22:16:19.329158+00:00"
+    },
+    {
+      "store_number": "002124",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-12T22:16:07.969642+00:00"
+    },
+    {
+      "store_number": "001896",
+      "store_name": "Taco Bell",
+      "city": "Farmington Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:12:51.012494+00:00"
+    },
+    {
+      "store_number": "040534",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-12T22:12:47.706422+00:00"
+    },
+    {
+      "store_number": "036793",
+      "store_name": "Taco Bell",
+      "city": "Medina",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:08:49.322978+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -1804,8 +1874,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 59,
+    "added": 69,
+    "removed": 61,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8943,6 +9013,15 @@
       "TN"
     ],
     [
+      "040534",
+      41.479977027095835,
+      -81.76837467484042,
+      4.19,
+      "Taco Bell",
+      "Cleveland",
+      "OH"
+    ],
+    [
       "002086",
       41.48532906027964,
       -81.80523935465062,
@@ -10149,6 +10228,15 @@
       "WY"
     ],
     [
+      "031425",
+      43.54633419686592,
+      -96.68431082371171,
+      4.19,
+      "Taco Bell",
+      "Sioux Falls",
+      "SD"
+    ],
+    [
       "031908",
       36.13050642100059,
       -115.06476138533799,
@@ -10543,6 +10631,15 @@
       "Taco Bell",
       "Hendersonville",
       "NC"
+    ],
+    [
+      "023080",
+      43.04257207089084,
+      -108.38114451533724,
+      4.19,
+      "Taco Bell",
+      "Riverton",
+      "WY"
     ],
     [
       "031895",
@@ -15025,6 +15122,15 @@
       "Taco Bell",
       "Grand Junction",
       "CO"
+    ],
+    [
+      "002124",
+      39.7788468180602,
+      -86.28846361303658,
+      4.49,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "030799",
@@ -21327,15 +21433,6 @@
       "MN"
     ],
     [
-      "036793",
-      41.15633214157802,
-      -81.86314942119543,
-      4.79,
-      "Taco Bell",
-      "Medina",
-      "OH"
-    ],
-    [
       "039032",
       44.847287123734134,
       -93.12290654346803,
@@ -25689,15 +25786,6 @@
       4.99,
       "Taco Bell",
       "Roseville",
-      "MI"
-    ],
-    [
-      "001896",
-      42.51641840702473,
-      -83.36022384000444,
-      4.99,
-      "Taco Bell",
-      "Farmington Hills",
       "MI"
     ],
     [
@@ -31365,6 +31453,15 @@
       "038742",
       48.2329,
       -114.334,
+      5.5,
+      "Taco Bell",
+      "Kalispell",
+      "MT"
+    ],
+    [
+      "009552",
+      48.203751946103424,
+      -114.30690340575218,
       5.5,
       "Taco Bell",
       "Kalispell",

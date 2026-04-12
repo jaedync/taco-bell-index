@@ -17,17 +17,13 @@
     "min": 2.0,
     "max": 4.49,
     "median": 3.99,
-    "std_dev": 0.76,
-    "store_count": 30
+    "std_dev": 0.77,
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$2.00",
       "count": 4
-    },
-    {
-      "bucket": "$3.79",
-      "count": 1
     },
     {
       "bucket": "$3.99",
@@ -45,8 +41,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.25,
-      "store_count": 11
+      "avg_price": 4.3,
+      "store_count": 10
     },
     {
       "state": "TX",
@@ -98,13 +94,6 @@
       "price": 2.0
     },
     {
-      "store_number": "016276",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Brea",
-      "state": "CA",
-      "price": 3.79
-    },
-    {
       "store_number": "036171",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Henderson",
@@ -136,6 +125,13 @@
       "store_number": "002981",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Watauga",
+      "state": "TX",
+      "price": 3.99
+    },
+    {
+      "store_number": "001089",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Dallas",
       "state": "TX",
       "price": 3.99
     }
@@ -220,6 +216,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "016276",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Brea",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:41.813433+00:00"
+    },
+    {
       "store_number": "041613",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Chula Vista",
@@ -252,7 +258,7 @@
   ],
   "activity_summary": {
     "added": 1,
-    "removed": 2,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -296,15 +302,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "La Porte",
       "TX"
-    ],
-    [
-      "016276",
-      33.917687157419614,
-      -117.90252108873574,
-      3.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Brea",
-      "CA"
     ],
     [
       "036171",

@@ -17,7 +17,7 @@
     "max": 10.1,
     "median": 7.59,
     "std_dev": 0.91,
-    "store_count": 648
+    "store_count": 651
   },
   "histogram": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$6.39",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$6.49",
@@ -110,11 +110,11 @@
     },
     {
       "bucket": "$7.49",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$7.59",
-      "count": 24
+      "count": 25
     },
     {
       "bucket": "$7.69",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$7.79",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$7.89",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$8.39",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$8.49",
@@ -199,8 +199,8 @@
     },
     {
       "state": "MT",
-      "avg_price": 8.23,
-      "store_count": 13
+      "avg_price": 8.19,
+      "store_count": 14
     },
     {
       "state": "CT",
@@ -210,12 +210,12 @@
     {
       "state": "NV",
       "avg_price": 7.85,
-      "store_count": 16
+      "store_count": 17
     },
     {
       "state": "CA",
-      "avg_price": 7.84,
-      "store_count": 53
+      "avg_price": 7.85,
+      "store_count": 54
     },
     {
       "state": "NC",
@@ -244,8 +244,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 7.05,
-      "store_count": 40
+      "avg_price": 7.04,
+      "store_count": 39
     },
     {
       "state": "FL",
@@ -455,6 +455,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023080",
+      "store_name": "Taco Bell",
+      "city": "Riverton",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.39,
+      "observed_at": "2026-04-12T22:17:03.544925+00:00"
+    },
+    {
+      "store_number": "031882",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-04-12T22:16:15.659422+00:00"
+    },
+    {
+      "store_number": "038932",
+      "store_name": "Taco Bell",
+      "city": "Billings",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-04-12T22:16:13.083510+00:00"
+    },
+    {
+      "store_number": "002529",
+      "store_name": "Taco Bell",
+      "city": "Huntington Beach",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-04-12T22:16:07.007407+00:00"
+    },
+    {
+      "store_number": "036793",
+      "store_name": "Taco Bell",
+      "city": "Medina",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:08:49.322978+00:00"
+    },
     {
       "store_number": "033619",
       "store_name": "Taco Bell",
@@ -3687,8 +3737,8 @@
     }
   ],
   "activity_summary": {
-    "added": 206,
-    "removed": 117,
+    "added": 210,
+    "removed": 118,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4407,6 +4457,15 @@
       6.39,
       "Taco Bell",
       "Cheyenne",
+      "WY"
+    ],
+    [
+      "023080",
+      43.04257207089084,
+      -108.38114451533724,
+      6.39,
+      "Taco Bell",
+      "Riverton",
       "WY"
     ],
     [
@@ -6462,15 +6521,6 @@
       "CA"
     ],
     [
-      "036793",
-      41.15633214157802,
-      -81.86314942119543,
-      7.49,
-      "Taco Bell",
-      "Medina",
-      "OH"
-    ],
-    [
       "028249",
       35.27886724844098,
       -81.54090267694477,
@@ -6712,6 +6762,15 @@
       "Taco Bell",
       "Toledo",
       "OH"
+    ],
+    [
+      "038932",
+      45.81057674678202,
+      -108.47146515549866,
+      7.59,
+      "Taco Bell",
+      "Billings",
+      "MT"
     ],
     [
       "022607",
@@ -7437,6 +7496,15 @@
       "031902",
       36.08597864914851,
       -115.10063150528367,
+      7.79,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
+    ],
+    [
+      "031882",
+      36.100445510217455,
+      -115.22302687168121,
       7.79,
       "Taco Bell",
       "Las Vegas",
@@ -8350,6 +8418,15 @@
       "Taco Bell",
       "Kaysville",
       "UT"
+    ],
+    [
+      "002529",
+      33.729731884736445,
+      -117.99834796789582,
+      8.39,
+      "Taco Bell",
+      "Huntington Beach",
+      "CA"
     ],
     [
       "038732",

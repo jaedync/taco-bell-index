@@ -20,7 +20,7 @@
     "max": 5.49,
     "median": 1.39,
     "std_dev": 0.24,
-    "store_count": 7677
+    "store_count": 7674
   },
   "histogram": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$1.39",
-      "count": 869
+      "count": 870
     },
     {
       "bucket": "$1.43",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 1374
+      "count": 1373
     },
     {
       "bucket": "$1.50",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 731
+      "count": 729
     },
     {
       "bucket": "$1.60",
@@ -81,7 +81,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 477
+      "count": 476
     },
     {
       "bucket": "$1.80",
@@ -213,7 +213,7 @@
     {
       "state": "IA",
       "avg_price": 1.67,
-      "store_count": 48
+      "store_count": 47
     },
     {
       "state": "NE",
@@ -298,7 +298,7 @@
     {
       "state": "OH",
       "avg_price": 1.43,
-      "store_count": 409
+      "store_count": 407
     },
     {
       "state": "FL",
@@ -638,6 +638,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033771",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:47.965455+00:00"
+    },
+    {
+      "store_number": "033768",
+      "store_name": "Taco Bell",
+      "city": "Beavercreek",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:38.526138+00:00"
+    },
+    {
+      "store_number": "031572",
+      "store_name": "Taco Bell",
+      "city": "Danville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.39,
+      "observed_at": "2026-04-12T22:16:06.807086+00:00"
+    },
+    {
+      "store_number": "035130",
+      "store_name": "Taco Bell",
+      "city": "Versailles",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:48:05.406239+00:00"
+    },
+    {
+      "store_number": "041386",
+      "store_name": "Taco Bell",
+      "city": "Marshalltown",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:31.154303+00:00"
+    },
     {
       "store_number": "030927",
       "store_name": "Taco Bell",
@@ -1370,8 +1420,8 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 25,
+    "added": 34,
+    "removed": 29,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -38317,6 +38367,15 @@
       "OK"
     ],
     [
+      "031572",
+      39.758433007089415,
+      -86.50967279079856,
+      1.39,
+      "Taco Bell",
+      "Danville",
+      "IN"
+    ],
+    [
       "041762",
       34.75376536183945,
       -89.45325036627486,
@@ -39179,15 +39238,6 @@
       "Taco Bell",
       "Richmond",
       "VA"
-    ],
-    [
-      "035130",
-      39.067002300720674,
-      -85.25389111868418,
-      1.49,
-      "Taco Bell",
-      "Versailles",
-      "IN"
     ],
     [
       "035417",
@@ -54607,15 +54657,6 @@
       "IL"
     ],
     [
-      "033768",
-      39.72759471186664,
-      -84.05459497870652,
-      1.59,
-      "Taco Bell",
-      "Beavercreek",
-      "OH"
-    ],
-    [
       "031500",
       44.258858016080104,
       -88.35945729912964,
@@ -55046,15 +55087,6 @@
       "Taco Bell",
       "Long Beach",
       "CA"
-    ],
-    [
-      "033771",
-      40.01414218119531,
-      -83.01147915425645,
-      1.59,
-      "Taco Bell",
-      "Columbus",
-      "OH"
     ],
     [
       "031495",
@@ -61346,15 +61378,6 @@
       "Taco Bell",
       "Paulding",
       "OH"
-    ],
-    [
-      "041386",
-      42.00619214427507,
-      -92.91660743155012,
-      1.79,
-      "Taco Bell",
-      "Marshalltown",
-      "IA"
     ],
     [
       "040902",

@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 204
+      "count": 203
     },
     {
       "bucket": "$3.09",
@@ -63,15 +63,15 @@
     },
     {
       "bucket": "$3.29",
-      "count": 218
+      "count": 219
     },
     {
       "bucket": "$3.39",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$3.49",
-      "count": 3
+      "count": 2
     }
   ],
   "state_prices": [
@@ -211,18 +211,18 @@
       "price": 3.49
     },
     {
-      "store_number": "023270",
-      "name": "Taco Bell",
-      "city": "Sheboygan",
-      "state": "WI",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
+    },
+    {
+      "store_number": "026049",
+      "name": "Taco Bell",
+      "city": "Salisbury",
+      "state": "NC",
+      "price": 3.39
     },
     {
       "store_number": "033932",
@@ -275,6 +275,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005704",
+      "store_name": "Taco Bell",
+      "city": "Reidsville",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:08.591405+00:00"
+    },
+    {
+      "store_number": "023270",
+      "store_name": "Taco Bell",
+      "city": "Sheboygan",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:38.865216+00:00"
+    },
+    {
+      "store_number": "026049",
+      "store_name": "Taco Bell",
+      "city": "Salisbury",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-12T22:15:53.274214+00:00"
+    },
+    {
+      "store_number": "037462",
+      "store_name": "Taco Bell",
+      "city": "Mission",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-12T22:07:16.532540+00:00"
+    },
     {
       "store_number": "039117",
       "store_name": "Taco Bell",
@@ -1027,8 +1067,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 39,
+    "added": 38,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4440,15 +4480,6 @@
       "TX"
     ],
     [
-      "005704",
-      36.35063493013583,
-      -79.69232626459777,
-      2.99,
-      "Taco Bell",
-      "Reidsville",
-      "NC"
-    ],
-    [
       "032054",
       36.24874495645076,
       -90.95937197575904,
@@ -5797,6 +5828,15 @@
       "Taco Bell",
       "Sulphur",
       "OK"
+    ],
+    [
+      "037462",
+      39.02263611116933,
+      -94.65944396415333,
+      3.29,
+      "Taco Bell",
+      "Mission",
+      "KS"
     ],
     [
       "037680",
@@ -7608,6 +7648,15 @@
       "NM"
     ],
     [
+      "026049",
+      35.660837550134715,
+      -80.49988649320767,
+      3.39,
+      "Taco Bell",
+      "Salisbury",
+      "NC"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -7615,15 +7664,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "023270",
-      43.75189095396374,
-      -87.75026996435372,
-      3.49,
-      "Taco Bell",
-      "Sheboygan",
-      "WI"
     ],
     [
       "032052",

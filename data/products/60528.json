@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.2,
+  "availability_pct": 98.1,
   "price_stats": {
     "avg": 21.92,
     "min": 12.95,
     "max": 36.99,
     "median": 21.99,
     "std_dev": 2.85,
-    "store_count": 7564
+    "store_count": 7559
   },
   "histogram": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$15.19",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$15.29",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$15.49",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$15.59",
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 285
+      "count": 284
     },
     {
       "bucket": "$20.09",
@@ -298,7 +298,7 @@
     },
     {
       "bucket": "$24.49",
-      "count": 87
+      "count": 86
     },
     {
       "bucket": "$24.69",
@@ -310,7 +310,7 @@
     },
     {
       "bucket": "$24.99",
-      "count": 539
+      "count": 538
     },
     {
       "bucket": "$25.00",
@@ -445,14 +445,14 @@
       "store_count": 157
     },
     {
-      "state": "MD",
-      "avg_price": 23.06,
-      "store_count": 83
-    },
-    {
       "state": "DE",
       "avg_price": 23.06,
       "store_count": 15
+    },
+    {
+      "state": "MD",
+      "avg_price": 23.03,
+      "store_count": 82
     },
     {
       "state": "IL",
@@ -460,14 +460,14 @@
       "store_count": 283
     },
     {
-      "state": "PA",
-      "avg_price": 22.7,
-      "store_count": 195
-    },
-    {
       "state": "MA",
       "avg_price": 22.69,
       "store_count": 64
+    },
+    {
+      "state": "PA",
+      "avg_price": 22.69,
+      "store_count": 194
     },
     {
       "state": "OK",
@@ -582,7 +582,7 @@
     {
       "state": "GA",
       "avg_price": 20.36,
-      "store_count": 255
+      "store_count": 254
     },
     {
       "state": "NC",
@@ -596,8 +596,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 19.12,
-      "store_count": 112
+      "avg_price": 19.15,
+      "store_count": 111
     },
     {
       "state": "NJ",
@@ -616,8 +616,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 18.95,
-      "store_count": 255
+      "avg_price": 18.97,
+      "store_count": 254
     },
     {
       "state": "NE",
@@ -774,6 +774,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032215",
+      "store_name": "Taco Bell",
+      "city": "State College",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 24.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:38.554656+00:00"
+    },
+    {
+      "store_number": "028875",
+      "store_name": "Taco Bell",
+      "city": "Connersville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 15.19,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:55.627246+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 24.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:06.151398+00:00"
+    },
+    {
+      "store_number": "041881",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:32.217308+00:00"
+    },
+    {
+      "store_number": "040386",
+      "store_name": "Taco Bell",
+      "city": "Sumter",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 15.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:30.039339+00:00"
+    },
     {
       "store_number": "033793",
       "store_name": "Taco Bell",
@@ -1917,7 +1967,7 @@
   ],
   "activity_summary": {
     "added": 54,
-    "removed": 36,
+    "removed": 41,
     "price_changed": 24,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3299,15 +3349,6 @@
       "IN"
     ],
     [
-      "028875",
-      39.66025910793475,
-      -85.12884885819403,
-      15.19,
-      "Taco Bell",
-      "Connersville",
-      "IN"
-    ],
-    [
       "028872",
       39.35526666744655,
       -85.48028120401796,
@@ -3819,15 +3860,6 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
-    ],
-    [
-      "040386",
-      33.903346780895966,
-      -80.38208389477462,
-      15.49,
-      "Taco Bell",
-      "Sumter",
-      "SC"
     ],
     [
       "034619",
@@ -16275,15 +16307,6 @@
       "Taco Bell",
       "Cheektowaga",
       "NY"
-    ],
-    [
-      "041881",
-      32.566557,
-      -84.933376,
-      19.99,
-      "Taco Bell",
-      "Columbus",
-      "GA"
     ],
     [
       "034859",
@@ -58838,15 +58861,6 @@
       "PA"
     ],
     [
-      "032215",
-      40.78493863484153,
-      -77.82897730173318,
-      24.49,
-      "Taco Bell",
-      "State College",
-      "PA"
-    ],
-    [
       "031615",
       40.63740619048412,
       -79.93957578088157,
@@ -60528,15 +60542,6 @@
       "Taco Bell",
       "Marlborough",
       "MA"
-    ],
-    [
-      "039988",
-      38.784601877897316,
-      -76.79534420371056,
-      24.99,
-      "Taco Bell",
-      "Upper Marlboro",
-      "MD"
     ],
     [
       "002529",

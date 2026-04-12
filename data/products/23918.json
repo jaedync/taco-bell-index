@@ -15,28 +15,28 @@
   "first_seen_at": "2026-03-30T00:40:16.540343+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 6.74,
+    "avg": 6.73,
     "min": 6.49,
     "max": 6.99,
-    "median": 6.74,
+    "median": 6.49,
     "std_dev": 0.25,
-    "store_count": 88
+    "store_count": 84
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 44
+      "count": 43
     },
     {
       "bucket": "$6.99",
-      "count": 44
+      "count": 41
     }
   ],
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 6.74,
-      "store_count": 88
+      "avg_price": 6.73,
+      "store_count": 84
     }
   ],
   "nutrition": {
@@ -58,13 +58,6 @@
       "store_number": "037167",
       "name": "Taco Bell",
       "city": "Lewisville",
-      "state": "TX",
-      "price": 6.49
-    },
-    {
-      "store_number": "040917",
-      "name": "Taco Bell",
-      "city": "Grand Prairie",
       "state": "TX",
       "price": 6.49
     },
@@ -123,11 +116,17 @@
       "city": "Garland",
       "state": "TX",
       "price": 6.49
+    },
+    {
+      "store_number": "031735",
+      "name": "Taco Bell",
+      "city": "Frisco",
+      "state": "TX",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
     "037167",
-    "040917",
     "037721",
     "027875",
     "027872",
@@ -143,7 +142,6 @@
     "027826",
     "029521",
     "035443",
-    "035434",
     "030590",
     "016830",
     "035433",
@@ -169,7 +167,8 @@
     "034599",
     "027869",
     "029972",
-    "040025"
+    "040025",
+    "041736"
   ],
   "priciest_stores": [
     {
@@ -183,13 +182,6 @@
       "store_number": "033463",
       "name": "Taco Bell",
       "city": "Irving",
-      "state": "TX",
-      "price": 6.99
-    },
-    {
-      "store_number": "019792",
-      "name": "Taco Bell",
-      "city": "Seagoville",
       "state": "TX",
       "price": 6.99
     },
@@ -241,9 +233,76 @@
       "city": "Arlington",
       "state": "TX",
       "price": 6.99
+    },
+    {
+      "store_number": "029487",
+      "name": "Taco Bell",
+      "city": "Cross Roads",
+      "state": "TX",
+      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019792",
+      "store_name": "Taco Bell",
+      "city": "Seagoville",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:41.660241+00:00"
+    },
+    {
+      "store_number": "029189",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:01.735618+00:00"
+    },
+    {
+      "store_number": "035440",
+      "store_name": "Taco Bell",
+      "city": "Denton",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:55.835733+00:00"
+    },
+    {
+      "store_number": "035434",
+      "store_name": "Taco Bell",
+      "city": "The Colony",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:21.669128+00:00"
+    },
+    {
+      "store_number": "040917",
+      "store_name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:58:42.509617+00:00"
+    },
+    {
+      "store_number": "041736",
+      "store_name": "Taco Bell",
+      "city": "Springtown",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-12T21:37:31.026878+00:00"
+    },
     {
       "store_number": "029189",
       "store_name": "Taco Bell",
@@ -286,8 +345,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2,
-    "removed": 2,
+    "added": 3,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -303,15 +362,6 @@
       6.49,
       "Taco Bell",
       "Lewisville",
-      "TX"
-    ],
-    [
-      "040917",
-      32.6411,
-      -97.0622,
-      6.49,
-      "Taco Bell",
-      "Grand Prairie",
       "TX"
     ],
     [
@@ -447,15 +497,6 @@
       6.49,
       "Taco Bell",
       "Allen",
-      "TX"
-    ],
-    [
-      "035434",
-      33.08136135669996,
-      -96.89331471920013,
-      6.49,
-      "Taco Bell",
-      "The Colony",
       "TX"
     ],
     [
@@ -693,6 +734,15 @@
       "TX"
     ],
     [
+      "041736",
+      32.9638,
+      -97.68736,
+      6.49,
+      "Taco Bell",
+      "Springtown",
+      "TX"
+    ],
+    [
       "041081",
       33.1000287,
       -97.21650740000001,
@@ -927,15 +977,6 @@
       "TX"
     ],
     [
-      "035440",
-      33.18878042176481,
-      -97.10353016853333,
-      6.99,
-      "Taco Bell",
-      "Denton",
-      "TX"
-    ],
-    [
       "019330",
       33.57681902766993,
       -96.18031011042565,
@@ -951,15 +992,6 @@
       6.99,
       "Taco Bell",
       "Cleburne",
-      "TX"
-    ],
-    [
-      "029189",
-      32.705642508363496,
-      -97.34790086746222,
-      6.99,
-      "Taco Bell",
-      "Fort Worth",
       "TX"
     ],
     [
@@ -1059,15 +1091,6 @@
       6.99,
       "Taco Bell",
       "Crowley",
-      "TX"
-    ],
-    [
-      "019792",
-      32.646424855273864,
-      -96.5341470489935,
-      6.99,
-      "Taco Bell",
-      "Seagoville",
       "TX"
     ],
     [

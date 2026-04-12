@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.37,
     "min": 1.59,
     "max": 5.79,
     "median": 2.29,
     "std_dev": 0.39,
-    "store_count": 7703
+    "store_count": 7700
   },
   "histogram": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 2087
+      "count": 2085
     },
     {
       "bucket": "$2.09",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 590
+      "count": 589
     },
     {
       "bucket": "$2.29",
@@ -272,7 +272,7 @@
     {
       "state": "NY",
       "avg_price": 2.58,
-      "store_count": 251
+      "store_count": 250
     },
     {
       "state": "MI",
@@ -307,7 +307,7 @@
     {
       "state": "WI",
       "avg_price": 2.39,
-      "store_count": 144
+      "store_count": 143
     },
     {
       "state": "MO",
@@ -337,7 +337,7 @@
     {
       "state": "GA",
       "avg_price": 2.27,
-      "store_count": 257
+      "store_count": 256
     },
     {
       "state": "OK",
@@ -612,6 +612,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:43.369027+00:00"
+    },
+    {
+      "store_number": "039995",
+      "store_name": "Taco Bell",
+      "city": "Amherst",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:28.038710+00:00"
+    },
+    {
+      "store_number": "041881",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:32.217308+00:00"
+    },
     {
       "store_number": "030831",
       "store_name": "Taco Bell",
@@ -1175,7 +1205,7 @@
   ],
   "activity_summary": {
     "added": 21,
-    "removed": 16,
+    "removed": 19,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6376,15 +6406,6 @@
       "Taco Bell",
       "Fayetteville",
       "TN"
-    ],
-    [
-      "041881",
-      32.566557,
-      -84.933376,
-      1.99,
-      "Taco Bell",
-      "Columbus",
-      "GA"
     ],
     [
       "041048",
@@ -16402,15 +16423,6 @@
       "Taco Bell",
       "Fond Du Lac",
       "WI"
-    ],
-    [
-      "039995",
-      42.99138789041456,
-      -78.80494771292433,
-      1.99,
-      "Taco Bell",
-      "Amherst",
-      "NY"
     ],
     [
       "027976",
@@ -29011,15 +29023,6 @@
       "Taco Bell / Pizza Hut",
       "West Springfield",
       "MA"
-    ],
-    [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      2.19,
-      "Taco Bell",
-      "Portage",
-      "WI"
     ],
     [
       "034589",

@@ -17,7 +17,7 @@
     "max": 1.99,
     "median": 1.99,
     "std_dev": 0.08,
-    "store_count": 83
+    "store_count": 82
   },
   "histogram": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 82
+      "count": 81
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "VA",
       "avg_price": 1.98,
-      "store_count": 73
+      "store_count": 72
     }
   ],
   "nutrition": null,
@@ -147,13 +147,6 @@
       "price": 1.99
     },
     {
-      "store_number": "004841",
-      "name": "Taco Bell",
-      "city": "Midlothian",
-      "state": "VA",
-      "price": 1.99
-    },
-    {
       "store_number": "003720",
       "name": "Taco Bell",
       "city": "Richmond",
@@ -187,9 +180,26 @@
       "city": "Greencastle",
       "state": "PA",
       "price": 1.99
+    },
+    {
+      "store_number": "030903",
+      "name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "price": 1.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004841",
+      "store_name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:36.799829+00:00"
+    },
     {
       "store_number": "029942",
       "store_name": "Taco Bell",
@@ -253,7 +263,7 @@
   ],
   "activity_summary": {
     "added": 3,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -962,15 +972,6 @@
       1.99,
       "Taco Bell",
       "Richmond",
-      "VA"
-    ],
-    [
-      "004841",
-      37.44167349282958,
-      -77.58543848991394,
-      1.99,
-      "Taco Bell",
-      "Midlothian",
       "VA"
     ],
     [

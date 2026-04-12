@@ -17,7 +17,7 @@
     "max": 2.29,
     "median": 1.05,
     "std_dev": 0.37,
-    "store_count": 619
+    "store_count": 620
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 54
+      "count": 55
     },
     {
       "bucket": "$1.20",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 67
+      "count": 66
     },
     {
       "bucket": "$1.39",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 58
+      "count": 59
     },
     {
       "bucket": "$1.59",
@@ -183,8 +183,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 0.94,
-      "store_count": 37
+      "avg_price": 0.95,
+      "store_count": 38
     },
     {
       "state": "MO",
@@ -375,6 +375,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030758",
+      "store_name": "Taco Bell",
+      "city": "San Mateo",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-12T22:17:01.074683+00:00"
+    },
+    {
+      "store_number": "036122",
+      "store_name": "Taco Bell",
+      "city": "Colfax",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:18.160995+00:00"
+    },
+    {
+      "store_number": "040334",
+      "store_name": "Taco Bell",
+      "city": "Eagle River",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-04-12T22:15:56.300752+00:00"
+    },
     {
       "store_number": "037581",
       "store_name": "Taco Bell",
@@ -807,8 +837,8 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
-    "removed": 29,
+    "added": 16,
+    "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4220,6 +4250,15 @@
       "MD"
     ],
     [
+      "040334",
+      45.914309823967585,
+      -89.2542557386751,
+      1.19,
+      "Taco Bell",
+      "Eagle River",
+      "WI"
+    ],
+    [
       "034924",
       42.19827424653977,
       -121.75775284203476,
@@ -4442,15 +4481,6 @@
       1.29,
       "Taco Bell",
       "Agoura Hills",
-      "CA"
-    ],
-    [
-      "036122",
-      39.093451326134144,
-      -120.95140309635099,
-      1.29,
-      "Taco Bell",
-      "Colfax",
       "CA"
     ],
     [
@@ -5216,6 +5246,15 @@
       1.49,
       "Taco Bell",
       "Pittsburg",
+      "CA"
+    ],
+    [
+      "030758",
+      37.548595757616624,
+      -122.30976422342981,
+      1.49,
+      "Taco Bell",
+      "San Mateo",
       "CA"
     ],
     [

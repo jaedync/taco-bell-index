@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 3.01,
     "min": 2.29,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.2,
-    "store_count": 7705
+    "store_count": 7701
   },
   "histogram": [
     {
@@ -46,15 +46,15 @@
     },
     {
       "bucket": "$2.79",
-      "count": 418
+      "count": 417
     },
     {
       "bucket": "$2.89",
-      "count": 1116
+      "count": 1115
     },
     {
       "bucket": "$2.99",
-      "count": 4063
+      "count": 4061
     },
     {
       "bucket": "$3.00",
@@ -230,7 +230,7 @@
     {
       "state": "MD",
       "avg_price": 3.08,
-      "store_count": 91
+      "store_count": 90
     },
     {
       "state": "NJ",
@@ -320,7 +320,7 @@
     {
       "state": "FL",
       "avg_price": 2.98,
-      "store_count": 453
+      "store_count": 452
     },
     {
       "state": "OR",
@@ -335,7 +335,7 @@
     {
       "state": "IN",
       "avg_price": 2.96,
-      "store_count": 261
+      "store_count": 259
     },
     {
       "state": "WV",
@@ -598,6 +598,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:09.650839+00:00"
+    },
+    {
+      "store_number": "028875",
+      "store_name": "Taco Bell",
+      "city": "Connersville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:55.627246+00:00"
+    },
+    {
+      "store_number": "035402",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:11.903863+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:06.151398+00:00"
+    },
     {
       "store_number": "002518",
       "store_name": "Taco Bell",
@@ -1001,7 +1041,7 @@
   ],
   "activity_summary": {
     "added": 20,
-    "removed": 9,
+    "removed": 13,
     "price_changed": 11,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6166,15 +6206,6 @@
       "Taco Bell",
       "Golden Valley",
       "MN"
-    ],
-    [
-      "035402",
-      41.140178583363884,
-      -85.16165293288395,
-      2.79,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
     ],
     [
       "029329",
@@ -15742,15 +15773,6 @@
       "Taco Bell",
       "Brewton",
       "AL"
-    ],
-    [
-      "028875",
-      39.66025910793475,
-      -85.12884885819403,
-      2.89,
-      "Taco Bell",
-      "Connersville",
-      "IN"
     ],
     [
       "022594",
@@ -32979,15 +33001,6 @@
       "FL"
     ],
     [
-      "039988",
-      38.784601877897316,
-      -76.79534420371056,
-      2.99,
-      "Taco Bell",
-      "Upper Marlboro",
-      "MD"
-    ],
-    [
       "029586",
       27.996234516179047,
       -82.56642937660217,
@@ -47710,15 +47723,6 @@
       "Taco Bell / KFC",
       "Moriarty",
       "NM"
-    ],
-    [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      2.99,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
     ],
     [
       "030090",

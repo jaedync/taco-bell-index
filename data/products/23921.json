@@ -18,14 +18,14 @@
     "avg": 6.74,
     "min": 6.49,
     "max": 6.99,
-    "median": 6.74,
+    "median": 6.49,
     "std_dev": 0.25,
-    "store_count": 86
+    "store_count": 87
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 43
+      "count": 44
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "TX",
       "avg_price": 6.74,
-      "store_count": 86
+      "store_count": 87
     }
   ],
   "nutrition": {
@@ -140,6 +140,7 @@
     "002569",
     "019299",
     "034587",
+    "027868",
     "030591",
     "017107",
     "019832",
@@ -244,6 +245,36 @@
   ],
   "price_changes": [
     {
+      "store_number": "027868",
+      "store_name": "Taco Bell",
+      "city": "Richardson",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-12T22:16:20.341068+00:00"
+    },
+    {
+      "store_number": "024459",
+      "store_name": "Taco Bell",
+      "city": "Rowlett",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:12.033472+00:00"
+    },
+    {
+      "store_number": "028434",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-12T22:15:57.081789+00:00"
+    },
+    {
       "store_number": "034591",
       "store_name": "Taco Bell",
       "city": "Italy",
@@ -315,8 +346,8 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
-    "removed": 4,
+    "added": 5,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -449,6 +480,15 @@
       6.49,
       "Taco Bell",
       "Lancaster",
+      "TX"
+    ],
+    [
+      "027868",
+      32.961806624747986,
+      -96.73628260265104,
+      6.49,
+      "Taco Bell",
+      "Richardson",
       "TX"
     ],
     [
@@ -776,6 +816,15 @@
       "TX"
     ],
     [
+      "028434",
+      32.76218959908323,
+      -97.48283942356822,
+      6.99,
+      "Taco Bell",
+      "Fort Worth",
+      "TX"
+    ],
+    [
       "018719",
       32.754243161455214,
       -97.33934462070465,
@@ -845,15 +894,6 @@
       6.99,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "024459",
-      32.919621793788835,
-      -96.51729315519333,
-      6.99,
-      "Taco Bell",
-      "Rowlett",
       "TX"
     ],
     [

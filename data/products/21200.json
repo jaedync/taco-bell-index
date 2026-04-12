@@ -17,7 +17,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.11,
-    "store_count": 7677
+    "store_count": 7672
   },
   "histogram": [
     {
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$25.99",
-      "count": 176
+      "count": 175
     },
     {
       "bucket": "$26.19",
@@ -194,7 +194,7 @@
     },
     {
       "bucket": "$28.99",
-      "count": 508
+      "count": 507
     },
     {
       "bucket": "$29.49",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$29.99",
-      "count": 694
+      "count": 695
     },
     {
       "bucket": "$30.49",
@@ -218,7 +218,7 @@
     },
     {
       "bucket": "$30.99",
-      "count": 921
+      "count": 919
     },
     {
       "bucket": "$31.49",
@@ -238,7 +238,7 @@
     },
     {
       "bucket": "$32.49",
-      "count": 193
+      "count": 192
     },
     {
       "bucket": "$32.80",
@@ -262,7 +262,7 @@
     },
     {
       "bucket": "$33.49",
-      "count": 247
+      "count": 246
     },
     {
       "bucket": "$33.69",
@@ -432,7 +432,7 @@
     {
       "state": "PA",
       "avg_price": 32.75,
-      "store_count": 201
+      "store_count": 200
     },
     {
       "state": "NY",
@@ -441,8 +441,8 @@
     },
     {
       "state": "MD",
-      "avg_price": 32.07,
-      "store_count": 91
+      "avg_price": 32.09,
+      "store_count": 90
     },
     {
       "state": "WV",
@@ -486,8 +486,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 30.73,
-      "store_count": 453
+      "avg_price": 30.72,
+      "store_count": 452
     },
     {
       "state": "MA",
@@ -551,8 +551,8 @@
     },
     {
       "state": "WY",
-      "avg_price": 29.69,
-      "store_count": 10
+      "avg_price": 29.72,
+      "store_count": 11
     },
     {
       "state": "NJ",
@@ -581,8 +581,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 29.14,
-      "store_count": 116
+      "avg_price": 29.12,
+      "store_count": 115
     },
     {
       "state": "WI",
@@ -607,7 +607,7 @@
     {
       "state": "IN",
       "avg_price": 28.12,
-      "store_count": 260
+      "store_count": 258
     },
     {
       "state": "TX",
@@ -778,6 +778,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 30.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:19:03.276129+00:00"
+    },
+    {
+      "store_number": "032215",
+      "store_name": "Taco Bell",
+      "city": "State College",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 33.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:38.554656+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 32.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:09.650839+00:00"
+    },
+    {
+      "store_number": "023080",
+      "store_name": "Taco Bell",
+      "city": "Riverton",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 29.99,
+      "observed_at": "2026-04-12T22:17:03.544925+00:00"
+    },
+    {
+      "store_number": "028875",
+      "store_name": "Taco Bell",
+      "city": "Connersville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 25.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:55.627246+00:00"
+    },
+    {
+      "store_number": "035402",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 28.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:11.903863+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 30.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:06.151398+00:00"
+    },
     {
       "store_number": "030726",
       "store_name": "Taco Bell",
@@ -1350,8 +1420,8 @@
     }
   ],
   "activity_summary": {
-    "added": 29,
-    "removed": 13,
+    "added": 30,
+    "removed": 19,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7914,15 +7984,6 @@
       25.99,
       "Taco Bell",
       "Brazil",
-      "IN"
-    ],
-    [
-      "028875",
-      39.66025910793475,
-      -85.12884885819403,
-      25.99,
-      "Taco Bell",
-      "Connersville",
       "IN"
     ],
     [
@@ -22965,15 +23026,6 @@
       "WI"
     ],
     [
-      "035402",
-      41.140178583363884,
-      -85.16165293288395,
-      28.99,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
-    ],
-    [
       "030146",
       30.190870049620756,
       -97.76904053514583,
@@ -32892,6 +32944,15 @@
       "NC"
     ],
     [
+      "023080",
+      43.04257207089084,
+      -108.38114451533724,
+      29.99,
+      "Taco Bell",
+      "Riverton",
+      "WY"
+    ],
+    [
       "041103",
       27.6001,
       -82.501,
@@ -35178,15 +35239,6 @@
       "NY"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      30.99,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
       "037194",
       36.59484154407886,
       -82.21171138569382,
@@ -36769,15 +36821,6 @@
       "Taco Bell",
       "Tamarac",
       "FL"
-    ],
-    [
-      "039988",
-      38.784601877897316,
-      -76.79534420371056,
-      30.99,
-      "Taco Bell",
-      "Upper Marlboro",
-      "MD"
     ],
     [
       "032034",
@@ -51567,15 +51610,6 @@
       "FL"
     ],
     [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      32.49,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
-    ],
-    [
       "042963",
       35.09454445793161,
       -81.66559584444258,
@@ -59241,15 +59275,6 @@
       33.49,
       "Taco Bell",
       "Bradford",
-      "PA"
-    ],
-    [
-      "032215",
-      40.78493863484153,
-      -77.82897730173318,
-      33.49,
-      "Taco Bell",
-      "State College",
       "PA"
     ],
     [

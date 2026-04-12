@@ -18,19 +18,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 14
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 14
+      "count": 13
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 14
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -112,9 +112,9 @@
       "price": 7.0
     },
     {
-      "store_number": "030386",
+      "store_number": "033288",
       "name": "Taco Bell",
-      "city": "Oklahoma City",
+      "city": "Moore",
       "state": "OK",
       "price": 7.0
     }
@@ -129,7 +129,6 @@
     "030387",
     "030394",
     "031699",
-    "030386",
     "033288",
     "033283",
     "033280",
@@ -161,13 +160,6 @@
       "store_number": "033288",
       "name": "Taco Bell",
       "city": "Moore",
-      "state": "OK",
-      "price": 7.0
-    },
-    {
-      "store_number": "030386",
-      "name": "Taco Bell",
-      "city": "Oklahoma City",
       "state": "OK",
       "price": 7.0
     },
@@ -205,9 +197,26 @@
       "city": "El Reno",
       "state": "OK",
       "price": 7.0
+    },
+    {
+      "store_number": "028019",
+      "name": "Taco Bell",
+      "city": "Enid",
+      "state": "OK",
+      "price": 7.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030386",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:15:57.801553+00:00"
+    },
     {
       "store_number": "030388",
       "store_name": "Taco Bell",
@@ -301,7 +310,7 @@
   ],
   "activity_summary": {
     "added": 8,
-    "removed": 1,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -420,15 +429,6 @@
       7.0,
       "Taco Bell",
       "Choctaw",
-      "OK"
-    ],
-    [
-      "030386",
-      35.46621998183862,
-      -97.52875283360481,
-      7.0,
-      "Taco Bell",
-      "Oklahoma City",
       "OK"
     ],
     [

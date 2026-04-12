@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.5,
+  "availability_pct": 98.4,
   "price_stats": {
     "avg": 30.49,
     "min": 19.49,
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.12,
-    "store_count": 7588
+    "store_count": 7584
   },
   "histogram": [
     {
@@ -182,7 +182,7 @@
     },
     {
       "bucket": "$28.99",
-      "count": 499
+      "count": 498
     },
     {
       "bucket": "$29.49",
@@ -222,7 +222,7 @@
     },
     {
       "bucket": "$31.99",
-      "count": 570
+      "count": 569
     },
     {
       "bucket": "$32.00",
@@ -234,7 +234,7 @@
     },
     {
       "bucket": "$32.49",
-      "count": 187
+      "count": 186
     },
     {
       "bucket": "$32.80",
@@ -262,7 +262,7 @@
     },
     {
       "bucket": "$33.49",
-      "count": 249
+      "count": 248
     },
     {
       "bucket": "$33.69",
@@ -431,7 +431,7 @@
     {
       "state": "PA",
       "avg_price": 32.94,
-      "store_count": 200
+      "store_count": 199
     },
     {
       "state": "NV",
@@ -445,8 +445,8 @@
     },
     {
       "state": "MD",
-      "avg_price": 31.83,
-      "store_count": 89
+      "avg_price": 31.85,
+      "store_count": 88
     },
     {
       "state": "WV",
@@ -491,7 +491,7 @@
     {
       "state": "FL",
       "avg_price": 30.68,
-      "store_count": 440
+      "store_count": 439
     },
     {
       "state": "MA",
@@ -555,8 +555,8 @@
     },
     {
       "state": "WY",
-      "avg_price": 29.69,
-      "store_count": 10
+      "avg_price": 29.72,
+      "store_count": 11
     },
     {
       "state": "NJ",
@@ -574,14 +574,14 @@
       "store_count": 161
     },
     {
-      "state": "IA",
-      "avg_price": 29.3,
-      "store_count": 47
-    },
-    {
       "state": "NC",
       "avg_price": 29.25,
       "store_count": 260
+    },
+    {
+      "state": "IA",
+      "avg_price": 29.24,
+      "store_count": 46
     },
     {
       "state": "SC",
@@ -611,7 +611,7 @@
     {
       "state": "IN",
       "avg_price": 28.05,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "TX",
@@ -782,6 +782,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032215",
+      "store_name": "Taco Bell",
+      "city": "State College",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 33.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:38.554656+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 32.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:09.650839+00:00"
+    },
+    {
+      "store_number": "023080",
+      "store_name": "Taco Bell",
+      "city": "Riverton",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 29.99,
+      "observed_at": "2026-04-12T22:17:03.544925+00:00"
+    },
+    {
+      "store_number": "035402",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 28.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:11.903863+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 29.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:06.151398+00:00"
+    },
+    {
+      "store_number": "041386",
+      "store_name": "Taco Bell",
+      "city": "Marshalltown",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 31.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:37:31.154303+00:00"
+    },
     {
       "store_number": "030726",
       "store_name": "Taco Bell",
@@ -1494,8 +1554,8 @@
     }
   ],
   "activity_summary": {
-    "added": 37,
-    "removed": 19,
+    "added": 38,
+    "removed": 24,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -22758,15 +22818,6 @@
       "WI"
     ],
     [
-      "035402",
-      41.140178583363884,
-      -85.16165293288395,
-      28.99,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
-    ],
-    [
       "030146",
       30.190870049620756,
       -97.76904053514583,
@@ -28707,15 +28758,6 @@
       "MN"
     ],
     [
-      "039988",
-      38.784601877897316,
-      -76.79534420371056,
-      29.99,
-      "Taco Bell",
-      "Upper Marlboro",
-      "MD"
-    ],
-    [
       "029586",
       27.996234516179047,
       -82.56642937660217,
@@ -32926,6 +32968,15 @@
       "Taco Bell",
       "Eagle River",
       "WI"
+    ],
+    [
+      "023080",
+      43.04257207089084,
+      -108.38114451533724,
+      29.99,
+      "Taco Bell",
+      "Riverton",
+      "WY"
     ],
     [
       "040482",
@@ -43746,15 +43797,6 @@
       "OH"
     ],
     [
-      "041386",
-      42.00619214427507,
-      -92.91660743155012,
-      31.99,
-      "Taco Bell",
-      "Marshalltown",
-      "IA"
-    ],
-    [
       "041874",
       35.435038,
       -97.722289,
@@ -50493,15 +50535,6 @@
       32.49,
       "Taco Bell",
       "North Miami Beach",
-      "FL"
-    ],
-    [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      32.49,
-      "Taco Bell",
-      "Cape Coral",
       "FL"
     ],
     [
@@ -58773,15 +58806,6 @@
       33.49,
       "Taco Bell",
       "Bradford",
-      "PA"
-    ],
-    [
-      "032215",
-      40.78493863484153,
-      -77.82897730173318,
-      33.49,
-      "Taco Bell",
-      "State College",
       "PA"
     ],
     [

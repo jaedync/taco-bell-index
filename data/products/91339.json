@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.43,
+    "avg": 5.42,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.17,
-    "store_count": 24
+    "store_count": 23
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 21
+      "count": 20
     }
   ],
   "state_prices": [
@@ -38,8 +38,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 5.42,
-      "store_count": 7
+      "avg_price": 5.41,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -135,13 +135,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "033445",
-      "name": "Taco Bell",
-      "city": "Montevallo",
-      "state": "AL",
-      "price": 5.49
-    },
-    {
       "store_number": "039923",
       "name": "Taco Bell",
       "city": "Statesboro",
@@ -203,9 +196,26 @@
       "city": "Albany",
       "state": "GA",
       "price": 5.49
+    },
+    {
+      "store_number": "041257",
+      "name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033445",
+      "store_name": "Taco Bell",
+      "city": "Montevallo",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:44.927232+00:00"
+    },
     {
       "store_number": "033445",
       "store_name": "Taco Bell",
@@ -569,7 +579,7 @@
   ],
   "activity_summary": {
     "added": 17,
-    "removed": 19,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -784,15 +794,6 @@
       "Taco Bell",
       "Statesboro",
       "GA"
-    ],
-    [
-      "033445",
-      33.101925767425,
-      -86.8609822651587,
-      5.49,
-      "Taco Bell",
-      "Montevallo",
-      "AL"
     ]
   ]
 }

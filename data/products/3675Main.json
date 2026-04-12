@@ -18,12 +18,12 @@
     "max": 3.99,
     "median": 3.99,
     "std_dev": 0.0,
-    "store_count": 2
+    "store_count": 1
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -48,27 +48,12 @@
       "city": "Rancho Cucamonga",
       "state": "CA",
       "price": 3.99
-    },
-    {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
-    "039835",
-    "041613"
+    "039835"
   ],
   "priciest_stores": [
-    {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 3.99
-    },
     {
       "store_number": "039835",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -77,10 +62,21 @@
       "price": 3.99
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "041613",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:11.124657+00:00"
+    }
+  ],
   "activity_summary": {
     "added": 0,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -96,15 +92,6 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Rancho Cucamonga",
-      "CA"
-    ],
-    [
-      "041613",
-      32.64483632374036,
-      -116.99737478794304,
-      3.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Chula Vista",
       "CA"
     ]
   ],

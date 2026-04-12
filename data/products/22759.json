@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7683
+    "store_count": 7680
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7683
+      "count": 7680
     }
   ],
   "state_prices": [
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 86
+      "store_count": 84
     },
     {
       "state": "NM",
@@ -194,7 +194,7 @@
     {
       "state": "KS",
       "avg_price": 0.0,
-      "store_count": 91
+      "store_count": 92
     },
     {
       "state": "IN",
@@ -224,7 +224,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "FL",
@@ -254,7 +254,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 837
+      "store_count": 836
     },
     {
       "state": "AZ",
@@ -3735,7 +3735,6 @@
     "039090",
     "039057",
     "029775",
-    "031874",
     "030153",
     "031566",
     "030399",
@@ -4720,7 +4719,6 @@
     "004309",
     "003583",
     "031424",
-    "041255",
     "029576",
     "035073",
     "041250",
@@ -5306,7 +5304,6 @@
     "020199",
     "033621",
     "002828",
-    "024783",
     "024303",
     "033771",
     "039724",
@@ -5817,6 +5814,7 @@
     "024287",
     "041568",
     "019410",
+    "031868",
     "036300",
     "039081",
     "030831",
@@ -6257,7 +6255,6 @@
     "002060",
     "031449",
     "032892",
-    "031906",
     "019615",
     "034417",
     "003499",
@@ -8035,7 +8032,6 @@
     "017105",
     "027951",
     "005029",
-    "036244",
     "038828",
     "033002",
     "039106",
@@ -8046,9 +8042,17 @@
     "030765",
     "027635",
     "034150",
-    "036257"
+    "036257",
+    "034380"
   ],
   "priciest_stores": [
+    {
+      "store_number": "034380",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "price": 0.0
+    },
     {
       "store_number": "036257",
       "name": "Taco Bell",
@@ -8111,16 +8115,79 @@
       "city": "Elizabeth",
       "state": "NJ",
       "price": 0.0
-    },
-    {
-      "store_number": "033002",
-      "name": "Taco Bell",
-      "city": "Holland",
-      "state": "MI",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:17.187656+00:00"
+    },
+    {
+      "store_number": "031906",
+      "store_name": "Taco Bell",
+      "city": "Fernley",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:07.113101+00:00"
+    },
+    {
+      "store_number": "031868",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-12T22:16:58.258884+00:00"
+    },
+    {
+      "store_number": "024783",
+      "store_name": "Taco Bell",
+      "city": "Santa Clara",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:48.105390+00:00"
+    },
+    {
+      "store_number": "041255",
+      "store_name": "Taco Bell",
+      "city": "Acworth",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:36.696478+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-12T22:16:33.873982+00:00"
+    },
+    {
+      "store_number": "031874",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:17.213553+00:00"
+    },
     {
       "store_number": "032035",
       "store_name": "Taco Bell",
@@ -8813,8 +8880,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 33,
+    "added": 38,
+    "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -39163,15 +39230,6 @@
       "NE"
     ],
     [
-      "031874",
-      36.08612557737341,
-      -115.24329765583389,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "030153",
       30.31412534896099,
       -97.70404076192898,
@@ -48028,15 +48086,6 @@
       "SD"
     ],
     [
-      "041255",
-      34.03689757180433,
-      -84.68522161245352,
-      0.0,
-      "Taco Bell",
-      "Acworth",
-      "GA"
-    ],
-    [
       "029576",
       27.777566079153264,
       -82.6798752844661,
@@ -53302,15 +53351,6 @@
       "CA"
     ],
     [
-      "024783",
-      37.34515022660551,
-      -121.93574135007111,
-      0.0,
-      "Taco Bell",
-      "Santa Clara",
-      "CA"
-    ],
-    [
       "024303",
       34.86446850950453,
       -118.17795087217046,
@@ -57901,6 +57941,15 @@
       "CA"
     ],
     [
+      "031868",
+      36.1971141533937,
+      -115.2608603686258,
+      0.0,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
+    ],
+    [
       "036300",
       29.499343592274975,
       -82.86923924091752,
@@ -61859,15 +61908,6 @@
       "Taco Bell",
       "Wilmington",
       "OH"
-    ],
-    [
-      "031906",
-      39.60734480415909,
-      -119.2220602392526,
-      0.0,
-      "Taco Bell",
-      "Fernley",
-      "NV"
     ],
     [
       "019615",
@@ -77863,15 +77903,6 @@
       "CA"
     ],
     [
-      "036244",
-      39.53105751055179,
-      -119.71590512967516,
-      0.0,
-      "Taco Bell",
-      "Sparks",
-      "NV"
-    ],
-    [
       "038828",
       44.63555134070558,
       -121.13039374351501,
@@ -77969,6 +78000,15 @@
       "Taco Bell",
       "Douglassville",
       "PA"
+    ],
+    [
+      "034380",
+      39.11631009128362,
+      -94.67128559947014,
+      0.0,
+      "Taco Bell",
+      "Kansas City",
+      "KS"
     ]
   ]
 }

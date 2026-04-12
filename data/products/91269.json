@@ -13,24 +13,20 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.78,
+    "avg": 6.85,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.49,
-    "std_dev": 0.41,
-    "store_count": 11
+    "median": 6.59,
+    "std_dev": 0.46,
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 6
+      "count": 4
     },
     {
       "bucket": "$6.69",
-      "count": 1
-    },
-    {
-      "bucket": "$6.79",
       "count": 1
     },
     {
@@ -45,8 +41,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.97,
-      "store_count": 6
+      "avg_price": 7.07,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -64,20 +60,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "032542",
-      "name": "Taco Bell",
-      "city": "Hardeeville",
-      "state": "SC",
-      "price": 6.49
-    },
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 6.49
-    },
     {
       "store_number": "042121",
       "name": "Taco Bell",
@@ -114,13 +96,6 @@
       "price": 6.69
     },
     {
-      "store_number": "036937",
-      "name": "Taco Bell",
-      "city": "Millbrook",
-      "state": "AL",
-      "price": 6.79
-    },
-    {
       "store_number": "027858",
       "name": "Taco Bell",
       "city": "Buford",
@@ -133,11 +108,16 @@
       "city": "Lithonia",
       "state": "GA",
       "price": 7.49
+    },
+    {
+      "store_number": "041223",
+      "name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 7.49
     }
   ],
   "min_price_store_numbers": [
-    "032542",
-    "042903",
     "042121",
     "042134",
     "031389",
@@ -166,13 +146,6 @@
       "price": 7.19
     },
     {
-      "store_number": "036937",
-      "name": "Taco Bell",
-      "city": "Millbrook",
-      "state": "AL",
-      "price": 6.79
-    },
-    {
       "store_number": "039932",
       "name": "Taco Bell",
       "city": "McDonough",
@@ -206,16 +179,39 @@
       "city": "Fort Walton Beach",
       "state": "FL",
       "price": 6.49
-    },
-    {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:19:03.276129+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:15:57.770813+00:00"
+    },
+    {
+      "store_number": "036937",
+      "store_name": "Taco Bell",
+      "city": "Millbrook",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 6.79,
+      "new_price": null,
+      "observed_at": "2026-04-12T21:58:13.016516+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -419,7 +415,7 @@
   ],
   "activity_summary": {
     "added": 4,
-    "removed": 16,
+    "removed": 19,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -447,24 +443,6 @@
     }
   ],
   "map_data": [
-    [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      6.49,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
-      "042903",
-      31.783928,
-      -82.363196,
-      6.49,
-      "Taco Bell",
-      "Baxley",
-      "GA"
-    ],
     [
       "042121",
       30.415996791776298,
@@ -509,15 +487,6 @@
       "Taco Bell",
       "McDonough",
       "GA"
-    ],
-    [
-      "036937",
-      32.492787398157375,
-      -86.40598023039077,
-      6.79,
-      "Taco Bell",
-      "Millbrook",
-      "AL"
     ],
     [
       "027858",

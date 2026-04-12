@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.7,
+  "availability_pct": 99.6,
   "price_stats": {
     "avg": 22.4,
     "min": 11.88,
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.83,
-    "store_count": 7682
+    "store_count": 7678
   },
   "histogram": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$18.79",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$18.89",
@@ -166,7 +166,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1430
+      "count": 1429
     },
     {
       "bucket": "$22.19",
@@ -218,7 +218,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 778
+      "count": 777
     },
     {
       "bucket": "$23.50",
@@ -254,7 +254,7 @@
     },
     {
       "bucket": "$23.99",
-      "count": 322
+      "count": 321
     },
     {
       "bucket": "$24.00",
@@ -451,13 +451,13 @@
     },
     {
       "state": "MD",
-      "avg_price": 22.63,
-      "store_count": 91
+      "avg_price": 22.62,
+      "store_count": 90
     },
     {
       "state": "PA",
-      "avg_price": 22.55,
-      "store_count": 201
+      "avg_price": 22.56,
+      "store_count": 200
     },
     {
       "state": "IL",
@@ -526,8 +526,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 21.54,
-      "store_count": 117
+      "avg_price": 21.52,
+      "store_count": 116
     },
     {
       "state": "KY",
@@ -576,8 +576,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 20.79,
-      "store_count": 261
+      "avg_price": 20.8,
+      "store_count": 260
     },
     {
       "state": "WV",
@@ -754,6 +754,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 23.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:19:03.276129+00:00"
+    },
+    {
+      "store_number": "032215",
+      "store_name": "Taco Bell",
+      "city": "State College",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:17:38.554656+00:00"
+    },
+    {
+      "store_number": "028875",
+      "store_name": "Taco Bell",
+      "city": "Connersville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 18.79,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:55.627246+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-04-12T22:16:06.151398+00:00"
+    },
     {
       "store_number": "043197",
       "store_name": "Taco Bell",
@@ -1117,7 +1157,7 @@
   ],
   "activity_summary": {
     "added": 18,
-    "removed": 9,
+    "removed": 13,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2514,15 +2554,6 @@
       18.79,
       "Taco Bell",
       "Brazil",
-      "IN"
-    ],
-    [
-      "028875",
-      39.66025910793475,
-      -85.12884885819403,
-      18.79,
-      "Taco Bell",
-      "Connersville",
       "IN"
     ],
     [
@@ -32487,15 +32518,6 @@
       "OH"
     ],
     [
-      "032215",
-      40.78493863484153,
-      -77.82897730173318,
-      21.99,
-      "Taco Bell",
-      "State College",
-      "PA"
-    ],
-    [
       "034588",
       32.891357868115264,
       -97.54111112483768,
@@ -54231,15 +54253,6 @@
       "AK"
     ],
     [
-      "039988",
-      38.784601877897316,
-      -76.79534420371056,
-      23.49,
-      "Taco Bell",
-      "Upper Marlboro",
-      "MD"
-    ],
-    [
       "029586",
       27.996234516179047,
       -82.56642937660217,
@@ -62482,15 +62495,6 @@
       "Taco Bell",
       "Orland Park",
       "IL"
-    ],
-    [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      23.99,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
     ],
     [
       "037332",
