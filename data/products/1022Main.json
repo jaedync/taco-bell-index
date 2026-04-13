@@ -47,11 +47,11 @@
     },
     {
       "bucket": "$2.89",
-      "count": 93
+      "count": 94
     },
     {
       "bucket": "$2.99",
-      "count": 203
+      "count": 202
     },
     {
       "bucket": "$3.09",
@@ -59,15 +59,15 @@
     },
     {
       "bucket": "$3.19",
-      "count": 93
+      "count": 92
     },
     {
       "bucket": "$3.29",
-      "count": 219
+      "count": 218
     },
     {
       "bucket": "$3.39",
-      "count": 12
+      "count": 14
     },
     {
       "bucket": "$3.49",
@@ -77,8 +77,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 3.31,
-      "store_count": 6
+      "avg_price": 3.32,
+      "store_count": 7
     },
     {
       "state": "MO",
@@ -108,7 +108,7 @@
     {
       "state": "TX",
       "avg_price": 2.94,
-      "store_count": 438
+      "store_count": 437
     },
     {
       "state": "AL",
@@ -218,6 +218,20 @@
       "price": 3.49
     },
     {
+      "store_number": "030775",
+      "name": "Taco Bell",
+      "city": "Union City",
+      "state": "CA",
+      "price": 3.39
+    },
+    {
+      "store_number": "041270",
+      "name": "Taco Bell",
+      "city": "Belvidere",
+      "state": "IL",
+      "price": 3.39
+    },
+    {
       "store_number": "026049",
       "name": "Taco Bell",
       "city": "Salisbury",
@@ -258,23 +272,69 @@
       "city": "Liberty",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "035243",
-      "name": "Taco Bell",
-      "city": "Independence",
-      "state": "MO",
-      "price": 3.39
-    },
-    {
-      "store_number": "034383",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023129",
+      "store_name": "Taco Bell",
+      "city": "Frankfort",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:32:02.497423+00:00"
+    },
+    {
+      "store_number": "030775",
+      "store_name": "Taco Bell",
+      "city": "Union City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-13T21:31:42.491178+00:00"
+    },
+    {
+      "store_number": "031131",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:28.577710+00:00"
+    },
+    {
+      "store_number": "035834",
+      "store_name": "Taco Bell",
+      "city": "Harrisonburg",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-13T21:29:51.523608+00:00"
+    },
+    {
+      "store_number": "040335",
+      "store_name": "Taco Bell",
+      "city": "Bloomfield",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:28:27.332245+00:00"
+    },
+    {
+      "store_number": "041270",
+      "store_name": "Taco Bell",
+      "city": "Belvidere",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-13T21:17:15.039814+00:00"
+    },
     {
       "store_number": "005704",
       "store_name": "Taco Bell",
@@ -1067,8 +1127,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 41,
+    "added": 41,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2887,6 +2947,15 @@
       "KY"
     ],
     [
+      "035834",
+      38.40499367870093,
+      -78.8681715749459,
+      2.89,
+      "Taco Bell",
+      "Harrisonburg",
+      "VA"
+    ],
+    [
       "040361",
       32.23483142103328,
       -97.76624627797061,
@@ -3047,15 +3116,6 @@
       "Taco Bell",
       "Houston",
       "TX"
-    ],
-    [
-      "040335",
-      40.8329,
-      -74.1803,
-      2.99,
-      "Taco Bell",
-      "Bloomfield",
-      "NJ"
     ],
     [
       "037153",
@@ -4991,15 +5051,6 @@
       "Taco Bell",
       "Tampa",
       "FL"
-    ],
-    [
-      "031131",
-      29.58797456391832,
-      -98.63277546031455,
-      3.19,
-      "Taco Bell",
-      "San Antonio",
-      "TX"
     ],
     [
       "032567",
@@ -7540,15 +7591,6 @@
       "OK"
     ],
     [
-      "023129",
-      40.27841795334701,
-      -86.48061208429681,
-      3.29,
-      "Taco Bell",
-      "Frankfort",
-      "IN"
-    ],
-    [
       "036251",
       39.034202183610354,
       -94.53198025225383,
@@ -7657,6 +7699,24 @@
       "NC"
     ],
     [
+      "041270",
+      42.240347,
+      -88.819067,
+      3.39,
+      "Taco Bell",
+      "Belvidere",
+      "IL"
+    ],
+    [
+      "030775",
+      37.61123206580724,
+      -122.0674297125494,
+      3.39,
+      "Taco Bell",
+      "Union City",
+      "CA"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -7690,7 +7750,7 @@
       "min_price": 2.19,
       "max_price": 3.29,
       "calories": 0,
-      "happier_hour_avg": 1.02
+      "happier_hour_avg": 1.03
     },
     {
       "size": "SMALL",

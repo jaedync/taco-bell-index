@@ -12,21 +12,21 @@
   "first_seen_at": "2026-03-30T00:52:20.123626+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.92,
+    "avg": 6.88,
     "min": 6.49,
     "max": 7.99,
     "median": 6.99,
-    "std_dev": 0.53,
-    "store_count": 7
+    "std_dev": 0.49,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$6.99",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$7.99",
@@ -50,13 +50,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "038828",
-      "name": "Taco Bell",
-      "city": "Madras",
-      "state": "OR",
-      "price": 6.49
-    },
-    {
       "store_number": "030763",
       "name": "Taco Bell",
       "city": "Oakland",
@@ -68,6 +61,20 @@
       "name": "Taco Bell Cantina Cantina",
       "city": "Brooklyn",
       "state": "NY",
+      "price": 6.49
+    },
+    {
+      "store_number": "042250",
+      "name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "price": 6.49
+    },
+    {
+      "store_number": "027951",
+      "name": "Taco Bell",
+      "city": "Bowling Green",
+      "state": "KY",
       "price": 6.49
     },
     {
@@ -89,6 +96,13 @@
       "name": "Taco Bell",
       "city": "Fremont",
       "state": "MI",
+      "price": 6.99
+    },
+    {
+      "store_number": "015857",
+      "name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
       "price": 6.99
     },
     {
@@ -100,9 +114,10 @@
     }
   ],
   "min_price_store_numbers": [
-    "038828",
     "030763",
-    "033947"
+    "033947",
+    "042250",
+    "027951"
   ],
   "priciest_stores": [
     {
@@ -111,6 +126,13 @@
       "city": "Lacey",
       "state": "WA",
       "price": 7.99
+    },
+    {
+      "store_number": "015857",
+      "name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "price": 6.99
     },
     {
       "store_number": "032994",
@@ -134,6 +156,20 @@
       "price": 6.99
     },
     {
+      "store_number": "027951",
+      "name": "Taco Bell",
+      "city": "Bowling Green",
+      "state": "KY",
+      "price": 6.49
+    },
+    {
+      "store_number": "042250",
+      "name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "price": 6.49
+    },
+    {
       "store_number": "033947",
       "name": "Taco Bell Cantina Cantina",
       "city": "Brooklyn",
@@ -146,16 +182,49 @@
       "city": "Oakland",
       "state": "CA",
       "price": 6.49
-    },
-    {
-      "store_number": "038828",
-      "name": "Taco Bell",
-      "city": "Madras",
-      "state": "OR",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015857",
+      "store_name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-13T21:43:44.639000+00:00"
+    },
+    {
+      "store_number": "027951",
+      "store_name": "Taco Bell",
+      "city": "Bowling Green",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-13T21:31:59.150033+00:00"
+    },
+    {
+      "store_number": "038828",
+      "store_name": "Taco Bell",
+      "city": "Madras",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:07.980222+00:00"
+    },
+    {
+      "store_number": "042250",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-13T21:24:24.244173+00:00"
+    },
     {
       "store_number": "035312",
       "store_name": "Taco Bell",
@@ -298,25 +367,16 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
-    "removed": 5,
+    "added": 11,
+    "removed": 6,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 700,
+  "calories_from_menu": 0,
   "calories_min": 700,
   "calories_max": 700,
   "combo_groups": [],
   "map_data": [
-    [
-      "038828",
-      44.63555134070558,
-      -121.13039374351501,
-      6.49,
-      "Taco Bell",
-      "Madras",
-      "OR"
-    ],
     [
       "030763",
       37.79375041784199,
@@ -334,6 +394,24 @@
       "Taco Bell Cantina Cantina",
       "Brooklyn",
       "NY"
+    ],
+    [
+      "042250",
+      39.5445,
+      -119.81623,
+      6.49,
+      "Taco Bell",
+      "Reno",
+      "NV"
+    ],
+    [
+      "027951",
+      36.95873785762019,
+      -86.47001683466206,
+      6.49,
+      "Taco Bell",
+      "Bowling Green",
+      "KY"
     ],
     [
       "020944",
@@ -361,6 +439,15 @@
       "Taco Bell",
       "Fremont",
       "MI"
+    ],
+    [
+      "015857",
+      37.40973209870202,
+      -77.65383259205241,
+      6.99,
+      "Taco Bell",
+      "Midlothian",
+      "VA"
     ],
     [
       "035312",

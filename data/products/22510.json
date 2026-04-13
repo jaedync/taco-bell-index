@@ -18,7 +18,7 @@
     "max": 5.49,
     "median": 2.79,
     "std_dev": 0.33,
-    "store_count": 7656
+    "store_count": 7657
   },
   "histogram": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 860
+      "count": 861
     },
     {
       "bucket": "$2.69",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 1047
+      "count": 1048
     },
     {
       "bucket": "$2.80",
@@ -107,7 +107,7 @@
     },
     {
       "bucket": "$2.91",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$2.95",
@@ -135,7 +135,7 @@
     },
     {
       "bucket": "$3.09",
-      "count": 73
+      "count": 74
     },
     {
       "bucket": "$3.10",
@@ -151,7 +151,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 319
+      "count": 318
     },
     {
       "bucket": "$3.39",
@@ -197,7 +197,7 @@
     {
       "state": "MI",
       "avg_price": 3.01,
-      "store_count": 347
+      "store_count": 346
     },
     {
       "state": "AK",
@@ -267,7 +267,7 @@
     {
       "state": "IN",
       "avg_price": 2.86,
-      "store_count": 259
+      "store_count": 261
     },
     {
       "state": "SD",
@@ -302,7 +302,7 @@
     {
       "state": "VA",
       "avg_price": 2.8,
-      "store_count": 193
+      "store_count": 194
     },
     {
       "state": "RI",
@@ -396,8 +396,8 @@
     },
     {
       "state": "NJ",
-      "avg_price": 2.5,
-      "store_count": 122
+      "avg_price": 2.49,
+      "store_count": 121
     },
     {
       "state": "ND",
@@ -593,6 +593,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 2.91,
+      "new_price": null,
+      "observed_at": "2026-04-13T22:03:08.973775+00:00"
+    },
+    {
+      "store_number": "015909",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-04-13T21:31:06.142384+00:00"
+    },
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.09,
+      "observed_at": "2026-04-13T21:30:31.636989+00:00"
+    },
+    {
+      "store_number": "031572",
+      "store_name": "Taco Bell",
+      "city": "Danville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-13T21:30:27.237837+00:00"
+    },
+    {
+      "store_number": "035130",
+      "store_name": "Taco Bell",
+      "city": "Versailles",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-13T21:26:50.430846+00:00"
+    },
+    {
+      "store_number": "041174",
+      "store_name": "Taco Bell",
+      "city": "Spring Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:24:21.940729+00:00"
+    },
+    {
+      "store_number": "041637",
+      "store_name": "Taco Bell",
+      "city": "Otisville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:17:17.060512+00:00"
+    },
     {
       "store_number": "034588",
       "store_name": "Taco Bell",
@@ -1155,8 +1225,8 @@
     }
   ],
   "activity_summary": {
-    "added": 28,
-    "removed": 19,
+    "added": 32,
+    "removed": 22,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19938,6 +20008,15 @@
       "Taco Bell",
       "Dallas",
       "TX"
+    ],
+    [
+      "015909",
+      36.843172841066085,
+      -76.13628655672073,
+      2.59,
+      "Taco Bell",
+      "Virginia Beach",
+      "VA"
     ],
     [
       "029568",
@@ -40820,6 +40899,15 @@
       "NC"
     ],
     [
+      "035130",
+      39.067002300720674,
+      -85.25389111868418,
+      2.79,
+      "Taco Bell",
+      "Versailles",
+      "IN"
+    ],
+    [
       "038830",
       46.590432336227764,
       -112.01519212802819,
@@ -47327,15 +47415,6 @@
       "NJ"
     ],
     [
-      "039545",
-      41.19914267445654,
-      -74.48748706784548,
-      2.91,
-      "Taco Bell",
-      "Vernon",
-      "NJ"
-    ],
-    [
       "037092",
       40.81555319498846,
       -74.47340305784236,
@@ -47730,15 +47809,6 @@
       "Taco Bell",
       "New Castle",
       "PA"
-    ],
-    [
-      "041637",
-      43.16321471676148,
-      -83.5243732030411,
-      2.99,
-      "Taco Bell",
-      "Otisville",
-      "MI"
     ],
     [
       "039704",
@@ -52887,6 +52957,15 @@
       "Taco Bell",
       "Victor",
       "NY"
+    ],
+    [
+      "031572",
+      39.758433007089415,
+      -86.50967279079856,
+      2.99,
+      "Taco Bell",
+      "Danville",
+      "IN"
     ],
     [
       "002873",
@@ -63887,6 +63966,15 @@
       "IN"
     ],
     [
+      "032107",
+      42.180071475785965,
+      -86.26249767316433,
+      3.09,
+      "Taco Bell",
+      "Watervliet",
+      "MI"
+    ],
+    [
       "032487",
       41.617204933585256,
       -87.04461604356766,
@@ -66620,15 +66708,6 @@
       3.29,
       "Taco Bell",
       "Ann Arbor",
-      "MI"
-    ],
-    [
-      "041174",
-      42.208486195305966,
-      -84.54207645974716,
-      3.29,
-      "Taco Bell",
-      "Spring Arbor",
       "MI"
     ],
     [

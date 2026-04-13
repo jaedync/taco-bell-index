@@ -17,7 +17,7 @@
     "max": 1.29,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6788
+    "store_count": 6789
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.35",
-      "count": 76
+      "count": 77
     },
     {
       "bucket": "$0.39",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 386
+      "count": 387
     },
     {
       "bucket": "$0.60",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 507
+      "count": 506
     },
     {
       "bucket": "$0.79",
@@ -179,7 +179,7 @@
     {
       "state": "WA",
       "avg_price": 0.76,
-      "store_count": 133
+      "store_count": 132
     },
     {
       "state": "DC",
@@ -209,7 +209,7 @@
     {
       "state": "MI",
       "avg_price": 0.7,
-      "store_count": 344
+      "store_count": 345
     },
     {
       "state": "OR",
@@ -333,8 +333,8 @@
     },
     {
       "state": "KY",
-      "avg_price": 0.55,
-      "store_count": 147
+      "avg_price": 0.54,
+      "store_count": 148
     },
     {
       "state": "IL",
@@ -589,6 +589,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031335",
+      "store_name": "Taco Bell",
+      "city": "Marysville",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:45.861309+00:00"
+    },
+    {
+      "store_number": "042178",
+      "store_name": "Taco Bell",
+      "city": "Petoskey",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-04-13T21:28:26.149860+00:00"
+    },
+    {
+      "store_number": "035299",
+      "store_name": "Taco Bell",
+      "city": "Pikeville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-04-13T21:27:20.299133+00:00"
+    },
     {
       "store_number": "031686",
       "store_name": "Taco Bell",
@@ -5851,8 +5881,8 @@
     }
   ],
   "activity_summary": {
-    "added": 22,
-    "removed": 504,
+    "added": 24,
+    "removed": 505,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12906,6 +12936,15 @@
       0.35,
       "Taco Bell",
       "Salyersville",
+      "KY"
+    ],
+    [
+      "035299",
+      37.4665123561317,
+      -82.53181456569088,
+      0.35,
+      "Taco Bell",
+      "Pikeville",
       "KY"
     ],
     [
@@ -31114,6 +31153,15 @@
       "Taco Bell",
       "San Antonio",
       "FL"
+    ],
+    [
+      "042178",
+      45.346729,
+      -84.967467,
+      0.59,
+      "Taco Bell",
+      "Petoskey",
+      "MI"
     ],
     [
       "040336",
@@ -53821,15 +53869,6 @@
       "Taco Bell",
       "Whittier",
       "NC"
-    ],
-    [
-      "031335",
-      48.05431113558973,
-      -122.17652499675751,
-      0.75,
-      "Taco Bell",
-      "Marysville",
-      "WA"
     ],
     [
       "019297",

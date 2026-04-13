@@ -17,7 +17,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 191
+    "store_count": 190
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$0.85",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 52
+      "count": 51
     },
     {
       "bucket": "$0.95",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$0.99",
@@ -103,7 +103,7 @@
     {
       "state": "MI",
       "avg_price": 1.07,
-      "store_count": 50
+      "store_count": 51
     },
     {
       "state": "TX",
@@ -146,12 +146,12 @@
       "store_count": 5
     },
     {
-      "state": "ID",
-      "avg_price": 0.84,
-      "store_count": 6
+      "state": "WI",
+      "avg_price": 0.83,
+      "store_count": 5
     },
     {
-      "state": "WI",
+      "state": "ID",
       "avg_price": 0.83,
       "store_count": 5
     }
@@ -318,6 +318,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037477",
+      "store_name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:37.888520+00:00"
+    },
+    {
+      "store_number": "003701",
+      "store_name": "Taco Bell",
+      "city": "Boise",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:40.198871+00:00"
+    },
+    {
+      "store_number": "034817",
+      "store_name": "Taco Bell",
+      "city": "Clinton Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-04-13T21:26:49.286237+00:00"
+    },
     {
       "store_number": "031556",
       "store_name": "Taco Bell",
@@ -490,8 +520,8 @@
     }
   ],
   "activity_summary": {
-    "added": 9,
-    "removed": 8,
+    "added": 10,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -625,15 +655,6 @@
       "Taco Bell",
       "Greenville",
       "NC"
-    ],
-    [
-      "037477",
-      42.489787564050744,
-      -96.3667537719175,
-      0.8,
-      "Taco Bell",
-      "Sioux City",
-      "IA"
     ],
     [
       "031499",
@@ -886,15 +907,6 @@
       "Taco Bell",
       "Lincoln",
       "NE"
-    ],
-    [
-      "003701",
-      43.61891818794183,
-      -116.26264572143555,
-      0.9,
-      "Taco Bell",
-      "Boise",
-      "ID"
     ],
     [
       "031418",
@@ -1507,6 +1519,15 @@
       "Taco Bell",
       "New Lexington",
       "OH"
+    ],
+    [
+      "034817",
+      42.6266,
+      -82.9679,
+      0.95,
+      "Taco Bell",
+      "Clinton Township",
+      "MI"
     ],
     [
       "036262",

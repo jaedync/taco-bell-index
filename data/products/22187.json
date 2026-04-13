@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.9,
-    "store_count": 7582
+    "store_count": 7581
   },
   "histogram": [
     {
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1426
+      "count": 1425
     },
     {
       "bucket": "$22.29",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 754
+      "count": 753
     },
     {
       "bucket": "$23.50",
@@ -242,7 +242,7 @@
     },
     {
       "bucket": "$23.99",
-      "count": 392
+      "count": 393
     },
     {
       "bucket": "$24.00",
@@ -364,8 +364,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.45,
-      "store_count": 249
+      "avg_price": 25.46,
+      "store_count": 248
     },
     {
       "state": "CA",
@@ -469,13 +469,13 @@
     },
     {
       "state": "MD",
-      "avg_price": 22.6,
-      "store_count": 88
+      "avg_price": 22.61,
+      "store_count": 89
     },
     {
       "state": "OH",
       "avg_price": 22.37,
-      "store_count": 408
+      "store_count": 407
     },
     {
       "state": "GA",
@@ -490,7 +490,7 @@
     {
       "state": "MI",
       "avg_price": 22.23,
-      "store_count": 345
+      "store_count": 344
     },
     {
       "state": "WI",
@@ -504,8 +504,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 21.92,
-      "store_count": 46
+      "avg_price": 21.97,
+      "store_count": 47
     },
     {
       "state": "OK",
@@ -762,6 +762,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033775",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:53:01.786030+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-04-13T21:30:25.555055+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:54.515613+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:22.963839+00:00"
+    },
+    {
+      "store_number": "041386",
+      "store_name": "Taco Bell",
+      "city": "Marshalltown",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.99,
+      "observed_at": "2026-04-13T21:17:19.034497+00:00"
+    },
     {
       "store_number": "032215",
       "store_name": "Taco Bell",
@@ -1304,8 +1354,8 @@
     }
   ],
   "activity_summary": {
-    "added": 27,
-    "removed": 18,
+    "added": 29,
+    "removed": 21,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -32198,15 +32248,6 @@
       "WV"
     ],
     [
-      "033775",
-      40.40135941864843,
-      -82.45208315545428,
-      21.99,
-      "Taco Bell",
-      "Mount Vernon",
-      "OH"
-    ],
-    [
       "023137",
       40.45380303290406,
       -86.91710650920868,
@@ -51944,15 +51985,6 @@
       "VA"
     ],
     [
-      "036328",
-      42.09826888342504,
-      -79.30401088300437,
-      23.49,
-      "Taco Bell",
-      "Lakewood",
-      "NY"
-    ],
-    [
       "036335",
       44.23134523351836,
       -123.20316993743882,
@@ -52059,15 +52091,6 @@
       "Taco Bell",
       "Burtonsville",
       "MD"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      23.49,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
     ],
     [
       "037014",
@@ -53724,6 +53747,15 @@
       "Taco Bell",
       "Fairbanks",
       "AK"
+    ],
+    [
+      "039988",
+      38.784601877897316,
+      -76.79534420371056,
+      23.49,
+      "Taco Bell",
+      "Upper Marlboro",
+      "MD"
     ],
     [
       "029586",
@@ -60798,6 +60830,15 @@
       "Taco Bell",
       "Taylorsville",
       "KY"
+    ],
+    [
+      "041386",
+      42.00619214427507,
+      -92.91660743155012,
+      23.99,
+      "Taco Bell",
+      "Marshalltown",
+      "IA"
     ],
     [
       "040355",

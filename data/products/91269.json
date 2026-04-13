@@ -13,17 +13,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.85,
+    "avg": 6.9,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.59,
-    "std_dev": 0.46,
-    "store_count": 8
+    "median": 6.69,
+    "std_dev": 0.47,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$6.69",
@@ -82,13 +82,6 @@
       "price": 6.49
     },
     {
-      "store_number": "002649",
-      "name": "Taco Bell / KFC",
-      "city": "Charleston",
-      "state": "SC",
-      "price": 6.49
-    },
-    {
       "store_number": "039932",
       "name": "Taco Bell",
       "city": "McDonough",
@@ -120,8 +113,7 @@
   "min_price_store_numbers": [
     "042121",
     "042134",
-    "031389",
-    "002649"
+    "031389"
   ],
   "priciest_stores": [
     {
@@ -153,13 +145,6 @@
       "price": 6.69
     },
     {
-      "store_number": "002649",
-      "name": "Taco Bell / KFC",
-      "city": "Charleston",
-      "state": "SC",
-      "price": 6.49
-    },
-    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
@@ -182,6 +167,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:32:12.799617+00:00"
+    },
     {
       "store_number": "032542",
       "store_name": "Taco Bell",
@@ -415,7 +410,7 @@
   ],
   "activity_summary": {
     "added": 4,
-    "removed": 19,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -469,15 +464,6 @@
       "Taco Bell / KFC",
       "Locust Grove",
       "GA"
-    ],
-    [
-      "002649",
-      32.787389264873106,
-      -79.95377679524928,
-      6.49,
-      "Taco Bell / KFC",
-      "Charleston",
-      "SC"
     ],
     [
       "039932",

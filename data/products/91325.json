@@ -11,27 +11,23 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.2,
+  "availability_pct": 1.1,
   "price_stats": {
-    "avg": 9.13,
+    "avg": 9.12,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.49,
-    "store_count": 89
+    "store_count": 86
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 81
+      "count": 79
     },
     {
       "bucket": "$9.49",
       "count": 3
-    },
-    {
-      "bucket": "$9.99",
-      "count": 1
     },
     {
       "bucket": "$11.29",
@@ -41,8 +37,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.34,
-      "store_count": 30
+      "avg_price": 9.32,
+      "store_count": 29
     },
     {
       "state": "TN",
@@ -52,7 +48,7 @@
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 43
+      "store_count": 42
     }
   ],
   "nutrition": {
@@ -156,7 +152,6 @@
     "030177",
     "036415",
     "036502",
-    "036937",
     "037192",
     "042356",
     "042511",
@@ -203,8 +198,6 @@
     "039923",
     "039924",
     "039918",
-    "039919",
-    "031583",
     "039920",
     "029017",
     "039922",
@@ -222,7 +215,8 @@
     "032755",
     "037105",
     "042585",
-    "041251"
+    "041251",
+    "037047"
   ],
   "priciest_stores": [
     {
@@ -254,13 +248,6 @@
       "price": 11.29
     },
     {
-      "store_number": "042903",
-      "name": "Taco Bell",
-      "city": "Baxley",
-      "state": "GA",
-      "price": 9.99
-    },
-    {
       "store_number": "030707",
       "name": "Taco Bell",
       "city": "Panama City Beach",
@@ -282,6 +269,13 @@
       "price": 9.49
     },
     {
+      "store_number": "037047",
+      "name": "Taco Bell",
+      "city": "Vidalia",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "041251",
       "name": "Taco Bell",
       "city": "Lawrenceville",
@@ -297,6 +291,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031583",
+      "store_name": "Taco Bell",
+      "city": "Beaufort",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:32:23.236255+00:00"
+    },
+    {
+      "store_number": "039919",
+      "store_name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:53.279602+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:29:59.095563+00:00"
+    },
+    {
+      "store_number": "037047",
+      "store_name": "Taco Bell",
+      "city": "Vidalia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-04-13T21:29:27.821510+00:00"
+    },
+    {
+      "store_number": "036937",
+      "store_name": "Taco Bell",
+      "city": "Millbrook",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:54.419669+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -769,8 +813,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 9,
+    "added": 39,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -934,15 +978,6 @@
       9.0,
       "Taco Bell",
       "Columbiana",
-      "AL"
-    ],
-    [
-      "036937",
-      32.492787398157375,
-      -86.40598023039077,
-      9.0,
-      "Taco Bell",
-      "Millbrook",
       "AL"
     ],
     [
@@ -1360,24 +1395,6 @@
       "GA"
     ],
     [
-      "039919",
-      32.04206596405184,
-      -81.06397350134102,
-      9.0,
-      "Taco Bell",
-      "Savannah",
-      "GA"
-    ],
-    [
-      "031583",
-      32.42953531961479,
-      -80.71891911656758,
-      9.0,
-      "Taco Bell",
-      "Beaufort",
-      "SC"
-    ],
-    [
       "039920",
       31.981552075862567,
       -81.16996265483067,
@@ -1540,6 +1557,15 @@
       "GA"
     ],
     [
+      "037047",
+      32.21018652615168,
+      -82.39002174090741,
+      9.0,
+      "Taco Bell",
+      "Vidalia",
+      "GA"
+    ],
+    [
       "004185",
       30.138993189337146,
       -85.59155344963074,
@@ -1565,15 +1591,6 @@
       "Taco Bell",
       "Panama City Beach",
       "FL"
-    ],
-    [
-      "042903",
-      31.783928,
-      -82.363196,
-      9.99,
-      "Taco Bell",
-      "Baxley",
-      "GA"
     ],
     [
       "041219",

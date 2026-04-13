@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.83,
-    "store_count": 7678
+    "store_count": 7675
   },
   "histogram": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$18.79",
-      "count": 33
+      "count": 34
     },
     {
       "bucket": "$18.89",
@@ -194,7 +194,7 @@
     },
     {
       "bucket": "$22.79",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$22.89",
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1797
+      "count": 1795
     },
     {
       "bucket": "$23.19",
@@ -254,7 +254,7 @@
     },
     {
       "bucket": "$23.99",
-      "count": 321
+      "count": 320
     },
     {
       "bucket": "$24.00",
@@ -356,8 +356,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.15,
-      "store_count": 251
+      "avg_price": 25.16,
+      "store_count": 250
     },
     {
       "state": "CA",
@@ -401,8 +401,8 @@
     },
     {
       "state": "NV",
-      "avg_price": 23.44,
-      "store_count": 87
+      "avg_price": 23.43,
+      "store_count": 86
     },
     {
       "state": "CO",
@@ -451,8 +451,8 @@
     },
     {
       "state": "MD",
-      "avg_price": 22.62,
-      "store_count": 90
+      "avg_price": 22.63,
+      "store_count": 91
     },
     {
       "state": "PA",
@@ -467,12 +467,12 @@
     {
       "state": "OH",
       "avg_price": 22.37,
-      "store_count": 409
+      "store_count": 408
     },
     {
       "state": "GA",
       "avg_price": 22.33,
-      "store_count": 255
+      "store_count": 254
     },
     {
       "state": "UT",
@@ -481,8 +481,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 22.22,
-      "store_count": 349
+      "avg_price": 22.21,
+      "store_count": 348
     },
     {
       "state": "WI",
@@ -576,8 +576,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 20.8,
-      "store_count": 260
+      "avg_price": 20.79,
+      "store_count": 261
     },
     {
       "state": "WV",
@@ -754,6 +754,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:52:54.034200+00:00"
+    },
+    {
+      "store_number": "042880",
+      "store_name": "Taco Bell",
+      "city": "Kingsland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:43:44.002203+00:00"
+    },
+    {
+      "store_number": "026388",
+      "store_name": "Taco Bell",
+      "city": "Central Islip",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 22.79,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:43:11.337236+00:00"
+    },
+    {
+      "store_number": "028875",
+      "store_name": "Taco Bell",
+      "city": "Connersville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 18.79,
+      "observed_at": "2026-04-13T21:32:16.778587+00:00"
+    },
+    {
+      "store_number": "031858",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 23.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:49.983787+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-04-13T21:30:25.555055+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:54.515613+00:00"
+    },
     {
       "store_number": "032542",
       "store_name": "Taco Bell",
@@ -1156,8 +1226,8 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
-    "removed": 13,
+    "added": 20,
+    "removed": 18,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2554,6 +2624,15 @@
       18.79,
       "Taco Bell",
       "Brazil",
+      "IN"
+    ],
+    [
+      "028875",
+      39.66025910793475,
+      -85.12884885819403,
+      18.79,
+      "Taco Bell",
+      "Connersville",
       "IN"
     ],
     [
@@ -35479,15 +35558,6 @@
       "IL"
     ],
     [
-      "026388",
-      40.789836717551786,
-      -73.20480727169577,
-      22.79,
-      "Taco Bell",
-      "Central Islip",
-      "NY"
-    ],
-    [
       "032099",
       42.29698063006278,
       -87.95606553554535,
@@ -48772,15 +48842,6 @@
       "IL"
     ],
     [
-      "042880",
-      30.788669235008257,
-      -81.6504080593586,
-      22.99,
-      "Taco Bell",
-      "Kingsland",
-      "GA"
-    ],
-    [
       "042912",
       25.76057939916969,
       -80.41839568759315,
@@ -50192,15 +50253,6 @@
       "Taco Bell",
       "Hanover",
       "PA"
-    ],
-    [
-      "038911",
-      40.07846157619223,
-      -82.42877130212037,
-      22.99,
-      "Taco Bell",
-      "Newark",
-      "OH"
     ],
     [
       "036273",
@@ -52552,15 +52604,6 @@
       "MD"
     ],
     [
-      "037166",
-      41.9426279,
-      -84.648124,
-      23.49,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
-    ],
-    [
       "037014",
       39.15837927183151,
       -122.14118016343343,
@@ -54251,6 +54294,15 @@
       "Taco Bell",
       "Fairbanks",
       "AK"
+    ],
+    [
+      "039988",
+      38.784601877897316,
+      -76.79534420371056,
+      23.49,
+      "Taco Bell",
+      "Upper Marlboro",
+      "MD"
     ],
     [
       "029586",
@@ -63089,15 +63141,6 @@
       "Taco Bell",
       "Livermore",
       "CA"
-    ],
-    [
-      "031858",
-      39.49330801654719,
-      -119.78853004445779,
-      23.99,
-      "Taco Bell",
-      "Reno",
-      "NV"
     ],
     [
       "039837",

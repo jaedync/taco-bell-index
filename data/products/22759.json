@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.7,
+  "availability_pct": 99.6,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7680
+    "store_count": 7678
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7680
+      "count": 7678
     }
   ],
   "state_prices": [
@@ -119,7 +119,7 @@
     {
       "state": "NJ",
       "avg_price": 0.0,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "NH",
@@ -199,7 +199,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "IL",
@@ -214,7 +214,7 @@
     {
       "state": "IA",
       "avg_price": 0.0,
-      "store_count": 47
+      "store_count": 48
     },
     {
       "state": "HI",
@@ -264,7 +264,7 @@
     {
       "state": "AR",
       "avg_price": 0.0,
-      "store_count": 113
+      "store_count": 112
     },
     {
       "state": "AL",
@@ -2710,7 +2710,6 @@
     "037542",
     "029580",
     "042897",
-    "039109",
     "030436",
     "022391",
     "037057",
@@ -3515,6 +3514,7 @@
     "017183",
     "023140",
     "029546",
+    "037052",
     "032118",
     "032950",
     "041219",
@@ -4186,7 +4186,6 @@
     "019294",
     "020548",
     "032374",
-    "034786",
     "003488",
     "031864",
     "028909",
@@ -5769,7 +5768,6 @@
     "041564",
     "030576",
     "032087",
-    "003943",
     "024416",
     "032933",
     "034170",
@@ -8119,6 +8117,46 @@
   ],
   "price_changes": [
     {
+      "store_number": "003943",
+      "store_name": "Taco Bell",
+      "city": "Fayetteville",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:32:25.710478+00:00"
+    },
+    {
+      "store_number": "034786",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:07.328966+00:00"
+    },
+    {
+      "store_number": "037052",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-13T21:30:44.252420+00:00"
+    },
+    {
+      "store_number": "039109",
+      "store_name": "Taco Bell",
+      "city": "Woodbridge",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:06.812817+00:00"
+    },
+    {
       "store_number": "036244",
       "store_name": "Taco Bell",
       "city": "Sparks",
@@ -8880,8 +8918,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 38,
+    "added": 39,
+    "removed": 41,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30005,15 +30043,6 @@
       "FL"
     ],
     [
-      "039109",
-      40.569581297345955,
-      -74.29164558649063,
-      0.0,
-      "Taco Bell",
-      "Woodbridge",
-      "NJ"
-    ],
-    [
       "030436",
       27.76119577309554,
       -82.73583769798279,
@@ -37250,6 +37279,15 @@
       "NC"
     ],
     [
+      "037052",
+      41.98198548377206,
+      -91.66368036414497,
+      0.0,
+      "Taco Bell",
+      "Cedar Rapids",
+      "IA"
+    ],
+    [
       "032118",
       41.73757343047866,
       -86.33617569113078,
@@ -43287,15 +43325,6 @@
       "Taco Bell",
       "Philadelphia",
       "PA"
-    ],
-    [
-      "034786",
-      37.97724933062687,
-      -87.6292207436168,
-      0.0,
-      "Taco Bell",
-      "Evansville",
-      "IN"
     ],
     [
       "003488",
@@ -57534,15 +57563,6 @@
       "Taco Bell",
       "Saint Joseph",
       "MI"
-    ],
-    [
-      "003943",
-      36.05535620813622,
-      -94.18912884593283,
-      0.0,
-      "Taco Bell",
-      "Fayetteville",
-      "AR"
     ],
     [
       "024416",

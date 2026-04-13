@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:16.540343+00:00",
   "availability_pct": 1.1,
   "price_stats": {
-    "avg": 6.73,
+    "avg": 6.74,
     "min": 6.49,
     "max": 6.99,
-    "median": 6.49,
+    "median": 6.99,
     "std_dev": 0.25,
-    "store_count": 84
+    "store_count": 81
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 43
+      "count": 40
     },
     {
       "bucket": "$6.99",
@@ -35,8 +35,8 @@
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 6.73,
-      "store_count": 84
+      "avg_price": 6.74,
+      "store_count": 81
     }
   ],
   "nutrition": {
@@ -138,18 +138,15 @@
     "031735",
     "035439",
     "017099",
-    "029390",
     "027826",
     "029521",
     "035443",
     "030590",
-    "016830",
     "035433",
     "035426",
     "035424",
     "029889",
     "027878",
-    "035445",
     "018722",
     "035442",
     "023184",
@@ -243,6 +240,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035445",
+      "store_name": "Taco Bell",
+      "city": "McKinney",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:35.246631+00:00"
+    },
+    {
+      "store_number": "016830",
+      "store_name": "Taco Bell",
+      "city": "Haltom City",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:06.631376+00:00"
+    },
+    {
+      "store_number": "029390",
+      "store_name": "Taco Bell",
+      "city": "Frisco",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:58.062161+00:00"
+    },
     {
       "store_number": "019792",
       "store_name": "Taco Bell",
@@ -346,7 +373,7 @@
   ],
   "activity_summary": {
     "added": 3,
-    "removed": 7,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -464,15 +491,6 @@
       "TX"
     ],
     [
-      "029390",
-      33.11540135089257,
-      -96.84183434398619,
-      6.49,
-      "Taco Bell",
-      "Frisco",
-      "TX"
-    ],
-    [
       "027826",
       32.772854916935195,
       -97.4008444147489,
@@ -506,15 +524,6 @@
       6.49,
       "Taco Bell",
       "McKinney",
-      "TX"
-    ],
-    [
-      "016830",
-      32.86063215012327,
-      -97.28947564959526,
-      6.49,
-      "Taco Bell",
-      "Haltom City",
       "TX"
     ],
     [
@@ -560,15 +569,6 @@
       6.49,
       "Taco Bell",
       "Carrollton",
-      "TX"
-    ],
-    [
-      "035445",
-      33.20554556166536,
-      -96.73233215512482,
-      6.49,
-      "Taco Bell",
-      "McKinney",
       "TX"
     ],
     [

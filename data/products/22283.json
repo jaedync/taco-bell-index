@@ -14,14 +14,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 93.5,
+  "availability_pct": 93.4,
   "price_stats": {
     "avg": 1.71,
     "min": 1.0,
     "max": 6.99,
     "median": 1.59,
     "std_dev": 0.31,
-    "store_count": 7206
+    "store_count": 7201
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.39",
-      "count": 323
+      "count": 322
     },
     {
       "bucket": "$1.43",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 1671
+      "count": 1668
     },
     {
       "bucket": "$1.61",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1057
+      "count": 1056
     },
     {
       "bucket": "$2.00",
@@ -249,7 +249,7 @@
     {
       "state": "IL",
       "avg_price": 1.91,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "CA",
@@ -282,14 +282,19 @@
       "store_count": 49
     },
     {
+      "state": "OR",
+      "avg_price": 1.76,
+      "store_count": 121
+    },
+    {
       "state": "MI",
       "avg_price": 1.76,
       "store_count": 348
     },
     {
-      "state": "OR",
-      "avg_price": 1.76,
-      "store_count": 122
+      "state": "GA",
+      "avg_price": 1.72,
+      "store_count": 13
     },
     {
       "state": "NV",
@@ -300,11 +305,6 @@
       "state": "AZ",
       "avg_price": 1.71,
       "store_count": 193
-    },
-    {
-      "state": "GA",
-      "avg_price": 1.71,
-      "store_count": 14
     },
     {
       "state": "SC",
@@ -359,7 +359,7 @@
     {
       "state": "AR",
       "avg_price": 1.63,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "KY",
@@ -454,7 +454,7 @@
     {
       "state": "LA",
       "avg_price": 1.39,
-      "store_count": 134
+      "store_count": 133
     }
   ],
   "nutrition": {
@@ -664,6 +664,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020968",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:48:16.330118+00:00"
+    },
+    {
+      "store_number": "042880",
+      "store_name": "Taco Bell",
+      "city": "Kingsland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:43:44.002203+00:00"
+    },
+    {
+      "store_number": "032587",
+      "store_name": "Taco Bell",
+      "city": "Albany",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:38:38.169106+00:00"
+    },
+    {
+      "store_number": "041564",
+      "store_name": "Taco Bell",
+      "city": "Mandeville",
+      "state": "LA",
+      "change_type": "item_removed",
+      "old_price": 1.39,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:32:25.545018+00:00"
+    },
+    {
+      "store_number": "027036",
+      "store_name": "Taco Bell",
+      "city": "Paragould",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:56.392993+00:00"
+    },
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-13T21:30:31.636989+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:54.515613+00:00"
+    },
     {
       "store_number": "032107",
       "store_name": "Taco Bell",
@@ -6306,8 +6376,8 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
-    "removed": 515,
+    "added": 27,
+    "removed": 521,
     "price_changed": 23,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9762,15 +9832,6 @@
       "Taco Bell",
       "Sweetwater",
       "TX"
-    ],
-    [
-      "041564",
-      30.364487963491538,
-      -90.06277128605099,
-      1.39,
-      "Taco Bell",
-      "Mandeville",
-      "LA"
     ],
     [
       "016664",
@@ -15639,6 +15700,15 @@
       "Taco Bell",
       "Bolivar",
       "TN"
+    ],
+    [
+      "032107",
+      42.180071475785965,
+      -86.26249767316433,
+      1.49,
+      "Taco Bell",
+      "Watervliet",
+      "MI"
     ],
     [
       "027983",
@@ -23505,15 +23575,6 @@
       "Taco Bell",
       "Smithfield",
       "VA"
-    ],
-    [
-      "020968",
-      40.55787559454591,
-      -90.03479019554106,
-      1.49,
-      "Taco Bell",
-      "Canton",
-      "IL"
     ],
     [
       "038895",
@@ -35522,15 +35583,6 @@
       "AR"
     ],
     [
-      "027036",
-      36.060226564607156,
-      -90.51954616607873,
-      1.59,
-      "Taco Bell",
-      "Paragould",
-      "AR"
-    ],
-    [
       "029290",
       36.22242082970714,
       -83.26278810204712,
@@ -36492,15 +36544,6 @@
       "Taco Bell",
       "Athens",
       "TX"
-    ],
-    [
-      "032587",
-      44.64119546478327,
-      -123.06556605524727,
-      1.59,
-      "Taco Bell",
-      "Albany",
-      "OR"
     ],
     [
       "042956",
@@ -38193,15 +38236,6 @@
       "Taco Bell",
       "Austin",
       "TX"
-    ],
-    [
-      "042880",
-      30.788669235008257,
-      -81.6504080593586,
-      1.59,
-      "Taco Bell",
-      "Kingsland",
-      "GA"
     ],
     [
       "042912",
@@ -58434,15 +58468,6 @@
       "Taco Bell",
       "Southern Shores",
       "NC"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      1.99,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
     ],
     [
       "037074",

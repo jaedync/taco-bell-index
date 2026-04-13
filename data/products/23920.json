@@ -20,19 +20,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 42
+    "store_count": 41
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 42
+      "count": 41
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 6.99,
-      "store_count": 42
+      "store_count": 41
     }
   ],
   "nutrition": {
@@ -68,13 +68,6 @@
       "store_number": "034950",
       "name": "Taco Bell",
       "city": "Fort Worth",
-      "state": "TX",
-      "price": 6.99
-    },
-    {
-      "store_number": "037009",
-      "name": "Taco Bell",
-      "city": "Melissa",
       "state": "TX",
       "price": 6.99
     },
@@ -119,13 +112,19 @@
       "city": "Granbury",
       "state": "TX",
       "price": 6.99
+    },
+    {
+      "store_number": "035372",
+      "name": "Taco Bell",
+      "city": "Burleson",
+      "state": "TX",
+      "price": 6.99
     }
   ],
   "min_price_store_numbers": [
     "040361",
     "041893",
     "034950",
-    "037009",
     "037210",
     "037111",
     "027866",
@@ -239,6 +238,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "037009",
+      "store_name": "Taco Bell",
+      "city": "Melissa",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:54.488289+00:00"
+    },
+    {
       "store_number": "024459",
       "store_name": "Taco Bell",
       "city": "Rowlett",
@@ -281,7 +290,7 @@
   ],
   "activity_summary": {
     "added": 1,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -315,15 +324,6 @@
       6.99,
       "Taco Bell",
       "Fort Worth",
-      "TX"
-    ],
-    [
-      "037009",
-      33.2834,
-      -96.5621,
-      6.99,
-      "Taco Bell",
-      "Melissa",
       "TX"
     ],
     [

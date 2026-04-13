@@ -18,7 +18,7 @@
     "max": 13.99,
     "median": 8.19,
     "std_dev": 0.57,
-    "store_count": 6506
+    "store_count": 6503
   },
   "histogram": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 2212
+      "count": 2211
     },
     {
       "bucket": "$8.00",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$8.19",
-      "count": 478
+      "count": 479
     },
     {
       "bucket": "$8.20",
@@ -103,11 +103,11 @@
     },
     {
       "bucket": "$8.39",
-      "count": 99
+      "count": 98
     },
     {
       "bucket": "$8.49",
-      "count": 371
+      "count": 369
     },
     {
       "bucket": "$8.59",
@@ -304,12 +304,12 @@
     {
       "state": "IA",
       "avg_price": 8.73,
-      "store_count": 47
+      "store_count": 46
     },
     {
       "state": "FL",
       "avg_price": 8.69,
-      "store_count": 417
+      "store_count": 418
     },
     {
       "state": "CA",
@@ -329,7 +329,7 @@
     {
       "state": "IL",
       "avg_price": 8.48,
-      "store_count": 285
+      "store_count": 284
     },
     {
       "state": "DC",
@@ -394,22 +394,22 @@
     {
       "state": "NV",
       "avg_price": 8.24,
-      "store_count": 84
-    },
-    {
-      "state": "WV",
-      "avg_price": 8.2,
-      "store_count": 67
+      "store_count": 83
     },
     {
       "state": "WI",
       "avg_price": 8.2,
-      "store_count": 143
+      "store_count": 142
+    },
+    {
+      "state": "WV",
+      "avg_price": 8.19,
+      "store_count": 66
     },
     {
       "state": "NC",
       "avg_price": 8.18,
-      "store_count": 259
+      "store_count": 260
     },
     {
       "state": "MO",
@@ -665,6 +665,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.19,
+      "observed_at": "2026-04-13T21:39:42.460037+00:00"
+    },
+    {
+      "store_number": "037055",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 8.39,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:53.617486+00:00"
+    },
+    {
+      "store_number": "031485",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:36.281534+00:00"
+    },
+    {
+      "store_number": "031858",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:49.983787+00:00"
+    },
+    {
+      "store_number": "032362",
+      "store_name": "Taco Bell",
+      "city": "Wheeling",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:25.303200+00:00"
+    },
+    {
+      "store_number": "037353",
+      "store_name": "Taco Bell",
+      "city": "Harwood Heights",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:29:50.855188+00:00"
+    },
+    {
+      "store_number": "042105",
+      "store_name": "Taco Bell",
+      "city": "Apex",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-04-13T21:28:26.725865+00:00"
+    },
     {
       "store_number": "036244",
       "store_name": "Taco Bell",
@@ -12407,8 +12477,8 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
-    "removed": 1127,
+    "added": 48,
+    "removed": 1132,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29779,15 +29849,6 @@
       "TN"
     ],
     [
-      "031485",
-      42.986130962699995,
-      -88.00816972555367,
-      7.99,
-      "Taco Bell",
-      "Milwaukee",
-      "WI"
-    ],
-    [
       "024467",
       39.76860175436249,
       -94.8040983975261,
@@ -42181,6 +42242,15 @@
       "SC"
     ],
     [
+      "042841",
+      26.621883702519558,
+      -81.94119036197668,
+      8.19,
+      "Taco Bell",
+      "Cape Coral",
+      "FL"
+    ],
+    [
       "034696",
       35.56774482559626,
       -88.81542921066278,
@@ -45286,15 +45356,6 @@
       "IL"
     ],
     [
-      "037055",
-      42.03420651677171,
-      -91.68065488834833,
-      8.39,
-      "Taco Bell",
-      "Cedar Rapids",
-      "IA"
-    ],
-    [
       "037059",
       42.489447,
       -90.664758,
@@ -46249,15 +46310,6 @@
       "MO"
     ],
     [
-      "037353",
-      41.97223363460947,
-      -87.80749245161358,
-      8.49,
-      "Taco Bell",
-      "Harwood Heights",
-      "IL"
-    ],
-    [
       "036200",
       42.06056872214917,
       -87.84452317049727,
@@ -46796,15 +46848,6 @@
       "Taco Bell",
       "O'Fallon",
       "MO"
-    ],
-    [
-      "031858",
-      39.49330801654719,
-      -119.78853004445779,
-      8.49,
-      "Taco Bell",
-      "Reno",
-      "NV"
     ],
     [
       "027773",
@@ -63691,15 +63734,6 @@
       "NY"
     ],
     [
-      "032362",
-      40.075937449579435,
-      -80.69801586170358,
-      8.99,
-      "Taco Bell",
-      "Wheeling",
-      "WV"
-    ],
-    [
       "029586",
       27.996234516179047,
       -82.56642937660217,
@@ -67523,6 +67557,15 @@
       "Taco Bell",
       "Jeffersonville",
       "OH"
+    ],
+    [
+      "042105",
+      35.741667,
+      -78.917378,
+      8.99,
+      "Taco Bell",
+      "Apex",
+      "NC"
     ],
     [
       "041644",

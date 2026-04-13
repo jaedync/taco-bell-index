@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.42,
+    "avg": 5.43,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.17,
-    "store_count": 23
+    "store_count": 24
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 20
+      "count": 21
     }
   ],
   "state_prices": [
@@ -135,6 +135,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029050",
+      "name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "price": 5.49
+    },
+    {
       "store_number": "039923",
       "name": "Taco Bell",
       "city": "Statesboro",
@@ -196,16 +203,19 @@
       "city": "Albany",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "041257",
-      "name": "Taco Bell",
-      "city": "Cumming",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-13T21:29:41.945759+00:00"
+    },
     {
       "store_number": "033445",
       "store_name": "Taco Bell",
@@ -578,7 +588,7 @@
     }
   ],
   "activity_summary": {
-    "added": 17,
+    "added": 18,
     "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -794,6 +804,15 @@
       "Taco Bell",
       "Statesboro",
       "GA"
+    ],
+    [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      5.49,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
     ]
   ]
 }

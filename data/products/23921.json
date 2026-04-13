@@ -20,23 +20,23 @@
     "max": 6.99,
     "median": 6.49,
     "std_dev": 0.25,
-    "store_count": 87
+    "store_count": 85
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 44
+      "count": 43
     },
     {
       "bucket": "$6.99",
-      "count": 43
+      "count": 42
     }
   ],
   "state_prices": [
     {
       "state": "TX",
       "avg_price": 6.74,
-      "store_count": 87
+      "store_count": 85
     }
   ],
   "nutrition": {
@@ -148,7 +148,6 @@
     "018792",
     "034585",
     "029890",
-    "035450",
     "023093",
     "034589",
     "017323",
@@ -244,6 +243,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035450",
+      "store_name": "Taco Bell",
+      "city": "The Colony",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:24.350426+00:00"
+    },
+    {
+      "store_number": "037009",
+      "store_name": "Taco Bell",
+      "city": "Melissa",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:27:54.488289+00:00"
+    },
     {
       "store_number": "027868",
       "store_name": "Taco Bell",
@@ -347,7 +366,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 5,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -552,15 +571,6 @@
       6.49,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "035450",
-      33.06960504544646,
-      -96.87392599999998,
-      6.49,
-      "Taco Bell",
-      "The Colony",
       "TX"
     ],
     [
@@ -777,15 +787,6 @@
       6.99,
       "Taco Bell",
       "Fort Worth",
-      "TX"
-    ],
-    [
-      "037009",
-      33.2834,
-      -96.5621,
-      6.99,
-      "Taco Bell",
-      "Melissa",
       "TX"
     ],
     [

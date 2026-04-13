@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 90.9,
+  "availability_pct": 90.8,
   "price_stats": {
     "avg": 0.97,
     "min": 0.3,
     "max": 2.19,
     "median": 1.0,
     "std_dev": 0.23,
-    "store_count": 7002
+    "store_count": 7000
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.85",
-      "count": 852
+      "count": 850
     },
     {
       "bucket": "$0.86",
@@ -265,14 +265,14 @@
       "store_count": 835
     },
     {
+      "state": "MT",
+      "avg_price": 1.08,
+      "store_count": 27
+    },
+    {
       "state": "VA",
       "avg_price": 1.07,
       "store_count": 198
-    },
-    {
-      "state": "MT",
-      "avg_price": 1.07,
-      "store_count": 26
     },
     {
       "state": "NC",
@@ -282,7 +282,7 @@
     {
       "state": "MA",
       "avg_price": 1.04,
-      "store_count": 65
+      "store_count": 64
     },
     {
       "state": "IA",
@@ -352,7 +352,7 @@
     {
       "state": "IN",
       "avg_price": 0.95,
-      "store_count": 231
+      "store_count": 230
     },
     {
       "state": "MD",
@@ -387,7 +387,7 @@
     {
       "state": "KY",
       "avg_price": 0.89,
-      "store_count": 158
+      "store_count": 157
     },
     {
       "state": "NJ",
@@ -633,6 +633,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036154",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 0.85,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:49:46.688008+00:00"
+    },
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 1.2,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:51.979463+00:00"
+    },
+    {
+      "store_number": "032114",
+      "store_name": "Taco Bell",
+      "city": "South Bend",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.85,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:01.880424+00:00"
+    },
+    {
+      "store_number": "009552",
+      "store_name": "Taco Bell",
+      "city": "Kalispell",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.2,
+      "observed_at": "2026-04-13T21:30:58.341648+00:00"
+    },
     {
       "store_number": "029061",
       "store_name": "Taco Bell",
@@ -7005,8 +7045,8 @@
     }
   ],
   "activity_summary": {
-    "added": 14,
-    "removed": 623,
+    "added": 15,
+    "removed": 626,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23828,15 +23868,6 @@
       "AR"
     ],
     [
-      "032114",
-      41.6724770623205,
-      -86.32028549909592,
-      0.85,
-      "Taco Bell",
-      "South Bend",
-      "IN"
-    ],
-    [
       "009571",
       34.479723624135836,
       -91.55825346708298,
@@ -27048,15 +27079,6 @@
       "Taco Bell",
       "Granite City",
       "IL"
-    ],
-    [
-      "036154",
-      38.24499927422181,
-      -85.52281111478806,
-      0.85,
-      "Taco Bell",
-      "Middletown",
-      "KY"
     ],
     [
       "028488",
@@ -61736,6 +61758,15 @@
       "OH"
     ],
     [
+      "009552",
+      48.203751946103424,
+      -114.30690340575218,
+      1.2,
+      "Taco Bell",
+      "Kalispell",
+      "MT"
+    ],
+    [
       "031641",
       31.826107021011158,
       -106.44463071230348,
@@ -62202,15 +62233,6 @@
       "Taco Bell",
       "Fullerton",
       "CA"
-    ],
-    [
-      "029263",
-      42.50358312787979,
-      -70.92246077476568,
-      1.2,
-      "Taco Bell",
-      "Salem",
-      "MA"
     ],
     [
       "028719",

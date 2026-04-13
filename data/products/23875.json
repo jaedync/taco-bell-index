@@ -11,31 +11,31 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:15.152915+00:00",
-  "availability_pct": 1.5,
+  "availability_pct": 1.4,
   "price_stats": {
     "avg": 4.49,
     "min": 4.49,
     "max": 4.49,
     "median": 4.49,
     "std_dev": 0.0,
-    "store_count": 112
+    "store_count": 105
   },
   "histogram": [
     {
       "bucket": "$4.49",
-      "count": 112
+      "count": 105
     }
   ],
   "state_prices": [
     {
       "state": "IN",
       "avg_price": 4.49,
-      "store_count": 19
+      "store_count": 18
     },
     {
       "state": "IL",
       "avg_price": 4.49,
-      "store_count": 93
+      "store_count": 87
     }
   ],
   "nutrition": {
@@ -89,13 +89,6 @@
       "price": 4.49
     },
     {
-      "store_number": "040902",
-      "name": "Taco Bell",
-      "city": "Romeoville",
-      "state": "IL",
-      "price": 4.49
-    },
-    {
       "store_number": "040904",
       "name": "Taco Bell",
       "city": "Chicago",
@@ -122,6 +115,13 @@
       "city": "Westville",
       "state": "IN",
       "price": 4.49
+    },
+    {
+      "store_number": "041638",
+      "name": "Taco Bell",
+      "city": "La Porte",
+      "state": "IN",
+      "price": 4.49
     }
   ],
   "min_price_store_numbers": [
@@ -130,7 +130,6 @@
     "041205",
     "041099",
     "041795",
-    "040902",
     "040904",
     "041843",
     "041497",
@@ -151,6 +150,7 @@
     "036430",
     "037826",
     "002682",
+    "002907",
     "032104",
     "002872",
     "005090",
@@ -159,7 +159,6 @@
     "026752",
     "002750",
     "002873",
-    "002998",
     "026757",
     "032106",
     "032487",
@@ -168,18 +167,16 @@
     "030402",
     "015757",
     "016508",
+    "002156",
     "032086",
-    "027898",
     "016605",
     "027903",
     "026753",
     "019752",
     "015971",
-    "002693",
     "027902",
     "027896",
     "032084",
-    "032490",
     "041816",
     "004191",
     "030651",
@@ -201,7 +198,6 @@
     "032168",
     "030539",
     "026738",
-    "032111",
     "005514",
     "027890",
     "032488",
@@ -216,13 +212,10 @@
     "042744",
     "026735",
     "026747",
-    "026750",
-    "002459",
     "032031",
     "004752",
     "002076",
     "031070",
-    "026748",
     "030403",
     "003157",
     "037359",
@@ -311,6 +304,116 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040902",
+      "store_name": "Taco Bell",
+      "city": "Romeoville",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T22:02:52.356992+00:00"
+    },
+    {
+      "store_number": "026748",
+      "store_name": "Taco Bell",
+      "city": "Elgin",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:53:03.381016+00:00"
+    },
+    {
+      "store_number": "002459",
+      "store_name": "Taco Bell",
+      "city": "Aurora",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:49:48.621004+00:00"
+    },
+    {
+      "store_number": "026750",
+      "store_name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:49:47.372923+00:00"
+    },
+    {
+      "store_number": "032111",
+      "store_name": "Taco Bell",
+      "city": "Zion",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:39:02.592582+00:00"
+    },
+    {
+      "store_number": "032490",
+      "store_name": "Taco Bell",
+      "city": "Michigan City",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:17.605484+00:00"
+    },
+    {
+      "store_number": "002693",
+      "store_name": "Taco Bell",
+      "city": "Bolingbrook",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:07.461595+00:00"
+    },
+    {
+      "store_number": "027898",
+      "store_name": "Taco Bell",
+      "city": "Peru",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:59.242992+00:00"
+    },
+    {
+      "store_number": "002156",
+      "store_name": "Taco Bell",
+      "city": "Countryside",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-13T21:30:54.042459+00:00"
+    },
+    {
+      "store_number": "002998",
+      "store_name": "Taco Bell",
+      "city": "Bloomingdale",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:30:27.881926+00:00"
+    },
+    {
+      "store_number": "002907",
+      "store_name": "Taco Bell",
+      "city": "Des Plaines",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-13T21:29:59.605384+00:00"
+    },
     {
       "store_number": "027897",
       "store_name": "Taco Bell",
@@ -913,8 +1016,8 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
-    "removed": 42,
+    "added": 20,
+    "removed": 51,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -966,15 +1069,6 @@
       4.49,
       "Taco Bell",
       "Hazel Crest",
-      "IL"
-    ],
-    [
-      "040902",
-      41.6519,
-      -88.08,
-      4.49,
-      "Taco Bell",
-      "Romeoville",
       "IL"
     ],
     [
@@ -1158,6 +1252,15 @@
       "IL"
     ],
     [
+      "002907",
+      42.03453129614077,
+      -87.94019766225945,
+      4.49,
+      "Taco Bell",
+      "Des Plaines",
+      "IL"
+    ],
+    [
       "032104",
       42.27607779611406,
       -88.04039075033876,
@@ -1227,15 +1330,6 @@
       4.49,
       "Taco Bell",
       "Darien",
-      "IL"
-    ],
-    [
-      "002998",
-      41.951613180825404,
-      -88.12001019716263,
-      4.49,
-      "Taco Bell",
-      "Bloomingdale",
       "IL"
     ],
     [
@@ -1311,21 +1405,21 @@
       "IL"
     ],
     [
+      "002156",
+      41.78832825319039,
+      -87.86825188656755,
+      4.49,
+      "Taco Bell",
+      "Countryside",
+      "IL"
+    ],
+    [
       "032086",
       42.39295289953766,
       -88.18411019135986,
       4.49,
       "Taco Bell",
       "Fox Lake",
-      "IL"
-    ],
-    [
-      "027898",
-      41.37133789187073,
-      -89.12657618522638,
-      4.49,
-      "Taco Bell",
-      "Peru",
       "IL"
     ],
     [
@@ -1374,15 +1468,6 @@
       "IN"
     ],
     [
-      "002693",
-      41.710178163920204,
-      -88.06827150290701,
-      4.49,
-      "Taco Bell",
-      "Bolingbrook",
-      "IL"
-    ],
-    [
       "027902",
       41.48403772544979,
       -87.70240634679789,
@@ -1408,15 +1493,6 @@
       "Taco Bell",
       "McHenry",
       "IL"
-    ],
-    [
-      "032490",
-      41.68289460155715,
-      -86.89345707000939,
-      4.49,
-      "Taco Bell",
-      "Michigan City",
-      "IN"
     ],
     [
       "041816",
@@ -1608,15 +1684,6 @@
       "IL"
     ],
     [
-      "032111",
-      42.459820634799634,
-      -87.82470166683197,
-      4.49,
-      "Taco Bell",
-      "Zion",
-      "IL"
-    ],
-    [
       "005514",
       41.94137199999999,
       -88.15278061226849,
@@ -1743,24 +1810,6 @@
       "IL"
     ],
     [
-      "026750",
-      42.13960830699689,
-      -88.01524109830522,
-      4.49,
-      "Taco Bell",
-      "Palatine",
-      "IL"
-    ],
-    [
-      "002459",
-      41.78094868070382,
-      -88.31737310280307,
-      4.49,
-      "Taco Bell",
-      "Aurora",
-      "IL"
-    ],
-    [
       "032031",
       41.67910169304596,
       -87.72018933312398,
@@ -1795,15 +1844,6 @@
       "Taco Bell",
       "Highland",
       "IN"
-    ],
-    [
-      "026748",
-      42.04681036975942,
-      -88.25406894834487,
-      4.49,
-      "Taco Bell",
-      "Elgin",
-      "IL"
     ],
     [
       "030403",

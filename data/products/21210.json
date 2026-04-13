@@ -13,19 +13,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.0,
+  "availability_pct": 91.9,
   "price_stats": {
-    "avg": 4.63,
+    "avg": 4.64,
     "min": 4.0,
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7086
+    "store_count": 7084
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5246
+      "count": 5244
     },
     {
       "bucket": "$4.19",
@@ -182,8 +182,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.75,
-      "store_count": 431
+      "avg_price": 5.74,
+      "store_count": 432
     },
     {
       "state": "CA",
@@ -197,8 +197,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 5.21,
-      "store_count": 243
+      "avg_price": 5.2,
+      "store_count": 241
     },
     {
       "state": "UT",
@@ -207,8 +207,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 5.01,
-      "store_count": 108
+      "avg_price": 5.04,
+      "store_count": 109
     },
     {
       "state": "HI",
@@ -298,7 +298,7 @@
     {
       "state": "PA",
       "avg_price": 4.12,
-      "store_count": 181
+      "store_count": 180
     },
     {
       "state": "MA",
@@ -328,7 +328,7 @@
     {
       "state": "VA",
       "avg_price": 4.03,
-      "store_count": 179
+      "store_count": 178
     },
     {
       "state": "NE",
@@ -732,7 +732,6 @@
     "041999",
     "041915",
     "042117",
-    "041658",
     "032624",
     "040952",
     "042001",
@@ -1248,6 +1247,7 @@
     "042449",
     "042225",
     "042706",
+    "041833",
     "042243",
     "042603",
     "042795",
@@ -2978,7 +2978,6 @@
     "027868",
     "029060",
     "041213",
-    "027641",
     "032678",
     "036485",
     "015194",
@@ -4513,7 +4512,6 @@
     "018733",
     "033791",
     "036121",
-    "030570",
     "019579",
     "019713",
     "018891",
@@ -5811,6 +5809,66 @@
   ],
   "price_changes": [
     {
+      "store_number": "004779",
+      "store_name": "Taco Bell",
+      "city": "Smithfield",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:49:47.498090+00:00"
+    },
+    {
+      "store_number": "030570",
+      "store_name": "Taco Bell",
+      "city": "Whiteville",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:39:39.955082+00:00"
+    },
+    {
+      "store_number": "027641",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:31:00.423535+00:00"
+    },
+    {
+      "store_number": "042949",
+      "store_name": "Taco Bell",
+      "city": "Anderson",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-13T21:30:40.141705+00:00"
+    },
+    {
+      "store_number": "041833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-13T21:28:27.078080+00:00"
+    },
+    {
+      "store_number": "041658",
+      "store_name": "Taco Bell",
+      "city": "Berwick",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-13T21:24:23.418017+00:00"
+    },
+    {
       "store_number": "032668",
       "store_name": "Taco Bell",
       "city": "Glen Burnie",
@@ -6412,8 +6470,8 @@
     }
   ],
   "activity_summary": {
-    "added": 23,
-    "removed": 24,
+    "added": 25,
+    "removed": 28,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8624,15 +8682,6 @@
       "Taco Bell",
       "Collinsville",
       "IL"
-    ],
-    [
-      "041658",
-      41.04678561305602,
-      -76.27285989181264,
-      4.0,
-      "Taco Bell",
-      "Berwick",
-      "PA"
     ],
     [
       "032624",
@@ -13268,6 +13317,15 @@
       "Taco Bell",
       "Fort Wayne",
       "IN"
+    ],
+    [
+      "041833",
+      28.546889,
+      -81.662737,
+      4.0,
+      "Taco Bell",
+      "Clermont",
+      "FL"
     ],
     [
       "042243",
@@ -28840,15 +28898,6 @@
       "GA"
     ],
     [
-      "027641",
-      36.90594685598158,
-      -76.15080495180337,
-      4.0,
-      "Taco Bell",
-      "Virginia Beach",
-      "VA"
-    ],
-    [
       "032678",
       39.22407233365972,
       -76.65945307473166,
@@ -42653,15 +42702,6 @@
       "Taco Bell",
       "Auburn",
       "CA"
-    ],
-    [
-      "030570",
-      34.30539397310944,
-      -78.71824452284272,
-      4.0,
-      "Taco Bell",
-      "Whiteville",
-      "NC"
     ],
     [
       "019579",
@@ -65794,6 +65834,15 @@
       "NC"
     ],
     [
+      "042949",
+      34.48994504162863,
+      -82.6760813668534,
+      7.99,
+      "Taco Bell",
+      "Anderson",
+      "SC"
+    ],
+    [
       "001872",
       35.858721341470904,
       -78.70536898078171,
@@ -68708,15 +68757,6 @@
       "Taco Bell",
       "Lakeside",
       "CA"
-    ],
-    [
-      "004779",
-      35.51995953592308,
-      -78.31256349386422,
-      7.99,
-      "Taco Bell",
-      "Smithfield",
-      "NC"
     ],
     [
       "041630",
