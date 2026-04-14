@@ -10,26 +10,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:20.349621+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 1.0,
     "min": 1.0,
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 27
+    "store_count": 25
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 27
+      "count": 25
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.0,
-      "store_count": 27
+      "store_count": 25
     }
   ],
   "nutrition": {
@@ -133,7 +133,6 @@
     "032984",
     "032992",
     "033011",
-    "033005",
     "033026",
     "033024",
     "032994",
@@ -143,7 +142,6 @@
     "040369",
     "033015",
     "033002",
-    "033020",
     "033001",
     "042636"
   ],
@@ -159,13 +157,6 @@
       "store_number": "033001",
       "name": "Taco Bell",
       "city": "Walker",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
-      "store_number": "033020",
-      "name": "Taco Bell",
-      "city": "Grand Rapids",
       "state": "MI",
       "price": 1.0
     },
@@ -217,9 +208,36 @@
       "city": "Fremont",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "033024",
+      "name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033005",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:33.334383+00:00"
+    },
+    {
+      "store_number": "033020",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:21.198289+00:00"
+    },
     {
       "store_number": "033075",
       "store_name": "Taco Bell",
@@ -323,7 +341,7 @@
   ],
   "activity_summary": {
     "added": 4,
-    "removed": 6,
+    "removed": 8,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -459,15 +477,6 @@
       "MI"
     ],
     [
-      "033005",
-      42.914045856471176,
-      -85.71077256982463,
-      1.0,
-      "Taco Bell",
-      "Wyoming",
-      "MI"
-    ],
-    [
       "033026",
       42.26129276711484,
       -84.75579047064694,
@@ -546,15 +555,6 @@
       1.0,
       "Taco Bell",
       "Holland",
-      "MI"
-    ],
-    [
-      "033020",
-      42.842486742945276,
-      -85.62426029588096,
-      1.0,
-      "Taco Bell",
-      "Grand Rapids",
       "MI"
     ],
     [

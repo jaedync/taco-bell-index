@@ -10,23 +10,27 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:52:20.123626+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.88,
+    "avg": 6.91,
     "min": 6.49,
     "max": 7.99,
     "median": 6.99,
-    "std_dev": 0.49,
-    "store_count": 9
+    "std_dev": 0.47,
+    "store_count": 12
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$6.99",
-      "count": 4
+      "count": 5
+    },
+    {
+      "bucket": "$7.49",
+      "count": 1
     },
     {
       "bucket": "$7.99",
@@ -78,17 +82,17 @@
       "price": 6.49
     },
     {
+      "store_number": "039853",
+      "name": "Taco Bell",
+      "city": "Yorba Linda",
+      "state": "CA",
+      "price": 6.49
+    },
+    {
       "store_number": "020944",
       "name": "Taco Bell",
       "city": "Columbus",
       "state": "OH",
-      "price": 6.99
-    },
-    {
-      "store_number": "038773",
-      "name": "Taco Bell",
-      "city": "Denver",
-      "state": "CO",
       "price": 6.99
     },
     {
@@ -99,25 +103,33 @@
       "price": 6.99
     },
     {
-      "store_number": "015857",
+      "store_number": "023745",
       "name": "Taco Bell",
-      "city": "Midlothian",
-      "state": "VA",
+      "city": "Belleville",
+      "state": "MI",
       "price": 6.99
     },
     {
-      "store_number": "035312",
+      "store_number": "040536",
       "name": "Taco Bell",
-      "city": "Lacey",
-      "state": "WA",
-      "price": 7.99
+      "city": "North Madison",
+      "state": "OH",
+      "price": 6.99
+    },
+    {
+      "store_number": "032941",
+      "name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "price": 6.99
     }
   ],
   "min_price_store_numbers": [
     "030763",
     "033947",
     "042250",
-    "027951"
+    "027951",
+    "039853"
   ],
   "priciest_stores": [
     {
@@ -128,10 +140,31 @@
       "price": 7.99
     },
     {
-      "store_number": "015857",
+      "store_number": "038773",
       "name": "Taco Bell",
-      "city": "Midlothian",
-      "state": "VA",
+      "city": "Denver",
+      "state": "CO",
+      "price": 7.49
+    },
+    {
+      "store_number": "032941",
+      "name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "price": 6.99
+    },
+    {
+      "store_number": "040536",
+      "name": "Taco Bell",
+      "city": "North Madison",
+      "state": "OH",
+      "price": 6.99
+    },
+    {
+      "store_number": "023745",
+      "name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
       "price": 6.99
     },
     {
@@ -142,18 +175,18 @@
       "price": 6.99
     },
     {
-      "store_number": "038773",
-      "name": "Taco Bell",
-      "city": "Denver",
-      "state": "CO",
-      "price": 6.99
-    },
-    {
       "store_number": "020944",
       "name": "Taco Bell",
       "city": "Columbus",
       "state": "OH",
       "price": 6.99
+    },
+    {
+      "store_number": "039853",
+      "name": "Taco Bell",
+      "city": "Yorba Linda",
+      "state": "CA",
+      "price": 6.49
     },
     {
       "store_number": "027951",
@@ -168,23 +201,69 @@
       "city": "Reno",
       "state": "NV",
       "price": 6.49
-    },
-    {
-      "store_number": "033947",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 6.49
-    },
-    {
-      "store_number": "030763",
-      "name": "Taco Bell",
-      "city": "Oakland",
-      "state": "CA",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038773",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 6.99,
+      "new_price": 7.49,
+      "observed_at": "2026-04-14T21:58:32.590622+00:00"
+    },
+    {
+      "store_number": "015857",
+      "store_name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:59.947395+00:00"
+    },
+    {
+      "store_number": "039853",
+      "store_name": "Taco Bell",
+      "city": "Yorba Linda",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-14T21:57:11.874537+00:00"
+    },
+    {
+      "store_number": "032941",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-14T21:56:44.480426+00:00"
+    },
+    {
+      "store_number": "040536",
+      "store_name": "Taco Bell",
+      "city": "North Madison",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-14T21:52:27.555190+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-14T21:51:58.028354+00:00"
+    },
     {
       "store_number": "015857",
       "store_name": "Taco Bell",
@@ -367,9 +446,9 @@
     }
   ],
   "activity_summary": {
-    "added": 11,
-    "removed": 6,
-    "price_changed": 1,
+    "added": 15,
+    "removed": 7,
+    "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -414,6 +493,15 @@
       "KY"
     ],
     [
+      "039853",
+      33.8727184355753,
+      -117.74574793877946,
+      6.49,
+      "Taco Bell",
+      "Yorba Linda",
+      "CA"
+    ],
+    [
       "020944",
       40.14013051280587,
       -82.98090845346445,
@@ -421,15 +509,6 @@
       "Taco Bell",
       "Columbus",
       "OH"
-    ],
-    [
-      "038773",
-      39.815496,
-      -104.772699,
-      6.99,
-      "Taco Bell",
-      "Denver",
-      "CO"
     ],
     [
       "032994",
@@ -441,13 +520,40 @@
       "MI"
     ],
     [
-      "015857",
-      37.40973209870202,
-      -77.65383259205241,
+      "023745",
+      42.224730175482414,
+      -83.4856314762491,
       6.99,
       "Taco Bell",
-      "Midlothian",
-      "VA"
+      "Belleville",
+      "MI"
+    ],
+    [
+      "040536",
+      41.80244003361103,
+      -81.05487140445234,
+      6.99,
+      "Taco Bell",
+      "North Madison",
+      "OH"
+    ],
+    [
+      "032941",
+      45.493701722760136,
+      -122.5783984110451,
+      6.99,
+      "Taco Bell",
+      "Portland",
+      "OR"
+    ],
+    [
+      "038773",
+      39.815496,
+      -104.772699,
+      7.49,
+      "Taco Bell",
+      "Denver",
+      "CO"
     ],
     [
       "035312",

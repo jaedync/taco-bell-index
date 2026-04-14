@@ -19,19 +19,19 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 32
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 32
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 8.99,
-      "store_count": 32
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -99,13 +99,6 @@
       "price": 8.99
     },
     {
-      "store_number": "032986",
-      "name": "Taco Bell",
-      "city": "Wyoming",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
       "store_number": "032988",
       "name": "Taco Bell",
       "city": "Battle Creek",
@@ -118,6 +111,13 @@
       "city": "Fruitport",
       "state": "MI",
       "price": 8.99
+    },
+    {
+      "store_number": "033004",
+      "name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
@@ -128,10 +128,8 @@
     "032987",
     "032989",
     "042642",
-    "032986",
     "032988",
     "033044",
-    "032996",
     "033004",
     "033021",
     "033003",
@@ -228,6 +226,26 @@
   ],
   "price_changes": [
     {
+      "store_number": "032996",
+      "store_name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:31.350891+00:00"
+    },
+    {
+      "store_number": "032986",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:29.027611+00:00"
+    },
+    {
       "store_number": "039000",
       "store_name": "Taco Bell",
       "city": "Zeeland",
@@ -300,7 +318,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 2,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -386,15 +404,6 @@
       "MI"
     ],
     [
-      "032986",
-      42.91240676476649,
-      -85.65277126426932,
-      8.99,
-      "Taco Bell",
-      "Wyoming",
-      "MI"
-    ],
-    [
       "032988",
       42.260658101733554,
       -85.18805533647543,
@@ -410,15 +419,6 @@
       8.99,
       "Taco Bell",
       "Fruitport",
-      "MI"
-    ],
-    [
-      "032996",
-      42.24022920549437,
-      -85.55961099699572,
-      8.99,
-      "Taco Bell",
-      "Kalamazoo",
       "MI"
     ],
     [

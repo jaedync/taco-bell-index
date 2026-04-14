@@ -13,19 +13,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 1.0,
   "price_stats": {
-    "avg": 6.74,
+    "avg": 6.75,
     "min": 6.49,
     "max": 6.99,
-    "median": 6.49,
+    "median": 6.99,
     "std_dev": 0.25,
-    "store_count": 85
+    "store_count": 80
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 43
+      "count": 38
     },
     {
       "bucket": "$6.99",
@@ -35,8 +35,8 @@
   "state_prices": [
     {
       "state": "TX",
-      "avg_price": 6.74,
-      "store_count": 85
+      "avg_price": 6.75,
+      "store_count": 80
     }
   ],
   "nutrition": {
@@ -118,9 +118,9 @@
       "price": 6.49
     },
     {
-      "store_number": "028778",
+      "store_number": "002569",
       "name": "Taco Bell",
-      "city": "Princeton",
+      "city": "Terrell",
       "state": "TX",
       "price": 6.49
     }
@@ -135,8 +135,6 @@
     "038515",
     "026381",
     "024767",
-    "028778",
-    "035344",
     "002569",
     "019299",
     "034587",
@@ -151,12 +149,10 @@
     "023093",
     "034589",
     "017323",
-    "002582",
     "004041",
     "004787",
     "020488",
     "029886",
-    "009540",
     "029888",
     "031518",
     "027876",
@@ -165,7 +161,6 @@
     "004196",
     "028113",
     "038774",
-    "033473",
     "033929",
     "031304",
     "032211"
@@ -243,6 +238,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033473",
+      "store_name": "Taco Bell",
+      "city": "Commerce",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:35.090013+00:00"
+    },
+    {
+      "store_number": "009540",
+      "store_name": "Taco Bell",
+      "city": "Sulphur Springs",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:00.695102+00:00"
+    },
+    {
+      "store_number": "002582",
+      "store_name": "Taco Bell",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:19.551277+00:00"
+    },
+    {
+      "store_number": "035344",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:21.803702+00:00"
+    },
+    {
+      "store_number": "028778",
+      "store_name": "Taco Bell",
+      "city": "Princeton",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:19.142603+00:00"
+    },
     {
       "store_number": "035450",
       "store_name": "Taco Bell",
@@ -366,7 +411,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 7,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -454,24 +499,6 @@
       6.49,
       "Taco Bell",
       "Forney",
-      "TX"
-    ],
-    [
-      "028778",
-      33.173247498383034,
-      -96.4913727643731,
-      6.49,
-      "Taco Bell",
-      "Princeton",
-      "TX"
-    ],
-    [
-      "035344",
-      33.10253,
-      -96.109375,
-      6.49,
-      "Taco Bell",
-      "Greenville",
       "TX"
     ],
     [
@@ -601,15 +628,6 @@
       "TX"
     ],
     [
-      "002582",
-      32.79453725679027,
-      -96.61146551370621,
-      6.49,
-      "Taco Bell",
-      "Mesquite",
-      "TX"
-    ],
-    [
       "004041",
       31.73600898940487,
       -95.60693264007568,
@@ -643,15 +661,6 @@
       6.49,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "009540",
-      33.11403370279327,
-      -95.59625216353805,
-      6.49,
-      "Taco Bell",
-      "Sulphur Springs",
       "TX"
     ],
     [
@@ -724,15 +733,6 @@
       6.49,
       "Taco Bell",
       "Dallas",
-      "TX"
-    ],
-    [
-      "033473",
-      33.24695439549023,
-      -95.91288631218157,
-      6.49,
-      "Taco Bell",
-      "Commerce",
       "TX"
     ],
     [

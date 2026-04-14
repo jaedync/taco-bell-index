@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 21.99,
     "std_dev": 2.85,
-    "store_count": 7552
+    "store_count": 7554
   },
   "histogram": [
     {
@@ -122,7 +122,7 @@
     },
     {
       "bucket": "$17.69",
-      "count": 43
+      "count": 44
     },
     {
       "bucket": "$17.99",
@@ -258,7 +258,7 @@
     },
     {
       "bucket": "$22.49",
-      "count": 211
+      "count": 213
     },
     {
       "bucket": "$22.89",
@@ -322,7 +322,7 @@
     },
     {
       "bucket": "$25.99",
-      "count": 366
+      "count": 365
     },
     {
       "bucket": "$26.00",
@@ -382,7 +382,7 @@
     {
       "state": "WA",
       "avg_price": 25.36,
-      "store_count": 139
+      "store_count": 138
     },
     {
       "state": "NH",
@@ -517,7 +517,7 @@
     {
       "state": "ND",
       "avg_price": 21.99,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "NM",
@@ -547,12 +547,12 @@
     {
       "state": "OH",
       "avg_price": 21.39,
-      "store_count": 398
+      "store_count": 400
     },
     {
       "state": "WI",
       "avg_price": 21.38,
-      "store_count": 138
+      "store_count": 137
     },
     {
       "state": "MI",
@@ -581,8 +581,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 20.36,
-      "store_count": 253
+      "avg_price": 20.37,
+      "store_count": 255
     },
     {
       "state": "NC",
@@ -617,7 +617,7 @@
     {
       "state": "IN",
       "avg_price": 18.95,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "NE",
@@ -774,6 +774,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 21.99,
+      "observed_at": "2026-04-14T21:58:21.514787+00:00"
+    },
+    {
+      "store_number": "042880",
+      "store_name": "Taco Bell",
+      "city": "Kingsland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.49,
+      "observed_at": "2026-04-14T21:57:58.832797+00:00"
+    },
+    {
+      "store_number": "022603",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 25.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:52.207222+00:00"
+    },
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.49,
+      "observed_at": "2026-04-14T21:56:34.409771+00:00"
+    },
+    {
+      "store_number": "040536",
+      "store_name": "Taco Bell",
+      "city": "North Madison",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-14T21:52:27.555190+00:00"
+    },
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:51:29.083233+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 20.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:27.558864+00:00"
+    },
+    {
+      "store_number": "042001",
+      "store_name": "Taco Bell",
+      "city": "Westville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 17.69,
+      "observed_at": "2026-04-14T21:32:14.076729+00:00"
+    },
     {
       "store_number": "038911",
       "store_name": "Taco Bell",
@@ -2096,8 +2176,8 @@
     }
   ],
   "activity_summary": {
-    "added": 57,
-    "removed": 51,
+    "added": 62,
+    "removed": 54,
     "price_changed": 24,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9165,6 +9245,15 @@
       "Taco Bell",
       "Winter Garden",
       "FL"
+    ],
+    [
+      "042001",
+      41.546295,
+      -86.896567,
+      17.69,
+      "Taco Bell",
+      "Westville",
+      "IN"
     ],
     [
       "040791",
@@ -20048,15 +20137,6 @@
       "GA"
     ],
     [
-      "037062",
-      45.47765908183094,
-      -91.73469021466224,
-      20.99,
-      "Taco Bell",
-      "Rice Lake",
-      "WI"
-    ],
-    [
       "037172",
       40.2647546065382,
       -94.00934508406725,
@@ -24485,6 +24565,15 @@
       "OH"
     ],
     [
+      "040536",
+      41.80244003361103,
+      -81.05487140445234,
+      20.99,
+      "Taco Bell",
+      "North Madison",
+      "OH"
+    ],
+    [
       "041228",
       33.70089923153877,
       -84.16987270116806,
@@ -27075,15 +27164,6 @@
       "Taco Bell",
       "Jasper",
       "AL"
-    ],
-    [
-      "041883",
-      48.173424515469144,
-      -103.62728089416856,
-      21.99,
-      "Taco Bell",
-      "Williston",
-      "ND"
     ],
     [
       "042488",
@@ -38066,6 +38146,15 @@
       "KY"
     ],
     [
+      "038911",
+      40.07846157619223,
+      -82.42877130212037,
+      21.99,
+      "Taco Bell",
+      "Newark",
+      "OH"
+    ],
+    [
       "030439",
       30.34735722921334,
       -97.38362976911958,
@@ -40091,6 +40180,15 @@
       "FL"
     ],
     [
+      "042875",
+      31.2167515667324,
+      -81.51767492294312,
+      22.49,
+      "Taco Bell",
+      "Brunswick",
+      "GA"
+    ],
+    [
       "042849",
       26.67907488079136,
       -81.80672317743301,
@@ -40773,6 +40871,15 @@
       "Taco Bell",
       "Fuquay Varina",
       "NC"
+    ],
+    [
+      "042880",
+      30.788669235008257,
+      -81.6504080593586,
+      22.49,
+      "Taco Bell",
+      "Kingsland",
+      "GA"
     ],
     [
       "042913",
@@ -67170,15 +67277,6 @@
       "Taco Bell",
       "Modesto",
       "CA"
-    ],
-    [
-      "022603",
-      47.863294804877654,
-      -122.28221123345702,
-      25.99,
-      "Taco Bell",
-      "Lynnwood",
-      "WA"
     ],
     [
       "029310",

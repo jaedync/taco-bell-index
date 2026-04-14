@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.9,
+  "availability_pct": 100.0,
   "price_stats": {
     "avg": 3.01,
     "min": 2.29,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.2,
-    "store_count": 7701
+    "store_count": 7704
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 417
+      "count": 418
     },
     {
       "bucket": "$2.89",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 4061
+      "count": 4062
     },
     {
       "bucket": "$3.00",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 824
+      "count": 825
     },
     {
       "bucket": "$3.20",
@@ -265,7 +265,7 @@
     {
       "state": "OH",
       "avg_price": 3.03,
-      "store_count": 410
+      "store_count": 411
     },
     {
       "state": "MO",
@@ -275,7 +275,7 @@
     {
       "state": "MI",
       "avg_price": 3.03,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "VA",
@@ -335,7 +335,7 @@
     {
       "state": "IN",
       "avg_price": 2.96,
-      "store_count": 260
+      "store_count": 261
     },
     {
       "state": "WV",
@@ -598,6 +598,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-14T21:58:21.514787+00:00"
+    },
+    {
+      "store_number": "031485",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-14T21:56:53.282398+00:00"
+    },
+    {
+      "store_number": "035402",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-14T21:56:21.844135+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:27.558864+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-14T21:41:26.784067+00:00"
+    },
     {
       "store_number": "038911",
       "store_name": "Taco Bell",
@@ -1100,8 +1150,8 @@
     }
   ],
   "activity_summary": {
-    "added": 23,
-    "removed": 16,
+    "added": 27,
+    "removed": 17,
     "price_changed": 11,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6266,6 +6316,15 @@
       "Taco Bell",
       "Golden Valley",
       "MN"
+    ],
+    [
+      "035402",
+      41.140178583363884,
+      -85.16165293288395,
+      2.79,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
     ],
     [
       "029329",
@@ -23474,15 +23533,6 @@
       "Taco Bell",
       "Milford",
       "OH"
-    ],
-    [
-      "037062",
-      45.47765908183094,
-      -91.73469021466224,
-      2.99,
-      "Taco Bell",
-      "Rice Lake",
-      "WI"
     ],
     [
       "036940",
@@ -41251,6 +41301,15 @@
       "TN"
     ],
     [
+      "031485",
+      42.986130962699995,
+      -88.00816972555367,
+      2.99,
+      "Taco Bell",
+      "Milwaukee",
+      "WI"
+    ],
+    [
       "024467",
       39.76860175436249,
       -94.8040983975261,
@@ -52303,6 +52362,15 @@
       "GA"
     ],
     [
+      "038911",
+      40.07846157619223,
+      -82.42877130212037,
+      2.99,
+      "Taco Bell",
+      "Newark",
+      "OH"
+    ],
+    [
       "036273",
       44.35743375213316,
       -89.11309806397185,
@@ -57872,6 +57940,15 @@
       "Taco Bell",
       "Walcott",
       "IA"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      3.19,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "037006",

@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7622
+    "store_count": 7620
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 939
+      "count": 938
     },
     {
       "bucket": "$0.61",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 611
+      "count": 610
     },
     {
       "bucket": "$0.79",
@@ -216,14 +216,14 @@
       "store_count": 27
     },
     {
+      "state": "WA",
+      "avg_price": 0.66,
+      "store_count": 136
+    },
+    {
       "state": "VA",
       "avg_price": 0.66,
       "store_count": 197
-    },
-    {
-      "state": "WA",
-      "avg_price": 0.66,
-      "store_count": 137
     },
     {
       "state": "DE",
@@ -231,14 +231,14 @@
       "store_count": 16
     },
     {
-      "state": "MD",
-      "avg_price": 0.66,
-      "store_count": 91
-    },
-    {
       "state": "CA",
       "avg_price": 0.66,
       "store_count": 831
+    },
+    {
+      "state": "MD",
+      "avg_price": 0.66,
+      "store_count": 90
     },
     {
       "state": "MA",
@@ -253,7 +253,7 @@
     {
       "state": "GA",
       "avg_price": 0.64,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "FL",
@@ -338,7 +338,7 @@
     {
       "state": "KY",
       "avg_price": 0.56,
-      "store_count": 160
+      "store_count": 159
     },
     {
       "state": "NJ",
@@ -570,6 +570,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035320",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:34.862970+00:00"
+    },
+    {
+      "store_number": "039965",
+      "store_name": "Taco Bell",
+      "city": "Gambrills",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:22.307181+00:00"
+    },
+    {
+      "store_number": "004394",
+      "store_name": "Taco Bell",
+      "city": "Cold Spring",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:58.085241+00:00"
+    },
+    {
+      "store_number": "039919",
+      "store_name": "Taco Bell",
+      "city": "Savannah",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-14T21:57:00.227183+00:00"
+    },
     {
       "store_number": "031312",
       "store_name": "Taco Bell",
@@ -962,8 +1002,8 @@
     }
   ],
   "activity_summary": {
-    "added": 21,
-    "removed": 18,
+    "added": 22,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23833,6 +23873,15 @@
       "MS"
     ],
     [
+      "039919",
+      32.04206596405184,
+      -81.06397350134102,
+      0.5,
+      "Taco Bell",
+      "Savannah",
+      "GA"
+    ],
+    [
       "031618",
       40.96789088040394,
       -80.30946084479912,
@@ -25712,15 +25761,6 @@
       "Taco Bell",
       "Marshfield",
       "MO"
-    ],
-    [
-      "004394",
-      39.02791470313854,
-      -84.45141479372978,
-      0.5,
-      "Taco Bell",
-      "Cold Spring",
-      "KY"
     ],
     [
       "002444",
@@ -38465,15 +38505,6 @@
       "Taco Bell",
       "Webster",
       "NY"
-    ],
-    [
-      "035320",
-      47.09585058787434,
-      -122.35877305269241,
-      0.6,
-      "Taco Bell",
-      "Tacoma",
-      "WA"
     ],
     [
       "040327",
@@ -58940,15 +58971,6 @@
       "Taco Bell",
       "Alpharetta",
       "GA"
-    ],
-    [
-      "039965",
-      39.02555490292127,
-      -76.69070183183067,
-      0.75,
-      "Taco Bell",
-      "Gambrills",
-      "MD"
     ],
     [
       "029553",

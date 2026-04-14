@@ -17,7 +17,7 @@
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7615
+    "store_count": 7616
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 765
+      "count": 766
     },
     {
       "bucket": "$0.52",
@@ -219,8 +219,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 0.41,
-      "store_count": 248
+      "avg_price": 0.42,
+      "store_count": 249
     },
     {
       "state": "VA",
@@ -275,7 +275,7 @@
     {
       "state": "MI",
       "avg_price": 0.38,
-      "store_count": 346
+      "store_count": 347
     },
     {
       "state": "PA",
@@ -345,7 +345,7 @@
     {
       "state": "ND",
       "avg_price": 0.3,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "IN",
@@ -848,6 +848,36 @@
   ],
   "price_changes": [
     {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-14T21:58:13.550933+00:00"
+    },
+    {
+      "store_number": "031509",
+      "store_name": "Taco Bell",
+      "city": "Holt",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-04-14T21:57:04.503679+00:00"
+    },
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:51:29.083233+00:00"
+    },
+    {
       "store_number": "030384",
       "store_name": "Taco Bell",
       "city": "Yukon",
@@ -1129,8 +1159,8 @@
     }
   ],
   "activity_summary": {
-    "added": 16,
-    "removed": 12,
+    "added": 18,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16789,15 +16819,6 @@
       "Taco Bell",
       "Stevensville",
       "MI"
-    ],
-    [
-      "041883",
-      48.173424515469144,
-      -103.62728089416856,
-      0.3,
-      "Taco Bell",
-      "Williston",
-      "ND"
     ],
     [
       "042777",
@@ -35401,6 +35422,15 @@
       "Taco Bell",
       "Saint Cloud",
       "FL"
+    ],
+    [
+      "031509",
+      42.65241170776328,
+      -84.52938938197696,
+      0.3,
+      "Taco Bell",
+      "Holt",
+      "MI"
     ],
     [
       "040979",
@@ -57343,6 +57373,15 @@
       "Taco Bell",
       "Hereford",
       "TX"
+    ],
+    [
+      "041212",
+      33.75484747709103,
+      -84.26683026558743,
+      0.5,
+      "Taco Bell",
+      "Decatur",
+      "GA"
     ],
     [
       "032321",

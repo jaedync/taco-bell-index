@@ -13,21 +13,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.9,
+    "avg": 6.92,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.69,
-    "std_dev": 0.47,
-    "store_count": 7
+    "median": 6.84,
+    "std_dev": 0.51,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 3
-    },
-    {
-      "bucket": "$6.69",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$7.19",
@@ -35,16 +31,10 @@
     },
     {
       "bucket": "$7.49",
-      "count": 2
+      "count": 1
     }
   ],
-  "state_prices": [
-    {
-      "state": "GA",
-      "avg_price": 7.07,
-      "store_count": 5
-    }
-  ],
+  "state_prices": [],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -61,20 +51,6 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "042121",
-      "name": "Taco Bell",
-      "city": "Fort Walton Beach",
-      "state": "FL",
-      "price": 6.49
-    },
-    {
-      "store_number": "042134",
-      "name": "Taco Bell",
-      "city": "Mary Esther",
-      "state": "FL",
-      "price": 6.49
-    },
-    {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
       "city": "Locust Grove",
@@ -82,11 +58,11 @@
       "price": 6.49
     },
     {
-      "store_number": "039932",
+      "store_number": "026432",
       "name": "Taco Bell",
-      "city": "McDonough",
-      "state": "GA",
-      "price": 6.69
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "price": 6.49
     },
     {
       "store_number": "027858",
@@ -94,13 +70,6 @@
       "city": "Buford",
       "state": "GA",
       "price": 7.19
-    },
-    {
-      "store_number": "041225",
-      "name": "Taco Bell",
-      "city": "Lithonia",
-      "state": "GA",
-      "price": 7.49
     },
     {
       "store_number": "041223",
@@ -111,22 +80,14 @@
     }
   ],
   "min_price_store_numbers": [
-    "042121",
-    "042134",
-    "031389"
+    "031389",
+    "026432"
   ],
   "priciest_stores": [
     {
       "store_number": "041223",
       "name": "Taco Bell",
       "city": "Ellenwood",
-      "state": "GA",
-      "price": 7.49
-    },
-    {
-      "store_number": "041225",
-      "name": "Taco Bell",
-      "city": "Lithonia",
       "state": "GA",
       "price": 7.49
     },
@@ -138,11 +99,11 @@
       "price": 7.19
     },
     {
-      "store_number": "039932",
+      "store_number": "026432",
       "name": "Taco Bell",
-      "city": "McDonough",
-      "state": "GA",
-      "price": 6.69
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "price": 6.49
     },
     {
       "store_number": "031389",
@@ -150,23 +111,59 @@
       "city": "Locust Grove",
       "state": "GA",
       "price": 6.49
-    },
-    {
-      "store_number": "042134",
-      "name": "Taco Bell",
-      "city": "Mary Esther",
-      "state": "FL",
-      "price": 6.49
-    },
-    {
-      "store_number": "042121",
-      "name": "Taco Bell",
-      "city": "Fort Walton Beach",
-      "state": "FL",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039932",
+      "store_name": "Taco Bell",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:26.401906+00:00"
+    },
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-14T21:57:21.637596+00:00"
+    },
+    {
+      "store_number": "042134",
+      "store_name": "Taco Bell",
+      "city": "Mary Esther",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:38.480123+00:00"
+    },
+    {
+      "store_number": "042121",
+      "store_name": "Taco Bell",
+      "city": "Fort Walton Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:22.689660+00:00"
+    },
+    {
+      "store_number": "041225",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:13.419690+00:00"
+    },
     {
       "store_number": "002649",
       "store_name": "Taco Bell / KFC",
@@ -409,8 +406,8 @@
     }
   ],
   "activity_summary": {
-    "added": 4,
-    "removed": 20,
+    "added": 5,
+    "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -439,24 +436,6 @@
   ],
   "map_data": [
     [
-      "042121",
-      30.415996791776298,
-      -86.60656302491896,
-      6.49,
-      "Taco Bell",
-      "Fort Walton Beach",
-      "FL"
-    ],
-    [
-      "042134",
-      30.4188928735492,
-      -86.65260408820359,
-      6.49,
-      "Taco Bell",
-      "Mary Esther",
-      "FL"
-    ],
-    [
       "031389",
       33.352032936024656,
       -84.120770439522,
@@ -466,13 +445,13 @@
       "GA"
     ],
     [
-      "039932",
-      33.42989815104501,
-      -84.17856936158387,
-      6.69,
+      "026432",
+      35.80377693492917,
+      -83.58050286769867,
+      6.49,
       "Taco Bell",
-      "McDonough",
-      "GA"
+      "Pigeon Forge",
+      "TN"
     ],
     [
       "027858",
@@ -481,15 +460,6 @@
       7.19,
       "Taco Bell",
       "Buford",
-      "GA"
-    ],
-    [
-      "041225",
-      33.69407347096101,
-      -84.09623191507308,
-      7.49,
-      "Taco Bell",
-      "Lithonia",
       "GA"
     ],
     [

@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.83,
-    "store_count": 7675
+    "store_count": 7677
   },
   "histogram": [
     {
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1795
+      "count": 1797
     },
     {
       "bucket": "$23.19",
@@ -467,12 +467,12 @@
     {
       "state": "OH",
       "avg_price": 22.37,
-      "store_count": 408
+      "store_count": 409
     },
     {
       "state": "GA",
       "avg_price": 22.33,
-      "store_count": 254
+      "store_count": 256
     },
     {
       "state": "UT",
@@ -487,7 +487,7 @@
     {
       "state": "WI",
       "avg_price": 22.09,
-      "store_count": 143
+      "store_count": 142
     },
     {
       "state": "IA",
@@ -754,6 +754,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.99,
+      "observed_at": "2026-04-14T21:58:21.514787+00:00"
+    },
+    {
+      "store_number": "042880",
+      "store_name": "Taco Bell",
+      "city": "Kingsland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.99,
+      "observed_at": "2026-04-14T21:57:58.832797+00:00"
+    },
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.99,
+      "observed_at": "2026-04-14T21:56:34.409771+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:27.558864+00:00"
+    },
     {
       "store_number": "038911",
       "store_name": "Taco Bell",
@@ -1226,8 +1266,8 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
-    "removed": 18,
+    "added": 23,
+    "removed": 19,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -37529,15 +37569,6 @@
       "OH"
     ],
     [
-      "037062",
-      45.47765908183094,
-      -91.73469021466224,
-      22.99,
-      "Taco Bell",
-      "Rice Lake",
-      "WI"
-    ],
-    [
       "037006",
       40.562417291362024,
       -75.56179020553863,
@@ -43631,6 +43662,15 @@
       "AZ"
     ],
     [
+      "042875",
+      31.2167515667324,
+      -81.51767492294312,
+      22.99,
+      "Taco Bell",
+      "Brunswick",
+      "GA"
+    ],
+    [
       "031719",
       32.162260012014166,
       -110.9427684545517,
@@ -48842,6 +48882,15 @@
       "IL"
     ],
     [
+      "042880",
+      30.788669235008257,
+      -81.6504080593586,
+      22.99,
+      "Taco Bell",
+      "Kingsland",
+      "GA"
+    ],
+    [
       "042912",
       25.76057939916969,
       -80.41839568759315,
@@ -50253,6 +50302,15 @@
       "Taco Bell",
       "Hanover",
       "PA"
+    ],
+    [
+      "038911",
+      40.07846157619223,
+      -82.42877130212037,
+      22.99,
+      "Taco Bell",
+      "Newark",
+      "OH"
     ],
     [
       "036273",

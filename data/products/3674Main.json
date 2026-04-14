@@ -17,7 +17,7 @@
     "max": 4.99,
     "median": 3.79,
     "std_dev": 0.22,
-    "store_count": 35
+    "store_count": 36
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$4.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.02,
-      "store_count": 16
+      "avg_price": 4.01,
+      "store_count": 17
     },
     {
       "state": "TX",
@@ -134,6 +134,13 @@
       "price": 4.99
     },
     {
+      "store_number": "039851",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "price": 3.99
+    },
+    {
       "store_number": "041597",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "San Diego",
@@ -188,16 +195,19 @@
       "city": "El Cajon",
       "state": "CA",
       "price": 3.99
-    },
-    {
-      "store_number": "039852",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Hemet",
-      "state": "CA",
-      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Lake Forest",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-14T21:57:07.052491+00:00"
+    },
     {
       "store_number": "039841",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -260,7 +270,7 @@
     }
   ],
   "activity_summary": {
-    "added": 4,
+    "added": 5,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -574,6 +584,15 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "San Diego",
+      "CA"
+    ],
+    [
+      "039851",
+      33.630566284560075,
+      -117.71737631448545,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Lake Forest",
       "CA"
     ],
     [

@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:43:53.681925+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 4.68,
+    "avg": 4.67,
     "min": 4.59,
     "max": 5.29,
     "median": 4.59,
-    "std_dev": 0.2,
-    "store_count": 17
+    "std_dev": 0.19,
+    "store_count": 16
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$5.29",
@@ -155,13 +155,6 @@
       "price": 5.29
     },
     {
-      "store_number": "041613",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Chula Vista",
-      "state": "CA",
-      "price": 4.99
-    },
-    {
       "store_number": "039811",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Palmdale",
@@ -216,9 +209,26 @@
       "city": "Watauga",
       "state": "TX",
       "price": 4.59
+    },
+    {
+      "store_number": "026050",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Porte",
+      "state": "TX",
+      "price": 4.59
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041613",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Chula Vista",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:47.276004+00:00"
+    },
     {
       "store_number": "039797",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -252,7 +262,7 @@
   ],
   "activity_summary": {
     "added": 0,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -394,15 +404,6 @@
       4.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Palmdale",
-      "CA"
-    ],
-    [
-      "041613",
-      32.64483632374036,
-      -116.99737478794304,
-      4.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Chula Vista",
       "CA"
     ],
     [

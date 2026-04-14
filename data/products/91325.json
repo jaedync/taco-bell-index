@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 1.1,
+  "availability_pct": 1.2,
   "price_stats": {
     "avg": 9.12,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 0.49,
-    "store_count": 86
+    "std_dev": 0.48,
+    "store_count": 90
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 79
+      "count": 83
     },
     {
       "bucket": "$9.49",
@@ -37,18 +37,18 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.32,
-      "store_count": 29
+      "avg_price": 9.3,
+      "store_count": 31
     },
     {
       "state": "TN",
       "avg_price": 9.0,
-      "store_count": 8
+      "store_count": 9
     },
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 42
+      "store_count": 43
     }
   ],
   "nutrition": {
@@ -190,6 +190,7 @@
     "029117",
     "040783",
     "029050",
+    "016335",
     "033348",
     "041105",
     "016818",
@@ -216,7 +217,10 @@
     "037105",
     "042585",
     "041251",
-    "037047"
+    "037047",
+    "037460",
+    "016289",
+    "041837"
   ],
   "priciest_stores": [
     {
@@ -269,28 +273,68 @@
       "price": 9.49
     },
     {
-      "store_number": "037047",
+      "store_number": "041837",
       "name": "Taco Bell",
-      "city": "Vidalia",
+      "city": "Thomasville",
       "state": "GA",
       "price": 9.0
     },
     {
-      "store_number": "041251",
+      "store_number": "016289",
       "name": "Taco Bell",
-      "city": "Lawrenceville",
+      "city": "College Park",
       "state": "GA",
       "price": 9.0
     },
     {
-      "store_number": "042585",
+      "store_number": "037460",
       "name": "Taco Bell",
-      "city": "Dallas",
-      "state": "GA",
+      "city": "Tuscaloosa",
+      "state": "AL",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-04-14T21:57:50.142162+00:00"
+    },
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-04-14T21:56:32.485912+00:00"
+    },
+    {
+      "store_number": "016335",
+      "store_name": "Taco Bell",
+      "city": "Lenoir City",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-04-14T21:56:18.162846+00:00"
+    },
+    {
+      "store_number": "037460",
+      "store_name": "Taco Bell",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-04-14T21:51:47.514030+00:00"
+    },
     {
       "store_number": "031583",
       "store_name": "Taco Bell",
@@ -813,7 +857,7 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
+    "added": 43,
     "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1323,6 +1367,15 @@
       "TN"
     ],
     [
+      "016335",
+      35.810910605655216,
+      -84.26391898537986,
+      9.0,
+      "Taco Bell",
+      "Lenoir City",
+      "TN"
+    ],
+    [
       "033348",
       31.608568026873176,
       -84.21019037591977,
@@ -1563,6 +1616,33 @@
       9.0,
       "Taco Bell",
       "Vidalia",
+      "GA"
+    ],
+    [
+      "037460",
+      33.21076736684103,
+      -87.55382600119911,
+      9.0,
+      "Taco Bell",
+      "Tuscaloosa",
+      "AL"
+    ],
+    [
+      "016289",
+      33.61549907748702,
+      -84.47322343291489,
+      9.0,
+      "Taco Bell",
+      "College Park",
+      "GA"
+    ],
+    [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      9.0,
+      "Taco Bell",
+      "Thomasville",
       "GA"
     ],
     [

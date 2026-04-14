@@ -17,7 +17,7 @@
     "max": 4.89,
     "median": 3.39,
     "std_dev": 0.5,
-    "store_count": 1826
+    "store_count": 1829
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 60
+      "count": 59
     },
     {
       "bucket": "$2.69",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 682
+      "count": 683
     },
     {
       "bucket": "$3.00",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 76
+      "count": 77
     },
     {
       "bucket": "$3.59",
@@ -106,11 +106,11 @@
     },
     {
       "bucket": "$3.99",
-      "count": 265
+      "count": 266
     },
     {
       "bucket": "$4.19",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$4.29",
@@ -180,7 +180,7 @@
     {
       "state": "IN",
       "avg_price": 3.51,
-      "store_count": 177
+      "store_count": 178
     },
     {
       "state": "SD",
@@ -194,8 +194,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 3.43,
-      "store_count": 162
+      "avg_price": 3.42,
+      "store_count": 163
     },
     {
       "state": "WI",
@@ -205,7 +205,12 @@
     {
       "state": "OH",
       "avg_price": 3.39,
-      "store_count": 378
+      "store_count": 380
+    },
+    {
+      "state": "VA",
+      "avg_price": 3.29,
+      "store_count": 9
     },
     {
       "state": "MS",
@@ -223,19 +228,14 @@
       "store_count": 87
     },
     {
-      "state": "VA",
-      "avg_price": 3.2,
-      "store_count": 8
+      "state": "CA",
+      "avg_price": 3.05,
+      "store_count": 5
     },
     {
       "state": "GA",
       "avg_price": 3.05,
       "store_count": 7
-    },
-    {
-      "state": "CA",
-      "avg_price": 3.04,
-      "store_count": 6
     },
     {
       "state": "TN",
@@ -457,6 +457,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041198",
+      "store_name": "Taco Bell",
+      "city": "Kayenta",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:36.617982+00:00"
+    },
+    {
+      "store_number": "003991",
+      "store_name": "Taco Bell",
+      "city": "Susanville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:57.019433+00:00"
+    },
+    {
+      "store_number": "027760",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-14T21:56:40.050932+00:00"
+    },
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-04-14T21:56:24.340185+00:00"
+    },
+    {
+      "store_number": "038899",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-14T21:56:13.313266+00:00"
+    },
+    {
+      "store_number": "040536",
+      "store_name": "Taco Bell",
+      "city": "North Madison",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-14T21:52:27.555190+00:00"
+    },
+    {
+      "store_number": "039574",
+      "store_name": "Taco Bell",
+      "city": "Owensville",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-14T21:51:52.026930+00:00"
+    },
     {
       "store_number": "032716",
       "store_name": "Taco Bell",
@@ -1069,8 +1139,8 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
-    "removed": 43,
+    "added": 23,
+    "removed": 45,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1933,15 +2003,6 @@
       "Taco Bell",
       "Manhattan",
       "KS"
-    ],
-    [
-      "041198",
-      36.70767434042194,
-      -110.25105223059654,
-      2.59,
-      "Taco Bell",
-      "Kayenta",
-      "AZ"
     ],
     [
       "034822",
@@ -3292,6 +3353,15 @@
       "Taco Bell",
       "Uniontown",
       "OH"
+    ],
+    [
+      "039574",
+      38.34548653659313,
+      -91.49435741440762,
+      2.99,
+      "Taco Bell",
+      "Owensville",
+      "MO"
     ],
     [
       "039575",
@@ -8613,15 +8683,6 @@
       "MI"
     ],
     [
-      "003991",
-      40.405731305744325,
-      -120.6333485870065,
-      2.99,
-      "Taco Bell",
-      "Susanville",
-      "CA"
-    ],
-    [
       "031491",
       44.262356037439226,
       -88.45056549293865,
@@ -8665,6 +8726,15 @@
       "Taco Bell",
       "Clinton Township",
       "MI"
+    ],
+    [
+      "040536",
+      41.80244003361103,
+      -81.05487140445234,
+      2.99,
+      "Taco Bell",
+      "North Madison",
+      "OH"
     ],
     [
       "037042",
@@ -9807,6 +9877,15 @@
       3.49,
       "Taco Bell",
       "Indianapolis",
+      "IN"
+    ],
+    [
+      "028861",
+      39.80032567328473,
+      -86.26901320651086,
+      3.49,
+      "Taco Bell",
+      "Speedway",
       "IN"
     ],
     [
@@ -16542,6 +16621,15 @@
       "CO"
     ],
     [
+      "027760",
+      36.81939682129553,
+      -76.11934818332884,
+      3.99,
+      "Taco Bell",
+      "Virginia Beach",
+      "VA"
+    ],
+    [
       "041086",
       39.72009668768734,
       -82.98767904100833,
@@ -16620,6 +16708,15 @@
       4.19,
       "Taco Bell",
       "Chillicothe",
+      "OH"
+    ],
+    [
+      "038899",
+      39.94577659646611,
+      -82.99702987074852,
+      4.19,
+      "Taco Bell",
+      "Columbus",
       "OH"
     ],
     [

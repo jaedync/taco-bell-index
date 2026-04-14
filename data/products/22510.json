@@ -18,7 +18,7 @@
     "max": 5.49,
     "median": 2.79,
     "std_dev": 0.33,
-    "store_count": 7657
+    "store_count": 7659
   },
   "histogram": [
     {
@@ -107,7 +107,7 @@
     },
     {
       "bucket": "$2.91",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$2.95",
@@ -119,7 +119,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 1785
+      "count": 1784
     },
     {
       "bucket": "$3.00",
@@ -147,11 +147,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 235
+      "count": 236
     },
     {
       "bucket": "$3.29",
-      "count": 318
+      "count": 319
     },
     {
       "bucket": "$3.39",
@@ -197,7 +197,7 @@
     {
       "state": "MI",
       "avg_price": 3.01,
-      "store_count": 346
+      "store_count": 347
     },
     {
       "state": "AK",
@@ -302,7 +302,7 @@
     {
       "state": "VA",
       "avg_price": 2.8,
-      "store_count": 194
+      "store_count": 193
     },
     {
       "state": "RI",
@@ -386,8 +386,8 @@
     },
     {
       "state": "MA",
-      "avg_price": 2.55,
-      "store_count": 65
+      "avg_price": 2.56,
+      "store_count": 66
     },
     {
       "state": "NC",
@@ -396,8 +396,8 @@
     },
     {
       "state": "NJ",
-      "avg_price": 2.49,
-      "store_count": 121
+      "avg_price": 2.5,
+      "store_count": 122
     },
     {
       "state": "ND",
@@ -593,6 +593,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.91,
+      "observed_at": "2026-04-14T21:58:34.730095+00:00"
+    },
+    {
+      "store_number": "028184",
+      "store_name": "Taco Bell",
+      "city": "Alexandria",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:08.312470+00:00"
+    },
+    {
+      "store_number": "029268",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-14T21:56:43.862542+00:00"
+    },
+    {
+      "store_number": "041174",
+      "store_name": "Taco Bell",
+      "city": "Spring Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-14T21:32:13.423828+00:00"
+    },
     {
       "store_number": "039545",
       "store_name": "Taco Bell",
@@ -1225,8 +1265,8 @@
     }
   ],
   "activity_summary": {
-    "added": 32,
-    "removed": 22,
+    "added": 35,
+    "removed": 23,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -47415,6 +47455,15 @@
       "NJ"
     ],
     [
+      "039545",
+      41.19914267445654,
+      -74.48748706784548,
+      2.91,
+      "Taco Bell",
+      "Vernon",
+      "NJ"
+    ],
+    [
       "037092",
       40.81555319498846,
       -74.47340305784236,
@@ -58206,15 +58255,6 @@
       "NY"
     ],
     [
-      "028184",
-      38.81112604427266,
-      -77.13233560323715,
-      2.99,
-      "Taco Bell",
-      "Alexandria",
-      "VA"
-    ],
-    [
       "030147",
       27.53105530085782,
       -99.47359898689683,
@@ -66621,6 +66661,15 @@
       "IA"
     ],
     [
+      "029268",
+      41.94929016321681,
+      -70.71563593578503,
+      3.19,
+      "Taco Bell",
+      "Plymouth",
+      "MA"
+    ],
+    [
       "040523",
       42.6893,
       -88.5422,
@@ -66708,6 +66757,15 @@
       3.29,
       "Taco Bell",
       "Ann Arbor",
+      "MI"
+    ],
+    [
+      "041174",
+      42.208486195305966,
+      -84.54207645974716,
+      3.29,
+      "Taco Bell",
+      "Spring Arbor",
       "MI"
     ],
     [

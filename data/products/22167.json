@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.9,
+  "availability_pct": 100.0,
   "price_stats": {
     "avg": 4.74,
     "min": 2.99,
     "max": 7.79,
     "median": 4.79,
     "std_dev": 0.49,
-    "store_count": 7697
+    "store_count": 7703
   },
   "histogram": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 459
+      "count": 460
     },
     {
       "bucket": "$4.39",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 802
+      "count": 804
     },
     {
       "bucket": "$4.60",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 834
+      "count": 835
     },
     {
       "bucket": "$4.81",
@@ -115,7 +115,7 @@
     },
     {
       "bucket": "$4.89",
-      "count": 524
+      "count": 525
     },
     {
       "bucket": "$4.90",
@@ -167,7 +167,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 365
+      "count": 366
     },
     {
       "bucket": "$5.40",
@@ -287,7 +287,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "IL",
@@ -337,7 +337,7 @@
     {
       "state": "OH",
       "avg_price": 4.82,
-      "store_count": 410
+      "store_count": 411
     },
     {
       "state": "NM",
@@ -352,7 +352,7 @@
     {
       "state": "WI",
       "avg_price": 4.76,
-      "store_count": 142
+      "store_count": 143
     },
     {
       "state": "WV",
@@ -412,17 +412,17 @@
     {
       "state": "AR",
       "avg_price": 4.57,
-      "store_count": 113
+      "store_count": 114
     },
     {
       "state": "LA",
       "avg_price": 4.53,
-      "store_count": 133
+      "store_count": 134
     },
     {
       "state": "GA",
       "avg_price": 4.5,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "FL",
@@ -660,6 +660,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.89,
+      "observed_at": "2026-04-14T21:58:21.514787+00:00"
+    },
+    {
+      "store_number": "042880",
+      "store_name": "Taco Bell",
+      "city": "Kingsland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.29,
+      "observed_at": "2026-04-14T21:57:58.832797+00:00"
+    },
+    {
+      "store_number": "041564",
+      "store_name": "Taco Bell",
+      "city": "Mandeville",
+      "state": "LA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-14T21:57:21.736773+00:00"
+    },
+    {
+      "store_number": "027036",
+      "store_name": "Taco Bell",
+      "city": "Paragould",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-14T21:57:01.408924+00:00"
+    },
+    {
+      "store_number": "031485",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.79,
+      "observed_at": "2026-04-14T21:56:53.282398+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.39,
+      "observed_at": "2026-04-14T21:41:26.784067+00:00"
+    },
     {
       "store_number": "038911",
       "store_name": "Taco Bell",
@@ -1642,7 +1702,7 @@
     }
   ],
   "activity_summary": {
-    "added": 28,
+    "added": 34,
     "removed": 30,
     "price_changed": 40,
     "since": "2026-03-31T00:00:00+00:00"
@@ -14793,6 +14853,15 @@
       "OK"
     ],
     [
+      "042880",
+      30.788669235008257,
+      -81.6504080593586,
+      4.29,
+      "Taco Bell",
+      "Kingsland",
+      "GA"
+    ],
+    [
       "042913",
       30.287224649054764,
       -81.45668677520916,
@@ -26160,6 +26229,15 @@
       "AR"
     ],
     [
+      "027036",
+      36.060226564607156,
+      -90.51954616607873,
+      4.59,
+      "Taco Bell",
+      "Paragould",
+      "AR"
+    ],
+    [
       "031958",
       42.67888141078665,
       -89.05132506789414,
@@ -26464,6 +26542,15 @@
       "Taco Bell",
       "Forrest City",
       "AR"
+    ],
+    [
+      "041564",
+      30.364487963491538,
+      -90.06277128605099,
+      4.59,
+      "Taco Bell",
+      "Mandeville",
+      "LA"
     ],
     [
       "032087",
@@ -39372,6 +39459,15 @@
       "KY"
     ],
     [
+      "031485",
+      42.986130962699995,
+      -88.00816972555367,
+      4.79,
+      "Taco Bell",
+      "Milwaukee",
+      "WI"
+    ],
+    [
       "032395",
       44.829879539445194,
       -91.54506343609677,
@@ -46579,6 +46675,15 @@
       "Taco Bell",
       "Hanover",
       "PA"
+    ],
+    [
+      "038911",
+      40.07846157619223,
+      -82.42877130212037,
+      4.89,
+      "Taco Bell",
+      "Newark",
+      "OH"
     ],
     [
       "038896",
@@ -64138,6 +64243,15 @@
       "Taco Bell",
       "Manchester",
       "CT"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      5.39,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "036442",

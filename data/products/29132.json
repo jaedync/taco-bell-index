@@ -18,7 +18,7 @@
     "max": 13.99,
     "median": 8.19,
     "std_dev": 0.57,
-    "store_count": 6503
+    "store_count": 6501
   },
   "histogram": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$7.79",
-      "count": 217
+      "count": 216
     },
     {
       "bucket": "$7.89",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 2211
+      "count": 2208
     },
     {
       "bucket": "$8.00",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$8.09",
-      "count": 52
+      "count": 51
     },
     {
       "bucket": "$8.19",
@@ -103,11 +103,11 @@
     },
     {
       "bucket": "$8.39",
-      "count": 98
+      "count": 99
     },
     {
       "bucket": "$8.49",
-      "count": 369
+      "count": 370
     },
     {
       "bucket": "$8.59",
@@ -135,7 +135,7 @@
     },
     {
       "bucket": "$8.95",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$8.99",
@@ -282,14 +282,14 @@
       "store_count": 48
     },
     {
+      "state": "WA",
+      "avg_price": 8.83,
+      "store_count": 137
+    },
+    {
       "state": "PA",
       "avg_price": 8.82,
       "store_count": 173
-    },
-    {
-      "state": "WA",
-      "avg_price": 8.82,
-      "store_count": 138
     },
     {
       "state": "MD",
@@ -304,7 +304,7 @@
     {
       "state": "IA",
       "avg_price": 8.73,
-      "store_count": 46
+      "store_count": 47
     },
     {
       "state": "FL",
@@ -319,7 +319,7 @@
     {
       "state": "NJ",
       "avg_price": 8.62,
-      "store_count": 121
+      "store_count": 122
     },
     {
       "state": "UT",
@@ -339,7 +339,7 @@
     {
       "state": "OR",
       "avg_price": 8.45,
-      "store_count": 121
+      "store_count": 120
     },
     {
       "state": "VA",
@@ -384,7 +384,7 @@
     {
       "state": "IN",
       "avg_price": 8.31,
-      "store_count": 231
+      "store_count": 230
     },
     {
       "state": "OH",
@@ -394,12 +394,12 @@
     {
       "state": "NV",
       "avg_price": 8.24,
-      "store_count": 83
+      "store_count": 84
     },
     {
       "state": "WI",
       "avg_price": 8.2,
-      "store_count": 142
+      "store_count": 140
     },
     {
       "state": "WV",
@@ -665,6 +665,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.95,
+      "observed_at": "2026-04-14T21:58:34.730095+00:00"
+    },
+    {
+      "store_number": "022603",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:52.207222+00:00"
+    },
+    {
+      "store_number": "028892",
+      "store_name": "Taco Bell",
+      "city": "Washington",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 8.09,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:49.255564+00:00"
+    },
+    {
+      "store_number": "004900",
+      "store_name": "Taco Bell",
+      "city": "Hudson",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 7.79,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:07.632962+00:00"
+    },
+    {
+      "store_number": "037055",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-04-14T21:57:00.448301+00:00"
+    },
+    {
+      "store_number": "015521",
+      "store_name": "Taco Bell",
+      "city": "Saint Helens",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:27.436877+00:00"
+    },
+    {
+      "store_number": "031858",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-04-14T21:56:26.399920+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:27.558864+00:00"
+    },
     {
       "store_number": "042841",
       "store_name": "Taco Bell",
@@ -12477,8 +12557,8 @@
     }
   ],
   "activity_summary": {
-    "added": 48,
-    "removed": 1132,
+    "added": 51,
+    "removed": 1137,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17123,15 +17203,6 @@
       "WY"
     ],
     [
-      "004900",
-      44.9612833367091,
-      -92.7239115983412,
-      7.79,
-      "Taco Bell",
-      "Hudson",
-      "WI"
-    ],
-    [
       "027880",
       44.08154139443498,
       -103.25795039540026,
@@ -20541,15 +20612,6 @@
       "Taco Bell",
       "Hartselle",
       "AL"
-    ],
-    [
-      "037062",
-      45.47765908183094,
-      -91.73469021466224,
-      7.99,
-      "Taco Bell",
-      "Rice Lake",
-      "WI"
     ],
     [
       "036442",
@@ -26931,15 +26993,6 @@
       "Taco Bell",
       "Merriam",
       "KS"
-    ],
-    [
-      "015521",
-      45.84821483414798,
-      -122.83299542964869,
-      7.99,
-      "Taco Bell",
-      "Saint Helens",
-      "OR"
     ],
     [
       "004523",
@@ -34358,15 +34411,6 @@
       "RI"
     ],
     [
-      "022603",
-      47.863294804877654,
-      -122.28221123345702,
-      7.99,
-      "Taco Bell",
-      "Lynnwood",
-      "WA"
-    ],
-    [
       "035283",
       41.292712313998464,
       -96.14230982961999,
@@ -38837,15 +38881,6 @@
       8.09,
       "Taco Bell",
       "Fishers",
-      "IN"
-    ],
-    [
-      "028892",
-      38.65268374073738,
-      -87.15562218834319,
-      8.09,
-      "Taco Bell",
-      "Washington",
       "IN"
     ],
     [
@@ -45356,6 +45391,15 @@
       "IL"
     ],
     [
+      "037055",
+      42.03420651677171,
+      -91.68065488834833,
+      8.39,
+      "Taco Bell",
+      "Cedar Rapids",
+      "IA"
+    ],
+    [
       "037059",
       42.489447,
       -90.664758,
@@ -46848,6 +46892,15 @@
       "Taco Bell",
       "O'Fallon",
       "MO"
+    ],
+    [
+      "031858",
+      39.49330801654719,
+      -119.78853004445779,
+      8.49,
+      "Taco Bell",
+      "Reno",
+      "NV"
     ],
     [
       "027773",
@@ -62103,6 +62156,15 @@
       "Taco Bell",
       "Bronx",
       "NY"
+    ],
+    [
+      "039545",
+      41.19914267445654,
+      -74.48748706784548,
+      8.95,
+      "Taco Bell",
+      "Vernon",
+      "NJ"
     ],
     [
       "037092",

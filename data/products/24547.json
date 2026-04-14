@@ -12,12 +12,12 @@
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 8.56,
+    "avg": 8.55,
     "min": 6.0,
     "max": 11.2,
-    "median": 8.39,
-    "std_dev": 0.96,
-    "store_count": 57
+    "median": 8.29,
+    "std_dev": 0.97,
+    "store_count": 56
   },
   "histogram": [
     {
@@ -61,10 +61,6 @@
       "count": 6
     },
     {
-      "bucket": "$8.79",
-      "count": 1
-    },
-    {
       "bucket": "$8.99",
       "count": 1
     },
@@ -102,8 +98,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 8.59,
-      "store_count": 15
+      "avg_price": 8.58,
+      "store_count": 14
     }
   ],
   "nutrition": null,
@@ -257,6 +253,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "035336",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:22.977740+00:00"
+    },
+    {
       "store_number": "036466",
       "store_name": "Taco Bell Cantina Cantina",
       "city": "Nashville",
@@ -299,7 +305,7 @@
   ],
   "activity_summary": {
     "added": 2,
-    "removed": 2,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -640,15 +646,6 @@
       "Taco Bell Cantina",
       "Chicago",
       "IL"
-    ],
-    [
-      "035336",
-      40.70847127284533,
-      -74.00504528587913,
-      8.79,
-      "Taco Bell",
-      "New York",
-      "NY"
     ],
     [
       "038783",

@@ -17,7 +17,7 @@
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7649
+    "store_count": 7650
   },
   "histogram": [
     {
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 1730
+      "count": 1731
     },
     {
       "bucket": "$0.95",
@@ -279,7 +279,7 @@
     {
       "state": "OH",
       "avg_price": 0.84,
-      "store_count": 408
+      "store_count": 409
     },
     {
       "state": "MI",
@@ -584,6 +584,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028862",
+      "store_name": "Taco Bell",
+      "city": "Terre Haute",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-14T21:56:46.617832+00:00"
+    },
+    {
+      "store_number": "028922",
+      "store_name": "Taco Bell",
+      "city": "Bloomington",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:45.296282+00:00"
+    },
+    {
+      "store_number": "002086",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-04-14T21:52:02.051712+00:00"
+    },
     {
       "store_number": "032587",
       "store_name": "Taco Bell",
@@ -916,8 +946,8 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
-    "removed": 13,
+    "added": 22,
+    "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16344,15 +16374,6 @@
       "MS"
     ],
     [
-      "028922",
-      39.21132909184719,
-      -86.5860689595504,
-      0.7,
-      "Taco Bell",
-      "Bloomington",
-      "IN"
-    ],
-    [
       "028865",
       39.8248100203884,
       -86.00940600784276,
@@ -16377,6 +16398,15 @@
       0.7,
       "Taco Bell",
       "Bloomington",
+      "IN"
+    ],
+    [
+      "028862",
+      39.42279287942577,
+      -87.41551727056503,
+      0.7,
+      "Taco Bell",
+      "Terre Haute",
       "IN"
     ],
     [
@@ -42055,6 +42085,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "002086",
+      41.48532906027964,
+      -81.80523935465062,
+      0.9,
+      "Taco Bell",
+      "Lakewood",
+      "OH"
     ],
     [
       "035363",

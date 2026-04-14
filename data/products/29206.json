@@ -19,19 +19,19 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 26
+    "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 26
+      "count": 23
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 8.99,
-      "store_count": 26
+      "store_count": 23
     }
   ],
   "nutrition": {
@@ -136,7 +136,6 @@
     "032984",
     "032992",
     "033011",
-    "033005",
     "033026",
     "033024",
     "032994",
@@ -144,29 +143,13 @@
     "033008",
     "040369",
     "033002",
-    "033020",
-    "033001",
-    "042636"
+    "033001"
   ],
   "priciest_stores": [
-    {
-      "store_number": "042636",
-      "name": "Taco Bell",
-      "city": "Grand Rapids",
-      "state": "MI",
-      "price": 8.99
-    },
     {
       "store_number": "033001",
       "name": "Taco Bell",
       "city": "Walker",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
-      "store_number": "033020",
-      "name": "Taco Bell",
-      "city": "Grand Rapids",
       "state": "MI",
       "price": 8.99
     },
@@ -218,9 +201,53 @@
       "city": "Albion",
       "state": "MI",
       "price": 8.99
+    },
+    {
+      "store_number": "033011",
+      "name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "032992",
+      "name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:27.718595+00:00"
+    },
+    {
+      "store_number": "033005",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:57:33.334383+00:00"
+    },
+    {
+      "store_number": "033020",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:21.198289+00:00"
+    },
     {
       "store_number": "033075",
       "store_name": "Taco Bell",
@@ -334,7 +361,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 6,
+    "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -492,15 +519,6 @@
       "MI"
     ],
     [
-      "033005",
-      42.914045856471176,
-      -85.71077256982463,
-      8.99,
-      "Taco Bell",
-      "Wyoming",
-      "MI"
-    ],
-    [
       "033026",
       42.26129276711484,
       -84.75579047064694,
@@ -564,30 +582,12 @@
       "MI"
     ],
     [
-      "033020",
-      42.842486742945276,
-      -85.62426029588096,
-      8.99,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
       "033001",
       42.971881537968216,
       -85.77214105062558,
       8.99,
       "Taco Bell",
       "Walker",
-      "MI"
-    ],
-    [
-      "042636",
-      42.96980078904264,
-      -85.64359773456188,
-      8.99,
-      "Taco Bell",
-      "Grand Rapids",
       "MI"
     ]
   ]

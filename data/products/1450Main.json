@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
-  "availability_pct": 8.1,
+  "availability_pct": 8.0,
   "price_stats": {
     "avg": 1.18,
     "min": 0.69,
     "max": 2.29,
     "median": 1.05,
     "std_dev": 0.37,
-    "store_count": 621
+    "store_count": 620
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 123
+      "count": 122
     },
     {
       "bucket": "$1.00",
@@ -174,7 +174,7 @@
     {
       "state": "ND",
       "avg_price": 0.99,
-      "store_count": 8
+      "store_count": 7
     },
     {
       "state": "FL",
@@ -375,6 +375,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:51:29.083233+00:00"
+    },
     {
       "store_number": "036351",
       "store_name": "Taco Bell",
@@ -848,7 +858,7 @@
   ],
   "activity_summary": {
     "added": 17,
-    "removed": 30,
+    "removed": 31,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2467,15 +2477,6 @@
       "Taco Bell",
       "Albany",
       "GA"
-    ],
-    [
-      "041883",
-      48.173424515469144,
-      -103.62728089416856,
-      0.99,
-      "Taco Bell",
-      "Williston",
-      "ND"
     ],
     [
       "042417",

@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7084
+    "store_count": 7083
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5244
+      "count": 5243
     },
     {
       "bucket": "$4.19",
@@ -257,8 +257,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 4.35,
-      "store_count": 237
+      "avg_price": 4.36,
+      "store_count": 236
     },
     {
       "state": "WI",
@@ -278,7 +278,7 @@
     {
       "state": "TN",
       "avg_price": 4.22,
-      "store_count": 216
+      "store_count": 215
     },
     {
       "state": "DC",
@@ -348,7 +348,7 @@
     {
       "state": "TX",
       "avg_price": 4.01,
-      "store_count": 647
+      "store_count": 648
     },
     {
       "state": "MN",
@@ -2114,6 +2114,7 @@
     "027995",
     "034638",
     "040049",
+    "032512",
     "030386",
     "004472",
     "036370",
@@ -2132,7 +2133,6 @@
     "031400",
     "004721",
     "031457",
-    "029038",
     "032302",
     "023133",
     "029657",
@@ -2483,7 +2483,6 @@
     "005011",
     "029097",
     "031558",
-    "039766",
     "042630",
     "031131",
     "029581",
@@ -2734,7 +2733,6 @@
     "028861",
     "033777",
     "035148",
-    "029094",
     "042623",
     "016286",
     "040046",
@@ -2978,6 +2976,7 @@
     "027868",
     "029060",
     "041213",
+    "027641",
     "032678",
     "036485",
     "015194",
@@ -5809,6 +5808,56 @@
   ],
   "price_changes": [
     {
+      "store_number": "027641",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-14T21:56:31.936255+00:00"
+    },
+    {
+      "store_number": "029094",
+      "store_name": "Taco Bell",
+      "city": "Macon",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:24.626508+00:00"
+    },
+    {
+      "store_number": "039766",
+      "store_name": "Taco Bell",
+      "city": "Radford",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:17.278542+00:00"
+    },
+    {
+      "store_number": "029038",
+      "store_name": "Taco Bell",
+      "city": "Sweetwater",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:06.239596+00:00"
+    },
+    {
+      "store_number": "032512",
+      "store_name": "Taco Bell",
+      "city": "Crockett",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-14T21:56:05.569824+00:00"
+    },
+    {
       "store_number": "004779",
       "store_name": "Taco Bell",
       "city": "Smithfield",
@@ -6470,8 +6519,8 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
-    "removed": 28,
+    "added": 27,
+    "removed": 31,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21122,6 +21171,15 @@
       "MD"
     ],
     [
+      "032512",
+      31.327651797194893,
+      -95.44013977546308,
+      4.0,
+      "Taco Bell",
+      "Crockett",
+      "TX"
+    ],
+    [
       "030386",
       35.46621998183862,
       -97.52875283360481,
@@ -21282,15 +21340,6 @@
       "Taco Bell",
       "Novato",
       "CA"
-    ],
-    [
-      "029038",
-      35.58960397201566,
-      -84.47244303961763,
-      4.0,
-      "Taco Bell",
-      "Sweetwater",
-      "TN"
     ],
     [
       "032302",
@@ -24443,15 +24492,6 @@
       "AZ"
     ],
     [
-      "039766",
-      37.150646522455936,
-      -80.582447568936,
-      4.0,
-      "Taco Bell",
-      "Radford",
-      "VA"
-    ],
-    [
       "042630",
       43.398211193165416,
       -84.66750830411917,
@@ -26702,15 +26742,6 @@
       "TN"
     ],
     [
-      "029094",
-      32.8805847489199,
-      -83.76469381526931,
-      4.0,
-      "Taco Bell",
-      "Macon",
-      "GA"
-    ],
-    [
       "042623",
       41.12184543646923,
       -85.06201480708354,
@@ -28896,6 +28927,15 @@
       "Taco Bell",
       "Stone Mountain",
       "GA"
+    ],
+    [
+      "027641",
+      36.90594685598158,
+      -76.15080495180337,
+      4.0,
+      "Taco Bell",
+      "Virginia Beach",
+      "VA"
     ],
     [
       "032678",

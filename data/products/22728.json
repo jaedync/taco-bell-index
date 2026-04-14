@@ -17,7 +17,7 @@
     "max": 1.59,
     "median": 0.95,
     "std_dev": 0.19,
-    "store_count": 190
+    "store_count": 193
   },
   "histogram": [
     {
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 51
+      "count": 52
     },
     {
       "bucket": "$0.95",
-      "count": 36
+      "count": 37
     },
     {
       "bucket": "$0.99",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.10",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$1.19",
@@ -92,8 +92,8 @@
   "state_prices": [
     {
       "state": "KY",
-      "avg_price": 1.21,
-      "store_count": 5
+      "avg_price": 1.2,
+      "store_count": 6
     },
     {
       "state": "IL",
@@ -128,7 +128,7 @@
     {
       "state": "MO",
       "avg_price": 0.94,
-      "store_count": 7
+      "store_count": 8
     },
     {
       "state": "MN",
@@ -318,6 +318,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015353",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.1,
+      "observed_at": "2026-04-14T21:56:40.372554+00:00"
+    },
+    {
+      "store_number": "027760",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-04-14T21:56:40.050932+00:00"
+    },
+    {
+      "store_number": "039574",
+      "store_name": "Taco Bell",
+      "city": "Owensville",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-04-14T21:51:52.026930+00:00"
+    },
     {
       "store_number": "037477",
       "store_name": "Taco Bell",
@@ -520,7 +550,7 @@
     }
   ],
   "activity_summary": {
-    "added": 10,
+    "added": 13,
     "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1206,6 +1236,15 @@
       "MO"
     ],
     [
+      "039574",
+      38.34548653659313,
+      -91.49435741440762,
+      0.9,
+      "Taco Bell",
+      "Owensville",
+      "MO"
+    ],
+    [
       "038871",
       42.411818264438004,
       -82.91333451525527,
@@ -1528,6 +1567,15 @@
       "Taco Bell",
       "Clinton Township",
       "MI"
+    ],
+    [
+      "027760",
+      36.81939682129553,
+      -76.11934818332884,
+      0.95,
+      "Taco Bell",
+      "Virginia Beach",
+      "VA"
     ],
     [
       "036262",
@@ -2004,6 +2052,15 @@
       1.1,
       "Taco Bell",
       "Cold Spring",
+      "KY"
+    ],
+    [
+      "015353",
+      39.08669979579431,
+      -84.51846854058864,
+      1.1,
+      "Taco Bell",
+      "Covington",
       "KY"
     ],
     [

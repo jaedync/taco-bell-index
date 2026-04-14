@@ -17,7 +17,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.11,
-    "store_count": 7669
+    "store_count": 7670
   },
   "histogram": [
     {
@@ -134,7 +134,7 @@
     },
     {
       "bucket": "$26.99",
-      "count": 441
+      "count": 440
     },
     {
       "bucket": "$27.19",
@@ -218,7 +218,7 @@
     },
     {
       "bucket": "$30.99",
-      "count": 919
+      "count": 920
     },
     {
       "bucket": "$31.49",
@@ -238,7 +238,7 @@
     },
     {
       "bucket": "$32.49",
-      "count": 192
+      "count": 193
     },
     {
       "bucket": "$32.80",
@@ -502,7 +502,7 @@
     {
       "state": "OH",
       "avg_price": 30.32,
-      "store_count": 408
+      "store_count": 409
     },
     {
       "state": "OR",
@@ -586,13 +586,13 @@
     },
     {
       "state": "WI",
-      "avg_price": 28.47,
-      "store_count": 142
+      "avg_price": 28.49,
+      "store_count": 141
     },
     {
       "state": "GA",
-      "avg_price": 28.45,
-      "store_count": 254
+      "avg_price": 28.46,
+      "store_count": 255
     },
     {
       "state": "KS",
@@ -778,6 +778,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 30.99,
+      "observed_at": "2026-04-14T21:58:21.514787+00:00"
+    },
+    {
+      "store_number": "042880",
+      "store_name": "Taco Bell",
+      "city": "Kingsland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 32.49,
+      "observed_at": "2026-04-14T21:57:58.832797+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 26.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:27.558864+00:00"
+    },
     {
       "store_number": "038911",
       "store_name": "Taco Bell",
@@ -1510,8 +1540,8 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 25,
+    "added": 35,
+    "removed": 26,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10460,15 +10490,6 @@
       "Taco Bell",
       "Freeport",
       "NY"
-    ],
-    [
-      "037062",
-      45.47765908183094,
-      -91.73469021466224,
-      26.99,
-      "Taco Bell",
-      "Rice Lake",
-      "WI"
     ],
     [
       "040708",
@@ -41368,6 +41389,15 @@
       "KY"
     ],
     [
+      "038911",
+      40.07846157619223,
+      -82.42877130212037,
+      30.99,
+      "Taco Bell",
+      "Newark",
+      "OH"
+    ],
+    [
       "029599",
       33.13506202021908,
       -91.96270648352113,
@@ -51805,6 +51835,15 @@
       32.49,
       "Taco Bell",
       "Lavonia",
+      "GA"
+    ],
+    [
+      "042880",
+      30.788669235008257,
+      -81.6504080593586,
+      32.49,
+      "Taco Bell",
+      "Kingsland",
       "GA"
     ],
     [

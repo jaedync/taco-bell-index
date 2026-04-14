@@ -17,7 +17,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.12,
-    "store_count": 7581
+    "store_count": 7582
   },
   "histogram": [
     {
@@ -122,7 +122,7 @@
     },
     {
       "bucket": "$26.99",
-      "count": 427
+      "count": 426
     },
     {
       "bucket": "$27.19",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$28.29",
-      "count": 19
+      "count": 20
     },
     {
       "bucket": "$28.49",
@@ -222,7 +222,7 @@
     },
     {
       "bucket": "$31.99",
-      "count": 570
+      "count": 569
     },
     {
       "bucket": "$32.00",
@@ -250,7 +250,7 @@
     },
     {
       "bucket": "$32.99",
-      "count": 625
+      "count": 626
     },
     {
       "bucket": "$33.00",
@@ -326,7 +326,7 @@
     },
     {
       "bucket": "$35.99",
-      "count": 201
+      "count": 202
     },
     {
       "bucket": "$36.00",
@@ -386,7 +386,7 @@
     {
       "state": "CA",
       "avg_price": 34.04,
-      "store_count": 825
+      "store_count": 827
     },
     {
       "state": "MT",
@@ -490,8 +490,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 30.69,
-      "store_count": 439
+      "avg_price": 30.68,
+      "store_count": 440
     },
     {
       "state": "MA",
@@ -595,13 +595,13 @@
     },
     {
       "state": "WI",
-      "avg_price": 28.47,
-      "store_count": 142
+      "avg_price": 28.48,
+      "store_count": 141
     },
     {
       "state": "KS",
-      "avg_price": 28.42,
-      "store_count": 89
+      "avg_price": 28.38,
+      "store_count": 88
     },
     {
       "state": "TN",
@@ -782,6 +782,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034394",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 31.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:58:24.108474+00:00"
+    },
+    {
+      "store_number": "034175",
+      "store_name": "Taco Bell",
+      "city": "Santa Nella",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 32.99,
+      "observed_at": "2026-04-14T21:58:06.036170+00:00"
+    },
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 28.29,
+      "observed_at": "2026-04-14T21:57:38.964807+00:00"
+    },
+    {
+      "store_number": "030744",
+      "store_name": "Taco Bell",
+      "city": "Castro Valley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 35.99,
+      "observed_at": "2026-04-14T21:57:21.144848+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 26.99,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:41:27.558864+00:00"
+    },
     {
       "store_number": "033775",
       "store_name": "Taco Bell",
@@ -1644,8 +1694,8 @@
     }
   ],
   "activity_summary": {
-    "added": 41,
-    "removed": 30,
+    "added": 44,
+    "removed": 32,
     "price_changed": 15,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10551,15 +10601,6 @@
       "NY"
     ],
     [
-      "037062",
-      45.47765908183094,
-      -91.73469021466224,
-      26.99,
-      "Taco Bell",
-      "Rice Lake",
-      "WI"
-    ],
-    [
       "040708",
       35.8612,
       -86.5084,
@@ -18424,6 +18465,15 @@
       "Taco Bell",
       "Zion",
       "IL"
+    ],
+    [
+      "019713",
+      30.231264247912293,
+      -85.8896670444301,
+      28.29,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
     ],
     [
       "032099",
@@ -48396,15 +48446,6 @@
       "LA"
     ],
     [
-      "034394",
-      39.12901809821786,
-      -94.82332013550149,
-      31.99,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
-    ],
-    [
       "034627",
       30.440790770540705,
       -88.8989531993866,
@@ -56701,6 +56742,15 @@
       "Taco Bell",
       "Williamsburg",
       "VA"
+    ],
+    [
+      "034175",
+      37.10380714075557,
+      -121.01530825306419,
+      32.99,
+      "Taco Bell",
+      "Santa Nella",
+      "CA"
     ],
     [
       "038830",
@@ -69462,6 +69512,15 @@
       35.99,
       "Taco Bell",
       "Fremont",
+      "CA"
+    ],
+    [
+      "030744",
+      37.694028668477095,
+      -122.07418681005947,
+      35.99,
+      "Taco Bell",
+      "Castro Valley",
       "CA"
     ],
     [

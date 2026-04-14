@@ -17,7 +17,7 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 284
+    "store_count": 283
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 86
+      "count": 85
     },
     {
       "bucket": "$0.45",
@@ -85,14 +85,14 @@
       "store_count": 17
     },
     {
-      "state": "CA",
-      "avg_price": 0.31,
-      "store_count": 108
-    },
-    {
       "state": "OR",
       "avg_price": 0.31,
       "store_count": 50
+    },
+    {
+      "state": "CA",
+      "avg_price": 0.31,
+      "store_count": 107
     },
     {
       "state": "WY",
@@ -348,6 +348,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "001521",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.4,
+      "new_price": null,
+      "observed_at": "2026-04-14T21:56:28.687772+00:00"
+    },
+    {
       "store_number": "039792",
       "store_name": "Taco Bell",
       "city": "Anaheim",
@@ -580,7 +590,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 14,
+    "removed": 15,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1938,15 +1948,6 @@
       "Taco Bell",
       "Seaside",
       "OR"
-    ],
-    [
-      "001521",
-      38.52294615501463,
-      -121.49746171580777,
-      0.4,
-      "Taco Bell",
-      "Sacramento",
-      "CA"
     ],
     [
       "028749",
