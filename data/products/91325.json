@@ -18,12 +18,12 @@
     "max": 11.29,
     "median": 9.0,
     "std_dev": 0.48,
-    "store_count": 90
+    "store_count": 89
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 83
+      "count": 82
     },
     {
       "bucket": "$9.49",
@@ -48,7 +48,7 @@
     {
       "state": "AL",
       "avg_price": 9.0,
-      "store_count": 43
+      "store_count": 42
     }
   ],
   "nutrition": {
@@ -165,7 +165,6 @@
     "036487",
     "036488",
     "040962",
-    "030463",
     "036486",
     "036482",
     "036485",
@@ -210,12 +209,12 @@
     "040382",
     "039938",
     "041243",
+    "002995",
     "042582",
     "026073",
     "003889",
     "032755",
     "037105",
-    "042585",
     "041251",
     "037047",
     "037460",
@@ -295,6 +294,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-04-15T21:40:39.738837+00:00"
+    },
+    {
+      "store_number": "030463",
+      "store_name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:15.158107+00:00"
+    },
+    {
+      "store_number": "042585",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:54.533982+00:00"
+    },
     {
       "store_number": "041837",
       "store_name": "Taco Bell",
@@ -857,8 +886,8 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 13,
+    "added": 44,
+    "removed": 15,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1140,15 +1169,6 @@
       "Taco Bell",
       "Franklin",
       "NC"
-    ],
-    [
-      "030463",
-      31.105415984250854,
-      -87.47651986779147,
-      9.0,
-      "Taco Bell",
-      "Atmore",
-      "AL"
     ],
     [
       "036486",
@@ -1547,6 +1567,15 @@
       "GA"
     ],
     [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      9.0,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "042582",
       34.03186002111262,
       -83.88571668620189,
@@ -1590,15 +1619,6 @@
       "Taco Bell",
       "Talladega",
       "AL"
-    ],
-    [
-      "042585",
-      34.01047868053667,
-      -84.7536712245369,
-      9.0,
-      "Taco Bell",
-      "Dallas",
-      "GA"
     ],
     [
       "041251",

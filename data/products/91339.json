@@ -13,33 +13,28 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.43,
+    "avg": 5.41,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.17,
+    "std_dev": 0.19,
     "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$5.49",
-      "count": 21
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 5.45,
-      "store_count": 13
-    },
-    {
-      "state": "AL",
-      "avg_price": 5.39,
-      "store_count": 5
+      "avg_price": 5.42,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -79,6 +74,13 @@
       "price": 4.99
     },
     {
+      "store_number": "033933",
+      "name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "price": 4.99
+    },
+    {
       "store_number": "037130",
       "name": "Taco Bell",
       "city": "Athens",
@@ -96,13 +98,6 @@
       "store_number": "029120",
       "name": "Taco Bell",
       "city": "Leeds",
-      "state": "AL",
-      "price": 5.49
-    },
-    {
-      "store_number": "029153",
-      "name": "Taco Bell",
-      "city": "Hoover",
       "state": "AL",
       "price": 5.49
     },
@@ -131,7 +126,8 @@
   "min_price_store_numbers": [
     "033481",
     "043129",
-    "038733"
+    "038733",
+    "033933"
   ],
   "priciest_stores": [
     {
@@ -206,6 +202,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033933",
+      "store_name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-15T21:41:20.523853+00:00"
+    },
+    {
+      "store_number": "029153",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:38.003921+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -608,8 +624,8 @@
     }
   ],
   "activity_summary": {
-    "added": 19,
-    "removed": 21,
+    "added": 20,
+    "removed": 22,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -646,6 +662,15 @@
       "AL"
     ],
     [
+      "033933",
+      32.55630155569918,
+      -83.88546050387518,
+      4.99,
+      "Taco Bell",
+      "Fort Valley",
+      "GA"
+    ],
+    [
       "037130",
       35.43148035713793,
       -84.58559950824514,
@@ -670,15 +695,6 @@
       5.49,
       "Taco Bell",
       "Leeds",
-      "AL"
-    ],
-    [
-      "029153",
-      33.37553645889424,
-      -86.80206133982665,
-      5.49,
-      "Taco Bell",
-      "Hoover",
       "AL"
     ],
     [

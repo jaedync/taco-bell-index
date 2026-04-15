@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.3,
+  "availability_pct": 98.2,
   "price_stats": {
     "avg": 2.23,
     "min": 1.39,
     "max": 5.99,
     "median": 2.19,
     "std_dev": 0.41,
-    "store_count": 7573
+    "store_count": 7569
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 185
+      "count": 184
     },
     {
       "bucket": "$1.71",
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 650
+      "count": 649
     },
     {
       "bucket": "$1.82",
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1359
+      "count": 1358
     },
     {
       "bucket": "$2.09",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1020
+      "count": 1019
     },
     {
       "bucket": "$2.25",
@@ -75,7 +75,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 272
+      "count": 273
     },
     {
       "bucket": "$2.39",
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 454
+      "count": 453
     },
     {
       "bucket": "$2.79",
@@ -115,7 +115,7 @@
     },
     {
       "bucket": "$2.84",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$2.89",
@@ -139,7 +139,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 391
+      "count": 390
     },
     {
       "bucket": "$3.09",
@@ -200,7 +200,7 @@
     {
       "state": "NY",
       "avg_price": 2.62,
-      "store_count": 246
+      "store_count": 247
     },
     {
       "state": "NV",
@@ -215,7 +215,7 @@
     {
       "state": "MI",
       "avg_price": 2.5,
-      "store_count": 344
+      "store_count": 341
     },
     {
       "state": "UT",
@@ -285,7 +285,7 @@
     {
       "state": "IN",
       "avg_price": 2.24,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "ID",
@@ -435,7 +435,7 @@
     {
       "state": "HI",
       "avg_price": 1.69,
-      "store_count": 30
+      "store_count": 29
     }
   ],
   "nutrition": {
@@ -600,6 +600,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:10.613334+00:00"
+    },
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 2.19,
+      "new_price": 2.29,
+      "observed_at": "2026-04-15T21:40:42.315213+00:00"
+    },
+    {
+      "store_number": "028864",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:22.637873+00:00"
+    },
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:41.858367+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:34.748558+00:00"
+    },
+    {
+      "store_number": "037051",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.84,
+      "observed_at": "2026-04-15T21:39:26.047839+00:00"
+    },
     {
       "store_number": "034162",
       "store_name": "Taco Bell",
@@ -2472,9 +2532,9 @@
     }
   ],
   "activity_summary": {
-    "added": 102,
-    "removed": 69,
-    "price_changed": 16,
+    "added": 103,
+    "removed": 73,
+    "price_changed": 17,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 160,
@@ -8801,15 +8861,6 @@
       "HI"
     ],
     [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      1.69,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
-    ],
-    [
       "031113",
       38.73086797874962,
       -120.78617110848427,
@@ -14154,15 +14205,6 @@
       "Taco Bell",
       "Peachtree City",
       "GA"
-    ],
-    [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      1.79,
-      "Taco Bell",
-      "South Haven",
-      "MI"
     ],
     [
       "033013",
@@ -25385,15 +25427,6 @@
       1.99,
       "Taco Bell",
       "Indianapolis",
-      "IN"
-    ],
-    [
-      "028864",
-      38.02002692366876,
-      -87.57374882698059,
-      1.99,
-      "Taco Bell",
-      "Evansville",
       "IN"
     ],
     [
@@ -37664,15 +37697,6 @@
       "FL"
     ],
     [
-      "042187",
-      39.92183928957404,
-      -75.1875776946872,
-      2.19,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
-    ],
-    [
       "042576",
       34.10871458788698,
       -83.87817268075196,
@@ -43134,6 +43158,15 @@
       "Taco Bell",
       "Burbank",
       "CA"
+    ],
+    [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      2.29,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ],
     [
       "024417",
@@ -58454,15 +58487,6 @@
       "MI"
     ],
     [
-      "037839",
-      42.23087868339839,
-      -83.73982473278835,
-      2.69,
-      "Taco Bell",
-      "Ann Arbor",
-      "MI"
-    ],
-    [
       "041875",
       43.02456381414757,
       -82.45632998180554,
@@ -65420,6 +65444,15 @@
       "NY"
     ],
     [
+      "037051",
+      40.64434179808303,
+      -74.01147223422221,
+      2.84,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "039957",
       40.7006839920179,
       -73.90258168514532,
@@ -66875,15 +66908,6 @@
       2.99,
       "Taco Bell",
       "Taylor",
-      "MI"
-    ],
-    [
-      "023745",
-      42.224730175482414,
-      -83.4856314762491,
-      2.99,
-      "Taco Bell",
-      "Belleville",
       "MI"
     ],
     [

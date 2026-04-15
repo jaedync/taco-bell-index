@@ -19,7 +19,7 @@
     "max": 5.49,
     "median": 2.99,
     "std_dev": 0.29,
-    "store_count": 7699
+    "store_count": 7697
   },
   "histogram": [
     {
@@ -59,10 +59,6 @@
       "count": 117
     },
     {
-      "bucket": "$2.09",
-      "count": 1
-    },
-    {
       "bucket": "$2.12",
       "count": 1
     },
@@ -76,7 +72,7 @@
     },
     {
       "bucket": "$2.39",
-      "count": 59
+      "count": 57
     },
     {
       "bucket": "$2.49",
@@ -96,7 +92,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 562
+      "count": 561
     },
     {
       "bucket": "$2.80",
@@ -124,7 +120,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 3687
+      "count": 3684
     },
     {
       "bucket": "$3.00",
@@ -156,11 +152,11 @@
     },
     {
       "bucket": "$3.29",
-      "count": 159
+      "count": 165
     },
     {
       "bucket": "$3.39",
-      "count": 197
+      "count": 196
     },
     {
       "bucket": "$3.40",
@@ -217,13 +213,18 @@
     },
     {
       "state": "MI",
-      "avg_price": 3.13,
-      "store_count": 349
+      "avg_price": 3.12,
+      "store_count": 348
     },
     {
       "state": "MT",
       "avg_price": 3.12,
       "store_count": 27
+    },
+    {
+      "state": "DE",
+      "avg_price": 3.03,
+      "store_count": 16
     },
     {
       "state": "WA",
@@ -248,12 +249,7 @@
     {
       "state": "HI",
       "avg_price": 2.99,
-      "store_count": 30
-    },
-    {
-      "state": "DE",
-      "avg_price": 2.99,
-      "store_count": 16
+      "store_count": 29
     },
     {
       "state": "AK",
@@ -281,6 +277,16 @@
       "store_count": 127
     },
     {
+      "state": "MD",
+      "avg_price": 2.92,
+      "store_count": 91
+    },
+    {
+      "state": "PA",
+      "avg_price": 2.91,
+      "store_count": 201
+    },
+    {
       "state": "CA",
       "avg_price": 2.91,
       "store_count": 839
@@ -294,16 +300,6 @@
       "state": "WY",
       "avg_price": 2.91,
       "store_count": 11
-    },
-    {
-      "state": "PA",
-      "avg_price": 2.91,
-      "store_count": 201
-    },
-    {
-      "state": "MD",
-      "avg_price": 2.9,
-      "store_count": 91
     },
     {
       "state": "LA",
@@ -614,6 +610,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042186",
+      "store_name": "Taco Bell",
+      "city": "Milford",
+      "state": "DE",
+      "change_type": "price_change",
+      "old_price": 2.99,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:41:20.734654+00:00"
+    },
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 2.09,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:40:42.315213+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:23.948256+00:00"
+    },
+    {
+      "store_number": "017194",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:39:49.341111+00:00"
+    },
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:41.858367+00:00"
+    },
+    {
+      "store_number": "036235",
+      "store_name": "Taco Bell",
+      "city": "Baltimore",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 2.39,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:39:16.628796+00:00"
+    },
+    {
+      "store_number": "042838",
+      "store_name": "Taco Bell",
+      "city": "Claymont",
+      "state": "DE",
+      "change_type": "price_change",
+      "old_price": 2.99,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:39:14.722311+00:00"
+    },
+    {
+      "store_number": "040699",
+      "store_name": "Taco Bell",
+      "city": "Fort Washington",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 2.39,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:34:04.324496+00:00"
+    },
     {
       "store_number": "039545",
       "store_name": "Taco Bell",
@@ -1506,9 +1582,9 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 37,
-    "price_changed": 9,
+    "added": 44,
+    "removed": 39,
+    "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 220,
@@ -3596,15 +3672,6 @@
       "WI"
     ],
     [
-      "042187",
-      39.92183928957404,
-      -75.1875776946872,
-      2.09,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
-    ],
-    [
       "032954",
       39.03570243248032,
       -77.05521037225668,
@@ -5576,15 +5643,6 @@
       "MO"
     ],
     [
-      "040699",
-      38.75825528849395,
-      -76.99572933854581,
-      2.39,
-      "Taco Bell",
-      "Fort Washington",
-      "MD"
-    ],
-    [
       "041429",
       40.2234306609075,
       -76.93220577093085,
@@ -5610,15 +5668,6 @@
       "Taco Bell",
       "Smithville",
       "MO"
-    ],
-    [
-      "036235",
-      39.3569871494312,
-      -76.7042812082587,
-      2.39,
-      "Taco Bell",
-      "Baltimore",
-      "MD"
     ],
     [
       "037174",
@@ -22262,15 +22311,6 @@
       "CA"
     ],
     [
-      "035471",
-      38.64448867761824,
-      -121.27272382378573,
-      2.79,
-      "Taco Bell",
-      "Fair Oaks",
-      "CA"
-    ],
-    [
       "034173",
       37.98707734795462,
       -121.24699741601944,
@@ -34851,15 +34891,6 @@
       "Taco Bell",
       "Wildwood",
       "FL"
-    ],
-    [
-      "042838",
-      39.8171932433511,
-      -75.45720799526146,
-      2.99,
-      "Taco Bell",
-      "Claymont",
-      "DE"
     ],
     [
       "036234",
@@ -59918,15 +59949,6 @@
       "AZ"
     ],
     [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      2.99,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
-    ],
-    [
       "002619",
       31.748863005689905,
       -93.08193252237288,
@@ -64274,15 +64296,6 @@
       "PA"
     ],
     [
-      "042186",
-      38.91699265235585,
-      -75.44265458895495,
-      2.99,
-      "Taco Bell",
-      "Milford",
-      "DE"
-    ],
-    [
       "032386",
       35.10244458510024,
       -106.72952280030289,
@@ -66902,6 +66915,15 @@
       "CO"
     ],
     [
+      "040699",
+      38.75825528849395,
+      -76.99572933854581,
+      3.29,
+      "Taco Bell",
+      "Fort Washington",
+      "MD"
+    ],
+    [
       "037713",
       39.8607,
       -105.165,
@@ -66945,6 +66967,24 @@
       "Taco Bell",
       "Erie",
       "CO"
+    ],
+    [
+      "042838",
+      39.8171932433511,
+      -75.45720799526146,
+      3.29,
+      "Taco Bell",
+      "Claymont",
+      "DE"
+    ],
+    [
+      "036235",
+      39.3569871494312,
+      -76.7042812082587,
+      3.29,
+      "Taco Bell",
+      "Baltimore",
+      "MD"
     ],
     [
       "020477",
@@ -67080,6 +67120,15 @@
       "Taco Bell",
       "Denver",
       "CO"
+    ],
+    [
+      "017194",
+      33.94586214192393,
+      -118.26566428853353,
+      3.29,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
     ],
     [
       "036111",
@@ -67656,6 +67705,15 @@
       "Taco Bell",
       "Lakewood",
       "CA"
+    ],
+    [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      3.29,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ],
     [
       "005598",
@@ -68259,6 +68317,15 @@
       "Taco Bell",
       "Denver",
       "CO"
+    ],
+    [
+      "042186",
+      38.91699265235585,
+      -75.44265458895495,
+      3.29,
+      "Taco Bell",
+      "Milford",
+      "DE"
     ],
     [
       "038511",
@@ -68915,15 +68982,6 @@
       3.39,
       "Taco Bell",
       "Howell",
-      "MI"
-    ],
-    [
-      "037839",
-      42.23087868339839,
-      -83.73982473278835,
-      3.39,
-      "Taco Bell",
-      "Ann Arbor",
       "MI"
     ],
     [

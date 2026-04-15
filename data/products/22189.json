@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.83,
-    "store_count": 7677
+    "store_count": 7674
   },
   "histogram": [
     {
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 741
+      "count": 740
     },
     {
       "bucket": "$21.09",
@@ -166,7 +166,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1429
+      "count": 1428
     },
     {
       "bucket": "$22.19",
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1797
+      "count": 1796
     },
     {
       "bucket": "$23.19",
@@ -432,7 +432,7 @@
     {
       "state": "HI",
       "avg_price": 22.99,
-      "store_count": 30
+      "store_count": 29
     },
     {
       "state": "AZ",
@@ -482,7 +482,7 @@
     {
       "state": "MI",
       "avg_price": 22.21,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "WI",
@@ -491,8 +491,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 21.98,
-      "store_count": 47
+      "avg_price": 22.0,
+      "store_count": 46
     },
     {
       "state": "MO",
@@ -541,8 +541,8 @@
     },
     {
       "state": "NM",
-      "avg_price": 21.3,
-      "store_count": 57
+      "avg_price": 21.29,
+      "store_count": 58
     },
     {
       "state": "ND",
@@ -562,7 +562,7 @@
     {
       "state": "TX",
       "avg_price": 21.1,
-      "store_count": 700
+      "store_count": 699
     },
     {
       "state": "KS",
@@ -754,6 +754,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043197",
+      "store_name": "Taco Bell",
+      "city": "Bernalillo",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-15T21:40:42.249038+00:00"
+    },
+    {
+      "store_number": "042288",
+      "store_name": "Taco Bell",
+      "city": "Odessa",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 20.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:27.805801+00:00"
+    },
+    {
+      "store_number": "037060",
+      "store_name": "Taco Bell",
+      "city": "Mason City",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 20.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:01.490877+00:00"
+    },
+    {
+      "store_number": "002140",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:36.923039+00:00"
+    },
     {
       "store_number": "038911",
       "store_name": "Taco Bell",
@@ -1266,8 +1306,8 @@
     }
   ],
   "activity_summary": {
-    "added": 23,
-    "removed": 19,
+    "added": 24,
+    "removed": 22,
     "price_changed": 9,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14385,15 +14425,6 @@
       "TX"
     ],
     [
-      "037060",
-      43.1477402168443,
-      -93.21318903568681,
-      20.99,
-      "Taco Bell",
-      "Mason City",
-      "IA"
-    ],
-    [
       "029137",
       34.27997239166019,
       -86.21699877084666,
@@ -15744,15 +15775,6 @@
       "IL"
     ],
     [
-      "042288",
-      31.890843186467603,
-      -102.34886259086885,
-      20.99,
-      "Taco Bell",
-      "Odessa",
-      "TX"
-    ],
-    [
       "004526",
       36.84052930675898,
       -76.10026932790788,
@@ -16507,6 +16529,15 @@
       "Taco Bell",
       "Caseyville",
       "IL"
+    ],
+    [
+      "043197",
+      35.317196057394405,
+      -106.54172667864259,
+      20.99,
+      "Taco Bell",
+      "Bernalillo",
+      "NM"
     ],
     [
       "001423",
@@ -23419,15 +23450,6 @@
       "Taco Bell",
       "Akron",
       "OH"
-    ],
-    [
-      "002140",
-      42.19835694745384,
-      -83.26728052050346,
-      21.99,
-      "Taco Bell",
-      "Taylor",
-      "MI"
     ],
     [
       "019549",
@@ -49366,15 +49388,6 @@
       "Taco Bell",
       "Lakeside",
       "AZ"
-    ],
-    [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      22.99,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
     ],
     [
       "031886",

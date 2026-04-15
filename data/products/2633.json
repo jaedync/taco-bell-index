@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3542
+    "store_count": 3541
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3542
+      "count": 3541
     }
   ],
   "state_prices": [
@@ -39,7 +39,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 133
+      "store_count": 134
     },
     {
       "state": "VA",
@@ -59,7 +59,7 @@
     {
       "state": "TN",
       "avg_price": 0.0,
-      "store_count": 51
+      "store_count": 50
     },
     {
       "state": "SD",
@@ -199,12 +199,12 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 66
+      "store_count": 65
     },
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 247
+      "store_count": 248
     },
     {
       "state": "DC",
@@ -229,7 +229,7 @@
     {
       "state": "AZ",
       "avg_price": 0.0,
-      "store_count": 179
+      "store_count": 178
     },
     {
       "state": "AK",
@@ -470,7 +470,6 @@
     "041951",
     "041672",
     "042086",
-    "041088",
     "042056",
     "041668",
     "040994",
@@ -507,6 +506,7 @@
     "034922",
     "034793",
     "039111",
+    "034930",
     "035341",
     "035185",
     "034080",
@@ -965,7 +965,6 @@
     "021226",
     "016667",
     "004939",
-    "034429",
     "030701",
     "002882",
     "030253",
@@ -1504,7 +1503,6 @@
     "042761",
     "004259",
     "033860",
-    "031718",
     "032107",
     "019589",
     "031685",
@@ -3865,9 +3863,17 @@
     "033312",
     "030468",
     "028184",
-    "028476"
+    "028476",
+    "042874"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042874",
+      "name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 0.0
+    },
     {
       "store_number": "028476",
       "name": "Taco Bell",
@@ -3930,16 +3936,59 @@
       "city": "Houston",
       "state": "TX",
       "price": 0.0
-    },
-    {
-      "store_number": "032185",
-      "name": "Taco Bell",
-      "city": "New York",
-      "state": "NY",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042874",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-15T21:41:11.106362+00:00"
+    },
+    {
+      "store_number": "031718",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:06.208558+00:00"
+    },
+    {
+      "store_number": "034429",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:39.709645+00:00"
+    },
+    {
+      "store_number": "034930",
+      "store_name": "Taco Bell",
+      "city": "Ferndale",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-15T21:39:09.088015+00:00"
+    },
+    {
+      "store_number": "041088",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:35:10.918687+00:00"
+    },
     {
       "store_number": "031332",
       "store_name": "Taco Bell",
@@ -4712,8 +4761,8 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 44,
+    "added": 35,
+    "removed": 47,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6037,15 +6086,6 @@
       "NC"
     ],
     [
-      "041088",
-      33.57060583649051,
-      -83.85142853497027,
-      0.0,
-      "Taco Bell",
-      "Covington",
-      "GA"
-    ],
-    [
       "042056",
       42.48204824251817,
       -76.48366345776137,
@@ -6368,6 +6408,15 @@
       "Taco Bell",
       "Scranton",
       "PA"
+    ],
+    [
+      "034930",
+      48.84922576328191,
+      -122.57324520849482,
+      0.0,
+      "Taco Bell",
+      "Ferndale",
+      "WA"
     ],
     [
       "035341",
@@ -10490,15 +10539,6 @@
       "Taco Bell",
       "Hickory",
       "NC"
-    ],
-    [
-      "034429",
-      36.07649982869039,
-      -86.64148009849214,
-      0.0,
-      "Taco Bell",
-      "Nashville",
-      "TN"
     ],
     [
       "030701",
@@ -15341,15 +15381,6 @@
       "Taco Bell",
       "Denver",
       "CO"
-    ],
-    [
-      "031718",
-      32.33643940702738,
-      -111.04644119739532,
-      0.0,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
     ],
     [
       "032107",
@@ -36599,6 +36630,15 @@
       "Taco Bell",
       "Columbus",
       "OH"
+    ],
+    [
+      "042874",
+      30.286389672106107,
+      -81.52798799565068,
+      0.0,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
     ]
   ]
 }

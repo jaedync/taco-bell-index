@@ -17,12 +17,12 @@
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7616
+    "store_count": 7613
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 273
+      "count": 272
     },
     {
       "bucket": "$0.10",
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$0.15",
-      "count": 215
+      "count": 214
     },
     {
       "bucket": "$0.20",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.25",
-      "count": 152
+      "count": 151
     },
     {
       "bucket": "$0.29",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$0.30",
-      "count": 2322
+      "count": 2321
     },
     {
       "bucket": "$0.35",
-      "count": 317
+      "count": 315
     },
     {
       "bucket": "$0.39",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$0.49",
-      "count": 29
+      "count": 28
     },
     {
       "bucket": "$0.50",
@@ -94,11 +94,11 @@
     },
     {
       "bucket": "$0.59",
-      "count": 154
+      "count": 153
     },
     {
       "bucket": "$0.60",
-      "count": 332
+      "count": 337
     },
     {
       "bucket": "$0.65",
@@ -209,7 +209,7 @@
     },
     {
       "state": "MD",
-      "avg_price": 0.42,
+      "avg_price": 0.43,
       "store_count": 90
     },
     {
@@ -221,6 +221,11 @@
       "state": "GA",
       "avg_price": 0.42,
       "store_count": 249
+    },
+    {
+      "state": "DE",
+      "avg_price": 0.41,
+      "store_count": 16
     },
     {
       "state": "VA",
@@ -268,11 +273,6 @@
       "store_count": 404
     },
     {
-      "state": "DE",
-      "avg_price": 0.38,
-      "store_count": 16
-    },
-    {
       "state": "MI",
       "avg_price": 0.38,
       "store_count": 347
@@ -295,7 +295,7 @@
     {
       "state": "TN",
       "avg_price": 0.35,
-      "store_count": 253
+      "store_count": 252
     },
     {
       "state": "AZ",
@@ -350,7 +350,7 @@
     {
       "state": "IN",
       "avg_price": 0.3,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "CO",
@@ -375,7 +375,7 @@
     {
       "state": "HI",
       "avg_price": 0.25,
-      "store_count": 29
+      "store_count": 28
     },
     {
       "state": "NM",
@@ -703,7 +703,6 @@
     "004201",
     "031583",
     "041399",
-    "026432",
     "036759",
     "033101",
     "023826",
@@ -847,6 +846,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042186",
+      "store_name": "Taco Bell",
+      "city": "Milford",
+      "state": "DE",
+      "change_type": "price_change",
+      "old_price": 0.35,
+      "new_price": 0.6,
+      "observed_at": "2026-04-15T21:41:20.734654+00:00"
+    },
+    {
+      "store_number": "028907",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.15,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:58.737049+00:00"
+    },
+    {
+      "store_number": "026432",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:47.278626+00:00"
+    },
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 0.49,
+      "new_price": 0.6,
+      "observed_at": "2026-04-15T21:40:42.315213+00:00"
+    },
+    {
+      "store_number": "036235",
+      "store_name": "Taco Bell",
+      "city": "Baltimore",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.3,
+      "new_price": 0.6,
+      "observed_at": "2026-04-15T21:39:16.628796+00:00"
+    },
+    {
+      "store_number": "042838",
+      "store_name": "Taco Bell",
+      "city": "Claymont",
+      "state": "DE",
+      "change_type": "price_change",
+      "old_price": 0.35,
+      "new_price": 0.6,
+      "observed_at": "2026-04-15T21:39:14.722311+00:00"
+    },
+    {
+      "store_number": "040699",
+      "store_name": "Taco Bell",
+      "city": "Fort Washington",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.59,
+      "new_price": 0.6,
+      "observed_at": "2026-04-15T21:34:04.324496+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -1160,8 +1229,8 @@
   ],
   "activity_summary": {
     "added": 18,
-    "removed": 13,
-    "price_changed": 0,
+    "removed": 15,
+    "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 15,
@@ -2995,15 +3064,6 @@
       "Taco Bell",
       "Louisburg",
       "NC"
-    ],
-    [
-      "026432",
-      35.80377693492917,
-      -83.58050286769867,
-      0.0,
-      "Taco Bell",
-      "Pigeon Forge",
-      "TN"
     ],
     [
       "036759",
@@ -9243,15 +9303,6 @@
       "IN"
     ],
     [
-      "028907",
-      37.991184911282204,
-      -87.53874291481225,
-      0.15,
-      "Taco Bell",
-      "Evansville",
-      "IN"
-    ],
-    [
       "028899",
       39.03724532540846,
       -87.14669781945611,
@@ -14319,15 +14370,6 @@
       "HI"
     ],
     [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      0.25,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
-    ],
-    [
       "038826",
       44.26544731149794,
       -121.1748582929019,
@@ -16387,15 +16429,6 @@
       "Taco Bell",
       "Rock Hill",
       "SC"
-    ],
-    [
-      "036235",
-      39.3569871494312,
-      -76.7042812082587,
-      0.3,
-      "Taco Bell",
-      "Baltimore",
-      "MD"
     ],
     [
       "036324",
@@ -35658,15 +35691,6 @@
       "PA"
     ],
     [
-      "042838",
-      39.8171932433511,
-      -75.45720799526146,
-      0.35,
-      "Taco Bell",
-      "Claymont",
-      "DE"
-    ],
-    [
       "036033",
       38.57071571439871,
       -75.28743783411352,
@@ -38203,15 +38227,6 @@
       "Taco Bell",
       "Baldwin",
       "NY"
-    ],
-    [
-      "042186",
-      38.91699265235585,
-      -75.44265458895495,
-      0.35,
-      "Taco Bell",
-      "Milford",
-      "DE"
     ],
     [
       "034152",
@@ -51102,15 +51117,6 @@
       "NJ"
     ],
     [
-      "042187",
-      39.92183928957404,
-      -75.1875776946872,
-      0.49,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
-    ],
-    [
       "029472",
       40.82203999302996,
       -74.83651016931151,
@@ -59868,15 +59874,6 @@
       "CA"
     ],
     [
-      "040699",
-      38.75825528849395,
-      -76.99572933854581,
-      0.59,
-      "Taco Bell",
-      "Fort Washington",
-      "MD"
-    ],
-    [
       "041081",
       33.1000287,
       -97.21650740000001,
@@ -61263,6 +61260,15 @@
       "UT"
     ],
     [
+      "040699",
+      38.75825528849395,
+      -76.99572933854581,
+      0.6,
+      "Taco Bell",
+      "Fort Washington",
+      "MD"
+    ],
+    [
       "041401",
       38.18814579009475,
       -85.51800871826478,
@@ -61470,6 +61476,15 @@
       "MD"
     ],
     [
+      "042838",
+      39.8171932433511,
+      -75.45720799526146,
+      0.6,
+      "Taco Bell",
+      "Claymont",
+      "DE"
+    ],
+    [
       "039991",
       38.92293716177592,
       -77.41657813194287,
@@ -61495,6 +61510,15 @@
       "Taco Bell",
       "Louisville",
       "KY"
+    ],
+    [
+      "036235",
+      39.3569871494312,
+      -76.7042812082587,
+      0.6,
+      "Taco Bell",
+      "Baltimore",
+      "MD"
     ],
     [
       "036447",
@@ -63117,6 +63141,15 @@
       "CA"
     ],
     [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      0.6,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
+    ],
+    [
       "031346",
       47.387204356751106,
       -122.20177987221172,
@@ -64168,6 +64201,15 @@
       "Taco Bell",
       "Shiprock",
       "NM"
+    ],
+    [
+      "042186",
+      38.91699265235585,
+      -75.44265458895495,
+      0.6,
+      "Taco Bell",
+      "Milford",
+      "DE"
     ],
     [
       "041198",

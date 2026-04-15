@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7620
+    "store_count": 7618
   },
   "histogram": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$0.49",
-      "count": 391
+      "count": 390
     },
     {
       "bucket": "$0.50",
-      "count": 1106
+      "count": 1105
     },
     {
       "bucket": "$0.55",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 842
+      "count": 844
     },
     {
       "bucket": "$0.69",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 610
+      "count": 609
     },
     {
       "bucket": "$0.79",
@@ -110,7 +110,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 644
+      "count": 643
     },
     {
       "bucket": "$0.85",
@@ -178,7 +178,7 @@
     {
       "state": "HI",
       "avg_price": 0.75,
-      "store_count": 30
+      "store_count": 29
     },
     {
       "state": "DC",
@@ -231,14 +231,14 @@
       "store_count": 16
     },
     {
-      "state": "CA",
-      "avg_price": 0.66,
-      "store_count": 831
-    },
-    {
       "state": "MD",
       "avg_price": 0.66,
       "store_count": 90
+    },
+    {
+      "state": "CA",
+      "avg_price": 0.66,
+      "store_count": 830
     },
     {
       "state": "MA",
@@ -570,6 +570,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039844",
+      "store_name": "Taco Bell",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:12.927561+00:00"
+    },
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 0.49,
+      "new_price": 0.65,
+      "observed_at": "2026-04-15T21:40:42.315213+00:00"
+    },
+    {
+      "store_number": "036235",
+      "store_name": "Taco Bell",
+      "city": "Baltimore",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.5,
+      "new_price": 0.65,
+      "observed_at": "2026-04-15T21:39:16.628796+00:00"
+    },
     {
       "store_number": "035320",
       "store_name": "Taco Bell",
@@ -1003,8 +1033,8 @@
   ],
   "activity_summary": {
     "added": 22,
-    "removed": 21,
-    "price_changed": 0,
+    "removed": 22,
+    "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -16322,15 +16352,6 @@
       "KS"
     ],
     [
-      "042187",
-      39.92183928957404,
-      -75.1875776946872,
-      0.49,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
-    ],
-    [
       "023086",
       41.79311092308063,
       -107.20986762646135,
@@ -18912,15 +18933,6 @@
       "Taco Bell",
       "Rolla",
       "MO"
-    ],
-    [
-      "036235",
-      39.3569871494312,
-      -76.7042812082587,
-      0.5,
-      "Taco Bell",
-      "Baltimore",
-      "MD"
     ],
     [
       "036284",
@@ -39461,6 +39473,15 @@
       "MI"
     ],
     [
+      "036235",
+      39.3569871494312,
+      -76.7042812082587,
+      0.65,
+      "Taco Bell",
+      "Baltimore",
+      "MD"
+    ],
+    [
       "040080",
       39.636119,
       -78.84146559999999,
@@ -43563,6 +43584,15 @@
       "Taco Bell",
       "Burbank",
       "CA"
+    ],
+    [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      0.65,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ],
     [
       "024417",
@@ -58622,15 +58652,6 @@
       "HI"
     ],
     [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      0.75,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
-    ],
-    [
       "036154",
       38.24499927422181,
       -85.52281111478806,
@@ -65109,15 +65130,6 @@
       "Taco Bell",
       "Cape Coral",
       "FL"
-    ],
-    [
-      "039844",
-      33.90492544208121,
-      -117.47472524642944,
-      0.8,
-      "Taco Bell",
-      "Riverside",
-      "CA"
     ],
     [
       "034211",

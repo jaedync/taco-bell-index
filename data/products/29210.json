@@ -19,19 +19,19 @@
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 30
+    "store_count": 29
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 30
+      "count": 29
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 8.99,
-      "store_count": 30
+      "store_count": 29
     }
   ],
   "nutrition": {
@@ -78,13 +78,6 @@
       "price": 8.99
     },
     {
-      "store_number": "032987",
-      "name": "Taco Bell",
-      "city": "Paw Paw",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
       "store_number": "032989",
       "name": "Taco Bell",
       "city": "Coldwater",
@@ -118,6 +111,13 @@
       "city": "Kalamazoo",
       "state": "MI",
       "price": 8.99
+    },
+    {
+      "store_number": "033021",
+      "name": "Taco Bell",
+      "city": "Cedar Springs",
+      "state": "MI",
+      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
@@ -125,7 +125,6 @@
     "036418",
     "037168",
     "042751",
-    "032987",
     "032989",
     "042642",
     "032988",
@@ -226,6 +225,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "032987",
+      "store_name": "Taco Bell",
+      "city": "Paw Paw",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:57.821853+00:00"
+    },
+    {
       "store_number": "032996",
       "store_name": "Taco Bell",
       "city": "Kalamazoo",
@@ -318,7 +327,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -374,15 +383,6 @@
       8.99,
       "Taco Bell",
       "Hudsonville",
-      "MI"
-    ],
-    [
-      "032987",
-      42.20922238068181,
-      -85.89087433979921,
-      8.99,
-      "Taco Bell",
-      "Paw Paw",
       "MI"
     ],
     [

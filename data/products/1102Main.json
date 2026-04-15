@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.39,
+    "avg": 2.41,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.24,
-    "std_dev": 0.25,
-    "store_count": 10
+    "median": 2.29,
+    "std_dev": 0.26,
+    "store_count": 9
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$2.29",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.41,
-      "store_count": 9
+      "avg_price": 2.44,
+      "store_count": 8
     }
   ],
   "nutrition": null,
@@ -61,13 +61,6 @@
       "store_number": "038757",
       "name": "Taco Bell",
       "city": "Jamaica",
-      "state": "NY",
-      "price": 2.19
-    },
-    {
-      "store_number": "035416",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "New York",
       "state": "NY",
       "price": 2.19
     },
@@ -124,7 +117,6 @@
   "min_price_store_numbers": [
     "037525",
     "038757",
-    "035416",
     "037051",
     "041105"
   ],
@@ -179,13 +171,6 @@
       "price": 2.19
     },
     {
-      "store_number": "035416",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.19
-    },
-    {
       "store_number": "038757",
       "name": "Taco Bell",
       "city": "Jamaica",
@@ -201,6 +186,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:11.962225+00:00"
+    },
     {
       "store_number": "035416",
       "store_name": "Taco Bell Cantina Cantina",
@@ -314,7 +309,7 @@
   ],
   "activity_summary": {
     "added": 6,
-    "removed": 5,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -339,15 +334,6 @@
       2.19,
       "Taco Bell",
       "Jamaica",
-      "NY"
-    ],
-    [
-      "035416",
-      40.86429248720709,
-      -73.92606473960909,
-      2.19,
-      "Taco Bell Cantina Cantina",
-      "New York",
       "NY"
     ],
     [

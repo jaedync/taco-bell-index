@@ -17,19 +17,19 @@
     "max": 1.0,
     "median": 1.0,
     "std_dev": 0.0,
-    "store_count": 25
+    "store_count": 23
   },
   "histogram": [
     {
       "bucket": "$1.00",
-      "count": 25
+      "count": 23
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 1.0,
-      "store_count": 25
+      "store_count": 23
     }
   ],
   "nutrition": {
@@ -51,13 +51,6 @@
       "store_number": "041267",
       "name": "Taco Bell",
       "city": "Wyoming",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
       "state": "MI",
       "price": 1.0
     },
@@ -116,11 +109,17 @@
       "city": "Allendale",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "033010",
+      "name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "price": 1.0
     }
   ],
   "min_price_store_numbers": [
     "041267",
-    "034828",
     "042604",
     "042626",
     "032982",
@@ -139,7 +138,6 @@
     "033000",
     "033006",
     "033008",
-    "040369",
     "033015",
     "033002",
     "033001",
@@ -171,13 +169,6 @@
       "store_number": "033015",
       "name": "Taco Bell",
       "city": "Holland",
-      "state": "MI",
-      "price": 1.0
-    },
-    {
-      "store_number": "040369",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
       "state": "MI",
       "price": 1.0
     },
@@ -215,9 +206,36 @@
       "city": "Muskegon",
       "state": "MI",
       "price": 1.0
+    },
+    {
+      "store_number": "033026",
+      "name": "Taco Bell",
+      "city": "Albion",
+      "state": "MI",
+      "price": 1.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040369",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:17.691162+00:00"
+    },
+    {
+      "store_number": "034828",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:34:09.157991+00:00"
+    },
     {
       "store_number": "033005",
       "store_name": "Taco Bell",
@@ -341,7 +359,7 @@
   ],
   "activity_summary": {
     "added": 4,
-    "removed": 8,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -357,15 +375,6 @@
       1.0,
       "Taco Bell",
       "Wyoming",
-      "MI"
-    ],
-    [
-      "034828",
-      42.2968,
-      -85.2341,
-      1.0,
-      "Taco Bell",
-      "Battle Creek",
       "MI"
     ],
     [
@@ -528,15 +537,6 @@
       1.0,
       "Taco Bell",
       "Hastings",
-      "MI"
-    ],
-    [
-      "040369",
-      42.3447596141,
-      -85.2325636551,
-      1.0,
-      "Taco Bell",
-      "Battle Creek",
       "MI"
     ],
     [

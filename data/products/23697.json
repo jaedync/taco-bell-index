@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:52:20.123626+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 6.91,
+    "avg": 6.87,
     "min": 6.49,
     "max": 7.99,
     "median": 6.99,
-    "std_dev": 0.47,
-    "store_count": 12
+    "std_dev": 0.46,
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$6.99",
@@ -89,6 +89,13 @@
       "price": 6.49
     },
     {
+      "store_number": "037057",
+      "name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "price": 6.49
+    },
+    {
       "store_number": "020944",
       "name": "Taco Bell",
       "city": "Columbus",
@@ -103,24 +110,17 @@
       "price": 6.99
     },
     {
-      "store_number": "023745",
-      "name": "Taco Bell",
-      "city": "Belleville",
-      "state": "MI",
-      "price": 6.99
-    },
-    {
-      "store_number": "040536",
-      "name": "Taco Bell",
-      "city": "North Madison",
-      "state": "OH",
-      "price": 6.99
-    },
-    {
       "store_number": "032941",
       "name": "Taco Bell",
       "city": "Portland",
       "state": "OR",
+      "price": 6.99
+    },
+    {
+      "store_number": "004238",
+      "name": "Taco Bell",
+      "city": "Moncks Corner",
+      "state": "SC",
       "price": 6.99
     }
   ],
@@ -129,7 +129,8 @@
     "033947",
     "042250",
     "027951",
-    "039853"
+    "039853",
+    "037057"
   ],
   "priciest_stores": [
     {
@@ -147,24 +148,24 @@
       "price": 7.49
     },
     {
+      "store_number": "032898",
+      "name": "Taco Bell",
+      "city": "Franklin",
+      "state": "TN",
+      "price": 6.99
+    },
+    {
+      "store_number": "004238",
+      "name": "Taco Bell",
+      "city": "Moncks Corner",
+      "state": "SC",
+      "price": 6.99
+    },
+    {
       "store_number": "032941",
       "name": "Taco Bell",
       "city": "Portland",
       "state": "OR",
-      "price": 6.99
-    },
-    {
-      "store_number": "040536",
-      "name": "Taco Bell",
-      "city": "North Madison",
-      "state": "OH",
-      "price": 6.99
-    },
-    {
-      "store_number": "023745",
-      "name": "Taco Bell",
-      "city": "Belleville",
-      "state": "MI",
       "price": 6.99
     },
     {
@@ -182,6 +183,13 @@
       "price": 6.99
     },
     {
+      "store_number": "037057",
+      "name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "price": 6.49
+    },
+    {
       "store_number": "039853",
       "name": "Taco Bell",
       "city": "Yorba Linda",
@@ -194,16 +202,59 @@
       "city": "Bowling Green",
       "state": "KY",
       "price": 6.49
-    },
-    {
-      "store_number": "042250",
-      "name": "Taco Bell",
-      "city": "Reno",
-      "state": "NV",
-      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032898",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-15T21:41:19.338695+00:00"
+    },
+    {
+      "store_number": "004238",
+      "store_name": "Taco Bell",
+      "city": "Moncks Corner",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-15T21:41:11.330956+00:00"
+    },
+    {
+      "store_number": "037057",
+      "store_name": "Taco Bell",
+      "city": "Iowa City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-15T21:39:53.855000+00:00"
+    },
+    {
+      "store_number": "040536",
+      "store_name": "Taco Bell",
+      "city": "North Madison",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:44.377925+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:34.748558+00:00"
+    },
     {
       "store_number": "038773",
       "store_name": "Taco Bell",
@@ -446,12 +497,12 @@
     }
   ],
   "activity_summary": {
-    "added": 15,
-    "removed": 7,
+    "added": 18,
+    "removed": 9,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 700,
   "calories_min": 700,
   "calories_max": 700,
   "combo_groups": [],
@@ -502,6 +553,15 @@
       "CA"
     ],
     [
+      "037057",
+      41.64183230235955,
+      -91.52224481105804,
+      6.49,
+      "Taco Bell",
+      "Iowa City",
+      "IA"
+    ],
+    [
       "020944",
       40.14013051280587,
       -82.98090845346445,
@@ -520,24 +580,6 @@
       "MI"
     ],
     [
-      "023745",
-      42.224730175482414,
-      -83.4856314762491,
-      6.99,
-      "Taco Bell",
-      "Belleville",
-      "MI"
-    ],
-    [
-      "040536",
-      41.80244003361103,
-      -81.05487140445234,
-      6.99,
-      "Taco Bell",
-      "North Madison",
-      "OH"
-    ],
-    [
       "032941",
       45.493701722760136,
       -122.5783984110451,
@@ -545,6 +587,24 @@
       "Taco Bell",
       "Portland",
       "OR"
+    ],
+    [
+      "004238",
+      33.19007109424935,
+      -79.99742835760122,
+      6.99,
+      "Taco Bell",
+      "Moncks Corner",
+      "SC"
+    ],
+    [
+      "032898",
+      35.90460466487436,
+      -86.87600942708347,
+      6.99,
+      "Taco Bell",
+      "Franklin",
+      "TN"
     ],
     [
       "038773",

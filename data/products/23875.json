@@ -61,13 +61,6 @@
       "price": 4.49
     },
     {
-      "store_number": "041115",
-      "name": "Taco Bell",
-      "city": "Vernon Hills",
-      "state": "IL",
-      "price": 4.49
-    },
-    {
       "store_number": "041205",
       "name": "Taco Bell",
       "city": "Hebron",
@@ -122,11 +115,17 @@
       "city": "La Porte",
       "state": "IN",
       "price": 4.49
+    },
+    {
+      "store_number": "034772",
+      "name": "Taco Bell",
+      "city": "Dyer",
+      "state": "IN",
+      "price": 4.49
     }
   ],
   "min_price_store_numbers": [
     "040018",
-    "041115",
     "041205",
     "041099",
     "041795",
@@ -141,7 +140,6 @@
     "035389",
     "036417",
     "036775",
-    "041555",
     "041163",
     "036389",
     "041824",
@@ -163,9 +161,9 @@
     "032487",
     "002433",
     "002513",
+    "030402",
     "015757",
     "016508",
-    "002156",
     "032086",
     "016605",
     "027903",
@@ -203,6 +201,7 @@
     "042744",
     "026735",
     "026747",
+    "026750",
     "032031",
     "004752",
     "030403",
@@ -217,14 +216,15 @@
     "033484",
     "032134",
     "026743",
+    "026755",
     "027900",
-    "030407"
+    "026736"
   ],
   "priciest_stores": [
     {
-      "store_number": "030407",
+      "store_number": "026736",
       "name": "Taco Bell",
-      "city": "Chicago",
+      "city": "Bensenville",
       "state": "IL",
       "price": 4.49
     },
@@ -232,6 +232,13 @@
       "store_number": "027900",
       "name": "Taco Bell",
       "city": "Chicago",
+      "state": "IL",
+      "price": 4.49
+    },
+    {
+      "store_number": "026755",
+      "name": "Taco Bell",
+      "city": "Frankfort",
       "state": "IL",
       "price": 4.49
     },
@@ -283,16 +290,89 @@
       "city": "Villa Park",
       "state": "IL",
       "price": 4.49
-    },
-    {
-      "store_number": "040351",
-      "name": "Taco Bell",
-      "city": "Oak Lawn",
-      "state": "IL",
-      "price": 4.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026736",
+      "store_name": "Taco Bell",
+      "city": "Bensenville",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-15T21:41:10.618036+00:00"
+    },
+    {
+      "store_number": "026750",
+      "store_name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-15T21:41:06.121931+00:00"
+    },
+    {
+      "store_number": "026755",
+      "store_name": "Taco Bell",
+      "city": "Frankfort",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-15T21:40:48.017439+00:00"
+    },
+    {
+      "store_number": "002156",
+      "store_name": "Taco Bell",
+      "city": "Countryside",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:16.969588+00:00"
+    },
+    {
+      "store_number": "030402",
+      "store_name": "Taco Bell",
+      "city": "Cary",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-15T21:40:10.156691+00:00"
+    },
+    {
+      "store_number": "030407",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:03.847031+00:00"
+    },
+    {
+      "store_number": "041555",
+      "store_name": "Taco Bell",
+      "city": "Naperville",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:20.363792+00:00"
+    },
+    {
+      "store_number": "041115",
+      "store_name": "Taco Bell",
+      "city": "Vernon Hills",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 4.49,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:34:04.961408+00:00"
+    },
     {
       "store_number": "041773",
       "store_name": "Taco Bell",
@@ -1135,8 +1215,8 @@
     }
   ],
   "activity_summary": {
-    "added": 21,
-    "removed": 63,
+    "added": 25,
+    "removed": 67,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1152,15 +1232,6 @@
       4.49,
       "Taco Bell",
       "Lansing",
-      "IL"
-    ],
-    [
-      "041115",
-      42.23911547220572,
-      -87.94498076629168,
-      4.49,
-      "Taco Bell",
-      "Vernon Hills",
       "IL"
     ],
     [
@@ -1288,15 +1359,6 @@
       "Taco Bell",
       "Demotte",
       "IN"
-    ],
-    [
-      "041555",
-      41.790795,
-      -88.131015,
-      4.49,
-      "Taco Bell",
-      "Naperville",
-      "IL"
     ],
     [
       "041163",
@@ -1488,6 +1550,15 @@
       "IL"
     ],
     [
+      "030402",
+      42.217112724949345,
+      -88.25541302879999,
+      4.49,
+      "Taco Bell",
+      "Cary",
+      "IL"
+    ],
+    [
       "015757",
       41.594826257811974,
       -87.48036556161995,
@@ -1503,15 +1574,6 @@
       4.49,
       "Taco Bell",
       "Oak Lawn",
-      "IL"
-    ],
-    [
-      "002156",
-      41.78832825319039,
-      -87.86825188656755,
-      4.49,
-      "Taco Bell",
-      "Countryside",
       "IL"
     ],
     [
@@ -1848,6 +1910,15 @@
       "IL"
     ],
     [
+      "026750",
+      42.13960830699689,
+      -88.01524109830522,
+      4.49,
+      "Taco Bell",
+      "Palatine",
+      "IL"
+    ],
+    [
       "032031",
       41.67910169304596,
       -87.72018933312398,
@@ -1974,6 +2045,15 @@
       "IL"
     ],
     [
+      "026755",
+      41.523575707571084,
+      -87.85058346390997,
+      4.49,
+      "Taco Bell",
+      "Frankfort",
+      "IL"
+    ],
+    [
       "027900",
       41.721495915090145,
       -87.66450754836114,
@@ -1983,12 +2063,12 @@
       "IL"
     ],
     [
-      "030407",
-      41.75244929284412,
-      -87.58651092281517,
+      "026736",
+      41.93226129783192,
+      -87.94010431321112,
       4.49,
       "Taco Bell",
-      "Chicago",
+      "Bensenville",
       "IL"
     ]
   ]

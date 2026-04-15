@@ -18,19 +18,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 12
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 12
+      "count": 13
     }
   ],
   "state_prices": [
     {
       "state": "OK",
       "avg_price": 7.0,
-      "store_count": 12
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -52,6 +52,13 @@
       "store_number": "030397",
       "name": "Taco Bell",
       "city": "Mustang",
+      "state": "OK",
+      "price": 7.0
+    },
+    {
+      "store_number": "026022",
+      "name": "Taco Bell",
+      "city": "Stillwater",
       "state": "OK",
       "price": 7.0
     },
@@ -110,17 +117,11 @@
       "city": "Moore",
       "state": "OK",
       "price": 7.0
-    },
-    {
-      "store_number": "033283",
-      "name": "Taco Bell",
-      "city": "Midwest City",
-      "state": "OK",
-      "price": 7.0
     }
   ],
   "min_price_store_numbers": [
     "030397",
+    "026022",
     "031460",
     "028019",
     "030388",
@@ -206,6 +207,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026022",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-04-15T21:39:58.593344+00:00"
+    },
     {
       "store_number": "026022",
       "store_name": "Taco Bell",
@@ -318,7 +329,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -366,6 +377,15 @@
       7.0,
       "Taco Bell",
       "Mustang",
+      "OK"
+    ],
+    [
+      "026022",
+      36.131488640671215,
+      -97.05104202032089,
+      7.0,
+      "Taco Bell",
+      "Stillwater",
       "OK"
     ],
     [

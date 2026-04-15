@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7681
+    "store_count": 7682
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7681
+      "count": 7682
     }
   ],
   "state_prices": [
@@ -119,7 +119,7 @@
     {
       "state": "NJ",
       "avg_price": 0.0,
-      "store_count": 121
+      "store_count": 122
     },
     {
       "state": "NH",
@@ -209,7 +209,7 @@
     {
       "state": "ID",
       "avg_price": 0.0,
-      "store_count": 35
+      "store_count": 34
     },
     {
       "state": "IA",
@@ -219,7 +219,7 @@
     {
       "state": "HI",
       "avg_price": 0.0,
-      "store_count": 30
+      "store_count": 29
     },
     {
       "state": "GA",
@@ -254,7 +254,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 837
+      "store_count": 839
     },
     {
       "state": "AZ",
@@ -407,7 +407,6 @@
     "041339",
     "040363",
     "040435",
-    "034351",
     "041333",
     "040309",
     "040437",
@@ -2710,6 +2709,7 @@
     "037542",
     "029580",
     "042897",
+    "039109",
     "030436",
     "022391",
     "037057",
@@ -4575,6 +4575,7 @@
     "027030",
     "033172",
     "039729",
+    "033624",
     "027971",
     "029890",
     "041214",
@@ -5305,6 +5306,7 @@
     "020199",
     "033621",
     "002828",
+    "024783",
     "024303",
     "033771",
     "039724",
@@ -6937,7 +6939,6 @@
     "034175",
     "038893",
     "009442",
-    "021257",
     "039816",
     "002619",
     "029249",
@@ -8120,6 +8121,46 @@
   ],
   "price_changes": [
     {
+      "store_number": "024783",
+      "store_name": "Taco Bell",
+      "city": "Santa Clara",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-15T21:40:40.420092+00:00"
+    },
+    {
+      "store_number": "033624",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-15T21:40:29.175933+00:00"
+    },
+    {
+      "store_number": "039109",
+      "store_name": "Taco Bell",
+      "city": "Woodbridge",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-15T21:39:54.222453+00:00"
+    },
+    {
+      "store_number": "034351",
+      "store_name": "Taco Bell",
+      "city": "Kuna",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:34:02.817225+00:00"
+    },
+    {
       "store_number": "020919",
       "store_name": "Taco Bell",
       "city": "Winchester",
@@ -8991,8 +9032,8 @@
     }
   ],
   "activity_summary": {
-    "added": 44,
-    "removed": 43,
+    "added": 47,
+    "removed": 44,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9387,15 +9428,6 @@
       "Taco Bell",
       "Tamaqua",
       "PA"
-    ],
-    [
-      "034351",
-      43.497828931010595,
-      -116.39446353863995,
-      0.0,
-      "Taco Bell",
-      "Kuna",
-      "ID"
     ],
     [
       "041333",
@@ -30116,6 +30148,15 @@
       "FL"
     ],
     [
+      "039109",
+      40.569581297345955,
+      -74.29164558649063,
+      0.0,
+      "Taco Bell",
+      "Woodbridge",
+      "NJ"
+    ],
+    [
       "030436",
       27.76119577309554,
       -82.73583769798279,
@@ -46901,6 +46942,15 @@
       "NC"
     ],
     [
+      "033624",
+      34.022309377459926,
+      -118.29182193429915,
+      0.0,
+      "Taco Bell",
+      "Los Angeles",
+      "CA"
+    ],
+    [
       "027971",
       28.352087603671087,
       -80.60836730221422,
@@ -53468,6 +53518,15 @@
       0.0,
       "Taco Bell",
       "Long Beach",
+      "CA"
+    ],
+    [
+      "024783",
+      37.34515022660551,
+      -121.93574135007111,
+      0.0,
+      "Taco Bell",
+      "Santa Clara",
       "CA"
     ],
     [
@@ -68157,15 +68216,6 @@
       "Taco Bell",
       "Lakeside",
       "AZ"
-    ],
-    [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      0.0,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
     ],
     [
       "039816",

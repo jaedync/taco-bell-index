@@ -17,7 +17,7 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7126
+    "store_count": 7124
   },
   "histogram": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$0.49",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$0.50",
-      "count": 738
+      "count": 737
     },
     {
       "bucket": "$0.55",
@@ -78,11 +78,11 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1126
+      "count": 1125
     },
     {
       "bucket": "$0.65",
-      "count": 554
+      "count": 552
     },
     {
       "bucket": "$0.69",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 601
+      "count": 604
     },
     {
       "bucket": "$0.75",
@@ -180,14 +180,14 @@
       "store_count": 46
     },
     {
-      "state": "DE",
-      "avg_price": 0.71,
-      "store_count": 16
-    },
-    {
       "state": "MD",
       "avg_price": 0.71,
       "store_count": 89
+    },
+    {
+      "state": "DE",
+      "avg_price": 0.71,
+      "store_count": 16
     },
     {
       "state": "NY",
@@ -230,14 +230,14 @@
       "store_count": 415
     },
     {
-      "state": "NE",
-      "avg_price": 0.65,
-      "store_count": 44
-    },
-    {
       "state": "PA",
       "avg_price": 0.65,
       "store_count": 201
+    },
+    {
+      "state": "NE",
+      "avg_price": 0.65,
+      "store_count": 44
     },
     {
       "state": "RI",
@@ -302,7 +302,7 @@
     {
       "state": "HI",
       "avg_price": 0.6,
-      "store_count": 30
+      "store_count": 29
     },
     {
       "state": "IL",
@@ -371,8 +371,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 0.43,
-      "store_count": 225
+      "avg_price": 0.42,
+      "store_count": 224
     },
     {
       "state": "ND",
@@ -913,6 +913,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029671",
+      "store_name": "Taco Bell",
+      "city": "O'Fallon",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:15.072516+00:00"
+    },
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 0.49,
+      "new_price": 0.7,
+      "observed_at": "2026-04-15T21:40:42.315213+00:00"
+    },
+    {
+      "store_number": "036235",
+      "store_name": "Taco Bell",
+      "city": "Baltimore",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.5,
+      "new_price": 0.7,
+      "observed_at": "2026-04-15T21:39:16.628796+00:00"
+    },
+    {
+      "store_number": "040699",
+      "store_name": "Taco Bell",
+      "city": "Fort Washington",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.7,
+      "observed_at": "2026-04-15T21:34:04.324496+00:00"
+    },
     {
       "store_number": "036244",
       "store_name": "Taco Bell",
@@ -6166,8 +6206,8 @@
   ],
   "activity_summary": {
     "added": 18,
-    "removed": 507,
-    "price_changed": 0,
+    "removed": 508,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -18488,15 +18528,6 @@
       "NM"
     ],
     [
-      "042187",
-      39.92183928957404,
-      -75.1875776946872,
-      0.49,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
-    ],
-    [
       "032933",
       45.50866837313326,
       -122.42895305156708,
@@ -19314,15 +19345,6 @@
       "Taco Bell",
       "Cedar Hills",
       "UT"
-    ],
-    [
-      "036235",
-      39.3569871494312,
-      -76.7042812082587,
-      0.5,
-      "Taco Bell",
-      "Baltimore",
-      "MD"
     ],
     [
       "039779",
@@ -38936,15 +38958,6 @@
       "OH"
     ],
     [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      0.6,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
-    ],
-    [
       "031886",
       36.157565245683244,
       -115.08081272991149,
@@ -40320,15 +40333,6 @@
       "Taco Bell",
       "Highlands Ranch",
       "CO"
-    ],
-    [
-      "040699",
-      38.75825528849395,
-      -76.99572933854581,
-      0.65,
-      "Taco Bell",
-      "Fort Washington",
-      "MD"
     ],
     [
       "041027",
@@ -44894,15 +44898,6 @@
       "IN"
     ],
     [
-      "029671",
-      38.76239408535078,
-      -90.69962463808224,
-      0.65,
-      "Taco Bell",
-      "O'Fallon",
-      "MO"
-    ],
-    [
       "020901",
       43.357710145765004,
       -124.21250350429915,
@@ -46802,6 +46797,15 @@
       "VA"
     ],
     [
+      "040699",
+      38.75825528849395,
+      -76.99572933854581,
+      0.7,
+      "Taco Bell",
+      "Fort Washington",
+      "MD"
+    ],
+    [
       "040619",
       39.3981,
       -79.0114,
@@ -47313,6 +47317,15 @@
       "Taco Bell",
       "Colonial Heights",
       "VA"
+    ],
+    [
+      "036235",
+      39.3569871494312,
+      -76.7042812082587,
+      0.7,
+      "Taco Bell",
+      "Baltimore",
+      "MD"
     ],
     [
       "040080",
@@ -50238,6 +50251,15 @@
       "Taco Bell",
       "Norfolk",
       "VA"
+    ],
+    [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      0.7,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ],
     [
       "024417",

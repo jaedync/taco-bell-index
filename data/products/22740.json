@@ -17,7 +17,7 @@
     "max": 2.19,
     "median": 1.0,
     "std_dev": 0.23,
-    "store_count": 7000
+    "store_count": 6999
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$0.69",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$0.70",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 258
+      "count": 257
     },
     {
       "bucket": "$0.85",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 292
+      "count": 291
     },
     {
       "bucket": "$0.91",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 1886
+      "count": 1888
     },
     {
       "bucket": "$1.04",
@@ -295,14 +295,14 @@
       "store_count": 446
     },
     {
-      "state": "AL",
-      "avg_price": 1.02,
-      "store_count": 160
-    },
-    {
       "state": "PA",
       "avg_price": 1.02,
       "store_count": 171
+    },
+    {
+      "state": "AL",
+      "avg_price": 1.02,
+      "store_count": 160
     },
     {
       "state": "WA",
@@ -322,7 +322,7 @@
     {
       "state": "HI",
       "avg_price": 1.0,
-      "store_count": 30
+      "store_count": 29
     },
     {
       "state": "NV",
@@ -633,6 +633,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 0.8,
+      "new_price": 1.0,
+      "observed_at": "2026-04-15T21:40:42.315213+00:00"
+    },
+    {
+      "store_number": "036235",
+      "store_name": "Taco Bell",
+      "city": "Baltimore",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.69,
+      "new_price": 1.0,
+      "observed_at": "2026-04-15T21:39:16.628796+00:00"
+    },
+    {
+      "store_number": "040699",
+      "store_name": "Taco Bell",
+      "city": "Fort Washington",
+      "state": "MD",
+      "change_type": "price_change",
+      "old_price": 0.9,
+      "new_price": 1.0,
+      "observed_at": "2026-04-15T21:34:04.324496+00:00"
+    },
     {
       "store_number": "036154",
       "store_name": "Taco Bell",
@@ -7067,7 +7097,7 @@
   "activity_summary": {
     "added": 16,
     "removed": 627,
-    "price_changed": 0,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 80,
@@ -13493,15 +13523,6 @@
       "GA"
     ],
     [
-      "036235",
-      39.3569871494312,
-      -76.7042812082587,
-      0.69,
-      "Taco Bell",
-      "Baltimore",
-      "MD"
-    ],
-    [
       "034602",
       41.61826,
       -90.781386,
@@ -19539,15 +19560,6 @@
       "Taco Bell",
       "Phoenix",
       "AZ"
-    ],
-    [
-      "042187",
-      39.92183928957404,
-      -75.1875776946872,
-      0.8,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
     ],
     [
       "033773",
@@ -29279,15 +29291,6 @@
       "OH"
     ],
     [
-      "040699",
-      38.75825528849395,
-      -76.99572933854581,
-      0.9,
-      "Taco Bell",
-      "Fort Washington",
-      "MD"
-    ],
-    [
       "041495",
       38.12931842760738,
       -83.75394771330907,
@@ -36182,6 +36185,15 @@
       "CO"
     ],
     [
+      "040699",
+      38.75825528849395,
+      -76.99572933854581,
+      1.0,
+      "Taco Bell",
+      "Fort Washington",
+      "MD"
+    ],
+    [
       "040614",
       39.637202736491794,
       -84.35043364799459,
@@ -37512,6 +37524,15 @@
       "Taco Bell",
       "Lees Summit",
       "MO"
+    ],
+    [
+      "036235",
+      39.3569871494312,
+      -76.7042812082587,
+      1.0,
+      "Taco Bell",
+      "Baltimore",
+      "MD"
     ],
     [
       "036390",
@@ -47018,6 +47039,15 @@
       "CA"
     ],
     [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      1.0,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
+    ],
+    [
       "002487",
       39.925481047337165,
       -82.88048651746767,
@@ -50616,15 +50646,6 @@
       "Taco Bell",
       "Santa Nella",
       "CA"
-    ],
-    [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      1.0,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
     ],
     [
       "039816",

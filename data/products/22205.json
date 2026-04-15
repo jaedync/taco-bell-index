@@ -17,7 +17,7 @@
     "max": 4.89,
     "median": 3.39,
     "std_dev": 0.5,
-    "store_count": 1829
+    "store_count": 1828
   },
   "histogram": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 683
+      "count": 684
     },
     {
       "bucket": "$3.00",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 134
+      "count": 133
     },
     {
       "bucket": "$3.69",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$4.39",
-      "count": 36
+      "count": 35
     },
     {
       "bucket": "$4.55",
@@ -180,7 +180,7 @@
     {
       "state": "IN",
       "avg_price": 3.51,
-      "store_count": 178
+      "store_count": 177
     },
     {
       "state": "SD",
@@ -195,7 +195,7 @@
     {
       "state": "MO",
       "avg_price": 3.42,
-      "store_count": 163
+      "store_count": 162
     },
     {
       "state": "WI",
@@ -220,7 +220,7 @@
     {
       "state": "MI",
       "avg_price": 3.23,
-      "store_count": 208
+      "store_count": 209
     },
     {
       "state": "KY",
@@ -457,6 +457,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028907",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:58.737049+00:00"
+    },
+    {
+      "store_number": "029651",
+      "store_name": "Taco Bell",
+      "city": "Saint Charles",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:45.067507+00:00"
+    },
+    {
+      "store_number": "020292",
+      "store_name": "Taco Bell",
+      "city": "Flint",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-15T21:40:20.772889+00:00"
+    },
     {
       "store_number": "041198",
       "store_name": "Taco Bell",
@@ -1139,8 +1169,8 @@
     }
   ],
   "activity_summary": {
-    "added": 23,
-    "removed": 45,
+    "added": 24,
+    "removed": 47,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5873,6 +5903,15 @@
       "Taco Bell",
       "Wilson",
       "NC"
+    ],
+    [
+      "020292",
+      42.978966183555215,
+      -83.69260767105516,
+      2.99,
+      "Taco Bell",
+      "Flint",
+      "MI"
     ],
     [
       "002439",
@@ -11327,15 +11366,6 @@
       "Taco Bell",
       "Fayetteville",
       "WV"
-    ],
-    [
-      "028907",
-      37.991184911282204,
-      -87.53874291481225,
-      3.59,
-      "Taco Bell",
-      "Evansville",
-      "IN"
     ],
     [
       "019213",
@@ -17284,15 +17314,6 @@
       4.39,
       "Taco Bell",
       "Troy",
-      "MO"
-    ],
-    [
-      "029651",
-      38.787524406443445,
-      -90.51241502171251,
-      4.39,
-      "Taco Bell",
-      "Saint Charles",
       "MO"
     ],
     [

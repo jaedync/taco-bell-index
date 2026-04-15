@@ -20,7 +20,7 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7083
+    "store_count": 7082
   },
   "histogram": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 498
+      "count": 497
     },
     {
       "bucket": "$5.19",
@@ -213,7 +213,7 @@
     {
       "state": "HI",
       "avg_price": 5.0,
-      "store_count": 24
+      "store_count": 23
     },
     {
       "state": "AK",
@@ -267,8 +267,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 4.25,
-      "store_count": 369
+      "avg_price": 4.26,
+      "store_count": 368
     },
     {
       "state": "CT",
@@ -278,7 +278,7 @@
     {
       "state": "TN",
       "avg_price": 4.22,
-      "store_count": 215
+      "store_count": 216
     },
     {
       "state": "DC",
@@ -2133,6 +2133,7 @@
     "031400",
     "004721",
     "031457",
+    "029038",
     "032302",
     "023133",
     "029657",
@@ -3993,7 +3994,6 @@
     "030388",
     "037838",
     "024759",
-    "033773",
     "005598",
     "028904",
     "024414",
@@ -5808,6 +5808,26 @@
   ],
   "price_changes": [
     {
+      "store_number": "033773",
+      "store_name": "Taco Bell",
+      "city": "Grove City",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:42.504384+00:00"
+    },
+    {
+      "store_number": "029038",
+      "store_name": "Taco Bell",
+      "city": "Sweetwater",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-15T21:39:52.214322+00:00"
+    },
+    {
       "store_number": "027641",
       "store_name": "Taco Bell",
       "city": "Virginia Beach",
@@ -6519,8 +6539,8 @@
     }
   ],
   "activity_summary": {
-    "added": 27,
-    "removed": 31,
+    "added": 28,
+    "removed": 32,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21340,6 +21360,15 @@
       "Taco Bell",
       "Novato",
       "CA"
+    ],
+    [
+      "029038",
+      35.58960397201566,
+      -84.47244303961763,
+      4.0,
+      "Taco Bell",
+      "Sweetwater",
+      "TN"
     ],
     [
       "032302",
@@ -38080,15 +38109,6 @@
       "Taco Bell",
       "Dover",
       "DE"
-    ],
-    [
-      "033773",
-      39.88143325484897,
-      -83.06763419512208,
-      4.0,
-      "Taco Bell",
-      "Grove City",
-      "OH"
     ],
     [
       "005598",
@@ -58825,15 +58845,6 @@
       "Taco Bell",
       "Santa Nella",
       "CA"
-    ],
-    [
-      "021257",
-      20.881914145255926,
-      -156.68090834165923,
-      5.0,
-      "Taco Bell",
-      "Lahaina",
-      "HI"
     ],
     [
       "002458",

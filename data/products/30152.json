@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:09.042450+00:00",
   "availability_pct": 7.9,
   "price_stats": {
-    "avg": 4.64,
+    "avg": 4.63,
     "min": 3.19,
     "max": 6.59,
     "median": 4.59,
     "std_dev": 0.52,
-    "store_count": 610
+    "store_count": 612
   },
   "histogram": [
     {
       "bucket": "$3.19",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$3.29",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$4.19",
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$4.39",
-      "count": 95
+      "count": 93
     },
     {
       "bucket": "$4.49",
-      "count": 28
+      "count": 29
     },
     {
       "bucket": "$4.59",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$5.40",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$5.49",
@@ -141,8 +141,8 @@
     },
     {
       "state": "MT",
-      "avg_price": 5.48,
-      "store_count": 15
+      "avg_price": 5.47,
+      "store_count": 16
     },
     {
       "state": "WA",
@@ -156,18 +156,18 @@
     },
     {
       "state": "NY",
-      "avg_price": 4.76,
-      "store_count": 28
-    },
-    {
-      "state": "CA",
-      "avg_price": 4.73,
-      "store_count": 41
+      "avg_price": 4.78,
+      "store_count": 29
     },
     {
       "state": "ID",
       "avg_price": 4.72,
       "store_count": 33
+    },
+    {
+      "state": "CA",
+      "avg_price": 4.71,
+      "store_count": 41
     },
     {
       "state": "OR",
@@ -177,17 +177,17 @@
     {
       "state": "MI",
       "avg_price": 4.62,
-      "store_count": 36
-    },
-    {
-      "state": "OH",
-      "avg_price": 4.51,
-      "store_count": 26
+      "store_count": 35
     },
     {
       "state": "NC",
       "avg_price": 4.51,
       "store_count": 15
+    },
+    {
+      "state": "OH",
+      "avg_price": 4.51,
+      "store_count": 25
     },
     {
       "state": "SC",
@@ -196,8 +196,8 @@
     },
     {
       "state": "MN",
-      "avg_price": 4.35,
-      "store_count": 18
+      "avg_price": 4.34,
+      "store_count": 17
     },
     {
       "state": "IN",
@@ -211,8 +211,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 4.17,
-      "store_count": 9
+      "avg_price": 4.21,
+      "store_count": 10
     },
     {
       "state": "AZ",
@@ -267,6 +267,13 @@
       "price": 3.19
     },
     {
+      "store_number": "035275",
+      "name": "Taco Bell",
+      "city": "La Vista",
+      "state": "NE",
+      "price": 3.19
+    },
+    {
       "store_number": "019909",
       "name": "Taco Bell",
       "city": "Penn Valley",
@@ -307,19 +314,13 @@
       "city": "Stuart",
       "state": "FL",
       "price": 3.69
-    },
-    {
-      "store_number": "042972",
-      "name": "Taco Bell",
-      "city": "Vero Beach",
-      "state": "FL",
-      "price": 3.69
     }
   ],
   "min_price_store_numbers": [
     "037473",
     "037470",
-    "037472"
+    "037472",
+    "035275"
   ],
   "priciest_stores": [
     {
@@ -394,6 +395,126 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:10.613334+00:00"
+    },
+    {
+      "store_number": "031504",
+      "store_name": "Taco Bell",
+      "city": "Neenah",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-15T21:41:07.927265+00:00"
+    },
+    {
+      "store_number": "005401",
+      "store_name": "Taco Bell",
+      "city": "Hastings",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:06.008578+00:00"
+    },
+    {
+      "store_number": "030938",
+      "store_name": "Taco Bell",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-04-15T21:40:54.070468+00:00"
+    },
+    {
+      "store_number": "038905",
+      "store_name": "Taco Bell",
+      "city": "Zanesville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:46.062776+00:00"
+    },
+    {
+      "store_number": "031500",
+      "store_name": "Taco Bell",
+      "city": "Appleton",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:32.620309+00:00"
+    },
+    {
+      "store_number": "031959",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-15T21:40:24.732513+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:23.948256+00:00"
+    },
+    {
+      "store_number": "039960",
+      "store_name": "Taco Bell",
+      "city": "Woodside",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-04-15T21:40:14.545325+00:00"
+    },
+    {
+      "store_number": "039034",
+      "store_name": "Taco Bell",
+      "city": "Oxon Hill",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-15T21:40:11.937867+00:00"
+    },
+    {
+      "store_number": "004804",
+      "store_name": "Taco Bell",
+      "city": "Missoula",
+      "state": "MT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.4,
+      "observed_at": "2026-04-15T21:40:10.714539+00:00"
+    },
+    {
+      "store_number": "035275",
+      "store_name": "Taco Bell",
+      "city": "La Vista",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-15T21:40:01.057153+00:00"
+    },
     {
       "store_number": "032184",
       "store_name": "Taco Bell",
@@ -3186,8 +3307,8 @@
     }
   ],
   "activity_summary": {
-    "added": 205,
-    "removed": 74,
+    "added": 212,
+    "removed": 79,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3222,6 +3343,15 @@
       "Taco Bell",
       "Onalaska",
       "WI"
+    ],
+    [
+      "035275",
+      41.178452092807916,
+      -96.04246973991394,
+      3.19,
+      "Taco Bell",
+      "La Vista",
+      "NE"
     ],
     [
       "019909",
@@ -3881,6 +4011,15 @@
       "IN"
     ],
     [
+      "039034",
+      38.80355710110484,
+      -76.99091928217169,
+      3.99,
+      "Taco Bell",
+      "Oxon Hill",
+      "MD"
+    ],
+    [
       "034351",
       43.497828931010595,
       -116.39446353863995,
@@ -4169,6 +4308,15 @@
       "OR"
     ],
     [
+      "031504",
+      44.17426321763048,
+      -88.49348632385954,
+      4.19,
+      "Taco Bell",
+      "Neenah",
+      "WI"
+    ],
+    [
       "003394",
       40.273244364890225,
       -83.07024464453947,
@@ -4284,15 +4432,6 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "031500",
-      44.258858016080104,
-      -88.35945729912964,
-      4.19,
-      "Taco Bell",
-      "Appleton",
-      "WI"
     ],
     [
       "031550",
@@ -5240,15 +5379,6 @@
       "MN"
     ],
     [
-      "005401",
-      44.738644013069816,
-      -92.87513708698255,
-      4.39,
-      "Taco Bell",
-      "Hastings",
-      "MN"
-    ],
-    [
       "031906",
       39.60734480415909,
       -119.2220602392526,
@@ -5382,15 +5512,6 @@
       "Taco Bell",
       "Maple Grove",
       "MN"
-    ],
-    [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      4.39,
-      "Taco Bell",
-      "South Haven",
-      "MI"
     ],
     [
       "030468",
@@ -5672,6 +5793,15 @@
       "IA"
     ],
     [
+      "030938",
+      38.33571275069874,
+      -122.67768992279339,
+      4.49,
+      "Taco Bell",
+      "Rohnert Park",
+      "CA"
+    ],
+    [
       "036793",
       41.15633214157802,
       -81.86314942119543,
@@ -5724,15 +5854,6 @@
       "Taco Bell",
       "Moreno Valley",
       "CA"
-    ],
-    [
-      "038905",
-      39.90956567545612,
-      -82.01559309663025,
-      4.59,
-      "Taco Bell",
-      "Zanesville",
-      "OH"
     ],
     [
       "035017",
@@ -6011,6 +6132,15 @@
       4.59,
       "Taco Bell",
       "Monona",
+      "WI"
+    ],
+    [
+      "031959",
+      43.05996964044298,
+      -89.52436921885237,
+      4.59,
+      "Taco Bell",
+      "Madison",
       "WI"
     ],
     [
@@ -8165,15 +8295,6 @@
       "WA"
     ],
     [
-      "035471",
-      38.64448867761824,
-      -121.27272382378573,
-      5.29,
-      "Taco Bell",
-      "Fair Oaks",
-      "CA"
-    ],
-    [
       "035318",
       48.10029352780463,
       -122.18114644289017,
@@ -8273,12 +8394,30 @@
       "WA"
     ],
     [
+      "039960",
+      40.75358989827396,
+      -73.9017782877615,
+      5.29,
+      "Taco Bell",
+      "Woodside",
+      "NY"
+    ],
+    [
       "038830",
       46.590432336227764,
       -112.01519212802819,
       5.4,
       "Taco Bell",
       "Helena",
+      "MT"
+    ],
+    [
+      "004804",
+      46.86932560846707,
+      -113.98615837097168,
+      5.4,
+      "Taco Bell",
+      "Missoula",
       "MT"
     ],
     [

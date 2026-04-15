@@ -18,7 +18,7 @@
     "max": 3.49,
     "median": 2.99,
     "std_dev": 0.24,
-    "store_count": 732
+    "store_count": 731
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$2.59",
@@ -55,19 +55,19 @@
     },
     {
       "bucket": "$3.09",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$3.19",
-      "count": 91
+      "count": 89
     },
     {
       "bucket": "$3.29",
-      "count": 217
+      "count": 219
     },
     {
       "bucket": "$3.39",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$3.49",
@@ -97,8 +97,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 3.09,
-      "store_count": 6
+      "avg_price": 3.12,
+      "store_count": 7
     },
     {
       "state": "LA",
@@ -117,8 +117,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 2.84,
-      "store_count": 8
+      "avg_price": 2.89,
+      "store_count": 7
     },
     {
       "state": "NM",
@@ -218,13 +218,6 @@
       "price": 3.49
     },
     {
-      "store_number": "030421",
-      "name": "Taco Bell",
-      "city": "Ames",
-      "state": "IA",
-      "price": 3.39
-    },
-    {
       "store_number": "030775",
       "name": "Taco Bell",
       "city": "Union City",
@@ -272,9 +265,86 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
+    },
+    {
+      "store_number": "035232",
+      "name": "Taco Bell",
+      "city": "Liberty",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033933",
+      "store_name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:20.523853+00:00"
+    },
+    {
+      "store_number": "029914",
+      "store_name": "Taco Bell",
+      "city": "Grapevine",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:41:08.780437+00:00"
+    },
+    {
+      "store_number": "030570",
+      "store_name": "Taco Bell",
+      "city": "Whiteville",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.09,
+      "observed_at": "2026-04-15T21:40:53.532385+00:00"
+    },
+    {
+      "store_number": "030421",
+      "store_name": "Taco Bell",
+      "city": "Ames",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:24.882221+00:00"
+    },
+    {
+      "store_number": "002936",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-15T21:40:06.657457+00:00"
+    },
+    {
+      "store_number": "035430",
+      "store_name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:04.998578+00:00"
+    },
+    {
+      "store_number": "042271",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:23.152176+00:00"
+    },
     {
       "store_number": "035299",
       "store_name": "Taco Bell",
@@ -1237,8 +1307,8 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
-    "removed": 50,
+    "added": 49,
+    "removed": 54,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1534,15 +1604,6 @@
       "Taco Bell",
       "Lamesa",
       "TX"
-    ],
-    [
-      "033933",
-      32.55630155569918,
-      -83.88546050387518,
-      2.49,
-      "Taco Bell",
-      "Fort Valley",
-      "GA"
     ],
     [
       "032188",
@@ -4911,6 +4972,15 @@
       "OK"
     ],
     [
+      "030570",
+      34.30539397310944,
+      -78.71824452284272,
+      3.09,
+      "Taco Bell",
+      "Whiteville",
+      "NC"
+    ],
+    [
       "040653",
       35.7255,
       -97.421,
@@ -5701,24 +5771,6 @@
       "Taco Bell",
       "Baldwin Park",
       "CA"
-    ],
-    [
-      "042271",
-      38.119162,
-      -85.614305,
-      3.19,
-      "Taco Bell",
-      "Louisville",
-      "KY"
-    ],
-    [
-      "035430",
-      32.7464094361588,
-      -96.99494535477773,
-      3.19,
-      "Taco Bell",
-      "Grand Prairie",
-      "TX"
     ],
     [
       "042885",
@@ -7404,6 +7456,15 @@
       "AR"
     ],
     [
+      "029914",
+      32.9299191239682,
+      -97.08503962309806,
+      3.29,
+      "Taco Bell",
+      "Grapevine",
+      "TX"
+    ],
+    [
       "030396",
       35.46615407743726,
       -97.72368725752469,
@@ -7683,6 +7744,15 @@
       "OK"
     ],
     [
+      "002936",
+      25.77962165252268,
+      -80.25605097413057,
+      3.29,
+      "Taco Bell",
+      "Miami",
+      "FL"
+    ],
+    [
       "036251",
       39.034202183610354,
       -94.53198025225383,
@@ -7807,15 +7877,6 @@
       "Taco Bell",
       "Union City",
       "CA"
-    ],
-    [
-      "030421",
-      42.01812645203582,
-      -93.610899746418,
-      3.39,
-      "Taco Bell",
-      "Ames",
-      "IA"
     ],
     [
       "038783",

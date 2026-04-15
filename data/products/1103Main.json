@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.44,
+    "avg": 2.48,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.39,
+    "median": 2.49,
     "std_dev": 0.26,
-    "store_count": 8
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -44,8 +44,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.48,
-      "store_count": 7
+      "avg_price": 2.52,
+      "store_count": 6
     }
   ],
   "nutrition": null,
@@ -54,13 +54,6 @@
       "store_number": "037525",
       "name": "Taco Bell",
       "city": "Middle Village",
-      "state": "NY",
-      "price": 2.19
-    },
-    {
-      "store_number": "035416",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "New York",
       "state": "NY",
       "price": 2.19
     },
@@ -109,7 +102,6 @@
   ],
   "min_price_store_numbers": [
     "037525",
-    "035416",
     "041105"
   ],
   "priciest_stores": [
@@ -156,13 +148,6 @@
       "price": 2.19
     },
     {
-      "store_number": "035416",
-      "name": "Taco Bell Cantina Cantina",
-      "city": "New York",
-      "state": "NY",
-      "price": 2.19
-    },
-    {
       "store_number": "037525",
       "name": "Taco Bell",
       "city": "Middle Village",
@@ -171,6 +156,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:39:11.962225+00:00"
+    },
     {
       "store_number": "035416",
       "store_name": "Taco Bell Cantina Cantina",
@@ -244,7 +239,7 @@
   ],
   "activity_summary": {
     "added": 3,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -260,15 +255,6 @@
       2.19,
       "Taco Bell",
       "Middle Village",
-      "NY"
-    ],
-    [
-      "035416",
-      40.86429248720709,
-      -73.92606473960909,
-      2.19,
-      "Taco Bell Cantina Cantina",
-      "New York",
       "NY"
     ],
     [

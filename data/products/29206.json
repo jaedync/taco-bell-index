@@ -12,26 +12,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:20.349621+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.2,
   "price_stats": {
     "avg": 8.99,
     "min": 8.99,
     "max": 8.99,
     "median": 8.99,
     "std_dev": 0.0,
-    "store_count": 23
+    "store_count": 19
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 23
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 8.99,
-      "store_count": 23
+      "store_count": 19
     }
   ],
   "nutrition": {
@@ -53,13 +53,6 @@
       "store_number": "041267",
       "name": "Taco Bell",
       "city": "Wyoming",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
       "state": "MI",
       "price": 8.99
     },
@@ -99,13 +92,6 @@
       "price": 8.99
     },
     {
-      "store_number": "032990",
-      "name": "Taco Bell",
-      "city": "Sturgis",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
       "store_number": "033014",
       "name": "Taco Bell",
       "city": "Grand Rapids",
@@ -118,17 +104,29 @@
       "city": "Allendale",
       "state": "MI",
       "price": 8.99
+    },
+    {
+      "store_number": "033015",
+      "name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "033010",
+      "name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "price": 8.99
     }
   ],
   "min_price_store_numbers": [
     "041267",
-    "034828",
     "042604",
     "042626",
     "032982",
     "032997",
     "033012",
-    "032990",
     "033014",
     "033022",
     "033015",
@@ -139,9 +137,7 @@
     "033026",
     "033024",
     "032994",
-    "033006",
     "033008",
-    "040369",
     "033002",
     "033001"
   ],
@@ -161,23 +157,9 @@
       "price": 8.99
     },
     {
-      "store_number": "040369",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
       "store_number": "033008",
       "name": "Taco Bell",
       "city": "Hastings",
-      "state": "MI",
-      "price": 8.99
-    },
-    {
-      "store_number": "033006",
-      "name": "Taco Bell",
-      "city": "South Haven",
       "state": "MI",
       "price": 8.99
     },
@@ -215,9 +197,63 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 8.99
+    },
+    {
+      "store_number": "032984",
+      "name": "Taco Bell",
+      "city": "Muskegon",
+      "state": "MI",
+      "price": 8.99
+    },
+    {
+      "store_number": "033010",
+      "name": "Taco Bell",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "price": 8.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040369",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:17.691162+00:00"
+    },
+    {
+      "store_number": "033006",
+      "store_name": "Taco Bell",
+      "city": "South Haven",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:41:10.613334+00:00"
+    },
+    {
+      "store_number": "032990",
+      "store_name": "Taco Bell",
+      "city": "Sturgis",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:40:14.338378+00:00"
+    },
+    {
+      "store_number": "034828",
+      "store_name": "Taco Bell",
+      "city": "Battle Creek",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-15T21:34:09.157991+00:00"
+    },
     {
       "store_number": "042636",
       "store_name": "Taco Bell",
@@ -361,7 +397,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 9,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -390,15 +426,6 @@
       8.99,
       "Taco Bell",
       "Wyoming",
-      "MI"
-    ],
-    [
-      "034828",
-      42.2968,
-      -85.2341,
-      8.99,
-      "Taco Bell",
-      "Battle Creek",
       "MI"
     ],
     [
@@ -444,15 +471,6 @@
       8.99,
       "Taco Bell",
       "Kalamazoo",
-      "MI"
-    ],
-    [
-      "032990",
-      41.79176262345105,
-      -85.42896328261122,
-      8.99,
-      "Taco Bell",
-      "Sturgis",
       "MI"
     ],
     [
@@ -546,30 +564,12 @@
       "MI"
     ],
     [
-      "033006",
-      42.403802328683945,
-      -86.25803037553845,
-      8.99,
-      "Taco Bell",
-      "South Haven",
-      "MI"
-    ],
-    [
       "033008",
       42.64912686838863,
       -85.30132479971144,
       8.99,
       "Taco Bell",
       "Hastings",
-      "MI"
-    ],
-    [
-      "040369",
-      42.3447596141,
-      -85.2325636551,
-      8.99,
-      "Taco Bell",
-      "Battle Creek",
       "MI"
     ],
     [
