@@ -19,12 +19,12 @@
     "max": 5.99,
     "median": 2.49,
     "std_dev": 0.21,
-    "store_count": 7635
+    "store_count": 7638
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 4830
+      "count": 4833
     },
     {
       "bucket": "$2.50",
@@ -207,14 +207,14 @@
       "store_count": 86
     },
     {
+      "state": "MA",
+      "avg_price": 2.68,
+      "store_count": 65
+    },
+    {
       "state": "DC",
       "avg_price": 2.68,
       "store_count": 7
-    },
-    {
-      "state": "MA",
-      "avg_price": 2.67,
-      "store_count": 66
     },
     {
       "state": "KS",
@@ -279,7 +279,7 @@
     {
       "state": "MO",
       "avg_price": 2.54,
-      "store_count": 222
+      "store_count": 223
     },
     {
       "state": "FL",
@@ -339,7 +339,7 @@
     {
       "state": "MI",
       "avg_price": 2.49,
-      "store_count": 345
+      "store_count": 348
     },
     {
       "state": "WY",
@@ -1499,6 +1499,7 @@
     "020054",
     "030665",
     "040533",
+    "002140",
     "040656",
     "019549",
     "040529",
@@ -2317,7 +2318,6 @@
     "003997",
     "018678",
     "034700",
-    "029264",
     "030349",
     "030407",
     "038894",
@@ -4358,6 +4358,7 @@
     "042948",
     "015468",
     "029977",
+    "033319",
     "042907",
     "030880",
     "034624",
@@ -5290,7 +5291,9 @@
     "030174",
     "016044",
     "035998",
-    "042105"
+    "042105",
+    "004986",
+    "016632"
   ],
   "priciest_stores": [
     {
@@ -5365,6 +5368,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033319",
+      "store_name": "Taco Bell",
+      "city": "Flushing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-16T21:09:11.545063+00:00"
+    },
+    {
+      "store_number": "016632",
+      "store_name": "Taco Bell",
+      "city": "Bolivar",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-16T21:09:03.317152+00:00"
+    },
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:08:05.065924+00:00"
+    },
+    {
+      "store_number": "004986",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-16T21:07:44.896571+00:00"
+    },
+    {
+      "store_number": "002140",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-16T21:07:42.836177+00:00"
+    },
     {
       "store_number": "042186",
       "store_name": "Taco Bell",
@@ -7177,8 +7230,8 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
-    "removed": 72,
+    "added": 93,
+    "removed": 73,
     "price_changed": 20,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16543,6 +16596,15 @@
       "OH"
     ],
     [
+      "002140",
+      42.19835694745384,
+      -83.26728052050346,
+      2.49,
+      "Taco Bell",
+      "Taylor",
+      "MI"
+    ],
+    [
       "040656",
       42.3960747799699,
       -83.33494661838544,
@@ -23903,15 +23965,6 @@
       "Taco Bell",
       "Germantown",
       "TN"
-    ],
-    [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      2.49,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
     ],
     [
       "030349",
@@ -42274,6 +42327,15 @@
       "OK"
     ],
     [
+      "033319",
+      43.06051052292668,
+      -83.81567625096068,
+      2.49,
+      "Taco Bell",
+      "Flushing",
+      "MI"
+    ],
+    [
       "042907",
       25.6283277984017,
       -80.34097454979923,
@@ -50669,6 +50731,24 @@
       "Taco Bell",
       "Apex",
       "NC"
+    ],
+    [
+      "004986",
+      42.35859535314378,
+      -83.46154167319582,
+      2.49,
+      "Taco Bell",
+      "Plymouth",
+      "MI"
+    ],
+    [
+      "016632",
+      37.59664973635442,
+      -93.4034389257431,
+      2.49,
+      "Taco Bell",
+      "Bolivar",
+      "MO"
     ],
     [
       "037015",

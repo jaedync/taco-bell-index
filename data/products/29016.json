@@ -7,20 +7,24 @@
     "burritos",
     "new"
   ],
-  "image_url": "https://www.tacobell.com/images/29016_avocado_ranch_crispy_chicken_burrito_269x269.jpg",
+  "image_url": "https://www.tacobell.com/images/29016_new_avocado_ranch_crispy_chicken_burrito_269x269.jpg",
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 1.3,
   "price_stats": {
-    "avg": 7.12,
-    "min": 6.19,
+    "avg": 6.02,
+    "min": 5.99,
     "max": 8.19,
-    "median": 6.99,
-    "std_dev": 1.01,
-    "store_count": 3
+    "median": 5.99,
+    "std_dev": 0.24,
+    "store_count": 102
   },
   "histogram": [
+    {
+      "bucket": "$5.99",
+      "count": 99
+    },
     {
       "bucket": "$6.19",
       "count": 1
@@ -34,7 +38,13 @@
       "count": 1
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "FL",
+      "avg_price": 6.02,
+      "store_count": 101
+    }
+  ],
   "nutrition": {
     "calories": 646.2676,
     "total_fat_g": 34.4272,
@@ -51,29 +61,176 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "021309",
+      "store_number": "039700",
       "name": "Taco Bell",
-      "city": "Norfolk",
-      "state": "VA",
-      "price": 6.19
-    },
-    {
-      "store_number": "026132",
-      "name": "Taco Bell",
-      "city": "Boynton Beach",
+      "city": "Clermont",
       "state": "FL",
-      "price": 6.99
+      "price": 5.99
     },
     {
-      "store_number": "032170",
+      "store_number": "040730",
       "name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "040450",
+      "name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "034859",
+      "name": "Taco Bell Cantina Cantina",
       "city": "Orlando",
       "state": "FL",
-      "price": 8.19
+      "price": 5.99
+    },
+    {
+      "store_number": "041844",
+      "name": "Taco Bell",
+      "city": "Winter Springs",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "039586",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "042753",
+      "name": "Taco Bell",
+      "city": "Casselberry",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "033927",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "036287",
+      "name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "036021",
+      "name": "Taco Bell",
+      "city": "Longwood",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
-    "021309"
+    "039700",
+    "040730",
+    "040450",
+    "034859",
+    "041844",
+    "039586",
+    "042753",
+    "033927",
+    "036287",
+    "036021",
+    "035177",
+    "034783",
+    "034809",
+    "035998",
+    "041964",
+    "041833",
+    "035462",
+    "036232",
+    "042977",
+    "036438",
+    "037372",
+    "037110",
+    "037187",
+    "039587",
+    "032537",
+    "032177",
+    "031840",
+    "023290",
+    "030349",
+    "023302",
+    "042941",
+    "022592",
+    "027983",
+    "027981",
+    "027978",
+    "028353",
+    "027975",
+    "027988",
+    "022266",
+    "027982",
+    "022833",
+    "023299",
+    "022596",
+    "005646",
+    "023293",
+    "017290",
+    "027976",
+    "027970",
+    "027979",
+    "028007",
+    "022590",
+    "027971",
+    "039584",
+    "042932",
+    "022595",
+    "042933",
+    "004318",
+    "027986",
+    "027974",
+    "022589",
+    "027980",
+    "023296",
+    "027972",
+    "023298",
+    "042914",
+    "022587",
+    "022594",
+    "042924",
+    "023289",
+    "027969",
+    "027973",
+    "027990",
+    "027987",
+    "021472",
+    "039585",
+    "023301",
+    "027985",
+    "022593",
+    "030999",
+    "022591",
+    "042942",
+    "023295",
+    "023304",
+    "022588",
+    "027984",
+    "004435",
+    "030277",
+    "042928",
+    "042927",
+    "023297",
+    "037822",
+    "023291",
+    "027977",
+    "023300",
+    "034162",
+    "034163",
+    "042971",
+    "032959",
+    "038869"
   ],
   "priciest_stores": [
     {
@@ -96,20 +253,1951 @@
       "city": "Norfolk",
       "state": "VA",
       "price": 6.19
+    },
+    {
+      "store_number": "038869",
+      "name": "Taco Bell",
+      "city": "Winter Garden",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "032959",
+      "name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "042971",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "034162",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "023300",
+      "name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "027977",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 5.99
     }
   ],
-  "price_changes": [],
+  "price_changes": [
+    {
+      "store_number": "038869",
+      "store_name": "Taco Bell",
+      "city": "Winter Garden",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:42.688921+00:00"
+    },
+    {
+      "store_number": "032959",
+      "store_name": "Taco Bell",
+      "city": "Ocoee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:41.854708+00:00"
+    },
+    {
+      "store_number": "042971",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:41.388345+00:00"
+    },
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:41.099463+00:00"
+    },
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:39.881714+00:00"
+    },
+    {
+      "store_number": "023300",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:37.482089+00:00"
+    },
+    {
+      "store_number": "027977",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:34.214803+00:00"
+    },
+    {
+      "store_number": "023291",
+      "store_name": "Taco Bell",
+      "city": "Satellite Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:33.963071+00:00"
+    },
+    {
+      "store_number": "037822",
+      "store_name": "Taco Bell",
+      "city": "Lady Lake",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:33.913760+00:00"
+    },
+    {
+      "store_number": "023297",
+      "store_name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:33.677903+00:00"
+    },
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:33.356511+00:00"
+    },
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:33.013424+00:00"
+    },
+    {
+      "store_number": "030277",
+      "store_name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:26.702337+00:00"
+    },
+    {
+      "store_number": "004435",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:24.657368+00:00"
+    },
+    {
+      "store_number": "027984",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:24.134855+00:00"
+    },
+    {
+      "store_number": "022588",
+      "store_name": "Taco Bell",
+      "city": "Deland",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:24.010091+00:00"
+    },
+    {
+      "store_number": "023304",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:23.180295+00:00"
+    },
+    {
+      "store_number": "023295",
+      "store_name": "Taco Bell",
+      "city": "Winter Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:18.024743+00:00"
+    },
+    {
+      "store_number": "042942",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:17.860086+00:00"
+    },
+    {
+      "store_number": "022591",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:16.051753+00:00"
+    },
+    {
+      "store_number": "030999",
+      "store_name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:14.969139+00:00"
+    },
+    {
+      "store_number": "022593",
+      "store_name": "Taco Bell",
+      "city": "Deland",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:13.471396+00:00"
+    },
+    {
+      "store_number": "027985",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:07.714356+00:00"
+    },
+    {
+      "store_number": "023301",
+      "store_name": "Taco Bell",
+      "city": "Mount Dora",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:06.713175+00:00"
+    },
+    {
+      "store_number": "039585",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:06.691592+00:00"
+    },
+    {
+      "store_number": "021472",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:04.254454+00:00"
+    },
+    {
+      "store_number": "027987",
+      "store_name": "Taco Bell",
+      "city": "Oviedo",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:03.301037+00:00"
+    },
+    {
+      "store_number": "027990",
+      "store_name": "Taco Bell",
+      "city": "New Smyrna Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:03.201582+00:00"
+    },
+    {
+      "store_number": "027973",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:03.055822+00:00"
+    },
+    {
+      "store_number": "027969",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:09:00.291604+00:00"
+    },
+    {
+      "store_number": "023289",
+      "store_name": "Taco Bell",
+      "city": "West Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:59.125224+00:00"
+    },
+    {
+      "store_number": "042924",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:57.376403+00:00"
+    },
+    {
+      "store_number": "022594",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:56.795057+00:00"
+    },
+    {
+      "store_number": "022587",
+      "store_name": "Taco Bell",
+      "city": "South Daytona",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:53.549994+00:00"
+    },
+    {
+      "store_number": "042914",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:53.466906+00:00"
+    },
+    {
+      "store_number": "023298",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:52.875008+00:00"
+    },
+    {
+      "store_number": "027972",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:52.463461+00:00"
+    },
+    {
+      "store_number": "023296",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:48.712436+00:00"
+    },
+    {
+      "store_number": "027980",
+      "store_name": "Taco Bell",
+      "city": "Orange City",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:48.527703+00:00"
+    },
+    {
+      "store_number": "022589",
+      "store_name": "Taco Bell",
+      "city": "Sanford",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:47.567329+00:00"
+    },
+    {
+      "store_number": "027974",
+      "store_name": "Taco Bell",
+      "city": "Cocoa",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:46.821102+00:00"
+    },
+    {
+      "store_number": "027986",
+      "store_name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:46.453963+00:00"
+    },
+    {
+      "store_number": "004318",
+      "store_name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:42.277049+00:00"
+    },
+    {
+      "store_number": "042933",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:38.108677+00:00"
+    },
+    {
+      "store_number": "022595",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:37.914166+00:00"
+    },
+    {
+      "store_number": "042932",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:35.938452+00:00"
+    },
+    {
+      "store_number": "039584",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:35.111631+00:00"
+    },
+    {
+      "store_number": "027971",
+      "store_name": "Taco Bell",
+      "city": "Cocoa Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:35.106967+00:00"
+    },
+    {
+      "store_number": "022590",
+      "store_name": "Taco Bell",
+      "city": "Ormond Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:34.978522+00:00"
+    },
+    {
+      "store_number": "028007",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:34.398093+00:00"
+    },
+    {
+      "store_number": "027979",
+      "store_name": "Taco Bell",
+      "city": "Lake Mary",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:33.927925+00:00"
+    },
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:30.862272+00:00"
+    },
+    {
+      "store_number": "027976",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:29.420189+00:00"
+    },
+    {
+      "store_number": "017290",
+      "store_name": "Taco Bell",
+      "city": "Casselberry",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:27.481790+00:00"
+    },
+    {
+      "store_number": "023293",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:24.125407+00:00"
+    },
+    {
+      "store_number": "005646",
+      "store_name": "Taco Bell",
+      "city": "Altamonte Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:23.913098+00:00"
+    },
+    {
+      "store_number": "022596",
+      "store_name": "Taco Bell",
+      "city": "Ormond Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:23.596611+00:00"
+    },
+    {
+      "store_number": "023299",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:21.800848+00:00"
+    },
+    {
+      "store_number": "022833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:21.005640+00:00"
+    },
+    {
+      "store_number": "027982",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:20.069336+00:00"
+    },
+    {
+      "store_number": "022266",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:17.324864+00:00"
+    },
+    {
+      "store_number": "027988",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:15.396992+00:00"
+    },
+    {
+      "store_number": "027975",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:13.920240+00:00"
+    },
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:13.076228+00:00"
+    },
+    {
+      "store_number": "027978",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:11.894989+00:00"
+    },
+    {
+      "store_number": "027981",
+      "store_name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:10.734532+00:00"
+    },
+    {
+      "store_number": "027983",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:09.001446+00:00"
+    },
+    {
+      "store_number": "022592",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:06.734266+00:00"
+    },
+    {
+      "store_number": "042941",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:05.970439+00:00"
+    },
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:05.319712+00:00"
+    },
+    {
+      "store_number": "030349",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:05.206742+00:00"
+    },
+    {
+      "store_number": "023290",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:05.096229+00:00"
+    },
+    {
+      "store_number": "031840",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:04.889996+00:00"
+    },
+    {
+      "store_number": "032177",
+      "store_name": "Taco Bell",
+      "city": "Windermere",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:08:04.777644+00:00"
+    },
+    {
+      "store_number": "032537",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:54.286488+00:00"
+    },
+    {
+      "store_number": "039587",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:39.604465+00:00"
+    },
+    {
+      "store_number": "037187",
+      "store_name": "Taco Bell",
+      "city": "Tavares",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:38.414176+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:38.051295+00:00"
+    },
+    {
+      "store_number": "037372",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:36.102919+00:00"
+    },
+    {
+      "store_number": "036438",
+      "store_name": "Taco Bell",
+      "city": "Minneola",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:34.068857+00:00"
+    },
+    {
+      "store_number": "042977",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:32.446320+00:00"
+    },
+    {
+      "store_number": "036232",
+      "store_name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:31.734369+00:00"
+    },
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:31.470173+00:00"
+    },
+    {
+      "store_number": "041833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:30.081181+00:00"
+    },
+    {
+      "store_number": "041964",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:29.412299+00:00"
+    },
+    {
+      "store_number": "035998",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:24.566017+00:00"
+    },
+    {
+      "store_number": "034809",
+      "store_name": "Taco Bell",
+      "city": "Umatilla",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:24.111984+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:23.859513+00:00"
+    },
+    {
+      "store_number": "035177",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:23.422050+00:00"
+    },
+    {
+      "store_number": "036021",
+      "store_name": "Taco Bell",
+      "city": "Longwood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:20.223903+00:00"
+    },
+    {
+      "store_number": "036287",
+      "store_name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:19.521352+00:00"
+    },
+    {
+      "store_number": "033927",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:17.983455+00:00"
+    },
+    {
+      "store_number": "042753",
+      "store_name": "Taco Bell",
+      "city": "Casselberry",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:17.577983+00:00"
+    },
+    {
+      "store_number": "039586",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:07:16.608881+00:00"
+    },
+    {
+      "store_number": "041844",
+      "store_name": "Taco Bell",
+      "city": "Winter Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:06:42.936006+00:00"
+    },
+    {
+      "store_number": "034859",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:05:44.906574+00:00"
+    },
+    {
+      "store_number": "040450",
+      "store_name": "Taco Bell",
+      "city": "Deltona",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:05:42.296486+00:00"
+    },
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:05:42.051001+00:00"
+    },
+    {
+      "store_number": "039700",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-16T21:05:37.421561+00:00"
+    }
+  ],
   "activity_summary": {
-    "added": 0,
+    "added": 99,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 660,
-  "calories_min": 660,
-  "calories_max": 660,
+  "calories_from_menu": 650,
+  "calories_min": 650,
+  "calories_max": 650,
   "combo_groups": [],
   "map_data": [
+    [
+      "039700",
+      28.519825,
+      -81.729198,
+      5.99,
+      "Taco Bell",
+      "Clermont",
+      "FL"
+    ],
+    [
+      "040730",
+      28.978999988269013,
+      -80.90048237483407,
+      5.99,
+      "Taco Bell",
+      "Edgewater",
+      "FL"
+    ],
+    [
+      "040450",
+      28.90509965811052,
+      -81.24532156786813,
+      5.99,
+      "Taco Bell",
+      "Deltona",
+      "FL"
+    ],
+    [
+      "034859",
+      28.59831098412045,
+      -81.20885426661394,
+      5.99,
+      "Taco Bell Cantina Cantina",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "041844",
+      28.69860316595981,
+      -81.30198314871296,
+      5.99,
+      "Taco Bell",
+      "Winter Springs",
+      "FL"
+    ],
+    [
+      "039586",
+      28.160147167630527,
+      -81.44070410952173,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "042753",
+      28.63381,
+      -81.32042,
+      5.99,
+      "Taco Bell",
+      "Casselberry",
+      "FL"
+    ],
+    [
+      "033927",
+      28.343211280611577,
+      -81.32938075015683,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "036287",
+      29.110829512237228,
+      -81.02506886165676,
+      5.99,
+      "Taco Bell",
+      "Port Orange",
+      "FL"
+    ],
+    [
+      "036021",
+      28.6974885390408,
+      -81.34655332918419,
+      5.99,
+      "Taco Bell",
+      "Longwood",
+      "FL"
+    ],
+    [
+      "035177",
+      28.034745821603277,
+      -80.63173264643589,
+      5.99,
+      "Taco Bell",
+      "Palm Bay",
+      "FL"
+    ],
+    [
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
+      5.99,
+      "Taco Bell",
+      "Dunnellon",
+      "FL"
+    ],
+    [
+      "034809",
+      28.93077353365337,
+      -81.66661659010451,
+      5.99,
+      "Taco Bell",
+      "Umatilla",
+      "FL"
+    ],
+    [
+      "035998",
+      28.363064573082465,
+      -81.42408256620308,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "041964",
+      28.303987409427087,
+      -81.23885304982832,
+      5.99,
+      "Taco Bell",
+      "Saint Cloud",
+      "FL"
+    ],
+    [
+      "041833",
+      28.546889,
+      -81.662737,
+      5.99,
+      "Taco Bell",
+      "Clermont",
+      "FL"
+    ],
+    [
+      "035462",
+      28.541891996394657,
+      -81.37876977112303,
+      5.99,
+      "Taco Bell Cantina",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "036232",
+      28.671317568702126,
+      -81.45585342840494,
+      5.99,
+      "Taco Bell",
+      "Apopka",
+      "FL"
+    ],
+    [
+      "042977",
+      28.7471,
+      -81.8773,
+      5.99,
+      "Taco Bell",
+      "Leesburg",
+      "FL"
+    ],
+    [
+      "036438",
+      28.576159566371096,
+      -81.74960673084662,
+      5.99,
+      "Taco Bell",
+      "Minneola",
+      "FL"
+    ],
+    [
+      "037372",
+      29.22441703309354,
+      -81.09082756190918,
+      5.99,
+      "Taco Bell",
+      "Daytona Beach",
+      "FL"
+    ],
+    [
+      "037110",
+      28.34617964975096,
+      -81.64492094604472,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "037187",
+      28.782729286328053,
+      -81.74928864985861,
+      5.99,
+      "Taco Bell",
+      "Tavares",
+      "FL"
+    ],
+    [
+      "039587",
+      28.39987,
+      -81.490788,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "032537",
+      28.82412737453517,
+      -81.79163746182154,
+      5.99,
+      "Taco Bell",
+      "Leesburg",
+      "FL"
+    ],
+    [
+      "032177",
+      28.445597,
+      -81.559359,
+      5.99,
+      "Taco Bell",
+      "Windermere",
+      "FL"
+    ],
+    [
+      "031840",
+      29.085986725432136,
+      -82.25106698357388,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "023290",
+      28.568820173202138,
+      -81.28160832216957,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "030349",
+      28.231152164188327,
+      -80.70049432232909,
+      5.99,
+      "Taco Bell",
+      "Melbourne",
+      "FL"
+    ],
+    [
+      "023302",
+      28.340028098278022,
+      -81.59762848915307,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "042941",
+      29.116219923790815,
+      -82.02579715851243,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "022592",
+      29.218208788850156,
+      -81.04734418680891,
+      5.99,
+      "Taco Bell",
+      "Daytona Beach",
+      "FL"
+    ],
+    [
+      "027983",
+      28.608677522862287,
+      -81.39008417441511,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "027981",
+      28.592285615286603,
+      -81.36473536491394,
+      5.99,
+      "Taco Bell",
+      "Winter Park",
+      "FL"
+    ],
+    [
+      "027978",
+      28.552565072072,
+      -81.47350690794156,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "028353",
+      28.81817457980822,
+      -81.88791497494094,
+      5.99,
+      "Taco Bell",
+      "Leesburg",
+      "FL"
+    ],
+    [
+      "027975",
+      28.294870388476983,
+      -80.72423458099371,
+      5.99,
+      "Taco Bell",
+      "Rockledge",
+      "FL"
+    ],
+    [
+      "027988",
+      28.47491997799977,
+      -81.28932432086913,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022266",
+      28.53756096341434,
+      -81.20877279901833,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "027982",
+      28.607451373115882,
+      -81.42485408910157,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022833",
+      28.3538526090358,
+      -81.6757670044899,
+      5.99,
+      "Taco Bell",
+      "Clermont",
+      "FL"
+    ],
+    [
+      "023299",
+      28.48727227380717,
+      -81.45812411607949,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022596",
+      29.2566212201578,
+      -81.1136645078659,
+      5.99,
+      "Taco Bell",
+      "Ormond Beach",
+      "FL"
+    ],
+    [
+      "005646",
+      28.662325501412592,
+      -81.40244990587234,
+      5.99,
+      "Taco Bell",
+      "Altamonte Springs",
+      "FL"
+    ],
+    [
+      "023293",
+      28.333579317890024,
+      -81.48036539554596,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "017290",
+      28.671148535708415,
+      -81.33862942457199,
+      5.99,
+      "Taco Bell",
+      "Casselberry",
+      "FL"
+    ],
+    [
+      "027976",
+      28.553754689889452,
+      -81.33276176918858,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "027970",
+      28.36376816960354,
+      -80.69987878203392,
+      5.99,
+      "Taco Bell",
+      "Merritt Island",
+      "FL"
+    ],
+    [
+      "027979",
+      28.755784924346298,
+      -81.3436637725863,
+      5.99,
+      "Taco Bell",
+      "Lake Mary",
+      "FL"
+    ],
+    [
+      "028007",
+      28.54002364648534,
+      -81.15079537121646,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022590",
+      29.2812221737573,
+      -81.06851139667924,
+      5.99,
+      "Taco Bell",
+      "Ormond Beach",
+      "FL"
+    ],
+    [
+      "027971",
+      28.352087603671087,
+      -80.60836730221422,
+      5.99,
+      "Taco Bell",
+      "Cocoa Beach",
+      "FL"
+    ],
+    [
+      "039584",
+      28.248935698712764,
+      -81.31078787153456,
+      5.99,
+      "Taco Bell",
+      "Saint Cloud",
+      "FL"
+    ],
+    [
+      "042932",
+      29.186772427028014,
+      -82.17929099501816,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "022595",
+      28.55328983120039,
+      -80.84494297208039,
+      5.99,
+      "Taco Bell",
+      "Titusville",
+      "FL"
+    ],
+    [
+      "042933",
+      29.22136972864249,
+      -82.14614545823775,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "004318",
+      28.673414603253907,
+      -81.50519576632817,
+      5.99,
+      "Taco Bell",
+      "Apopka",
+      "FL"
+    ],
+    [
+      "027986",
+      28.92682079364781,
+      -81.18946249173898,
+      5.99,
+      "Taco Bell",
+      "Deltona",
+      "FL"
+    ],
+    [
+      "027974",
+      28.395896484504984,
+      -80.75560703873629,
+      5.99,
+      "Taco Bell",
+      "Cocoa",
+      "FL"
+    ],
+    [
+      "022589",
+      28.778080366655473,
+      -81.27583850921837,
+      5.99,
+      "Taco Bell",
+      "Sanford",
+      "FL"
+    ],
+    [
+      "027980",
+      28.912979829325057,
+      -81.29350272015947,
+      5.99,
+      "Taco Bell",
+      "Orange City",
+      "FL"
+    ],
+    [
+      "023296",
+      28.578448688463475,
+      -81.44129593672005,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "027972",
+      28.14532685391547,
+      -80.67222346367089,
+      5.99,
+      "Taco Bell",
+      "Melbourne",
+      "FL"
+    ],
+    [
+      "023298",
+      28.515978176332453,
+      -81.48444129319549,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "042914",
+      29.169674531828413,
+      -82.16357861460892,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "022587",
+      29.1667363858959,
+      -80.99885885419098,
+      5.99,
+      "Taco Bell",
+      "South Daytona",
+      "FL"
+    ],
+    [
+      "022594",
+      29.188448184353764,
+      -81.07624427230803,
+      5.99,
+      "Taco Bell",
+      "Daytona Beach",
+      "FL"
+    ],
+    [
+      "042924",
+      29.186555502770133,
+      -82.10967413442167,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "023289",
+      28.078498297131155,
+      -80.6540892273324,
+      5.99,
+      "Taco Bell",
+      "West Melbourne",
+      "FL"
+    ],
+    [
+      "027969",
+      28.590950152596594,
+      -80.80342124933513,
+      5.99,
+      "Taco Bell",
+      "Titusville",
+      "FL"
+    ],
+    [
+      "027973",
+      28.331229902743292,
+      -80.72642873693731,
+      5.99,
+      "Taco Bell",
+      "Rockledge",
+      "FL"
+    ],
+    [
+      "027990",
+      29.01345130657388,
+      -80.94385196631548,
+      5.99,
+      "Taco Bell",
+      "New Smyrna Beach",
+      "FL"
+    ],
+    [
+      "027987",
+      28.657739479407898,
+      -81.17707944944408,
+      5.99,
+      "Taco Bell",
+      "Oviedo",
+      "FL"
+    ],
+    [
+      "021472",
+      28.547364532355125,
+      -81.72223337000105,
+      5.99,
+      "Taco Bell",
+      "Clermont",
+      "FL"
+    ],
+    [
+      "039585",
+      28.304853694257584,
+      -81.42185122376063,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "023301",
+      28.81991652747539,
+      -81.67213984359886,
+      5.99,
+      "Taco Bell",
+      "Mount Dora",
+      "FL"
+    ],
+    [
+      "027985",
+      28.560556364542418,
+      -81.13136172294617,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022593",
+      29.055431082490866,
+      -81.30400560334243,
+      5.99,
+      "Taco Bell",
+      "Deland",
+      "FL"
+    ],
+    [
+      "030999",
+      28.686286463032623,
+      -81.5344682335853,
+      5.99,
+      "Taco Bell",
+      "Apopka",
+      "FL"
+    ],
+    [
+      "022591",
+      29.171333409946573,
+      -81.03924379968414,
+      5.99,
+      "Taco Bell",
+      "Daytona Beach",
+      "FL"
+    ],
+    [
+      "042942",
+      29.024994683187042,
+      -82.15455534110447,
+      5.99,
+      "Taco Bell",
+      "Ocala",
+      "FL"
+    ],
+    [
+      "023295",
+      28.649284925308407,
+      -81.26870423555374,
+      5.99,
+      "Taco Bell",
+      "Winter Springs",
+      "FL"
+    ],
+    [
+      "023304",
+      28.38906899877655,
+      -81.40395460417494,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022588",
+      29.008808893320914,
+      -81.30220770835882,
+      5.99,
+      "Taco Bell",
+      "Deland",
+      "FL"
+    ],
+    [
+      "027984",
+      28.8003438222444,
+      -81.3376676291773,
+      5.99,
+      "Taco Bell",
+      "Sanford",
+      "FL"
+    ],
+    [
+      "004435",
+      28.567199559370433,
+      -81.20559722185135,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "030277",
+      28.70125751608645,
+      -81.50966316461563,
+      5.99,
+      "Taco Bell",
+      "Apopka",
+      "FL"
+    ],
+    [
+      "042928",
+      29.5540650252999,
+      -81.22845753097863,
+      5.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
+      "042927",
+      29.07398294969833,
+      -82.07236339153496,
+      5.99,
+      "Taco Bell",
+      "Belleview",
+      "FL"
+    ],
+    [
+      "023297",
+      28.596914475591714,
+      -81.30659312009811,
+      5.99,
+      "Taco Bell",
+      "Winter Park",
+      "FL"
+    ],
+    [
+      "037822",
+      28.938462838541238,
+      -81.9440854383116,
+      5.99,
+      "Taco Bell",
+      "Lady Lake",
+      "FL"
+    ],
+    [
+      "023291",
+      28.186290819898744,
+      -80.59330917430088,
+      5.99,
+      "Taco Bell",
+      "Satellite Beach",
+      "FL"
+    ],
+    [
+      "027977",
+      28.597942429370764,
+      -81.24382138252253,
+      5.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "023300",
+      27.99815047734223,
+      -80.63776654322986,
+      5.99,
+      "Taco Bell",
+      "Palm Bay",
+      "FL"
+    ],
+    [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      5.99,
+      "Taco Bell",
+      "Saint Cloud",
+      "FL"
+    ],
+    [
+      "042971",
+      29.475060096911534,
+      -81.2211965854139,
+      5.99,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
+      "032959",
+      28.603524290290366,
+      -81.54805165889547,
+      5.99,
+      "Taco Bell",
+      "Ocoee",
+      "FL"
+    ],
+    [
+      "038869",
+      28.4762,
+      -81.626076,
+      5.99,
+      "Taco Bell",
+      "Winter Garden",
+      "FL"
+    ],
     [
       "021309",
       36.86049756823483,

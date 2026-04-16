@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.48,
+    "avg": 2.52,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.49,
-    "std_dev": 0.26,
-    "store_count": 7
+    "median": 2.54,
+    "std_dev": 0.25,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$2.29",
@@ -44,19 +44,12 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.52,
-      "store_count": 6
+      "avg_price": 2.59,
+      "store_count": 5
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "037525",
-      "name": "Taco Bell",
-      "city": "Middle Village",
-      "state": "NY",
-      "price": 2.19
-    },
     {
       "store_number": "041105",
       "name": "Taco Bell",
@@ -101,7 +94,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "037525",
     "041105"
   ],
   "priciest_stores": [
@@ -146,16 +138,19 @@
       "city": "Jefferson",
       "state": "GA",
       "price": 2.19
-    },
-    {
-      "store_number": "037525",
-      "name": "Taco Bell",
-      "city": "Middle Village",
-      "state": "NY",
-      "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037525",
+      "store_name": "Taco Bell",
+      "city": "Middle Village",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:07:37.452348+00:00"
+    },
     {
       "store_number": "035416",
       "store_name": "Taco Bell Cantina Cantina",
@@ -239,7 +234,7 @@
   ],
   "activity_summary": {
     "added": 3,
-    "removed": 5,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -248,15 +243,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "037525",
-      40.71368323352599,
-      -73.90140968095892,
-      2.19,
-      "Taco Bell",
-      "Middle Village",
-      "NY"
-    ],
     [
       "041105",
       34.123606790741,
@@ -319,7 +305,7 @@
       "min_price": 2.19,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.89
+      "happier_hour_avg": 2.01
     }
   ]
 }

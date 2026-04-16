@@ -14,32 +14,32 @@
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 3.6,
-    "min": 3.39,
+    "avg": 3.68,
+    "min": 2.99,
     "max": 4.99,
-    "median": 3.49,
+    "median": 3.59,
     "std_dev": 0.24,
-    "store_count": 54
+    "store_count": 55
   },
   "histogram": [
     {
-      "bucket": "$3.39",
-      "count": 5
-    },
-    {
-      "bucket": "$3.49",
-      "count": 28
-    },
-    {
-      "bucket": "$3.59",
+      "bucket": "$2.99",
       "count": 1
     },
     {
-      "bucket": "$3.69",
-      "count": 6
+      "bucket": "$3.49",
+      "count": 5
     },
     {
-      "bucket": "$3.79",
+      "bucket": "$3.59",
+      "count": 28
+    },
+    {
+      "bucket": "$3.69",
+      "count": 7
+    },
+    {
+      "bucket": "$3.89",
       "count": 13
     },
     {
@@ -50,7 +50,7 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 3.6,
+      "avg_price": 3.69,
       "store_count": 54
     }
   ],
@@ -70,82 +70,78 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "002863",
+      "name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "price": 2.99
+    },
+    {
       "store_number": "042582",
       "name": "Taco Bell",
       "city": "Dacula",
       "state": "GA",
-      "price": 3.39
+      "price": 3.49
     },
     {
       "store_number": "042583",
       "name": "Taco Bell",
       "city": "Clarkesville",
       "state": "GA",
-      "price": 3.39
+      "price": 3.49
     },
     {
       "store_number": "042576",
       "name": "Taco Bell",
       "city": "Buford",
       "state": "GA",
-      "price": 3.39
+      "price": 3.49
     },
     {
       "store_number": "042573",
       "name": "Taco Bell",
       "city": "Gainesville",
       "state": "GA",
-      "price": 3.39
+      "price": 3.49
     },
     {
       "store_number": "042579",
       "name": "Taco Bell",
       "city": "Braselton",
       "state": "GA",
-      "price": 3.39
+      "price": 3.49
     },
     {
       "store_number": "040929",
       "name": "Taco Bell",
       "city": "Greensboro",
       "state": "GA",
-      "price": 3.49
+      "price": 3.59
     },
     {
       "store_number": "041105",
       "name": "Taco Bell",
       "city": "Jefferson",
       "state": "GA",
-      "price": 3.49
+      "price": 3.59
     },
     {
       "store_number": "041088",
       "name": "Taco Bell",
       "city": "Covington",
       "state": "GA",
-      "price": 3.49
+      "price": 3.59
     },
     {
       "store_number": "042575",
       "name": "Taco Bell",
       "city": "Cartersville",
       "state": "GA",
-      "price": 3.49
-    },
-    {
-      "store_number": "042581",
-      "name": "Taco Bell",
-      "city": "Canton",
-      "state": "GA",
-      "price": 3.49
+      "price": 3.59
     }
   ],
   "min_price_store_numbers": [
-    "042582",
-    "042583",
-    "042576",
-    "042573",
-    "042579"
+    "002863"
   ],
   "priciest_stores": [
     {
@@ -160,66 +156,546 @@
       "name": "Taco Bell",
       "city": "Covington",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "027506",
       "name": "Taco Bell",
       "city": "Gainesville",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "004109",
       "name": "Taco Bell",
       "city": "Conyers",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "023742",
       "name": "Taco Bell",
       "city": "Carrollton",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "027599",
       "name": "Taco Bell",
       "city": "Madison",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "004371",
       "name": "Taco Bell",
       "city": "Rome",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "027858",
       "name": "Taco Bell",
       "city": "Buford",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "004531",
       "name": "Taco Bell",
       "city": "Commerce",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     },
     {
       "store_number": "027711",
       "name": "Taco Bell",
       "city": "Kennesaw",
       "state": "GA",
-      "price": 3.79
+      "price": 3.89
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:12:51.449776+00:00"
+    },
+    {
+      "store_number": "042579",
+      "store_name": "Taco Bell",
+      "city": "Braselton",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.39,
+      "new_price": 3.49,
+      "observed_at": "2026-04-16T21:09:38.758178+00:00"
+    },
+    {
+      "store_number": "039623",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:09:38.199256+00:00"
+    },
+    {
+      "store_number": "027509",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:09:28.873229+00:00"
+    },
+    {
+      "store_number": "027554",
+      "store_name": "Taco Bell",
+      "city": "Cornelia",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:09:23.525816+00:00"
+    },
+    {
+      "store_number": "031473",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:09:20.770817+00:00"
+    },
+    {
+      "store_number": "004317",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:09:15.897788+00:00"
+    },
+    {
+      "store_number": "027506",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:09:14.452190+00:00"
+    },
+    {
+      "store_number": "004109",
+      "store_name": "Taco Bell",
+      "city": "Conyers",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:09:11.184106+00:00"
+    },
+    {
+      "store_number": "023742",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:09:07.590236+00:00"
+    },
+    {
+      "store_number": "027599",
+      "store_name": "Taco Bell",
+      "city": "Madison",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:09:04.966559+00:00"
+    },
+    {
+      "store_number": "004371",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:09:04.390269+00:00"
+    },
+    {
+      "store_number": "004026",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:09:02.263637+00:00"
+    },
+    {
+      "store_number": "042573",
+      "store_name": "Taco Bell",
+      "city": "Gainesville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.39,
+      "new_price": 3.49,
+      "observed_at": "2026-04-16T21:09:01.233803+00:00"
+    },
+    {
+      "store_number": "002425",
+      "store_name": "Taco Bell",
+      "city": "Duluth",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:57.176272+00:00"
+    },
+    {
+      "store_number": "026676",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:55.606954+00:00"
+    },
+    {
+      "store_number": "023238",
+      "store_name": "Taco Bell",
+      "city": "Conyers",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:52.648809+00:00"
+    },
+    {
+      "store_number": "042576",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.39,
+      "new_price": 3.49,
+      "observed_at": "2026-04-16T21:08:52.509802+00:00"
+    },
+    {
+      "store_number": "027858",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:08:49.237373+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:48.579715+00:00"
+    },
+    {
+      "store_number": "024596",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:47.990721+00:00"
+    },
+    {
+      "store_number": "031633",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:47.062390+00:00"
+    },
+    {
+      "store_number": "030467",
+      "store_name": "Taco Bell",
+      "city": "Rome",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.59,
+      "new_price": 3.69,
+      "observed_at": "2026-04-16T21:08:46.227643+00:00"
+    },
+    {
+      "store_number": "004531",
+      "store_name": "Taco Bell",
+      "city": "Commerce",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:08:42.184163+00:00"
+    },
+    {
+      "store_number": "027711",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:08:39.084678+00:00"
+    },
+    {
+      "store_number": "003648",
+      "store_name": "Taco Bell",
+      "city": "Stockbridge",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:33.094317+00:00"
+    },
+    {
+      "store_number": "003779",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:08:31.507335+00:00"
+    },
+    {
+      "store_number": "016821",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:08:27.886390+00:00"
+    },
+    {
+      "store_number": "018166",
+      "store_name": "Taco Bell",
+      "city": "Hiram",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:27.262909+00:00"
+    },
+    {
+      "store_number": "003841",
+      "store_name": "Taco Bell",
+      "city": "Calhoun",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:25.829020+00:00"
+    },
+    {
+      "store_number": "003859",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:17.637215+00:00"
+    },
+    {
+      "store_number": "026073",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:08:17.457217+00:00"
+    },
+    {
+      "store_number": "003717",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:15.041277+00:00"
+    },
+    {
+      "store_number": "042572",
+      "store_name": "Taco Bell",
+      "city": "Fairburn",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:08:04.738335+00:00"
+    },
+    {
+      "store_number": "002863",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-16T21:07:43.784723+00:00"
+    },
+    {
+      "store_number": "036290",
+      "store_name": "Taco Bell",
+      "city": "Conyers",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:33.656204+00:00"
+    },
+    {
+      "store_number": "042351",
+      "store_name": "Taco Bell",
+      "city": "Calhoun",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:31.146271+00:00"
+    },
+    {
+      "store_number": "041400",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:30.834883+00:00"
+    },
+    {
+      "store_number": "042107",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:29.162609+00:00"
+    },
+    {
+      "store_number": "041930",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:28.967619+00:00"
+    },
+    {
+      "store_number": "036011",
+      "store_name": "Taco Bell",
+      "city": "Calhoun",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:22.421847+00:00"
+    },
+    {
+      "store_number": "042581",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:19.606424+00:00"
+    },
+    {
+      "store_number": "032143",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.79,
+      "new_price": 3.89,
+      "observed_at": "2026-04-16T21:07:16.985739+00:00"
+    },
+    {
+      "store_number": "042583",
+      "store_name": "Taco Bell",
+      "city": "Clarkesville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.39,
+      "new_price": 3.49,
+      "observed_at": "2026-04-16T21:07:16.724244+00:00"
+    },
+    {
+      "store_number": "042575",
+      "store_name": "Taco Bell",
+      "city": "Cartersville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:14.757586+00:00"
+    },
+    {
+      "store_number": "041088",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:07:13.089344+00:00"
+    },
+    {
+      "store_number": "040929",
+      "store_name": "Taco Bell",
+      "city": "Greensboro",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.49,
+      "new_price": 3.59,
+      "observed_at": "2026-04-16T21:05:44.168531+00:00"
+    },
+    {
+      "store_number": "042582",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 3.39,
+      "new_price": 3.49,
+      "observed_at": "2026-04-16T21:05:38.080670+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -292,9 +768,9 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 4,
     "removed": 4,
-    "price_changed": 0,
+    "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 500,
@@ -303,10 +779,19 @@
   "combo_groups": [],
   "map_data": [
     [
+      "002863",
+      35.17103590511225,
+      -80.84591701626778,
+      2.99,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "042582",
       34.03186002111262,
       -83.88571668620189,
-      3.39,
+      3.49,
       "Taco Bell",
       "Dacula",
       "GA"
@@ -315,7 +800,7 @@
       "042583",
       34.60104444338766,
       -83.51778554254794,
-      3.39,
+      3.49,
       "Taco Bell",
       "Clarkesville",
       "GA"
@@ -324,7 +809,7 @@
       "042576",
       34.10871458788698,
       -83.87817268075196,
-      3.39,
+      3.49,
       "Taco Bell",
       "Buford",
       "GA"
@@ -333,7 +818,7 @@
       "042573",
       34.3143827840982,
       -83.79565393988236,
-      3.39,
+      3.49,
       "Taco Bell",
       "Gainesville",
       "GA"
@@ -342,7 +827,7 @@
       "042579",
       34.12164984277345,
       -83.764132739823,
-      3.39,
+      3.49,
       "Taco Bell",
       "Braselton",
       "GA"
@@ -351,7 +836,7 @@
       "040929",
       33.5397,
       -83.2096,
-      3.49,
+      3.59,
       "Taco Bell",
       "Greensboro",
       "GA"
@@ -360,7 +845,7 @@
       "041105",
       34.123606790741,
       -83.60452047516594,
-      3.49,
+      3.59,
       "Taco Bell",
       "Jefferson",
       "GA"
@@ -369,7 +854,7 @@
       "041088",
       33.57060583649051,
       -83.85142853497027,
-      3.49,
+      3.59,
       "Taco Bell",
       "Covington",
       "GA"
@@ -378,7 +863,7 @@
       "042575",
       34.12172166930911,
       -84.74467018956662,
-      3.49,
+      3.59,
       "Taco Bell",
       "Cartersville",
       "GA"
@@ -387,7 +872,7 @@
       "042581",
       34.256253,
       -84.35856199999999,
-      3.49,
+      3.59,
       "Taco Bell",
       "Canton",
       "GA"
@@ -396,7 +881,7 @@
       "036011",
       34.55949767322122,
       -84.93729693025807,
-      3.49,
+      3.59,
       "Taco Bell",
       "Calhoun",
       "GA"
@@ -405,7 +890,7 @@
       "041930",
       33.6004053,
       -85.0784935,
-      3.49,
+      3.59,
       "Taco Bell",
       "Carrollton",
       "GA"
@@ -414,7 +899,7 @@
       "042107",
       34.189321,
       -84.138955,
-      3.49,
+      3.59,
       "Taco Bell",
       "Cumming",
       "GA"
@@ -423,7 +908,7 @@
       "041400",
       34.23938946065471,
       -84.22613464499771,
-      3.49,
+      3.59,
       "Taco Bell",
       "Cumming",
       "GA"
@@ -432,7 +917,7 @@
       "042351",
       34.511577,
       -84.92265,
-      3.49,
+      3.59,
       "Taco Bell",
       "Calhoun",
       "GA"
@@ -441,7 +926,7 @@
       "036290",
       33.68525347160878,
       -84.00274201865803,
-      3.49,
+      3.59,
       "Taco Bell",
       "Conyers",
       "GA"
@@ -450,7 +935,7 @@
       "042572",
       33.53980644411624,
       -84.57611403902706,
-      3.49,
+      3.59,
       "Taco Bell",
       "Fairburn",
       "GA"
@@ -459,7 +944,7 @@
       "003717",
       33.60521144941972,
       -83.87487180111145,
-      3.49,
+      3.59,
       "Taco Bell",
       "Covington",
       "GA"
@@ -468,7 +953,7 @@
       "003859",
       33.586510422578534,
       -85.05791187286377,
-      3.49,
+      3.59,
       "Taco Bell",
       "Carrollton",
       "GA"
@@ -477,7 +962,7 @@
       "003841",
       34.475281942897205,
       -84.92862649263316,
-      3.49,
+      3.59,
       "Taco Bell",
       "Calhoun",
       "GA"
@@ -486,7 +971,7 @@
       "018166",
       33.89149409475321,
       -84.75320756435389,
-      3.49,
+      3.59,
       "Taco Bell",
       "Hiram",
       "GA"
@@ -495,7 +980,7 @@
       "003648",
       33.55428767252122,
       -84.2642860561773,
-      3.49,
+      3.59,
       "Taco Bell",
       "Stockbridge",
       "GA"
@@ -504,7 +989,7 @@
       "031633",
       33.73245285221801,
       -84.6678918600083,
-      3.49,
+      3.59,
       "Taco Bell",
       "Douglasville",
       "GA"
@@ -513,7 +998,7 @@
       "024596",
       34.2514831908549,
       -84.08800439400908,
-      3.49,
+      3.59,
       "Taco Bell",
       "Cumming",
       "GA"
@@ -522,7 +1007,7 @@
       "002995",
       33.88866329031674,
       -84.47492127122132,
-      3.49,
+      3.59,
       "Taco Bell",
       "Smyrna",
       "GA"
@@ -531,7 +1016,7 @@
       "023238",
       33.624919000000006,
       -83.97712250429907,
-      3.49,
+      3.59,
       "Taco Bell",
       "Conyers",
       "GA"
@@ -540,7 +1025,7 @@
       "026676",
       34.27174398822544,
       -85.22953189920372,
-      3.49,
+      3.59,
       "Taco Bell",
       "Rome",
       "GA"
@@ -549,7 +1034,7 @@
       "002425",
       33.95790879801374,
       -84.13447953295872,
-      3.49,
+      3.59,
       "Taco Bell",
       "Duluth",
       "GA"
@@ -558,7 +1043,7 @@
       "004026",
       33.999823995929994,
       -84.58854943513865,
-      3.49,
+      3.59,
       "Taco Bell",
       "Kennesaw",
       "GA"
@@ -567,7 +1052,7 @@
       "004317",
       34.286228837677136,
       -83.84069511297639,
-      3.49,
+      3.59,
       "Taco Bell",
       "Gainesville",
       "GA"
@@ -576,7 +1061,7 @@
       "031473",
       33.57876111209195,
       -83.96172523498535,
-      3.49,
+      3.59,
       "Taco Bell",
       "Covington",
       "GA"
@@ -585,7 +1070,7 @@
       "027554",
       34.53558421107505,
       -83.53455302820122,
-      3.49,
+      3.59,
       "Taco Bell",
       "Cornelia",
       "GA"
@@ -594,18 +1079,9 @@
       "039623",
       34.196491,
       -84.789276,
-      3.49,
-      "Taco Bell",
-      "Cartersville",
-      "GA"
-    ],
-    [
-      "030467",
-      34.304485857058424,
-      -85.17512485390398,
       3.59,
       "Taco Bell",
-      "Rome",
+      "Cartersville",
       "GA"
     ],
     [
@@ -654,6 +1130,15 @@
       "GA"
     ],
     [
+      "030467",
+      34.304485857058424,
+      -85.17512485390398,
+      3.69,
+      "Taco Bell",
+      "Rome",
+      "GA"
+    ],
+    [
       "042571",
       33.50439041324688,
       -84.23968769611292,
@@ -666,7 +1151,7 @@
       "032143",
       34.153327,
       -84.821585,
-      3.79,
+      3.89,
       "Taco Bell",
       "Cartersville",
       "GA"
@@ -675,7 +1160,7 @@
       "026073",
       33.7517493624465,
       -84.72289301460478,
-      3.79,
+      3.89,
       "Taco Bell",
       "Douglasville",
       "GA"
@@ -684,7 +1169,7 @@
       "016821",
       34.05976172931764,
       -84.59213782848565,
-      3.79,
+      3.89,
       "Taco Bell",
       "Kennesaw",
       "GA"
@@ -693,7 +1178,7 @@
       "003779",
       34.16686405454833,
       -84.78785862030236,
-      3.79,
+      3.89,
       "Taco Bell",
       "Cartersville",
       "GA"
@@ -702,7 +1187,7 @@
       "027711",
       34.03142591145449,
       -84.57802757626268,
-      3.79,
+      3.89,
       "Taco Bell",
       "Kennesaw",
       "GA"
@@ -711,7 +1196,7 @@
       "004531",
       34.25022228804311,
       -83.46128860119279,
-      3.79,
+      3.89,
       "Taco Bell",
       "Commerce",
       "GA"
@@ -720,7 +1205,7 @@
       "027858",
       34.07882955591635,
       -83.91751042267758,
-      3.79,
+      3.89,
       "Taco Bell",
       "Buford",
       "GA"
@@ -729,7 +1214,7 @@
       "004371",
       34.2427809392188,
       -85.1616658968806,
-      3.79,
+      3.89,
       "Taco Bell",
       "Rome",
       "GA"
@@ -738,7 +1223,7 @@
       "027599",
       33.56344645271083,
       -83.4796367994174,
-      3.79,
+      3.89,
       "Taco Bell",
       "Madison",
       "GA"
@@ -747,7 +1232,7 @@
       "023742",
       33.54462982748955,
       -85.07332757978452,
-      3.79,
+      3.89,
       "Taco Bell",
       "Carrollton",
       "GA"
@@ -756,7 +1241,7 @@
       "004109",
       33.64955627801561,
       -84.01091118158547,
-      3.79,
+      3.89,
       "Taco Bell",
       "Conyers",
       "GA"
@@ -765,7 +1250,7 @@
       "027506",
       34.321927340275344,
       -83.83288894595358,
-      3.79,
+      3.89,
       "Taco Bell",
       "Gainesville",
       "GA"
@@ -774,7 +1259,7 @@
       "027509",
       33.6079883806077,
       -83.82737691574002,
-      3.79,
+      3.89,
       "Taco Bell",
       "Covington",
       "GA"

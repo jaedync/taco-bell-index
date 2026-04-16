@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3541
+    "store_count": 3544
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3541
+      "count": 3544
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "VA",
       "avg_price": 0.0,
-      "store_count": 44
+      "store_count": 45
     },
     {
       "state": "UT",
@@ -199,7 +199,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 65
+      "store_count": 66
     },
     {
       "state": "FL",
@@ -229,7 +229,7 @@
     {
       "state": "AZ",
       "avg_price": 0.0,
-      "store_count": 178
+      "store_count": 179
     },
     {
       "state": "AK",
@@ -470,6 +470,7 @@
     "041951",
     "041672",
     "042086",
+    "041088",
     "042056",
     "041668",
     "040994",
@@ -1503,6 +1504,7 @@
     "042761",
     "004259",
     "033860",
+    "031718",
     "032107",
     "019589",
     "031685",
@@ -3864,9 +3866,17 @@
     "030468",
     "028184",
     "028476",
-    "042874"
+    "042874",
+    "036543"
   ],
   "priciest_stores": [
+    {
+      "store_number": "036543",
+      "name": "Taco Bell",
+      "city": "Herndon",
+      "state": "VA",
+      "price": 0.0
+    },
     {
       "store_number": "042874",
       "name": "Taco Bell",
@@ -3929,16 +3939,39 @@
       "city": "Wilmington",
       "state": "DE",
       "price": 0.0
-    },
-    {
-      "store_number": "005169",
-      "name": "Taco Bell",
-      "city": "Houston",
-      "state": "TX",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036543",
+      "store_name": "Taco Bell",
+      "city": "Herndon",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-16T21:08:56.802237+00:00"
+    },
+    {
+      "store_number": "031718",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-16T21:08:09.081144+00:00"
+    },
+    {
+      "store_number": "041088",
+      "store_name": "Taco Bell",
+      "city": "Covington",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-16T21:07:13.089344+00:00"
+    },
     {
       "store_number": "042874",
       "store_name": "Taco Bell",
@@ -4761,7 +4794,7 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
+    "added": 38,
     "removed": 47,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6084,6 +6117,15 @@
       "Taco Bell",
       "Raleigh",
       "NC"
+    ],
+    [
+      "041088",
+      33.57060583649051,
+      -83.85142853497027,
+      0.0,
+      "Taco Bell",
+      "Covington",
+      "GA"
     ],
     [
       "042056",
@@ -15381,6 +15423,15 @@
       "Taco Bell",
       "Denver",
       "CO"
+    ],
+    [
+      "031718",
+      32.33643940702738,
+      -111.04644119739532,
+      0.0,
+      "Taco Bell",
+      "Tucson",
+      "AZ"
     ],
     [
       "032107",
@@ -36639,6 +36690,15 @@
       "Taco Bell",
       "Jacksonville",
       "FL"
+    ],
+    [
+      "036543",
+      38.95896136561548,
+      -77.40294046237972,
+      0.0,
+      "Taco Bell",
+      "Herndon",
+      "VA"
     ]
   ]
 }

@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 620
+    "store_count": 619
   },
   "histogram": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 165
+      "count": 163
     },
     {
       "bucket": "$0.89",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 123
+      "count": 124
     },
     {
       "bucket": "$1.00",
@@ -188,7 +188,7 @@
     {
       "state": "WI",
       "avg_price": 0.95,
-      "store_count": 38
+      "store_count": 37
     },
     {
       "state": "MO",
@@ -379,6 +379,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037718",
+      "store_name": "Taco Bell",
+      "city": "North Plains",
+      "state": "OR",
+      "change_type": "price_change",
+      "old_price": 0.79,
+      "new_price": 0.99,
+      "observed_at": "2026-04-16T21:09:36.183463+00:00"
+    },
+    {
+      "store_number": "004900",
+      "store_name": "Taco Bell",
+      "city": "Hudson",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:08:54.115218+00:00"
+    },
     {
       "store_number": "004655",
       "store_name": "Taco Bell",
@@ -892,8 +912,8 @@
   ],
   "activity_summary": {
     "added": 18,
-    "removed": 32,
-    "price_changed": 1,
+    "removed": 33,
+    "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -1784,15 +1804,6 @@
       "CA"
     ],
     [
-      "004900",
-      44.9612833367091,
-      -92.7239115983412,
-      0.79,
-      "Taco Bell",
-      "Hudson",
-      "WI"
-    ],
-    [
       "016639",
       34.15573486881186,
       -118.63341550659814,
@@ -2331,15 +2342,6 @@
       "Taco Bell",
       "Saint Cloud",
       "MN"
-    ],
-    [
-      "037718",
-      45.59417618386915,
-      -122.99559615863305,
-      0.79,
-      "Taco Bell",
-      "North Plains",
-      "OR"
     ],
     [
       "031968",
@@ -3537,6 +3539,15 @@
       "Taco Bell",
       "Manhattan",
       "KS"
+    ],
+    [
+      "037718",
+      45.59417618386915,
+      -122.99559615863305,
+      0.99,
+      "Taco Bell",
+      "North Plains",
+      "OR"
     ],
     [
       "035319",

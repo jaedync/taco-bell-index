@@ -17,7 +17,7 @@
     "max": 1.1,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7027
+    "store_count": 7026
   },
   "histogram": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 520
+      "count": 519
     },
     {
       "bucket": "$0.55",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 818
+      "count": 819
     },
     {
       "bucket": "$0.65",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 186
+      "count": 185
     },
     {
       "bucket": "$0.80",
@@ -273,14 +273,14 @@
       "store_count": 10
     },
     {
-      "state": "NC",
-      "avg_price": 0.59,
-      "store_count": 252
-    },
-    {
       "state": "LA",
       "avg_price": 0.59,
       "store_count": 134
+    },
+    {
+      "state": "NC",
+      "avg_price": 0.59,
+      "store_count": 251
     },
     {
       "state": "IL",
@@ -555,6 +555,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038913",
+      "store_name": "Taco Bell",
+      "city": "Heath",
+      "state": "OH",
+      "change_type": "price_change",
+      "old_price": 0.5,
+      "new_price": 0.6,
+      "observed_at": "2026-04-16T21:09:38.419796+00:00"
+    },
+    {
+      "store_number": "002863",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:07:43.784723+00:00"
+    },
     {
       "store_number": "042187",
       "store_name": "Taco Bell",
@@ -5738,8 +5758,8 @@
   ],
   "activity_summary": {
     "added": 15,
-    "removed": 501,
-    "price_changed": 2,
+    "removed": 502,
+    "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 200,
@@ -27051,15 +27071,6 @@
       "TX"
     ],
     [
-      "038913",
-      40.02370489906128,
-      -82.44945920923598,
-      0.5,
-      "Taco Bell",
-      "Heath",
-      "OH"
-    ],
-    [
       "032977",
       34.12630224808431,
       -81.2241749942527,
@@ -39865,6 +39876,15 @@
       "Taco Bell",
       "Fishers",
       "IN"
+    ],
+    [
+      "038913",
+      40.02370489906128,
+      -82.44945920923598,
+      0.6,
+      "Taco Bell",
+      "Heath",
+      "OH"
     ],
     [
       "038888",
@@ -59188,15 +59208,6 @@
       "Taco Bell",
       "Eastpointe",
       "MI"
-    ],
-    [
-      "002863",
-      35.17103590511225,
-      -80.84591701626778,
-      0.79,
-      "Taco Bell",
-      "Charlotte",
-      "NC"
     ],
     [
       "041484",

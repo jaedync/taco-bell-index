@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.41,
+    "avg": 5.4,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.19,
-    "store_count": 24
+    "std_dev": 0.2,
+    "store_count": 22
   },
   "histogram": [
     {
@@ -27,14 +27,14 @@
     },
     {
       "bucket": "$5.49",
-      "count": 20
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 5.42,
-      "store_count": 14
+      "avg_price": 5.41,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -116,10 +116,10 @@
       "price": 5.49
     },
     {
-      "store_number": "042134",
+      "store_number": "041223",
       "name": "Taco Bell",
-      "city": "Mary Esther",
-      "state": "FL",
+      "city": "Ellenwood",
+      "state": "GA",
       "price": 5.49
     }
   ],
@@ -202,6 +202,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041235",
+      "store_name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:08:35.335376+00:00"
+    },
+    {
+      "store_number": "042134",
+      "store_name": "Taco Bell",
+      "city": "Mary Esther",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:08:28.202358+00:00"
+    },
     {
       "store_number": "033933",
       "store_name": "Taco Bell",
@@ -625,7 +645,7 @@
   ],
   "activity_summary": {
     "added": 20,
-    "removed": 22,
+    "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -714,24 +734,6 @@
       "Taco Bell",
       "Tallassee",
       "AL"
-    ],
-    [
-      "042134",
-      30.4188928735492,
-      -86.65260408820359,
-      5.49,
-      "Taco Bell",
-      "Mary Esther",
-      "FL"
-    ],
-    [
-      "041235",
-      34.07381942775987,
-      -84.16499994233163,
-      5.49,
-      "Taco Bell",
-      "Suwanee",
-      "GA"
     ],
     [
       "041223",

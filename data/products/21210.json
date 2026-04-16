@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7082
+    "store_count": 7080
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5243
+      "count": 5241
     },
     {
       "bucket": "$4.19",
@@ -207,8 +207,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 5.04,
-      "store_count": 109
+      "avg_price": 5.05,
+      "store_count": 108
     },
     {
       "state": "HI",
@@ -258,7 +258,7 @@
     {
       "state": "GA",
       "avg_price": 4.36,
-      "store_count": 236
+      "store_count": 235
     },
     {
       "state": "WI",
@@ -658,7 +658,6 @@
     "041588",
     "041048",
     "034859",
-    "041105",
     "034775",
     "040715",
     "038891",
@@ -3420,7 +3419,6 @@
     "023125",
     "029889",
     "029584",
-    "030482",
     "029107",
     "003631",
     "039996",
@@ -3994,6 +3992,7 @@
     "030388",
     "037838",
     "024759",
+    "033773",
     "005598",
     "028904",
     "024414",
@@ -5730,7 +5729,6 @@
     "020826",
     "040419",
     "015885",
-    "002580",
     "027808",
     "032668"
   ],
@@ -5807,6 +5805,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:12:51.449776+00:00"
+    },
+    {
+      "store_number": "002580",
+      "store_name": "Taco Bell",
+      "city": "Goose Creek",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:09:32.618811+00:00"
+    },
+    {
+      "store_number": "033773",
+      "store_name": "Taco Bell",
+      "city": "Grove City",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-16T21:08:53.054981+00:00"
+    },
+    {
+      "store_number": "030482",
+      "store_name": "Taco Bell",
+      "city": "Amelia",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:08:34.037939+00:00"
+    },
     {
       "store_number": "033773",
       "store_name": "Taco Bell",
@@ -6539,8 +6577,8 @@
     }
   ],
   "activity_summary": {
-    "added": 28,
-    "removed": 32,
+    "added": 29,
+    "removed": 35,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8085,15 +8123,6 @@
       "Taco Bell Cantina Cantina",
       "Orlando",
       "FL"
-    ],
-    [
-      "041105",
-      34.123606790741,
-      -83.60452047516594,
-      4.0,
-      "Taco Bell",
-      "Jefferson",
-      "GA"
     ],
     [
       "034775",
@@ -32945,15 +32974,6 @@
       "FL"
     ],
     [
-      "030482",
-      39.05154762276375,
-      -84.25163984298706,
-      4.0,
-      "Taco Bell",
-      "Amelia",
-      "OH"
-    ],
-    [
       "029107",
       32.92721387566783,
       -85.9629169553682,
@@ -38109,6 +38129,15 @@
       "Taco Bell",
       "Dover",
       "DE"
+    ],
+    [
+      "033773",
+      39.88143325484897,
+      -83.06763419512208,
+      4.0,
+      "Taco Bell",
+      "Grove City",
+      "OH"
     ],
     [
       "005598",
@@ -53733,15 +53762,6 @@
       "Taco Bell",
       "Whitehall",
       "PA"
-    ],
-    [
-      "002580",
-      32.99373267399565,
-      -80.03949661622755,
-      4.0,
-      "Taco Bell",
-      "Goose Creek",
-      "SC"
     ],
     [
       "027808",

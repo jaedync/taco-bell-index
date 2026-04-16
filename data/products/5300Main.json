@@ -13,17 +13,21 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.58,
+    "avg": 4.59,
     "min": 4.19,
     "max": 4.99,
-    "median": 4.19,
-    "std_dev": 0.41,
+    "median": 4.49,
+    "std_dev": 0.4,
     "store_count": 37
   },
   "histogram": [
     {
       "bucket": "$4.19",
-      "count": 19
+      "count": 18
+    },
+    {
+      "bucket": "$4.49",
+      "count": 1
     },
     {
       "bucket": "$4.99",
@@ -33,7 +37,7 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.82,
+      "avg_price": 4.84,
       "store_count": 19
     },
     {
@@ -93,6 +97,13 @@
       "price": 4.19
     },
     {
+      "store_number": "002689",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "price": 4.19
+    },
+    {
       "store_number": "002851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Humble",
@@ -119,13 +130,6 @@
       "city": "Dallas",
       "state": "TX",
       "price": 4.19
-    },
-    {
-      "store_number": "027669",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Fort Worth",
-      "state": "TX",
-      "price": 4.19
     }
   ],
   "min_price_store_numbers": [
@@ -134,6 +138,7 @@
     "022811",
     "024393",
     "021176",
+    "002689",
     "002851",
     "026050",
     "002981",
@@ -143,9 +148,7 @@
     "021196",
     "001331",
     "016276",
-    "009489",
     "002984",
-    "027489",
     "027416",
     "021422"
   ],
@@ -223,6 +226,36 @@
   ],
   "price_changes": [
     {
+      "store_number": "027489",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mesquite",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:09:00.126428+00:00"
+    },
+    {
+      "store_number": "009489",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Fullerton",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 4.19,
+      "new_price": 4.49,
+      "observed_at": "2026-04-16T21:08:44.176348+00:00"
+    },
+    {
+      "store_number": "002689",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-16T21:07:47.558433+00:00"
+    },
+    {
       "store_number": "002689",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Deer Park",
@@ -294,9 +327,9 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
-    "removed": 4,
-    "price_changed": 0,
+    "added": 4,
+    "removed": 5,
+    "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -347,6 +380,15 @@
       4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Tomball",
+      "TX"
+    ],
+    [
+      "002689",
+      29.680382783181383,
+      -95.12291199994706,
+      4.19,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Deer Park",
       "TX"
     ],
     [
@@ -431,15 +473,6 @@
       "CA"
     ],
     [
-      "009489",
-      33.88876704804066,
-      -117.87438967827256,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Fullerton",
-      "CA"
-    ],
-    [
       "002984",
       33.651804662352674,
       -117.64569823445527,
@@ -447,15 +480,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Mission Viejo",
       "CA"
-    ],
-    [
-      "027489",
-      32.747273077266925,
-      -96.59862773926898,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Mesquite",
-      "TX"
     ],
     [
       "027416",
@@ -474,6 +498,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Irving",
       "TX"
+    ],
+    [
+      "009489",
+      33.88876704804066,
+      -117.87438967827256,
+      4.49,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Fullerton",
+      "CA"
     ],
     [
       "036171",
@@ -641,7 +674,7 @@
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 4.95,
+      "avg_price": 4.96,
       "min_price": 4.59,
       "max_price": 5.49,
       "calories": 710,
@@ -649,7 +682,7 @@
     },
     {
       "size": "SMALL",
-      "avg_price": 4.57,
+      "avg_price": 4.58,
       "min_price": 4.19,
       "max_price": 4.99,
       "calories": 550,

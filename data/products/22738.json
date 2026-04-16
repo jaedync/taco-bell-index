@@ -17,7 +17,7 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 283
+    "store_count": 282
   },
   "histogram": [
     {
@@ -61,10 +61,6 @@
       "count": 2
     },
     {
-      "bucket": "$0.70",
-      "count": 1
-    },
-    {
       "bucket": "$0.75",
       "count": 3
     },
@@ -91,8 +87,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 0.31,
-      "store_count": 107
+      "avg_price": 0.3,
+      "store_count": 106
     },
     {
       "state": "WY",
@@ -304,13 +300,6 @@
       "price": 0.75
     },
     {
-      "store_number": "037328",
-      "name": "Taco Bell Cantina",
-      "city": "Danville",
-      "state": "CA",
-      "price": 0.7
-    },
-    {
       "store_number": "028841",
       "name": "Taco Bell",
       "city": "Vacaville",
@@ -344,9 +333,26 @@
       "city": "Tracy",
       "state": "CA",
       "price": 0.5
+    },
+    {
+      "store_number": "030789",
+      "name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "price": 0.5
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037328",
+      "store_name": "Taco Bell Cantina",
+      "city": "Danville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:07:31.498075+00:00"
+    },
     {
       "store_number": "001521",
       "store_name": "Taco Bell",
@@ -590,7 +596,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 15,
+    "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3099,15 +3105,6 @@
       0.6,
       "Taco Bell",
       "Vacaville",
-      "CA"
-    ],
-    [
-      "037328",
-      37.81962409476699,
-      -121.99591680919268,
-      0.7,
-      "Taco Bell Cantina",
-      "Danville",
       "CA"
     ],
     [

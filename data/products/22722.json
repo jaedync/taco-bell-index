@@ -17,7 +17,7 @@
     "max": 1.29,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6787
+    "store_count": 6788
   },
   "histogram": [
     {
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 535
+      "count": 536
     },
     {
       "bucket": "$0.85",
@@ -342,14 +342,14 @@
       "store_count": 268
     },
     {
+      "state": "GA",
+      "avg_price": 0.54,
+      "store_count": 14
+    },
+    {
       "state": "KS",
       "avg_price": 0.53,
       "store_count": 83
-    },
-    {
-      "state": "GA",
-      "avg_price": 0.52,
-      "store_count": 13
     },
     {
       "state": "NM",
@@ -589,6 +589,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042875",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-16T21:08:24.075625+00:00"
+    },
     {
       "store_number": "028918",
       "store_name": "Taco Bell",
@@ -5921,7 +5931,7 @@
     }
   ],
   "activity_summary": {
-    "added": 24,
+    "added": 25,
     "removed": 506,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
@@ -63575,6 +63585,15 @@
       "Taco Bell",
       "Cleveland",
       "OH"
+    ],
+    [
+      "042875",
+      31.2167515667324,
+      -81.51767492294312,
+      0.8,
+      "Taco Bell",
+      "Brunswick",
+      "GA"
     ],
     [
       "019454",

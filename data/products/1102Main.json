@@ -12,17 +12,17 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.41,
+    "avg": 2.44,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.29,
+    "median": 2.39,
     "std_dev": 0.26,
-    "store_count": 9
+    "store_count": 8
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$2.29",
@@ -44,19 +44,12 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 2.44,
-      "store_count": 8
+      "avg_price": 2.48,
+      "store_count": 7
     }
   ],
   "nutrition": null,
   "cheapest_stores": [
-    {
-      "store_number": "037525",
-      "name": "Taco Bell",
-      "city": "Middle Village",
-      "state": "NY",
-      "price": 2.19
-    },
     {
       "store_number": "038757",
       "name": "Taco Bell",
@@ -115,7 +108,6 @@
     }
   ],
   "min_price_store_numbers": [
-    "037525",
     "038757",
     "037051",
     "041105"
@@ -176,16 +168,19 @@
       "city": "Jamaica",
       "state": "NY",
       "price": 2.19
-    },
-    {
-      "store_number": "037525",
-      "name": "Taco Bell",
-      "city": "Middle Village",
-      "state": "NY",
-      "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037525",
+      "store_name": "Taco Bell",
+      "city": "Middle Village",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-16T21:07:37.452348+00:00"
+    },
     {
       "store_number": "035416",
       "store_name": "Taco Bell Cantina Cantina",
@@ -309,7 +304,7 @@
   ],
   "activity_summary": {
     "added": 6,
-    "removed": 6,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -318,15 +313,6 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
-    [
-      "037525",
-      40.71368323352599,
-      -73.90140968095892,
-      2.19,
-      "Taco Bell",
-      "Middle Village",
-      "NY"
-    ],
     [
       "038757",
       40.70585013667496,
@@ -407,7 +393,7 @@
       "min_price": 2.19,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 1.87
+      "happier_hour_avg": 1.95
     }
   ]
 }
