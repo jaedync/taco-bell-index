@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 7182
+      "count": 7184
     },
     {
       "bucket": "$0.61",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$0.80",
-      "count": 27
+      "count": 26
     },
     {
       "bucket": "$0.90",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$0.99",
@@ -65,7 +65,7 @@
     {
       "state": "AK",
       "avg_price": 0.8,
-      "store_count": 14
+      "store_count": 13
     },
     {
       "state": "WA",
@@ -90,7 +90,7 @@
     {
       "state": "CO",
       "avg_price": 0.61,
-      "store_count": 156
+      "store_count": 155
     },
     {
       "state": "NY",
@@ -265,7 +265,7 @@
     {
       "state": "GA",
       "avg_price": 0.6,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "DE",
@@ -310,7 +310,7 @@
     {
       "state": "TX",
       "avg_price": 0.6,
-      "store_count": 700
+      "store_count": 701
     }
   ],
   "nutrition": {
@@ -467,21 +467,61 @@
       "price": 0.9
     },
     {
-      "store_number": "023263",
-      "name": "Taco Bell",
-      "city": "Rifle",
-      "state": "CO",
-      "price": 0.9
-    },
-    {
       "store_number": "022348",
       "name": "Taco Bell",
       "city": "Eagle",
       "state": "CO",
       "price": 0.9
+    },
+    {
+      "store_number": "021443",
+      "name": "Taco Bell",
+      "city": "Frisco",
+      "state": "CO",
+      "price": 0.9
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015852",
+      "store_name": "Taco Bell",
+      "city": "Soldotna",
+      "state": "AK",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:56.062867+00:00"
+    },
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-17T20:59:36.818652+00:00"
+    },
+    {
+      "store_number": "023263",
+      "store_name": "Taco Bell",
+      "city": "Rifle",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:23.347057+00:00"
+    },
+    {
+      "store_number": "027812",
+      "store_name": "Taco Bell",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-17T20:59:16.675063+00:00"
+    },
     {
       "store_number": "040715",
       "store_name": "Taco Bell",
@@ -68685,7 +68725,7 @@
     {
       "store_number": "036233",
       "store_name": "Taco Bell",
-      "city": "Fort Mill",
+      "city": "Indian Land",
       "state": "SC",
       "change_type": "item_added",
       "old_price": null,
@@ -75674,8 +75714,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7519,
-    "removed": 0,
+    "added": 7521,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -82940,11 +82980,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       0.6,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -98015,8 +98055,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       0.6,
       "Taco Bell",
       "Clifton Park",
@@ -141502,6 +141542,24 @@
       "FL"
     ],
     [
+      "027812",
+      32.8062061355524,
+      -96.9948732578234,
+      0.6,
+      "Taco Bell",
+      "Irving",
+      "TX"
+    ],
+    [
+      "041248",
+      33.71830055882164,
+      -84.76882606744766,
+      0.6,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -143113,15 +143171,6 @@
       "MT"
     ],
     [
-      "015852",
-      60.48912768024368,
-      -151.05179637918272,
-      0.8,
-      "Taco Bell",
-      "Soldotna",
-      "AK"
-    ],
-    [
       "003583",
       46.83926747510026,
       -114.03117806254315,
@@ -143272,15 +143321,6 @@
       0.9,
       "Taco Bell",
       "Eagle",
-      "CO"
-    ],
-    [
-      "023263",
-      39.522072854378855,
-      -107.77535555757223,
-      0.9,
-      "Taco Bell",
-      "Rifle",
       "CO"
     ],
     [

@@ -13,17 +13,17 @@
   "first_seen_at": "2026-04-16T21:07:42.045440+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.91,
+    "avg": 5.92,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
     "std_dev": 0.32,
-    "store_count": 34
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$5.99",
@@ -60,13 +60,6 @@
       "store_number": "035717",
       "name": "Taco Bell / KFC",
       "city": "Cypress",
-      "state": "TX",
-      "price": 5.49
-    },
-    {
-      "store_number": "035718",
-      "name": "Taco Bell / KFC",
-      "city": "Rosenberg",
       "state": "TX",
       "price": 5.49
     },
@@ -125,11 +118,17 @@
       "city": "Miami",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "028510",
+      "name": "Taco Bell / KFC",
+      "city": "Lebanon",
+      "state": "KY",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "035717",
-    "035718",
     "031389",
     "003881",
     "028153",
@@ -210,6 +209,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035718",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rosenberg",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:58:47.485788+00:00"
+    },
     {
       "store_number": "038897",
       "store_name": "Taco Bell",
@@ -553,7 +562,7 @@
   ],
   "activity_summary": {
     "added": 34,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -569,15 +578,6 @@
       5.49,
       "Taco Bell / KFC",
       "Cypress",
-      "TX"
-    ],
-    [
-      "035718",
-      29.54514380488333,
-      -95.74617441211682,
-      5.49,
-      "Taco Bell / KFC",
-      "Rosenberg",
       "TX"
     ],
     [

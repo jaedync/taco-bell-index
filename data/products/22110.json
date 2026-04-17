@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.03,
     "min": 1.59,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7702
+    "store_count": 7700
   },
   "histogram": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4356
+      "count": 4355
     },
     {
       "bucket": "$2.00",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1076
+      "count": 1075
     },
     {
       "bucket": "$2.20",
@@ -175,7 +175,7 @@
     {
       "state": "NY",
       "avg_price": 2.37,
-      "store_count": 251
+      "store_count": 250
     },
     {
       "state": "MA",
@@ -375,7 +375,7 @@
     {
       "state": "KY",
       "avg_price": 1.92,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "NM",
@@ -580,6 +580,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033650",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:02.592308+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:58:08.752854+00:00"
+    },
     {
       "store_number": "033691",
       "store_name": "Taco Bell",
@@ -2363,7 +2383,7 @@
   ],
   "activity_summary": {
     "added": 21,
-    "removed": 18,
+    "removed": 20,
     "price_changed": 139,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20212,11 +20232,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       1.99,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -29185,8 +29205,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       1.99,
       "Taco Bell",
       "Clifton Park",
@@ -36850,15 +36870,6 @@
       "Taco Bell",
       "Chesapeake",
       "VA"
-    ],
-    [
-      "033650",
-      38.95676829361747,
-      -84.62919294834137,
-      1.99,
-      "Taco Bell",
-      "Florence",
-      "KY"
     ],
     [
       "042208",
@@ -57118,15 +57129,6 @@
       "Taco Bell",
       "Garden Grove",
       "CA"
-    ],
-    [
-      "036328",
-      42.09826888342504,
-      -79.30401088300437,
-      2.19,
-      "Taco Bell",
-      "Lakewood",
-      "NY"
     ],
     [
       "039110",

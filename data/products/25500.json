@@ -19,7 +19,7 @@
     "max": 7.99,
     "median": 2.99,
     "std_dev": 0.16,
-    "store_count": 7150
+    "store_count": 7153
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 6733
+      "count": 6736
     },
     {
       "bucket": "$3.00",
@@ -88,7 +88,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 22
+      "count": 21
     },
     {
       "bucket": "$4.29",
@@ -96,7 +96,7 @@
     },
     {
       "bucket": "$4.49",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$5.99",
@@ -141,7 +141,7 @@
     {
       "state": "CA",
       "avg_price": 3.03,
-      "store_count": 835
+      "store_count": 836
     },
     {
       "state": "CO",
@@ -174,14 +174,14 @@
       "store_count": 122
     },
     {
-      "state": "MD",
-      "avg_price": 3.0,
-      "store_count": 90
-    },
-    {
       "state": "PA",
       "avg_price": 3.0,
       "store_count": 200
+    },
+    {
+      "state": "MD",
+      "avg_price": 3.0,
+      "store_count": 91
     },
     {
       "state": "MT",
@@ -191,7 +191,7 @@
     {
       "state": "NV",
       "avg_price": 3.0,
-      "store_count": 85
+      "store_count": 86
     },
     {
       "state": "NC",
@@ -206,7 +206,7 @@
     {
       "state": "MI",
       "avg_price": 2.99,
-      "store_count": 346
+      "store_count": 347
     },
     {
       "state": "SC",
@@ -221,7 +221,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 700
+      "store_count": 699
     },
     {
       "state": "OH",
@@ -276,12 +276,12 @@
     {
       "state": "ND",
       "avg_price": 2.99,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "MS",
       "avg_price": 2.99,
-      "store_count": 80
+      "store_count": 79
     },
     {
       "state": "LA",
@@ -536,21 +536,101 @@
       "price": 4.49
     },
     {
+      "store_number": "027514",
+      "name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "PA",
+      "price": 4.49
+    },
+    {
       "store_number": "028785",
       "name": "Taco Bell",
       "city": "Wayne",
       "state": "NJ",
       "price": 4.49
-    },
-    {
-      "store_number": "028783",
-      "name": "Taco Bell",
-      "city": "Freehold",
-      "state": "NJ",
-      "price": 4.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037578",
+      "store_name": "Taco Bell",
+      "city": "Grand Forks",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-17T21:01:34.461564+00:00"
+    },
+    {
+      "store_number": "031919",
+      "store_name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-17T21:00:51.580485+00:00"
+    },
+    {
+      "store_number": "032992",
+      "store_name": "Taco Bell",
+      "city": "Wyoming",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-17T21:00:51.108470+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-17T20:59:51.958553+00:00"
+    },
+    {
+      "store_number": "032320",
+      "store_name": "Taco Bell",
+      "city": "Byram",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:39.229008+00:00"
+    },
+    {
+      "store_number": "039988",
+      "store_name": "Taco Bell",
+      "city": "Upper Marlboro",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-17T20:59:19.820548+00:00"
+    },
+    {
+      "store_number": "027514",
+      "store_name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "PA",
+      "change_type": "price_change",
+      "old_price": 3.99,
+      "new_price": 4.49,
+      "observed_at": "2026-04-17T20:58:28.219968+00:00"
+    },
+    {
+      "store_number": "041331",
+      "store_name": "Taco Bell",
+      "city": "Port Lavaca",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:57:18.020147+00:00"
+    },
     {
       "store_number": "037578",
       "store_name": "Taco Bell",
@@ -7213,9 +7293,9 @@
     }
   ],
   "activity_summary": {
-    "added": 86,
-    "removed": 567,
-    "price_changed": 13,
+    "added": 91,
+    "removed": 569,
+    "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 350,
@@ -8851,15 +8931,6 @@
       "Taco Bell",
       "Taylorsville",
       "KY"
-    ],
-    [
-      "041331",
-      28.634228519172424,
-      -96.62462662114658,
-      2.99,
-      "Taco Bell",
-      "Port Lavaca",
-      "TX"
     ],
     [
       "041675",
@@ -13453,11 +13524,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       2.99,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -27556,8 +27627,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       2.99,
       "Taco Bell",
       "Clifton Park",
@@ -28696,6 +28767,15 @@
       "Taco Bell",
       "Tamarac",
       "FL"
+    ],
+    [
+      "039988",
+      38.784601877897316,
+      -76.79534420371056,
+      2.99,
+      "Taco Bell",
+      "Upper Marlboro",
+      "MD"
     ],
     [
       "029586",
@@ -34044,15 +34124,6 @@
       "TX"
     ],
     [
-      "032320",
-      32.186580879034146,
-      -90.25718857349602,
-      2.99,
-      "Taco Bell",
-      "Byram",
-      "MS"
-    ],
-    [
       "032218",
       41.1215686329715,
       -78.72907295825826,
@@ -36706,6 +36777,15 @@
       "Taco Bell",
       "Roscoe",
       "IL"
+    ],
+    [
+      "030785",
+      37.64683879461168,
+      -122.42873983838048,
+      2.99,
+      "Taco Bell",
+      "South San Francisco",
+      "CA"
     ],
     [
       "018301",
@@ -48723,6 +48803,15 @@
       "MO"
     ],
     [
+      "032992",
+      42.88363095728295,
+      -85.66602269641209,
+      2.99,
+      "Taco Bell",
+      "Wyoming",
+      "MI"
+    ],
+    [
       "009488",
       39.92784205802291,
       -122.19701488385908,
@@ -58938,6 +59027,15 @@
       "MD"
     ],
     [
+      "037578",
+      47.90883353888597,
+      -97.04455323055299,
+      2.99,
+      "Taco Bell",
+      "Grand Forks",
+      "ND"
+    ],
+    [
       "028712",
       33.9652757495847,
       -118.03705386355426,
@@ -68523,6 +68621,15 @@
       "AZ"
     ],
     [
+      "031919",
+      36.21737363353996,
+      -115.11959029584091,
+      2.99,
+      "Taco Bell",
+      "North Las Vegas",
+      "NV"
+    ],
+    [
       "039146",
       41.01819421050541,
       -74.3005802366573,
@@ -71286,15 +71393,6 @@
       "NC"
     ],
     [
-      "027514",
-      40.26131720000003,
-      -76.88128110522536,
-      3.99,
-      "Taco Bell",
-      "Harrisburg",
-      "PA"
-    ],
-    [
       "027513",
       42.30078739283985,
       -71.38378066617788,
@@ -71500,6 +71598,15 @@
       "Taco Bell",
       "Wayne",
       "NJ"
+    ],
+    [
+      "027514",
+      40.26131720000003,
+      -76.88128110522536,
+      4.49,
+      "Taco Bell",
+      "Harrisburg",
+      "PA"
     ],
     [
       "035261",

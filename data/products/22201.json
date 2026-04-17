@@ -17,7 +17,7 @@
     "max": 8.49,
     "median": 5.99,
     "std_dev": 0.58,
-    "store_count": 7699
+    "store_count": 7700
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$5.29",
-      "count": 111
+      "count": 106
     },
     {
       "bucket": "$5.38",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 429
+      "count": 434
     },
     {
       "bucket": "$5.59",
@@ -170,7 +170,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 181
+      "count": 182
     },
     {
       "bucket": "$6.60",
@@ -277,7 +277,7 @@
     {
       "state": "OR",
       "avg_price": 6.41,
-      "store_count": 121
+      "store_count": 122
     },
     {
       "state": "NH",
@@ -390,14 +390,14 @@
       "store_count": 58
     },
     {
+      "state": "CO",
+      "avg_price": 6.0,
+      "store_count": 156
+    },
+    {
       "state": "UT",
       "avg_price": 5.99,
       "store_count": 64
-    },
-    {
-      "state": "CO",
-      "avg_price": 5.99,
-      "store_count": 156
     },
     {
       "state": "SD",
@@ -647,6 +647,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038752",
+      "store_name": "Taco Bell",
+      "city": "Leadville",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 5.29,
+      "new_price": 5.49,
+      "observed_at": "2026-04-17T21:01:55.397655+00:00"
+    },
+    {
+      "store_number": "002613",
+      "store_name": "Taco Bell",
+      "city": "Glenwood Springs",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 5.29,
+      "new_price": 5.49,
+      "observed_at": "2026-04-17T21:00:58.801283+00:00"
+    },
+    {
+      "store_number": "015521",
+      "store_name": "Taco Bell",
+      "city": "Saint Helens",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-04-17T20:59:35.374116+00:00"
+    },
+    {
+      "store_number": "023263",
+      "store_name": "Taco Bell",
+      "city": "Rifle",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 5.29,
+      "new_price": 5.49,
+      "observed_at": "2026-04-17T20:59:23.347057+00:00"
+    },
+    {
+      "store_number": "022348",
+      "store_name": "Taco Bell",
+      "city": "Eagle",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 5.29,
+      "new_price": 5.49,
+      "observed_at": "2026-04-17T20:59:18.760387+00:00"
+    },
+    {
+      "store_number": "021443",
+      "store_name": "Taco Bell",
+      "city": "Frisco",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 5.29,
+      "new_price": 5.49,
+      "observed_at": "2026-04-17T20:59:09.561574+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -17299,9 +17359,9 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
+    "added": 46,
     "removed": 37,
-    "price_changed": 1583,
+    "price_changed": 1588,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 390,
@@ -24357,15 +24417,6 @@
       "FL"
     ],
     [
-      "021443",
-      39.58775470380861,
-      -106.09412310412154,
-      5.29,
-      "Taco Bell",
-      "Frisco",
-      "CO"
-    ],
-    [
       "034404",
       38.883233264398655,
       -94.68413659933503,
@@ -24391,24 +24442,6 @@
       "Taco Bell",
       "Decatur",
       "TX"
-    ],
-    [
-      "022348",
-      39.662509,
-      -106.819427,
-      5.29,
-      "Taco Bell",
-      "Eagle",
-      "CO"
-    ],
-    [
-      "023263",
-      39.522072854378855,
-      -107.77535555757223,
-      5.29,
-      "Taco Bell",
-      "Rifle",
-      "CO"
     ],
     [
       "035405",
@@ -24744,15 +24777,6 @@
       "IN"
     ],
     [
-      "002613",
-      39.53194902892926,
-      -107.32492983341217,
-      5.29,
-      "Taco Bell",
-      "Glenwood Springs",
-      "CO"
-    ],
-    [
       "038959",
       44.556062946665946,
       -88.05883631856886,
@@ -24985,15 +25009,6 @@
       "Taco Bell",
       "Mishawaka",
       "IN"
-    ],
-    [
-      "038752",
-      39.25859463891351,
-      -106.2936792257295,
-      5.29,
-      "Taco Bell",
-      "Leadville",
-      "CO"
     ],
     [
       "040327",
@@ -27264,6 +27279,15 @@
       "NY"
     ],
     [
+      "021443",
+      39.58775470380861,
+      -106.09412310412154,
+      5.49,
+      "Taco Bell",
+      "Frisco",
+      "CO"
+    ],
+    [
       "031454",
       38.409015780259324,
       -122.84053359927384,
@@ -27399,6 +27423,15 @@
       "NJ"
     ],
     [
+      "022348",
+      39.662509,
+      -106.819427,
+      5.49,
+      "Taco Bell",
+      "Eagle",
+      "CO"
+    ],
+    [
       "016097",
       39.927523275965676,
       -86.03463426232338,
@@ -27487,6 +27520,15 @@
       "Taco Bell",
       "Stamford",
       "CT"
+    ],
+    [
+      "023263",
+      39.522072854378855,
+      -107.77535555757223,
+      5.49,
+      "Taco Bell",
+      "Rifle",
+      "CO"
     ],
     [
       "019348",
@@ -29100,6 +29142,15 @@
       "KS"
     ],
     [
+      "002613",
+      39.53194902892926,
+      -107.32492983341217,
+      5.49,
+      "Taco Bell",
+      "Glenwood Springs",
+      "CO"
+    ],
+    [
       "031863",
       36.04210021494754,
       -115.10084130773544,
@@ -30043,6 +30094,15 @@
       "Taco Bell",
       "Bonaire",
       "GA"
+    ],
+    [
+      "038752",
+      39.25859463891351,
+      -106.2936792257295,
+      5.49,
+      "Taco Bell",
+      "Leadville",
+      "CO"
     ],
     [
       "042968",
@@ -37570,11 +37630,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       5.79,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -47848,8 +47908,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       5.99,
       "Taco Bell",
       "Clifton Park",
@@ -76807,6 +76867,15 @@
       "Taco Bell",
       "Sacramento",
       "CA"
+    ],
+    [
+      "015521",
+      45.84821483414798,
+      -122.83299542964869,
+      6.59,
+      "Taco Bell",
+      "Saint Helens",
+      "OR"
     ],
     [
       "023450",

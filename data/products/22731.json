@@ -17,12 +17,12 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7125
+    "store_count": 7126
   },
   "histogram": [
     {
       "bucket": "$0.10",
-      "count": 347
+      "count": 348
     },
     {
       "bucket": "$0.19",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 553
+      "count": 548
     },
     {
       "bucket": "$0.69",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 146
+      "count": 151
     },
     {
       "bucket": "$0.80",
@@ -251,7 +251,7 @@
     },
     {
       "state": "CO",
-      "avg_price": 0.63,
+      "avg_price": 0.64,
       "store_count": 155
     },
     {
@@ -397,7 +397,7 @@
     {
       "state": "OK",
       "avg_price": 0.19,
-      "store_count": 123
+      "store_count": 124
     },
     {
       "state": "AR",
@@ -838,7 +838,8 @@
     "034155",
     "040770",
     "041055",
-    "034225"
+    "034225",
+    "033437"
   ],
   "priciest_stores": [
     {
@@ -913,6 +914,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033437",
+      "store_name": "Taco Bell",
+      "city": "Broken Arrow",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.1,
+      "observed_at": "2026-04-17T21:01:58.980499+00:00"
+    },
+    {
+      "store_number": "038752",
+      "store_name": "Taco Bell",
+      "city": "Leadville",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T21:01:55.397655+00:00"
+    },
+    {
+      "store_number": "002613",
+      "store_name": "Taco Bell",
+      "city": "Glenwood Springs",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T21:00:58.801283+00:00"
+    },
+    {
+      "store_number": "023263",
+      "store_name": "Taco Bell",
+      "city": "Rifle",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T20:59:23.347057+00:00"
+    },
+    {
+      "store_number": "022348",
+      "store_name": "Taco Bell",
+      "city": "Eagle",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T20:59:18.760387+00:00"
+    },
+    {
+      "store_number": "021443",
+      "store_name": "Taco Bell",
+      "city": "Frisco",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T20:59:09.561574+00:00"
+    },
     {
       "store_number": "029671",
       "store_name": "Taco Bell",
@@ -6215,9 +6276,9 @@
     }
   ],
   "activity_summary": {
-    "added": 19,
+    "added": 20,
     "removed": 508,
-    "price_changed": 3,
+    "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -9346,6 +9407,15 @@
       0.1,
       "Taco Bell",
       "Checotah",
+      "OK"
+    ],
+    [
+      "033437",
+      36.004414035392806,
+      -95.68129956790096,
+      0.1,
+      "Taco Bell",
+      "Broken Arrow",
       "OK"
     ],
     [
@@ -25793,8 +25863,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       0.55,
       "Taco Bell",
       "Clifton Park",
@@ -41497,15 +41567,6 @@
       "CO"
     ],
     [
-      "021443",
-      39.58775470380861,
-      -106.09412310412154,
-      0.65,
-      "Taco Bell",
-      "Frisco",
-      "CO"
-    ],
-    [
       "029638",
       38.65897254292612,
       -90.2990459473052,
@@ -41668,15 +41729,6 @@
       "MO"
     ],
     [
-      "022348",
-      39.662509,
-      -106.819427,
-      0.65,
-      "Taco Bell",
-      "Eagle",
-      "CO"
-    ],
-    [
       "033646",
       39.000416361907135,
       -84.65403626221196,
@@ -41737,15 +41789,6 @@
       0.65,
       "Taco Bell",
       "Denver",
-      "CO"
-    ],
-    [
-      "023263",
-      39.522072854378855,
-      -107.77535555757223,
-      0.65,
-      "Taco Bell",
-      "Rifle",
       "CO"
     ],
     [
@@ -43675,15 +43718,6 @@
       "MO"
     ],
     [
-      "002613",
-      39.53194902892926,
-      -107.32492983341217,
-      0.65,
-      "Taco Bell",
-      "Glenwood Springs",
-      "CO"
-    ],
-    [
       "032695",
       35.191088765876295,
       -101.92092065514771,
@@ -45076,15 +45110,6 @@
       0.65,
       "Taco Bell",
       "Denver",
-      "CO"
-    ],
-    [
-      "038752",
-      39.25859463891351,
-      -106.2936792257295,
-      0.65,
-      "Taco Bell",
-      "Leadville",
       "CO"
     ],
     [
@@ -47294,11 +47319,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       0.7,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -59209,6 +59234,15 @@
       "CA"
     ],
     [
+      "021443",
+      39.58775470380861,
+      -106.09412310412154,
+      0.79,
+      "Taco Bell",
+      "Frisco",
+      "CO"
+    ],
+    [
       "004108",
       36.9299508431069,
       -76.31843776623965,
@@ -59245,6 +59279,15 @@
       "NY"
     ],
     [
+      "022348",
+      39.662509,
+      -106.819427,
+      0.79,
+      "Taco Bell",
+      "Eagle",
+      "CO"
+    ],
+    [
       "005469",
       40.85114632121305,
       -73.15948370567789,
@@ -59270,6 +59313,15 @@
       "Taco Bell",
       "Toledo",
       "OH"
+    ],
+    [
+      "023263",
+      39.522072854378855,
+      -107.77535555757223,
+      0.79,
+      "Taco Bell",
+      "Rifle",
+      "CO"
     ],
     [
       "016044",
@@ -59713,6 +59765,15 @@
       "VA"
     ],
     [
+      "002613",
+      39.53194902892926,
+      -107.32492983341217,
+      0.79,
+      "Taco Bell",
+      "Glenwood Springs",
+      "CO"
+    ],
+    [
       "029496",
       40.724606116248616,
       -73.56453895568848,
@@ -59873,6 +59934,15 @@
       "Taco Bell",
       "Euless",
       "TX"
+    ],
+    [
+      "038752",
+      39.25859463891351,
+      -106.2936792257295,
+      0.79,
+      "Taco Bell",
+      "Leadville",
+      "CO"
     ],
     [
       "037156",

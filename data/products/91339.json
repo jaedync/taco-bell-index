@@ -17,8 +17,8 @@
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.2,
-    "store_count": 22
+    "std_dev": 0.19,
+    "store_count": 23
   },
   "histogram": [
     {
@@ -27,14 +27,14 @@
     },
     {
       "bucket": "$5.49",
-      "count": 18
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 5.41,
-      "store_count": 13
+      "avg_price": 5.42,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -131,6 +131,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "041212",
+      "name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
       "store_number": "024403",
       "name": "Taco Bell",
       "city": "Crossville",
@@ -192,16 +199,19 @@
       "city": "Athens",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "040384",
-      "name": "Taco Bell",
-      "city": "Dawson",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-17T21:01:41.055187+00:00"
+    },
     {
       "store_number": "041235",
       "store_name": "Taco Bell",
@@ -644,7 +654,7 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
+    "added": 21,
     "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -851,6 +861,15 @@
       "Taco Bell",
       "Crossville",
       "TN"
+    ],
+    [
+      "041212",
+      33.75484747709103,
+      -84.26683026558743,
+      5.49,
+      "Taco Bell",
+      "Decatur",
+      "GA"
     ]
   ]
 }

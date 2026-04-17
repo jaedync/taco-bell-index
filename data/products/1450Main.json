@@ -26,11 +26,11 @@
     },
     {
       "bucket": "$0.79",
-      "count": 163
+      "count": 165
     },
     {
       "bucket": "$0.89",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$0.99",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 66
+      "count": 65
     },
     {
       "bucket": "$1.39",
@@ -133,7 +133,7 @@
     {
       "state": "CA",
       "avg_price": 1.35,
-      "store_count": 156
+      "store_count": 155
     },
     {
       "state": "MD",
@@ -188,7 +188,7 @@
     {
       "state": "WI",
       "avg_price": 0.95,
-      "store_count": 37
+      "store_count": 38
     },
     {
       "state": "MO",
@@ -208,7 +208,7 @@
     {
       "state": "MN",
       "avg_price": 0.8,
-      "store_count": 82
+      "store_count": 83
     },
     {
       "state": "WY",
@@ -379,6 +379,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004900",
+      "store_name": "Taco Bell",
+      "city": "Hudson",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T21:00:46.656476+00:00"
+    },
+    {
+      "store_number": "031556",
+      "store_name": "Taco Bell",
+      "city": "Leominster",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:45.161825+00:00"
+    },
+    {
+      "store_number": "021113",
+      "store_name": "Taco Bell",
+      "city": "Elk Grove",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:30.206061+00:00"
+    },
+    {
+      "store_number": "015905",
+      "store_name": "Taco Bell",
+      "city": "Apple Valley",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T20:59:19.600675+00:00"
+    },
     {
       "store_number": "037718",
       "store_name": "Taco Bell",
@@ -911,8 +951,8 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
-    "removed": 33,
+    "added": 20,
+    "removed": 35,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1333,6 +1373,15 @@
       0.79,
       "Taco Bell",
       "Richfield",
+      "MN"
+    ],
+    [
+      "015905",
+      44.732468371854935,
+      -93.22175468977714,
+      0.79,
+      "Taco Bell",
+      "Apple Valley",
       "MN"
     ],
     [
@@ -1802,6 +1851,15 @@
       "Taco Bell",
       "Stockton",
       "CA"
+    ],
+    [
+      "004900",
+      44.9612833367091,
+      -92.7239115983412,
+      0.79,
+      "Taco Bell",
+      "Hudson",
+      "WI"
     ],
     [
       "016639",
@@ -2423,15 +2481,6 @@
       "Taco Bell",
       "Fond Du Lac",
       "WI"
-    ],
-    [
-      "031556",
-      42.53162003006179,
-      -71.74406562747208,
-      0.89,
-      "Taco Bell",
-      "Leominster",
-      "MA"
     ],
     [
       "029247",
@@ -4457,15 +4506,6 @@
       "Taco Bell",
       "Lebanon",
       "OH"
-    ],
-    [
-      "021113",
-      38.42306026595721,
-      -121.4251898927705,
-      1.29,
-      "Taco Bell",
-      "Elk Grove",
-      "CA"
     ],
     [
       "032680",

@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:07.698758+00:00",
-  "availability_pct": 3.7,
+  "availability_pct": 3.6,
   "price_stats": {
     "avg": 0.3,
     "min": 0.0,
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 282
+    "store_count": 281
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.45",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$0.50",
@@ -88,7 +88,7 @@
     {
       "state": "CA",
       "avg_price": 0.3,
-      "store_count": 106
+      "store_count": 105
     },
     {
       "state": "WY",
@@ -344,6 +344,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "027724",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:45.326809+00:00"
+    },
+    {
       "store_number": "037328",
       "store_name": "Taco Bell Cantina",
       "city": "Danville",
@@ -596,7 +606,7 @@
   ],
   "activity_summary": {
     "added": 9,
-    "removed": 16,
+    "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2521,15 +2531,6 @@
       "Taco Bell",
       "Virginia Beach",
       "VA"
-    ],
-    [
-      "027724",
-      39.75533672533532,
-      -121.85949955882279,
-      0.45,
-      "Taco Bell",
-      "Chico",
-      "CA"
     ],
     [
       "001683",

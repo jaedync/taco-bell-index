@@ -17,7 +17,7 @@
     "max": 4.12,
     "median": 1.99,
     "std_dev": 0.32,
-    "store_count": 3404
+    "store_count": 3407
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 185
+      "count": 184
     },
     {
       "bucket": "$1.79",
@@ -78,11 +78,11 @@
     },
     {
       "bucket": "$2.39",
-      "count": 230
+      "count": 232
     },
     {
       "bucket": "$2.49",
-      "count": 167
+      "count": 168
     },
     {
       "bucket": "$2.50",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 68
+      "count": 69
     },
     {
       "bucket": "$3.08",
@@ -152,8 +152,8 @@
   "state_prices": [
     {
       "state": "CT",
-      "avg_price": 2.46,
-      "store_count": 40
+      "avg_price": 2.45,
+      "store_count": 41
     },
     {
       "state": "DC",
@@ -173,7 +173,7 @@
     {
       "state": "TN",
       "avg_price": 2.29,
-      "store_count": 46
+      "store_count": 47
     },
     {
       "state": "NY",
@@ -183,7 +183,7 @@
     {
       "state": "CA",
       "avg_price": 2.25,
-      "store_count": 617
+      "store_count": 618
     },
     {
       "state": "OH",
@@ -218,7 +218,7 @@
     {
       "state": "WA",
       "avg_price": 2.15,
-      "store_count": 132
+      "store_count": 133
     },
     {
       "state": "GA",
@@ -233,7 +233,7 @@
     {
       "state": "NC",
       "avg_price": 2.09,
-      "store_count": 118
+      "store_count": 119
     },
     {
       "state": "MA",
@@ -248,7 +248,7 @@
     {
       "state": "IN",
       "avg_price": 2.02,
-      "store_count": 131
+      "store_count": 130
     },
     {
       "state": "CO",
@@ -303,7 +303,7 @@
     {
       "state": "AZ",
       "avg_price": 1.85,
-      "store_count": 174
+      "store_count": 173
     },
     {
       "state": "ID",
@@ -520,6 +520,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029244",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Manchester",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-04-17T21:01:18.276373+00:00"
+    },
+    {
+      "store_number": "033319",
+      "store_name": "Taco Bell",
+      "city": "Flushing",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:01:17.293045+00:00"
+    },
+    {
+      "store_number": "035392",
+      "store_name": "Taco Bell",
+      "city": "Elkhart",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:01:13.737842+00:00"
+    },
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-17T21:01:04.549723+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-17T21:00:46.551146+00:00"
+    },
+    {
+      "store_number": "041627",
+      "store_name": "Taco Bell",
+      "city": "Mesa",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:36.032209+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-17T20:59:57.014261+00:00"
+    },
+    {
+      "store_number": "004715",
+      "store_name": "Taco Bell",
+      "city": "Vancouver",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-04-17T20:59:13.257342+00:00"
+    },
+    {
+      "store_number": "005776",
+      "store_name": "Taco Bell",
+      "city": "Raleigh",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-17T20:59:08.333910+00:00"
+    },
     {
       "store_number": "033441",
       "store_name": "Taco Bell",
@@ -2352,8 +2442,8 @@
     }
   ],
   "activity_summary": {
-    "added": 84,
-    "removed": 81,
+    "added": 90,
+    "removed": 84,
     "price_changed": 18,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5448,15 +5538,6 @@
       "Taco Bell",
       "Hobbs",
       "NM"
-    ],
-    [
-      "035392",
-      41.67280545424092,
-      -86.00271485748641,
-      1.69,
-      "Taco Bell",
-      "Elkhart",
-      "IN"
     ],
     [
       "015277",
@@ -15881,15 +15962,6 @@
       "SC"
     ],
     [
-      "041627",
-      33.407698687348315,
-      -111.77318264545647,
-      1.99,
-      "Taco Bell",
-      "Mesa",
-      "AZ"
-    ],
-    [
       "024218",
       35.96284120817342,
       -77.83105105161667,
@@ -17409,6 +17481,15 @@
       "Taco Bell",
       "Freeport",
       "IL"
+    ],
+    [
+      "033016",
+      42.90375328148109,
+      -85.78662677675311,
+      1.99,
+      "Taco Bell",
+      "Jenison",
+      "MI"
     ],
     [
       "003599",
@@ -24134,15 +24215,6 @@
       "IN"
     ],
     [
-      "033319",
-      43.06051052292668,
-      -83.81567625096068,
-      2.19,
-      "Taco Bell",
-      "Flushing",
-      "MI"
-    ],
-    [
       "016929",
       38.94958255178735,
       -122.63059079647064,
@@ -24854,6 +24926,15 @@
       "MI"
     ],
     [
+      "005776",
+      35.89992783909078,
+      -78.65213980549495,
+      2.19,
+      "Taco Bell",
+      "Raleigh",
+      "NC"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -25359,11 +25440,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       2.29,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -27203,6 +27284,15 @@
       "OR"
     ],
     [
+      "004715",
+      45.653467419865564,
+      -122.5880734591261,
+      2.39,
+      "Taco Bell",
+      "Vancouver",
+      "WA"
+    ],
+    [
       "020555",
       46.146705707562,
       -122.92752300204484,
@@ -28254,6 +28344,15 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "029244",
+      41.80577160962055,
+      -72.55784288048744,
+      2.39,
+      "Taco Bell / Pizza Hut",
+      "Manchester",
+      "CT"
     ],
     [
       "039832",
@@ -29847,6 +29946,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      2.49,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "029322",
@@ -32465,6 +32573,15 @@
       2.99,
       "Taco Bell",
       "Clovis",
+      "CA"
+    ],
+    [
+      "035471",
+      38.64448867761824,
+      -121.27272382378573,
+      2.99,
+      "Taco Bell",
+      "Fair Oaks",
       "CA"
     ],
     [

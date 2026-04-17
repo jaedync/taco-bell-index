@@ -14,17 +14,17 @@
   "first_seen_at": "2026-03-30T00:40:07.203903+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.43,
+    "avg": 2.46,
     "min": 2.29,
     "max": 2.99,
     "median": 2.29,
-    "std_dev": 0.31,
-    "store_count": 5
+    "std_dev": 0.35,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$2.29",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$2.99",
@@ -62,13 +62,6 @@
       "price": 2.29
     },
     {
-      "store_number": "041248",
-      "name": "Taco Bell",
-      "city": "Douglasville",
-      "state": "GA",
-      "price": 2.29
-    },
-    {
       "store_number": "036547",
       "name": "Taco Bell",
       "city": "Fairfax",
@@ -86,7 +79,6 @@
   "min_price_store_numbers": [
     "026132",
     "029535",
-    "041248",
     "036547"
   ],
   "priciest_stores": [
@@ -105,13 +97,6 @@
       "price": 2.29
     },
     {
-      "store_number": "041248",
-      "name": "Taco Bell",
-      "city": "Douglasville",
-      "state": "GA",
-      "price": 2.29
-    },
-    {
       "store_number": "029535",
       "name": "Taco Bell",
       "city": "Tamarac",
@@ -127,6 +112,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:36.818652+00:00"
+    },
     {
       "store_number": "034078",
       "store_name": "Taco Bell",
@@ -10210,7 +10205,7 @@
   ],
   "activity_summary": {
     "added": 84,
-    "removed": 924,
+    "removed": 925,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10236,15 +10231,6 @@
       "Taco Bell",
       "Tamarac",
       "FL"
-    ],
-    [
-      "041248",
-      33.71830055882164,
-      -84.76882606744766,
-      2.29,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
     ],
     [
       "036547",

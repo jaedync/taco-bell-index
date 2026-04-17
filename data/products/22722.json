@@ -17,7 +17,7 @@
     "max": 1.29,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6788
+    "store_count": 6787
   },
   "histogram": [
     {
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 374
+      "count": 370
     },
     {
       "bucket": "$0.69",
@@ -110,7 +110,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 203
+      "count": 207
     },
     {
       "bucket": "$0.80",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 157
+      "count": 156
     },
     {
       "bucket": "$1.05",
@@ -209,7 +209,7 @@
     {
       "state": "MI",
       "avg_price": 0.7,
-      "store_count": 345
+      "store_count": 344
     },
     {
       "state": "OR",
@@ -252,14 +252,14 @@
       "store_count": 184
     },
     {
-      "state": "NV",
-      "avg_price": 0.63,
-      "store_count": 83
-    },
-    {
       "state": "CO",
       "avg_price": 0.63,
       "store_count": 142
+    },
+    {
+      "state": "NV",
+      "avg_price": 0.63,
+      "store_count": 83
     },
     {
       "state": "NJ",
@@ -589,6 +589,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038752",
+      "store_name": "Taco Bell",
+      "city": "Leadville",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T21:01:55.397655+00:00"
+    },
+    {
+      "store_number": "002613",
+      "store_name": "Taco Bell",
+      "city": "Glenwood Springs",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T21:00:58.801283+00:00"
+    },
+    {
+      "store_number": "023263",
+      "store_name": "Taco Bell",
+      "city": "Rifle",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T20:59:23.347057+00:00"
+    },
+    {
+      "store_number": "021443",
+      "store_name": "Taco Bell",
+      "city": "Frisco",
+      "state": "CO",
+      "change_type": "price_change",
+      "old_price": 0.65,
+      "new_price": 0.79,
+      "observed_at": "2026-04-17T20:59:09.561574+00:00"
+    },
+    {
+      "store_number": "036293",
+      "store_name": "Taco Bell",
+      "city": "Tecumseh",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:57:57.145994+00:00"
+    },
     {
       "store_number": "042875",
       "store_name": "Taco Bell",
@@ -5932,8 +5982,8 @@
   ],
   "activity_summary": {
     "added": 25,
-    "removed": 506,
-    "price_changed": 3,
+    "removed": 507,
+    "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 220,
@@ -23097,8 +23147,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       0.5,
       "Taco Bell",
       "Clifton Park",
@@ -41151,11 +41201,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       0.65,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -41726,15 +41776,6 @@
       "CO"
     ],
     [
-      "021443",
-      39.58775470380861,
-      -106.09412310412154,
-      0.65,
-      "Taco Bell",
-      "Frisco",
-      "CO"
-    ],
-    [
       "004438",
       39.6170987008308,
       -105.09187375010697,
@@ -41849,15 +41890,6 @@
       0.65,
       "Taco Bell",
       "Denver",
-      "CO"
-    ],
-    [
-      "023263",
-      39.522072854378855,
-      -107.77535555757223,
-      0.65,
-      "Taco Bell",
-      "Rifle",
       "CO"
     ],
     [
@@ -43247,15 +43279,6 @@
       "CO"
     ],
     [
-      "002613",
-      39.53194902892926,
-      -107.32492983341217,
-      0.65,
-      "Taco Bell",
-      "Glenwood Springs",
-      "CO"
-    ],
-    [
       "032695",
       35.191088765876295,
       -101.92092065514771,
@@ -44181,15 +44204,6 @@
       "Taco Bell",
       "Mint Hill",
       "NC"
-    ],
-    [
-      "038752",
-      39.25859463891351,
-      -106.2936792257295,
-      0.65,
-      "Taco Bell",
-      "Leadville",
-      "CO"
     ],
     [
       "033871",
@@ -57953,6 +57967,15 @@
       "CA"
     ],
     [
+      "021443",
+      39.58775470380861,
+      -106.09412310412154,
+      0.79,
+      "Taco Bell",
+      "Frisco",
+      "CO"
+    ],
+    [
       "030731",
       40.621987627143156,
       -74.02839307488648,
@@ -58032,6 +58055,15 @@
       "Taco Bell",
       "Toledo",
       "OH"
+    ],
+    [
+      "023263",
+      39.522072854378855,
+      -107.77535555757223,
+      0.79,
+      "Taco Bell",
+      "Rifle",
+      "CO"
     ],
     [
       "017524",
@@ -58493,6 +58525,15 @@
       "VA"
     ],
     [
+      "002613",
+      39.53194902892926,
+      -107.32492983341217,
+      0.79,
+      "Taco Bell",
+      "Glenwood Springs",
+      "CO"
+    ],
+    [
       "029496",
       40.724606116248616,
       -73.56453895568848,
@@ -58680,6 +58721,15 @@
       "Taco Bell",
       "New York",
       "NY"
+    ],
+    [
+      "038752",
+      39.25859463891351,
+      -106.2936792257295,
+      0.79,
+      "Taco Bell",
+      "Leadville",
+      "CO"
     ],
     [
       "037156",
@@ -65619,15 +65669,6 @@
       "Taco Bell Cantina",
       "New York",
       "NY"
-    ],
-    [
-      "036293",
-      42.005616,
-      -83.960487,
-      1.0,
-      "Taco Bell",
-      "Tecumseh",
-      "MI"
     ],
     [
       "036012",

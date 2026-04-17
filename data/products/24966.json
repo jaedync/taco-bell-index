@@ -18,12 +18,12 @@
     "max": 10.99,
     "median": 6.99,
     "std_dev": 0.4,
-    "store_count": 101
+    "store_count": 100
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 100
+      "count": 99
     },
     {
       "bucket": "$10.99",
@@ -34,7 +34,7 @@
     {
       "state": "FL",
       "avg_price": 7.03,
-      "store_count": 100
+      "store_count": 99
     }
   ],
   "nutrition": {
@@ -194,7 +194,6 @@
     "022594",
     "042924",
     "023289",
-    "027969",
     "027973",
     "027990",
     "027987",
@@ -298,6 +297,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027969",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:58.755479+00:00"
+    },
     {
       "store_number": "038869",
       "store_name": "Taco Bell",
@@ -1291,7 +1300,7 @@
   ],
   "activity_summary": {
     "added": 99,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1947,15 +1956,6 @@
       6.99,
       "Taco Bell",
       "West Melbourne",
-      "FL"
-    ],
-    [
-      "027969",
-      28.590950152596594,
-      -80.80342124933513,
-      6.99,
-      "Taco Bell",
-      "Titusville",
       "FL"
     ],
     [

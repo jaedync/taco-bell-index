@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7684
+    "store_count": 7685
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7684
+      "count": 7685
     }
   ],
   "state_prices": [
@@ -49,7 +49,7 @@
     {
       "state": "VA",
       "avg_price": 0.0,
-      "store_count": 200
+      "store_count": 199
     },
     {
       "state": "UT",
@@ -99,7 +99,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 409
+      "store_count": 410
     },
     {
       "state": "NY",
@@ -259,7 +259,7 @@
     {
       "state": "AZ",
       "avg_price": 0.0,
-      "store_count": 192
+      "store_count": 193
     },
     {
       "state": "AR",
@@ -4683,6 +4683,7 @@
     "029253",
     "004191",
     "030941",
+    "031728",
     "030144",
     "029544",
     "029625",
@@ -5818,7 +5819,6 @@
     "024287",
     "041568",
     "019410",
-    "031868",
     "036300",
     "039081",
     "030831",
@@ -5955,7 +5955,6 @@
     "031786",
     "017742",
     "033799",
-    "039042",
     "021532",
     "030129",
     "002474",
@@ -6259,6 +6258,7 @@
     "002060",
     "031449",
     "032892",
+    "031906",
     "019615",
     "034417",
     "003499",
@@ -8037,6 +8037,7 @@
     "027951",
     "005029",
     "038828",
+    "030849",
     "033002",
     "039106",
     "039545",
@@ -8122,6 +8123,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030849",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-17T21:01:40.064746+00:00"
+    },
+    {
+      "store_number": "031906",
+      "store_name": "Taco Bell",
+      "city": "Fernley",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-17T21:01:10.905363+00:00"
+    },
+    {
+      "store_number": "039042",
+      "store_name": "Taco Bell",
+      "city": "Woodbridge",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:01:02.144473+00:00"
+    },
+    {
+      "store_number": "031868",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:57.525305+00:00"
+    },
+    {
+      "store_number": "031728",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-17T21:00:15.031114+00:00"
+    },
     {
       "store_number": "020919",
       "store_name": "Taco Bell",
@@ -9054,8 +9105,8 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
-    "removed": 44,
+    "added": 52,
+    "removed": 46,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15618,11 +15669,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       0.0,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -32295,8 +32346,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       0.0,
       "Taco Bell",
       "Clifton Park",
@@ -47936,6 +47987,15 @@
       "CA"
     ],
     [
+      "031728",
+      32.25091218379473,
+      -110.91886483135573,
+      0.0,
+      "Taco Bell",
+      "Tucson",
+      "AZ"
+    ],
+    [
       "030144",
       30.212929645321346,
       -97.82951523363181,
@@ -58151,15 +58211,6 @@
       "CA"
     ],
     [
-      "031868",
-      36.1971141533937,
-      -115.2608603686258,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "036300",
       29.499343592274975,
       -82.86923924091752,
@@ -59382,15 +59433,6 @@
       "Taco Bell",
       "Springfield",
       "OH"
-    ],
-    [
-      "039042",
-      38.63079090408693,
-      -77.27446049451828,
-      0.0,
-      "Taco Bell",
-      "Woodbridge",
-      "VA"
     ],
     [
       "021532",
@@ -62118,6 +62160,15 @@
       "Taco Bell",
       "Wilmington",
       "OH"
+    ],
+    [
+      "031906",
+      39.60734480415909,
+      -119.2220602392526,
+      0.0,
+      "Taco Bell",
+      "Fernley",
+      "NV"
     ],
     [
       "019615",
@@ -78120,6 +78171,15 @@
       "Taco Bell",
       "Madras",
       "OR"
+    ],
+    [
+      "030849",
+      39.29636167679393,
+      -84.52477723360062,
+      0.0,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
     ],
     [
       "033002",

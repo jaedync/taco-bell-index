@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.0,
+  "availability_pct": 98.1,
   "price_stats": {
     "avg": 21.93,
     "min": 12.95,
     "max": 36.99,
     "median": 21.99,
     "std_dev": 2.84,
-    "store_count": 7554
+    "store_count": 7555
   },
   "histogram": [
     {
@@ -170,7 +170,7 @@
     },
     {
       "bucket": "$18.99",
-      "count": 309
+      "count": 310
     },
     {
       "bucket": "$19.19",
@@ -411,8 +411,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 24.44,
-      "store_count": 835
+      "avg_price": 24.45,
+      "store_count": 836
     },
     {
       "state": "CO",
@@ -441,8 +441,8 @@
     },
     {
       "state": "KY",
-      "avg_price": 23.25,
-      "store_count": 157
+      "avg_price": 23.23,
+      "store_count": 156
     },
     {
       "state": "MD",
@@ -481,8 +481,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 22.58,
-      "store_count": 119
+      "avg_price": 22.57,
+      "store_count": 120
     },
     {
       "state": "AR",
@@ -542,7 +542,7 @@
     {
       "state": "OH",
       "avg_price": 21.41,
-      "store_count": 400
+      "store_count": 399
     },
     {
       "state": "TN",
@@ -551,8 +551,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 21.38,
-      "store_count": 339
+      "avg_price": 21.37,
+      "store_count": 340
     },
     {
       "state": "WI",
@@ -774,6 +774,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038884",
+      "store_name": "Taco Bell",
+      "city": "London",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:01:46.352363+00:00"
+    },
+    {
+      "store_number": "033650",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 25.99,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:02.592308+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 25.99,
+      "observed_at": "2026-04-17T20:59:51.958553+00:00"
+    },
+    {
+      "store_number": "015521",
+      "store_name": "Taco Bell",
+      "city": "Saint Helens",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 21.99,
+      "observed_at": "2026-04-17T20:59:35.374116+00:00"
+    },
+    {
+      "store_number": "002140",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 18.99,
+      "observed_at": "2026-04-17T20:58:37.622857+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -3396,8 +3446,8 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
-    "removed": 62,
+    "added": 74,
+    "removed": 64,
     "price_changed": 129,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7354,11 +7404,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       16.99,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -13921,6 +13971,15 @@
       "Taco Bell",
       "Bakersfield",
       "CA"
+    ],
+    [
+      "002140",
+      42.19835694745384,
+      -83.26728052050346,
+      18.99,
+      "Taco Bell",
+      "Taylor",
+      "MI"
     ],
     [
       "030680",
@@ -32895,6 +32954,15 @@
       "CA"
     ],
     [
+      "015521",
+      45.84821483414798,
+      -122.83299542964869,
+      21.99,
+      "Taco Bell",
+      "Saint Helens",
+      "OR"
+    ],
+    [
       "036486",
       32.52636196976751,
       -86.20746475961995,
@@ -39175,15 +39243,6 @@
       "Taco Bell",
       "Columbia",
       "MO"
-    ],
-    [
-      "038884",
-      39.88423441369728,
-      -83.4508419782469,
-      21.99,
-      "Taco Bell",
-      "London",
-      "OH"
     ],
     [
       "038862",
@@ -61840,8 +61899,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       24.99,
       "Taco Bell",
       "Clifton Park",
@@ -67221,6 +67280,15 @@
       "CA"
     ],
     [
+      "030785",
+      37.64683879461168,
+      -122.42873983838048,
+      25.99,
+      "Taco Bell",
+      "South San Francisco",
+      "CA"
+    ],
+    [
       "034665",
       38.17574823795854,
       -85.82097463315222,
@@ -67299,15 +67367,6 @@
       25.99,
       "Taco Bell",
       "Covington",
-      "KY"
-    ],
-    [
-      "033650",
-      38.95676829361747,
-      -84.62919294834137,
-      25.99,
-      "Taco Bell",
-      "Florence",
       "KY"
     ],
     [

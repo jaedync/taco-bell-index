@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 52
+    "store_count": 53
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 52
+      "count": 53
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 52
+      "store_count": 53
     }
   ],
   "nutrition": {
@@ -171,9 +171,17 @@
     "032514",
     "039685",
     "033315",
-    "037362"
+    "037362",
+    "001999"
   ],
   "priciest_stores": [
+    {
+      "store_number": "001999",
+      "name": "Taco Bell",
+      "city": "Beverly Hills",
+      "state": "MI",
+      "price": 4.99
+    },
     {
       "store_number": "037362",
       "name": "Taco Bell",
@@ -236,16 +244,19 @@
       "city": "Canton",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "037839",
-      "name": "Taco Bell",
-      "city": "Ann Arbor",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001999",
+      "store_name": "Taco Bell",
+      "city": "Beverly Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-17T20:58:44.588825+00:00"
+    },
     {
       "store_number": "037362",
       "store_name": "Taco Bell",
@@ -768,7 +779,7 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
+    "added": 53,
     "removed": 0,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1244,6 +1255,15 @@
       4.99,
       "Taco Bell",
       "White Lake",
+      "MI"
+    ],
+    [
+      "001999",
+      42.519359096000706,
+      -83.2238550391321,
+      4.99,
+      "Taco Bell",
+      "Beverly Hills",
       "MI"
     ]
   ]

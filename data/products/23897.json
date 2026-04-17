@@ -11,20 +11,16 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.87,
-    "min": 5.49,
+    "avg": 5.99,
+    "min": 5.99,
     "max": 5.99,
     "median": 5.99,
-    "std_dev": 0.25,
-    "store_count": 4
+    "std_dev": 0.0,
+    "store_count": 3
   },
   "histogram": [
-    {
-      "bucket": "$5.49",
-      "count": 1
-    },
     {
       "bucket": "$5.99",
       "count": 3
@@ -46,13 +42,6 @@
     "serving_size_g": 226.7959
   },
   "cheapest_stores": [
-    {
-      "store_number": "027812",
-      "name": "Taco Bell",
-      "city": "Irving",
-      "state": "TX",
-      "price": 5.49
-    },
     {
       "store_number": "030479",
       "name": "Taco Bell",
@@ -76,7 +65,9 @@
     }
   ],
   "min_price_store_numbers": [
-    "027812"
+    "030479",
+    "029535",
+    "036547"
   ],
   "priciest_stores": [
     {
@@ -99,16 +90,19 @@
       "city": "Sacramento",
       "state": "CA",
       "price": 5.99
-    },
-    {
-      "store_number": "027812",
-      "name": "Taco Bell",
-      "city": "Irving",
-      "state": "TX",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027812",
+      "store_name": "Taco Bell",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:16.675063+00:00"
+    },
     {
       "store_number": "040715",
       "store_name": "Taco Bell",
@@ -54952,7 +54946,7 @@
     {
       "store_number": "036233",
       "store_name": "Taco Bell",
-      "city": "Fort Mill",
+      "city": "Indian Land",
       "state": "SC",
       "change_type": "item_removed",
       "old_price": 5.49,
@@ -94792,7 +94786,7 @@
   ],
   "activity_summary": {
     "added": 1286,
-    "removed": 8178,
+    "removed": 8179,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -94801,15 +94795,6 @@
   "calories_max": 530,
   "combo_groups": [],
   "map_data": [
-    [
-      "027812",
-      32.8062061355524,
-      -96.9948732578234,
-      5.49,
-      "Taco Bell",
-      "Irving",
-      "TX"
-    ],
     [
       "030479",
       38.6017353264456,

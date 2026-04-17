@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7080
+    "store_count": 7078
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5241
+      "count": 5239
     },
     {
       "bucket": "$4.19",
@@ -268,7 +268,7 @@
     {
       "state": "OH",
       "avg_price": 4.26,
-      "store_count": 368
+      "store_count": 367
     },
     {
       "state": "CT",
@@ -303,7 +303,7 @@
     {
       "state": "MA",
       "avg_price": 4.1,
-      "store_count": 63
+      "store_count": 62
     },
     {
       "state": "IN",
@@ -328,7 +328,7 @@
     {
       "state": "VA",
       "avg_price": 4.03,
-      "store_count": 178
+      "store_count": 177
     },
     {
       "state": "NE",
@@ -383,7 +383,7 @@
     {
       "state": "OK",
       "avg_price": 4.0,
-      "store_count": 112
+      "store_count": 113
     },
     {
       "state": "NH",
@@ -2913,7 +2913,6 @@
     "039974",
     "001879",
     "015425",
-    "038885",
     "005549",
     "029654",
     "033044",
@@ -3146,7 +3145,6 @@
     "028866",
     "032042",
     "034631",
-    "015909",
     "026773",
     "043078",
     "033277",
@@ -4012,7 +4010,6 @@
     "031695",
     "031631",
     "004451",
-    "031556",
     "004486",
     "035742",
     "027724",
@@ -5730,7 +5727,8 @@
     "040419",
     "015885",
     "027808",
-    "032668"
+    "032668",
+    "033437"
   ],
   "priciest_stores": [
     {
@@ -5805,6 +5803,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033437",
+      "store_name": "Taco Bell",
+      "city": "Broken Arrow",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-17T21:01:58.980499+00:00"
+    },
+    {
+      "store_number": "031556",
+      "store_name": "Taco Bell",
+      "city": "Leominster",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-17T21:00:45.161825+00:00"
+    },
+    {
+      "store_number": "015909",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:52.622060+00:00"
+    },
+    {
+      "store_number": "038885",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-17T20:59:40.740731+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -6577,8 +6615,8 @@
     }
   ],
   "activity_summary": {
-    "added": 29,
-    "removed": 35,
+    "added": 30,
+    "removed": 38,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11393,11 +11431,11 @@
     ],
     [
       "036233",
-      34.93738,
-      -80.83615,
+      34.937441566855654,
+      -80.83609434416292,
       4.0,
       "Taco Bell",
-      "Fort Mill",
+      "Indian Land",
       "SC"
     ],
     [
@@ -23309,8 +23347,8 @@
     ],
     [
       "026351",
-      42.863312210903594,
-      -73.7803602218628,
+      42.86296460000001,
+      -73.78085779999999,
       4.0,
       "Taco Bell",
       "Clifton Park",
@@ -28420,15 +28458,6 @@
       "OH"
     ],
     [
-      "038885",
-      39.950867860354975,
-      -83.14544588327408,
-      4.0,
-      "Taco Bell",
-      "Columbus",
-      "OH"
-    ],
-    [
       "005549",
       35.491944792223634,
       -94.22642835977967,
@@ -30515,15 +30544,6 @@
       "Taco Bell",
       "Zachary",
       "LA"
-    ],
-    [
-      "015909",
-      36.843172841066085,
-      -76.13628655672073,
-      4.0,
-      "Taco Bell",
-      "Virginia Beach",
-      "VA"
     ],
     [
       "026773",
@@ -38309,15 +38329,6 @@
       "Taco Bell",
       "Hayes",
       "VA"
-    ],
-    [
-      "031556",
-      42.53162003006179,
-      -71.74406562747208,
-      4.0,
-      "Taco Bell",
-      "Leominster",
-      "MA"
     ],
     [
       "004486",
@@ -53780,6 +53791,15 @@
       "Taco Bell",
       "Glen Burnie",
       "MD"
+    ],
+    [
+      "033437",
+      36.004414035392806,
+      -95.68129956790096,
+      4.0,
+      "Taco Bell",
+      "Broken Arrow",
+      "OK"
     ],
     [
       "040310",
