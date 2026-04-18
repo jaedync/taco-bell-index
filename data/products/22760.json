@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7674
+    "store_count": 7673
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7674
+      "count": 7673
     }
   ],
   "state_prices": [
@@ -69,7 +69,7 @@
     {
       "state": "SD",
       "avg_price": 0.0,
-      "store_count": 15
+      "store_count": 16
     },
     {
       "state": "SC",
@@ -84,7 +84,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "OR",
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "NM",
@@ -244,12 +244,12 @@
     {
       "state": "CT",
       "avg_price": 0.0,
-      "store_count": 49
+      "store_count": 48
     },
     {
       "state": "CO",
       "avg_price": 0.0,
-      "store_count": 155
+      "store_count": 154
     },
     {
       "state": "CA",
@@ -795,7 +795,6 @@
     "042575",
     "034376",
     "037574",
-    "034350",
     "034829",
     "041260",
     "034913",
@@ -4922,7 +4921,6 @@
     "041196",
     "041234",
     "001746",
-    "030472",
     "018568",
     "004318",
     "033649",
@@ -7007,7 +7005,6 @@
     "042125",
     "026750",
     "024284",
-    "033867",
     "027825",
     "031455",
     "016294",
@@ -8037,9 +8034,25 @@
     "023269",
     "029579",
     "038851",
-    "019676"
+    "019676",
+    "031425",
+    "042069"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042069",
+      "name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "price": 0.0
+    },
+    {
+      "store_number": "031425",
+      "name": "Taco Bell",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "price": 0.0
+    },
     {
       "store_number": "019676",
       "name": "Taco Bell",
@@ -8095,23 +8108,59 @@
       "city": "Waterford",
       "state": "CA",
       "price": 0.0
-    },
-    {
-      "store_number": "036244",
-      "name": "Taco Bell",
-      "city": "Sparks",
-      "state": "NV",
-      "price": 0.0
-    },
-    {
-      "store_number": "038905",
-      "name": "Taco Bell",
-      "city": "Zanesville",
-      "state": "OH",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034350",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:12:38.657443+00:00"
+    },
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "033867",
+      "store_name": "Taco Bell",
+      "city": "Broomfield",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:19.861238+00:00"
+    },
+    {
+      "store_number": "030472",
+      "store_name": "Taco Bell",
+      "city": "Bridgeport",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:49.058172+00:00"
+    },
+    {
+      "store_number": "031425",
+      "store_name": "Taco Bell",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:08:46.643151+00:00"
+    },
     {
       "store_number": "030780",
       "store_name": "Taco Bell",
@@ -9244,8 +9293,8 @@
     }
   ],
   "activity_summary": {
-    "added": 53,
-    "removed": 60,
+    "added": 55,
+    "removed": 63,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13132,15 +13181,6 @@
       "Taco Bell",
       "Tempe",
       "AZ"
-    ],
-    [
-      "034350",
-      36.17256713362135,
-      -115.24379310145687,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "034829",
@@ -50277,15 +50317,6 @@
       "NY"
     ],
     [
-      "030472",
-      41.19682502143401,
-      -73.19275715950425,
-      0.0,
-      "Taco Bell",
-      "Bridgeport",
-      "CT"
-    ],
-    [
       "018568",
       40.78067366801856,
       -124.18571606258817,
@@ -69042,15 +69073,6 @@
       "CA"
     ],
     [
-      "033867",
-      39.914589448596615,
-      -105.05939527298324,
-      0.0,
-      "Taco Bell",
-      "Broomfield",
-      "CO"
-    ],
-    [
       "027825",
       32.75952447310155,
       -97.26146344050917,
@@ -78319,6 +78341,24 @@
       "Taco Bell",
       "Post Falls",
       "ID"
+    ],
+    [
+      "031425",
+      43.54633419686592,
+      -96.68431082371171,
+      0.0,
+      "Taco Bell",
+      "Sioux Falls",
+      "SD"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.0,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ]
   ]
 }

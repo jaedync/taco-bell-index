@@ -17,7 +17,7 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7126
+    "store_count": 7128
   },
   "histogram": [
     {
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 737
+      "count": 739
     },
     {
       "bucket": "$0.55",
@@ -230,14 +230,14 @@
       "store_count": 415
     },
     {
-      "state": "PA",
-      "avg_price": 0.65,
-      "store_count": 201
-    },
-    {
       "state": "NE",
       "avg_price": 0.65,
       "store_count": 44
+    },
+    {
+      "state": "PA",
+      "avg_price": 0.65,
+      "store_count": 202
     },
     {
       "state": "RI",
@@ -287,7 +287,7 @@
     {
       "state": "SC",
       "avg_price": 0.6,
-      "store_count": 105
+      "store_count": 106
     },
     {
       "state": "NH",
@@ -914,6 +914,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "034777",
+      "store_name": "Taco Bell",
+      "city": "Goose Creek",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-18T22:02:09.043807+00:00"
+    },
     {
       "store_number": "033437",
       "store_name": "Taco Bell",
@@ -6276,7 +6296,7 @@
     }
   ],
   "activity_summary": {
-    "added": 20,
+    "added": 22,
     "removed": 508,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
@@ -19265,6 +19285,15 @@
       "NY"
     ],
     [
+      "034777",
+      33.03984927121388,
+      -80.0706573075425,
+      0.5,
+      "Taco Bell",
+      "Goose Creek",
+      "SC"
+    ],
+    [
       "035298",
       39.34953648320833,
       -84.21853126739938,
@@ -25392,6 +25421,15 @@
       "Taco Bell",
       "Kingstree",
       "SC"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.5,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "040717",

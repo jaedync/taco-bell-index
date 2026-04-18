@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 43.7,
+  "availability_pct": 43.6,
   "price_stats": {
     "avg": 4.68,
     "min": 2.79,
     "max": 6.49,
     "median": 4.69,
     "std_dev": 0.58,
-    "store_count": 3364
+    "store_count": 3362
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 39
+      "count": 38
     },
     {
       "bucket": "$3.89",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 221
+      "count": 222
     },
     {
       "bucket": "$4.69",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 215
+      "count": 214
     },
     {
       "bucket": "$4.89",
@@ -134,7 +134,7 @@
     },
     {
       "bucket": "$5.29",
-      "count": 71
+      "count": 70
     },
     {
       "bucket": "$5.39",
@@ -212,7 +212,7 @@
     {
       "state": "WA",
       "avg_price": 5.23,
-      "store_count": 133
+      "store_count": 132
     },
     {
       "state": "CT",
@@ -232,7 +232,7 @@
     {
       "state": "CA",
       "avg_price": 4.99,
-      "store_count": 612
+      "store_count": 611
     },
     {
       "state": "CO",
@@ -327,7 +327,7 @@
     {
       "state": "IN",
       "avg_price": 4.44,
-      "store_count": 124
+      "store_count": 125
     },
     {
       "state": "ND",
@@ -337,7 +337,7 @@
     {
       "state": "NV",
       "avg_price": 4.32,
-      "store_count": 77
+      "store_count": 76
     },
     {
       "state": "KS",
@@ -563,6 +563,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031321",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:24.857938+00:00"
+    },
+    {
+      "store_number": "031894",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:23.286174+00:00"
+    },
+    {
+      "store_number": "035392",
+      "store_name": "Taco Bell",
+      "city": "Elkhart",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-18T22:09:09.074480+00:00"
+    },
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:51.607071+00:00"
+    },
+    {
+      "store_number": "002057",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-18T22:08:46.297053+00:00"
+    },
+    {
+      "store_number": "028905",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:27.476382+00:00"
+    },
     {
       "store_number": "029244",
       "store_name": "Taco Bell / Pizza Hut",
@@ -3715,8 +3775,8 @@
     }
   ],
   "activity_summary": {
-    "added": 126,
-    "removed": 116,
+    "added": 128,
+    "removed": 120,
     "price_changed": 73,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5010,15 +5070,6 @@
       3.79,
       "Taco Bell",
       "Peru",
-      "IN"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      3.79,
-      "Taco Bell",
-      "Indianapolis",
       "IN"
     ],
     [
@@ -10341,6 +10392,15 @@
       "NV"
     ],
     [
+      "035392",
+      41.67280545424092,
+      -86.00271485748641,
+      4.19,
+      "Taco Bell",
+      "Elkhart",
+      "IN"
+    ],
+    [
       "031883",
       35.969729706778224,
       -114.85568455233222,
@@ -10546,15 +10606,6 @@
       "Taco Bell",
       "Auburn",
       "IN"
-    ],
-    [
-      "031894",
-      36.121854601482426,
-      -115.13938848675934,
-      4.19,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "031991",
@@ -17424,6 +17475,15 @@
       "ID"
     ],
     [
+      "002057",
+      39.76917983510871,
+      -86.1092864424154,
+      4.59,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "021196",
       32.85066100213261,
       -96.99289400877205,
@@ -20580,15 +20640,6 @@
       4.79,
       "Taco Bell",
       "Tracy",
-      "CA"
-    ],
-    [
-      "030798",
-      37.31417153364949,
-      -121.79288823904244,
-      4.79,
-      "Taco Bell",
-      "San Jose",
       "CA"
     ],
     [
@@ -28869,15 +28920,6 @@
       5.29,
       "Taco Bell",
       "Sequim",
-      "WA"
-    ],
-    [
-      "031321",
-      47.160731525872336,
-      -122.43381087954022,
-      5.29,
-      "Taco Bell",
-      "Tacoma",
       "WA"
     ],
     [

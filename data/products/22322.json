@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.8,
+  "availability_pct": 92.9,
   "price_stats": {
     "avg": 7.01,
     "min": 4.99,
     "max": 9.59,
     "median": 6.99,
     "std_dev": 0.6,
-    "store_count": 7153
+    "store_count": 7156
   },
   "histogram": [
     {
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 269
+      "count": 270
     },
     {
       "bucket": "$6.29",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$6.49",
-      "count": 259
+      "count": 260
     },
     {
       "bucket": "$6.59",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$6.79",
-      "count": 513
+      "count": 514
     },
     {
       "bucket": "$6.82",
@@ -166,7 +166,7 @@
     },
     {
       "bucket": "$7.49",
-      "count": 912
+      "count": 911
     },
     {
       "bucket": "$7.50",
@@ -182,7 +182,7 @@
     },
     {
       "bucket": "$7.62",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$7.69",
@@ -341,7 +341,7 @@
     {
       "state": "PA",
       "avg_price": 7.24,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "OK",
@@ -366,7 +366,7 @@
     {
       "state": "NY",
       "avg_price": 7.12,
-      "store_count": 248
+      "store_count": 249
     },
     {
       "state": "OR",
@@ -375,13 +375,13 @@
     },
     {
       "state": "MN",
-      "avg_price": 7.09,
-      "store_count": 99
+      "avg_price": 7.08,
+      "store_count": 100
     },
     {
       "state": "MO",
       "avg_price": 7.06,
-      "store_count": 225
+      "store_count": 224
     },
     {
       "state": "LA",
@@ -421,7 +421,7 @@
     {
       "state": "OH",
       "avg_price": 6.93,
-      "store_count": 405
+      "store_count": 406
     },
     {
       "state": "IA",
@@ -456,7 +456,7 @@
     {
       "state": "IN",
       "avg_price": 6.74,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "NV",
@@ -466,7 +466,7 @@
     {
       "state": "TX",
       "avg_price": 6.52,
-      "store_count": 695
+      "store_count": 696
     },
     {
       "state": "TN",
@@ -665,6 +665,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "029817",
+      "store_name": "Taco Bell",
+      "city": "Red Wing",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.79,
+      "observed_at": "2026-04-18T22:08:49.064807+00:00"
+    },
+    {
+      "store_number": "033789",
+      "store_name": "Taco Bell",
+      "city": "Fairborn",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-18T22:08:44.239851+00:00"
+    },
+    {
+      "store_number": "030127",
+      "store_name": "Taco Bell",
+      "city": "Waco",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-04-18T22:08:34.733283+00:00"
+    },
+    {
+      "store_number": "039574",
+      "store_name": "Taco Bell",
+      "city": "Owensville",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:51.826177+00:00"
+    },
+    {
+      "store_number": "039957",
+      "store_name": "Taco Bell",
+      "city": "Ridgewood",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.62,
+      "observed_at": "2026-04-18T22:07:49.942443+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:42.680734+00:00"
+    },
     {
       "store_number": "038752",
       "store_name": "Taco Bell",
@@ -18677,8 +18747,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 548,
+    "added": 69,
+    "removed": 550,
     "price_changed": 1189,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24221,6 +24291,15 @@
       "Taco Bell",
       "Bossier City",
       "LA"
+    ],
+    [
+      "030127",
+      31.549987758020297,
+      -97.12514971198289,
+      6.19,
+      "Taco Bell",
+      "Waco",
+      "TX"
     ],
     [
       "042213",
@@ -31097,6 +31176,15 @@
       "Taco Bell",
       "Sparks",
       "NV"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      6.49,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "034351",
@@ -40909,6 +40997,15 @@
       "NC"
     ],
     [
+      "029817",
+      44.56753095083777,
+      -92.58169551195351,
+      6.79,
+      "Taco Bell",
+      "Red Wing",
+      "MN"
+    ],
+    [
       "039758",
       36.58751042020284,
       -79.4211701005861,
@@ -45605,15 +45702,6 @@
       "Taco Bell",
       "North Randall",
       "OH"
-    ],
-    [
-      "043007",
-      39.85505652122834,
-      -86.24080654485579,
-      6.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "043006",
@@ -52193,6 +52281,15 @@
       "Taco Bell",
       "Lawton",
       "OK"
+    ],
+    [
+      "033789",
+      39.827779448446215,
+      -84.02573648897875,
+      6.99,
+      "Taco Bell",
+      "Fairborn",
+      "OH"
     ],
     [
       "042727",
@@ -68305,15 +68402,6 @@
       "NY"
     ],
     [
-      "039574",
-      38.34548653659313,
-      -91.49435741440762,
-      7.49,
-      "Taco Bell",
-      "Owensville",
-      "MO"
-    ],
-    [
       "039605",
       37.83560483319035,
       -94.32649017934587,
@@ -77896,6 +77984,15 @@
       7.62,
       "Taco Bell",
       "Brooklyn",
+      "NY"
+    ],
+    [
+      "039957",
+      40.7006839920179,
+      -73.90258168514532,
+      7.62,
+      "Taco Bell",
+      "Ridgewood",
       "NY"
     ],
     [

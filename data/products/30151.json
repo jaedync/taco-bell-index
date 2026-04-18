@@ -17,7 +17,7 @@
     "max": 6.69,
     "median": 4.59,
     "std_dev": 0.6,
-    "store_count": 3407
+    "store_count": 3405
   },
   "histogram": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 124
+      "count": 123
     },
     {
       "bucket": "$3.79",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 300
+      "count": 301
     },
     {
       "bucket": "$4.19",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 290
+      "count": 289
     },
     {
       "bucket": "$4.69",
@@ -110,7 +110,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 265
+      "count": 264
     },
     {
       "bucket": "$4.89",
@@ -217,12 +217,12 @@
     {
       "state": "WA",
       "avg_price": 5.02,
-      "store_count": 132
+      "store_count": 131
     },
     {
       "state": "CA",
       "avg_price": 4.89,
-      "store_count": 621
+      "store_count": 620
     },
     {
       "state": "NY",
@@ -237,7 +237,7 @@
     {
       "state": "MI",
       "avg_price": 4.7,
-      "store_count": 186
+      "store_count": 187
     },
     {
       "state": "ID",
@@ -297,7 +297,7 @@
     {
       "state": "IN",
       "avg_price": 4.4,
-      "store_count": 128
+      "store_count": 127
     },
     {
       "state": "NV",
@@ -562,6 +562,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031321",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:24.857938+00:00"
+    },
+    {
+      "store_number": "035392",
+      "store_name": "Taco Bell",
+      "city": "Elkhart",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-18T22:09:09.074480+00:00"
+    },
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:51.607071+00:00"
+    },
+    {
+      "store_number": "028905",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:27.476382+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-18T22:07:54.352057+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:42.680734+00:00"
+    },
     {
       "store_number": "029244",
       "store_name": "Taco Bell / Pizza Hut",
@@ -2924,8 +2984,8 @@
     }
   ],
   "activity_summary": {
-    "added": 87,
-    "removed": 80,
+    "added": 89,
+    "removed": 84,
     "price_changed": 69,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5588,15 +5648,6 @@
       "Taco Bell",
       "Jacksonville",
       "FL"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      3.69,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "042922",
@@ -9116,6 +9167,15 @@
       "Taco Bell",
       "Minot",
       "ND"
+    ],
+    [
+      "035392",
+      41.67280545424092,
+      -86.00271485748641,
+      3.99,
+      "Taco Bell",
+      "Elkhart",
+      "IN"
     ],
     [
       "017457",
@@ -18199,15 +18259,6 @@
       "NY"
     ],
     [
-      "043007",
-      39.85505652122834,
-      -86.24080654485579,
-      4.59,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "043006",
       39.79695284567275,
       -86.01268830428725,
@@ -23455,15 +23506,6 @@
       "CA"
     ],
     [
-      "030798",
-      37.31417153364949,
-      -121.79288823904244,
-      4.79,
-      "Taco Bell",
-      "San Jose",
-      "CA"
-    ],
-    [
       "030770",
       36.98620611382594,
       -121.96465864777565,
@@ -26488,6 +26530,15 @@
       "MI"
     ],
     [
+      "023745",
+      42.224730175482414,
+      -83.4856314762491,
+      4.99,
+      "Taco Bell",
+      "Belleville",
+      "MI"
+    ],
+    [
       "004795",
       35.08552139734347,
       -80.87950212733786,
@@ -29069,15 +29120,6 @@
       "Taco Bell",
       "Sandy",
       "UT"
-    ],
-    [
-      "031321",
-      47.160731525872336,
-      -122.43381087954022,
-      4.99,
-      "Taco Bell",
-      "Tacoma",
-      "WA"
     ],
     [
       "038941",

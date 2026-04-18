@@ -18,7 +18,7 @@
     "max": 5.49,
     "median": 2.79,
     "std_dev": 0.33,
-    "store_count": 7659
+    "store_count": 7658
   },
   "histogram": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 248
+      "count": 249
     },
     {
       "bucket": "$2.39",
@@ -147,11 +147,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 536
+      "count": 535
     },
     {
       "bucket": "$3.29",
-      "count": 336
+      "count": 335
     },
     {
       "bucket": "$3.49",
@@ -213,7 +213,7 @@
     {
       "state": "WA",
       "avg_price": 2.95,
-      "store_count": 139
+      "store_count": 138
     },
     {
       "state": "MT",
@@ -233,7 +233,7 @@
     {
       "state": "IL",
       "avg_price": 2.92,
-      "store_count": 287
+      "store_count": 285
     },
     {
       "state": "NY",
@@ -243,7 +243,7 @@
     {
       "state": "CA",
       "avg_price": 2.91,
-      "store_count": 836
+      "store_count": 837
     },
     {
       "state": "MO",
@@ -276,14 +276,14 @@
       "store_count": 87
     },
     {
-      "state": "PA",
-      "avg_price": 2.83,
-      "store_count": 201
-    },
-    {
       "state": "OK",
       "avg_price": 2.83,
       "store_count": 126
+    },
+    {
+      "state": "PA",
+      "avg_price": 2.82,
+      "store_count": 202
     },
     {
       "state": "VA",
@@ -589,6 +589,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "030784",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-18T22:09:12.783939+00:00"
+    },
+    {
+      "store_number": "021532",
+      "store_name": "Taco Bell",
+      "city": "Pekin",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:02.963286+00:00"
+    },
+    {
+      "store_number": "031342",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:59.224659+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:34.169578+00:00"
+    },
     {
       "store_number": "038752",
       "store_name": "Taco Bell",
@@ -17241,8 +17291,8 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
-    "removed": 26,
+    "added": 41,
+    "removed": 29,
     "price_changed": 1600,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24540,6 +24590,15 @@
       "Taco Bell",
       "Vernon",
       "TX"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      2.29,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "040910",
@@ -72809,15 +72868,6 @@
       "SC"
     ],
     [
-      "021532",
-      40.55948797444369,
-      -89.61923039987602,
-      2.99,
-      "Taco Bell",
-      "Pekin",
-      "IL"
-    ],
-    [
       "002474",
       34.92605072654064,
       -120.43646965922562,
@@ -73698,6 +73748,15 @@
       "Taco Bell",
       "Lemont",
       "IL"
+    ],
+    [
+      "030784",
+      37.68964688186491,
+      -122.13063508272171,
+      2.99,
+      "Taco Bell",
+      "San Leandro",
+      "CA"
     ],
     [
       "003727",
@@ -79757,15 +79816,6 @@
       "WA"
     ],
     [
-      "030404",
-      41.882211,
-      -87.640594,
-      3.19,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "036114",
       40.335515128528996,
       -104.92445595337296,
@@ -84606,15 +84656,6 @@
       "Taco Bell",
       "Saint Charles",
       "MO"
-    ],
-    [
-      "031342",
-      48.43619811528398,
-      -122.33817234635347,
-      3.29,
-      "Taco Bell",
-      "Mount Vernon",
-      "WA"
     ],
     [
       "042643",

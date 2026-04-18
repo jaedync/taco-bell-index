@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 93.5,
+  "availability_pct": 93.4,
   "price_stats": {
     "avg": 5.79,
     "min": 3.69,
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7201
+    "store_count": 7200
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 36
+      "count": 37
     },
     {
       "bucket": "$4.65",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 432
+      "count": 431
     },
     {
       "bucket": "$5.05",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 384
+      "count": 385
     },
     {
       "bucket": "$5.49",
@@ -127,7 +127,7 @@
     },
     {
       "bucket": "$5.79",
-      "count": 473
+      "count": 472
     },
     {
       "bucket": "$5.82",
@@ -155,7 +155,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 704
+      "count": 703
     },
     {
       "bucket": "$6.20",
@@ -363,24 +363,19 @@
       "store_count": 100
     },
     {
+      "state": "IA",
+      "avg_price": 5.87,
+      "store_count": 48
+    },
+    {
       "state": "NM",
       "avg_price": 5.86,
       "store_count": 58
     },
     {
-      "state": "IA",
-      "avg_price": 5.85,
-      "store_count": 49
-    },
-    {
       "state": "LA",
       "avg_price": 5.83,
       "store_count": 134
-    },
-    {
-      "state": "PA",
-      "avg_price": 5.83,
-      "store_count": 201
     },
     {
       "state": "VA",
@@ -398,6 +393,11 @@
       "store_count": 251
     },
     {
+      "state": "PA",
+      "avg_price": 5.82,
+      "store_count": 202
+    },
+    {
       "state": "SD",
       "avg_price": 5.8,
       "store_count": 16
@@ -410,7 +410,7 @@
     {
       "state": "MO",
       "avg_price": 5.75,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "MA",
@@ -430,7 +430,7 @@
     {
       "state": "IN",
       "avg_price": 5.66,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "WV",
@@ -445,7 +445,7 @@
     {
       "state": "TX",
       "avg_price": 5.52,
-      "store_count": 699
+      "store_count": 700
     },
     {
       "state": "AL",
@@ -647,6 +647,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "037470",
+      "store_name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:05.195015+00:00"
+    },
+    {
+      "store_number": "030127",
+      "store_name": "Taco Bell",
+      "city": "Waco",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.39,
+      "observed_at": "2026-04-18T22:08:34.733283+00:00"
+    },
+    {
+      "store_number": "039574",
+      "store_name": "Taco Bell",
+      "city": "Owensville",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:51.826177+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:42.680734+00:00"
+    },
     {
       "store_number": "038752",
       "store_name": "Taco Bell",
@@ -16009,8 +16059,8 @@
     }
   ],
   "activity_summary": {
-    "added": 47,
-    "removed": 534,
+    "added": 49,
+    "removed": 537,
     "price_changed": 955,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17134,6 +17184,15 @@
       "Taco Bell",
       "Kayenta",
       "AZ"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      4.59,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "026085",
@@ -22759,15 +22818,6 @@
       "Taco Bell",
       "Roanoke Rapids",
       "NC"
-    ],
-    [
-      "037470",
-      42.50986822110307,
-      -96.41639463141473,
-      4.99,
-      "Taco Bell",
-      "Sioux City",
-      "IA"
     ],
     [
       "042940",
@@ -29814,6 +29864,15 @@
       5.39,
       "Taco Bell",
       "Bastrop",
+      "TX"
+    ],
+    [
+      "030127",
+      31.549987758020297,
+      -97.12514971198289,
+      5.39,
+      "Taco Bell",
+      "Waco",
       "TX"
     ],
     [
@@ -42658,15 +42717,6 @@
       "Taco Bell",
       "North Randall",
       "OH"
-    ],
-    [
-      "043007",
-      39.85505652122834,
-      -86.24080654485579,
-      5.79,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "043006",
@@ -66517,15 +66567,6 @@
       "Taco Bell",
       "Berryville",
       "AR"
-    ],
-    [
-      "039574",
-      38.34548653659313,
-      -91.49435741440762,
-      6.19,
-      "Taco Bell",
-      "Owensville",
-      "MO"
     ],
     [
       "039605",

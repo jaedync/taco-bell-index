@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7685
+    "store_count": 7682
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7685
+      "count": 7682
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 138
+      "store_count": 137
     },
     {
       "state": "VA",
@@ -64,7 +64,7 @@
     {
       "state": "TN",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "SD",
@@ -84,7 +84,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "OR",
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 84
+      "store_count": 85
     },
     {
       "state": "NM",
@@ -144,7 +144,7 @@
     {
       "state": "MT",
       "avg_price": 0.0,
-      "store_count": 27
+      "store_count": 26
     },
     {
       "state": "MS",
@@ -199,7 +199,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "IL",
@@ -214,7 +214,7 @@
     {
       "state": "IA",
       "avg_price": 0.0,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "HI",
@@ -249,12 +249,12 @@
     {
       "state": "CO",
       "avg_price": 0.0,
-      "store_count": 156
+      "store_count": 155
     },
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 839
+      "store_count": 838
     },
     {
       "state": "AZ",
@@ -918,7 +918,6 @@
     "042973",
     "033939",
     "033927",
-    "035381",
     "035136",
     "035891",
     "035416",
@@ -3524,7 +3523,6 @@
     "040028",
     "039052",
     "036358",
-    "028861",
     "033777",
     "033169",
     "035148",
@@ -4111,7 +4109,6 @@
     "003907",
     "022917",
     "019752",
-    "002420",
     "033034",
     "029533",
     "032115",
@@ -5762,7 +5759,6 @@
     "035072",
     "031489",
     "041399",
-    "030343",
     "024104",
     "031993",
     "004377",
@@ -6684,7 +6680,6 @@
     "017471",
     "022591",
     "023898",
-    "031322",
     "029052",
     "022515",
     "029091",
@@ -7017,7 +7012,6 @@
     "042125",
     "026750",
     "024284",
-    "033867",
     "027825",
     "031455",
     "016294",
@@ -8036,6 +8030,7 @@
     "017105",
     "027951",
     "005029",
+    "036244",
     "038828",
     "030849",
     "033002",
@@ -8048,9 +8043,25 @@
     "027635",
     "034150",
     "036257",
-    "034380"
+    "034380",
+    "037058",
+    "042069"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042069",
+      "name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "price": 0.0
+    },
+    {
+      "store_number": "037058",
+      "name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "price": 0.0
+    },
     {
       "store_number": "034380",
       "name": "Taco Bell",
@@ -8106,23 +8117,99 @@
       "city": "Chicago",
       "state": "IL",
       "price": 0.0
-    },
-    {
-      "store_number": "039545",
-      "name": "Taco Bell",
-      "city": "Vernon",
-      "state": "NJ",
-      "price": 0.0
-    },
-    {
-      "store_number": "039106",
-      "name": "Taco Bell",
-      "city": "Elizabeth",
-      "state": "NJ",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "033867",
+      "store_name": "Taco Bell",
+      "city": "Broomfield",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:19.861238+00:00"
+    },
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:09:16.508649+00:00"
+    },
+    {
+      "store_number": "031322",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:16.151714+00:00"
+    },
+    {
+      "store_number": "030343",
+      "store_name": "Taco Bell",
+      "city": "Belgrade",
+      "state": "MT",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:00.372348+00:00"
+    },
+    {
+      "store_number": "037058",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:08:49.112940+00:00"
+    },
+    {
+      "store_number": "002420",
+      "store_name": "Taco Bell",
+      "city": "Fremont",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:36.748116+00:00"
+    },
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:24.427415+00:00"
+    },
+    {
+      "store_number": "035381",
+      "store_name": "Taco Bell",
+      "city": "Cordova",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:02:08.820244+00:00"
+    },
     {
       "store_number": "030849",
       "store_name": "Taco Bell",
@@ -9105,8 +9192,8 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
-    "removed": 46,
+    "added": 55,
+    "removed": 52,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14100,15 +14187,6 @@
       "Taco Bell",
       "Kissimmee",
       "FL"
-    ],
-    [
-      "035381",
-      35.1582627524025,
-      -89.72807204561748,
-      0.0,
-      "Taco Bell",
-      "Cordova",
-      "TN"
     ],
     [
       "035136",
@@ -37556,15 +37634,6 @@
       "IL"
     ],
     [
-      "028861",
-      39.80032567328473,
-      -86.26901320651086,
-      0.0,
-      "Taco Bell",
-      "Speedway",
-      "IN"
-    ],
-    [
       "033777",
       39.64820094904587,
       -84.10982206463814,
@@ -42837,15 +42906,6 @@
       "Taco Bell",
       "Hobart",
       "IN"
-    ],
-    [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      0.0,
-      "Taco Bell",
-      "Fremont",
-      "CA"
     ],
     [
       "033034",
@@ -57698,15 +57758,6 @@
       "NC"
     ],
     [
-      "030343",
-      45.77260856997961,
-      -111.18442663553651,
-      0.0,
-      "Taco Bell",
-      "Belgrade",
-      "MT"
-    ],
-    [
       "024104",
       36.85467280439808,
       -84.83840705515301,
@@ -65996,15 +66047,6 @@
       "CA"
     ],
     [
-      "031322",
-      47.19146228228417,
-      -122.41005152463913,
-      0.0,
-      "Taco Bell",
-      "Tacoma",
-      "WA"
-    ],
-    [
       "029052",
       35.90558945648954,
       -83.58061645926682,
@@ -68991,15 +69033,6 @@
       "Taco Bell",
       "Porterville",
       "CA"
-    ],
-    [
-      "033867",
-      39.914589448596615,
-      -105.05939527298324,
-      0.0,
-      "Taco Bell",
-      "Broomfield",
-      "CO"
     ],
     [
       "027825",
@@ -78164,6 +78197,15 @@
       "CA"
     ],
     [
+      "036244",
+      39.53105751055179,
+      -119.71590512967516,
+      0.0,
+      "Taco Bell",
+      "Sparks",
+      "NV"
+    ],
+    [
       "038828",
       44.63555134070558,
       -121.13039374351501,
@@ -78279,6 +78321,24 @@
       "Taco Bell",
       "Kansas City",
       "KS"
+    ],
+    [
+      "037058",
+      41.96042349443583,
+      -91.71171505960858,
+      0.0,
+      "Taco Bell",
+      "Cedar Rapids",
+      "IA"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.0,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ]
   ]
 }

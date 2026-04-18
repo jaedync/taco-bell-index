@@ -10,7 +10,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 8.61,
     "min": 5.5,
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$8.39",
-      "count": 104
+      "count": 102
     },
     {
       "bucket": "$8.49",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$8.69",
-      "count": 378
+      "count": 381
     },
     {
       "bucket": "$8.77",
@@ -146,7 +146,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 436
+      "count": 435
     },
     {
       "bucket": "$8.90",
@@ -360,7 +360,7 @@
     {
       "state": "PA",
       "avg_price": 8.9,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "CO",
@@ -405,7 +405,7 @@
     {
       "state": "OR",
       "avg_price": 8.73,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "NJ",
@@ -703,6 +703,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "002622",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 8.89,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:21.587862+00:00"
+    },
+    {
+      "store_number": "037728",
+      "store_name": "Taco Bell",
+      "city": "Kennesaw",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 8.39,
+      "new_price": 8.69,
+      "observed_at": "2026-04-18T22:07:50.855335+00:00"
+    },
+    {
+      "store_number": "032598",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 8.39,
+      "new_price": 8.69,
+      "observed_at": "2026-04-18T22:07:48.634437+00:00"
+    },
+    {
+      "store_number": "032055",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 8.39,
+      "new_price": 8.69,
+      "observed_at": "2026-04-18T22:07:43.690025+00:00"
+    },
     {
       "store_number": "038752",
       "store_name": "Taco Bell",
@@ -13495,9 +13545,9 @@
     }
   ],
   "activity_summary": {
-    "added": 79,
-    "removed": 75,
-    "price_changed": 1125,
+    "added": 80,
+    "removed": 76,
+    "price_changed": 1128,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 500,
@@ -36004,15 +36054,6 @@
       "VA"
     ],
     [
-      "032055",
-      34.0647052,
-      -83.9841147,
-      8.39,
-      "Taco Bell",
-      "Buford",
-      "GA"
-    ],
-    [
       "036440",
       29.76947140914625,
       -95.18562274305239,
@@ -36076,15 +36117,6 @@
       "FL"
     ],
     [
-      "032598",
-      33.7277324733473,
-      -84.74573254884817,
-      8.39,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "024041",
       39.03217835633538,
       -77.4236547897327,
@@ -36092,15 +36124,6 @@
       "Taco Bell",
       "Dulles",
       "VA"
-    ],
-    [
-      "037728",
-      34.01794478344271,
-      -84.56413769853002,
-      8.39,
-      "Taco Bell",
-      "Kennesaw",
-      "GA"
     ],
     [
       "042832",
@@ -36776,6 +36799,15 @@
       "Taco Bell",
       "Newcomerstown",
       "OH"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      8.39,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "040631",
@@ -44680,6 +44712,15 @@
       "KY"
     ],
     [
+      "032055",
+      34.0647052,
+      -83.9841147,
+      8.69,
+      "Taco Bell",
+      "Buford",
+      "GA"
+    ],
+    [
       "026729",
       37.007155526088205,
       -94.5523242673654,
@@ -44860,6 +44901,15 @@
       "TN"
     ],
     [
+      "032598",
+      33.7277324733473,
+      -84.74573254884817,
+      8.69,
+      "Taco Bell",
+      "Douglasville",
+      "GA"
+    ],
+    [
       "022913",
       34.07034639873041,
       -118.44414984633126,
@@ -44912,6 +44962,15 @@
       "Taco Bell",
       "Avon",
       "IN"
+    ],
+    [
+      "037728",
+      34.01794478344271,
+      -84.56413769853002,
+      8.69,
+      "Taco Bell",
+      "Kennesaw",
+      "GA"
     ],
     [
       "040002",
@@ -59699,15 +59758,6 @@
       "Taco Bell / Long John Silver's",
       "Chicago",
       "IL"
-    ],
-    [
-      "002622",
-      45.48672034076847,
-      -122.74437301261048,
-      8.89,
-      "Taco Bell",
-      "Portland",
-      "OR"
     ],
     [
       "023838",

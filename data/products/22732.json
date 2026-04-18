@@ -17,7 +17,7 @@
     "max": 1.09,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6893
+    "store_count": 6899
   },
   "histogram": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 341
+      "count": 342
     },
     {
       "bucket": "$0.25",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 410
+      "count": 411
     },
     {
       "bucket": "$0.43",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 756
+      "count": 757
     },
     {
       "bucket": "$0.55",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 337
+      "count": 338
     },
     {
       "bucket": "$0.60",
@@ -98,11 +98,11 @@
     },
     {
       "bucket": "$0.75",
-      "count": 525
+      "count": 526
     },
     {
       "bucket": "$0.79",
-      "count": 185
+      "count": 186
     },
     {
       "bucket": "$0.80",
@@ -196,7 +196,7 @@
     {
       "state": "MD",
       "avg_price": 0.71,
-      "store_count": 86
+      "store_count": 87
     },
     {
       "state": "DE",
@@ -211,7 +211,7 @@
     {
       "state": "CA",
       "avg_price": 0.69,
-      "store_count": 804
+      "store_count": 805
     },
     {
       "state": "NY",
@@ -229,14 +229,14 @@
       "store_count": 43
     },
     {
-      "state": "PA",
-      "avg_price": 0.66,
-      "store_count": 191
-    },
-    {
       "state": "OR",
       "avg_price": 0.66,
       "store_count": 121
+    },
+    {
+      "state": "PA",
+      "avg_price": 0.66,
+      "store_count": 192
     },
     {
       "state": "VA",
@@ -261,7 +261,7 @@
     {
       "state": "NC",
       "avg_price": 0.61,
-      "store_count": 242
+      "store_count": 244
     },
     {
       "state": "WI",
@@ -401,7 +401,7 @@
     {
       "state": "OK",
       "avg_price": 0.26,
-      "store_count": 120
+      "store_count": 121
     },
     {
       "state": "AR",
@@ -573,6 +573,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "039980",
+      "store_name": "Taco Bell",
+      "city": "Solomons",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-18T22:09:17.187395+00:00"
+    },
+    {
+      "store_number": "004257",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-04-18T22:08:59.874889+00:00"
+    },
+    {
+      "store_number": "005568",
+      "store_name": "Taco Bell",
+      "city": "Raleigh",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-18T22:08:51.979435+00:00"
+    },
+    {
+      "store_number": "021470",
+      "store_name": "Taco Bell",
+      "city": "Lansing",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:38.204330+00:00"
+    },
+    {
+      "store_number": "028473",
+      "store_name": "Taco Bell",
+      "city": "Canoga Park",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-18T22:08:12.951503+00:00"
+    },
+    {
+      "store_number": "002945",
+      "store_name": "Taco Bell",
+      "city": "St. Johns",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-04-18T22:08:09.184023+00:00"
+    },
+    {
+      "store_number": "030384",
+      "store_name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-18T22:08:06.217553+00:00"
+    },
     {
       "store_number": "032180",
       "store_name": "Taco Bell",
@@ -9295,8 +9375,8 @@
     }
   ],
   "activity_summary": {
-    "added": 195,
-    "removed": 670,
+    "added": 202,
+    "removed": 671,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12399,6 +12479,15 @@
       0.2,
       "Taco Bell",
       "Owasso",
+      "OK"
+    ],
+    [
+      "030384",
+      35.4971053401798,
+      -97.74209359411932,
+      0.2,
+      "Taco Bell",
+      "Yukon",
       "OK"
     ],
     [
@@ -19465,6 +19554,15 @@
       "Taco Bell",
       "Columbus",
       "OH"
+    ],
+    [
+      "004257",
+      35.90284200515392,
+      -78.89466628432268,
+      0.4,
+      "Taco Bell",
+      "Durham",
+      "NC"
     ],
     [
       "004201",
@@ -27315,6 +27413,15 @@
       "MI"
     ],
     [
+      "005568",
+      35.817458198369295,
+      -78.59793805907591,
+      0.5,
+      "Taco Bell",
+      "Raleigh",
+      "NC"
+    ],
+    [
       "036193",
       41.928346754216264,
       -87.86439970135694,
@@ -34954,6 +35061,15 @@
       "Taco Bell",
       "Howell",
       "NJ"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.59,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "040336",
@@ -60129,6 +60245,15 @@
       "CA"
     ],
     [
+      "039980",
+      38.34624742729676,
+      -76.45996749401098,
+      0.75,
+      "Taco Bell",
+      "Solomons",
+      "MD"
+    ],
+    [
       "031329",
       47.290070639580264,
       -122.31657077373711,
@@ -62673,6 +62798,15 @@
       0.79,
       "Taco Bell",
       "San Diego",
+      "CA"
+    ],
+    [
+      "028473",
+      34.21880176807836,
+      -118.58804873816345,
+      0.79,
+      "Taco Bell",
+      "Canoga Park",
       "CA"
     ],
     [
@@ -70785,6 +70919,15 @@
       "MI"
     ],
     [
+      "002945",
+      42.99177248653248,
+      -84.54689741134644,
+      0.99,
+      "Taco Bell",
+      "St. Johns",
+      "MI"
+    ],
+    [
       "024657",
       43.81743443023389,
       -83.00031663129316,
@@ -70890,15 +71033,6 @@
       0.99,
       "Taco Bell",
       "Standish",
-      "MI"
-    ],
-    [
-      "021470",
-      42.740570389681004,
-      -84.61094246061293,
-      0.99,
-      "Taco Bell",
-      "Lansing",
       "MI"
     ],
     [

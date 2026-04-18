@@ -17,7 +17,7 @@
     "max": 7.59,
     "median": 5.29,
     "std_dev": 0.58,
-    "store_count": 3393
+    "store_count": 3391
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$4.32",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$5.79",
-      "count": 271
+      "count": 270
     },
     {
       "bucket": "$5.89",
@@ -210,7 +210,7 @@
     {
       "state": "CA",
       "avg_price": 5.76,
-      "store_count": 616
+      "store_count": 615
     },
     {
       "state": "NY",
@@ -270,7 +270,7 @@
     {
       "state": "NV",
       "avg_price": 5.12,
-      "store_count": 75
+      "store_count": 74
     },
     {
       "state": "GA",
@@ -551,6 +551,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031894",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:23.286174+00:00"
+    },
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:51.607071+00:00"
+    },
+    {
+      "store_number": "002057",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-18T22:08:46.297053+00:00"
+    },
+    {
+      "store_number": "028905",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:27.476382+00:00"
+    },
     {
       "store_number": "024685",
       "store_name": "Taco Bell",
@@ -3603,8 +3643,8 @@
     }
   ],
   "activity_summary": {
-    "added": 120,
-    "removed": 111,
+    "added": 121,
+    "removed": 114,
     "price_changed": 74,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5006,15 +5046,6 @@
       4.29,
       "Taco Bell",
       "Peru",
-      "IN"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      4.29,
-      "Taco Bell",
-      "Indianapolis",
       "IN"
     ],
     [
@@ -15368,6 +15399,15 @@
       "NV"
     ],
     [
+      "002057",
+      39.76917983510871,
+      -86.1092864424154,
+      4.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "042933",
       29.22136972864249,
       -82.14614545823775,
@@ -17418,15 +17458,6 @@
       "Taco Bell",
       "Jesup",
       "GA"
-    ],
-    [
-      "031894",
-      36.121854601482426,
-      -115.13938848675934,
-      4.99,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "031881",
@@ -27146,15 +27177,6 @@
       5.79,
       "Taco Bell",
       "Tracy",
-      "CA"
-    ],
-    [
-      "030798",
-      37.31417153364949,
-      -121.79288823904244,
-      5.79,
-      "Taco Bell",
-      "San Jose",
       "CA"
     ],
     [

@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7617
+    "store_count": 7619
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.39",
-      "count": 321
+      "count": 322
     },
     {
       "bucket": "$0.40",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 609
+      "count": 610
     },
     {
       "bucket": "$0.79",
@@ -216,14 +216,14 @@
       "store_count": 27
     },
     {
+      "state": "VA",
+      "avg_price": 0.66,
+      "store_count": 198
+    },
+    {
       "state": "WA",
       "avg_price": 0.66,
       "store_count": 136
-    },
-    {
-      "state": "VA",
-      "avg_price": 0.66,
-      "store_count": 197
     },
     {
       "state": "DE",
@@ -323,7 +323,7 @@
     {
       "state": "PA",
       "avg_price": 0.58,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "MO",
@@ -570,6 +570,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.39,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "031463",
+      "store_name": "Taco Bell",
+      "city": "Suffolk",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-18T22:08:24.626626+00:00"
+    },
     {
       "store_number": "041564",
       "store_name": "Taco Bell",
@@ -1042,7 +1062,7 @@
     }
   ],
   "activity_summary": {
-    "added": 22,
+    "added": 24,
     "removed": 23,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
@@ -7765,6 +7785,15 @@
       "Taco Bell",
       "Washington",
       "DC"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.39,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "041134",
@@ -56103,6 +56132,15 @@
       0.75,
       "Taco Bell / Pizza Hut",
       "Front Royal",
+      "VA"
+    ],
+    [
+      "031463",
+      36.879049834421245,
+      -76.42300663281048,
+      0.75,
+      "Taco Bell",
+      "Suffolk",
       "VA"
     ],
     [

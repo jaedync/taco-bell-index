@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 53
+    "store_count": 52
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 53
+      "count": 52
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 53
+      "store_count": 52
     }
   ],
   "nutrition": {
@@ -168,7 +168,6 @@
     "001591",
     "039686",
     "033309",
-    "032514",
     "039685",
     "033315",
     "037362",
@@ -200,13 +199,6 @@
       "store_number": "039685",
       "name": "Taco Bell",
       "city": "Lapeer",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "032514",
-      "name": "Taco Bell",
-      "city": "Fowlerville",
       "state": "MI",
       "price": 4.99
     },
@@ -244,9 +236,26 @@
       "city": "Canton",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "037839",
+      "name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:02.597671+00:00"
+    },
     {
       "store_number": "001999",
       "store_name": "Taco Bell",
@@ -780,7 +789,7 @@
   ],
   "activity_summary": {
     "added": 53,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1219,15 +1228,6 @@
       4.99,
       "Taco Bell",
       "Clarkston",
-      "MI"
-    ],
-    [
-      "032514",
-      42.6514917,
-      -84.0732928,
-      4.99,
-      "Taco Bell",
-      "Fowlerville",
       "MI"
     ],
     [

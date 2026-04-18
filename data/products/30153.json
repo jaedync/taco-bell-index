@@ -17,7 +17,7 @@
     "max": 7.39,
     "median": 4.99,
     "std_dev": 0.62,
-    "store_count": 3423
+    "store_count": 3421
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 49
+      "count": 48
     },
     {
       "bucket": "$4.39",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 256
+      "count": 255
     },
     {
       "bucket": "$4.89",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 239
+      "count": 240
     },
     {
       "bucket": "$5.29",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$5.79",
-      "count": 151
+      "count": 150
     },
     {
       "bucket": "$5.89",
@@ -217,7 +217,7 @@
     {
       "state": "CA",
       "avg_price": 5.57,
-      "store_count": 622
+      "store_count": 621
     },
     {
       "state": "HI",
@@ -237,7 +237,7 @@
     {
       "state": "MI",
       "avg_price": 5.29,
-      "store_count": 188
+      "store_count": 189
     },
     {
       "state": "IL",
@@ -315,6 +315,11 @@
       "store_count": 75
     },
     {
+      "state": "IN",
+      "avg_price": 4.88,
+      "store_count": 128
+    },
+    {
       "state": "SC",
       "avg_price": 4.88,
       "store_count": 33
@@ -323,11 +328,6 @@
       "state": "GA",
       "avg_price": 4.88,
       "store_count": 60
-    },
-    {
-      "state": "IN",
-      "avg_price": 4.87,
-      "store_count": 130
     },
     {
       "state": "VA",
@@ -563,6 +563,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:51.607071+00:00"
+    },
+    {
+      "store_number": "028905",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:27.476382+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.19,
+      "observed_at": "2026-04-18T22:07:54.352057+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:42.680734+00:00"
+    },
     {
       "store_number": "029244",
       "store_name": "Taco Bell / Pizza Hut",
@@ -2525,8 +2565,8 @@
     }
   ],
   "activity_summary": {
-    "added": 84,
-    "removed": 79,
+    "added": 85,
+    "removed": 82,
     "price_changed": 33,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5441,15 +5481,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      4.29,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "031986",
@@ -9302,15 +9333,6 @@
       "Taco Bell",
       "Junction City",
       "OR"
-    ],
-    [
-      "043007",
-      39.85505652122834,
-      -86.24080654485579,
-      4.79,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "043006",
@@ -18878,6 +18900,15 @@
       "Taco Bell",
       "Cheraw",
       "SC"
+    ],
+    [
+      "023745",
+      42.224730175482414,
+      -83.4856314762491,
+      5.19,
+      "Taco Bell",
+      "Belleville",
+      "MI"
     ],
     [
       "036153",
@@ -29398,15 +29429,6 @@
       5.79,
       "Taco Bell",
       "Tracy",
-      "CA"
-    ],
-    [
-      "030798",
-      37.31417153364949,
-      -121.79288823904244,
-      5.79,
-      "Taco Bell",
-      "San Jose",
       "CA"
     ],
     [

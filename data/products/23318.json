@@ -19,7 +19,7 @@
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7008
+    "store_count": 7009
   },
   "histogram": [
     {
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2541
+      "count": 2542
     },
     {
       "bucket": "$3.09",
@@ -124,7 +124,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 293
+      "count": 294
     },
     {
       "bucket": "$3.70",
@@ -164,7 +164,7 @@
     },
     {
       "bucket": "$4.12",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$4.18",
@@ -289,7 +289,7 @@
     {
       "state": "PA",
       "avg_price": 3.4,
-      "store_count": 171
+      "store_count": 172
     },
     {
       "state": "OR",
@@ -317,14 +317,14 @@
       "store_count": 64
     },
     {
-      "state": "NJ",
-      "avg_price": 3.22,
-      "store_count": 122
-    },
-    {
       "state": "FL",
       "avg_price": 3.21,
       "store_count": 449
+    },
+    {
+      "state": "NJ",
+      "avg_price": 3.21,
+      "store_count": 121
     },
     {
       "state": "DC",
@@ -404,7 +404,7 @@
     {
       "state": "TX",
       "avg_price": 3.13,
-      "store_count": 690
+      "store_count": 691
     },
     {
       "state": "IA",
@@ -629,6 +629,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 4.12,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:28.984801+00:00"
+    },
+    {
+      "store_number": "036760",
+      "store_name": "Taco Bell",
+      "city": "Eastland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-04-18T22:09:14.986062+00:00"
+    },
     {
       "store_number": "038752",
       "store_name": "Taco Bell",
@@ -16531,8 +16561,8 @@
     }
   ],
   "activity_summary": {
-    "added": 51,
-    "removed": 653,
+    "added": 53,
+    "removed": 654,
     "price_changed": 886,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -44010,6 +44040,15 @@
       "OH"
     ],
     [
+      "042069",
+      41.014994,
+      -76.488057,
+      2.99,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
+    ],
+    [
       "040904",
       41.97753928980377,
       -87.66811113265531,
@@ -69345,6 +69384,15 @@
       "TN"
     ],
     [
+      "036760",
+      32.40198193413796,
+      -98.79320991600373,
+      3.69,
+      "Taco Bell",
+      "Eastland",
+      "TX"
+    ],
+    [
       "004436",
       35.78450239652823,
       -80.2598056644365,
@@ -76200,15 +76248,6 @@
       4.12,
       "Taco Bell",
       "Franklin",
-      "NJ"
-    ],
-    [
-      "039545",
-      41.19914267445654,
-      -74.48748706784548,
-      4.12,
-      "Taco Bell",
-      "Vernon",
       "NJ"
     ],
     [

@@ -18,12 +18,12 @@
     "max": 10.99,
     "median": 6.99,
     "std_dev": 0.4,
-    "store_count": 100
+    "store_count": 99
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 99
+      "count": 98
     },
     {
       "bucket": "$10.99",
@@ -34,7 +34,7 @@
     {
       "state": "FL",
       "avg_price": 7.03,
-      "store_count": 99
+      "store_count": 98
     }
   ],
   "nutrition": {
@@ -212,7 +212,6 @@
     "004435",
     "030277",
     "042928",
-    "042927",
     "023297",
     "037822",
     "023291",
@@ -297,6 +296,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:25.881563+00:00"
+    },
     {
       "store_number": "027969",
       "store_name": "Taco Bell",
@@ -1300,7 +1309,7 @@
   ],
   "activity_summary": {
     "added": 99,
-    "removed": 1,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2118,15 +2127,6 @@
       6.99,
       "Taco Bell",
       "Palm Coast",
-      "FL"
-    ],
-    [
-      "042927",
-      29.07398294969833,
-      -82.07236339153496,
-      6.99,
-      "Taco Bell",
-      "Belleview",
       "FL"
     ],
     [

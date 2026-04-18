@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
-  "availability_pct": 0.5,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 4.03,
     "min": 3.99,
     "max": 5.49,
     "median": 3.99,
-    "std_dev": 0.25,
-    "store_count": 35
+    "std_dev": 0.26,
+    "store_count": 34
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 34
+      "count": 33
     },
     {
       "bucket": "$5.49",
@@ -33,8 +33,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 4.03,
-      "store_count": 34
+      "avg_price": 4.04,
+      "store_count": 33
     }
   ],
   "nutrition": {
@@ -153,7 +153,6 @@
     "021472",
     "022588",
     "004435",
-    "042927",
     "023297",
     "037822",
     "032959",
@@ -196,13 +195,6 @@
       "price": 3.99
     },
     {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
-      "state": "FL",
-      "price": 3.99
-    },
-    {
       "store_number": "004435",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -229,9 +221,26 @@
       "city": "New Smyrna Beach",
       "state": "FL",
       "price": 3.99
+    },
+    {
+      "store_number": "042924",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 3.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:25.881563+00:00"
+    },
     {
       "store_number": "038869",
       "store_name": "Taco Bell",
@@ -565,7 +574,7 @@
   ],
   "activity_summary": {
     "added": 33,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -846,15 +855,6 @@
       3.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "042927",
-      29.07398294969833,
-      -82.07236339153496,
-      3.99,
-      "Taco Bell",
-      "Belleview",
       "FL"
     ],
     [

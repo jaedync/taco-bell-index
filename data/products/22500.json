@@ -56,7 +56,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 117
+      "count": 118
     },
     {
       "bucket": "$2.12",
@@ -104,7 +104,7 @@
     },
     {
       "bucket": "$2.91",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$2.93",
@@ -305,14 +305,14 @@
       "store_count": 91
     },
     {
-      "state": "PA",
-      "avg_price": 2.91,
-      "store_count": 201
-    },
-    {
       "state": "AR",
       "avg_price": 2.91,
       "store_count": 114
+    },
+    {
+      "state": "PA",
+      "avg_price": 2.91,
+      "store_count": 202
     },
     {
       "state": "LA",
@@ -437,7 +437,7 @@
     {
       "state": "NJ",
       "avg_price": 2.54,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "KS",
@@ -618,6 +618,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 2.91,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:28.984801+00:00"
+    },
     {
       "store_number": "038752",
       "store_name": "Taco Bell",
@@ -3840,8 +3860,8 @@
     }
   ],
   "activity_summary": {
-    "added": 47,
-    "removed": 39,
+    "added": 48,
+    "removed": 40,
     "price_changed": 236,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5928,6 +5948,15 @@
       "Taco Bell",
       "Holmen",
       "WI"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      1.99,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "032954",
@@ -33287,15 +33316,6 @@
       2.91,
       "Taco Bell",
       "Franklin",
-      "NJ"
-    ],
-    [
-      "039545",
-      41.19914267445654,
-      -74.48748706784548,
-      2.91,
-      "Taco Bell",
-      "Vernon",
       "NJ"
     ],
     [

@@ -12,12 +12,12 @@
   "first_seen_at": "2026-03-30T00:40:09.042450+00:00",
   "availability_pct": 9.0,
   "price_stats": {
-    "avg": 7.48,
+    "avg": 7.47,
     "min": 4.99,
     "max": 10.1,
     "median": 7.59,
     "std_dev": 0.9,
-    "store_count": 691
+    "store_count": 696
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$6.69",
@@ -86,19 +86,19 @@
     },
     {
       "bucket": "$6.79",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$6.89",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$6.99",
-      "count": 99
+      "count": 100
     },
     {
       "bucket": "$7.19",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$7.29",
@@ -110,7 +110,7 @@
     },
     {
       "bucket": "$7.49",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$7.59",
@@ -130,11 +130,11 @@
     },
     {
       "bucket": "$7.89",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$7.99",
-      "count": 65
+      "count": 66
     },
     {
       "bucket": "$8.00",
@@ -154,7 +154,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 41
+      "count": 40
     },
     {
       "bucket": "$8.59",
@@ -194,7 +194,7 @@
     {
       "state": "WA",
       "avg_price": 8.46,
-      "store_count": 115
+      "store_count": 114
     },
     {
       "state": "UT",
@@ -212,14 +212,14 @@
       "store_count": 10
     },
     {
+      "state": "NV",
+      "avg_price": 7.87,
+      "store_count": 16
+    },
+    {
       "state": "CA",
       "avg_price": 7.87,
       "store_count": 60
-    },
-    {
-      "state": "NV",
-      "avg_price": 7.85,
-      "store_count": 17
     },
     {
       "state": "CO",
@@ -228,8 +228,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 7.41,
-      "store_count": 25
+      "avg_price": 7.39,
+      "store_count": 26
     },
     {
       "state": "VA",
@@ -247,24 +247,24 @@
       "store_count": 103
     },
     {
+      "state": "AZ",
+      "avg_price": 7.16,
+      "store_count": 9
+    },
+    {
       "state": "ID",
       "avg_price": 7.11,
       "store_count": 32
     },
     {
-      "state": "AZ",
-      "avg_price": 7.1,
-      "store_count": 7
-    },
-    {
       "state": "OH",
-      "avg_price": 7.05,
-      "store_count": 40
+      "avg_price": 7.08,
+      "store_count": 41
     },
     {
       "state": "MN",
-      "avg_price": 7.04,
-      "store_count": 10
+      "avg_price": 7.05,
+      "store_count": 11
     },
     {
       "state": "FL",
@@ -283,8 +283,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 6.93,
-      "store_count": 35
+      "avg_price": 6.92,
+      "store_count": 37
     },
     {
       "state": "WI",
@@ -479,6 +479,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031321",
+      "store_name": "Taco Bell",
+      "city": "Tacoma",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 8.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:24.857938+00:00"
+    },
+    {
+      "store_number": "005714",
+      "store_name": "Taco Bell",
+      "city": "Monticello",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.19,
+      "observed_at": "2026-04-18T22:09:19.445116+00:00"
+    },
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:16.508649+00:00"
+    },
+    {
+      "store_number": "037563",
+      "store_name": "Taco Bell",
+      "city": "Queen Creek",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.89,
+      "observed_at": "2026-04-18T22:09:04.197536+00:00"
+    },
+    {
+      "store_number": "027042",
+      "store_name": "Taco Bell",
+      "city": "Vermilion",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-18T22:07:56.416730+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-18T22:07:54.352057+00:00"
+    },
+    {
+      "store_number": "041882",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.79,
+      "observed_at": "2026-04-18T22:07:44.812675+00:00"
+    },
+    {
+      "store_number": "036418",
+      "store_name": "Taco Bell",
+      "city": "Caledonia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-04-18T22:07:41.575227+00:00"
+    },
+    {
+      "store_number": "040640",
+      "store_name": "Taco Bell",
+      "city": "Shelby",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.89,
+      "observed_at": "2026-04-18T21:51:31.995340+00:00"
+    },
     {
       "store_number": "032200",
       "store_name": "Taco Bell",
@@ -4761,8 +4851,8 @@
     }
   ],
   "activity_summary": {
-    "added": 277,
-    "removed": 145,
+    "added": 284,
+    "removed": 147,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4775,6 +4865,12 @@
       "title": "Fountain Drink - Medium",
       "default_product_code": "22901",
       "default_product_name": "Medium Fountain Drink"
+    },
+    {
+      "group_id": "301",
+      "title": "Breakfast Quesadilla Sausage",
+      "default_product_code": "30152",
+      "default_product_name": "Breakfast Quesadilla Sausage"
     },
     {
       "group_id": "315",
@@ -5793,6 +5889,15 @@
       "MI"
     ],
     [
+      "036418",
+      42.80602736486148,
+      -85.50658579751232,
+      6.59,
+      "Taco Bell",
+      "Caledonia",
+      "MI"
+    ],
+    [
       "036229",
       39.76228258862376,
       -86.40258890426958,
@@ -6216,6 +6321,15 @@
       "FL"
     ],
     [
+      "041882",
+      31.9694585,
+      -110.3039098,
+      6.79,
+      "Taco Bell",
+      "Benson",
+      "AZ"
+    ],
+    [
       "035845",
       46.7478484,
       -92.1565844,
@@ -6477,6 +6591,15 @@
       "WI"
     ],
     [
+      "040640",
+      35.267720540706065,
+      -81.48348188910406,
+      6.89,
+      "Taco Bell",
+      "Shelby",
+      "NC"
+    ],
+    [
       "041686",
       43.601904,
       -83.168431,
@@ -6574,6 +6697,15 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "023745",
+      42.224730175482414,
+      -83.4856314762491,
+      6.99,
+      "Taco Bell",
+      "Belleville",
+      "MI"
     ],
     [
       "003293",
@@ -7395,6 +7527,15 @@
       "MD"
     ],
     [
+      "005714",
+      45.299898590594516,
+      -93.79657967831008,
+      7.19,
+      "Taco Bell",
+      "Monticello",
+      "MN"
+    ],
+    [
       "036439",
       45.13279750925346,
       -93.47865429307748,
@@ -7744,15 +7885,6 @@
       "Taco Bell",
       "Woodbridge",
       "VA"
-    ],
-    [
-      "036244",
-      39.53105751055179,
-      -119.71590512967516,
-      7.49,
-      "Taco Bell",
-      "Sparks",
-      "NV"
     ],
     [
       "036399",
@@ -8880,6 +9012,15 @@
       "CO"
     ],
     [
+      "037563",
+      33.283554821391604,
+      -111.68420054062074,
+      7.89,
+      "Taco Bell",
+      "Queen Creek",
+      "AZ"
+    ],
+    [
       "040609",
       43.46831583559456,
       -112.08081778862304,
@@ -8905,6 +9046,15 @@
       "Taco Bell",
       "San Jose",
       "CA"
+    ],
+    [
+      "027042",
+      41.403417895947996,
+      -82.36414696276597,
+      7.99,
+      "Taco Bell",
+      "Vermilion",
+      "OH"
     ],
     [
       "028167",
@@ -10083,15 +10233,6 @@
       8.49,
       "Taco Bell",
       "Sequim",
-      "WA"
-    ],
-    [
-      "031321",
-      47.160731525872336,
-      -122.43381087954022,
-      8.49,
-      "Taco Bell",
-      "Tacoma",
       "WA"
     ],
     [

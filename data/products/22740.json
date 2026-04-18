@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 90.8,
+  "availability_pct": 90.9,
   "price_stats": {
     "avg": 0.97,
     "min": 0.3,
     "max": 2.19,
     "median": 1.0,
     "std_dev": 0.23,
-    "store_count": 6998
+    "store_count": 7001
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 198
+      "count": 199
     },
     {
       "bucket": "$0.65",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 176
+      "count": 177
     },
     {
       "bucket": "$0.79",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 1888
+      "count": 1889
     },
     {
       "bucket": "$1.04",
@@ -295,14 +295,14 @@
       "store_count": 446
     },
     {
-      "state": "PA",
-      "avg_price": 1.02,
-      "store_count": 171
-    },
-    {
       "state": "AL",
       "avg_price": 1.02,
       "store_count": 160
+    },
+    {
+      "state": "PA",
+      "avg_price": 1.02,
+      "store_count": 172
     },
     {
       "state": "WA",
@@ -407,7 +407,7 @@
     {
       "state": "TX",
       "avg_price": 0.83,
-      "store_count": 695
+      "store_count": 696
     },
     {
       "state": "UT",
@@ -452,7 +452,7 @@
     {
       "state": "SD",
       "avg_price": 0.61,
-      "store_count": 15
+      "store_count": 16
     },
     {
       "state": "MN",
@@ -633,6 +633,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "036760",
+      "store_name": "Taco Bell",
+      "city": "Eastland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-04-18T22:09:14.986062+00:00"
+    },
+    {
+      "store_number": "031425",
+      "store_name": "Taco Bell",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-18T22:08:46.643151+00:00"
+    },
     {
       "store_number": "034274",
       "store_name": "Taco Bell Cantina Cantina",
@@ -7335,7 +7365,7 @@
     }
   ],
   "activity_summary": {
-    "added": 16,
+    "added": 19,
     "removed": 628,
     "price_changed": 26,
     "since": "2026-03-31T00:00:00+00:00"
@@ -13403,6 +13433,15 @@
       "KS"
     ],
     [
+      "031425",
+      43.54633419686592,
+      -96.68431082371171,
+      0.6,
+      "Taco Bell",
+      "Sioux Falls",
+      "SD"
+    ],
+    [
       "030724",
       33.92225174259553,
       -116.8055075813824,
@@ -17919,6 +17958,15 @@
       "Taco Bell",
       "Ruidoso",
       "NM"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.75,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "040791",
@@ -50247,6 +50295,15 @@
       "Taco Bell",
       "Merced",
       "CA"
+    ],
+    [
+      "036760",
+      32.40198193413796,
+      -98.79320991600373,
+      1.0,
+      "Taco Bell",
+      "Eastland",
+      "TX"
     ],
     [
       "033627",

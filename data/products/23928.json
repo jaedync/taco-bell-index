@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 104
+    "store_count": 102
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 104
+      "count": 102
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 104
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -149,7 +149,6 @@
     "027886",
     "001571",
     "024649",
-    "021292",
     "033313",
     "038975",
     "027374",
@@ -202,7 +201,6 @@
     "024444",
     "027361",
     "024650",
-    "021229",
     "037839",
     "001439",
     "001691",
@@ -216,10 +214,10 @@
     "039686",
     "033309",
     "040007",
-    "032514",
     "001661",
     "003294",
     "029334",
+    "039685",
     "033315",
     "031472",
     "037362",
@@ -255,6 +253,13 @@
       "price": 5.49
     },
     {
+      "store_number": "039685",
+      "name": "Taco Bell",
+      "city": "Lapeer",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "029334",
       "name": "Taco Bell",
       "city": "Romulus",
@@ -276,13 +281,6 @@
       "price": 5.49
     },
     {
-      "store_number": "032514",
-      "name": "Taco Bell",
-      "city": "Fowlerville",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
       "store_number": "040007",
       "name": "Taco Bell",
       "city": "Lake Orion",
@@ -298,6 +296,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039685",
+      "store_name": "Taco Bell",
+      "city": "Lapeer",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-18T22:08:03.300687+00:00"
+    },
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:02.597671+00:00"
+    },
+    {
+      "store_number": "021229",
+      "store_name": "Taco Bell",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:59.382042+00:00"
+    },
+    {
+      "store_number": "021292",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:07:54.786162+00:00"
+    },
     {
       "store_number": "039685",
       "store_name": "Taco Bell",
@@ -1360,8 +1398,8 @@
     }
   ],
   "activity_summary": {
-    "added": 105,
-    "removed": 1,
+    "added": 106,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1642,15 +1680,6 @@
       5.49,
       "Taco Bell",
       "Warren",
-      "MI"
-    ],
-    [
-      "021292",
-      42.215707493747495,
-      -83.18165165889548,
-      5.49,
-      "Taco Bell",
-      "Southgate",
       "MI"
     ],
     [
@@ -2122,15 +2151,6 @@
       "MI"
     ],
     [
-      "021229",
-      42.56092585729545,
-      -83.02868924570248,
-      5.49,
-      "Taco Bell",
-      "Sterling Heights",
-      "MI"
-    ],
-    [
       "037839",
       42.23087868339839,
       -83.73982473278835,
@@ -2248,15 +2268,6 @@
       "MI"
     ],
     [
-      "032514",
-      42.6514917,
-      -84.0732928,
-      5.49,
-      "Taco Bell",
-      "Fowlerville",
-      "MI"
-    ],
-    [
       "001661",
       42.35000651139183,
       -83.27328178973356,
@@ -2281,6 +2292,15 @@
       5.49,
       "Taco Bell",
       "Romulus",
+      "MI"
+    ],
+    [
+      "039685",
+      43.03627005453491,
+      -83.32316100597382,
+      5.49,
+      "Taco Bell",
+      "Lapeer",
       "MI"
     ],
     [

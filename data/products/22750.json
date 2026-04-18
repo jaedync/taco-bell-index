@@ -17,7 +17,7 @@
     "max": 1.0,
     "median": 0.25,
     "std_dev": 0.23,
-    "store_count": 7669
+    "store_count": 7670
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 980
+      "count": 981
     },
     {
       "bucket": "$0.52",
@@ -250,14 +250,14 @@
       "store_count": 87
     },
     {
+      "state": "PA",
+      "avg_price": 0.31,
+      "store_count": 202
+    },
+    {
       "state": "OK",
       "avg_price": 0.31,
       "store_count": 126
-    },
-    {
-      "state": "PA",
-      "avg_price": 0.31,
-      "store_count": 201
     },
     {
       "state": "CA",
@@ -2706,6 +2706,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
       "store_number": "038752",
       "store_name": "Taco Bell",
       "city": "Leadville",
@@ -2927,7 +2937,7 @@
     }
   ],
   "activity_summary": {
-    "added": 6,
+    "added": 7,
     "removed": 4,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
@@ -59780,6 +59790,15 @@
       "Taco Bell",
       "Winter Garden",
       "FL"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.5,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "032954",

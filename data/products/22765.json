@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7670
+    "store_count": 7671
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7670
+      "count": 7671
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 135
+      "store_count": 134
     },
     {
       "state": "VA",
@@ -84,7 +84,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "OR",
@@ -99,7 +99,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 410
+      "store_count": 411
     },
     {
       "state": "NY",
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 85
+      "store_count": 86
     },
     {
       "state": "NM",
@@ -214,7 +214,7 @@
     {
       "state": "IA",
       "avg_price": 0.0,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "HI",
@@ -229,7 +229,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 453
+      "store_count": 452
     },
     {
       "state": "DE",
@@ -254,7 +254,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 837
+      "store_count": 836
     },
     {
       "state": "AZ",
@@ -3772,7 +3772,6 @@
     "037056",
     "030789",
     "001089",
-    "042922",
     "029404",
     "035321",
     "041224",
@@ -6754,7 +6753,6 @@
     "031444",
     "032527",
     "032347",
-    "032030",
     "031983",
     "020073",
     "022230",
@@ -7606,7 +7604,6 @@
     "029849",
     "032215",
     "033620",
-    "041263",
     "016486",
     "023218",
     "016317",
@@ -8028,14 +8025,39 @@
     "004161",
     "017105",
     "031966",
+    "036244",
     "034786",
     "034661",
     "040419",
     "015885",
     "041229",
-    "017611"
+    "017611",
+    "003791",
+    "037058",
+    "042069"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042069",
+      "name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "price": 0.0
+    },
+    {
+      "store_number": "037058",
+      "name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "price": 0.0
+    },
+    {
+      "store_number": "003791",
+      "name": "Taco Bell",
+      "city": "Middleburg Heights",
+      "state": "OH",
+      "price": 0.0
+    },
     {
       "store_number": "017611",
       "name": "Taco Bell",
@@ -8079,35 +8101,84 @@
       "price": 0.0
     },
     {
-      "store_number": "031966",
+      "store_number": "036244",
       "name": "Taco Bell",
-      "city": "Verona",
-      "state": "WI",
-      "price": 0.0
-    },
-    {
-      "store_number": "017105",
-      "name": "Taco Bell",
-      "city": "Garden City",
-      "state": "MI",
-      "price": 0.0
-    },
-    {
-      "store_number": "004161",
-      "name": "Taco Bell",
-      "city": "Rochester Hills",
-      "state": "MI",
-      "price": 0.0
-    },
-    {
-      "store_number": "032967",
-      "name": "Taco Bell",
-      "city": "Spring",
-      "state": "TX",
+      "city": "Sparks",
+      "state": "NV",
       "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "041263",
+      "store_name": "Taco Bell",
+      "city": "Bellingham",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:26.886547+00:00"
+    },
+    {
+      "store_number": "032030",
+      "store_name": "Taco Bell",
+      "city": "South Gate",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:16.888994+00:00"
+    },
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:09:16.508649+00:00"
+    },
+    {
+      "store_number": "037058",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:08:49.112940+00:00"
+    },
+    {
+      "store_number": "042922",
+      "store_name": "Taco Bell",
+      "city": "Crystal River",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:28.678307+00:00"
+    },
+    {
+      "store_number": "003791",
+      "store_name": "Taco Bell",
+      "city": "Middleburg Heights",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-18T22:07:56.149340+00:00"
+    },
     {
       "store_number": "030765",
       "store_name": "Taco Bell",
@@ -8620,8 +8691,8 @@
     }
   ],
   "activity_summary": {
-    "added": 19,
-    "removed": 32,
+    "added": 23,
+    "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -39303,15 +39374,6 @@
       "TX"
     ],
     [
-      "042922",
-      28.899296483692495,
-      -82.58723393082619,
-      0.0,
-      "Taco Bell",
-      "Crystal River",
-      "FL"
-    ],
-    [
       "029404",
       35.60550043842093,
       -78.56779754161835,
@@ -66141,15 +66203,6 @@
       "OH"
     ],
     [
-      "032030",
-      33.914276910019936,
-      -118.16916254884576,
-      0.0,
-      "Taco Bell",
-      "South Gate",
-      "CA"
-    ],
-    [
       "031983",
       43.01708259092493,
       -87.98778658619653,
@@ -73809,15 +73862,6 @@
       "CA"
     ],
     [
-      "041263",
-      48.8004433915814,
-      -122.4854203035527,
-      0.0,
-      "Taco Bell",
-      "Bellingham",
-      "WA"
-    ],
-    [
       "016486",
       40.62530069433705,
       -89.46511656045914,
@@ -77607,6 +77651,15 @@
       "WI"
     ],
     [
+      "036244",
+      39.53105751055179,
+      -119.71590512967516,
+      0.0,
+      "Taco Bell",
+      "Sparks",
+      "NV"
+    ],
+    [
       "034786",
       37.97724933062687,
       -87.6292207436168,
@@ -77659,6 +77712,33 @@
       "Taco Bell",
       "Boutte",
       "LA"
+    ],
+    [
+      "003791",
+      41.371406971460715,
+      -81.82330661718325,
+      0.0,
+      "Taco Bell",
+      "Middleburg Heights",
+      "OH"
+    ],
+    [
+      "037058",
+      41.96042349443583,
+      -91.71171505960858,
+      0.0,
+      "Taco Bell",
+      "Cedar Rapids",
+      "IA"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      0.0,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ]
   ]
 }

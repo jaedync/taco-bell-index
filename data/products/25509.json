@@ -19,12 +19,12 @@
     "max": 5.99,
     "median": 2.49,
     "std_dev": 0.21,
-    "store_count": 7642
+    "store_count": 7644
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 4836
+      "count": 4837
     },
     {
       "bucket": "$2.50",
@@ -48,7 +48,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 599
+      "count": 598
     },
     {
       "bucket": "$2.71",
@@ -64,7 +64,7 @@
     },
     {
       "bucket": "$2.76",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$2.78",
@@ -72,7 +72,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 684
+      "count": 687
     },
     {
       "bucket": "$2.80",
@@ -169,17 +169,17 @@
     {
       "state": "NJ",
       "avg_price": 2.8,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "CA",
       "avg_price": 2.78,
-      "store_count": 834
+      "store_count": 835
     },
     {
       "state": "PA",
       "avg_price": 2.75,
-      "store_count": 200
+      "store_count": 201
     },
     {
       "state": "OR",
@@ -192,19 +192,19 @@
       "store_count": 44
     },
     {
+      "state": "WA",
+      "avg_price": 2.74,
+      "store_count": 137
+    },
+    {
       "state": "NM",
       "avg_price": 2.74,
       "store_count": 57
     },
     {
-      "state": "WA",
-      "avg_price": 2.74,
-      "store_count": 138
-    },
-    {
       "state": "NV",
-      "avg_price": 2.72,
-      "store_count": 86
+      "avg_price": 2.73,
+      "store_count": 87
     },
     {
       "state": "MA",
@@ -279,7 +279,7 @@
     {
       "state": "MO",
       "avg_price": 2.54,
-      "store_count": 223
+      "store_count": 224
     },
     {
       "state": "FL",
@@ -570,6 +570,7 @@
     "040316",
     "041140",
     "041491",
+    "041637",
     "039704",
     "041099",
     "041027",
@@ -2440,7 +2441,6 @@
     "031718",
     "028501",
     "017524",
-    "032107",
     "019589",
     "030378",
     "031447",
@@ -5296,7 +5296,8 @@
     "035998",
     "042105",
     "004986",
-    "016632"
+    "016632",
+    "031308"
   ],
   "priciest_stores": [
     {
@@ -5371,6 +5372,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 2.76,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:28.984801+00:00"
+    },
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-18T22:09:16.508649+00:00"
+    },
+    {
+      "store_number": "030784",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-18T22:09:12.783939+00:00"
+    },
+    {
+      "store_number": "031342",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:59.224659+00:00"
+    },
+    {
+      "store_number": "031308",
+      "store_name": "Taco Bell",
+      "city": "Florissant",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-18T22:08:20.101149+00:00"
+    },
+    {
+      "store_number": "032107",
+      "store_name": "Taco Bell",
+      "city": "Watervliet",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:18.723245+00:00"
+    },
+    {
+      "store_number": "041637",
+      "store_name": "Taco Bell",
+      "city": "Otisville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-18T21:51:32.943993+00:00"
+    },
     {
       "store_number": "028184",
       "store_name": "Taco Bell",
@@ -7293,8 +7374,8 @@
     }
   ],
   "activity_summary": {
-    "added": 98,
-    "removed": 74,
+    "added": 103,
+    "removed": 77,
     "price_changed": 20,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8296,6 +8377,15 @@
       "Taco Bell",
       "Calera",
       "AL"
+    ],
+    [
+      "041637",
+      43.16321471676148,
+      -83.5243732030411,
+      2.49,
+      "Taco Bell",
+      "Otisville",
+      "MI"
     ],
     [
       "039704",
@@ -25126,15 +25216,6 @@
       "Taco Bell",
       "Yadkinville",
       "NC"
-    ],
-    [
-      "032107",
-      42.180071475785965,
-      -86.26249767316433,
-      2.49,
-      "Taco Bell",
-      "Watervliet",
-      "MI"
     ],
     [
       "019589",
@@ -50841,6 +50922,15 @@
       "MO"
     ],
     [
+      "031308",
+      38.79563096909239,
+      -90.23304370930418,
+      2.49,
+      "Taco Bell",
+      "Florissant",
+      "MO"
+    ],
+    [
       "037015",
       46.9533,
       -114.133,
@@ -59418,15 +59508,6 @@
       "ID"
     ],
     [
-      "031342",
-      48.43619811528398,
-      -122.33817234635347,
-      2.69,
-      "Taco Bell",
-      "Mount Vernon",
-      "WA"
-    ],
-    [
       "033794",
       39.89688284611762,
       -83.81166917333157,
@@ -61422,15 +61503,6 @@
       2.76,
       "Taco Bell",
       "Franklin",
-      "NJ"
-    ],
-    [
-      "039545",
-      41.19914267445654,
-      -74.48748706784548,
-      2.76,
-      "Taco Bell",
-      "Vernon",
       "NJ"
     ],
     [
@@ -66132,6 +66204,15 @@
       "CA"
     ],
     [
+      "030784",
+      37.68964688186491,
+      -122.13063508272171,
+      2.79,
+      "Taco Bell",
+      "San Leandro",
+      "CA"
+    ],
+    [
       "039037",
       40.864771176095466,
       -74.40225546063635,
@@ -67599,6 +67680,15 @@
       "NJ"
     ],
     [
+      "036244",
+      39.53105751055179,
+      -119.71590512967516,
+      2.79,
+      "Taco Bell",
+      "Sparks",
+      "NV"
+    ],
+    [
       "031858",
       39.49330801654719,
       -119.78853004445779,
@@ -67624,6 +67714,15 @@
       "Taco Bell",
       "Torrance",
       "CA"
+    ],
+    [
+      "042069",
+      41.014994,
+      -76.488057,
+      2.79,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
     ],
     [
       "041644",

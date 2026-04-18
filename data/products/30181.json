@@ -17,7 +17,7 @@
     "max": 4.12,
     "median": 1.99,
     "std_dev": 0.34,
-    "store_count": 3357
+    "store_count": 3358
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 210
+      "count": 209
     },
     {
       "bucket": "$1.59",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 148
+      "count": 147
     },
     {
       "bucket": "$1.79",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1360
+      "count": 1361
     },
     {
       "bucket": "$2.00",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 207
+      "count": 209
     },
     {
       "bucket": "$2.30",
@@ -212,7 +212,7 @@
     {
       "state": "OH",
       "avg_price": 2.09,
-      "store_count": 194
+      "store_count": 195
     },
     {
       "state": "MA",
@@ -286,7 +286,7 @@
     },
     {
       "state": "IN",
-      "avg_price": 1.81,
+      "avg_price": 1.82,
       "store_count": 127
     },
     {
@@ -297,7 +297,7 @@
     {
       "state": "AZ",
       "avg_price": 1.79,
-      "store_count": 174
+      "store_count": 175
     },
     {
       "state": "MO",
@@ -307,7 +307,7 @@
     {
       "state": "NV",
       "avg_price": 1.76,
-      "store_count": 76
+      "store_count": 75
     },
     {
       "state": "UT",
@@ -532,6 +532,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033775",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-04-18T22:09:25.914663+00:00"
+    },
+    {
+      "store_number": "031894",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:23.286174+00:00"
+    },
+    {
+      "store_number": "002828",
+      "store_name": "Taco Bell",
+      "city": "Long Beach",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-18T22:08:53.450657+00:00"
+    },
+    {
+      "store_number": "041627",
+      "store_name": "Taco Bell",
+      "city": "Mesa",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-18T22:08:52.567300+00:00"
+    },
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:51.607071+00:00"
+    },
+    {
+      "store_number": "028905",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:27.476382+00:00"
+    },
+    {
+      "store_number": "019297",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-04-18T22:08:25.541825+00:00"
+    },
     {
       "store_number": "024685",
       "store_name": "Taco Bell",
@@ -4074,8 +4144,8 @@
     }
   ],
   "activity_summary": {
-    "added": 169,
-    "removed": 146,
+    "added": 173,
+    "removed": 149,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5829,15 +5899,6 @@
       "Taco Bell",
       "Bucyrus",
       "OH"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      1.49,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "029514",
@@ -9744,15 +9805,6 @@
       "Taco Bell",
       "Bloomington",
       "IL"
-    ],
-    [
-      "031894",
-      36.121854601482426,
-      -115.13938848675934,
-      1.69,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "031881",
@@ -20105,15 +20157,6 @@
       "CA"
     ],
     [
-      "030798",
-      37.31417153364949,
-      -121.79288823904244,
-      1.99,
-      "Taco Bell",
-      "San Jose",
-      "CA"
-    ],
-    [
       "024525",
       37.36261209826654,
       -121.83410306276528,
@@ -20285,6 +20328,15 @@
       "GA"
     ],
     [
+      "041627",
+      33.407698687348315,
+      -111.77318264545647,
+      1.99,
+      "Taco Bell",
+      "Mesa",
+      "AZ"
+    ],
+    [
       "021159",
       39.71835555190652,
       -86.35719363393036,
@@ -20445,6 +20497,15 @@
       "Taco Bell",
       "Crestview",
       "FL"
+    ],
+    [
+      "002828",
+      33.803657839789906,
+      -118.18984255790018,
+      1.99,
+      "Taco Bell",
+      "Long Beach",
+      "CA"
     ],
     [
       "035613",
@@ -29447,6 +29508,15 @@
       "OH"
     ],
     [
+      "019297",
+      41.55008347811901,
+      -87.18083737185225,
+      2.29,
+      "Taco Bell",
+      "Portage",
+      "IN"
+    ],
+    [
       "029870",
       41.84303890198383,
       -71.88115158680375,
@@ -30318,6 +30388,15 @@
       "Taco Bell",
       "Aurora",
       "IN"
+    ],
+    [
+      "033775",
+      40.40135941864843,
+      -82.45208315545428,
+      2.29,
+      "Taco Bell",
+      "Mount Vernon",
+      "OH"
     ],
     [
       "016940",

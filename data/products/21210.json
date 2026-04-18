@@ -13,14 +13,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 91.9,
+  "availability_pct": 91.8,
   "price_stats": {
-    "avg": 4.64,
+    "avg": 4.63,
     "min": 4.0,
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7078
+    "store_count": 7076
   },
   "histogram": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 497
+      "count": 496
     },
     {
       "bucket": "$5.19",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 536
+      "count": 535
     },
     {
       "bucket": "$8.00",
@@ -172,8 +172,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 6.02,
-      "store_count": 115
+      "avg_price": 6.03,
+      "store_count": 114
     },
     {
       "state": "WA",
@@ -192,8 +192,8 @@
     },
     {
       "state": "AZ",
-      "avg_price": 5.26,
-      "store_count": 172
+      "avg_price": 5.24,
+      "store_count": 171
     },
     {
       "state": "NC",
@@ -298,7 +298,7 @@
     {
       "state": "PA",
       "avg_price": 4.12,
-      "store_count": 180
+      "store_count": 181
     },
     {
       "state": "MA",
@@ -348,7 +348,7 @@
     {
       "state": "TX",
       "avg_price": 4.01,
-      "store_count": 648
+      "store_count": 647
     },
     {
       "state": "MN",
@@ -2788,7 +2788,6 @@
     "002569",
     "042622",
     "029032",
-    "029915",
     "003280",
     "016508",
     "030954",
@@ -5728,7 +5727,8 @@
     "015885",
     "027808",
     "032668",
-    "033437"
+    "033437",
+    "042069"
   ],
   "priciest_stores": [
     {
@@ -5803,6 +5803,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042069",
+      "store_name": "Taco Bell",
+      "city": "Bloomsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-18T22:09:31.729722+00:00"
+    },
+    {
+      "store_number": "037536",
+      "store_name": "Taco Bell",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:09:19.187606+00:00"
+    },
+    {
+      "store_number": "029915",
+      "store_name": "Taco Bell",
+      "city": "Flower Mound",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:25.680408+00:00"
+    },
+    {
+      "store_number": "002622",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 5.0,
+      "new_price": null,
+      "observed_at": "2026-04-18T22:08:21.587862+00:00"
+    },
     {
       "store_number": "033437",
       "store_name": "Taco Bell",
@@ -6615,8 +6655,8 @@
     }
   ],
   "activity_summary": {
-    "added": 30,
-    "removed": 38,
+    "added": 31,
+    "removed": 41,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -27331,15 +27371,6 @@
       "Taco Bell",
       "Norton",
       "VA"
-    ],
-    [
-      "029915",
-      33.06791693364214,
-      -97.08108467657654,
-      4.0,
-      "Taco Bell",
-      "Flower Mound",
-      "TX"
     ],
     [
       "003280",
@@ -53802,6 +53833,15 @@
       "OK"
     ],
     [
+      "042069",
+      41.014994,
+      -76.488057,
+      4.0,
+      "Taco Bell",
+      "Bloomsburg",
+      "PA"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -56824,15 +56864,6 @@
       "Taco Bell",
       "Elk Grove",
       "CA"
-    ],
-    [
-      "002622",
-      45.48672034076847,
-      -122.74437301261048,
-      5.0,
-      "Taco Bell",
-      "Portland",
-      "OR"
     ],
     [
       "028110",
@@ -68794,15 +68825,6 @@
       "Taco Bell",
       "Sunrise",
       "FL"
-    ],
-    [
-      "037536",
-      35.188244384869,
-      -111.66192770004272,
-      7.99,
-      "Taco Bell",
-      "Flagstaff",
-      "AZ"
     ],
     [
       "037552",
