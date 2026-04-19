@@ -22,7 +22,7 @@
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 2139
+      "count": 2138
     },
     {
       "bucket": "$0.10",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 981
+      "count": 982
     },
     {
       "bucket": "$0.52",
@@ -162,7 +162,7 @@
     {
       "state": "NY",
       "avg_price": 0.58,
-      "store_count": 247
+      "store_count": 248
     },
     {
       "state": "MT",
@@ -372,7 +372,7 @@
     {
       "state": "AZ",
       "avg_price": 0.11,
-      "store_count": 192
+      "store_count": 191
     },
     {
       "state": "RI",
@@ -1624,7 +1624,6 @@
     "029103",
     "029633",
     "029253",
-    "031728",
     "030144",
     "029625",
     "002253",
@@ -2706,6 +2705,26 @@
   ],
   "price_changes": [
     {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "031728",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:13.409693+00:00"
+    },
+    {
       "store_number": "042069",
       "store_name": "Taco Bell",
       "city": "Bloomsburg",
@@ -2937,8 +2956,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7,
-    "removed": 4,
+    "added": 8,
+    "removed": 5,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13134,15 +13153,6 @@
       "Taco Bell",
       "Ludlow",
       "MA"
-    ],
-    [
-      "031728",
-      32.25091218379473,
-      -110.91886483135573,
-      0.0,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
     ],
     [
       "030144",
@@ -59799,6 +59809,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      0.5,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "032954",

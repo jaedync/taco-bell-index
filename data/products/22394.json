@@ -18,7 +18,7 @@
     "max": 5.49,
     "median": 2.19,
     "std_dev": 0.43,
-    "store_count": 7578
+    "store_count": 7579
   },
   "histogram": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 619
+      "count": 620
     },
     {
       "bucket": "$1.89",
@@ -87,7 +87,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1344
+      "count": 1345
     },
     {
       "bucket": "$2.09",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 959
+      "count": 958
     },
     {
       "bucket": "$2.20",
@@ -218,8 +218,8 @@
     },
     {
       "state": "WA",
-      "avg_price": 2.61,
-      "store_count": 138
+      "avg_price": 2.62,
+      "store_count": 137
     },
     {
       "state": "DC",
@@ -258,8 +258,8 @@
     },
     {
       "state": "VA",
-      "avg_price": 2.42,
-      "store_count": 190
+      "avg_price": 2.41,
+      "store_count": 191
     },
     {
       "state": "CT",
@@ -274,7 +274,7 @@
     {
       "state": "NY",
       "avg_price": 2.37,
-      "store_count": 248
+      "store_count": 249
     },
     {
       "state": "FL",
@@ -357,14 +357,14 @@
       "store_count": 150
     },
     {
-      "state": "SC",
-      "avg_price": 2.09,
-      "store_count": 113
-    },
-    {
       "state": "GA",
       "avg_price": 2.08,
       "store_count": 251
+    },
+    {
+      "state": "SC",
+      "avg_price": 2.08,
+      "store_count": 114
     },
     {
       "state": "NJ",
@@ -389,7 +389,7 @@
     {
       "state": "OH",
       "avg_price": 2.06,
-      "store_count": 406
+      "store_count": 405
     },
     {
       "state": "NC",
@@ -652,6 +652,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "039723",
+      "store_name": "Taco Bell",
+      "city": "Galax",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-19T20:34:49.977002+00:00"
+    },
+    {
+      "store_number": "005096",
+      "store_name": "Taco Bell",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-19T20:34:27.477188+00:00"
+    },
+    {
+      "store_number": "022602",
+      "store_name": "Taco Bell",
+      "city": "Everett",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:19.980930+00:00"
+    },
+    {
+      "store_number": "035355",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:36.578693+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -11154,8 +11204,8 @@
     }
   ],
   "activity_summary": {
-    "added": 99,
-    "removed": 66,
+    "added": 102,
+    "removed": 68,
     "price_changed": 885,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25385,6 +25435,15 @@
       "OH"
     ],
     [
+      "005096",
+      32.7901697688321,
+      -80.02999573945993,
+      1.79,
+      "Taco Bell",
+      "Charleston",
+      "SC"
+    ],
+    [
       "041079",
       33.022772,
       -96.453197,
@@ -35069,15 +35128,6 @@
       "TX"
     ],
     [
-      "035355",
-      41.464593285988514,
-      -81.7617518408315,
-      1.99,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
-    ],
-    [
       "017264",
       41.3611977277133,
       -81.68553644061988,
@@ -44654,6 +44704,24 @@
       "PA"
     ],
     [
+      "039723",
+      36.68606923854097,
+      -80.8866611123085,
+      1.99,
+      "Taco Bell",
+      "Galax",
+      "VA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      1.99,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
+    ],
+    [
       "042001",
       41.546295,
       -86.896567,
@@ -49989,15 +50057,6 @@
       "Taco Bell",
       "Mesa",
       "AZ"
-    ],
-    [
-      "022602",
-      47.9809238465088,
-      -122.20114446112193,
-      2.19,
-      "Taco Bell",
-      "Everett",
-      "WA"
     ],
     [
       "033873",

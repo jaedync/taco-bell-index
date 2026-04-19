@@ -18,12 +18,12 @@
     "max": 3.79,
     "median": 2.99,
     "std_dev": 0.1,
-    "store_count": 102
+    "store_count": 101
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 99
+      "count": 98
     },
     {
       "bucket": "$3.39",
@@ -42,7 +42,7 @@
     {
       "state": "FL",
       "avg_price": 3.0,
-      "store_count": 101
+      "store_count": 100
     }
   ],
   "nutrition": {
@@ -145,7 +145,6 @@
     "035177",
     "034783",
     "034809",
-    "035998",
     "041964",
     "041833",
     "035462",
@@ -305,6 +304,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035998",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:26.830634+00:00"
+    },
     {
       "store_number": "032354",
       "store_name": "Taco Bell",
@@ -1318,7 +1327,7 @@
   ],
   "activity_summary": {
     "added": 100,
-    "removed": 1,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1442,15 +1451,6 @@
       2.99,
       "Taco Bell",
       "Umatilla",
-      "FL"
-    ],
-    [
-      "035998",
-      28.363064573082465,
-      -81.42408256620308,
-      2.99,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [

@@ -17,7 +17,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.11,
-    "store_count": 7668
+    "store_count": 7665
   },
   "histogram": [
     {
@@ -134,7 +134,7 @@
     },
     {
       "bucket": "$26.99",
-      "count": 442
+      "count": 443
     },
     {
       "bucket": "$27.19",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$29.99",
-      "count": 711
+      "count": 710
     },
     {
       "bucket": "$30.49",
@@ -218,7 +218,7 @@
     },
     {
       "bucket": "$30.99",
-      "count": 936
+      "count": 935
     },
     {
       "bucket": "$31.49",
@@ -238,7 +238,7 @@
     },
     {
       "bucket": "$32.49",
-      "count": 193
+      "count": 191
     },
     {
       "bucket": "$32.80",
@@ -436,8 +436,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 32.69,
-      "store_count": 251
+      "avg_price": 32.67,
+      "store_count": 252
     },
     {
       "state": "MD",
@@ -487,7 +487,7 @@
     {
       "state": "FL",
       "avg_price": 30.75,
-      "store_count": 453
+      "store_count": 451
     },
     {
       "state": "MA",
@@ -512,7 +512,7 @@
     {
       "state": "MI",
       "avg_price": 30.06,
-      "store_count": 348
+      "store_count": 346
     },
     {
       "state": "MN",
@@ -778,6 +778,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 26.99,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 29.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:46.172453+00:00"
+    },
+    {
+      "store_number": "042847",
+      "store_name": "Taco Bell",
+      "city": "North Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 32.49,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:41.258340+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 32.49,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:37.054988+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 30.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:41.882828+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -2450,8 +2500,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 34,
+    "added": 43,
+    "removed": 38,
     "price_changed": 91,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14910,6 +14960,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      26.99,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "034808",
@@ -32903,15 +32962,6 @@
       "OH"
     ],
     [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      29.99,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
-    ],
-    [
       "032943",
       45.528180930385986,
       -122.86695376038551,
@@ -36897,15 +36947,6 @@
       "Taco Bell",
       "Paintsville",
       "KY"
-    ],
-    [
-      "040007",
-      42.773823760985884,
-      -83.23956324725259,
-      30.99,
-      "Taco Bell",
-      "Lake Orion",
-      "MI"
     ],
     [
       "033309",
@@ -52604,15 +52645,6 @@
       "FL"
     ],
     [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      32.49,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
-    ],
-    [
       "042963",
       35.09454445793161,
       -81.66559584444258,
@@ -52709,15 +52741,6 @@
       32.49,
       "Taco Bell",
       "Weston",
-      "FL"
-    ],
-    [
-      "042847",
-      26.667694225707564,
-      -81.89090006058905,
-      32.49,
-      "Taco Bell",
-      "North Fort Myers",
       "FL"
     ],
     [

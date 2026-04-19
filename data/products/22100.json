@@ -23,7 +23,7 @@
   "histogram": [
     {
       "bucket": "$0.99",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$1.59",
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 222
+      "count": 221
     },
     {
       "bucket": "$1.75",
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4336
+      "count": 4335
     },
     {
       "bucket": "$2.00",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1077
+      "count": 1078
     },
     {
       "bucket": "$2.20",
@@ -171,7 +171,7 @@
     {
       "state": "NY",
       "avg_price": 2.34,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "MA",
@@ -234,11 +234,6 @@
       "store_count": 139
     },
     {
-      "state": "IL",
-      "avg_price": 2.06,
-      "store_count": 288
-    },
-    {
       "state": "IA",
       "avg_price": 2.06,
       "store_count": 49
@@ -254,6 +249,11 @@
       "store_count": 87
     },
     {
+      "state": "IL",
+      "avg_price": 2.06,
+      "store_count": 288
+    },
+    {
       "state": "AR",
       "avg_price": 2.03,
       "store_count": 114
@@ -261,7 +261,7 @@
     {
       "state": "MI",
       "avg_price": 2.01,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "NE",
@@ -430,6 +430,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "003056",
       "name": "Taco Bell",
       "city": "Whittier",
@@ -491,16 +498,10 @@
       "city": "Wyoming",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "034828",
-      "name": "Taco Bell",
-      "city": "Battle Creek",
-      "state": "MI",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
+    "040318",
     "003056"
   ],
   "priciest_stores": [
@@ -576,6 +577,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:46.172453+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-19T20:32:20.824773+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -2258,9 +2289,9 @@
     }
   ],
   "activity_summary": {
-    "added": 17,
-    "removed": 11,
-    "price_changed": 140,
+    "added": 18,
+    "removed": 12,
+    "price_changed": 141,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -2268,6 +2299,15 @@
   "calories_max": 170,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "003056",
       33.98985419924158,
@@ -4058,15 +4098,6 @@
       "Taco Bell",
       "Fort Wayne",
       "IN"
-    ],
-    [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      1.69,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
     ],
     [
       "033043",
@@ -17423,15 +17454,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",
@@ -66014,6 +66036,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      2.19,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "038830",

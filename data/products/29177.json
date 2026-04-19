@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 0.8,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 66
+    "store_count": 65
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 66
+      "count": 65
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 66
+      "store_count": 65
     }
   ],
   "nutrition": {
@@ -142,7 +142,6 @@
     "027983",
     "027981",
     "028353",
-    "027975",
     "027988",
     "027982",
     "022833",
@@ -260,6 +259,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027975",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:57.063438+00:00"
+    },
     {
       "store_number": "038869",
       "store_name": "Taco Bell",
@@ -923,7 +932,7 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 0,
+    "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1159,15 +1168,6 @@
       10.99,
       "Taco Bell",
       "Leesburg",
-      "FL"
-    ],
-    [
-      "027975",
-      28.294870388476983,
-      -80.72423458099371,
-      10.99,
-      "Taco Bell",
-      "Rockledge",
       "FL"
     ],
     [

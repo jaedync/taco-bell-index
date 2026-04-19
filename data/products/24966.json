@@ -17,13 +17,13 @@
     "min": 6.99,
     "max": 10.99,
     "median": 6.99,
-    "std_dev": 0.4,
-    "store_count": 99
+    "std_dev": 0.41,
+    "store_count": 97
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 98
+      "count": 96
     },
     {
       "bucket": "$10.99",
@@ -34,7 +34,7 @@
     {
       "state": "FL",
       "avg_price": 7.03,
-      "store_count": 98
+      "store_count": 96
     }
   ],
   "nutrition": {
@@ -138,12 +138,10 @@
     "035177",
     "034783",
     "034809",
-    "035998",
     "041964",
     "041833",
     "035462",
     "036232",
-    "042977",
     "036438",
     "037372",
     "037110",
@@ -296,6 +294,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042977",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:31.993156+00:00"
+    },
+    {
+      "store_number": "035998",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:26.830634+00:00"
+    },
     {
       "store_number": "042927",
       "store_name": "Taco Bell",
@@ -1309,7 +1327,7 @@
   ],
   "activity_summary": {
     "added": 99,
-    "removed": 2,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1464,15 +1482,6 @@
       "FL"
     ],
     [
-      "035998",
-      28.363064573082465,
-      -81.42408256620308,
-      6.99,
-      "Taco Bell",
-      "Orlando",
-      "FL"
-    ],
-    [
       "041964",
       28.303987409427087,
       -81.23885304982832,
@@ -1506,15 +1515,6 @@
       6.99,
       "Taco Bell",
       "Apopka",
-      "FL"
-    ],
-    [
-      "042977",
-      28.7471,
-      -81.8773,
-      6.99,
-      "Taco Bell",
-      "Leesburg",
       "FL"
     ],
     [

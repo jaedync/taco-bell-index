@@ -104,7 +104,7 @@
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "NV",
@@ -179,7 +179,7 @@
     {
       "state": "MA",
       "avg_price": 0.0,
-      "store_count": 66
+      "store_count": 65
     },
     {
       "state": "LA",
@@ -7841,7 +7841,6 @@
     "040327",
     "041183",
     "043149",
-    "033749",
     "033338",
     "036148",
     "033493",
@@ -8045,9 +8044,17 @@
     "036257",
     "034380",
     "037058",
-    "042069"
+    "042069",
+    "040713"
   ],
   "priciest_stores": [
+    {
+      "store_number": "040713",
+      "name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "price": 0.0
+    },
     {
       "store_number": "042069",
       "name": "Taco Bell",
@@ -8110,16 +8117,29 @@
       "city": "San Antonio",
       "state": "FL",
       "price": 0.0
-    },
-    {
-      "store_number": "033484",
-      "name": "Taco Bell Cantina",
-      "city": "Chicago",
-      "state": "IL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033749",
+      "store_name": "Taco Bell",
+      "city": "Worcester",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:55.501837+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -9192,8 +9212,8 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
-    "removed": 52,
+    "added": 56,
+    "removed": 53,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -76496,15 +76516,6 @@
       "GA"
     ],
     [
-      "033749",
-      42.24976789318509,
-      -71.76261701183529,
-      0.0,
-      "Taco Bell",
-      "Worcester",
-      "MA"
-    ],
-    [
       "033338",
       41.53129056515317,
       -93.59629845161383,
@@ -78339,6 +78350,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      0.0,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ]
   ]
 }

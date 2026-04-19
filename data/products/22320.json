@@ -18,7 +18,7 @@
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7200
+    "store_count": 7199
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 37
+      "count": 38
     },
     {
       "bucket": "$4.65",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 431
+      "count": 432
     },
     {
       "bucket": "$5.05",
@@ -91,11 +91,11 @@
     },
     {
       "bucket": "$5.39",
-      "count": 385
+      "count": 384
     },
     {
       "bucket": "$5.49",
-      "count": 369
+      "count": 368
     },
     {
       "bucket": "$5.50",
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$5.59",
-      "count": 227
+      "count": 226
     },
     {
       "bucket": "$5.66",
@@ -127,7 +127,7 @@
     },
     {
       "bucket": "$5.79",
-      "count": 472
+      "count": 473
     },
     {
       "bucket": "$5.82",
@@ -199,7 +199,7 @@
     },
     {
       "bucket": "$6.69",
-      "count": 272
+      "count": 271
     },
     {
       "bucket": "$6.79",
@@ -300,7 +300,7 @@
     {
       "state": "MI",
       "avg_price": 6.11,
-      "store_count": 349
+      "store_count": 347
     },
     {
       "state": "UT",
@@ -310,7 +310,7 @@
     {
       "state": "AZ",
       "avg_price": 6.04,
-      "store_count": 193
+      "store_count": 192
     },
     {
       "state": "OK",
@@ -363,14 +363,14 @@
       "store_count": 100
     },
     {
-      "state": "IA",
-      "avg_price": 5.87,
-      "store_count": 48
-    },
-    {
       "state": "NM",
       "avg_price": 5.86,
       "store_count": 58
+    },
+    {
+      "state": "IA",
+      "avg_price": 5.85,
+      "store_count": 49
     },
     {
       "state": "LA",
@@ -388,14 +388,14 @@
       "store_count": 35
     },
     {
-      "state": "NY",
-      "avg_price": 5.82,
-      "store_count": 251
-    },
-    {
       "state": "PA",
       "avg_price": 5.82,
       "store_count": 202
+    },
+    {
+      "state": "NY",
+      "avg_price": 5.82,
+      "store_count": 252
     },
     {
       "state": "SD",
@@ -430,7 +430,7 @@
     {
       "state": "IN",
       "avg_price": 5.66,
-      "store_count": 259
+      "store_count": 260
     },
     {
       "state": "WV",
@@ -445,7 +445,7 @@
     {
       "state": "TX",
       "avg_price": 5.52,
-      "store_count": 700
+      "store_count": 699
     },
     {
       "state": "AL",
@@ -647,6 +647,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "037470",
+      "store_name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-19T20:34:33.705984+00:00"
+    },
+    {
+      "store_number": "002469",
+      "store_name": "Taco Bell",
+      "city": "Okemos",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:27.720639+00:00"
+    },
+    {
+      "store_number": "031728",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:13.409693+00:00"
+    },
+    {
+      "store_number": "030127",
+      "store_name": "Taco Bell",
+      "city": "Waco",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.39,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:04.759596+00:00"
+    },
+    {
+      "store_number": "042178",
+      "store_name": "Taco Bell",
+      "city": "Petoskey",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.59,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:29.523508+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.79,
+      "observed_at": "2026-04-19T20:33:26.522850+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -16059,8 +16129,8 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
-    "removed": 537,
+    "added": 52,
+    "removed": 541,
     "price_changed": 955,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17193,6 +17263,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      4.59,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "026085",
@@ -22818,6 +22897,15 @@
       "Taco Bell",
       "Roanoke Rapids",
       "NC"
+    ],
+    [
+      "037470",
+      42.50986822110307,
+      -96.41639463141473,
+      4.99,
+      "Taco Bell",
+      "Sioux City",
+      "IA"
     ],
     [
       "042940",
@@ -29867,15 +29955,6 @@
       "TX"
     ],
     [
-      "030127",
-      31.549987758020297,
-      -97.12514971198289,
-      5.39,
-      "Taco Bell",
-      "Waco",
-      "TX"
-    ],
-    [
       "005646",
       28.662325501412592,
       -81.40244990587234,
@@ -34007,15 +34086,6 @@
       "OH"
     ],
     [
-      "031728",
-      32.25091218379473,
-      -110.91886483135573,
-      5.49,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
-    ],
-    [
       "030144",
       30.212929645321346,
       -97.82951523363181,
@@ -36147,15 +36217,6 @@
       "Taco Bell",
       "McCordsville",
       "IN"
-    ],
-    [
-      "042178",
-      45.346729,
-      -84.967467,
-      5.59,
-      "Taco Bell",
-      "Petoskey",
-      "MI"
     ],
     [
       "042038",
@@ -42717,6 +42778,15 @@
       "Taco Bell",
       "North Randall",
       "OH"
+    ],
+    [
+      "043007",
+      39.85505652122834,
+      -86.24080654485579,
+      5.79,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "043006",
@@ -78113,15 +78183,6 @@
       6.69,
       "Taco Bell",
       "Cadillac",
-      "MI"
-    ],
-    [
-      "002469",
-      42.72207167534047,
-      -84.42434675529506,
-      6.69,
-      "Taco Bell",
-      "Okemos",
       "MI"
     ],
     [

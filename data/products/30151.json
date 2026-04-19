@@ -17,7 +17,7 @@
     "max": 6.69,
     "median": 4.59,
     "std_dev": 0.6,
-    "store_count": 3405
+    "store_count": 3403
   },
   "histogram": [
     {
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 37
+      "count": 36
     },
     {
       "bucket": "$3.89",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 285
+      "count": 284
     },
     {
       "bucket": "$4.20",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 289
+      "count": 291
     },
     {
       "bucket": "$4.69",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 170
+      "count": 168
     },
     {
       "bucket": "$5.29",
@@ -211,8 +211,8 @@
     },
     {
       "state": "AK",
-      "avg_price": 5.25,
-      "store_count": 13
+      "avg_price": 5.26,
+      "store_count": 12
     },
     {
       "state": "WA",
@@ -237,7 +237,7 @@
     {
       "state": "MI",
       "avg_price": 4.7,
-      "store_count": 187
+      "store_count": 186
     },
     {
       "state": "ID",
@@ -267,7 +267,7 @@
     {
       "state": "OH",
       "avg_price": 4.58,
-      "store_count": 201
+      "store_count": 199
     },
     {
       "state": "GA",
@@ -297,7 +297,7 @@
     {
       "state": "IN",
       "avg_price": 4.4,
-      "store_count": 127
+      "store_count": 128
     },
     {
       "state": "NV",
@@ -307,7 +307,7 @@
     {
       "state": "NC",
       "avg_price": 4.29,
-      "store_count": 118
+      "store_count": 119
     },
     {
       "state": "NM",
@@ -321,8 +321,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 4.23,
-      "store_count": 243
+      "avg_price": 4.24,
+      "store_count": 244
     },
     {
       "state": "SC",
@@ -350,14 +350,14 @@
       "store_count": 26
     },
     {
+      "state": "MO",
+      "avg_price": 4.06,
+      "store_count": 59
+    },
+    {
       "state": "WI",
       "avg_price": 4.06,
       "store_count": 69
-    },
-    {
-      "state": "MO",
-      "avg_price": 4.06,
-      "store_count": 60
     },
     {
       "state": "WY",
@@ -562,6 +562,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032200",
+      "store_name": "Taco Bell",
+      "city": "Palmer",
+      "state": "AK",
+      "change_type": "item_removed",
+      "old_price": 5.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:54.757881+00:00"
+    },
+    {
+      "store_number": "028850",
+      "store_name": "Taco Bell",
+      "city": "Hollywood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-19T20:34:23.794263+00:00"
+    },
+    {
+      "store_number": "029636",
+      "store_name": "Taco Bell",
+      "city": "Warrenton",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:53.467973+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.875855+00:00"
+    },
+    {
+      "store_number": "027042",
+      "store_name": "Taco Bell",
+      "city": "Vermilion",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.082395+00:00"
+    },
+    {
+      "store_number": "040534",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:37.595185+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-19T20:33:37.220994+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-19T20:33:26.522850+00:00"
+    },
     {
       "store_number": "031321",
       "store_name": "Taco Bell",
@@ -2984,8 +3064,8 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
-    "removed": 84,
+    "added": 92,
+    "removed": 89,
     "price_changed": 69,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6458,15 +6538,6 @@
       "Taco Bell",
       "Dublin",
       "CA"
-    ],
-    [
-      "029636",
-      38.81939159736144,
-      -91.14141136407846,
-      3.79,
-      "Taco Bell",
-      "Warrenton",
-      "MO"
     ],
     [
       "031450",
@@ -10112,15 +10183,6 @@
       "Taco Bell",
       "Clarksville",
       "TN"
-    ],
-    [
-      "040534",
-      41.479977027095835,
-      -81.76837467484042,
-      4.19,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
     ],
     [
       "002086",
@@ -18259,6 +18321,15 @@
       "NY"
     ],
     [
+      "043007",
+      39.85505652122834,
+      -86.24080654485579,
+      4.59,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "043006",
       39.79695284567275,
       -86.01268830428725,
@@ -20641,6 +20712,15 @@
       4.59,
       "Taco Bell",
       "Mt Holly",
+      "NC"
+    ],
+    [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      4.59,
+      "Taco Bell",
+      "Charlotte",
       "NC"
     ],
     [
@@ -26719,15 +26799,6 @@
       "MI"
     ],
     [
-      "001469",
-      42.291758682661715,
-      -83.38639006018644,
-      4.99,
-      "Taco Bell",
-      "Westland",
-      "MI"
-    ],
-    [
       "031302",
       42.47013272339407,
       -82.90637614755155,
@@ -29329,6 +29400,15 @@
       "NM"
     ],
     [
+      "028850",
+      26.0077519,
+      -80.2068424,
+      4.99,
+      "Taco Bell",
+      "Hollywood",
+      "FL"
+    ],
+    [
       "039954",
       40.87059336985131,
       -72.99657779165287,
@@ -29704,15 +29784,6 @@
       5.19,
       "Taco Bell",
       "Shelby",
-      "OH"
-    ],
-    [
-      "027042",
-      41.403417895947996,
-      -82.36414696276597,
-      5.19,
-      "Taco Bell",
-      "Vermilion",
       "OH"
     ],
     [
@@ -30812,15 +30883,6 @@
       "Taco Bell",
       "Cicero",
       "IL"
-    ],
-    [
-      "032200",
-      61.599191,
-      -149.127888,
-      5.19,
-      "Taco Bell",
-      "Palmer",
-      "AK"
     ],
     [
       "036479",

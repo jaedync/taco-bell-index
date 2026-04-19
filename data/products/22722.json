@@ -17,7 +17,7 @@
     "max": 1.29,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6790
+    "store_count": 6793
   },
   "histogram": [
     {
@@ -78,11 +78,11 @@
     },
     {
       "bucket": "$0.59",
-      "count": 386
+      "count": 387
     },
     {
       "bucket": "$0.60",
-      "count": 1071
+      "count": 1072
     },
     {
       "bucket": "$0.64",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 537
+      "count": 538
     },
     {
       "bucket": "$0.85",
@@ -229,7 +229,7 @@
     {
       "state": "NY",
       "avg_price": 0.66,
-      "store_count": 231
+      "store_count": 232
     },
     {
       "state": "NE",
@@ -332,14 +332,14 @@
       "store_count": 663
     },
     {
+      "state": "IL",
+      "avg_price": 0.55,
+      "store_count": 269
+    },
+    {
       "state": "KY",
       "avg_price": 0.54,
       "store_count": 148
-    },
-    {
-      "state": "IL",
-      "avg_price": 0.54,
-      "store_count": 268
     },
     {
       "state": "GA",
@@ -368,8 +368,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 0.47,
-      "store_count": 211
+      "avg_price": 0.48,
+      "store_count": 212
     },
     {
       "state": "MA",
@@ -589,6 +589,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-19T20:34:09.047777+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-19T20:34:04.526633+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -6011,7 +6041,7 @@
     }
   ],
   "activity_summary": {
-    "added": 28,
+    "added": 31,
     "removed": 507,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
@@ -31276,6 +31306,15 @@
       "MI"
     ],
     [
+      "040713",
+      41.7434,
+      -74.0726,
+      0.59,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
+    ],
+    [
       "040336",
       29.849468941760318,
       -95.2156553155379,
@@ -36512,6 +36551,15 @@
       "Taco Bell",
       "Denham Springs",
       "LA"
+    ],
+    [
+      "029650",
+      38.7916778356872,
+      -90.57457745075226,
+      0.6,
+      "Taco Bell",
+      "Saint Peters",
+      "MO"
     ],
     [
       "000456",
@@ -61054,6 +61102,15 @@
       0.8,
       "Taco Bell",
       "Minooka",
+      "IL"
+    ],
+    [
+      "030404",
+      41.882211,
+      -87.640594,
+      0.8,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

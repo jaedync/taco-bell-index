@@ -14,20 +14,24 @@
   "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.03,
-    "min": 1.59,
+    "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7700
+    "store_count": 7703
   },
   "histogram": [
+    {
+      "bucket": "$0.99",
+      "count": 1
+    },
     {
       "bucket": "$1.59",
       "count": 1
     },
     {
       "bucket": "$1.69",
-      "count": 222
+      "count": 221
     },
     {
       "bucket": "$1.75",
@@ -63,7 +67,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1076
+      "count": 1079
     },
     {
       "bucket": "$2.20",
@@ -175,7 +179,7 @@
     {
       "state": "NY",
       "avg_price": 2.37,
-      "store_count": 250
+      "store_count": 252
     },
     {
       "state": "MA",
@@ -265,7 +269,7 @@
     {
       "state": "MI",
       "avg_price": 2.01,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "NE",
@@ -275,7 +279,7 @@
     {
       "state": "OH",
       "avg_price": 2.01,
-      "store_count": 409
+      "store_count": 410
     },
     {
       "state": "OR",
@@ -290,7 +294,7 @@
     {
       "state": "MO",
       "avg_price": 2.0,
-      "store_count": 227
+      "store_count": 228
     },
     {
       "state": "CO",
@@ -434,6 +438,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "031484",
       "name": "Taco Bell",
       "city": "Window Rock",
@@ -495,17 +506,10 @@
       "city": "Battle Creek",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "040891",
-      "name": "Taco Bell",
-      "city": "Lakeville",
-      "state": "MN",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "031484"
+    "040318"
   ],
   "priciest_stores": [
     {
@@ -580,6 +584,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033775",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-19T20:34:51.494101+00:00"
+    },
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:46.172453+00:00"
+    },
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-19T20:34:09.047777+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-19T20:33:25.868859+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-04-19T20:32:20.824773+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -2422,9 +2486,9 @@
     }
   ],
   "activity_summary": {
-    "added": 23,
-    "removed": 22,
-    "price_changed": 139,
+    "added": 27,
+    "removed": 23,
+    "price_changed": 140,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -2432,6 +2496,15 @@
   "calories_max": 180,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "031484",
       35.66402882084004,
@@ -4213,15 +4286,6 @@
       "Taco Bell",
       "Fort Wayne",
       "IN"
-    ],
-    [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      1.69,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
     ],
     [
       "033043",
@@ -17326,15 +17390,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "041646",
@@ -36766,6 +36821,15 @@
       "Taco Bell",
       "Manitowoc",
       "WI"
+    ],
+    [
+      "029650",
+      38.7916778356872,
+      -90.57457745075226,
+      1.99,
+      "Taco Bell",
+      "Saint Peters",
+      "MO"
     ],
     [
       "017313",
@@ -57162,6 +57226,15 @@
       "CA"
     ],
     [
+      "036328",
+      42.09826888342504,
+      -79.30401088300437,
+      2.19,
+      "Taco Bell",
+      "Lakewood",
+      "NY"
+    ],
+    [
       "039110",
       40.898739638547625,
       -74.0377597428596,
@@ -65496,6 +65569,15 @@
       "CA"
     ],
     [
+      "033775",
+      40.40135941864843,
+      -82.45208315545428,
+      2.19,
+      "Taco Bell",
+      "Mount Vernon",
+      "OH"
+    ],
+    [
       "042636",
       42.96980078904264,
       -85.64359773456188,
@@ -66079,6 +66161,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      2.19,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "038830",

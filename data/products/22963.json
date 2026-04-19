@@ -17,7 +17,7 @@
     "max": 8.99,
     "median": 5.99,
     "std_dev": 0.49,
-    "store_count": 7175
+    "store_count": 7174
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$5.59",
-      "count": 447
+      "count": 448
     },
     {
       "bucket": "$5.69",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$5.89",
-      "count": 785
+      "count": 784
     },
     {
       "bucket": "$5.95",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 962
+      "count": 963
     },
     {
       "bucket": "$6.00",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 1369
+      "count": 1367
     },
     {
       "bucket": "$6.25",
@@ -284,7 +284,7 @@
     {
       "state": "NY",
       "avg_price": 6.26,
-      "store_count": 246
+      "store_count": 247
     },
     {
       "state": "OH",
@@ -339,17 +339,17 @@
     {
       "state": "AZ",
       "avg_price": 6.04,
-      "store_count": 191
+      "store_count": 192
     },
     {
       "state": "MN",
       "avg_price": 6.04,
-      "store_count": 100
+      "store_count": 99
     },
     {
       "state": "MI",
       "avg_price": 6.02,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "IL",
@@ -433,8 +433,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 5.72,
-      "store_count": 255
+      "avg_price": 5.71,
+      "store_count": 254
     },
     {
       "state": "NV",
@@ -652,6 +652,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.59,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "029904",
+      "store_name": "Taco Bell",
+      "city": "Little Falls",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:50.561585+00:00"
+    },
+    {
+      "store_number": "037544",
+      "store_name": "Taco Bell",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-19T20:34:33.717331+00:00"
+    },
+    {
+      "store_number": "002469",
+      "store_name": "Taco Bell",
+      "city": "Okemos",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:27.720639+00:00"
+    },
+    {
+      "store_number": "029528",
+      "store_name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.238418+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -22114,8 +22164,8 @@
     }
   ],
   "activity_summary": {
-    "added": 129,
-    "removed": 596,
+    "added": 131,
+    "removed": 599,
     "price_changed": 1421,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -34714,6 +34764,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      5.59,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "040791",
@@ -48315,15 +48374,6 @@
       "AR"
     ],
     [
-      "029904",
-      45.97475837837952,
-      -94.33710537761407,
-      5.89,
-      "Taco Bell",
-      "Little Falls",
-      "MN"
-    ],
-    [
       "028479",
       38.69112275364627,
       -90.38985639810562,
@@ -58071,6 +58121,15 @@
       "NV"
     ],
     [
+      "037544",
+      35.19112154561693,
+      -111.63034723863548,
+      5.99,
+      "Taco Bell",
+      "Flagstaff",
+      "AZ"
+    ],
+    [
       "034924",
       42.19827424653977,
       -121.75775284203476,
@@ -60436,15 +60495,6 @@
       "Taco Bell",
       "Liberty",
       "TX"
-    ],
-    [
-      "029528",
-      35.26034014744842,
-      -81.21464981700228,
-      6.19,
-      "Taco Bell",
-      "Gastonia",
-      "NC"
     ],
     [
       "035738",
@@ -66879,15 +66929,6 @@
       6.19,
       "Taco Bell",
       "Cadillac",
-      "MI"
-    ],
-    [
-      "002469",
-      42.72207167534047,
-      -84.42434675529506,
-      6.19,
-      "Taco Bell",
-      "Okemos",
       "MI"
     ],
     [

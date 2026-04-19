@@ -12,14 +12,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.8,
+  "availability_pct": 99.7,
   "price_stats": {
     "avg": 2.99,
     "min": 2.69,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.15,
-    "store_count": 7687
+    "store_count": 7686
   },
   "histogram": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 5951
+      "count": 5950
     },
     {
       "bucket": "$3.00",
@@ -166,7 +166,7 @@
     {
       "state": "NY",
       "avg_price": 3.06,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "CA",
@@ -291,7 +291,7 @@
     {
       "state": "MI",
       "avg_price": 2.98,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "IN",
@@ -359,14 +359,14 @@
       "store_count": 161
     },
     {
-      "state": "NC",
-      "avg_price": 2.94,
-      "store_count": 264
-    },
-    {
       "state": "WI",
       "avg_price": 2.94,
       "store_count": 144
+    },
+    {
+      "state": "NC",
+      "avg_price": 2.94,
+      "store_count": 263
     },
     {
       "state": "MS",
@@ -571,6 +571,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "029528",
+      "store_name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.238418+00:00"
+    },
+    {
+      "store_number": "042178",
+      "store_name": "Taco Bell",
+      "city": "Petoskey",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:29.523508+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -2553,8 +2583,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 46,
+    "added": 65,
+    "removed": 48,
     "price_changed": 88,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21914,15 +21944,6 @@
       "AL"
     ],
     [
-      "042178",
-      45.346729,
-      -84.967467,
-      2.99,
-      "Taco Bell",
-      "Petoskey",
-      "MI"
-    ],
-    [
       "042038",
       29.746937922620397,
       -95.85271417453703,
@@ -26133,15 +26154,6 @@
       "Taco Bell",
       "Liberty",
       "TX"
-    ],
-    [
-      "029528",
-      35.26034014744842,
-      -81.21464981700228,
-      2.99,
-      "Taco Bell",
-      "Gastonia",
-      "NC"
     ],
     [
       "015362",
@@ -68757,6 +68769,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      2.99,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "039146",

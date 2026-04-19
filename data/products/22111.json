@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.9,
+  "availability_pct": 99.8,
   "price_stats": {
     "avg": 3.01,
     "min": 2.29,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.21,
-    "store_count": 7696
+    "store_count": 7695
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 398
+      "count": 397
     },
     {
       "bucket": "$2.89",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 4148
+      "count": 4147
     },
     {
       "bucket": "$3.00",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 74
+      "count": 75
     },
     {
       "bucket": "$3.51",
@@ -190,7 +190,7 @@
     {
       "state": "NY",
       "avg_price": 3.29,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "MT",
@@ -265,17 +265,17 @@
     {
       "state": "MI",
       "avg_price": 3.04,
-      "store_count": 349
+      "store_count": 347
     },
     {
       "state": "OH",
       "avg_price": 3.03,
-      "store_count": 409
+      "store_count": 410
     },
     {
       "state": "MO",
       "avg_price": 3.03,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "VA",
@@ -315,7 +315,7 @@
     {
       "state": "FL",
       "avg_price": 2.99,
-      "store_count": 453
+      "store_count": 451
     },
     {
       "state": "UT",
@@ -598,6 +598,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033775",
+      "store_name": "Taco Bell",
+      "city": "Mount Vernon",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-04-19T20:34:51.494101+00:00"
+    },
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:46.172453+00:00"
+    },
+    {
+      "store_number": "042847",
+      "store_name": "Taco Bell",
+      "city": "North Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:41.258340+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:37.054988+00:00"
+    },
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-19T20:34:09.047777+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:41.882828+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -3880,8 +3950,8 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
-    "removed": 30,
+    "added": 38,
+    "removed": 34,
     "price_changed": 263,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11008,15 +11078,6 @@
       "Taco Bell",
       "Irmo",
       "SC"
-    ],
-    [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      2.79,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
     ],
     [
       "030548",
@@ -31242,15 +31303,6 @@
       "TX"
     ],
     [
-      "040007",
-      42.773823760985884,
-      -83.23956324725259,
-      2.99,
-      "Taco Bell",
-      "Lake Orion",
-      "MI"
-    ],
-    [
       "002804",
       35.25189316542879,
       -81.02790433061358,
@@ -41106,6 +41158,15 @@
       "WI"
     ],
     [
+      "029650",
+      38.7916778356872,
+      -90.57457745075226,
+      2.99,
+      "Taco Bell",
+      "Saint Peters",
+      "MO"
+    ],
+    [
       "017313",
       43.00489960861637,
       -78.2043171261237,
@@ -50025,15 +50086,6 @@
       "NM"
     ],
     [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      2.99,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
-    ],
-    [
       "030090",
       30.166044532241308,
       -97.79169358314448,
@@ -51508,15 +51560,6 @@
       "Taco Bell",
       "Sevierville",
       "TN"
-    ],
-    [
-      "042847",
-      26.667694225707564,
-      -81.89090006058905,
-      2.99,
-      "Taco Bell",
-      "North Fort Myers",
-      "FL"
     ],
     [
       "039043",
@@ -57853,6 +57896,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      2.99,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "038753",
@@ -71856,6 +71908,15 @@
       3.49,
       "Taco Bell",
       "Springfield",
+      "OH"
+    ],
+    [
+      "033775",
+      40.40135941864843,
+      -82.45208315545428,
+      3.49,
+      "Taco Bell",
+      "Mount Vernon",
       "OH"
     ],
     [

@@ -15,17 +15,17 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 91.8,
   "price_stats": {
-    "avg": 4.63,
+    "avg": 4.64,
     "min": 4.0,
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7076
+    "store_count": 7075
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5239
+      "count": 5238
     },
     {
       "bucket": "$4.19",
@@ -221,14 +221,14 @@
       "store_count": 14
     },
     {
-      "state": "NY",
+      "state": "KS",
       "avg_price": 4.93,
-      "store_count": 223
+      "store_count": 86
     },
     {
-      "state": "KS",
-      "avg_price": 4.92,
-      "store_count": 87
+      "state": "NY",
+      "avg_price": 4.93,
+      "store_count": 224
     },
     {
       "state": "MO",
@@ -308,7 +308,7 @@
     {
       "state": "IN",
       "avg_price": 4.06,
-      "store_count": 248
+      "store_count": 247
     },
     {
       "state": "MT",
@@ -1217,7 +1217,6 @@
     "042562",
     "042554",
     "035167",
-    "042417",
     "042153",
     "041964",
     "042687",
@@ -4349,7 +4348,6 @@
     "028883",
     "033500",
     "003777",
-    "028872",
     "032111",
     "004576",
     "042211",
@@ -5728,7 +5726,8 @@
     "027808",
     "032668",
     "033437",
-    "042069"
+    "042069",
+    "040713"
   ],
   "priciest_stores": [
     {
@@ -5803,6 +5802,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "028872",
+      "store_name": "Taco Bell",
+      "city": "Greensburg",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:31.711630+00:00"
+    },
+    {
+      "store_number": "042417",
+      "store_name": "Taco Bell",
+      "city": "Wichita",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:30.240103+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -6655,8 +6684,8 @@
     }
   ],
   "activity_summary": {
-    "added": 31,
-    "removed": 41,
+    "added": 32,
+    "removed": 43,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13232,15 +13261,6 @@
       "Taco Bell",
       "Franklin Square",
       "NY"
-    ],
-    [
-      "042417",
-      37.73724,
-      -97.208302,
-      4.0,
-      "Taco Bell",
-      "Wichita",
-      "KS"
     ],
     [
       "042153",
@@ -41422,15 +41442,6 @@
       "KS"
     ],
     [
-      "028872",
-      39.35526666744655,
-      -85.48028120401796,
-      4.0,
-      "Taco Bell",
-      "Greensburg",
-      "IN"
-    ],
-    [
       "032111",
       42.459820634799634,
       -87.82470166683197,
@@ -53840,6 +53851,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      4.0,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "040310",

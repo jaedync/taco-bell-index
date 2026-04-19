@@ -18,7 +18,7 @@
     "max": 3.49,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 731
+    "store_count": 729
   },
   "histogram": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 195
+      "count": 194
     },
     {
       "bucket": "$3.29",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 13
+      "count": 12
     },
     {
       "bucket": "$3.49",
@@ -77,8 +77,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 3.31,
-      "store_count": 6
+      "avg_price": 3.33,
+      "store_count": 5
     },
     {
       "state": "MO",
@@ -218,13 +218,6 @@
       "price": 3.49
     },
     {
-      "store_number": "041270",
-      "name": "Taco Bell",
-      "city": "Belvidere",
-      "state": "IL",
-      "price": 3.39
-    },
-    {
       "store_number": "026049",
       "name": "Taco Bell",
       "city": "Salisbury",
@@ -272,9 +265,36 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
+    },
+    {
+      "store_number": "034383",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038734",
+      "store_name": "Taco Bell",
+      "city": "Murrieta",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:29.072654+00:00"
+    },
+    {
+      "store_number": "041270",
+      "store_name": "Taco Bell",
+      "city": "Belvidere",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:31:48.850423+00:00"
+    },
     {
       "store_number": "038885",
       "store_name": "Taco Bell",
@@ -2958,7 +2978,7 @@
   ],
   "activity_summary": {
     "added": 59,
-    "removed": 64,
+    "removed": 66,
     "price_changed": 145,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5801,15 +5821,6 @@
       "Taco Bell",
       "Albert Lea",
       "MN"
-    ],
-    [
-      "038734",
-      33.5896,
-      -117.127,
-      3.19,
-      "Taco Bell",
-      "Murrieta",
-      "CA"
     ],
     [
       "036709",
@@ -9518,15 +9529,6 @@
       "Taco Bell",
       "Salisbury",
       "NC"
-    ],
-    [
-      "041270",
-      42.240347,
-      -88.819067,
-      3.39,
-      "Taco Bell",
-      "Belvidere",
-      "IL"
     ],
     [
       "038783",

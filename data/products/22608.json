@@ -17,7 +17,7 @@
     "max": 13.99,
     "median": 8.79,
     "std_dev": 0.7,
-    "store_count": 7702
+    "store_count": 7701
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$7.69",
-      "count": 193
+      "count": 192
     },
     {
       "bucket": "$7.75",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 542
+      "count": 541
     },
     {
       "bucket": "$8.09",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$8.39",
-      "count": 102
+      "count": 103
     },
     {
       "bucket": "$8.49",
@@ -310,7 +310,7 @@
     {
       "state": "NY",
       "avg_price": 9.59,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "CA",
@@ -379,8 +379,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.84,
-      "store_count": 349
+      "avg_price": 8.85,
+      "store_count": 348
     },
     {
       "state": "RI",
@@ -485,7 +485,7 @@
     {
       "state": "IN",
       "avg_price": 8.24,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "KY",
@@ -703,6 +703,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.39,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:46.172453+00:00"
+    },
+    {
+      "store_number": "028872",
+      "store_name": "Taco Bell",
+      "city": "Greensburg",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 7.69,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:31.711630+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -13545,8 +13575,8 @@
     }
   ],
   "activity_summary": {
-    "added": 80,
-    "removed": 76,
+    "added": 81,
+    "removed": 78,
     "price_changed": 1128,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19105,15 +19135,6 @@
       "Taco Bell",
       "Columbia",
       "SC"
-    ],
-    [
-      "028872",
-      39.35526666744655,
-      -85.48028120401796,
-      7.69,
-      "Taco Bell",
-      "Greensburg",
-      "IN"
     ],
     [
       "016957",
@@ -29385,15 +29406,6 @@
       "MO"
     ],
     [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      7.99,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
-    ],
-    [
       "043145",
       34.487707747098206,
       -87.27569624374031,
@@ -36808,6 +36820,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      8.39,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "040631",

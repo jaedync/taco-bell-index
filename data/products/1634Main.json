@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:40:07.243504+00:00",
   "availability_pct": 2.3,
   "price_stats": {
-    "avg": 3.83,
+    "avg": 3.82,
     "min": 2.09,
     "max": 4.99,
     "median": 3.89,
-    "std_dev": 0.39,
-    "store_count": 181
+    "std_dev": 0.4,
+    "store_count": 178
   },
   "histogram": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$3.39",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$3.69",
@@ -75,11 +75,11 @@
     },
     {
       "bucket": "$3.89",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$3.99",
-      "count": 44
+      "count": 43
     },
     {
       "bucket": "$4.09",
@@ -87,7 +87,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$4.29",
@@ -133,13 +133,13 @@
     },
     {
       "state": "CA",
-      "avg_price": 3.98,
-      "store_count": 24
+      "avg_price": 3.97,
+      "store_count": 22
     },
     {
       "state": "FL",
-      "avg_price": 3.92,
-      "store_count": 6
+      "avg_price": 3.93,
+      "store_count": 5
     },
     {
       "state": "AL",
@@ -178,8 +178,8 @@
     },
     {
       "state": "MS",
-      "avg_price": 3.23,
-      "store_count": 5
+      "avg_price": 3.24,
+      "store_count": 6
     }
   ],
   "nutrition": null,
@@ -331,6 +331,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027989",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:51.292829+00:00"
+    },
+    {
+      "store_number": "031449",
+      "store_name": "Taco Bell",
+      "city": "Pleasant Hill",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:35.671294+00:00"
+    },
+    {
+      "store_number": "004274",
+      "store_name": "Taco Bell",
+      "city": "Starkville",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-19T20:34:27.050051+00:00"
+    },
+    {
+      "store_number": "035271",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:14.954237+00:00"
+    },
+    {
+      "store_number": "026126",
+      "store_name": "Taco Bell",
+      "city": "King City",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:00.834451+00:00"
+    },
     {
       "store_number": "033109",
       "store_name": "Taco Bell",
@@ -2463,8 +2513,8 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
-    "removed": 120,
+    "added": 72,
+    "removed": 124,
     "price_changed": 22,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2616,6 +2666,15 @@
       "Taco Bell",
       "Chardon",
       "OH"
+    ],
+    [
+      "004274",
+      33.45365710660152,
+      -88.81976500153542,
+      3.29,
+      "Taco Bell",
+      "Starkville",
+      "MS"
     ],
     [
       "030681",
@@ -2868,15 +2927,6 @@
       "Taco Bell",
       "Celina",
       "TX"
-    ],
-    [
-      "035271",
-      41.288005046376405,
-      -96.08072449826899,
-      3.59,
-      "Taco Bell",
-      "Omaha",
-      "NE"
     ],
     [
       "028351",
@@ -3356,15 +3406,6 @@
       "OH"
     ],
     [
-      "027989",
-      28.4177469087786,
-      -81.24284331502167,
-      3.89,
-      "Taco Bell",
-      "Orlando",
-      "FL"
-    ],
-    [
       "038897",
       40.7189609403991,
       -81.113457956817,
@@ -3626,15 +3667,6 @@
       "MO"
     ],
     [
-      "031449",
-      37.95318450746154,
-      -122.05972954630852,
-      3.99,
-      "Taco Bell",
-      "Pleasant Hill",
-      "CA"
-    ],
-    [
       "028497",
       38.549910700142114,
       -90.03655582666397,
@@ -3867,15 +3899,6 @@
       "Taco Bell",
       "Tamarac",
       "FL"
-    ],
-    [
-      "026126",
-      36.202670643626824,
-      -121.13545767361063,
-      4.19,
-      "Taco Bell",
-      "King City",
-      "CA"
     ],
     [
       "004173",

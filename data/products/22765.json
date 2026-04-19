@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7671
+    "store_count": 7670
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7671
+      "count": 7670
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 134
+      "store_count": 133
     },
     {
       "state": "VA",
@@ -2888,7 +2888,6 @@
     "034639",
     "032679",
     "042823",
-    "020555",
     "032309",
     "030672",
     "029098",
@@ -4189,6 +4188,7 @@
     "027823",
     "002693",
     "030902",
+    "003144",
     "039984",
     "042632",
     "036108",
@@ -5342,7 +5342,6 @@
     "029561",
     "029475",
     "032991",
-    "039822",
     "029084",
     "031222",
     "003782",
@@ -6285,7 +6284,6 @@
     "031662",
     "032522",
     "019722",
-    "035017",
     "028435",
     "023135",
     "035142",
@@ -8034,9 +8032,17 @@
     "017611",
     "003791",
     "037058",
-    "042069"
+    "042069",
+    "040713"
   ],
   "priciest_stores": [
+    {
+      "store_number": "040713",
+      "name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "price": 0.0
+    },
     {
       "store_number": "042069",
       "name": "Taco Bell",
@@ -8099,16 +8105,59 @@
       "city": "Evansville",
       "state": "IN",
       "price": 0.0
-    },
-    {
-      "store_number": "036244",
-      "name": "Taco Bell",
-      "city": "Sparks",
-      "state": "NV",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "035017",
+      "store_name": "Taco Bell",
+      "city": "Auburn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:36.338358+00:00"
+    },
+    {
+      "store_number": "039822",
+      "store_name": "Taco Bell",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:22.150041+00:00"
+    },
+    {
+      "store_number": "003144",
+      "store_name": "Taco Bell",
+      "city": "Culver City",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-19T20:34:07.249908+00:00"
+    },
+    {
+      "store_number": "020555",
+      "store_name": "Taco Bell",
+      "city": "Longview",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:49.259362+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -8691,8 +8740,8 @@
     }
   ],
   "activity_summary": {
-    "added": 23,
-    "removed": 35,
+    "added": 25,
+    "removed": 38,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31418,15 +31467,6 @@
       "AL"
     ],
     [
-      "020555",
-      46.146705707562,
-      -122.92752300204484,
-      0.0,
-      "Taco Bell",
-      "Longview",
-      "WA"
-    ],
-    [
       "032309",
       35.12491711929332,
       -90.05452930927277,
@@ -43127,6 +43167,15 @@
       "AR"
     ],
     [
+      "003144",
+      34.00326725847459,
+      -118.40690553188324,
+      0.0,
+      "Taco Bell",
+      "Culver City",
+      "CA"
+    ],
+    [
       "039984",
       38.88662059844324,
       -77.44445045294015,
@@ -53504,15 +53553,6 @@
       "MI"
     ],
     [
-      "039822",
-      33.94146528726166,
-      -117.22796864762553,
-      0.0,
-      "Taco Bell",
-      "Moreno Valley",
-      "CA"
-    ],
-    [
       "029084",
       33.11238276913683,
       -83.25743977727143,
@@ -61989,15 +62029,6 @@
       "Taco Bell",
       "Hermiston",
       "OR"
-    ],
-    [
-      "035017",
-      42.945229451375,
-      -76.54953019282061,
-      0.0,
-      "Taco Bell",
-      "Auburn",
-      "NY"
     ],
     [
       "028435",
@@ -77739,6 +77770,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      0.0,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ]
   ]
 }

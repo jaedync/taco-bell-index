@@ -12,14 +12,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 91.0,
+  "availability_pct": 90.9,
   "price_stats": {
     "avg": 3.29,
     "min": 1.59,
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7009
+    "store_count": 7008
   },
   "histogram": [
     {
@@ -68,7 +68,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 92
+      "count": 91
     },
     {
       "bucket": "$2.79",
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2542
+      "count": 2543
     },
     {
       "bucket": "$3.09",
@@ -104,7 +104,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 474
+      "count": 473
     },
     {
       "bucket": "$3.40",
@@ -387,14 +387,14 @@
       "store_count": 11
     },
     {
+      "state": "KY",
+      "avg_price": 3.14,
+      "store_count": 159
+    },
+    {
       "state": "MO",
       "avg_price": 3.14,
       "store_count": 226
-    },
-    {
-      "state": "KY",
-      "avg_price": 3.14,
-      "store_count": 160
     },
     {
       "state": "GA",
@@ -629,6 +629,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "037484",
+      "store_name": "Taco Bell",
+      "city": "Murray",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:09.983407+00:00"
+    },
+    {
+      "store_number": "039533",
+      "store_name": "Taco Bell",
+      "city": "Staten Island",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:43.447469+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -16561,8 +16591,8 @@
     }
   ],
   "activity_summary": {
-    "added": 53,
-    "removed": 654,
+    "added": 54,
+    "removed": 656,
     "price_changed": 886,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19468,15 +19498,6 @@
       "Taco Bell",
       "Swainsboro",
       "GA"
-    ],
-    [
-      "037484",
-      36.61582150038257,
-      -88.31460043787956,
-      2.69,
-      "Taco Bell",
-      "Murray",
-      "KY"
     ],
     [
       "035161",
@@ -44049,6 +44070,15 @@
       "PA"
     ],
     [
+      "040713",
+      41.7434,
+      -74.0726,
+      2.99,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
+    ],
+    [
       "040904",
       41.97753928980377,
       -87.66811113265531,
@@ -55198,15 +55228,6 @@
       "Taco Bell",
       "Dayton",
       "TX"
-    ],
-    [
-      "039533",
-      40.61588913813116,
-      -74.07188228344974,
-      3.39,
-      "Taco Bell",
-      "Staten Island",
-      "NY"
     ],
     [
       "042577",

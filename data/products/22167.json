@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 4.76,
     "min": 2.99,
     "max": 7.79,
     "median": 4.79,
     "std_dev": 0.49,
-    "store_count": 7703
+    "store_count": 7702
   },
   "histogram": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 434
+      "count": 433
     },
     {
       "bucket": "$4.09",
@@ -75,7 +75,7 @@
     },
     {
       "bucket": "$4.39",
-      "count": 337
+      "count": 335
     },
     {
       "bucket": "$4.49",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 843
+      "count": 844
     },
     {
       "bucket": "$4.81",
@@ -167,7 +167,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 135
+      "count": 136
     },
     {
       "bucket": "$5.50",
@@ -278,7 +278,7 @@
     {
       "state": "MI",
       "avg_price": 5.02,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "DC",
@@ -298,7 +298,7 @@
     {
       "state": "IL",
       "avg_price": 4.99,
-      "store_count": 287
+      "store_count": 288
     },
     {
       "state": "DE",
@@ -323,7 +323,7 @@
     {
       "state": "NY",
       "avg_price": 4.91,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "NM",
@@ -398,7 +398,7 @@
     {
       "state": "NC",
       "avg_price": 4.64,
-      "store_count": 264
+      "store_count": 263
     },
     {
       "state": "LA",
@@ -431,14 +431,14 @@
       "store_count": 255
     },
     {
+      "state": "IN",
+      "avg_price": 4.4,
+      "store_count": 260
+    },
+    {
       "state": "TX",
       "avg_price": 4.4,
       "store_count": 701
-    },
-    {
-      "state": "IN",
-      "avg_price": 4.4,
-      "store_count": 261
     },
     {
       "state": "OK",
@@ -656,6 +656,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.79,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-19T20:34:04.526633+00:00"
+    },
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:57.514350+00:00"
+    },
+    {
+      "store_number": "029528",
+      "store_name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.238418+00:00"
+    },
+    {
+      "store_number": "042178",
+      "store_name": "Taco Bell",
+      "city": "Petoskey",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.39,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:29.523508+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -13358,8 +13408,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 37,
+    "added": 44,
+    "removed": 40,
     "price_changed": 1191,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17372,15 +17422,6 @@
       "Taco Bell",
       "Cedar Rapids",
       "IA"
-    ],
-    [
-      "028861",
-      39.80032567328473,
-      -86.26901320651086,
-      3.99,
-      "Taco Bell",
-      "Speedway",
-      "IN"
     ],
     [
       "035148",
@@ -26014,15 +26055,6 @@
       "GA"
     ],
     [
-      "042178",
-      45.346729,
-      -84.967467,
-      4.39,
-      "Taco Bell",
-      "Petoskey",
-      "MI"
-    ],
-    [
       "042248",
       33.59004,
       -79.05669,
@@ -26291,15 +26323,6 @@
       "Taco Bell",
       "Tullahoma",
       "TN"
-    ],
-    [
-      "029528",
-      35.26034014744842,
-      -81.21464981700228,
-      4.39,
-      "Taco Bell",
-      "Gastonia",
-      "NC"
     ],
     [
       "016292",
@@ -53302,6 +53325,15 @@
       "PA"
     ],
     [
+      "040713",
+      41.7434,
+      -74.0726,
+      4.79,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
+    ],
+    [
       "039145",
       42.2160043378776,
       -73.87808667790986,
@@ -79408,6 +79440,15 @@
       5.49,
       "Taco Bell",
       "Minooka",
+      "IL"
+    ],
+    [
+      "030404",
+      41.882211,
+      -87.640594,
+      5.49,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

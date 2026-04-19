@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 3.01,
     "min": 2.29,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.2,
-    "store_count": 7705
+    "store_count": 7703
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 413
+      "count": 412
     },
     {
       "bucket": "$2.89",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 4130
+      "count": 4129
     },
     {
       "bucket": "$3.00",
@@ -190,7 +190,7 @@
     {
       "state": "NY",
       "avg_price": 3.27,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "MT",
@@ -260,7 +260,7 @@
     {
       "state": "MI",
       "avg_price": 3.04,
-      "store_count": 349
+      "store_count": 347
     },
     {
       "state": "IL",
@@ -315,7 +315,7 @@
     {
       "state": "FL",
       "avg_price": 2.99,
-      "store_count": 453
+      "store_count": 452
     },
     {
       "state": "UT",
@@ -598,6 +598,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:46.172453+00:00"
+    },
+    {
+      "store_number": "042847",
+      "store_name": "Taco Bell",
+      "city": "North Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:41.258340+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:41.882828+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -3750,8 +3790,8 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 21,
+    "added": 34,
+    "removed": 24,
     "price_changed": 261,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11058,15 +11098,6 @@
       "Taco Bell",
       "Irmo",
       "SC"
-    ],
-    [
-      "033000",
-      43.0588918419283,
-      -85.95632582902908,
-      2.79,
-      "Taco Bell",
-      "Coopersville",
-      "MI"
     ],
     [
       "030548",
@@ -31164,15 +31195,6 @@
       "Taco Bell",
       "Baytown",
       "TX"
-    ],
-    [
-      "040007",
-      42.773823760985884,
-      -83.23956324725259,
-      2.99,
-      "Taco Bell",
-      "Lake Orion",
-      "MI"
     ],
     [
       "002804",
@@ -51425,15 +51447,6 @@
       "TN"
     ],
     [
-      "042847",
-      26.667694225707564,
-      -81.89090006058905,
-      2.99,
-      "Taco Bell",
-      "North Fort Myers",
-      "FL"
-    ],
-    [
       "039043",
       39.95397950022616,
       -74.15939855317178,
@@ -57759,6 +57772,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      2.99,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "038753",

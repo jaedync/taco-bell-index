@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.6,
+  "availability_pct": 99.5,
   "price_stats": {
     "avg": 0.94,
     "min": 0.3,
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 268
+      "count": 269
     },
     {
       "bucket": "$0.60",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 993
+      "count": 992
     },
     {
       "bucket": "$0.95",
@@ -207,7 +207,7 @@
     {
       "state": "NY",
       "avg_price": 1.05,
-      "store_count": 249
+      "store_count": 250
     },
     {
       "state": "NC",
@@ -422,7 +422,7 @@
     {
       "state": "WI",
       "avg_price": 0.76,
-      "store_count": 142
+      "store_count": 141
     },
     {
       "state": "ND",
@@ -594,6 +594,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "034354",
+      "store_name": "Taco Bell Cantina",
+      "city": "Madison",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:57.023163+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -1006,8 +1026,8 @@
     }
   ],
   "activity_summary": {
-    "added": 16,
-    "removed": 13,
+    "added": 17,
+    "removed": 14,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4390,6 +4410,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      0.59,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "041324",
@@ -31516,15 +31545,6 @@
       "Taco Bell",
       "Farmington",
       "AR"
-    ],
-    [
-      "034354",
-      43.075075570577575,
-      -89.39426372023775,
-      0.9,
-      "Taco Bell Cantina",
-      "Madison",
-      "WI"
     ],
     [
       "040313",

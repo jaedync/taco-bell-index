@@ -18,7 +18,7 @@
     "max": 1.5,
     "median": 0.2,
     "std_dev": 0.07,
-    "store_count": 7678
+    "store_count": 7673
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 5458
+      "count": 5455
     },
     {
       "bucket": "$0.22",
@@ -47,11 +47,11 @@
     },
     {
       "bucket": "$0.29",
-      "count": 556
+      "count": 555
     },
     {
       "bucket": "$0.30",
-      "count": 723
+      "count": 722
     },
     {
       "bucket": "$0.33",
@@ -140,7 +140,7 @@
     {
       "state": "NY",
       "avg_price": 0.28,
-      "store_count": 251
+      "store_count": 252
     },
     {
       "state": "OR",
@@ -153,14 +153,14 @@
       "store_count": 256
     },
     {
-      "state": "MI",
-      "avg_price": 0.26,
-      "store_count": 347
-    },
-    {
       "state": "NE",
       "avg_price": 0.26,
       "store_count": 44
+    },
+    {
+      "state": "MI",
+      "avg_price": 0.26,
+      "store_count": 347
     },
     {
       "state": "NV",
@@ -175,7 +175,7 @@
     {
       "state": "CA",
       "avg_price": 0.25,
-      "store_count": 839
+      "store_count": 838
     },
     {
       "state": "DE",
@@ -200,7 +200,7 @@
     {
       "state": "FL",
       "avg_price": 0.23,
-      "store_count": 442
+      "store_count": 439
     },
     {
       "state": "TN",
@@ -230,7 +230,7 @@
     {
       "state": "CO",
       "avg_price": 0.22,
-      "store_count": 156
+      "store_count": 155
     },
     {
       "state": "NC",
@@ -290,7 +290,7 @@
     {
       "state": "MA",
       "avg_price": 0.2,
-      "store_count": 66
+      "store_count": 65
     },
     {
       "state": "AL",
@@ -521,6 +521,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040713",
+      "store_name": "Taco Bell",
+      "city": "New Paltz",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-19T20:34:57.584738+00:00"
+    },
+    {
+      "store_number": "042928",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:51.064652+00:00"
+    },
+    {
+      "store_number": "029270",
+      "store_name": "Taco Bell",
+      "city": "Danvers",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:32.538569+00:00"
+    },
+    {
+      "store_number": "041190",
+      "store_name": "Taco Bell",
+      "city": "Durango",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:17.850680+00:00"
+    },
+    {
+      "store_number": "003991",
+      "store_name": "Taco Bell",
+      "city": "Susanville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:17.632350+00:00"
+    },
+    {
+      "store_number": "033019",
+      "store_name": "Taco Bell",
+      "city": "Ionia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-19T20:34:16.102320+00:00"
+    },
+    {
+      "store_number": "042845",
+      "store_name": "Taco Bell",
+      "city": "La Belle",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:05.045594+00:00"
+    },
+    {
+      "store_number": "022833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.29,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:03.183158+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:27.638724+00:00"
+    },
     {
       "store_number": "042069",
       "store_name": "Taco Bell",
@@ -2623,8 +2713,8 @@
     }
   ],
   "activity_summary": {
-    "added": 94,
-    "removed": 103,
+    "added": 96,
+    "removed": 110,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25683,15 +25773,6 @@
       "CA"
     ],
     [
-      "042845",
-      26.76223746126524,
-      -81.4364568293422,
-      0.2,
-      "Taco Bell",
-      "La Belle",
-      "FL"
-    ],
-    [
       "027771",
       40.00121928436339,
       -75.22722691297531,
@@ -31542,6 +31623,15 @@
       "LA"
     ],
     [
+      "033019",
+      42.942099201300465,
+      -85.07526621227953,
+      0.2,
+      "Taco Bell",
+      "Ionia",
+      "MI"
+    ],
+    [
       "034172",
       36.77987505851344,
       -119.7730346471235,
@@ -32280,15 +32370,6 @@
       "MO"
     ],
     [
-      "003991",
-      40.405731305744325,
-      -120.6333485870065,
-      0.2,
-      "Taco Bell",
-      "Susanville",
-      "CA"
-    ],
-    [
       "031793",
       27.961153204369335,
       -82.71334281106257,
@@ -32539,15 +32620,6 @@
       "Taco Bell",
       "Newberry",
       "SC"
-    ],
-    [
-      "041190",
-      37.296222719761985,
-      -107.87236221137391,
-      0.2,
-      "Taco Bell",
-      "Durango",
-      "CO"
     ],
     [
       "039730",
@@ -38749,15 +38821,6 @@
       "Taco Bell",
       "Fayetteville",
       "AR"
-    ],
-    [
-      "029270",
-      42.547937328652,
-      -70.94245353344377,
-      0.2,
-      "Taco Bell",
-      "Danvers",
-      "MA"
     ],
     [
       "042873",
@@ -48228,15 +48291,6 @@
       "OK"
     ],
     [
-      "042928",
-      29.5540650252999,
-      -81.22845753097863,
-      0.2,
-      "Taco Bell",
-      "Palm Coast",
-      "FL"
-    ],
-    [
       "039631",
       34.923272863187506,
       -88.51575299173413,
@@ -51772,6 +51826,15 @@
       "Taco Bell",
       "Bloomsburg",
       "PA"
+    ],
+    [
+      "040713",
+      41.7434,
+      -74.0726,
+      0.2,
+      "Taco Bell",
+      "New Paltz",
+      "NY"
     ],
     [
       "027030",
@@ -58875,15 +58938,6 @@
       "IN"
     ],
     [
-      "022833",
-      28.3538526090358,
-      -81.6757670044899,
-      0.29,
-      "Taco Bell",
-      "Clermont",
-      "FL"
-    ],
-    [
       "036783",
       36.55363512997127,
       -86.23635700897522,
@@ -62239,15 +62293,6 @@
       "Taco Bell",
       "Joplin",
       "MO"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      0.3,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
     ],
     [
       "036775",

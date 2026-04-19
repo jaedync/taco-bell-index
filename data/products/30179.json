@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 44.2,
+  "availability_pct": 44.1,
   "price_stats": {
     "avg": 2.09,
     "min": 1.19,
     "max": 4.12,
     "median": 1.99,
     "std_dev": 0.32,
-    "store_count": 3405
+    "store_count": 3402
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 121
+      "count": 120
     },
     {
       "bucket": "$1.89",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1383
+      "count": 1382
     },
     {
       "bucket": "$2.00",
@@ -74,15 +74,15 @@
     },
     {
       "bucket": "$2.29",
-      "count": 150
+      "count": 151
     },
     {
       "bucket": "$2.39",
-      "count": 232
+      "count": 231
     },
     {
       "bucket": "$2.49",
-      "count": 168
+      "count": 167
     },
     {
       "bucket": "$2.50",
@@ -188,7 +188,7 @@
     {
       "state": "OH",
       "avg_price": 2.24,
-      "store_count": 204
+      "store_count": 202
     },
     {
       "state": "IL",
@@ -213,7 +213,7 @@
     {
       "state": "MI",
       "avg_price": 2.18,
-      "store_count": 188
+      "store_count": 187
     },
     {
       "state": "WA",
@@ -233,7 +233,7 @@
     {
       "state": "NC",
       "avg_price": 2.09,
-      "store_count": 119
+      "store_count": 120
     },
     {
       "state": "MA",
@@ -268,7 +268,7 @@
     {
       "state": "AK",
       "avg_price": 1.99,
-      "store_count": 13
+      "store_count": 12
     },
     {
       "state": "ND",
@@ -283,7 +283,7 @@
     {
       "state": "FL",
       "avg_price": 1.98,
-      "store_count": 237
+      "store_count": 238
     },
     {
       "state": "KS",
@@ -298,7 +298,7 @@
     {
       "state": "MO",
       "avg_price": 1.94,
-      "store_count": 62
+      "store_count": 61
     },
     {
       "state": "AZ",
@@ -520,6 +520,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032200",
+      "store_name": "Taco Bell",
+      "city": "Palmer",
+      "state": "AK",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:34:54.757881+00:00"
+    },
+    {
+      "store_number": "028850",
+      "store_name": "Taco Bell",
+      "city": "Hollywood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-19T20:34:23.794263+00:00"
+    },
+    {
+      "store_number": "029636",
+      "store_name": "Taco Bell",
+      "city": "Warrenton",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:53.467973+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.875855+00:00"
+    },
+    {
+      "store_number": "027042",
+      "store_name": "Taco Bell",
+      "city": "Vermilion",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:38.082395+00:00"
+    },
+    {
+      "store_number": "040534",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.39,
+      "new_price": null,
+      "observed_at": "2026-04-19T20:33:37.595185+00:00"
+    },
+    {
+      "store_number": "029867",
+      "store_name": "Taco Bell",
+      "city": "Charlotte",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.29,
+      "observed_at": "2026-04-19T20:33:37.220994+00:00"
+    },
     {
       "store_number": "031321",
       "store_name": "Taco Bell",
@@ -2482,8 +2552,8 @@
     }
   ],
   "activity_summary": {
-    "added": 91,
-    "removed": 87,
+    "added": 93,
+    "removed": 92,
     "price_changed": 18,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6298,15 +6368,6 @@
       "Taco Bell",
       "Galion",
       "OH"
-    ],
-    [
-      "029636",
-      38.81939159736144,
-      -91.14141136407846,
-      1.79,
-      "Taco Bell",
-      "Warrenton",
-      "MO"
     ],
     [
       "004370",
@@ -10582,15 +10643,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Houston",
       "TX"
-    ],
-    [
-      "027042",
-      41.403417895947996,
-      -82.36414696276597,
-      1.99,
-      "Taco Bell",
-      "Vermilion",
-      "OH"
     ],
     [
       "021299",
@@ -20772,15 +20824,6 @@
       "IL"
     ],
     [
-      "032200",
-      61.599191,
-      -149.127888,
-      1.99,
-      "Taco Bell",
-      "Palmer",
-      "AK"
-    ],
-    [
       "036356",
       41.55276724718308,
       -90.48188567161554,
@@ -21202,6 +21245,15 @@
       "Taco Bell",
       "Herndon",
       "VA"
+    ],
+    [
+      "028850",
+      26.0077519,
+      -80.2068424,
+      1.99,
+      "Taco Bell",
+      "Hollywood",
+      "FL"
     ],
     [
       "041644",
@@ -26730,6 +26782,15 @@
       "HI"
     ],
     [
+      "029867",
+      35.10074468567441,
+      -80.99148988723755,
+      2.29,
+      "Taco Bell",
+      "Charlotte",
+      "NC"
+    ],
+    [
       "040631",
       38.8621,
       -83.8877,
@@ -27052,15 +27113,6 @@
       "Taco Bell",
       "Kahului",
       "HI"
-    ],
-    [
-      "040534",
-      41.479977027095835,
-      -81.76837467484042,
-      2.39,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
     ],
     [
       "002086",
@@ -29293,15 +29345,6 @@
       "Taco Bell",
       "Barberton",
       "OH"
-    ],
-    [
-      "001469",
-      42.291758682661715,
-      -83.38639006018644,
-      2.49,
-      "Taco Bell",
-      "Westland",
-      "MI"
     ],
     [
       "030253",
