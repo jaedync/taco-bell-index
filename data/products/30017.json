@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 44.3,
+  "availability_pct": 44.4,
   "price_stats": {
     "avg": 1.85,
     "min": 1.0,
     "max": 2.99,
     "median": 1.99,
     "std_dev": 0.22,
-    "store_count": 3418
+    "store_count": 3420
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$1.39",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 206
+      "count": 205
     },
     {
       "bucket": "$1.67",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 644
+      "count": 646
     },
     {
       "bucket": "$1.89",
@@ -150,7 +150,7 @@
     {
       "state": "CA",
       "avg_price": 1.97,
-      "store_count": 622
+      "store_count": 621
     },
     {
       "state": "CT",
@@ -165,7 +165,7 @@
     {
       "state": "WA",
       "avg_price": 1.96,
-      "store_count": 132
+      "store_count": 133
     },
     {
       "state": "PA",
@@ -200,7 +200,7 @@
     {
       "state": "TX",
       "avg_price": 1.87,
-      "store_count": 93
+      "store_count": 94
     },
     {
       "state": "MN",
@@ -230,7 +230,7 @@
     {
       "state": "NV",
       "avg_price": 1.81,
-      "store_count": 76
+      "store_count": 77
     },
     {
       "state": "ID",
@@ -269,8 +269,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 1.73,
-      "store_count": 126
+      "avg_price": 1.72,
+      "store_count": 125
     },
     {
       "state": "NM",
@@ -289,8 +289,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 1.59,
-      "store_count": 68
+      "avg_price": 1.58,
+      "store_count": 69
     },
     {
       "state": "KS",
@@ -506,6 +506,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037472",
+      "store_name": "Taco Bell",
+      "city": "Onalaska",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-04-20T22:04:46.870998+00:00"
+    },
+    {
+      "store_number": "022607",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-20T22:03:11.384572+00:00"
+    },
+    {
+      "store_number": "031951",
+      "store_name": "Taco Bell",
+      "city": "Coachella",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:10.804196+00:00"
+    },
+    {
+      "store_number": "031862",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-20T22:03:09.151081+00:00"
+    },
+    {
+      "store_number": "033020",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:57.330780+00:00"
+    },
+    {
+      "store_number": "002851",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Humble",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-20T22:02:24.868693+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-20T22:02:15.551099+00:00"
+    },
+    {
+      "store_number": "035305",
+      "store_name": "Taco Bell",
+      "city": "Franklin",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T21:58:57.127410+00:00"
+    },
     {
       "store_number": "040761",
       "store_name": "Taco Bell",
@@ -3258,8 +3338,8 @@
     }
   ],
   "activity_summary": {
-    "added": 100,
-    "removed": 102,
+    "added": 105,
+    "removed": 105,
     "price_changed": 73,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3743,6 +3823,15 @@
       1.29,
       "Taco Bell",
       "Tomah",
+      "WI"
+    ],
+    [
+      "037472",
+      43.87013955283418,
+      -91.21037095785141,
+      1.29,
+      "Taco Bell",
+      "Onalaska",
       "WI"
     ],
     [
@@ -6561,15 +6650,6 @@
       "Taco Bell",
       "Brockton",
       "MA"
-    ],
-    [
-      "033020",
-      42.842486742945276,
-      -85.62426029588096,
-      1.59,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
     ],
     [
       "032989",
@@ -12593,6 +12673,15 @@
       "NV"
     ],
     [
+      "031862",
+      39.533994949755154,
+      -119.86692041158676,
+      1.79,
+      "Taco Bell",
+      "Reno",
+      "NV"
+    ],
+    [
       "042889",
       30.268294710241545,
       -81.61518757046906,
@@ -12654,6 +12743,15 @@
       "Taco Bell",
       "Brunswick",
       "GA"
+    ],
+    [
+      "022607",
+      47.821453816163455,
+      -122.30010028646434,
+      1.79,
+      "Taco Bell",
+      "Lynnwood",
+      "WA"
     ],
     [
       "032515",
@@ -19334,15 +19432,6 @@
       "OH"
     ],
     [
-      "035305",
-      39.490704748564966,
-      -86.05792940774995,
-      1.99,
-      "Taco Bell",
-      "Franklin",
-      "IN"
-    ],
-    [
       "029865",
       25.5724559920847,
       -80.37501851889539,
@@ -20801,6 +20890,15 @@
       "CA"
     ],
     [
+      "001469",
+      42.291758682661715,
+      -83.38639006018644,
+      1.99,
+      "Taco Bell",
+      "Westland",
+      "MI"
+    ],
+    [
       "024393",
       29.733158797690876,
       -95.77528055012124,
@@ -21510,6 +21608,15 @@
       "Taco Bell",
       "Belmont",
       "NC"
+    ],
+    [
+      "002851",
+      29.9977979971997,
+      -95.16799039678068,
+      1.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Humble",
+      "TX"
     ],
     [
       "001856",
@@ -24381,15 +24488,6 @@
       "Taco Bell",
       "Auburn",
       "WA"
-    ],
-    [
-      "031951",
-      33.68436704861695,
-      -116.18092685937881,
-      1.99,
-      "Taco Bell",
-      "Coachella",
-      "CA"
     ],
     [
       "032524",

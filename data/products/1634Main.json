@@ -17,7 +17,7 @@
     "min": 2.09,
     "max": 4.99,
     "median": 3.89,
-    "std_dev": 0.4,
+    "std_dev": 0.39,
     "store_count": 178
   },
   "histogram": [
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$3.69",
@@ -75,11 +75,11 @@
     },
     {
       "bucket": "$3.89",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$3.99",
-      "count": 43
+      "count": 41
     },
     {
       "bucket": "$4.09",
@@ -87,11 +87,11 @@
     },
     {
       "bucket": "$4.19",
-      "count": 14
+      "count": 16
     },
     {
       "bucket": "$4.29",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$4.35",
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$4.99",
@@ -132,13 +132,23 @@
       "store_count": 5
     },
     {
-      "state": "CA",
+      "state": "SC",
       "avg_price": 3.97,
-      "store_count": 22
+      "store_count": 5
+    },
+    {
+      "state": "CA",
+      "avg_price": 3.94,
+      "store_count": 21
     },
     {
       "state": "FL",
       "avg_price": 3.93,
+      "store_count": 5
+    },
+    {
+      "state": "NY",
+      "avg_price": 3.92,
       "store_count": 5
     },
     {
@@ -316,21 +326,101 @@
       "price": 4.59
     },
     {
-      "store_number": "026730",
-      "name": "Taco Bell",
-      "city": "Farmington",
-      "state": "CT",
-      "price": 4.59
-    },
-    {
       "store_number": "021372",
       "name": "Taco Bell",
       "city": "Dallas",
       "state": "TX",
       "price": 4.39
+    },
+    {
+      "store_number": "041499",
+      "name": "Taco Bell",
+      "city": "St. Louis",
+      "state": "MO",
+      "price": 4.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042957",
+      "store_name": "Taco Bell",
+      "city": "Clemson",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-20T22:05:03.036903+00:00"
+    },
+    {
+      "store_number": "028519",
+      "store_name": "Taco Bell",
+      "city": "Downey",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:04:54.080031+00:00"
+    },
+    {
+      "store_number": "003904",
+      "store_name": "Taco Bell",
+      "city": "Irvine",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-04-20T22:04:00.363946+00:00"
+    },
+    {
+      "store_number": "035409",
+      "store_name": "Taco Bell",
+      "city": "Elkhart",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-04-20T22:03:50.154548+00:00"
+    },
+    {
+      "store_number": "039996",
+      "store_name": "Taco Bell",
+      "city": "Buffalo",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-20T22:03:24.318577+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:14.014162+00:00"
+    },
+    {
+      "store_number": "026730",
+      "store_name": "Taco Bell",
+      "city": "Farmington",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:01:57.462034+00:00"
+    },
+    {
+      "store_number": "033109",
+      "store_name": "Taco Bell",
+      "city": "Inwood",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T21:56:24.508747+00:00"
+    },
     {
       "store_number": "027989",
       "store_name": "Taco Bell",
@@ -2513,8 +2603,8 @@
     }
   ],
   "activity_summary": {
-    "added": 72,
-    "removed": 124,
+    "added": 76,
+    "removed": 128,
     "price_changed": 22,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2936,6 +3026,15 @@
       "Taco Bell",
       "Alvarado",
       "TX"
+    ],
+    [
+      "035409",
+      41.72008475951374,
+      -85.97214643658845,
+      3.59,
+      "Taco Bell",
+      "Elkhart",
+      "IN"
     ],
     [
       "042584",
@@ -3433,6 +3532,15 @@
       "CA"
     ],
     [
+      "003904",
+      33.69938120490475,
+      -117.83496893945085,
+      3.89,
+      "Taco Bell",
+      "Irvine",
+      "CA"
+    ],
+    [
       "041134",
       35.25553019058207,
       -95.10887520652496,
@@ -3575,15 +3683,6 @@
       "Taco Bell",
       "Saint Louis",
       "MO"
-    ],
-    [
-      "030785",
-      37.64683879461168,
-      -122.42873983838048,
-      3.99,
-      "Taco Bell",
-      "South San Francisco",
-      "CA"
     ],
     [
       "036246",
@@ -3811,15 +3910,6 @@
       "OK"
     ],
     [
-      "033109",
-      39.36198917092364,
-      -78.04353755273769,
-      3.99,
-      "Taco Bell",
-      "Inwood",
-      "WV"
-    ],
-    [
       "032480",
       36.07600923480633,
       -90.95436919703081,
@@ -3964,6 +4054,24 @@
       "DE"
     ],
     [
+      "039996",
+      42.91548061890049,
+      -78.75477433204657,
+      4.19,
+      "Taco Bell",
+      "Buffalo",
+      "NY"
+    ],
+    [
+      "042957",
+      34.69195865164109,
+      -82.83857479696962,
+      4.19,
+      "Taco Bell",
+      "Clemson",
+      "SC"
+    ],
+    [
       "041488",
       33.63840238391459,
       -84.42932417361067,
@@ -4009,15 +4117,6 @@
       "IL"
     ],
     [
-      "028519",
-      33.93459914456903,
-      -118.14433068037033,
-      4.29,
-      "Taco Bell",
-      "Downey",
-      "CA"
-    ],
-    [
       "029470",
       42.153814306378294,
       -77.10424223428647,
@@ -4043,15 +4142,6 @@
       "Taco Bell",
       "Dallas",
       "TX"
-    ],
-    [
-      "026730",
-      41.72394189187588,
-      -72.7631952694522,
-      4.59,
-      "Taco Bell",
-      "Farmington",
-      "CT"
     ],
     [
       "020027",

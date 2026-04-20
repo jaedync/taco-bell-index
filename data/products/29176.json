@@ -142,6 +142,7 @@
     "027981",
     "027978",
     "028353",
+    "027975",
     "027988",
     "022266",
     "027982",
@@ -200,7 +201,6 @@
     "023300",
     "034162",
     "034163",
-    "042971",
     "032959",
     "038869"
   ],
@@ -216,13 +216,6 @@
       "store_number": "032959",
       "name": "Taco Bell",
       "city": "Ocoee",
-      "state": "FL",
-      "price": 6.99
-    },
-    {
-      "store_number": "042971",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
       "state": "FL",
       "price": 6.99
     },
@@ -274,9 +267,36 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 6.99
+    },
+    {
+      "store_number": "042927",
+      "name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042971",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:07:28.650171+00:00"
+    },
+    {
+      "store_number": "027975",
+      "store_name": "Taco Bell",
+      "city": "Rockledge",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-04-20T22:03:00.988088+00:00"
+    },
     {
       "store_number": "027975",
       "store_name": "Taco Bell",
@@ -1319,8 +1339,8 @@
     }
   ],
   "activity_summary": {
-    "added": 100,
-    "removed": 4,
+    "added": 101,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1642,6 +1662,15 @@
       6.99,
       "Taco Bell",
       "Leesburg",
+      "FL"
+    ],
+    [
+      "027975",
+      28.294870388476983,
+      -80.72423458099371,
+      6.99,
+      "Taco Bell",
+      "Rockledge",
       "FL"
     ],
     [
@@ -2164,15 +2193,6 @@
       6.99,
       "Taco Bell",
       "Saint Cloud",
-      "FL"
-    ],
-    [
-      "042971",
-      29.475060096911534,
-      -81.2211965854139,
-      6.99,
-      "Taco Bell",
-      "Palm Coast",
       "FL"
     ],
     [

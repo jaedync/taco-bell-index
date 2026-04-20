@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 736
+      "count": 735
     },
     {
       "bucket": "$21.09",
@@ -170,7 +170,7 @@
     },
     {
       "bucket": "$22.19",
-      "count": 31
+      "count": 30
     },
     {
       "bucket": "$22.29",
@@ -214,7 +214,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 765
+      "count": 766
     },
     {
       "bucket": "$23.50",
@@ -222,7 +222,7 @@
     },
     {
       "bucket": "$23.59",
-      "count": 146
+      "count": 147
     },
     {
       "bucket": "$23.69",
@@ -352,8 +352,8 @@
   "state_prices": [
     {
       "state": "NY",
-      "avg_price": 25.16,
-      "store_count": 251
+      "avg_price": 25.15,
+      "store_count": 252
     },
     {
       "state": "CA",
@@ -396,14 +396,14 @@
       "store_count": 7
     },
     {
+      "state": "CO",
+      "avg_price": 23.43,
+      "store_count": 152
+    },
+    {
       "state": "NV",
       "avg_price": 23.43,
       "store_count": 86
-    },
-    {
-      "state": "CO",
-      "avg_price": 23.43,
-      "store_count": 151
     },
     {
       "state": "MA",
@@ -533,12 +533,12 @@
     {
       "state": "TN",
       "avg_price": 21.51,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "NM",
-      "avg_price": 21.29,
-      "store_count": 58
+      "avg_price": 21.3,
+      "store_count": 57
     },
     {
       "state": "VA",
@@ -750,6 +750,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:05:06.485813+00:00"
+    },
+    {
+      "store_number": "033874",
+      "store_name": "Taco Bell",
+      "city": "Brighton",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.59,
+      "observed_at": "2026-04-20T22:04:03.007684+00:00"
+    },
+    {
+      "store_number": "043197",
+      "store_name": "Taco Bell",
+      "city": "Bernalillo",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 20.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:54.076130+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 22.19,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:23.019216+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-04-20T22:01:57.991895+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-04-20T22:01:55.727629+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -1992,8 +2052,8 @@
     }
   ],
   "activity_summary": {
-    "added": 31,
-    "removed": 27,
+    "added": 34,
+    "removed": 30,
     "price_changed": 66,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17161,15 +17221,6 @@
       "Taco Bell",
       "Caseyville",
       "IL"
-    ],
-    [
-      "043197",
-      35.317196057394405,
-      -106.54172667864259,
-      20.99,
-      "Taco Bell",
-      "Bernalillo",
-      "NM"
     ],
     [
       "019443",
@@ -33955,15 +34006,6 @@
       "Taco Bell",
       "Hopkinsville",
       "KY"
-    ],
-    [
-      "034436",
-      36.02089662405677,
-      -86.57775200438664,
-      22.19,
-      "Taco Bell",
-      "La Vergne",
-      "TN"
     ],
     [
       "034435",
@@ -53199,6 +53241,15 @@
       "VA"
     ],
     [
+      "036328",
+      42.09826888342504,
+      -79.30401088300437,
+      23.49,
+      "Taco Bell",
+      "Lakewood",
+      "NY"
+    ],
+    [
       "036335",
       44.23134523351836,
       -123.20316993743882,
@@ -53314,6 +53365,15 @@
       "Taco Bell",
       "Burtonsville",
       "MD"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      23.49,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "037014",
@@ -58824,15 +58884,6 @@
       "MI"
     ],
     [
-      "042636",
-      42.96980078904264,
-      -85.64359773456188,
-      23.49,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
       "031070",
       41.529048819700705,
       -87.47169573606698,
@@ -61179,6 +61230,15 @@
       23.59,
       "Taco Bell",
       "Aurora",
+      "CO"
+    ],
+    [
+      "033874",
+      39.95607544971655,
+      -104.77706839188818,
+      23.59,
+      "Taco Bell",
+      "Brighton",
       "CO"
     ],
     [

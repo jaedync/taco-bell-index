@@ -17,7 +17,7 @@
     "max": 7.39,
     "median": 4.99,
     "std_dev": 0.62,
-    "store_count": 3419
+    "store_count": 3421
   },
   "histogram": [
     {
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 688
+      "count": 689
     },
     {
       "bucket": "$5.09",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 240
+      "count": 239
     },
     {
       "bucket": "$5.29",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 259
+      "count": 260
     },
     {
       "bucket": "$5.49",
@@ -138,7 +138,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 106
+      "count": 107
     },
     {
       "bucket": "$6.00",
@@ -202,7 +202,7 @@
     {
       "state": "AK",
       "avg_price": 5.99,
-      "store_count": 13
+      "store_count": 14
     },
     {
       "state": "MT",
@@ -217,7 +217,7 @@
     {
       "state": "CA",
       "avg_price": 5.57,
-      "store_count": 621
+      "store_count": 620
     },
     {
       "state": "HI",
@@ -237,7 +237,7 @@
     {
       "state": "MI",
       "avg_price": 5.29,
-      "store_count": 188
+      "store_count": 189
     },
     {
       "state": "IL",
@@ -307,7 +307,7 @@
     {
       "state": "OH",
       "avg_price": 4.92,
-      "store_count": 202
+      "store_count": 203
     },
     {
       "state": "KS",
@@ -563,6 +563,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002420",
+      "store_name": "Taco Bell",
+      "city": "Fremont",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.19,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:14.098343+00:00"
+    },
+    {
+      "store_number": "018131",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-20T22:02:37.582124+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-20T22:02:15.551099+00:00"
+    },
+    {
+      "store_number": "027042",
+      "store_name": "Taco Bell",
+      "city": "Vermilion",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.39,
+      "observed_at": "2026-04-20T22:02:12.362165+00:00"
+    },
     {
       "store_number": "028850",
       "store_name": "Taco Bell",
@@ -2645,8 +2685,8 @@
     }
   ],
   "activity_summary": {
-    "added": 88,
-    "removed": 87,
+    "added": 91,
+    "removed": 88,
     "price_changed": 33,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13474,6 +13514,15 @@
       "OH"
     ],
     [
+      "001469",
+      42.291758682661715,
+      -83.38639006018644,
+      4.99,
+      "Taco Bell",
+      "Westland",
+      "MI"
+    ],
+    [
       "024393",
       29.733158797690876,
       -95.77528055012124,
@@ -19567,15 +19616,6 @@
       "MN"
     ],
     [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      5.19,
-      "Taco Bell",
-      "Fremont",
-      "CA"
-    ],
-    [
       "032115",
       42.4568096912309,
       -89.0278440294378,
@@ -21689,6 +21729,15 @@
       "Taco Bell",
       "Statesville",
       "NC"
+    ],
+    [
+      "027042",
+      41.403417895947996,
+      -82.36414696276597,
+      5.39,
+      "Taco Bell",
+      "Vermilion",
+      "OH"
     ],
     [
       "003293",
@@ -31481,6 +31530,15 @@
       "Taco Bell",
       "Moses Lake",
       "WA"
+    ],
+    [
+      "018131",
+      61.13834685274748,
+      -149.95045766705036,
+      5.99,
+      "Taco Bell",
+      "Anchorage",
+      "AK"
     ],
     [
       "019953",

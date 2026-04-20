@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.270406+00:00",
-  "availability_pct": 97.5,
+  "availability_pct": 97.6,
   "price_stats": {
     "avg": 0.6,
     "min": 0.5,
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.03,
-    "store_count": 7518
+    "store_count": 7520
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 7183
+      "count": 7184
     },
     {
       "bucket": "$0.61",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 26
+      "count": 27
     },
     {
       "bucket": "$0.90",
@@ -65,7 +65,7 @@
     {
       "state": "AK",
       "avg_price": 0.8,
-      "store_count": 13
+      "store_count": 14
     },
     {
       "state": "WA",
@@ -240,7 +240,7 @@
     {
       "state": "KY",
       "avg_price": 0.6,
-      "store_count": 160
+      "store_count": 161
     },
     {
       "state": "KS",
@@ -482,6 +482,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034682",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-20T22:04:17.821949+00:00"
+    },
+    {
+      "store_number": "015852",
+      "store_name": "Taco Bell",
+      "city": "Soldotna",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-20T22:03:16.228769+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -75764,7 +75784,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7523,
+    "added": 7525,
     "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -141601,6 +141621,15 @@
       "NY"
     ],
     [
+      "034682",
+      38.221136708478355,
+      -85.75560166507785,
+      0.6,
+      "Taco Bell",
+      "Louisville",
+      "KY"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -143210,6 +143239,15 @@
       "Taco Bell",
       "Kalispell",
       "MT"
+    ],
+    [
+      "015852",
+      60.48912768024368,
+      -151.05179637918272,
+      0.8,
+      "Taco Bell",
+      "Soldotna",
+      "AK"
     ],
     [
       "003583",

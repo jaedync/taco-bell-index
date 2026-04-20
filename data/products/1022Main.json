@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 9.5,
+  "availability_pct": 9.4,
   "price_stats": {
     "avg": 3.08,
     "min": 2.29,
     "max": 3.49,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 729
+    "store_count": 725
   },
   "histogram": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 39
+      "count": 38
     },
     {
       "bucket": "$2.89",
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 105
+      "count": 104
     },
     {
       "bucket": "$3.09",
@@ -59,11 +59,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 194
+      "count": 193
     },
     {
       "bucket": "$3.29",
-      "count": 224
+      "count": 223
     },
     {
       "bucket": "$3.39",
@@ -108,12 +108,7 @@
     {
       "state": "TX",
       "avg_price": 3.0,
-      "store_count": 436
-    },
-    {
-      "state": "AL",
-      "avg_price": 2.95,
-      "store_count": 5
+      "store_count": 435
     },
     {
       "state": "GA",
@@ -275,6 +270,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029273",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "Salem",
+      "state": "NH",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:34.188749+00:00"
+    },
+    {
+      "store_number": "021383",
+      "store_name": "Taco Bell",
+      "city": "Havelock",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:53.723428+00:00"
+    },
+    {
+      "store_number": "035718",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rosenberg",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:20.033598+00:00"
+    },
+    {
+      "store_number": "037357",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:03.680712+00:00"
+    },
     {
       "store_number": "038734",
       "store_name": "Taco Bell",
@@ -2978,7 +3013,7 @@
   ],
   "activity_summary": {
     "added": 59,
-    "removed": 66,
+    "removed": 70,
     "price_changed": 145,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3924,15 +3959,6 @@
       "GA"
     ],
     [
-      "021383",
-      34.86798015237877,
-      -76.89964704220984,
-      2.79,
-      "Taco Bell",
-      "Havelock",
-      "NC"
-    ],
-    [
       "042192",
       30.5851,
       -96.3246,
@@ -4804,15 +4830,6 @@
       "Taco Bell",
       "Grapevine",
       "TX"
-    ],
-    [
-      "037357",
-      31.260210432381527,
-      -85.43750439907221,
-      2.99,
-      "Taco Bell",
-      "Dothan",
-      "AL"
     ],
     [
       "002870",
@@ -6270,15 +6287,6 @@
       3.19,
       "Taco Bell",
       "Pasadena",
-      "TX"
-    ],
-    [
-      "035718",
-      29.54514380488333,
-      -95.74617441211682,
-      3.19,
-      "Taco Bell / KFC",
-      "Rosenberg",
       "TX"
     ],
     [
@@ -8422,15 +8430,6 @@
       "Taco Bell",
       "Duncanville",
       "TX"
-    ],
-    [
-      "029273",
-      42.75499131386579,
-      -71.20949426296647,
-      3.29,
-      "Taco Bell / Long John Silver's",
-      "Salem",
-      "NH"
     ],
     [
       "020864",

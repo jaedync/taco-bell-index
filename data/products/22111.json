@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.8,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 3.01,
     "min": 2.29,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.21,
-    "store_count": 7695
+    "store_count": 7697
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 4147
+      "count": 4150
     },
     {
       "bucket": "$3.00",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 824
+      "count": 823
     },
     {
       "bucket": "$3.20",
@@ -315,7 +315,7 @@
     {
       "state": "FL",
       "avg_price": 2.99,
-      "store_count": 451
+      "store_count": 453
     },
     {
       "state": "UT",
@@ -375,7 +375,7 @@
     {
       "state": "NC",
       "avg_price": 2.94,
-      "store_count": 263
+      "store_count": 264
     },
     {
       "state": "NM",
@@ -385,7 +385,7 @@
     {
       "state": "SC",
       "avg_price": 2.92,
-      "store_count": 117
+      "store_count": 116
     },
     {
       "state": "WY",
@@ -598,6 +598,106 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:05:06.485813+00:00"
+    },
+    {
+      "store_number": "042847",
+      "store_name": "Taco Bell",
+      "city": "North Fort Myers",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-20T22:04:37.748890+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-20T22:04:26.544177+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-20T22:03:56.589872+00:00"
+    },
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-20T22:03:02.173266+00:00"
+    },
+    {
+      "store_number": "031787",
+      "store_name": "Taco Bell",
+      "city": "Cayce",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:50.656515+00:00"
+    },
+    {
+      "store_number": "030568",
+      "store_name": "Taco Bell",
+      "city": "Cameron",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-20T22:02:39.746418+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-20T22:02:24.721099+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:23.019216+00:00"
+    },
+    {
+      "store_number": "042357",
+      "store_name": "Taco Bell",
+      "city": "Mitchell",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:00.188529+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -3950,8 +4050,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 34,
+    "added": 44,
+    "removed": 38,
     "price_changed": 263,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8686,6 +8786,15 @@
       "MN"
     ],
     [
+      "030568",
+      35.26229294485461,
+      -79.04775698484627,
+      2.79,
+      "Taco Bell",
+      "Cameron",
+      "NC"
+    ],
+    [
       "029638",
       38.65897254292612,
       -90.2990459473052,
@@ -8836,15 +8945,6 @@
       2.79,
       "Taco Bell",
       "Columbia",
-      "SC"
-    ],
-    [
-      "031787",
-      33.98236316161826,
-      -81.06121256947517,
-      2.79,
-      "Taco Bell",
-      "Cayce",
       "SC"
     ],
     [
@@ -12610,15 +12710,6 @@
       "TX"
     ],
     [
-      "042357",
-      38.732499,
-      -86.490448,
-      2.89,
-      "Taco Bell",
-      "Mitchell",
-      "IN"
-    ],
-    [
       "042137",
       33.261148,
       -97.212431,
@@ -14912,6 +15003,15 @@
       "Taco Bell",
       "Kewanee",
       "IL"
+    ],
+    [
+      "028861",
+      39.80032567328473,
+      -86.26901320651086,
+      2.89,
+      "Taco Bell",
+      "Speedway",
+      "IN"
     ],
     [
       "035148",
@@ -30925,15 +31025,6 @@
       "OH"
     ],
     [
-      "034436",
-      36.02089662405677,
-      -86.57775200438664,
-      2.99,
-      "Taco Bell",
-      "La Vergne",
-      "TN"
-    ],
-    [
       "029140",
       33.65166734960094,
       -86.8197226077308,
@@ -31301,6 +31392,15 @@
       "Taco Bell",
       "Baytown",
       "TX"
+    ],
+    [
+      "040007",
+      42.773823760985884,
+      -83.23956324725259,
+      2.99,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
     ],
     [
       "002804",
@@ -46351,6 +46451,15 @@
       "MT"
     ],
     [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      2.99,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "031299",
       24.56217102071356,
       -81.77695574827696,
@@ -50086,6 +50195,15 @@
       "NM"
     ],
     [
+      "042841",
+      26.621883702519558,
+      -81.94119036197668,
+      2.99,
+      "Taco Bell",
+      "Cape Coral",
+      "FL"
+    ],
+    [
       "030090",
       30.166044532241308,
       -97.79169358314448,
@@ -51560,6 +51678,15 @@
       "Taco Bell",
       "Sevierville",
       "TN"
+    ],
+    [
+      "042847",
+      26.667694225707564,
+      -81.89090006058905,
+      2.99,
+      "Taco Bell",
+      "North Fort Myers",
+      "FL"
     ],
     [
       "039043",
@@ -66428,15 +66555,6 @@
       "Taco Bell",
       "Visalia",
       "CA"
-    ],
-    [
-      "042636",
-      42.96980078904264,
-      -85.64359773456188,
-      3.19,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
     ],
     [
       "031070",

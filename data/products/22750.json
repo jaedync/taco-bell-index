@@ -17,12 +17,12 @@
     "max": 1.0,
     "median": 0.25,
     "std_dev": 0.23,
-    "store_count": 7670
+    "store_count": 7671
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 2138
+      "count": 2140
     },
     {
       "bucket": "$0.10",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 245
+      "count": 244
     },
     {
       "bucket": "$0.60",
@@ -177,7 +177,7 @@
     {
       "state": "WA",
       "avg_price": 0.46,
-      "store_count": 138
+      "store_count": 139
     },
     {
       "state": "NJ",
@@ -202,7 +202,7 @@
     {
       "state": "MI",
       "avg_price": 0.4,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "MD",
@@ -372,7 +372,7 @@
     {
       "state": "AZ",
       "avg_price": 0.11,
-      "store_count": 191
+      "store_count": 192
     },
     {
       "state": "RI",
@@ -1624,6 +1624,7 @@
     "029103",
     "029633",
     "029253",
+    "031728",
     "030144",
     "029625",
     "002253",
@@ -2191,6 +2192,7 @@
     "030134",
     "016333",
     "029247",
+    "022603",
     "032952",
     "029310",
     "031657",
@@ -2705,6 +2707,36 @@
   ],
   "price_changes": [
     {
+      "store_number": "022603",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-20T22:04:34.289941+00:00"
+    },
+    {
+      "store_number": "031728",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-20T22:03:29.265112+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.59,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:16.244179+00:00"
+    },
+    {
       "store_number": "040713",
       "store_name": "Taco Bell",
       "city": "New Paltz",
@@ -2956,8 +2988,8 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
-    "removed": 5,
+    "added": 10,
+    "removed": 6,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13155,6 +13187,15 @@
       "MA"
     ],
     [
+      "031728",
+      32.25091218379473,
+      -110.91886483135573,
+      0.0,
+      "Taco Bell",
+      "Tucson",
+      "AZ"
+    ],
+    [
       "030144",
       30.212929645321346,
       -97.82951523363181,
@@ -18256,6 +18297,15 @@
       "Taco Bell / Pizza Hut",
       "Chicopee",
       "MA"
+    ],
+    [
+      "022603",
+      47.863294804877654,
+      -122.28221123345702,
+      0.0,
+      "Taco Bell",
+      "Lynnwood",
+      "WA"
     ],
     [
       "032952",
@@ -63444,15 +63494,6 @@
       0.59,
       "Taco Bell",
       "Dearborn",
-      "MI"
-    ],
-    [
-      "003190",
-      42.48379808690309,
-      -82.94468663168573,
-      0.59,
-      "Taco Bell",
-      "Roseville",
       "MI"
     ],
     [

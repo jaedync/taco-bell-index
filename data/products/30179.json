@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 44.1,
+  "availability_pct": 44.2,
   "price_stats": {
     "avg": 2.09,
     "min": 1.19,
     "max": 4.12,
     "median": 1.99,
     "std_dev": 0.32,
-    "store_count": 3402
+    "store_count": 3405
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1382
+      "count": 1385
     },
     {
       "bucket": "$2.00",
@@ -178,12 +178,12 @@
     {
       "state": "NY",
       "avg_price": 2.26,
-      "store_count": 125
+      "store_count": 126
     },
     {
       "state": "CA",
       "avg_price": 2.25,
-      "store_count": 617
+      "store_count": 616
     },
     {
       "state": "OH",
@@ -213,7 +213,7 @@
     {
       "state": "MI",
       "avg_price": 2.18,
-      "store_count": 187
+      "store_count": 188
     },
     {
       "state": "WA",
@@ -268,7 +268,7 @@
     {
       "state": "AK",
       "avg_price": 1.99,
-      "store_count": 12
+      "store_count": 14
     },
     {
       "state": "ND",
@@ -520,6 +520,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032200",
+      "store_name": "Taco Bell",
+      "city": "Palmer",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-20T22:05:18.482923+00:00"
+    },
+    {
+      "store_number": "002420",
+      "store_name": "Taco Bell",
+      "city": "Fremont",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:14.098343+00:00"
+    },
+    {
+      "store_number": "001498",
+      "store_name": "Taco Bell",
+      "city": "Hicksville",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-20T22:03:00.502336+00:00"
+    },
+    {
+      "store_number": "018131",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-20T22:02:37.582124+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-20T22:02:15.551099+00:00"
+    },
+    {
+      "store_number": "027042",
+      "store_name": "Taco Bell",
+      "city": "Vermilion",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-20T22:02:12.362165+00:00"
+    },
+    {
+      "store_number": "036010",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-20T21:58:57.114304+00:00"
+    },
     {
       "store_number": "032200",
       "store_name": "Taco Bell",
@@ -2552,8 +2622,8 @@
     }
   ],
   "activity_summary": {
-    "added": 93,
-    "removed": 92,
+    "added": 98,
+    "removed": 94,
     "price_changed": 18,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10645,6 +10715,15 @@
       "TX"
     ],
     [
+      "027042",
+      41.403417895947996,
+      -82.36414696276597,
+      1.99,
+      "Taco Bell",
+      "Vermilion",
+      "OH"
+    ],
+    [
       "021299",
       42.46538675040142,
       -82.93832356192854,
@@ -14045,15 +14124,6 @@
       "Taco Bell",
       "Arlington",
       "VA"
-    ],
-    [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      1.99,
-      "Taco Bell",
-      "Fremont",
-      "CA"
     ],
     [
       "032115",
@@ -20824,6 +20894,15 @@
       "IL"
     ],
     [
+      "032200",
+      61.599191,
+      -149.127888,
+      1.99,
+      "Taco Bell",
+      "Palmer",
+      "AK"
+    ],
+    [
       "036356",
       41.55276724718308,
       -90.48188567161554,
@@ -21254,6 +21333,24 @@
       "Taco Bell",
       "Hollywood",
       "FL"
+    ],
+    [
+      "018131",
+      61.13834685274748,
+      -149.95045766705036,
+      1.99,
+      "Taco Bell",
+      "Anchorage",
+      "AK"
+    ],
+    [
+      "001498",
+      40.77028828477876,
+      -73.5016836673185,
+      1.99,
+      "Taco Bell",
+      "Hicksville",
+      "NY"
     ],
     [
       "041644",
@@ -29032,15 +29129,6 @@
       "CA"
     ],
     [
-      "036010",
-      40.799191921313685,
-      -81.3996732716289,
-      2.49,
-      "Taco Bell",
-      "Canton",
-      "OH"
-    ],
-    [
       "036013",
       43.66408092848554,
       -84.24677869075664,
@@ -29345,6 +29433,15 @@
       "Taco Bell",
       "Barberton",
       "OH"
+    ],
+    [
+      "001469",
+      42.291758682661715,
+      -83.38639006018644,
+      2.49,
+      "Taco Bell",
+      "Westland",
+      "MI"
     ],
     [
       "030253",

@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.5,
+  "availability_pct": 92.4,
   "price_stats": {
     "avg": 0.6,
     "min": 0.1,
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7128
+    "store_count": 7125
   },
   "histogram": [
     {
       "bucket": "$0.10",
-      "count": 348
+      "count": 347
     },
     {
       "bucket": "$0.19",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 739
+      "count": 740
     },
     {
       "bucket": "$0.55",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1125
+      "count": 1124
     },
     {
       "bucket": "$0.65",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 848
+      "count": 847
     },
     {
       "bucket": "$0.85",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 114
+      "count": 113
     },
     {
       "bucket": "$0.93",
@@ -172,7 +172,7 @@
     {
       "state": "WA",
       "avg_price": 0.76,
-      "store_count": 139
+      "store_count": 138
     },
     {
       "state": "IA",
@@ -227,7 +227,7 @@
     {
       "state": "FL",
       "avg_price": 0.67,
-      "store_count": 416
+      "store_count": 415
     },
     {
       "state": "NE",
@@ -287,7 +287,7 @@
     {
       "state": "SC",
       "avg_price": 0.6,
-      "store_count": 106
+      "store_count": 105
     },
     {
       "state": "NH",
@@ -351,8 +351,8 @@
     },
     {
       "state": "KS",
-      "avg_price": 0.53,
-      "store_count": 91
+      "avg_price": 0.54,
+      "store_count": 90
     },
     {
       "state": "WV",
@@ -367,7 +367,7 @@
     {
       "state": "AZ",
       "avg_price": 0.49,
-      "store_count": 191
+      "store_count": 192
     },
     {
       "state": "MO",
@@ -829,7 +829,6 @@
     "033476",
     "033492",
     "033493",
-    "033582",
     "033469",
     "033496",
     "033639",
@@ -914,6 +913,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033582",
+      "store_name": "Taco Bell",
+      "city": "Parsons",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 0.1,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:07:23.123113+00:00"
+    },
+    {
+      "store_number": "032040",
+      "store_name": "Taco Bell",
+      "city": "Orangeburg",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:32.843300+00:00"
+    },
+    {
+      "store_number": "031728",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-20T22:03:29.265112+00:00"
+    },
+    {
+      "store_number": "020555",
+      "store_name": "Taco Bell",
+      "city": "Longview",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:42.598434+00:00"
+    },
+    {
+      "store_number": "042855",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:37.557589+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -6336,8 +6385,8 @@
     }
   ],
   "activity_summary": {
-    "added": 24,
-    "removed": 510,
+    "added": 25,
+    "removed": 514,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9378,15 +9427,6 @@
       "Taco Bell",
       "Muskogee",
       "OK"
-    ],
-    [
-      "033582",
-      37.34224726372693,
-      -95.25867769444275,
-      0.1,
-      "Taco Bell",
-      "Parsons",
-      "KS"
     ],
     [
       "033469",
@@ -22572,6 +22612,15 @@
       "Taco Bell",
       "Wheaton",
       "IL"
+    ],
+    [
+      "031728",
+      32.25091218379473,
+      -110.91886483135573,
+      0.5,
+      "Taco Bell",
+      "Tucson",
+      "AZ"
     ],
     [
       "029544",
@@ -36288,15 +36337,6 @@
       "Taco Bell",
       "Greenville",
       "NC"
-    ],
-    [
-      "032040",
-      33.546534575312734,
-      -80.83066114786561,
-      0.6,
-      "Taco Bell",
-      "Orangeburg",
-      "SC"
     ],
     [
       "031908",
@@ -62444,15 +62484,6 @@
       "CA"
     ],
     [
-      "042855",
-      26.612122039412586,
-      -81.80924959482127,
-      0.8,
-      "Taco Bell",
-      "Fort Myers",
-      "FL"
-    ],
-    [
       "004879",
       38.67890801456678,
       -121.22933775186539,
@@ -69128,15 +69159,6 @@
       0.9,
       "Taco Bell",
       "Vancouver",
-      "WA"
-    ],
-    [
-      "020555",
-      46.146705707562,
-      -122.92752300204484,
-      0.9,
-      "Taco Bell",
-      "Longview",
       "WA"
     ],
     [

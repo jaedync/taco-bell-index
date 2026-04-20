@@ -18,7 +18,7 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7703
+    "store_count": 7701
   },
   "histogram": [
     {
@@ -43,11 +43,11 @@
     },
     {
       "bucket": "$1.89",
-      "count": 971
+      "count": 972
     },
     {
       "bucket": "$1.99",
-      "count": 4355
+      "count": 4354
     },
     {
       "bucket": "$2.00",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1079
+      "count": 1078
     },
     {
       "bucket": "$2.20",
@@ -95,7 +95,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 107
+      "count": 106
     },
     {
       "bucket": "$2.50",
@@ -269,7 +269,7 @@
     {
       "state": "MI",
       "avg_price": 2.01,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "NE",
@@ -319,7 +319,7 @@
     {
       "state": "SC",
       "avg_price": 1.99,
-      "store_count": 117
+      "store_count": 116
     },
     {
       "state": "AZ",
@@ -584,6 +584,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:05:06.485813+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-04-20T22:03:56.589872+00:00"
+    },
+    {
+      "store_number": "031787",
+      "store_name": "Taco Bell",
+      "city": "Cayce",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:50.656515+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:23.019216+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -2486,8 +2526,8 @@
     }
   ],
   "activity_summary": {
-    "added": 27,
-    "removed": 23,
+    "added": 28,
+    "removed": 26,
     "price_changed": 140,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13799,6 +13839,15 @@
       "Taco Bell",
       "Billings",
       "MT"
+    ],
+    [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      1.89,
+      "Taco Bell",
+      "Maryville",
+      "TN"
     ],
     [
       "034630",
@@ -30386,15 +30435,6 @@
       "Taco Bell",
       "Bloomingdale",
       "IL"
-    ],
-    [
-      "031787",
-      33.98236316161826,
-      -81.06121256947517,
-      1.99,
-      "Taco Bell",
-      "Cayce",
-      "SC"
     ],
     [
       "042884",
@@ -65578,15 +65618,6 @@
       "OH"
     ],
     [
-      "042636",
-      42.96980078904264,
-      -85.64359773456188,
-      2.19,
-      "Taco Bell",
-      "Grand Rapids",
-      "MI"
-    ],
-    [
       "031070",
       41.529048819700705,
       -87.47169573606698,
@@ -69572,15 +69603,6 @@
       "Taco Bell",
       "Hopkinsville",
       "KY"
-    ],
-    [
-      "034436",
-      36.02089662405677,
-      -86.57775200438664,
-      2.49,
-      "Taco Bell",
-      "La Vergne",
-      "TN"
     ],
     [
       "034435",

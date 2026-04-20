@@ -17,7 +17,7 @@
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7651
+    "store_count": 7652
   },
   "histogram": [
     {
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$0.95",
-      "count": 802
+      "count": 803
     },
     {
       "bucket": "$0.99",
@@ -284,7 +284,7 @@
     {
       "state": "MI",
       "avg_price": 0.83,
-      "store_count": 345
+      "store_count": 346
     },
     {
       "state": "IA",
@@ -584,6 +584,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028922",
+      "store_name": "Taco Bell",
+      "city": "Bloomington",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-20T22:13:47.184080+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-04-20T22:02:24.721099+00:00"
+    },
+    {
+      "store_number": "042357",
+      "store_name": "Taco Bell",
+      "city": "Mitchell",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:00.188529+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -2576,8 +2606,8 @@
     }
   ],
   "activity_summary": {
-    "added": 29,
-    "removed": 19,
+    "added": 31,
+    "removed": 20,
     "price_changed": 151,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16114,15 +16144,6 @@
       "MI"
     ],
     [
-      "042357",
-      38.732499,
-      -86.490448,
-      0.7,
-      "Taco Bell",
-      "Mitchell",
-      "IN"
-    ],
-    [
       "042694",
       38.00783528626724,
       -87.49174591043341,
@@ -17633,6 +17654,15 @@
       "Taco Bell",
       "Philadelphia",
       "MS"
+    ],
+    [
+      "028922",
+      39.21132909184719,
+      -86.5860689595504,
+      0.7,
+      "Taco Bell",
+      "Bloomington",
+      "IN"
     ],
     [
       "029889",
@@ -56675,6 +56705,15 @@
       "Taco Bell",
       "Bakersfield",
       "CA"
+    ],
+    [
+      "040007",
+      42.773823760985884,
+      -83.23956324725259,
+      0.95,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
     ],
     [
       "033309",

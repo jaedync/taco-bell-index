@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.8,
+  "availability_pct": 98.7,
   "price_stats": {
     "avg": 0.38,
     "min": 0.0,
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7612
+    "store_count": 7609
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 271
+      "count": 270
     },
     {
       "bucket": "$0.10",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 2305
+      "count": 2303
     },
     {
       "bucket": "$0.35",
@@ -285,7 +285,7 @@
     {
       "state": "TX",
       "avg_price": 0.37,
-      "store_count": 699
+      "store_count": 698
     },
     {
       "state": "DC",
@@ -340,12 +340,12 @@
     {
       "state": "IA",
       "avg_price": 0.31,
-      "store_count": 48
+      "store_count": 47
     },
     {
       "state": "ND",
       "avg_price": 0.3,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "IN",
@@ -478,13 +478,6 @@
       "price": 0.0
     },
     {
-      "store_number": "041588",
-      "name": "Taco Bell",
-      "city": "Lubbock",
-      "state": "TX",
-      "price": 0.0
-    },
-    {
       "store_number": "040348",
       "name": "Taco Bell",
       "city": "Westlake",
@@ -497,6 +490,13 @@
       "city": "Trenton",
       "state": "MO",
       "price": 0.0
+    },
+    {
+      "store_number": "032469",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Columbus",
+      "state": "OH",
+      "price": 0.0
     }
   ],
   "min_price_store_numbers": [
@@ -507,7 +507,6 @@
     "040723",
     "041736",
     "040912",
-    "041588",
     "040348",
     "041432",
     "032469",
@@ -845,6 +844,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041588",
+      "store_name": "Taco Bell",
+      "city": "Lubbock",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:13:44.003911+00:00"
+    },
+    {
+      "store_number": "037578",
+      "store_name": "Taco Bell",
+      "city": "Grand Forks",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:04:43.971405+00:00"
+    },
+    {
+      "store_number": "042629",
+      "store_name": "Taco Bell",
+      "city": "Traverse City",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:04:35.234898+00:00"
+    },
+    {
+      "store_number": "031509",
+      "store_name": "Taco Bell",
+      "city": "Holt",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-04-20T22:03:53.709773+00:00"
+    },
+    {
+      "store_number": "037060",
+      "store_name": "Taco Bell",
+      "city": "Mason City",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:46.251353+00:00"
+    },
     {
       "store_number": "040713",
       "store_name": "Taco Bell",
@@ -1517,8 +1566,8 @@
     }
   ],
   "activity_summary": {
-    "added": 25,
-    "removed": 23,
+    "added": 26,
+    "removed": 27,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1589,15 +1638,6 @@
       "Taco Bell",
       "Lake Alfred",
       "FL"
-    ],
-    [
-      "041588",
-      33.549461,
-      -101.9111999,
-      0.0,
-      "Taco Bell",
-      "Lubbock",
-      "TX"
     ],
     [
       "040348",
@@ -22237,15 +22277,6 @@
       "CA"
     ],
     [
-      "037060",
-      43.1477402168443,
-      -93.21318903568681,
-      0.3,
-      "Taco Bell",
-      "Mason City",
-      "IA"
-    ],
-    [
       "031717",
       32.350375467823596,
       -110.97579847923797,
@@ -31813,15 +31844,6 @@
       "TN"
     ],
     [
-      "042629",
-      44.73309011695499,
-      -85.60448437929153,
-      0.3,
-      "Taco Bell",
-      "Traverse City",
-      "MI"
-    ],
-    [
       "033024",
       43.23386120824614,
       -86.20837729305946,
@@ -32603,15 +32625,6 @@
       "Taco Bell",
       "Monroe",
       "GA"
-    ],
-    [
-      "037578",
-      47.90883353888597,
-      -97.04455323055299,
-      0.3,
-      "Taco Bell",
-      "Grand Forks",
-      "ND"
     ],
     [
       "038882",
@@ -35618,6 +35631,15 @@
       "Taco Bell",
       "Saint Cloud",
       "FL"
+    ],
+    [
+      "031509",
+      42.65241170776328,
+      -84.52938938197696,
+      0.3,
+      "Taco Bell",
+      "Holt",
+      "MI"
     ],
     [
       "040979",

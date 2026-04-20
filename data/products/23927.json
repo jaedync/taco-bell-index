@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 48
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 46
+      "count": 48
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 46
+      "store_count": 48
     }
   ],
   "nutrition": {
@@ -138,23 +138,25 @@
     "040656",
     "033310",
     "021299",
-    "030700",
     "000848",
-    "004161",
     "021342",
     "031393",
     "024434",
     "033312",
     "001738",
-    "003296",
     "041875",
     "024150",
     "024651",
+    "002681",
     "021521",
+    "024653",
+    "033316",
     "004298",
     "033301",
     "021162",
+    "023045",
     "040006",
+    "024658",
     "039687",
     "041877",
     "002440",
@@ -240,6 +242,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023045",
+      "store_name": "Taco Bell",
+      "city": "Port Huron",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:25.191561+00:00"
+    },
+    {
+      "store_number": "024658",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:25.054721+00:00"
+    },
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:22.414711+00:00"
+    },
+    {
+      "store_number": "024653",
+      "store_name": "Taco Bell",
+      "city": "Macomb",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:21.901852+00:00"
+    },
+    {
+      "store_number": "002681",
+      "store_name": "Taco Bell",
+      "city": "Clinton Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:20.983418+00:00"
+    },
+    {
+      "store_number": "003296",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:20.671137+00:00"
+    },
+    {
+      "store_number": "004161",
+      "store_name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:17.402605+00:00"
+    },
+    {
+      "store_number": "030700",
+      "store_name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:14.862313+00:00"
+    },
     {
       "store_number": "033316",
       "store_name": "Taco Bell",
@@ -842,8 +924,8 @@
     }
   ],
   "activity_summary": {
-    "added": 53,
-    "removed": 7,
+    "added": 58,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1028,30 +1110,12 @@
       "MI"
     ],
     [
-      "030700",
-      42.64717297287085,
-      -83.17160936441803,
-      5.49,
-      "Taco Bell",
-      "Rochester Hills",
-      "MI"
-    ],
-    [
       "000848",
       42.250590141928726,
       -83.19532196223633,
       5.49,
       "Taco Bell",
       "Lincoln Park",
-      "MI"
-    ],
-    [
-      "004161",
-      42.638053116470445,
-      -83.1311120791861,
-      5.49,
-      "Taco Bell",
-      "Rochester Hills",
       "MI"
     ],
     [
@@ -1100,15 +1164,6 @@
       "MI"
     ],
     [
-      "003296",
-      42.37675575824454,
-      -83.46110030079672,
-      5.49,
-      "Taco Bell",
-      "Plymouth",
-      "MI"
-    ],
-    [
       "041875",
       43.02456381414757,
       -82.45632998180554,
@@ -1136,12 +1191,39 @@
       "MI"
     ],
     [
+      "002681",
+      42.60144516923809,
+      -82.9520048899667,
+      5.49,
+      "Taco Bell",
+      "Clinton Township",
+      "MI"
+    ],
+    [
       "021521",
       42.27505747978539,
       -83.4783241955785,
       5.49,
       "Taco Bell",
       "Canton",
+      "MI"
+    ],
+    [
+      "024653",
+      42.63493873756046,
+      -82.85773765576657,
+      5.49,
+      "Taco Bell",
+      "Macomb",
+      "MI"
+    ],
+    [
+      "033316",
+      42.709640520946245,
+      -83.30659079290703,
+      5.49,
+      "Taco Bell",
+      "Lake Orion",
       "MI"
     ],
     [
@@ -1172,12 +1254,30 @@
       "MI"
     ],
     [
+      "023045",
+      42.97589743492643,
+      -82.45334157434944,
+      5.49,
+      "Taco Bell",
+      "Port Huron",
+      "MI"
+    ],
+    [
       "040006",
       42.740257156814764,
       -83.37902734534232,
       5.49,
       "Taco Bell",
       "Clarkston",
+      "MI"
+    ],
+    [
+      "024658",
+      42.79950591943458,
+      -82.74127993171741,
+      5.49,
+      "Taco Bell",
+      "Richmond",
       "MI"
     ],
     [

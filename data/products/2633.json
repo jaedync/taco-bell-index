@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3535
+    "store_count": 3536
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3535
+      "count": 3536
     }
   ],
   "state_prices": [
@@ -54,7 +54,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 98
+      "store_count": 99
     },
     {
       "state": "TN",
@@ -79,7 +79,7 @@
     {
       "state": "OR",
       "avg_price": 0.0,
-      "store_count": 111
+      "store_count": 112
     },
     {
       "state": "OK",
@@ -119,7 +119,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 127
+      "store_count": 128
     },
     {
       "state": "MT",
@@ -219,12 +219,12 @@
     {
       "state": "CO",
       "avg_price": 0.0,
-      "store_count": 124
+      "store_count": 123
     },
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 628
+      "store_count": 627
     },
     {
       "state": "AZ",
@@ -507,6 +507,7 @@
     "034922",
     "034793",
     "039111",
+    "034930",
     "035341",
     "035185",
     "034080",
@@ -1313,7 +1314,6 @@
     "028706",
     "032555",
     "039072",
-    "022604",
     "031324",
     "033870",
     "004108",
@@ -1914,7 +1914,6 @@
     "039804",
     "003907",
     "022917",
-    "002420",
     "029533",
     "032115",
     "030785",
@@ -3230,7 +3229,6 @@
     "004850",
     "033291",
     "029446",
-    "037394",
     "039091",
     "004394",
     "030764",
@@ -3858,9 +3856,33 @@
     "028184",
     "028476",
     "042874",
-    "036543"
+    "036543",
+    "032752",
+    "038747",
+    "000274"
   ],
   "priciest_stores": [
+    {
+      "store_number": "000274",
+      "name": "Taco Bell",
+      "city": "Eugene",
+      "state": "OR",
+      "price": 0.0
+    },
+    {
+      "store_number": "038747",
+      "name": "Taco Bell",
+      "city": "Sherman",
+      "state": "TX",
+      "price": 0.0
+    },
+    {
+      "store_number": "032752",
+      "name": "Taco Bell",
+      "city": "Concord",
+      "state": "NC",
+      "price": 0.0
+    },
     {
       "store_number": "036543",
       "name": "Taco Bell",
@@ -3909,30 +3931,79 @@
       "city": "Appleton",
       "state": "WI",
       "price": 0.0
-    },
-    {
-      "store_number": "041368",
-      "name": "Taco Bell",
-      "city": "Woodland",
-      "state": "CA",
-      "price": 0.0
-    },
-    {
-      "store_number": "020173",
-      "name": "Taco Bell",
-      "city": "Rogers",
-      "state": "MN",
-      "price": 0.0
-    },
-    {
-      "store_number": "002170",
-      "name": "Taco Bell",
-      "city": "Wilmington",
-      "state": "DE",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037394",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:04:38.557458+00:00"
+    },
+    {
+      "store_number": "002420",
+      "store_name": "Taco Bell",
+      "city": "Fremont",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:14.098343+00:00"
+    },
+    {
+      "store_number": "000274",
+      "store_name": "Taco Bell",
+      "city": "Eugene",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-20T22:02:57.670664+00:00"
+    },
+    {
+      "store_number": "022604",
+      "store_name": "Taco Bell",
+      "city": "Mukilteo",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:02:40.926266+00:00"
+    },
+    {
+      "store_number": "038747",
+      "store_name": "Taco Bell",
+      "city": "Sherman",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-20T22:02:27.927285+00:00"
+    },
+    {
+      "store_number": "032752",
+      "store_name": "Taco Bell",
+      "city": "Concord",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-20T22:02:07.930013+00:00"
+    },
+    {
+      "store_number": "034930",
+      "store_name": "Taco Bell",
+      "city": "Ferndale",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-20T21:58:52.912623+00:00"
+    },
     {
       "store_number": "038905",
       "store_name": "Taco Bell",
@@ -4915,8 +4986,8 @@
     }
   ],
   "activity_summary": {
-    "added": 40,
-    "removed": 58,
+    "added": 44,
+    "removed": 61,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6571,6 +6642,15 @@
       "Taco Bell",
       "Scranton",
       "PA"
+    ],
+    [
+      "034930",
+      48.84922576328191,
+      -122.57324520849482,
+      0.0,
+      "Taco Bell",
+      "Ferndale",
+      "WA"
     ],
     [
       "035341",
@@ -13827,15 +13907,6 @@
       "MD"
     ],
     [
-      "022604",
-      47.921772161868205,
-      -122.29962104089455,
-      0.0,
-      "Taco Bell",
-      "Mukilteo",
-      "WA"
-    ],
-    [
       "031324",
       47.18080199222686,
       -122.48338832521767,
@@ -19234,15 +19305,6 @@
       "Taco Bell",
       "Arlington",
       "VA"
-    ],
-    [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      0.0,
-      "Taco Bell",
-      "Fremont",
-      "CA"
     ],
     [
       "029533",
@@ -31080,15 +31142,6 @@
       "TX"
     ],
     [
-      "037394",
-      38.853296862790046,
-      -104.75783506039079,
-      0.0,
-      "Taco Bell",
-      "Colorado Springs",
-      "CO"
-    ],
-    [
       "039091",
       38.651228007293305,
       -77.29950942104551,
@@ -36739,6 +36792,33 @@
       "Taco Bell",
       "Herndon",
       "VA"
+    ],
+    [
+      "032752",
+      35.4292587546179,
+      -80.60871190858506,
+      0.0,
+      "Taco Bell",
+      "Concord",
+      "NC"
+    ],
+    [
+      "038747",
+      33.5952,
+      -96.607,
+      0.0,
+      "Taco Bell",
+      "Sherman",
+      "TX"
+    ],
+    [
+      "000274",
+      44.05234934040528,
+      -123.10314197839944,
+      0.0,
+      "Taco Bell",
+      "Eugene",
+      "OR"
     ]
   ]
 }

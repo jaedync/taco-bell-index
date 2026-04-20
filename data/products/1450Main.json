@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 618
+    "store_count": 617
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 125
+      "count": 124
     },
     {
       "bucket": "$1.00",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 53
+      "count": 52
     },
     {
       "bucket": "$1.20",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 10
+      "count": 11
     },
     {
       "bucket": "$1.89",
@@ -122,7 +122,7 @@
     },
     {
       "state": "WA",
-      "avg_price": 1.44,
+      "avg_price": 1.45,
       "store_count": 81
     },
     {
@@ -148,7 +148,7 @@
     {
       "state": "NY",
       "avg_price": 1.21,
-      "store_count": 24
+      "store_count": 23
     },
     {
       "state": "KY",
@@ -379,6 +379,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031338",
+      "store_name": "Taco Bell",
+      "city": "Olympia",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:04:58.855154+00:00"
+    },
+    {
+      "store_number": "005008",
+      "store_name": "Taco Bell",
+      "city": "Brockport",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-04-20T22:03:13.487833+00:00"
+    },
+    {
+      "store_number": "022607",
+      "store_name": "Taco Bell",
+      "city": "Lynnwood",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-20T22:03:11.384572+00:00"
+    },
     {
       "store_number": "021144",
       "store_name": "Taco Bell",
@@ -1001,8 +1031,8 @@
     }
   ],
   "activity_summary": {
-    "added": 22,
-    "removed": 38,
+    "added": 23,
+    "removed": 40,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3541,15 +3571,6 @@
       "WA"
     ],
     [
-      "031338",
-      47.037954209941596,
-      -122.93981842702124,
-      0.99,
-      "Taco Bell",
-      "Olympia",
-      "WA"
-    ],
-    [
       "002471",
       39.235476426144174,
       -121.03791760601138,
@@ -4043,15 +4064,6 @@
       "Taco Bell",
       "Everett",
       "WA"
-    ],
-    [
-      "005008",
-      43.199561702548884,
-      -77.94378503229495,
-      1.19,
-      "Taco Bell",
-      "Brockport",
-      "NY"
     ],
     [
       "002665",
@@ -5977,6 +5989,15 @@
       1.79,
       "Taco Bell",
       "Enumclaw",
+      "WA"
+    ],
+    [
+      "022607",
+      47.821453816163455,
+      -122.30010028646434,
+      1.79,
+      "Taco Bell",
+      "Lynnwood",
       "WA"
     ],
     [

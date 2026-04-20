@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.39,
+    "avg": 5.4,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.2,
-    "store_count": 21
+    "std_dev": 0.19,
+    "store_count": 23
   },
   "histogram": [
     {
@@ -27,14 +27,14 @@
     },
     {
       "bucket": "$5.49",
-      "count": 17
+      "count": 19
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 5.41,
-      "store_count": 13
+      "avg_price": 5.42,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -131,6 +131,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "004142",
+      "name": "Taco Bell",
+      "city": "La Fayette",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
       "store_number": "041212",
       "name": "Taco Bell",
       "city": "Decatur",
@@ -141,6 +148,13 @@
       "store_number": "024403",
       "name": "Taco Bell",
       "city": "Crossville",
+      "state": "TN",
+      "price": 5.49
+    },
+    {
+      "store_number": "029050",
+      "name": "Taco Bell",
+      "city": "Chattanooga",
       "state": "TN",
       "price": 5.49
     },
@@ -185,23 +199,29 @@
       "city": "Columbus",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "041238",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
-      "store_number": "040384",
-      "name": "Taco Bell",
-      "city": "Dawson",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004142",
+      "store_name": "Taco Bell",
+      "city": "La Fayette",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:26.495206+00:00"
+    },
+    {
+      "store_number": "029050",
+      "store_name": "Taco Bell",
+      "city": "Chattanooga",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-20T22:02:21.343424+00:00"
+    },
     {
       "store_number": "033348",
       "store_name": "Taco Bell",
@@ -674,7 +694,7 @@
     }
   ],
   "activity_summary": {
-    "added": 21,
+    "added": 23,
     "removed": 26,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -856,6 +876,15 @@
       "GA"
     ],
     [
+      "029050",
+      35.115167503435934,
+      -85.25543691077918,
+      5.49,
+      "Taco Bell",
+      "Chattanooga",
+      "TN"
+    ],
+    [
       "024403",
       35.96722562647426,
       -85.03864054957367,
@@ -871,6 +900,15 @@
       5.49,
       "Taco Bell",
       "Decatur",
+      "GA"
+    ],
+    [
+      "004142",
+      34.7209606067242,
+      -85.27970575172725,
+      5.49,
+      "Taco Bell",
+      "La Fayette",
       "GA"
     ]
   ]
