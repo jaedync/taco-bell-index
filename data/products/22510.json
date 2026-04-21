@@ -18,7 +18,7 @@
     "max": 5.49,
     "median": 2.79,
     "std_dev": 0.33,
-    "store_count": 7660
+    "store_count": 7663
   },
   "histogram": [
     {
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$2.39",
-      "count": 125
+      "count": 126
     },
     {
       "bucket": "$2.49",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 694
+      "count": 693
     },
     {
       "bucket": "$2.69",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 1149
+      "count": 1151
     },
     {
       "bucket": "$2.80",
@@ -151,7 +151,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 335
+      "count": 336
     },
     {
       "bucket": "$3.49",
@@ -203,7 +203,7 @@
     {
       "state": "MI",
       "avg_price": 3.07,
-      "store_count": 347
+      "store_count": 348
     },
     {
       "state": "WY",
@@ -263,7 +263,7 @@
     {
       "state": "IN",
       "avg_price": 2.87,
-      "store_count": 261
+      "store_count": 262
     },
     {
       "state": "AR",
@@ -272,8 +272,8 @@
     },
     {
       "state": "NV",
-      "avg_price": 2.84,
-      "store_count": 86
+      "avg_price": 2.83,
+      "store_count": 87
     },
     {
       "state": "OK",
@@ -348,7 +348,7 @@
     {
       "state": "TX",
       "avg_price": 2.69,
-      "store_count": 698
+      "store_count": 699
     },
     {
       "state": "IA",
@@ -393,7 +393,7 @@
     {
       "state": "NC",
       "avg_price": 2.52,
-      "store_count": 262
+      "store_count": 261
     },
     {
       "state": "TN",
@@ -589,6 +589,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "040340",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:40.963012+00:00"
+    },
+    {
+      "store_number": "031884",
+      "store_name": "Taco Bell",
+      "city": "Carson City",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-21T21:49:26.829193+00:00"
+    },
+    {
+      "store_number": "042689",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-04-21T21:49:22.515610+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-21T21:48:50.606903+00:00"
+    },
     {
       "store_number": "021532",
       "store_name": "Taco Bell",
@@ -17371,8 +17421,8 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
-    "removed": 32,
+    "added": 50,
+    "removed": 33,
     "price_changed": 1600,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25300,6 +25350,15 @@
       "Taco Bell",
       "Fort Wayne",
       "IN"
+    ],
+    [
+      "042689",
+      32.03666123449583,
+      -102.13087499141693,
+      2.39,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "033277",
@@ -37090,15 +37149,6 @@
       "Taco Bell",
       "Justin",
       "TX"
-    ],
-    [
-      "040340",
-      35.6526055,
-      -78.35054180000002,
-      2.59,
-      "Taco Bell",
-      "Clayton",
-      "NC"
     ],
     [
       "040165",
@@ -50943,6 +50993,15 @@
       "FL"
     ],
     [
+      "031884",
+      39.129537169593675,
+      -119.77106456460206,
+      2.79,
+      "Taco Bell",
+      "Carson City",
+      "NV"
+    ],
+    [
       "030563",
       34.75148700561307,
       -77.44658232957893,
@@ -55818,6 +55877,15 @@
       2.79,
       "Taco Bell",
       "Versailles",
+      "IN"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      2.79,
+      "Taco Bell",
+      "Indianapolis",
       "IN"
     ],
     [
@@ -83313,6 +83381,15 @@
       3.29,
       "Taco Bell",
       "Dearborn",
+      "MI"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      3.29,
+      "Taco Bell",
+      "Roseville",
       "MI"
     ],
     [

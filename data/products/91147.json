@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
-  "availability_pct": 6.4,
+  "availability_pct": 6.3,
   "price_stats": {
     "avg": 10.13,
     "min": 9.99,
     "max": 11.49,
     "median": 9.99,
     "std_dev": 0.35,
-    "store_count": 490
+    "store_count": 489
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 63
+      "count": 62
     },
     {
       "bucket": "$11.49",
@@ -38,7 +38,7 @@
     {
       "state": "GA",
       "avg_price": 10.27,
-      "store_count": 238
+      "store_count": 237
     },
     {
       "state": "TN",
@@ -631,21 +631,31 @@
       "price": 10.99
     },
     {
-      "store_number": "041212",
-      "name": "Taco Bell",
-      "city": "Decatur",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "041257",
       "name": "Taco Bell",
       "city": "Cumming",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "041245",
+      "name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:28.709118+00:00"
+    },
     {
       "store_number": "035298",
       "store_name": "Taco Bell",
@@ -8449,7 +8459,7 @@
   ],
   "activity_summary": {
     "added": 635,
-    "removed": 145,
+    "removed": 146,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12810,15 +12820,6 @@
       10.99,
       "Taco Bell",
       "Cumming",
-      "GA"
-    ],
-    [
-      "041212",
-      33.75484747709103,
-      -84.26683026558743,
-      10.99,
-      "Taco Bell",
-      "Decatur",
       "GA"
     ],
     [

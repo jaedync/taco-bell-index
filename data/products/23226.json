@@ -19,7 +19,7 @@
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.15,
-    "store_count": 7683
+    "store_count": 7685
   },
   "histogram": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 794
+      "count": 793
     },
     {
       "bucket": "$2.92",
@@ -48,7 +48,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 5947
+      "count": 5950
     },
     {
       "bucket": "$3.00",
@@ -236,7 +236,7 @@
     {
       "state": "ND",
       "avg_price": 2.99,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "IA",
@@ -276,7 +276,7 @@
     {
       "state": "MO",
       "avg_price": 2.98,
-      "store_count": 227
+      "store_count": 228
     },
     {
       "state": "DE",
@@ -296,7 +296,7 @@
     {
       "state": "IN",
       "avg_price": 2.98,
-      "store_count": 259
+      "store_count": 260
     },
     {
       "state": "PA",
@@ -331,7 +331,7 @@
     {
       "state": "TN",
       "avg_price": 2.96,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "OR",
@@ -351,7 +351,7 @@
     {
       "state": "WV",
       "avg_price": 2.95,
-      "store_count": 72
+      "store_count": 71
     },
     {
       "state": "KY",
@@ -359,14 +359,14 @@
       "store_count": 161
     },
     {
+      "state": "NC",
+      "avg_price": 2.94,
+      "store_count": 264
+    },
+    {
       "state": "WI",
       "avg_price": 2.94,
       "store_count": 144
-    },
-    {
-      "state": "NC",
-      "avg_price": 2.94,
-      "store_count": 263
     },
     {
       "state": "MS",
@@ -571,6 +571,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-21T21:50:37.678147+00:00"
+    },
+    {
+      "store_number": "031542",
+      "store_name": "Taco Bell",
+      "city": "De Soto",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-21T21:50:21.993703+00:00"
+    },
+    {
+      "store_number": "002469",
+      "store_name": "Taco Bell",
+      "city": "Okemos",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:53.805098+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-21T21:48:54.351605+00:00"
+    },
+    {
+      "store_number": "029528",
+      "store_name": "Taco Bell",
+      "city": "Gastonia",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-21T21:48:48.937695+00:00"
+    },
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:39.664007+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.180627+00:00"
+    },
     {
       "store_number": "042636",
       "store_name": "Taco Bell",
@@ -2653,8 +2733,8 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
-    "removed": 53,
+    "added": 72,
+    "removed": 56,
     "price_changed": 88,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8062,15 +8142,6 @@
       "Taco Bell",
       "Harmony",
       "PA"
-    ],
-    [
-      "041829",
-      40.284352,
-      -80.60844,
-      2.89,
-      "Taco Bell",
-      "Wellsburg",
-      "WV"
     ],
     [
       "041901",
@@ -21825,15 +21896,6 @@
       "AL"
     ],
     [
-      "041883",
-      48.173424515469144,
-      -103.62728089416856,
-      2.99,
-      "Taco Bell",
-      "Williston",
-      "ND"
-    ],
-    [
       "042246",
       36.13001983668526,
       -88.50913771658497,
@@ -26235,6 +26297,15 @@
       "TX"
     ],
     [
+      "029528",
+      35.26034014744842,
+      -81.21464981700228,
+      2.99,
+      "Taco Bell",
+      "Gastonia",
+      "NC"
+    ],
+    [
       "015362",
       35.317416885456375,
       -119.02342240512269,
@@ -28465,6 +28536,15 @@
       "Taco Bell",
       "Wellington",
       "OH"
+    ],
+    [
+      "034436",
+      36.02089662405677,
+      -86.57775200438664,
+      2.99,
+      "Taco Bell",
+      "La Vergne",
+      "TN"
     ],
     [
       "029140",
@@ -53253,15 +53333,6 @@
       "MI"
     ],
     [
-      "002469",
-      42.72207167534047,
-      -84.42434675529506,
-      2.99,
-      "Taco Bell",
-      "Okemos",
-      "MI"
-    ],
-    [
       "029100",
       32.566551566031926,
       -85.50129443407059,
@@ -61092,6 +61163,15 @@
       "CA"
     ],
     [
+      "031542",
+      38.149550966190986,
+      -90.57712286710739,
+      2.99,
+      "Taco Bell",
+      "De Soto",
+      "MO"
+    ],
+    [
       "036547",
       38.86154373554433,
       -77.38936458529679,
@@ -65295,6 +65375,15 @@
       "AR"
     ],
     [
+      "042636",
+      42.96980078904264,
+      -85.64359773456188,
+      2.99,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
       "031070",
       41.529048819700705,
       -87.47169573606698,
@@ -68821,6 +68910,15 @@
       "Taco Bell",
       "New Paltz",
       "NY"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      2.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "039146",

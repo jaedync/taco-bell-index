@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7075
+    "store_count": 7074
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5237
+      "count": 5236
     },
     {
       "bucket": "$4.19",
@@ -197,8 +197,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 5.2,
-      "store_count": 241
+      "avg_price": 5.21,
+      "store_count": 240
     },
     {
       "state": "UT",
@@ -221,14 +221,14 @@
       "store_count": 14
     },
     {
-      "state": "KS",
-      "avg_price": 4.93,
-      "store_count": 86
-    },
-    {
       "state": "NY",
       "avg_price": 4.93,
       "store_count": 224
+    },
+    {
+      "state": "KS",
+      "avg_price": 4.92,
+      "store_count": 87
     },
     {
       "state": "MO",
@@ -268,7 +268,7 @@
     {
       "state": "OH",
       "avg_price": 4.26,
-      "store_count": 366
+      "store_count": 364
     },
     {
       "state": "CT",
@@ -308,7 +308,7 @@
     {
       "state": "IN",
       "avg_price": 4.06,
-      "store_count": 248
+      "store_count": 249
     },
     {
       "state": "MT",
@@ -1217,6 +1217,7 @@
     "042562",
     "042554",
     "035167",
+    "042417",
     "042153",
     "041964",
     "042687",
@@ -1589,7 +1590,6 @@
     "027539",
     "004014",
     "003292",
-    "018280",
     "020212",
     "031265",
     "027634",
@@ -2327,7 +2327,6 @@
     "030891",
     "042621",
     "033772",
-    "033778",
     "028407",
     "016319",
     "037589",
@@ -4171,7 +4170,6 @@
     "028477",
     "004041",
     "000328",
-    "033769",
     "040067",
     "037693",
     "030535",
@@ -5726,7 +5724,8 @@
     "032668",
     "033437",
     "042069",
-    "040713"
+    "040713",
+    "042730"
   ],
   "priciest_stores": [
     {
@@ -5801,6 +5800,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "033769",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:52.338185+00:00"
+    },
+    {
+      "store_number": "033778",
+      "store_name": "Taco Bell",
+      "city": "Huber Heights",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:04.815872+00:00"
+    },
+    {
+      "store_number": "018280",
+      "store_name": "Taco Bell",
+      "city": "Lincolnton",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:47.923996+00:00"
+    },
+    {
+      "store_number": "042417",
+      "store_name": "Taco Bell",
+      "city": "Wichita",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-21T21:48:40.258451+00:00"
+    },
     {
       "store_number": "033847",
       "store_name": "Taco Bell",
@@ -6743,8 +6792,8 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
-    "removed": 46,
+    "added": 37,
+    "removed": 49,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13322,6 +13371,15 @@
       "NY"
     ],
     [
+      "042417",
+      37.73724,
+      -97.208302,
+      4.0,
+      "Taco Bell",
+      "Wichita",
+      "KS"
+    ],
+    [
       "042153",
       42.02309088482305,
       -71.11961999262505,
@@ -16668,15 +16726,6 @@
       "Taco Bell",
       "Clawson",
       "MI"
-    ],
-    [
-      "018280",
-      35.47704280462226,
-      -81.2336615771045,
-      4.0,
-      "Taco Bell",
-      "Lincolnton",
-      "NC"
     ],
     [
       "020212",
@@ -23309,15 +23358,6 @@
       4.0,
       "Taco Bell",
       "Cincinnati",
-      "OH"
-    ],
-    [
-      "033778",
-      39.87449205704822,
-      -84.13660258054733,
-      4.0,
-      "Taco Bell",
-      "Huber Heights",
       "OH"
     ],
     [
@@ -39908,15 +39948,6 @@
       "TX"
     ],
     [
-      "033769",
-      39.52654204643256,
-      -84.38923555619112,
-      4.0,
-      "Taco Bell",
-      "Middletown",
-      "OH"
-    ],
-    [
       "040067",
       40.338513784046356,
       -76.44844467983246,
@@ -53910,6 +53941,15 @@
       "Taco Bell",
       "New Paltz",
       "NY"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      4.0,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "040310",

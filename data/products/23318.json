@@ -19,7 +19,7 @@
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7005
+    "store_count": 7008
   },
   "histogram": [
     {
@@ -84,7 +84,7 @@
     },
     {
       "bucket": "$3.09",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$3.11",
@@ -100,7 +100,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 371
+      "count": 372
     },
     {
       "bucket": "$3.39",
@@ -164,7 +164,7 @@
     },
     {
       "bucket": "$4.12",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$4.18",
@@ -253,8 +253,8 @@
     },
     {
       "state": "WA",
-      "avg_price": 3.61,
-      "store_count": 138
+      "avg_price": 3.6,
+      "store_count": 139
     },
     {
       "state": "MT",
@@ -309,7 +309,7 @@
     {
       "state": "IN",
       "avg_price": 3.29,
-      "store_count": 229
+      "store_count": 230
     },
     {
       "state": "UT",
@@ -317,14 +317,14 @@
       "store_count": 64
     },
     {
+      "state": "NJ",
+      "avg_price": 3.22,
+      "store_count": 122
+    },
+    {
       "state": "FL",
       "avg_price": 3.21,
       "store_count": 449
-    },
-    {
-      "state": "NJ",
-      "avg_price": 3.21,
-      "store_count": 121
     },
     {
       "state": "DC",
@@ -349,7 +349,7 @@
     {
       "state": "NC",
       "avg_price": 3.19,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "WI",
@@ -379,7 +379,7 @@
     {
       "state": "IL",
       "avg_price": 3.15,
-      "store_count": 287
+      "store_count": 286
     },
     {
       "state": "WY",
@@ -414,7 +414,7 @@
     {
       "state": "SC",
       "avg_price": 3.11,
-      "store_count": 114
+      "store_count": 115
     },
     {
       "state": "KS",
@@ -439,7 +439,7 @@
     {
       "state": "AL",
       "avg_price": 3.0,
-      "store_count": 159
+      "store_count": 160
     },
     {
       "state": "RI",
@@ -629,6 +629,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.12,
+      "observed_at": "2026-04-21T21:50:43.461949+00:00"
+    },
+    {
+      "store_number": "040340",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:40.963012+00:00"
+    },
+    {
+      "store_number": "004946",
+      "store_name": "Taco Bell",
+      "city": "Kelso",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-21T21:50:38.296714+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:21.045357+00:00"
+    },
+    {
+      "store_number": "030463",
+      "store_name": "Taco Bell",
+      "city": "Atmore",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-21T21:49:16.514720+00:00"
+    },
+    {
+      "store_number": "041271",
+      "store_name": "Taco Bell",
+      "city": "Roebuck",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.09,
+      "observed_at": "2026-04-21T21:48:40.904292+00:00"
+    },
     {
       "store_number": "004946",
       "store_name": "Taco Bell",
@@ -16641,8 +16711,8 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
-    "removed": 660,
+    "added": 60,
+    "removed": 662,
     "price_changed": 886,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31547,6 +31617,15 @@
       "GA"
     ],
     [
+      "030463",
+      31.105415984250854,
+      -87.47651986779147,
+      2.99,
+      "Taco Bell",
+      "Atmore",
+      "AL"
+    ],
+    [
       "036486",
       32.52636196976751,
       -86.20746475961995,
@@ -42941,15 +43020,6 @@
       "AR"
     ],
     [
-      "040340",
-      35.6526055,
-      -78.35054180000002,
-      2.99,
-      "Taco Bell",
-      "Clayton",
-      "NC"
-    ],
-    [
       "040388",
       43.1712865,
       -77.62734669999999,
@@ -44172,6 +44242,15 @@
       "Taco Bell",
       "Yorktown Heights",
       "NY"
+    ],
+    [
+      "041271",
+      34.844198,
+      -81.967871,
+      3.09,
+      "Taco Bell",
+      "Roebuck",
+      "SC"
     ],
     [
       "029248",
@@ -46817,15 +46896,6 @@
       3.19,
       "Taco Bell",
       "Minooka",
-      "IL"
-    ],
-    [
-      "030404",
-      41.882211,
-      -87.640594,
-      3.19,
-      "Taco Bell",
-      "Chicago",
       "IL"
     ],
     [
@@ -50409,6 +50479,15 @@
       "Taco Bell",
       "Elgin",
       "IL"
+    ],
+    [
+      "004946",
+      46.14413541270274,
+      -122.90087966015562,
+      3.19,
+      "Taco Bell",
+      "Kelso",
+      "WA"
     ],
     [
       "016318",
@@ -54104,6 +54183,15 @@
       "028860",
       39.90485584629985,
       -86.05884514284298,
+      3.29,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
       3.29,
       "Taco Bell",
       "Indianapolis",
@@ -76292,6 +76380,15 @@
       4.12,
       "Taco Bell",
       "Franklin",
+      "NJ"
+    ],
+    [
+      "039545",
+      41.19914267445654,
+      -74.48748706784548,
+      4.12,
+      "Taco Bell",
+      "Vernon",
       "NJ"
     ],
     [

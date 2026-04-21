@@ -17,7 +17,7 @@
     "max": 13.99,
     "median": 8.79,
     "std_dev": 0.7,
-    "store_count": 7701
+    "store_count": 7702
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$7.69",
-      "count": 193
+      "count": 194
     },
     {
       "bucket": "$7.75",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$8.69",
-      "count": 381
+      "count": 380
     },
     {
       "bucket": "$8.77",
@@ -166,11 +166,11 @@
     },
     {
       "bucket": "$9.19",
-      "count": 443
+      "count": 444
     },
     {
       "bucket": "$9.29",
-      "count": 298
+      "count": 299
     },
     {
       "bucket": "$9.30",
@@ -190,7 +190,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 248
+      "count": 247
     },
     {
       "bucket": "$9.50",
@@ -315,7 +315,7 @@
     {
       "state": "CA",
       "avg_price": 9.35,
-      "store_count": 840
+      "store_count": 839
     },
     {
       "state": "MA",
@@ -380,7 +380,7 @@
     {
       "state": "MI",
       "avg_price": 8.84,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "RI",
@@ -470,7 +470,7 @@
     {
       "state": "TN",
       "avg_price": 8.36,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "NE",
@@ -485,7 +485,7 @@
     {
       "state": "IN",
       "avg_price": 8.24,
-      "store_count": 261
+      "store_count": 262
     },
     {
       "state": "KY",
@@ -493,14 +493,14 @@
       "store_count": 161
     },
     {
-      "state": "WV",
-      "avg_price": 8.2,
-      "store_count": 72
-    },
-    {
       "state": "GA",
       "avg_price": 8.19,
       "store_count": 257
+    },
+    {
+      "state": "WV",
+      "avg_price": 8.19,
+      "store_count": 71
     },
     {
       "state": "LA",
@@ -703,6 +703,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.69,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-04-21T21:50:37.678147+00:00"
+    },
+    {
+      "store_number": "035468",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:40.349662+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.29,
+      "observed_at": "2026-04-21T21:48:54.351605+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 8.69,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.180627+00:00"
+    },
     {
       "store_number": "042636",
       "store_name": "Taco Bell",
@@ -13635,8 +13685,8 @@
     }
   ],
   "activity_summary": {
-    "added": 84,
-    "removed": 81,
+    "added": 87,
+    "removed": 83,
     "price_changed": 1128,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19726,6 +19776,15 @@
       "Taco Bell",
       "Greer",
       "SC"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      7.69,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "026085",
@@ -44548,15 +44607,6 @@
       "Taco Bell",
       "Meadville",
       "PA"
-    ],
-    [
-      "041829",
-      40.284352,
-      -80.60844,
-      8.69,
-      "Taco Bell",
-      "Wellsburg",
-      "WV"
     ],
     [
       "041901",
@@ -74295,6 +74345,15 @@
       "CA"
     ],
     [
+      "042636",
+      42.96980078904264,
+      -85.64359773456188,
+      9.19,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
       "031070",
       41.529048819700705,
       -87.47169573606698,
@@ -75004,6 +75063,15 @@
       "Taco Bell",
       "Hopkinsville",
       "KY"
+    ],
+    [
+      "034436",
+      36.02089662405677,
+      -86.57775200438664,
+      9.29,
+      "Taco Bell",
+      "La Vergne",
+      "TN"
     ],
     [
       "034435",
@@ -79197,15 +79265,6 @@
       9.49,
       "Taco Bell",
       "Tracy",
-      "CA"
-    ],
-    [
-      "035468",
-      38.59415699744662,
-      -121.28754595254232,
-      9.49,
-      "Taco Bell",
-      "Rancho Cordova",
       "CA"
     ],
     [

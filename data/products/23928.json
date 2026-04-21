@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 89
+    "store_count": 91
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 89
+      "count": 91
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 89
+      "store_count": 91
     }
   ],
   "nutrition": {
@@ -70,16 +70,16 @@
       "price": 5.49
     },
     {
-      "store_number": "040761",
+      "store_number": "041027",
       "name": "Taco Bell",
-      "city": "Taylor",
+      "city": "Monroe",
       "state": "MI",
       "price": 5.49
     },
     {
-      "store_number": "040315",
+      "store_number": "040761",
       "name": "Taco Bell",
-      "city": "Ann Arbor",
+      "city": "Taylor",
       "state": "MI",
       "price": 5.49
     },
@@ -123,8 +123,8 @@
     "040303",
     "040437",
     "039704",
+    "041027",
     "040761",
-    "040315",
     "033376",
     "034814",
     "034817",
@@ -146,7 +146,7 @@
     "001571",
     "024649",
     "033313",
-    "027374",
+    "038975",
     "033308",
     "005095",
     "031392",
@@ -170,7 +170,7 @@
     "026084",
     "037841",
     "001557",
-    "003291",
+    "031302",
     "000867",
     "029258",
     "003190",
@@ -190,10 +190,13 @@
     "030676",
     "033303",
     "003584",
-    "024444",
     "027361",
     "024650",
+    "021229",
+    "037839",
     "001439",
+    "001732",
+    "003865",
     "003290",
     "033314",
     "001591",
@@ -203,7 +206,6 @@
     "033309",
     "040007",
     "001661",
-    "003294",
     "039685",
     "033315",
     "031472",
@@ -247,13 +249,6 @@
       "price": 5.49
     },
     {
-      "store_number": "003294",
-      "name": "Taco Bell",
-      "city": "Dearborn",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
       "store_number": "001661",
       "name": "Taco Bell",
       "city": "Dearborn Heights",
@@ -280,9 +275,136 @@
       "city": "Washington",
       "state": "MI",
       "price": 5.49
+    },
+    {
+      "store_number": "005228",
+      "name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003294",
+      "store_name": "Taco Bell",
+      "city": "Dearborn",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:56.310387+00:00"
+    },
+    {
+      "store_number": "003865",
+      "store_name": "Taco Bell",
+      "city": "Utica",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:53.822062+00:00"
+    },
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:53.516497+00:00"
+    },
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:53.019901+00:00"
+    },
+    {
+      "store_number": "021229",
+      "store_name": "Taco Bell",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:52.841902+00:00"
+    },
+    {
+      "store_number": "024444",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:52.731392+00:00"
+    },
+    {
+      "store_number": "003291",
+      "store_name": "Taco Bell",
+      "city": "Southfield",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:50.427644+00:00"
+    },
+    {
+      "store_number": "031302",
+      "store_name": "Taco Bell",
+      "city": "Saint Clair Shores",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:50.232890+00:00"
+    },
+    {
+      "store_number": "027374",
+      "store_name": "Taco Bell",
+      "city": "Pinckney",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:47.380970+00:00"
+    },
+    {
+      "store_number": "038975",
+      "store_name": "Taco Bell",
+      "city": "Pontiac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:47.232111+00:00"
+    },
+    {
+      "store_number": "040315",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:30.028072+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:28.282938+00:00"
+    },
     {
       "store_number": "003294",
       "store_name": "Taco Bell",
@@ -1675,8 +1797,8 @@
     }
   ],
   "activity_summary": {
-    "added": 114,
-    "removed": 25,
+    "added": 121,
+    "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1726,21 +1848,21 @@
       "MI"
     ],
     [
+      "041027",
+      41.9491,
+      -83.401,
+      5.49,
+      "Taco Bell",
+      "Monroe",
+      "MI"
+    ],
+    [
       "040761",
       42.1965895445497,
       -83.3055077831827,
       5.49,
       "Taco Bell",
       "Taylor",
-      "MI"
-    ],
-    [
-      "040315",
-      42.298977471869904,
-      -83.72247008159732,
-      5.49,
-      "Taco Bell",
-      "Ann Arbor",
       "MI"
     ],
     [
@@ -1933,12 +2055,12 @@
       "MI"
     ],
     [
-      "027374",
-      42.45818612287247,
-      -83.92965003848076,
+      "038975",
+      42.62029219023837,
+      -83.2493157684803,
       5.49,
       "Taco Bell",
-      "Pinckney",
+      "Pontiac",
       "MI"
     ],
     [
@@ -2149,12 +2271,12 @@
       "MI"
     ],
     [
-      "003291",
-      42.45780303595873,
-      -83.27920005201568,
+      "031302",
+      42.47013272339407,
+      -82.90637614755155,
       5.49,
       "Taco Bell",
-      "Southfield",
+      "Saint Clair Shores",
       "MI"
     ],
     [
@@ -2329,15 +2451,6 @@
       "MI"
     ],
     [
-      "024444",
-      42.44013679435563,
-      -83.3737537537855,
-      5.49,
-      "Taco Bell",
-      "Livonia",
-      "MI"
-    ],
-    [
       "027361",
       42.54992472502078,
       -82.92630142999315,
@@ -2356,12 +2469,48 @@
       "MI"
     ],
     [
+      "021229",
+      42.56092585729545,
+      -83.02868924570248,
+      5.49,
+      "Taco Bell",
+      "Sterling Heights",
+      "MI"
+    ],
+    [
+      "037839",
+      42.23087868339839,
+      -83.73982473278835,
+      5.49,
+      "Taco Bell",
+      "Ann Arbor",
+      "MI"
+    ],
+    [
       "001439",
       42.53594917872571,
       -83.06661828431061,
       5.49,
       "Taco Bell",
       "Sterling Heights",
+      "MI"
+    ],
+    [
+      "001732",
+      42.32247892201157,
+      -83.48488225604342,
+      5.49,
+      "Taco Bell",
+      "Canton",
+      "MI"
+    ],
+    [
+      "003865",
+      42.628778752216014,
+      -82.99390687389669,
+      5.49,
+      "Taco Bell",
+      "Utica",
       "MI"
     ],
     [
@@ -2443,15 +2592,6 @@
       5.49,
       "Taco Bell",
       "Dearborn Heights",
-      "MI"
-    ],
-    [
-      "003294",
-      42.34483992057749,
-      -83.15676929975423,
-      5.49,
-      "Taco Bell",
-      "Dearborn",
       "MI"
     ],
     [

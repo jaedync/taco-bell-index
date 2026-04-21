@@ -18,7 +18,7 @@
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7198
+    "store_count": 7200
   },
   "histogram": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 431
+      "count": 432
     },
     {
       "bucket": "$5.05",
@@ -135,11 +135,11 @@
     },
     {
       "bucket": "$5.89",
-      "count": 340
+      "count": 339
     },
     {
       "bucket": "$5.99",
-      "count": 1741
+      "count": 1742
     },
     {
       "bucket": "$6.00",
@@ -155,7 +155,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 703
+      "count": 704
     },
     {
       "bucket": "$6.20",
@@ -300,7 +300,7 @@
     {
       "state": "MI",
       "avg_price": 6.11,
-      "store_count": 347
+      "store_count": 348
     },
     {
       "state": "UT",
@@ -345,7 +345,7 @@
     {
       "state": "WY",
       "avg_price": 5.91,
-      "store_count": 11
+      "store_count": 10
     },
     {
       "state": "OR",
@@ -410,7 +410,7 @@
     {
       "state": "MO",
       "avg_price": 5.75,
-      "store_count": 227
+      "store_count": 228
     },
     {
       "state": "MA",
@@ -490,7 +490,7 @@
     {
       "state": "NE",
       "avg_price": 5.04,
-      "store_count": 43
+      "store_count": 44
     },
     {
       "state": "GA",
@@ -647,6 +647,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "035289",
+      "store_name": "Taco Bell",
+      "city": "Bellevue",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-21T21:50:37.806350+00:00"
+    },
+    {
+      "store_number": "031542",
+      "store_name": "Taco Bell",
+      "city": "De Soto",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-04-21T21:50:21.993703+00:00"
+    },
+    {
+      "store_number": "023075",
+      "store_name": "Taco Bell",
+      "city": "Sheridan",
+      "state": "WY",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:03.642672+00:00"
+    },
+    {
+      "store_number": "028862",
+      "store_name": "Taco Bell",
+      "city": "Terre Haute",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:29.933972+00:00"
+    },
+    {
+      "store_number": "003865",
+      "store_name": "Taco Bell",
+      "city": "Utica",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-21T21:48:53.822062+00:00"
+    },
     {
       "store_number": "035289",
       "store_name": "Taco Bell",
@@ -16219,8 +16279,8 @@
     }
   ],
   "activity_summary": {
-    "added": 56,
-    "removed": 546,
+    "added": 60,
+    "removed": 548,
     "price_changed": 955,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23824,6 +23884,15 @@
       "Taco Bell",
       "Larned",
       "KS"
+    ],
+    [
+      "035289",
+      41.159295911536,
+      -95.93597664381377,
+      4.99,
+      "Taco Bell",
+      "Bellevue",
+      "NE"
     ],
     [
       "002274",
@@ -34095,15 +34164,6 @@
       "IN"
     ],
     [
-      "028862",
-      39.42279287942577,
-      -87.41551727056503,
-      5.49,
-      "Taco Bell",
-      "Terre Haute",
-      "IN"
-    ],
-    [
       "029579",
       27.805096426590875,
       -82.63894714417802,
@@ -35559,6 +35619,15 @@
       5.49,
       "Taco Bell",
       "Loogootee",
+      "IN"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      5.49,
+      "Taco Bell",
+      "Indianapolis",
       "IN"
     ],
     [
@@ -49350,15 +49419,6 @@
       "LA"
     ],
     [
-      "023075",
-      44.78007443087094,
-      -106.94209740312544,
-      5.89,
-      "Taco Bell",
-      "Sheridan",
-      "WY"
-    ],
-    [
       "038827",
       43.67487712511198,
       -121.5007816162688,
@@ -53361,6 +53421,15 @@
       5.99,
       "Taco Bell",
       "Canton",
+      "MI"
+    ],
+    [
+      "003865",
+      42.628778752216014,
+      -82.99390687389669,
+      5.99,
+      "Taco Bell",
+      "Utica",
       "MI"
     ],
     [
@@ -70849,6 +70918,15 @@
       "Taco Bell",
       "Washington Court House",
       "OH"
+    ],
+    [
+      "031542",
+      38.149550966190986,
+      -90.57712286710739,
+      6.19,
+      "Taco Bell",
+      "De Soto",
+      "MO"
     ],
     [
       "038893",

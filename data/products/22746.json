@@ -17,7 +17,7 @@
     "max": 1.99,
     "median": 0.95,
     "std_dev": 0.18,
-    "store_count": 7672
+    "store_count": 7670
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$0.69",
-      "count": 154
+      "count": 153
     },
     {
       "bucket": "$0.70",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 193
+      "count": 192
     },
     {
       "bucket": "$0.79",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.85",
-      "count": 493
+      "count": 494
     },
     {
       "bucket": "$0.86",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 993
+      "count": 994
     },
     {
       "bucket": "$0.95",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 2151
+      "count": 2149
     },
     {
       "bucket": "$1.04",
@@ -207,7 +207,7 @@
     {
       "state": "NY",
       "avg_price": 1.05,
-      "store_count": 250
+      "store_count": 249
     },
     {
       "state": "NC",
@@ -332,7 +332,7 @@
     {
       "state": "SC",
       "avg_price": 0.92,
-      "store_count": 114
+      "store_count": 115
     },
     {
       "state": "IL",
@@ -342,7 +342,7 @@
     {
       "state": "IN",
       "avg_price": 0.92,
-      "store_count": 259
+      "store_count": 260
     },
     {
       "state": "MD",
@@ -397,7 +397,7 @@
     {
       "state": "TX",
       "avg_price": 0.82,
-      "store_count": 699
+      "store_count": 698
     },
     {
       "state": "MS",
@@ -427,7 +427,7 @@
     {
       "state": "ND",
       "avg_price": 0.75,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "WY",
@@ -437,7 +437,7 @@
     {
       "state": "MN",
       "avg_price": 0.68,
-      "store_count": 100
+      "store_count": 99
     },
     {
       "state": "SD",
@@ -594,6 +594,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "002384",
+      "store_name": "Taco Bell",
+      "city": "Minneapolis",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.69,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:08.225374+00:00"
+    },
+    {
+      "store_number": "032065",
+      "store_name": "Taco Bell",
+      "city": "Santee",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-04-21T21:49:01.578241+00:00"
+    },
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:39.664007+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:36.032707+00:00"
+    },
+    {
+      "store_number": "040721",
+      "store_name": "Taco Bell",
+      "city": "Seabrook",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.150008+00:00"
+    },
     {
       "store_number": "034354",
       "store_name": "Taco Bell Cantina",
@@ -1046,8 +1106,8 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
-    "removed": 15,
+    "added": 20,
+    "removed": 19,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7510,15 +7570,6 @@
       "TX"
     ],
     [
-      "002384",
-      45.003706062809954,
-      -93.22792484432284,
-      0.69,
-      "Taco Bell",
-      "Minneapolis",
-      "MN"
-    ],
-    [
       "031015",
       45.17136693086291,
       -93.85999263867929,
@@ -9605,15 +9656,6 @@
       "Taco Bell",
       "Milford",
       "OH"
-    ],
-    [
-      "041883",
-      48.173424515469144,
-      -103.62728089416856,
-      0.75,
-      "Taco Bell",
-      "Williston",
-      "ND"
     ],
     [
       "042695",
@@ -21217,6 +21259,15 @@
       "FL"
     ],
     [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      0.85,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -24932,6 +24983,15 @@
       "Taco Bell",
       "Lampasas",
       "TX"
+    ],
+    [
+      "032065",
+      33.4838080385468,
+      -80.46689577396626,
+      0.9,
+      "Taco Bell",
+      "Santee",
+      "SC"
     ],
     [
       "004806",
@@ -41845,15 +41905,6 @@
       "PA"
     ],
     [
-      "040721",
-      29.5721341,
-      -95.0267692,
-      1.0,
-      "Taco Bell",
-      "Seabrook",
-      "TX"
-    ],
-    [
       "041753",
       29.62814,
       -95.3884,
@@ -42770,15 +42821,6 @@
       "Taco Bell",
       "Orlando",
       "FL"
-    ],
-    [
-      "036328",
-      42.09826888342504,
-      -79.30401088300437,
-      1.0,
-      "Taco Bell",
-      "Lakewood",
-      "NY"
     ],
     [
       "036251",

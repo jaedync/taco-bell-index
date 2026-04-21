@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 44.4,
+  "availability_pct": 44.6,
   "price_stats": {
     "avg": 1.85,
     "min": 1.0,
     "max": 2.99,
     "median": 1.99,
     "std_dev": 0.22,
-    "store_count": 3420
+    "store_count": 3434
   },
   "histogram": [
     {
@@ -46,11 +46,11 @@
     },
     {
       "bucket": "$1.49",
-      "count": 92
+      "count": 93
     },
     {
       "bucket": "$1.59",
-      "count": 205
+      "count": 206
     },
     {
       "bucket": "$1.67",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 646
+      "count": 657
     },
     {
       "bucket": "$1.89",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1528
+      "count": 1529
     },
     {
       "bucket": "$2.00",
@@ -158,11 +158,6 @@
       "store_count": 40
     },
     {
-      "state": "GA",
-      "avg_price": 1.96,
-      "store_count": 60
-    },
-    {
       "state": "WA",
       "avg_price": 1.96,
       "store_count": 133
@@ -171,6 +166,11 @@
       "state": "PA",
       "avg_price": 1.95,
       "store_count": 11
+    },
+    {
+      "state": "GA",
+      "avg_price": 1.95,
+      "store_count": 63
     },
     {
       "state": "IL",
@@ -225,7 +225,7 @@
     {
       "state": "MI",
       "avg_price": 1.82,
-      "store_count": 187
+      "store_count": 189
     },
     {
       "state": "NV",
@@ -258,19 +258,19 @@
       "store_count": 118
     },
     {
+      "state": "SC",
+      "avg_price": 1.77,
+      "store_count": 42
+    },
+    {
       "state": "AZ",
       "avg_price": 1.76,
       "store_count": 173
     },
     {
-      "state": "SC",
-      "avg_price": 1.76,
-      "store_count": 34
-    },
-    {
       "state": "IN",
       "avg_price": 1.72,
-      "store_count": 125
+      "store_count": 126
     },
     {
       "state": "NM",
@@ -506,6 +506,166 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "042946",
+      "store_name": "Taco Bell",
+      "city": "Inman",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:50:32.039001+00:00"
+    },
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:50:16.317909+00:00"
+    },
+    {
+      "store_number": "042948",
+      "store_name": "Taco Bell",
+      "city": "Duncan",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:50:08.357852+00:00"
+    },
+    {
+      "store_number": "042962",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:59.028346+00:00"
+    },
+    {
+      "store_number": "042954",
+      "store_name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:58.731659+00:00"
+    },
+    {
+      "store_number": "003543",
+      "store_name": "Taco Bell",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:55.654211+00:00"
+    },
+    {
+      "store_number": "030798",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-21T21:49:41.364730+00:00"
+    },
+    {
+      "store_number": "042950",
+      "store_name": "Taco Bell",
+      "city": "Anderson",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:35.513633+00:00"
+    },
+    {
+      "store_number": "042969",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:29.741908+00:00"
+    },
+    {
+      "store_number": "042944",
+      "store_name": "Taco Bell",
+      "city": "Elberton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:16.747190+00:00"
+    },
+    {
+      "store_number": "042951",
+      "store_name": "Taco Bell",
+      "city": "Simpsonville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:15.001007+00:00"
+    },
+    {
+      "store_number": "042949",
+      "store_name": "Taco Bell",
+      "city": "Anderson",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:12.948954+00:00"
+    },
+    {
+      "store_number": "033020",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-04-21T21:49:11.233967+00:00"
+    },
+    {
+      "store_number": "042958",
+      "store_name": "Taco Bell",
+      "city": "Toccoa",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-21T21:49:09.378212+00:00"
+    },
+    {
+      "store_number": "040761",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-21T21:48:28.481816+00:00"
+    },
     {
       "store_number": "037472",
       "store_name": "Taco Bell",
@@ -3338,8 +3498,8 @@
     }
   ],
   "activity_summary": {
-    "added": 105,
-    "removed": 105,
+    "added": 120,
+    "removed": 106,
     "price_changed": 73,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6130,6 +6290,15 @@
       "SD"
     ],
     [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      1.49,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "041324",
       42.88062253819751,
       -85.76345292883101,
@@ -6650,6 +6819,15 @@
       "Taco Bell",
       "Brockton",
       "MA"
+    ],
+    [
+      "033020",
+      42.842486742945276,
+      -85.62426029588096,
+      1.59,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
     ],
     [
       "032989",
@@ -16336,6 +16514,105 @@
       "NV"
     ],
     [
+      "042958",
+      34.57130151774336,
+      -83.30742357913648,
+      1.79,
+      "Taco Bell",
+      "Toccoa",
+      "GA"
+    ],
+    [
+      "042949",
+      34.48994504162863,
+      -82.6760813668534,
+      1.79,
+      "Taco Bell",
+      "Anderson",
+      "SC"
+    ],
+    [
+      "042951",
+      34.716568462879955,
+      -82.25540310144419,
+      1.79,
+      "Taco Bell",
+      "Simpsonville",
+      "SC"
+    ],
+    [
+      "042944",
+      34.104451872847974,
+      -82.85250762108262,
+      1.79,
+      "Taco Bell",
+      "Elberton",
+      "GA"
+    ],
+    [
+      "042969",
+      34.86043053340967,
+      -82.26812408121077,
+      1.79,
+      "Taco Bell",
+      "Greenville",
+      "SC"
+    ],
+    [
+      "042950",
+      34.538764605891146,
+      -82.6671127974987,
+      1.79,
+      "Taco Bell",
+      "Anderson",
+      "SC"
+    ],
+    [
+      "042954",
+      34.982167121858836,
+      -81.96888818289153,
+      1.79,
+      "Taco Bell",
+      "Spartanburg",
+      "SC"
+    ],
+    [
+      "042962",
+      34.81921592807107,
+      -82.27054164628504,
+      1.79,
+      "Taco Bell",
+      "Greenville",
+      "SC"
+    ],
+    [
+      "042948",
+      34.90936320113407,
+      -82.1032745093271,
+      1.79,
+      "Taco Bell",
+      "Duncan",
+      "SC"
+    ],
+    [
+      "042945",
+      34.44515828481069,
+      -83.11913877725601,
+      1.79,
+      "Taco Bell",
+      "Lavonia",
+      "GA"
+    ],
+    [
+      "042946",
+      35.037312460253425,
+      -82.07499960068162,
+      1.79,
+      "Taco Bell",
+      "Inman",
+      "SC"
+    ],
+    [
       "041082",
       39.03479026181428,
       -94.38711461242217,
@@ -18773,6 +19050,15 @@
       "Taco Bell",
       "Greenfield",
       "OH"
+    ],
+    [
+      "040761",
+      42.1965895445497,
+      -83.3055077831827,
+      1.99,
+      "Taco Bell",
+      "Taylor",
+      "MI"
     ],
     [
       "041377",
@@ -26668,6 +26954,15 @@
       "CA"
     ],
     [
+      "030798",
+      37.31417153364949,
+      -121.79288823904244,
+      1.99,
+      "Taco Bell",
+      "San Jose",
+      "CA"
+    ],
+    [
       "033779",
       40.11223247009491,
       -83.08943961562363,
@@ -28286,15 +28581,6 @@
       "Taco Bell",
       "Deer Park",
       "NY"
-    ],
-    [
-      "003543",
-      34.21076962936434,
-      -118.84296633303165,
-      1.99,
-      "Taco Bell",
-      "Thousand Oaks",
-      "CA"
     ],
     [
       "034200",

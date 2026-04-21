@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 45
+    "store_count": 43
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 45
+      "count": 43
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 45
+      "store_count": 43
     }
   ],
   "nutrition": {
@@ -56,23 +56,9 @@
       "price": 4.99
     },
     {
-      "store_number": "040315",
-      "name": "Taco Bell",
-      "city": "Ann Arbor",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
       "store_number": "033376",
       "name": "Taco Bell",
       "city": "Roseville",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "034021",
-      "name": "Taco Bell",
-      "city": "White Lake",
       "state": "MI",
       "price": 4.99
     },
@@ -117,13 +103,25 @@
       "city": "Lincoln Park",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "001510",
+      "name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
+      "store_number": "030367",
+      "name": "Taco Bell",
+      "city": "Mount Clemens",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "039704",
-    "040315",
     "033376",
-    "034021",
     "036234",
     "035098",
     "035629",
@@ -154,9 +152,9 @@
     "001896",
     "030253",
     "019191",
-    "024444",
     "027361",
     "024650",
+    "001732",
     "033314",
     "001591",
     "039686",
@@ -224,14 +222,14 @@
       "price": 4.99
     },
     {
-      "store_number": "024650",
+      "store_number": "001732",
       "name": "Taco Bell",
-      "city": "Clinton Township",
+      "city": "Canton",
       "state": "MI",
       "price": 4.99
     },
     {
-      "store_number": "027361",
+      "store_number": "024650",
       "name": "Taco Bell",
       "city": "Clinton Township",
       "state": "MI",
@@ -239,6 +237,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-21T21:48:53.516497+00:00"
+    },
+    {
+      "store_number": "024444",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:52.731392+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:32.773711+00:00"
+    },
+    {
+      "store_number": "040315",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:30.028072+00:00"
+    },
     {
       "store_number": "001732",
       "store_name": "Taco Bell",
@@ -971,8 +1009,8 @@
     }
   ],
   "activity_summary": {
-    "added": 59,
-    "removed": 14,
+    "added": 60,
+    "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -991,30 +1029,12 @@
       "MI"
     ],
     [
-      "040315",
-      42.298977471869904,
-      -83.72247008159732,
-      4.99,
-      "Taco Bell",
-      "Ann Arbor",
-      "MI"
-    ],
-    [
       "033376",
       42.52531969809968,
       -82.90784267609217,
       4.99,
       "Taco Bell",
       "Roseville",
-      "MI"
-    ],
-    [
-      "034021",
-      42.614842963738916,
-      -83.44493113404984,
-      4.99,
-      "Taco Bell",
-      "White Lake",
       "MI"
     ],
     [
@@ -1288,15 +1308,6 @@
       "MI"
     ],
     [
-      "024444",
-      42.44013679435563,
-      -83.3737537537855,
-      4.99,
-      "Taco Bell",
-      "Livonia",
-      "MI"
-    ],
-    [
       "027361",
       42.54992472502078,
       -82.92630142999315,
@@ -1312,6 +1323,15 @@
       4.99,
       "Taco Bell",
       "Clinton Township",
+      "MI"
+    ],
+    [
+      "001732",
+      42.32247892201157,
+      -83.48488225604342,
+      4.99,
+      "Taco Bell",
+      "Canton",
       "MI"
     ],
     [

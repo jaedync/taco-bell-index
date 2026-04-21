@@ -17,7 +17,7 @@
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7652
+    "store_count": 7651
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 443
+      "count": 442
     },
     {
       "bucket": "$0.65",
@@ -70,11 +70,11 @@
     },
     {
       "bucket": "$0.69",
-      "count": 250
+      "count": 251
     },
     {
       "bucket": "$0.70",
-      "count": 446
+      "count": 447
     },
     {
       "bucket": "$0.75",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 715
+      "count": 714
     },
     {
       "bucket": "$0.85",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 1738
+      "count": 1737
     },
     {
       "bucket": "$0.95",
@@ -279,7 +279,7 @@
     {
       "state": "OH",
       "avg_price": 0.84,
-      "store_count": 409
+      "store_count": 410
     },
     {
       "state": "MI",
@@ -314,7 +314,7 @@
     {
       "state": "NC",
       "avg_price": 0.8,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "NE",
@@ -332,14 +332,14 @@
       "store_count": 57
     },
     {
-      "state": "WV",
-      "avg_price": 0.78,
-      "store_count": 72
-    },
-    {
       "state": "IN",
       "avg_price": 0.77,
       "store_count": 258
+    },
+    {
+      "state": "WV",
+      "avg_price": 0.77,
+      "store_count": 71
     },
     {
       "state": "MS",
@@ -359,7 +359,7 @@
     {
       "state": "SC",
       "avg_price": 0.75,
-      "store_count": 115
+      "store_count": 116
     },
     {
       "state": "CO",
@@ -414,7 +414,7 @@
     {
       "state": "MN",
       "avg_price": 0.59,
-      "store_count": 99
+      "store_count": 98
     }
   ],
   "nutrition": {
@@ -584,6 +584,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "040340",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:40.963012+00:00"
+    },
+    {
+      "store_number": "039922",
+      "store_name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.69,
+      "observed_at": "2026-04-21T21:50:33.702122+00:00"
+    },
+    {
+      "store_number": "038878",
+      "store_name": "Taco Bell",
+      "city": "Chillicothe",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-21T21:50:23.333472+00:00"
+    },
+    {
+      "store_number": "002384",
+      "store_name": "Taco Bell",
+      "city": "Minneapolis",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:08.225374+00:00"
+    },
+    {
+      "store_number": "028863",
+      "store_name": "Taco Bell",
+      "city": "Vincennes",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:46.856606+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.180627+00:00"
+    },
     {
       "store_number": "028922",
       "store_name": "Taco Bell",
@@ -2606,8 +2676,8 @@
     }
   ],
   "activity_summary": {
-    "added": 31,
-    "removed": 20,
+    "added": 34,
+    "removed": 24,
     "price_changed": 151,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10978,15 +11048,6 @@
       "WI"
     ],
     [
-      "002384",
-      45.003706062809954,
-      -93.22792484432284,
-      0.6,
-      "Taco Bell",
-      "Minneapolis",
-      "MN"
-    ],
-    [
       "037485",
       37.05329364485004,
       -88.64940403944378,
@@ -15415,6 +15476,15 @@
       "PA"
     ],
     [
+      "039922",
+      32.255501256143404,
+      -80.84758818964474,
+      0.69,
+      "Taco Bell",
+      "Bluffton",
+      "SC"
+    ],
+    [
       "020425",
       32.83247745709776,
       -79.82560830433937,
@@ -18196,15 +18266,6 @@
       "MO"
     ],
     [
-      "028863",
-      38.68984275350118,
-      -87.50482235850541,
-      0.7,
-      "Taco Bell",
-      "Vincennes",
-      "IN"
-    ],
-    [
       "030643",
       39.43886763293276,
       -87.33346067371718,
@@ -19715,6 +19776,24 @@
       "Taco Bell",
       "Logan",
       "OH"
+    ],
+    [
+      "038878",
+      39.333666753465685,
+      -83.0181536078453,
+      0.7,
+      "Taco Bell",
+      "Chillicothe",
+      "OH"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      0.7,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "040631",
@@ -34477,15 +34556,6 @@
       "CA"
     ],
     [
-      "040340",
-      35.6526055,
-      -78.35054180000002,
-      0.8,
-      "Taco Bell",
-      "Clayton",
-      "NC"
-    ],
-    [
       "040165",
       35.698430806864174,
       -79.78455517457031,
@@ -40397,15 +40467,6 @@
       "Taco Bell",
       "Prairie du Chien",
       "WI"
-    ],
-    [
-      "041829",
-      40.284352,
-      -80.60844,
-      0.9,
-      "Taco Bell",
-      "Wellsburg",
-      "WV"
     ],
     [
       "040903",

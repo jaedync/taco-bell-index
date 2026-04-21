@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 46
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 48
+      "count": 46
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 48
+      "store_count": 46
     }
   ],
   "nutrition": {
@@ -48,13 +48,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "038871",
-      "name": "Taco Bell",
-      "city": "Grosse Pointe",
-      "state": "MI",
-      "price": 5.49
-    },
     {
       "store_number": "041139",
       "name": "Taco Bell",
@@ -91,13 +84,6 @@
       "price": 5.49
     },
     {
-      "store_number": "040997",
-      "name": "Taco Bell",
-      "city": "Capac",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
       "store_number": "034276",
       "name": "Taco Bell",
       "city": "Sandusky",
@@ -117,16 +103,28 @@
       "city": "Fraser",
       "state": "MI",
       "price": 5.49
+    },
+    {
+      "store_number": "001971",
+      "name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
+      "store_number": "027668",
+      "name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
-    "038871",
     "041139",
     "040613",
     "040463",
     "040760",
     "041745",
-    "040997",
     "034276",
     "042669",
     "037169",
@@ -138,12 +136,14 @@
     "040656",
     "033310",
     "021299",
-    "000848",
+    "024745",
+    "030700",
     "021342",
     "031393",
     "024434",
     "033312",
     "001738",
+    "037840",
     "041875",
     "024150",
     "024651",
@@ -153,7 +153,6 @@
     "033316",
     "004298",
     "033301",
-    "021162",
     "023045",
     "040006",
     "024658",
@@ -162,7 +161,6 @@
     "002440",
     "040464",
     "030922",
-    "004530",
     "024449",
     "040700",
     "040164",
@@ -206,13 +204,6 @@
       "price": 5.49
     },
     {
-      "store_number": "004530",
-      "name": "Taco Bell",
-      "city": "Taylor",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
       "store_number": "030922",
       "name": "Taco Bell",
       "city": "Chesterfield",
@@ -239,9 +230,96 @@
       "city": "Algonac",
       "state": "MI",
       "price": 5.49
+    },
+    {
+      "store_number": "039687",
+      "name": "Taco Bell",
+      "city": "Imlay City",
+      "state": "MI",
+      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004530",
+      "store_name": "Taco Bell",
+      "city": "Taylor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:49.440606+00:00"
+    },
+    {
+      "store_number": "021162",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:55.435403+00:00"
+    },
+    {
+      "store_number": "037840",
+      "store_name": "Taco Bell",
+      "city": "Howell",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:53.146445+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:50.071207+00:00"
+    },
+    {
+      "store_number": "000848",
+      "store_name": "Taco Bell",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:50.027058+00:00"
+    },
+    {
+      "store_number": "030700",
+      "store_name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-21T21:48:49.969687+00:00"
+    },
+    {
+      "store_number": "040997",
+      "store_name": "Taco Bell",
+      "city": "Capac",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.679302+00:00"
+    },
+    {
+      "store_number": "038871",
+      "store_name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:26.646049+00:00"
+    },
     {
       "store_number": "023045",
       "store_name": "Taco Bell",
@@ -924,8 +1002,8 @@
     }
   ],
   "activity_summary": {
-    "added": 58,
-    "removed": 10,
+    "added": 61,
+    "removed": 15,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -947,15 +1025,6 @@
     }
   ],
   "map_data": [
-    [
-      "038871",
-      42.411818264438004,
-      -82.91333451525527,
-      5.49,
-      "Taco Bell",
-      "Grosse Pointe",
-      "MI"
-    ],
     [
       "041139",
       42.93682704288596,
@@ -999,15 +1068,6 @@
       5.49,
       "Taco Bell",
       "Walled Lake",
-      "MI"
-    ],
-    [
-      "040997",
-      42.9908,
-      -82.9279,
-      5.49,
-      "Taco Bell",
-      "Capac",
       "MI"
     ],
     [
@@ -1110,12 +1170,21 @@
       "MI"
     ],
     [
-      "000848",
-      42.250590141928726,
-      -83.19532196223633,
+      "024745",
+      42.21337151111523,
+      -83.5428901715295,
       5.49,
       "Taco Bell",
-      "Lincoln Park",
+      "Belleville",
+      "MI"
+    ],
+    [
+      "030700",
+      42.64717297287085,
+      -83.17160936441803,
+      5.49,
+      "Taco Bell",
+      "Rochester Hills",
       "MI"
     ],
     [
@@ -1161,6 +1230,15 @@
       5.49,
       "Taco Bell",
       "Farmington Hills",
+      "MI"
+    ],
+    [
+      "037840",
+      42.58959812045883,
+      -83.88072914914574,
+      5.49,
+      "Taco Bell",
+      "Howell",
       "MI"
     ],
     [
@@ -1245,15 +1323,6 @@
       "MI"
     ],
     [
-      "021162",
-      42.336587950303986,
-      -83.3853131532669,
-      5.49,
-      "Taco Bell",
-      "Westland",
-      "MI"
-    ],
-    [
       "023045",
       42.97589743492643,
       -82.45334157434944,
@@ -1323,15 +1392,6 @@
       5.49,
       "Taco Bell",
       "Chesterfield",
-      "MI"
-    ],
-    [
-      "004530",
-      42.256590436481325,
-      -83.24798031709179,
-      5.49,
-      "Taco Bell",
-      "Taylor",
       "MI"
     ],
     [

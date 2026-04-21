@@ -145,6 +145,7 @@
     "035177",
     "034783",
     "034809",
+    "035998",
     "041964",
     "041833",
     "035462",
@@ -225,7 +226,6 @@
     "023291",
     "027977",
     "023300",
-    "034162",
     "034163",
     "042971",
     "032959",
@@ -282,13 +282,6 @@
       "price": 5.99
     },
     {
-      "store_number": "034162",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
       "store_number": "023300",
       "name": "Taco Bell",
       "city": "Palm Bay",
@@ -301,9 +294,36 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "023291",
+      "name": "Taco Bell",
+      "city": "Satellite Beach",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:45.549648+00:00"
+    },
+    {
+      "store_number": "035998",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-21T21:48:36.975937+00:00"
+    },
     {
       "store_number": "035998",
       "store_name": "Taco Bell",
@@ -1306,8 +1326,8 @@
     }
   ],
   "activity_summary": {
-    "added": 99,
-    "removed": 1,
+    "added": 100,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1431,6 +1451,15 @@
       5.99,
       "Taco Bell",
       "Umatilla",
+      "FL"
+    ],
+    [
+      "035998",
+      28.363064573082465,
+      -81.42408256620308,
+      5.99,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [
@@ -2151,15 +2180,6 @@
       5.99,
       "Taco Bell",
       "Palm Bay",
-      "FL"
-    ],
-    [
-      "034162",
-      28.198881542033824,
-      -81.44054558680533,
-      5.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [

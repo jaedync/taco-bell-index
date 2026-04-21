@@ -18,19 +18,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 33
+    "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 33
+      "count": 32
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 33
+      "store_count": 32
     }
   ],
   "nutrition": {
@@ -135,7 +135,6 @@
     "027982",
     "022833",
     "023299",
-    "027979",
     "028007",
     "042932",
     "022595",
@@ -227,6 +226,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027979",
+      "store_name": "Taco Bell",
+      "city": "Lake Mary",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:29.476462+00:00"
+    },
     {
       "store_number": "036287",
       "store_name": "Taco Bell",
@@ -1220,7 +1229,7 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 33,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1393,15 +1402,6 @@
       10.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "027979",
-      28.755784924346298,
-      -81.3436637725863,
-      10.99,
-      "Taco Bell",
-      "Lake Mary",
       "FL"
     ],
     [

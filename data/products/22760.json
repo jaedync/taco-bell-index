@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.5,
+  "availability_pct": 99.4,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7666
+    "store_count": 7665
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7666
+      "count": 7665
     }
   ],
   "state_prices": [
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 85
+      "store_count": 86
     },
     {
       "state": "NM",
@@ -139,7 +139,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 262
+      "store_count": 261
     },
     {
       "state": "MT",
@@ -159,12 +159,12 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 100
+      "store_count": 99
     },
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 347
+      "store_count": 346
     },
     {
       "state": "ME",
@@ -199,7 +199,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 261
+      "store_count": 262
     },
     {
       "state": "IL",
@@ -224,7 +224,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 255
+      "store_count": 254
     },
     {
       "state": "FL",
@@ -254,7 +254,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 839
+      "store_count": 840
     },
     {
       "state": "AZ",
@@ -806,7 +806,6 @@
     "042858",
     "034247",
     "034073",
-    "033446",
     "034779",
     "034772",
     "034827",
@@ -1025,7 +1024,6 @@
     "035121",
     "035456",
     "036004",
-    "036305",
     "039856",
     "035227",
     "034757",
@@ -5404,7 +5402,6 @@
     "034623",
     "029682",
     "023238",
-    "031509",
     "003652",
     "043197",
     "030771",
@@ -5885,6 +5882,7 @@
     "035360",
     "042212",
     "029738",
+    "031863",
     "039953",
     "042896",
     "032951",
@@ -6256,6 +6254,7 @@
     "026048",
     "035287",
     "002528",
+    "039828",
     "023742",
     "019992",
     "033170",
@@ -7116,7 +7115,6 @@
     "019550",
     "027420",
     "027876",
-    "041212",
     "032321",
     "003394",
     "034694",
@@ -8029,9 +8027,17 @@
     "042069",
     "043007",
     "040713",
-    "031500"
+    "031500",
+    "042730"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042730",
+      "name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "price": 0.0
+    },
     {
       "store_number": "031500",
       "name": "Taco Bell",
@@ -8094,16 +8100,79 @@
       "city": "Germantown",
       "state": "WI",
       "price": 0.0
-    },
-    {
-      "store_number": "042917",
-      "name": "Taco Bell",
-      "city": "Gainesville",
-      "state": "FL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "041212",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:28.709118+00:00"
+    },
+    {
+      "store_number": "039828",
+      "store_name": "Taco Bell",
+      "city": "Fontana",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-21T21:50:02.453491+00:00"
+    },
+    {
+      "store_number": "031863",
+      "store_name": "Taco Bell",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-21T21:49:55.318568+00:00"
+    },
+    {
+      "store_number": "031509",
+      "store_name": "Taco Bell",
+      "city": "Holt",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:45.274935+00:00"
+    },
+    {
+      "store_number": "036305",
+      "store_name": "Taco Bell",
+      "city": "Oakdale",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:35.172343+00:00"
+    },
+    {
+      "store_number": "033446",
+      "store_name": "Taco Bell",
+      "city": "Warsaw",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:32.202415+00:00"
+    },
     {
       "store_number": "039958",
       "store_name": "Taco Bell",
@@ -9476,8 +9545,8 @@
     }
   ],
   "activity_summary": {
-    "added": 61,
-    "removed": 76,
+    "added": 64,
+    "removed": 80,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13465,15 +13534,6 @@
       "TN"
     ],
     [
-      "033446",
-      34.993801604263155,
-      -78.1380737657735,
-      0.0,
-      "Taco Bell",
-      "Warsaw",
-      "NC"
-    ],
-    [
       "034779",
       37.64006676160548,
       -77.51406754012253,
@@ -15434,15 +15494,6 @@
       "Taco Bell",
       "Tulsa",
       "OK"
-    ],
-    [
-      "036305",
-      44.961648,
-      -92.9629501,
-      0.0,
-      "Taco Bell",
-      "Oakdale",
-      "MN"
     ],
     [
       "039856",
@@ -54847,15 +54898,6 @@
       "GA"
     ],
     [
-      "031509",
-      42.65241170776328,
-      -84.52938938197696,
-      0.0,
-      "Taco Bell",
-      "Holt",
-      "MI"
-    ],
-    [
       "003652",
       33.82720920627591,
       -84.32565768064705,
@@ -59176,6 +59218,15 @@
       "TN"
     ],
     [
+      "031863",
+      36.04210021494754,
+      -115.10084130773544,
+      0.0,
+      "Taco Bell",
+      "Henderson",
+      "NV"
+    ],
+    [
       "039953",
       40.747065951573624,
       -73.42171534895897,
@@ -62513,6 +62564,15 @@
       "Taco Bell",
       "Aurora",
       "CO"
+    ],
+    [
+      "039828",
+      34.07002544102547,
+      -117.43653340954477,
+      0.0,
+      "Taco Bell",
+      "Fontana",
+      "CA"
     ],
     [
       "023742",
@@ -70253,15 +70313,6 @@
       "Taco Bell",
       "Dallas",
       "TX"
-    ],
-    [
-      "041212",
-      33.75484747709103,
-      -84.26683026558743,
-      0.0,
-      "Taco Bell",
-      "Decatur",
-      "GA"
     ],
     [
       "032321",
@@ -78479,6 +78530,15 @@
       "Taco Bell",
       "Appleton",
       "WI"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      0.0,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ]
   ]
 }

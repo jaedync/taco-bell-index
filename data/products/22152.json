@@ -20,7 +20,7 @@
     "max": 5.49,
     "median": 1.39,
     "std_dev": 0.24,
-    "store_count": 7682
+    "store_count": 7683
   },
   "histogram": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 2622
+      "count": 2623
     },
     {
       "bucket": "$1.30",
@@ -383,7 +383,7 @@
     {
       "state": "TX",
       "avg_price": 1.3,
-      "store_count": 696
+      "store_count": 697
     },
     {
       "state": "LA",
@@ -638,6 +638,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "028862",
+      "store_name": "Taco Bell",
+      "city": "Terre Haute",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:29.933972+00:00"
+    },
+    {
+      "store_number": "030127",
+      "store_name": "Taco Bell",
+      "city": "Waco",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-04-21T21:49:21.263750+00:00"
+    },
     {
       "store_number": "041258",
       "store_name": "Taco Bell",
@@ -3370,8 +3400,8 @@
     }
   ],
   "activity_summary": {
-    "added": 57,
-    "removed": 43,
+    "added": 59,
+    "removed": 44,
     "price_changed": 173,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6180,15 +6210,6 @@
       "ID"
     ],
     [
-      "028862",
-      39.42279287942577,
-      -87.41551727056503,
-      1.19,
-      "Taco Bell",
-      "Terre Haute",
-      "IN"
-    ],
-    [
       "030524",
       25.975387721829343,
       -80.29570475220686,
@@ -8319,6 +8340,15 @@
       1.19,
       "Taco Bell",
       "Loogootee",
+      "IN"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      1.19,
+      "Taco Bell",
+      "Indianapolis",
       "IN"
     ],
     [
@@ -19714,6 +19744,15 @@
       "Taco Bell",
       "Ada",
       "OK"
+    ],
+    [
+      "030127",
+      31.549987758020297,
+      -97.12514971198289,
+      1.29,
+      "Taco Bell",
+      "Waco",
+      "TX"
     ],
     [
       "032209",

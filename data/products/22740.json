@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 90.9,
+  "availability_pct": 90.8,
   "price_stats": {
     "avg": 0.97,
     "min": 0.3,
@@ -74,11 +74,11 @@
     },
     {
       "bucket": "$0.80",
-      "count": 257
+      "count": 256
     },
     {
       "bucket": "$0.85",
-      "count": 853
+      "count": 854
     },
     {
       "bucket": "$0.86",
@@ -277,7 +277,7 @@
     {
       "state": "NC",
       "avg_price": 1.06,
-      "store_count": 263
+      "store_count": 262
     },
     {
       "state": "MA",
@@ -352,7 +352,7 @@
     {
       "state": "IN",
       "avg_price": 0.95,
-      "store_count": 230
+      "store_count": 231
     },
     {
       "state": "MD",
@@ -633,6 +633,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.85,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "040340",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:50:40.963012+00:00"
+    },
     {
       "store_number": "037484",
       "store_name": "Taco Bell",
@@ -7395,8 +7415,8 @@
     }
   ],
   "activity_summary": {
-    "added": 21,
-    "removed": 629,
+    "added": 22,
+    "removed": 630,
     "price_changed": 26,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20735,15 +20755,6 @@
       "OH"
     ],
     [
-      "040340",
-      35.6526055,
-      -78.35054180000002,
-      0.8,
-      "Taco Bell",
-      "Clayton",
-      "NC"
-    ],
-    [
       "040564",
       39.43926887105408,
       -84.33073243143193,
@@ -28527,6 +28538,15 @@
       "Taco Bell",
       "Mont Belvieu",
       "TX"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      0.85,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "037416",

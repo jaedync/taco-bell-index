@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.4,
+  "availability_pct": 99.5,
   "price_stats": {
     "avg": 30.5,
     "min": 19.49,
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.11,
-    "store_count": 7663
+    "store_count": 7666
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$24.19",
-      "count": 21
+      "count": 22
     },
     {
       "bucket": "$24.49",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$25.49",
-      "count": 128
+      "count": 127
     },
     {
       "bucket": "$25.59",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$25.99",
-      "count": 174
+      "count": 176
     },
     {
       "bucket": "$26.19",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$26.29",
-      "count": 41
+      "count": 40
     },
     {
       "bucket": "$26.39",
@@ -218,11 +218,11 @@
     },
     {
       "bucket": "$30.99",
-      "count": 935
+      "count": 937
     },
     {
       "bucket": "$31.49",
-      "count": 206
+      "count": 207
     },
     {
       "bucket": "$31.99",
@@ -262,7 +262,7 @@
     },
     {
       "bucket": "$33.49",
-      "count": 246
+      "count": 245
     },
     {
       "bucket": "$33.69",
@@ -446,8 +446,8 @@
     },
     {
       "state": "WV",
-      "avg_price": 31.67,
-      "store_count": 72
+      "avg_price": 31.64,
+      "store_count": 71
     },
     {
       "state": "ID",
@@ -511,8 +511,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 30.06,
-      "store_count": 346
+      "avg_price": 30.07,
+      "store_count": 348
     },
     {
       "state": "MN",
@@ -565,19 +565,19 @@
       "store_count": 159
     },
     {
+      "state": "IA",
+      "avg_price": 29.31,
+      "store_count": 47
+    },
+    {
       "state": "AL",
       "avg_price": 29.3,
       "store_count": 161
     },
     {
-      "state": "IA",
-      "avg_price": 29.23,
-      "store_count": 48
-    },
-    {
       "state": "NC",
-      "avg_price": 29.22,
-      "store_count": 261
+      "avg_price": 29.23,
+      "store_count": 262
     },
     {
       "state": "SC",
@@ -601,13 +601,13 @@
     },
     {
       "state": "TN",
-      "avg_price": 28.24,
-      "store_count": 254
+      "avg_price": 28.22,
+      "store_count": 255
     },
     {
       "state": "IN",
-      "avg_price": 28.15,
-      "store_count": 255
+      "avg_price": 28.14,
+      "store_count": 256
     },
     {
       "state": "TX",
@@ -778,6 +778,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 25.99,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 31.49,
+      "observed_at": "2026-04-21T21:50:37.678147+00:00"
+    },
+    {
+      "store_number": "028863",
+      "store_name": "Taco Bell",
+      "city": "Vincennes",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 26.29,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:46.856606+00:00"
+    },
+    {
+      "store_number": "037059",
+      "store_name": "Taco Bell",
+      "city": "Dubuque",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 25.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:45.712631+00:00"
+    },
+    {
+      "store_number": "028909",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 25.99,
+      "observed_at": "2026-04-21T21:49:24.225939+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 30.99,
+      "observed_at": "2026-04-21T21:48:55.488081+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 24.19,
+      "observed_at": "2026-04-21T21:48:54.351605+00:00"
+    },
+    {
+      "store_number": "039779",
+      "store_name": "Taco Bell",
+      "city": "Edenton",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 30.99,
+      "observed_at": "2026-04-21T21:48:36.597899+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 33.49,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.180627+00:00"
+    },
     {
       "store_number": "042636",
       "store_name": "Taco Bell",
@@ -2600,8 +2690,8 @@
     }
   ],
   "activity_summary": {
-    "added": 47,
-    "removed": 44,
+    "added": 53,
+    "removed": 47,
     "price_changed": 91,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4719,6 +4809,15 @@
       "Taco Bell",
       "Hopkinsville",
       "KY"
+    ],
+    [
+      "034436",
+      36.02089662405677,
+      -86.57775200438664,
+      24.19,
+      "Taco Bell",
+      "La Vergne",
+      "TN"
     ],
     [
       "034435",
@@ -7475,15 +7574,6 @@
       "KS"
     ],
     [
-      "037059",
-      42.489447,
-      -90.664758,
-      25.49,
-      "Taco Bell",
-      "Dubuque",
-      "IA"
-    ],
-    [
       "029416",
       38.8006483258379,
       -97.61193114030331,
@@ -8834,6 +8924,15 @@
       "IN"
     ],
     [
+      "028909",
+      39.693524271197724,
+      -86.14933316411225,
+      25.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "001037",
       43.784675391369575,
       -88.46332758665085,
@@ -9617,6 +9716,15 @@
       "IN"
     ],
     [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      25.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "028900",
       38.73166725948719,
       -88.07678460351212,
@@ -9876,15 +9984,6 @@
       "Taco Bell",
       "Florissant",
       "MO"
-    ],
-    [
-      "028863",
-      38.68984275350118,
-      -87.50482235850541,
-      26.29,
-      "Taco Bell",
-      "Vincennes",
-      "IN"
     ],
     [
       "029655",
@@ -37022,6 +37121,15 @@
       "KY"
     ],
     [
+      "040007",
+      42.773823760985884,
+      -83.23956324725259,
+      30.99,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
+    ],
+    [
       "033309",
       42.71648404100356,
       -83.41300829315969,
@@ -43205,6 +43313,15 @@
       "OK"
     ],
     [
+      "039779",
+      36.072664,
+      -76.610732,
+      30.99,
+      "Taco Bell",
+      "Edenton",
+      "NC"
+    ],
+    [
       "040523",
       42.6893,
       -88.5422,
@@ -45056,6 +45173,15 @@
       31.49,
       "Taco Bell",
       "Corunna",
+      "MI"
+    ],
+    [
+      "042636",
+      42.96980078904264,
+      -85.64359773456188,
+      31.49,
+      "Taco Bell",
+      "Grand Rapids",
       "MI"
     ],
     [
@@ -58440,15 +58566,6 @@
       "Taco Bell",
       "Harmony",
       "PA"
-    ],
-    [
-      "041829",
-      40.284352,
-      -80.60844,
-      33.49,
-      "Taco Bell",
-      "Wellsburg",
-      "WV"
     ],
     [
       "041901",

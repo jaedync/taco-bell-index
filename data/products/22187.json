@@ -12,12 +12,12 @@
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 98.4,
   "price_stats": {
-    "avg": 22.42,
+    "avg": 22.41,
     "min": 17.09,
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.91,
-    "store_count": 7584
+    "store_count": 7588
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$17.99",
-      "count": 91
+      "count": 93
     },
     {
       "bucket": "$18.19",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 710
+      "count": 712
     },
     {
       "bucket": "$21.09",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1426
+      "count": 1425
     },
     {
       "bucket": "$22.29",
@@ -206,11 +206,11 @@
     },
     {
       "bucket": "$23.39",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$23.49",
-      "count": 744
+      "count": 745
     },
     {
       "bucket": "$23.50",
@@ -290,7 +290,7 @@
     },
     {
       "bucket": "$26.99",
-      "count": 81
+      "count": 80
     },
     {
       "bucket": "$27.49",
@@ -370,7 +370,7 @@
     {
       "state": "CA",
       "avg_price": 24.67,
-      "store_count": 829
+      "store_count": 828
     },
     {
       "state": "CT",
@@ -490,7 +490,7 @@
     {
       "state": "MI",
       "avg_price": 22.23,
-      "store_count": 344
+      "store_count": 345
     },
     {
       "state": "WI",
@@ -528,14 +528,14 @@
       "store_count": 134
     },
     {
-      "state": "SC",
-      "avg_price": 21.63,
-      "store_count": 115
+      "state": "TN",
+      "avg_price": 21.61,
+      "store_count": 254
     },
     {
-      "state": "TN",
+      "state": "SC",
       "avg_price": 21.6,
-      "store_count": 253
+      "store_count": 116
     },
     {
       "state": "NC",
@@ -570,7 +570,7 @@
     {
       "state": "TX",
       "avg_price": 21.1,
-      "store_count": 691
+      "store_count": 693
     },
     {
       "state": "KS",
@@ -584,18 +584,18 @@
     },
     {
       "state": "WV",
-      "avg_price": 20.59,
-      "store_count": 72
-    },
-    {
-      "state": "IN",
-      "avg_price": 20.54,
-      "store_count": 258
+      "avg_price": 20.57,
+      "store_count": 71
     },
     {
       "state": "WY",
       "avg_price": 20.54,
       "store_count": 11
+    },
+    {
+      "state": "IN",
+      "avg_price": 20.53,
+      "store_count": 259
     },
     {
       "state": "SD",
@@ -762,6 +762,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042730",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 17.99,
+      "observed_at": "2026-04-21T21:50:48.902507+00:00"
+    },
+    {
+      "store_number": "042636",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-04-21T21:50:37.678147+00:00"
+    },
+    {
+      "store_number": "035468",
+      "store_name": "Taco Bell",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 26.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:49:40.349662+00:00"
+    },
+    {
+      "store_number": "022950",
+      "store_name": "Taco Bell",
+      "city": "Levelland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-21T21:49:26.838395+00:00"
+    },
+    {
+      "store_number": "019718",
+      "store_name": "Taco Bell",
+      "city": "Lubbock",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-21T21:49:17.012235+00:00"
+    },
+    {
+      "store_number": "031787",
+      "store_name": "Taco Bell",
+      "city": "Cayce",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 17.99,
+      "observed_at": "2026-04-21T21:49:08.437690+00:00"
+    },
+    {
+      "store_number": "034436",
+      "store_name": "Taco Bell",
+      "city": "La Vergne",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.39,
+      "observed_at": "2026-04-21T21:48:54.351605+00:00"
+    },
+    {
+      "store_number": "041829",
+      "store_name": "Taco Bell",
+      "city": "Wellsburg",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-21T21:48:31.180627+00:00"
+    },
     {
       "store_number": "042636",
       "store_name": "Taco Bell",
@@ -2044,8 +2124,8 @@
     }
   ],
   "activity_summary": {
-    "added": 47,
-    "removed": 35,
+    "added": 53,
+    "removed": 37,
     "price_changed": 46,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2444,6 +2524,15 @@
       "Taco Bell",
       "Tyler",
       "TX"
+    ],
+    [
+      "031787",
+      33.98236316161826,
+      -81.06121256947517,
+      17.99,
+      "Taco Bell",
+      "Cayce",
+      "SC"
     ],
     [
       "028873",
@@ -3065,6 +3154,15 @@
       "Taco Bell",
       "West Columbia",
       "SC"
+    ],
+    [
+      "042730",
+      39.909981216234016,
+      -86.26569244595365,
+      17.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
     ],
     [
       "041738",
@@ -19078,6 +19176,24 @@
       "TX"
     ],
     [
+      "019718",
+      33.591900111887156,
+      -101.93862645360636,
+      20.99,
+      "Taco Bell",
+      "Lubbock",
+      "TX"
+    ],
+    [
+      "022950",
+      33.59441312818184,
+      -102.36150471260771,
+      20.99,
+      "Taco Bell",
+      "Levelland",
+      "TX"
+    ],
+    [
       "032093",
       43.47615914039065,
       -89.76932062651025,
@@ -21605,15 +21721,6 @@
       "Taco Bell",
       "Little Rock",
       "AR"
-    ],
-    [
-      "041829",
-      40.284352,
-      -80.60844,
-      21.99,
-      "Taco Bell",
-      "Wellsburg",
-      "WV"
     ],
     [
       "041207",
@@ -51865,6 +51972,15 @@
       "KY"
     ],
     [
+      "034436",
+      36.02089662405677,
+      -86.57775200438664,
+      23.39,
+      "Taco Bell",
+      "La Vergne",
+      "TN"
+    ],
+    [
       "034435",
       36.048386993882986,
       -86.6528788432482,
@@ -58090,6 +58206,15 @@
       23.49,
       "Taco Bell",
       "Adrian",
+      "MI"
+    ],
+    [
+      "042636",
+      42.96980078904264,
+      -85.64359773456188,
+      23.49,
+      "Taco Bell",
+      "Grand Rapids",
       "MI"
     ],
     [
@@ -68935,15 +69060,6 @@
       26.99,
       "Taco Bell",
       "Clovis",
-      "CA"
-    ],
-    [
-      "035468",
-      38.59415699744662,
-      -121.28754595254232,
-      26.99,
-      "Taco Bell",
-      "Rancho Cordova",
       "CA"
     ],
     [
