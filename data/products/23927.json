@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 46
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 46
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -48,6 +48,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "038871",
+      "name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "price": 5.49
+    },
     {
       "store_number": "041139",
       "name": "Taco Bell",
@@ -84,6 +91,13 @@
       "price": 5.49
     },
     {
+      "store_number": "040997",
+      "name": "Taco Bell",
+      "city": "Capac",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "034276",
       "name": "Taco Bell",
       "city": "Sandusky",
@@ -103,28 +117,16 @@
       "city": "Fraser",
       "state": "MI",
       "price": 5.49
-    },
-    {
-      "store_number": "001971",
-      "name": "Taco Bell",
-      "city": "Taylor",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
-      "store_number": "027668",
-      "name": "Taco Bell",
-      "city": "Rochester Hills",
-      "state": "MI",
-      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
+    "038871",
     "041139",
     "040613",
     "040463",
     "040760",
     "041745",
+    "040997",
     "034276",
     "042669",
     "037169",
@@ -136,7 +138,6 @@
     "040656",
     "033310",
     "021299",
-    "024745",
     "030700",
     "021342",
     "031393",
@@ -240,6 +241,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:03:30.834992+00:00"
+    },
+    {
+      "store_number": "040997",
+      "store_name": "Taco Bell",
+      "city": "Capac",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:03:02.319052+00:00"
+    },
+    {
+      "store_number": "038871",
+      "store_name": "Taco Bell",
+      "city": "Grosse Pointe",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:00:55.014554+00:00"
+    },
     {
       "store_number": "004530",
       "store_name": "Taco Bell",
@@ -1002,8 +1033,8 @@
     }
   ],
   "activity_summary": {
-    "added": 61,
-    "removed": 15,
+    "added": 63,
+    "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1025,6 +1056,15 @@
     }
   ],
   "map_data": [
+    [
+      "038871",
+      42.411818264438004,
+      -82.91333451525527,
+      5.49,
+      "Taco Bell",
+      "Grosse Pointe",
+      "MI"
+    ],
     [
       "041139",
       42.93682704288596,
@@ -1068,6 +1108,15 @@
       5.49,
       "Taco Bell",
       "Walled Lake",
+      "MI"
+    ],
+    [
+      "040997",
+      42.9908,
+      -82.9279,
+      5.49,
+      "Taco Bell",
+      "Capac",
       "MI"
     ],
     [
@@ -1167,15 +1216,6 @@
       5.49,
       "Taco Bell",
       "Eastpointe",
-      "MI"
-    ],
-    [
-      "024745",
-      42.21337151111523,
-      -83.5428901715295,
-      5.49,
-      "Taco Bell",
-      "Belleville",
       "MI"
     ],
     [

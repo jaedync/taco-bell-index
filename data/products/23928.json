@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.568905+00:00",
-  "availability_pct": 1.2,
+  "availability_pct": 1.3,
   "price_stats": {
     "avg": 5.49,
     "min": 5.49,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 91
+    "store_count": 97
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 91
+      "count": 97
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 91
+      "store_count": 97
     }
   ],
   "nutrition": {
@@ -84,6 +84,13 @@
       "price": 5.49
     },
     {
+      "store_number": "040315",
+      "name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "033376",
       "name": "Taco Bell",
       "city": "Roseville",
@@ -110,13 +117,6 @@
       "city": "White Lake",
       "state": "MI",
       "price": 5.49
-    },
-    {
-      "store_number": "033808",
-      "name": "Taco Bell",
-      "city": "Southgate",
-      "state": "MI",
-      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
@@ -125,6 +125,7 @@
     "039704",
     "041027",
     "040761",
+    "040315",
     "033376",
     "034814",
     "034817",
@@ -143,8 +144,10 @@
     "029978",
     "037842",
     "002260",
+    "027886",
     "001571",
     "024649",
+    "021292",
     "033313",
     "038975",
     "033308",
@@ -170,6 +173,8 @@
     "026084",
     "037841",
     "001557",
+    "003291",
+    "001469",
     "031302",
     "000867",
     "029258",
@@ -206,6 +211,7 @@
     "033309",
     "040007",
     "001661",
+    "003294",
     "039685",
     "033315",
     "031472",
@@ -249,6 +255,13 @@
       "price": 5.49
     },
     {
+      "store_number": "003294",
+      "name": "Taco Bell",
+      "city": "Dearborn",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "001661",
       "name": "Taco Bell",
       "city": "Dearborn Heights",
@@ -275,16 +288,69 @@
       "city": "Washington",
       "state": "MI",
       "price": 5.49
-    },
-    {
-      "store_number": "005228",
-      "name": "Taco Bell",
-      "city": "Ann Arbor",
-      "state": "MI",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003294",
+      "store_name": "Taco Bell",
+      "city": "Dearborn",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:03:40.178715+00:00"
+    },
+    {
+      "store_number": "003291",
+      "store_name": "Taco Bell",
+      "city": "Southfield",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:03:31.507846+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:03:31.385089+00:00"
+    },
+    {
+      "store_number": "021292",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:03:27.875462+00:00"
+    },
+    {
+      "store_number": "027886",
+      "store_name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:03:26.805849+00:00"
+    },
+    {
+      "store_number": "040315",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-22T21:02:59.740777+00:00"
+    },
     {
       "store_number": "003294",
       "store_name": "Taco Bell",
@@ -1797,7 +1863,7 @@
     }
   ],
   "activity_summary": {
-    "added": 121,
+    "added": 127,
     "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1863,6 +1929,15 @@
       5.49,
       "Taco Bell",
       "Taylor",
+      "MI"
+    ],
+    [
+      "040315",
+      42.298977471869904,
+      -83.72247008159732,
+      5.49,
+      "Taco Bell",
+      "Ann Arbor",
       "MI"
     ],
     [
@@ -2028,6 +2103,15 @@
       "MI"
     ],
     [
+      "027886",
+      42.24418764419035,
+      -83.59060935215439,
+      5.49,
+      "Taco Bell",
+      "Ypsilanti",
+      "MI"
+    ],
+    [
       "001571",
       42.36946992982259,
       -83.35313375294106,
@@ -2043,6 +2127,15 @@
       5.49,
       "Taco Bell",
       "Warren",
+      "MI"
+    ],
+    [
+      "021292",
+      42.215707493747495,
+      -83.18165165889548,
+      5.49,
+      "Taco Bell",
+      "Southgate",
       "MI"
     ],
     [
@@ -2268,6 +2361,24 @@
       5.49,
       "Taco Bell",
       "Woodhaven",
+      "MI"
+    ],
+    [
+      "003291",
+      42.45780303595873,
+      -83.27920005201568,
+      5.49,
+      "Taco Bell",
+      "Southfield",
+      "MI"
+    ],
+    [
+      "001469",
+      42.291758682661715,
+      -83.38639006018644,
+      5.49,
+      "Taco Bell",
+      "Westland",
       "MI"
     ],
     [
@@ -2592,6 +2703,15 @@
       5.49,
       "Taco Bell",
       "Dearborn Heights",
+      "MI"
+    ],
+    [
+      "003294",
+      42.34483992057749,
+      -83.15676929975423,
+      5.49,
+      "Taco Bell",
+      "Dearborn",
       "MI"
     ],
     [

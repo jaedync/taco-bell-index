@@ -18,12 +18,12 @@
     "max": 8.19,
     "median": 5.99,
     "std_dev": 0.24,
-    "store_count": 101
+    "store_count": 102
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 98
+      "count": 99
     },
     {
       "bucket": "$6.19",
@@ -42,7 +42,7 @@
     {
       "state": "FL",
       "avg_price": 6.02,
-      "store_count": 100
+      "store_count": 101
     }
   ],
   "nutrition": {
@@ -226,6 +226,7 @@
     "023291",
     "027977",
     "023300",
+    "034162",
     "034163",
     "042971",
     "032959",
@@ -282,6 +283,13 @@
       "price": 5.99
     },
     {
+      "store_number": "034162",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
       "store_number": "023300",
       "name": "Taco Bell",
       "city": "Palm Bay",
@@ -294,16 +302,19 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "023291",
-      "name": "Taco Bell",
-      "city": "Satellite Beach",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-22T21:07:21.287811+00:00"
+    },
     {
       "store_number": "034162",
       "store_name": "Taco Bell",
@@ -1326,7 +1337,7 @@
     }
   ],
   "activity_summary": {
-    "added": 100,
+    "added": 101,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2180,6 +2191,15 @@
       5.99,
       "Taco Bell",
       "Palm Bay",
+      "FL"
+    ],
+    [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [

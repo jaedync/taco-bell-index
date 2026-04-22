@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 43
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 43
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 43
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -56,9 +56,23 @@
       "price": 4.99
     },
     {
+      "store_number": "040315",
+      "name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "033376",
       "name": "Taco Bell",
       "city": "Roseville",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
+      "store_number": "034021",
+      "name": "Taco Bell",
+      "city": "White Lake",
       "state": "MI",
       "price": 4.99
     },
@@ -103,25 +117,13 @@
       "city": "Lincoln Park",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "001510",
-      "name": "Taco Bell",
-      "city": "Taylor",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "030367",
-      "name": "Taco Bell",
-      "city": "Mount Clemens",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "039704",
+    "040315",
     "033376",
+    "034021",
     "036234",
     "035098",
     "035629",
@@ -145,6 +147,7 @@
     "002029",
     "003527",
     "026084",
+    "001469",
     "000867",
     "029258",
     "003297",
@@ -154,6 +157,7 @@
     "019191",
     "027361",
     "024650",
+    "037839",
     "001732",
     "033314",
     "001591",
@@ -229,14 +233,54 @@
       "price": 4.99
     },
     {
-      "store_number": "024650",
+      "store_number": "037839",
       "name": "Taco Bell",
-      "city": "Clinton Township",
+      "city": "Ann Arbor",
       "state": "MI",
       "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-22T21:03:34.407761+00:00"
+    },
+    {
+      "store_number": "001469",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-22T21:03:31.385089+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-22T21:03:03.422870+00:00"
+    },
+    {
+      "store_number": "040315",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-22T21:02:59.740777+00:00"
+    },
     {
       "store_number": "001732",
       "store_name": "Taco Bell",
@@ -1009,7 +1053,7 @@
     }
   ],
   "activity_summary": {
-    "added": 60,
+    "added": 64,
     "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1029,12 +1073,30 @@
       "MI"
     ],
     [
+      "040315",
+      42.298977471869904,
+      -83.72247008159732,
+      4.99,
+      "Taco Bell",
+      "Ann Arbor",
+      "MI"
+    ],
+    [
       "033376",
       42.52531969809968,
       -82.90784267609217,
       4.99,
       "Taco Bell",
       "Roseville",
+      "MI"
+    ],
+    [
+      "034021",
+      42.614842963738916,
+      -83.44493113404984,
+      4.99,
+      "Taco Bell",
+      "White Lake",
       "MI"
     ],
     [
@@ -1245,6 +1307,15 @@
       "MI"
     ],
     [
+      "001469",
+      42.291758682661715,
+      -83.38639006018644,
+      4.99,
+      "Taco Bell",
+      "Westland",
+      "MI"
+    ],
+    [
       "000867",
       42.29831878358822,
       -83.2829037308693,
@@ -1323,6 +1394,15 @@
       4.99,
       "Taco Bell",
       "Clinton Township",
+      "MI"
+    ],
+    [
+      "037839",
+      42.23087868339839,
+      -83.73982473278835,
+      4.99,
+      "Taco Bell",
+      "Ann Arbor",
       "MI"
     ],
     [

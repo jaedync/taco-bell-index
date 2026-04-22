@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
-  "availability_pct": 0.8,
+  "availability_pct": 0.9,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 65
+    "store_count": 66
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 65
+      "count": 66
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 65
+      "store_count": 66
     }
   ],
   "nutrition": {
@@ -183,6 +183,7 @@
     "023297",
     "037822",
     "027977",
+    "034162",
     "032959",
     "038869"
   ],
@@ -198,6 +199,13 @@
       "store_number": "032959",
       "name": "Taco Bell",
       "city": "Ocoee",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "034162",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 10.99
     },
@@ -249,16 +257,19 @@
       "city": "Sanford",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "022588",
-      "name": "Taco Bell",
-      "city": "Deland",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034162",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-04-22T21:07:21.287811+00:00"
+    },
     {
       "store_number": "034162",
       "store_name": "Taco Bell",
@@ -951,7 +962,7 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
+    "added": 68,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1557,6 +1568,15 @@
       10.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "034162",
+      28.198881542033824,
+      -81.44054558680533,
+      10.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [

@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.7,
+  "availability_pct": 99.8,
   "price_stats": {
     "avg": 0.23,
     "min": 0.19,
     "max": 1.5,
     "median": 0.2,
     "std_dev": 0.07,
-    "store_count": 7685
+    "store_count": 7689
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 5464
+      "count": 5467
     },
     {
       "bucket": "$0.22",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 162
+      "count": 163
     },
     {
       "bucket": "$0.49",
@@ -110,7 +110,7 @@
     {
       "state": "WA",
       "avg_price": 0.33,
-      "store_count": 138
+      "store_count": 139
     },
     {
       "state": "AK",
@@ -130,7 +130,7 @@
     {
       "state": "KY",
       "avg_price": 0.29,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "MD",
@@ -200,7 +200,7 @@
     {
       "state": "FL",
       "avg_price": 0.23,
-      "store_count": 447
+      "store_count": 448
     },
     {
       "state": "TN",
@@ -230,7 +230,7 @@
     {
       "state": "CO",
       "avg_price": 0.22,
-      "store_count": 155
+      "store_count": 156
     },
     {
       "state": "NC",
@@ -245,7 +245,7 @@
     {
       "state": "WI",
       "avg_price": 0.22,
-      "store_count": 144
+      "store_count": 143
     },
     {
       "state": "OH",
@@ -290,7 +290,7 @@
     {
       "state": "MA",
       "avg_price": 0.2,
-      "store_count": 65
+      "store_count": 66
     },
     {
       "state": "AL",
@@ -300,7 +300,7 @@
     {
       "state": "MN",
       "avg_price": 0.2,
-      "store_count": 98
+      "store_count": 99
     },
     {
       "state": "ND",
@@ -325,7 +325,7 @@
     {
       "state": "RI",
       "avg_price": 0.2,
-      "store_count": 14
+      "store_count": 15
     },
     {
       "state": "OK",
@@ -521,6 +521,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033129",
+      "store_name": "Taco Bell",
+      "city": "Callahan",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-22T21:14:45.958829+00:00"
+    },
+    {
+      "store_number": "040879",
+      "store_name": "Taco Bell",
+      "city": "Providence",
+      "state": "RI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-22T21:07:21.145294+00:00"
+    },
+    {
+      "store_number": "004394",
+      "store_name": "Taco Bell",
+      "city": "Cold Spring",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:06:39.592375+00:00"
+    },
+    {
+      "store_number": "029270",
+      "store_name": "Taco Bell",
+      "city": "Danvers",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-22T21:05:56.665942+00:00"
+    },
+    {
+      "store_number": "031491",
+      "store_name": "Taco Bell",
+      "city": "Appleton",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:05:18.068457+00:00"
+    },
+    {
+      "store_number": "041190",
+      "store_name": "Taco Bell",
+      "city": "Durango",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-22T21:05:17.412689+00:00"
+    },
+    {
+      "store_number": "031324",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-04-22T21:03:57.131006+00:00"
+    },
+    {
+      "store_number": "040584",
+      "store_name": "Taco Bell",
+      "city": "Duluth",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-22T21:00:54.936880+00:00"
+    },
     {
       "store_number": "042730",
       "store_name": "Taco Bell",
@@ -2973,8 +3053,8 @@
     }
   ],
   "activity_summary": {
-    "added": 115,
-    "removed": 117,
+    "added": 121,
+    "removed": 119,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3117,6 +3197,15 @@
       "Taco Bell",
       "Windsor",
       "CO"
+    ],
+    [
+      "040584",
+      46.8046,
+      -92.0697,
+      0.2,
+      "Taco Bell",
+      "Duluth",
+      "MN"
     ],
     [
       "041054",
@@ -32927,6 +33016,15 @@
       "SC"
     ],
     [
+      "041190",
+      37.296222719761985,
+      -107.87236221137391,
+      0.2,
+      "Taco Bell",
+      "Durango",
+      "CO"
+    ],
+    [
       "039730",
       38.08227086740817,
       -78.93041655426714,
@@ -33060,15 +33158,6 @@
       "Taco Bell",
       "Torrance",
       "CA"
-    ],
-    [
-      "031491",
-      44.262356037439226,
-      -88.45056549293865,
-      0.2,
-      "Taco Bell",
-      "Appleton",
-      "WI"
     ],
     [
       "042851",
@@ -39146,6 +39235,15 @@
       "AR"
     ],
     [
+      "029270",
+      42.547937328652,
+      -70.94245353344377,
+      0.2,
+      "Taco Bell",
+      "Danvers",
+      "MA"
+    ],
+    [
       "042873",
       30.64416933181493,
       -81.4587006671718,
@@ -43536,15 +43634,6 @@
       "Taco Bell",
       "Woodbridge",
       "VA"
-    ],
-    [
-      "004394",
-      39.02791470313854,
-      -84.45141479372978,
-      0.2,
-      "Taco Bell",
-      "Cold Spring",
-      "KY"
     ],
     [
       "040054",
@@ -50171,6 +50260,15 @@
       "TX"
     ],
     [
+      "033129",
+      30.562329562313675,
+      -81.8287343028066,
+      0.2,
+      "Taco Bell",
+      "Callahan",
+      "FL"
+    ],
+    [
       "029040",
       36.00723428750276,
       -84.25627159505439,
@@ -51188,6 +51286,15 @@
       "TX"
     ],
     [
+      "040879",
+      41.791330097726195,
+      -71.40576016258296,
+      0.2,
+      "Taco Bell",
+      "Providence",
+      "RI"
+    ],
+    [
       "033483",
       40.54908351529529,
       -82.84651933910469,
@@ -51234,11 +51341,11 @@
     ],
     [
       "037294",
-      37.84665495402064,
-      -81.19557634130929,
+      37.8465104,
+      -81.1956838,
       0.2,
       "Taco Bell",
-      "Bradley",
+      "Mt. Hope",
       "WV"
     ],
     [
@@ -69060,6 +69167,15 @@
       "Taco Bell",
       "Orange",
       "CA"
+    ],
+    [
+      "031324",
+      47.18080199222686,
+      -122.48338832521767,
+      0.4,
+      "Taco Bell",
+      "Lakewood",
+      "WA"
     ],
     [
       "019505",

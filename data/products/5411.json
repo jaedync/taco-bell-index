@@ -17,7 +17,7 @@
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.03,
-    "store_count": 7520
+    "store_count": 7521
   },
   "histogram": [
     {
@@ -51,6 +51,10 @@
     {
       "bucket": "$0.75",
       "count": 141
+    },
+    {
+      "bucket": "$0.79",
+      "count": 1
     },
     {
       "bucket": "$0.80",
@@ -299,17 +303,17 @@
     {
       "state": "AL",
       "avg_price": 0.6,
-      "store_count": 160
+      "store_count": 161
     },
     {
       "state": "MI",
       "avg_price": 0.6,
-      "store_count": 191
+      "store_count": 190
     },
     {
       "state": "FL",
       "avg_price": 0.6,
-      "store_count": 449
+      "store_count": 450
     },
     {
       "state": "TX",
@@ -486,6 +490,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032105",
+      "store_name": "Taco Bell",
+      "city": "Dowagiac",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:07:01.476700+00:00"
+    },
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-22T21:04:24.497013+00:00"
+    },
+    {
+      "store_number": "035177",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-22T21:03:09.647402+00:00"
+    },
+    {
+      "store_number": "036291",
+      "store_name": "Taco Bell Cantina",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "change_type": "price_change",
+      "old_price": 0.6,
+      "new_price": 0.79,
+      "observed_at": "2026-04-22T21:03:05.766468+00:00"
+    },
     {
       "store_number": "042730",
       "store_name": "Taco Bell",
@@ -1889,7 +1933,7 @@
     {
       "store_number": "037294",
       "store_name": "Taco Bell",
-      "city": "Bradley",
+      "city": "Mt. Hope",
       "state": "WV",
       "change_type": "item_added",
       "old_price": null,
@@ -75818,9 +75862,9 @@
     }
   ],
   "activity_summary": {
-    "added": 7526,
-    "removed": 6,
-    "price_changed": 1,
+    "added": 7528,
+    "removed": 7,
+    "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -82030,15 +82074,6 @@
       "MN"
     ],
     [
-      "036291",
-      26.122362,
-      -80.105114,
-      0.6,
-      "Taco Bell Cantina",
-      "Fort Lauderdale",
-      "FL"
-    ],
-    [
       "035099",
       40.77032022551514,
       -89.65710542520044,
@@ -83351,6 +83386,15 @@
       "Taco Bell",
       "Florence",
       "AL"
+    ],
+    [
+      "035177",
+      28.034745821603277,
+      -80.63173264643589,
+      0.6,
+      "Taco Bell",
+      "Palm Bay",
+      "FL"
     ],
     [
       "036460",
@@ -134617,15 +134661,6 @@
       "MS"
     ],
     [
-      "032105",
-      41.984759,
-      -86.124384,
-      0.6,
-      "Taco Bell",
-      "Dowagiac",
-      "MI"
-    ],
-    [
       "039063",
       40.518234767283104,
       -74.49033940584286,
@@ -140540,11 +140575,11 @@
     ],
     [
       "037294",
-      37.84665495402064,
-      -81.19557634130929,
+      37.8465104,
+      -81.1956838,
       0.6,
       "Taco Bell",
-      "Bradley",
+      "Mt. Hope",
       "WV"
     ],
     [
@@ -141653,6 +141688,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "036372",
+      31.315457449306592,
+      -85.82937418366782,
+      0.6,
+      "Taco Bell",
+      "Enterprise",
+      "AL"
     ],
     [
       "038844",
@@ -143174,6 +143218,15 @@
       "Taco Bell",
       "Kaysville",
       "UT"
+    ],
+    [
+      "036291",
+      26.122362,
+      -80.105114,
+      0.79,
+      "Taco Bell Cantina",
+      "Fort Lauderdale",
+      "FL"
     ],
     [
       "019454",

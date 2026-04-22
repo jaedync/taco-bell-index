@@ -22,7 +22,7 @@
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 76
+      "count": 75
     },
     {
       "bucket": "$0.20",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 54
+      "count": 55
     },
     {
       "bucket": "$0.55",
@@ -103,7 +103,7 @@
     {
       "state": "AZ",
       "avg_price": 0.03,
-      "store_count": 16
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -259,7 +259,6 @@
     "032566",
     "020147",
     "022608",
-    "003541",
     "031732",
     "034199",
     "034201",
@@ -328,21 +327,61 @@
       "price": 0.55
     },
     {
-      "store_number": "030779",
+      "store_number": "030937",
       "name": "Taco Bell",
-      "city": "Tracy",
+      "city": "Pittsburg",
       "state": "CA",
       "price": 0.5
     },
     {
-      "store_number": "030789",
+      "store_number": "042779",
       "name": "Taco Bell",
-      "city": "San Jose",
-      "state": "CA",
+      "city": "Dripping Springs",
+      "state": "TX",
       "price": 0.5
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003541",
+      "store_name": "Taco Bell",
+      "city": "Payson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:07:05.832729+00:00"
+    },
+    {
+      "store_number": "030937",
+      "store_name": "Taco Bell",
+      "city": "Pittsburg",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-22T21:05:44.625367+00:00"
+    },
+    {
+      "store_number": "030789",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:04:31.690989+00:00"
+    },
+    {
+      "store_number": "042779",
+      "store_name": "Taco Bell",
+      "city": "Dripping Springs",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-22T21:03:15.976200+00:00"
+    },
     {
       "store_number": "032638",
       "store_name": "Taco Bell",
@@ -625,8 +664,8 @@
     }
   ],
   "activity_summary": {
-    "added": 10,
-    "removed": 18,
+    "added": 12,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1228,15 +1267,6 @@
       "Taco Bell",
       "Snohomish",
       "WA"
-    ],
-    [
-      "003541",
-      34.24108469000571,
-      -111.32181821158156,
-      0.0,
-      "Taco Bell",
-      "Payson",
-      "AZ"
     ],
     [
       "031732",
@@ -3075,21 +3105,30 @@
       "CA"
     ],
     [
-      "030789",
-      37.25353181538971,
-      -121.79807020727542,
-      0.5,
-      "Taco Bell",
-      "San Jose",
-      "CA"
-    ],
-    [
       "030779",
       37.753596799972364,
       -121.46893599632676,
       0.5,
       "Taco Bell",
       "Tracy",
+      "CA"
+    ],
+    [
+      "042779",
+      30.190318266608028,
+      -98.08528928834322,
+      0.5,
+      "Taco Bell",
+      "Dripping Springs",
+      "TX"
+    ],
+    [
+      "030937",
+      38.01035937499238,
+      -121.86935801805703,
+      0.5,
+      "Taco Bell",
+      "Pittsburg",
       "CA"
     ],
     [

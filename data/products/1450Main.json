@@ -26,7 +26,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 163
+      "count": 164
     },
     {
       "bucket": "$0.89",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$1.20",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 65
+      "count": 64
     },
     {
       "bucket": "$1.39",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 60
+      "count": 59
     },
     {
       "bucket": "$1.59",
@@ -116,6 +116,11 @@
       "store_count": 7
     },
     {
+      "state": "CO",
+      "avg_price": 1.75,
+      "store_count": 5
+    },
+    {
       "state": "MT",
       "avg_price": 1.65,
       "store_count": 10
@@ -133,7 +138,7 @@
     {
       "state": "CA",
       "avg_price": 1.35,
-      "store_count": 155
+      "store_count": 153
     },
     {
       "state": "MD",
@@ -148,7 +153,7 @@
     {
       "state": "NY",
       "avg_price": 1.21,
-      "store_count": 23
+      "store_count": 24
     },
     {
       "state": "KY",
@@ -379,6 +384,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031113",
+      "store_name": "Taco Bell",
+      "city": "Placerville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:06:53.687195+00:00"
+    },
+    {
+      "store_number": "030758",
+      "store_name": "Taco Bell",
+      "city": "San Mateo",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:05:51.671495+00:00"
+    },
+    {
+      "store_number": "039153",
+      "store_name": "Taco Bell",
+      "city": "Ogdensburg",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-04-22T21:03:25.652285+00:00"
+    },
+    {
+      "store_number": "035012",
+      "store_name": "Taco Bell",
+      "city": "Grand Junction",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-22T21:03:04.185295+00:00"
+    },
     {
       "store_number": "031338",
       "store_name": "Taco Bell",
@@ -1081,8 +1126,8 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
-    "removed": 42,
+    "added": 28,
+    "removed": 44,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2575,6 +2620,15 @@
       "Taco Bell",
       "Casper",
       "WY"
+    ],
+    [
+      "035012",
+      39.0769756198535,
+      -108.51603145048563,
+      0.79,
+      "Taco Bell",
+      "Grand Junction",
+      "CO"
     ],
     [
       "016462",
@@ -4467,6 +4521,15 @@
       "WI"
     ],
     [
+      "039153",
+      44.7056,
+      -75.459,
+      1.19,
+      "Taco Bell",
+      "Ogdensburg",
+      "NY"
+    ],
+    [
       "034924",
       42.19827424653977,
       -121.75775284203476,
@@ -4980,15 +5043,6 @@
       "CA"
     ],
     [
-      "031113",
-      38.73086797874962,
-      -120.78617110848427,
-      1.29,
-      "Taco Bell",
-      "Placerville",
-      "CA"
-    ],
-    [
       "037209",
       39.32290952668942,
       -120.2263168394893,
@@ -5436,15 +5490,6 @@
       1.49,
       "Taco Bell",
       "Pittsburg",
-      "CA"
-    ],
-    [
-      "030758",
-      37.548595757616624,
-      -122.30976422342981,
-      1.49,
-      "Taco Bell",
-      "San Mateo",
       "CA"
     ],
     [

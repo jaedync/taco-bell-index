@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 90.8,
+  "availability_pct": 90.9,
   "price_stats": {
     "avg": 0.97,
     "min": 0.3,
     "max": 2.19,
     "median": 1.0,
     "std_dev": 0.23,
-    "store_count": 7002
+    "store_count": 7004
   },
   "histogram": [
     {
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 178
+      "count": 179
     },
     {
       "bucket": "$0.79",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 256
+      "count": 257
     },
     {
       "bucket": "$0.85",
@@ -277,7 +277,7 @@
     {
       "state": "NC",
       "avg_price": 1.06,
-      "store_count": 262
+      "store_count": 263
     },
     {
       "state": "MA",
@@ -357,7 +357,7 @@
     {
       "state": "MD",
       "avg_price": 0.94,
-      "store_count": 89
+      "store_count": 90
     },
     {
       "state": "IL",
@@ -633,6 +633,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040340",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-22T21:07:15.343200+00:00"
+    },
+    {
+      "store_number": "039033",
+      "store_name": "Taco Bell",
+      "city": "Landover Hills",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-22T21:04:06.092781+00:00"
+    },
     {
       "store_number": "042730",
       "store_name": "Taco Bell",
@@ -7415,7 +7435,7 @@
     }
   ],
   "activity_summary": {
-    "added": 22,
+    "added": 24,
     "removed": 630,
     "price_changed": 26,
     "since": "2026-03-31T00:00:00+00:00"
@@ -18028,6 +18048,15 @@
       "NY"
     ],
     [
+      "039033",
+      38.949935494052674,
+      -76.88606777790483,
+      0.75,
+      "Taco Bell",
+      "Landover Hills",
+      "MD"
+    ],
+    [
       "040791",
       35.4272238,
       -78.06320459999999,
@@ -20753,6 +20782,15 @@
       "Taco Bell",
       "Canal Winchester",
       "OH"
+    ],
+    [
+      "040340",
+      35.6526055,
+      -78.35054180000002,
+      0.8,
+      "Taco Bell",
+      "Clayton",
+      "NC"
     ],
     [
       "040564",
@@ -32123,11 +32161,11 @@
     ],
     [
       "037294",
-      37.84665495402064,
-      -81.19557634130929,
+      37.8465104,
+      -81.1956838,
       0.9,
       "Taco Bell",
-      "Bradley",
+      "Mt. Hope",
       "WV"
     ],
     [

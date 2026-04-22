@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.2,
+  "availability_pct": 98.3,
   "price_stats": {
     "avg": 2.25,
     "min": 1.39,
     "max": 5.99,
     "median": 2.19,
     "std_dev": 0.42,
-    "store_count": 7573
+    "store_count": 7580
   },
   "histogram": [
     {
@@ -43,11 +43,11 @@
     },
     {
       "bucket": "$1.79",
-      "count": 550
+      "count": 519
     },
     {
       "bucket": "$1.89",
-      "count": 604
+      "count": 605
     },
     {
       "bucket": "$1.92",
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1269
+      "count": 1300
     },
     {
       "bucket": "$2.09",
@@ -87,7 +87,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 348
+      "count": 347
     },
     {
       "bucket": "$2.50",
@@ -99,15 +99,15 @@
     },
     {
       "bucket": "$2.59",
-      "count": 352
+      "count": 354
     },
     {
       "bucket": "$2.69",
-      "count": 537
+      "count": 538
     },
     {
       "bucket": "$2.79",
-      "count": 348
+      "count": 352
     },
     {
       "bucket": "$2.80",
@@ -139,11 +139,11 @@
     },
     {
       "bucket": "$2.99",
-      "count": 288
+      "count": 289
     },
     {
       "bucket": "$3.09",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$3.10",
@@ -195,7 +195,7 @@
     {
       "state": "NY",
       "avg_price": 2.66,
-      "store_count": 247
+      "store_count": 245
     },
     {
       "state": "DC",
@@ -205,7 +205,7 @@
     {
       "state": "NV",
       "avg_price": 2.59,
-      "store_count": 81
+      "store_count": 82
     },
     {
       "state": "MT",
@@ -223,14 +223,14 @@
       "store_count": 64
     },
     {
-      "state": "CA",
-      "avg_price": 2.48,
-      "store_count": 823
+      "state": "VA",
+      "avg_price": 2.49,
+      "store_count": 196
     },
     {
-      "state": "VA",
+      "state": "CA",
       "avg_price": 2.48,
-      "store_count": 190
+      "store_count": 824
     },
     {
       "state": "CT",
@@ -240,7 +240,7 @@
     {
       "state": "IL",
       "avg_price": 2.42,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "NJ",
@@ -358,6 +358,11 @@
       "store_count": 92
     },
     {
+      "state": "SC",
+      "avg_price": 2.13,
+      "store_count": 114
+    },
+    {
       "state": "CO",
       "avg_price": 2.11,
       "store_count": 149
@@ -368,19 +373,14 @@
       "store_count": 190
     },
     {
-      "state": "SC",
-      "avg_price": 2.1,
-      "store_count": 113
+      "state": "NC",
+      "avg_price": 2.08,
+      "store_count": 263
     },
     {
       "state": "KY",
       "avg_price": 2.08,
       "store_count": 151
-    },
-    {
-      "state": "NC",
-      "avg_price": 2.07,
-      "store_count": 262
     },
     {
       "state": "WI",
@@ -600,6 +600,466 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040515",
+      "store_name": "Taco Bell Cantina",
+      "city": "Arlington",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-04-22T21:07:24.585947+00:00"
+    },
+    {
+      "store_number": "040340",
+      "store_name": "Taco Bell",
+      "city": "Clayton",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-04-22T21:07:15.343200+00:00"
+    },
+    {
+      "store_number": "004841",
+      "store_name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-22T21:07:10.982347+00:00"
+    },
+    {
+      "store_number": "041589",
+      "store_name": "Taco Bell",
+      "city": "Mount Olive",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:07:10.350631+00:00"
+    },
+    {
+      "store_number": "031569",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:07:09.025866+00:00"
+    },
+    {
+      "store_number": "024769",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:07:07.375267+00:00"
+    },
+    {
+      "store_number": "024225",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:07:04.519388+00:00"
+    },
+    {
+      "store_number": "024232",
+      "store_name": "Taco Bell",
+      "city": "Tarboro",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:06:48.913278+00:00"
+    },
+    {
+      "store_number": "024222",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:06:48.571678+00:00"
+    },
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:06:47.260798+00:00"
+    },
+    {
+      "store_number": "024228",
+      "store_name": "Taco Bell",
+      "city": "Rocky Mount",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:06:31.297263+00:00"
+    },
+    {
+      "store_number": "027630",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:06:16.789363+00:00"
+    },
+    {
+      "store_number": "024231",
+      "store_name": "Taco Bell",
+      "city": "Roanoke Rapids",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:59.794164+00:00"
+    },
+    {
+      "store_number": "024772",
+      "store_name": "Taco Bell",
+      "city": "Wilson",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:57.441487+00:00"
+    },
+    {
+      "store_number": "026333",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:50.948297+00:00"
+    },
+    {
+      "store_number": "042956",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-04-22T21:05:50.418290+00:00"
+    },
+    {
+      "store_number": "027628",
+      "store_name": "Taco Bell",
+      "city": "Conway",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:39.863561+00:00"
+    },
+    {
+      "store_number": "024224",
+      "store_name": "Taco Bell",
+      "city": "Georgetown",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:31.665241+00:00"
+    },
+    {
+      "store_number": "024233",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:29.034694+00:00"
+    },
+    {
+      "store_number": "024218",
+      "store_name": "Taco Bell",
+      "city": "Rocky Mount",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:22.759295+00:00"
+    },
+    {
+      "store_number": "032682",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:22.013125+00:00"
+    },
+    {
+      "store_number": "024223",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:10.408861+00:00"
+    },
+    {
+      "store_number": "028363",
+      "store_name": "Taco Bell",
+      "city": "Wilson",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:05:00.818557+00:00"
+    },
+    {
+      "store_number": "024227",
+      "store_name": "Taco Bell",
+      "city": "Winterville",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:04:57.565965+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-22T21:04:41.923626+00:00"
+    },
+    {
+      "store_number": "024230",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:04:41.674722+00:00"
+    },
+    {
+      "store_number": "024229",
+      "store_name": "Taco Bell",
+      "city": "Nashville",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:04:41.550241+00:00"
+    },
+    {
+      "store_number": "032515",
+      "store_name": "Taco Bell",
+      "city": "Wilson",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:04:39.870844+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:04:38.303229+00:00"
+    },
+    {
+      "store_number": "004615",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-22T21:04:07.983166+00:00"
+    },
+    {
+      "store_number": "015564",
+      "store_name": "Taco Bell",
+      "city": "Falmouth",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-22T21:04:07.419848+00:00"
+    },
+    {
+      "store_number": "027629",
+      "store_name": "Taco Bell",
+      "city": "Hartsville",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:51.610312+00:00"
+    },
+    {
+      "store_number": "005142",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-22T21:03:48.497847+00:00"
+    },
+    {
+      "store_number": "040166",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:44.138009+00:00"
+    },
+    {
+      "store_number": "039148",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:41.838232+00:00"
+    },
+    {
+      "store_number": "003791",
+      "store_name": "Taco Bell",
+      "city": "Middleburg Heights",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:03:29.284663+00:00"
+    },
+    {
+      "store_number": "035355",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:26.879029+00:00"
+    },
+    {
+      "store_number": "037152",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:19.052294+00:00"
+    },
+    {
+      "store_number": "042248",
+      "store_name": "Taco Bell",
+      "city": "Murrells Inlet",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:16.331771+00:00"
+    },
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.09,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:03:15.866436+00:00"
+    },
+    {
+      "store_number": "036447",
+      "store_name": "Taco Bell",
+      "city": "North Myrtle Beach",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:03:10.813508+00:00"
+    },
+    {
+      "store_number": "035254",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-22T21:03:04.650695+00:00"
+    },
+    {
+      "store_number": "042286",
+      "store_name": "Taco Bell Ghost Kitchen",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-04-22T21:03:01.258933+00:00"
+    },
+    {
+      "store_number": "041696",
+      "store_name": "Taco Bell",
+      "city": "Longs",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:02:59.606487+00:00"
+    },
+    {
+      "store_number": "041695",
+      "store_name": "Taco Bell",
+      "city": "Greenville",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:02:58.265584+00:00"
+    },
+    {
+      "store_number": "040791",
+      "store_name": "Taco Bell",
+      "city": "Goldsboro",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.99,
+      "observed_at": "2026-04-22T21:00:55.267557+00:00"
+    },
     {
       "store_number": "042730",
       "store_name": "Taco Bell",
@@ -11942,9 +12402,9 @@
     }
   ],
   "activity_summary": {
-    "added": 132,
-    "removed": 98,
-    "price_changed": 904,
+    "added": 143,
+    "removed": 102,
+    "price_changed": 935,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 160,
@@ -18514,15 +18974,6 @@
       "MN"
     ],
     [
-      "040791",
-      35.4272238,
-      -78.06320459999999,
-      1.79,
-      "Taco Bell",
-      "Goldsboro",
-      "NC"
-    ],
-    [
       "040363",
       28.970832740244724,
       -95.36990257678279,
@@ -18595,15 +19046,6 @@
       "OH"
     ],
     [
-      "041695",
-      35.565405,
-      -77.36052,
-      1.79,
-      "Taco Bell",
-      "Greenville",
-      "NC"
-    ],
-    [
       "038891",
       40.24514323211095,
       -82.86654325885942,
@@ -18611,15 +19053,6 @@
       "Taco Bell",
       "Sunbury",
       "OH"
-    ],
-    [
-      "041696",
-      33.891988394171356,
-      -78.69326106322286,
-      1.79,
-      "Taco Bell",
-      "Longs",
-      "SC"
     ],
     [
       "041989",
@@ -18919,15 +19352,6 @@
       "WI"
     ],
     [
-      "036447",
-      33.83031435999646,
-      -78.67822448958397,
-      1.79,
-      "Taco Bell",
-      "North Myrtle Beach",
-      "SC"
-    ],
-    [
       "036710",
       30.11430881072389,
       -93.81934807122923,
@@ -19072,15 +19496,6 @@
       "MN"
     ],
     [
-      "042248",
-      33.59004,
-      -79.05669,
-      1.79,
-      "Taco Bell",
-      "Murrells Inlet",
-      "SC"
-    ],
-    [
       "041271",
       34.844198,
       -81.967871,
@@ -19124,15 +19539,6 @@
       "Taco Bell",
       "Stanford",
       "KY"
-    ],
-    [
-      "037152",
-      35.606775773674144,
-      -77.37497573617631,
-      1.79,
-      "Taco Bell",
-      "Greenville",
-      "NC"
     ],
     [
       "037344",
@@ -20098,15 +20504,6 @@
       "TX"
     ],
     [
-      "039148",
-      33.760006,
-      -78.8593208,
-      1.79,
-      "Taco Bell",
-      "Myrtle Beach",
-      "SC"
-    ],
-    [
       "035834",
       38.40499367870093,
       -78.8681715749459,
@@ -20159,15 +20556,6 @@
       "Taco Bell",
       "Beckley",
       "WV"
-    ],
-    [
-      "040166",
-      34.1970402,
-      -79.75813029999999,
-      1.79,
-      "Taco Bell",
-      "Florence",
-      "SC"
     ],
     [
       "023837",
@@ -20275,15 +20663,6 @@
       1.79,
       "Taco Bell",
       "Santee",
-      "SC"
-    ],
-    [
-      "027629",
-      34.36109796212622,
-      -80.06729719927534,
-      1.79,
-      "Taco Bell",
-      "Hartsville",
       "SC"
     ],
     [
@@ -20899,15 +21278,6 @@
       "WV"
     ],
     [
-      "032515",
-      35.76211255120971,
-      -77.9989948659204,
-      1.79,
-      "Taco Bell",
-      "Wilson",
-      "NC"
-    ],
-    [
       "004760",
       31.322602219104922,
       -89.3648954183027,
@@ -20989,15 +21359,6 @@
       "NE"
     ],
     [
-      "024229",
-      35.978147266980216,
-      -77.97354340553284,
-      1.79,
-      "Taco Bell",
-      "Nashville",
-      "NC"
-    ],
-    [
       "041800",
       34.06469727675827,
       -84.42325707593481,
@@ -21005,15 +21366,6 @@
       "Taco Bell",
       "Roswell",
       "GA"
-    ],
-    [
-      "024230",
-      33.683782293854335,
-      -78.99491250514984,
-      1.79,
-      "Taco Bell",
-      "Myrtle Beach",
-      "SC"
     ],
     [
       "005323",
@@ -21232,15 +21584,6 @@
       "NE"
     ],
     [
-      "024227",
-      35.55682228454388,
-      -77.4067654162809,
-      1.79,
-      "Taco Bell",
-      "Winterville",
-      "NC"
-    ],
-    [
       "035284",
       41.25932562746179,
       -95.97073674201965,
@@ -21266,15 +21609,6 @@
       "Taco Bell",
       "Quincy",
       "IL"
-    ],
-    [
-      "028363",
-      35.769575627019776,
-      -77.9394327921985,
-      1.79,
-      "Taco Bell",
-      "Wilson",
-      "NC"
     ],
     [
       "035749",
@@ -21383,15 +21717,6 @@
       "Taco Bell",
       "Dubuque",
       "IA"
-    ],
-    [
-      "024223",
-      35.58590212648486,
-      -77.37165592613565,
-      1.79,
-      "Taco Bell",
-      "Greenville",
-      "NC"
     ],
     [
       "041799",
@@ -21637,24 +21962,6 @@
       "KY"
     ],
     [
-      "032682",
-      34.18847879539225,
-      -79.83325141674868,
-      1.79,
-      "Taco Bell",
-      "Florence",
-      "SC"
-    ],
-    [
-      "024218",
-      35.96284120817342,
-      -77.83105105161667,
-      1.79,
-      "Taco Bell",
-      "Rocky Mount",
-      "NC"
-    ],
-    [
       "031956",
       42.71772422426119,
       -88.9899973584797,
@@ -21682,15 +21989,6 @@
       "WI"
     ],
     [
-      "024233",
-      35.37343438812406,
-      -77.9548408091614,
-      1.79,
-      "Taco Bell",
-      "Goldsboro",
-      "NC"
-    ],
-    [
       "038909",
       39.96829295416439,
       -82.00945414605485,
@@ -21698,15 +21996,6 @@
       "Taco Bell",
       "Zanesville",
       "OH"
-    ],
-    [
-      "024224",
-      33.366902823117194,
-      -79.27221728439618,
-      1.79,
-      "Taco Bell",
-      "Georgetown",
-      "SC"
     ],
     [
       "003652",
@@ -21779,15 +22068,6 @@
       "Taco Bell",
       "New Lexington",
       "OH"
-    ],
-    [
-      "027628",
-      33.85427690413558,
-      -79.07821655273438,
-      1.79,
-      "Taco Bell",
-      "Conway",
-      "SC"
     ],
     [
       "031984",
@@ -21979,15 +22259,6 @@
       "MN"
     ],
     [
-      "026333",
-      35.60673960606022,
-      -77.39645391219902,
-      1.79,
-      "Taco Bell",
-      "Greenville",
-      "NC"
-    ],
-    [
       "031595",
       38.02693198760465,
       -84.53359097242355,
@@ -22078,15 +22349,6 @@
       "NE"
     ],
     [
-      "024772",
-      35.71998153381376,
-      -77.94819192717293,
-      1.79,
-      "Taco Bell",
-      "Wilson",
-      "NC"
-    ],
-    [
       "016623",
       44.16632794176283,
       -93.95374998461193,
@@ -22094,15 +22356,6 @@
       "Taco Bell",
       "Mankato",
       "MN"
-    ],
-    [
-      "024231",
-      36.43195656682392,
-      -77.63415171772061,
-      1.79,
-      "Taco Bell",
-      "Roanoke Rapids",
-      "NC"
     ],
     [
       "037470",
@@ -22256,15 +22509,6 @@
       "Taco Bell",
       "Janesville",
       "WI"
-    ],
-    [
-      "027630",
-      34.163084235618285,
-      -79.76507038220915,
-      1.79,
-      "Taco Bell",
-      "Florence",
-      "SC"
     ],
     [
       "030073",
@@ -22456,15 +22700,6 @@
       "MN"
     ],
     [
-      "024228",
-      35.97917693272463,
-      -77.80800717163315,
-      1.79,
-      "Taco Bell",
-      "Rocky Mount",
-      "NC"
-    ],
-    [
       "003929",
       44.74547603303934,
       -93.27816775478041,
@@ -22627,15 +22862,6 @@
       "OH"
     ],
     [
-      "024222",
-      33.697474108369384,
-      -78.87839560212342,
-      1.79,
-      "Taco Bell",
-      "Myrtle Beach",
-      "SC"
-    ],
-    [
       "005180",
       45.2082322566646,
       -93.35715472698212,
@@ -22643,15 +22869,6 @@
       "Taco Bell",
       "Coon Rapids",
       "MN"
-    ],
-    [
-      "024232",
-      35.900822458438306,
-      -77.56159161916003,
-      1.79,
-      "Taco Bell",
-      "Tarboro",
-      "NC"
     ],
     [
       "032402",
@@ -22843,15 +23060,6 @@
       "TX"
     ],
     [
-      "024225",
-      35.39761888756748,
-      -77.96802284630108,
-      1.79,
-      "Taco Bell",
-      "Goldsboro",
-      "NC"
-    ],
-    [
       "031441",
       37.80080486458378,
       -81.17916405200958,
@@ -22951,15 +23159,6 @@
       "OH"
     ],
     [
-      "024769",
-      33.641046493504334,
-      -78.9892610907554,
-      1.79,
-      "Taco Bell",
-      "Myrtle Beach",
-      "SC"
-    ],
-    [
       "004513",
       45.165237247405386,
       -93.26571294725511,
@@ -22967,15 +23166,6 @@
       "Taco Bell",
       "Blaine",
       "MN"
-    ],
-    [
-      "031569",
-      33.753597971429095,
-      -78.96264781059472,
-      1.79,
-      "Taco Bell",
-      "Myrtle Beach",
-      "SC"
     ],
     [
       "029904",
@@ -23012,15 +23202,6 @@
       "Taco Bell",
       "Duluth",
       "MN"
-    ],
-    [
-      "041589",
-      35.21204532859152,
-      -78.06467544643623,
-      1.79,
-      "Taco Bell",
-      "Mount Olive",
-      "NC"
     ],
     [
       "004495",
@@ -23267,11 +23448,11 @@
     ],
     [
       "037294",
-      37.84665495402064,
-      -81.19557634130929,
+      37.8465104,
+      -81.1956838,
       1.79,
       "Taco Bell",
-      "Bradley",
+      "Mt. Hope",
       "WV"
     ],
     [
@@ -28549,6 +28730,15 @@
       "TX"
     ],
     [
+      "040340",
+      35.6526055,
+      -78.35054180000002,
+      1.89,
+      "Taco Bell",
+      "Clayton",
+      "NC"
+    ],
+    [
       "040369",
       42.3447596141,
       -85.2325636551,
@@ -28891,6 +29081,15 @@
       "CO"
     ],
     [
+      "040791",
+      35.4272238,
+      -78.06320459999999,
+      1.99,
+      "Taco Bell",
+      "Goldsboro",
+      "NC"
+    ],
+    [
       "037080",
       40.8424758502,
       -79.9187118921,
@@ -29098,6 +29297,15 @@
       "AL"
     ],
     [
+      "041695",
+      35.565405,
+      -77.36052,
+      1.99,
+      "Taco Bell",
+      "Greenville",
+      "NC"
+    ],
+    [
       "041069",
       33.0399,
       -112.019,
@@ -29186,6 +29394,15 @@
       "Taco Bell",
       "Grand Island",
       "NY"
+    ],
+    [
+      "041696",
+      33.891988394171356,
+      -78.69326106322286,
+      1.99,
+      "Taco Bell",
+      "Longs",
+      "SC"
     ],
     [
       "041855",
@@ -30043,6 +30260,15 @@
       "OH"
     ],
     [
+      "036447",
+      33.83031435999646,
+      -78.67822448958397,
+      1.99,
+      "Taco Bell",
+      "North Myrtle Beach",
+      "SC"
+    ],
+    [
       "036443",
       41.28587384199368,
       -81.1003614214611,
@@ -30268,6 +30494,15 @@
       "IL"
     ],
     [
+      "042248",
+      33.59004,
+      -79.05669,
+      1.99,
+      "Taco Bell",
+      "Murrells Inlet",
+      "SC"
+    ],
+    [
       "042105",
       35.741667,
       -78.917378,
@@ -30401,6 +30636,15 @@
       "Taco Bell",
       "Ellenwood",
       "GA"
+    ],
+    [
+      "037152",
+      35.606775773674144,
+      -77.37497573617631,
+      1.99,
+      "Taco Bell",
+      "Greenville",
+      "NC"
     ],
     [
       "037087",
@@ -30862,6 +31106,15 @@
       "OH"
     ],
     [
+      "035355",
+      41.464593285988514,
+      -81.7617518408315,
+      1.99,
+      "Taco Bell",
+      "Cleveland",
+      "OH"
+    ],
+    [
       "017264",
       41.3611977277133,
       -81.68553644061988,
@@ -31012,15 +31265,6 @@
       1.99,
       "Taco Bell / Long John Silver's",
       "North Canton",
-      "OH"
-    ],
-    [
-      "003791",
-      41.371406971460715,
-      -81.82330661718325,
-      1.99,
-      "Taco Bell",
-      "Middleburg Heights",
       "OH"
     ],
     [
@@ -31474,6 +31718,15 @@
       "MN"
     ],
     [
+      "039148",
+      33.760006,
+      -78.8593208,
+      1.99,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
       "039606",
       36.061317616050964,
       -79.96220308351343,
@@ -31535,6 +31788,15 @@
       "Taco Bell",
       "Marysville",
       "OH"
+    ],
+    [
+      "040166",
+      34.1970402,
+      -79.75813029999999,
+      1.99,
+      "Taco Bell",
+      "Florence",
+      "SC"
     ],
     [
       "029649",
@@ -31841,6 +32103,15 @@
       "Taco Bell",
       "Nampa",
       "ID"
+    ],
+    [
+      "027629",
+      34.36109796212622,
+      -80.06729719927534,
+      1.99,
+      "Taco Bell",
+      "Hartsville",
+      "SC"
     ],
     [
       "036280",
@@ -33913,6 +34184,15 @@
       "OH"
     ],
     [
+      "032515",
+      35.76211255120971,
+      -77.9989948659204,
+      1.99,
+      "Taco Bell",
+      "Wilson",
+      "NC"
+    ],
+    [
       "042296",
       33.95061464534998,
       -78.04995904533578,
@@ -34019,6 +34299,24 @@
       "Taco Bell",
       "Warren",
       "OH"
+    ],
+    [
+      "024229",
+      35.978147266980216,
+      -77.97354340553284,
+      1.99,
+      "Taco Bell",
+      "Nashville",
+      "NC"
+    ],
+    [
+      "024230",
+      33.683782293854335,
+      -78.99491250514984,
+      1.99,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
     ],
     [
       "030554",
@@ -34633,6 +34931,15 @@
       "CA"
     ],
     [
+      "024227",
+      35.55682228454388,
+      -77.4067654162809,
+      1.99,
+      "Taco Bell",
+      "Winterville",
+      "NC"
+    ],
+    [
       "031622",
       40.27220376961039,
       -80.12681007385254,
@@ -34693,6 +35000,15 @@
       1.99,
       "Taco Bell",
       "Greensboro",
+      "NC"
+    ],
+    [
+      "028363",
+      35.769575627019776,
+      -77.9394327921985,
+      1.99,
+      "Taco Bell",
+      "Wilson",
       "NC"
     ],
     [
@@ -35090,6 +35406,15 @@
       "Taco Bell",
       "Toledo",
       "OH"
+    ],
+    [
+      "024223",
+      35.58590212648486,
+      -77.37165592613565,
+      1.99,
+      "Taco Bell",
+      "Greenville",
+      "NC"
     ],
     [
       "032307",
@@ -35875,6 +36200,15 @@
       "OH"
     ],
     [
+      "032682",
+      34.18847879539225,
+      -79.83325141674868,
+      1.99,
+      "Taco Bell",
+      "Florence",
+      "SC"
+    ],
+    [
       "041627",
       33.407698687348315,
       -111.77318264545647,
@@ -35882,6 +36216,15 @@
       "Taco Bell",
       "Mesa",
       "AZ"
+    ],
+    [
+      "024218",
+      35.96284120817342,
+      -77.83105105161667,
+      1.99,
+      "Taco Bell",
+      "Rocky Mount",
+      "NC"
     ],
     [
       "031618",
@@ -36091,6 +36434,15 @@
       "OH"
     ],
     [
+      "024233",
+      35.37343438812406,
+      -77.9548408091614,
+      1.99,
+      "Taco Bell",
+      "Goldsboro",
+      "NC"
+    ],
+    [
       "029475",
       41.411357775931805,
       -80.35748916870944,
@@ -36143,6 +36495,15 @@
       "Taco Bell",
       "Clearwater",
       "FL"
+    ],
+    [
+      "024224",
+      33.366902823117194,
+      -79.27221728439618,
+      1.99,
+      "Taco Bell",
+      "Georgetown",
+      "SC"
     ],
     [
       "031619",
@@ -36386,6 +36747,15 @@
       "Taco Bell",
       "Springfield",
       "IL"
+    ],
+    [
+      "027628",
+      33.85427690413558,
+      -79.07821655273438,
+      1.99,
+      "Taco Bell",
+      "Conway",
+      "SC"
     ],
     [
       "029992",
@@ -36991,6 +37361,15 @@
       "CT"
     ],
     [
+      "026333",
+      35.60673960606022,
+      -77.39645391219902,
+      1.99,
+      "Taco Bell",
+      "Greenville",
+      "NC"
+    ],
+    [
       "004685",
       39.818315573237214,
       -88.87881763284895,
@@ -37225,6 +37604,15 @@
       "NC"
     ],
     [
+      "024772",
+      35.71998153381376,
+      -77.94819192717293,
+      1.99,
+      "Taco Bell",
+      "Wilson",
+      "NC"
+    ],
+    [
       "032489",
       41.35682569742937,
       -86.3117989897728,
@@ -37286,6 +37674,15 @@
       "Taco Bell",
       "Valparaiso",
       "IN"
+    ],
+    [
+      "024231",
+      36.43195656682392,
+      -77.63415171772061,
+      1.99,
+      "Taco Bell",
+      "Roanoke Rapids",
+      "NC"
     ],
     [
       "026849",
@@ -37684,6 +38081,15 @@
       "IN"
     ],
     [
+      "027630",
+      34.163084235618285,
+      -79.76507038220915,
+      1.99,
+      "Taco Bell",
+      "Florence",
+      "SC"
+    ],
+    [
       "017415",
       35.00966699999999,
       -106.06256782209016,
@@ -38024,6 +38430,15 @@
       "Taco Bell",
       "Linton",
       "IN"
+    ],
+    [
+      "024228",
+      35.97917693272463,
+      -77.80800717163315,
+      1.99,
+      "Taco Bell",
+      "Rocky Mount",
+      "NC"
     ],
     [
       "019213",
@@ -38395,6 +38810,15 @@
       "IL"
     ],
     [
+      "024222",
+      33.697474108369384,
+      -78.87839560212342,
+      1.99,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
       "020519",
       39.748805332402526,
       -92.4676488809763,
@@ -38420,6 +38844,15 @@
       "Taco Bell",
       "Altoona",
       "PA"
+    ],
+    [
+      "024232",
+      35.900822458438306,
+      -77.56159161916003,
+      1.99,
+      "Taco Bell",
+      "Tarboro",
+      "NC"
     ],
     [
       "039728",
@@ -39079,6 +39512,15 @@
       "IN"
     ],
     [
+      "024225",
+      35.39761888756748,
+      -77.96802284630108,
+      1.99,
+      "Taco Bell",
+      "Goldsboro",
+      "NC"
+    ],
+    [
       "005173",
       41.462438209716424,
       -84.55140197836019,
@@ -39178,6 +39620,15 @@
       "FL"
     ],
     [
+      "024769",
+      33.641046493504334,
+      -78.9892610907554,
+      1.99,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
       "029629",
       38.52939462220783,
       -89.15126486680492,
@@ -39250,6 +39701,15 @@
       "NC"
     ],
     [
+      "031569",
+      33.753597971429095,
+      -78.96264781059472,
+      1.99,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
+    ],
+    [
       "030547",
       35.06604338960496,
       -78.89825105667114,
@@ -39275,6 +39735,15 @@
       "Taco Bell",
       "Flowood",
       "MS"
+    ],
+    [
+      "041589",
+      35.21204532859152,
+      -78.06467544643623,
+      1.99,
+      "Taco Bell",
+      "Mount Olive",
+      "NC"
     ],
     [
       "002763",
@@ -61894,15 +62363,6 @@
       "NJ"
     ],
     [
-      "039054",
-      41.20042753359659,
-      -73.98381442578278,
-      2.49,
-      "Taco Bell",
-      "West Haverstraw",
-      "NY"
-    ],
-    [
       "038950",
       47.307581122312314,
       -119.56167429685593,
@@ -62593,6 +63053,15 @@
       2.59,
       "Taco Bell",
       "Reno",
+      "NV"
+    ],
+    [
+      "042286",
+      36.14827487178664,
+      -115.16133490516171,
+      2.59,
+      "Taco Bell Ghost Kitchen",
+      "Las Vegas",
       "NV"
     ],
     [
@@ -65582,6 +66051,15 @@
       "Taco Bell",
       "Irvington",
       "NJ"
+    ],
+    [
+      "040515",
+      38.89210337025643,
+      -77.08379329828544,
+      2.59,
+      "Taco Bell Cantina",
+      "Arlington",
+      "VA"
     ],
     [
       "034228",
@@ -70435,6 +70913,15 @@
       "MI"
     ],
     [
+      "042956",
+      34.83230936453779,
+      -82.40463964646551,
+      2.69,
+      "Taco Bell",
+      "Greenville",
+      "SC"
+    ],
+    [
       "035849",
       35.28099848891901,
       -119.03144615249516,
@@ -71908,15 +72395,6 @@
       2.79,
       "Taco Bell",
       "Minooka",
-      "IL"
-    ],
-    [
-      "030404",
-      41.882211,
-      -87.640594,
-      2.79,
-      "Taco Bell",
-      "Chicago",
       "IL"
     ],
     [
@@ -73565,6 +74043,51 @@
       "Taco Bell",
       "North Chicago",
       "IL"
+    ],
+    [
+      "035254",
+      36.857416457288636,
+      -75.97905047405696,
+      2.79,
+      "Taco Bell",
+      "Virginia Beach",
+      "VA"
+    ],
+    [
+      "005142",
+      37.638984559459466,
+      -77.55479217322318,
+      2.79,
+      "Taco Bell",
+      "Richmond",
+      "VA"
+    ],
+    [
+      "015564",
+      38.35167759470685,
+      -77.50545359687288,
+      2.79,
+      "Taco Bell",
+      "Falmouth",
+      "VA"
+    ],
+    [
+      "004615",
+      37.59094,
+      -77.50532,
+      2.79,
+      "Taco Bell",
+      "Richmond",
+      "VA"
+    ],
+    [
+      "004841",
+      37.44167349282958,
+      -77.58543848991394,
+      2.79,
+      "Taco Bell",
+      "Midlothian",
+      "VA"
     ],
     [
       "038830",
@@ -76627,6 +77150,15 @@
       "VA"
     ],
     [
+      "030785",
+      37.64683879461168,
+      -122.42873983838048,
+      2.99,
+      "Taco Bell",
+      "South San Francisco",
+      "CA"
+    ],
+    [
       "032535",
       36.3263934023412,
       -119.2112783411045,
@@ -78226,15 +78758,6 @@
       3.09,
       "Taco Bell / Pizza Hut",
       "Jamaica",
-      "NY"
-    ],
-    [
-      "041334",
-      40.69229211177486,
-      -73.99141198374691,
-      3.09,
-      "Taco Bell",
-      "Brooklyn",
       "NY"
     ],
     [

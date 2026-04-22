@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7074
+    "store_count": 7078
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5236
+      "count": 5239
     },
     {
       "bucket": "$4.19",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 535
+      "count": 536
     },
     {
       "bucket": "$8.00",
@@ -192,8 +192,8 @@
     },
     {
       "state": "AZ",
-      "avg_price": 5.24,
-      "store_count": 171
+      "avg_price": 5.26,
+      "store_count": 172
     },
     {
       "state": "NC",
@@ -328,7 +328,7 @@
     {
       "state": "VA",
       "avg_price": 4.03,
-      "store_count": 178
+      "store_count": 181
     },
     {
       "state": "NE",
@@ -5246,7 +5246,6 @@
     "033284",
     "024357",
     "023404",
-    "040055",
     "029553",
     "024056",
     "032981",
@@ -5725,7 +5724,11 @@
     "033437",
     "042069",
     "040713",
-    "042730"
+    "042730",
+    "034782",
+    "035065",
+    "039033",
+    "015564"
   ],
   "priciest_stores": [
     {
@@ -5800,6 +5803,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040055",
+      "store_name": "Taco Bell",
+      "city": "Beltsville",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-22T21:07:06.862493+00:00"
+    },
+    {
+      "store_number": "037536",
+      "store_name": "Taco Bell",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-22T21:06:52.992098+00:00"
+    },
+    {
+      "store_number": "015564",
+      "store_name": "Taco Bell",
+      "city": "Falmouth",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-22T21:04:07.419848+00:00"
+    },
+    {
+      "store_number": "039033",
+      "store_name": "Taco Bell",
+      "city": "Landover Hills",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-22T21:04:06.092781+00:00"
+    },
+    {
+      "store_number": "035065",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-22T21:03:04.111159+00:00"
+    },
+    {
+      "store_number": "034782",
+      "store_name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-22T21:03:02.466694+00:00"
+    },
     {
       "store_number": "042730",
       "store_name": "Taco Bell",
@@ -6792,8 +6855,8 @@
     }
   ],
   "activity_summary": {
-    "added": 37,
-    "removed": 49,
+    "added": 42,
+    "removed": 50,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -49632,15 +49695,6 @@
       "IL"
     ],
     [
-      "040055",
-      39.032229117011866,
-      -76.91209048630571,
-      4.0,
-      "Taco Bell",
-      "Beltsville",
-      "MD"
-    ],
-    [
       "029553",
       39.78577836673965,
       -77.71143060615157,
@@ -52981,11 +53035,11 @@
     ],
     [
       "037294",
-      37.84665495402064,
-      -81.19557634130929,
+      37.8465104,
+      -81.1956838,
       4.0,
       "Taco Bell",
-      "Bradley",
+      "Mt. Hope",
       "WV"
     ],
     [
@@ -53950,6 +54004,42 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "034782",
+      37.50260022333808,
+      -77.62832959522248,
+      4.0,
+      "Taco Bell",
+      "Midlothian",
+      "VA"
+    ],
+    [
+      "035065",
+      37.59796781919184,
+      -77.619899277005,
+      4.0,
+      "Taco Bell",
+      "Richmond",
+      "VA"
+    ],
+    [
+      "039033",
+      38.949935494052674,
+      -76.88606777790483,
+      4.0,
+      "Taco Bell",
+      "Landover Hills",
+      "MD"
+    ],
+    [
+      "015564",
+      38.35167759470685,
+      -77.50545359687288,
+      4.0,
+      "Taco Bell",
+      "Falmouth",
+      "VA"
     ],
     [
       "040310",
@@ -68944,6 +69034,15 @@
       "Taco Bell",
       "Sunrise",
       "FL"
+    ],
+    [
+      "037536",
+      35.188244384869,
+      -111.66192770004272,
+      7.99,
+      "Taco Bell",
+      "Flagstaff",
+      "AZ"
     ],
     [
       "037552",

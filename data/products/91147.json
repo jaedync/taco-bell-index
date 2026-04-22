@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.4,
   "price_stats": {
     "avg": 10.13,
     "min": 9.99,
     "max": 11.49,
     "median": 9.99,
     "std_dev": 0.35,
-    "store_count": 489
+    "store_count": 490
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 424
+      "count": 425
     },
     {
       "bucket": "$10.99",
@@ -58,7 +58,7 @@
     {
       "state": "AL",
       "avg_price": 9.99,
-      "store_count": 120
+      "store_count": 121
     }
   ],
   "nutrition": {
@@ -571,7 +571,8 @@
     "040900",
     "037214",
     "034026",
-    "041105"
+    "041105",
+    "036372"
   ],
   "priciest_stores": [
     {
@@ -646,6 +647,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036372",
+      "store_name": "Taco Bell",
+      "city": "Enterprise",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-04-22T21:04:24.497013+00:00"
+    },
     {
       "store_number": "041212",
       "store_name": "Taco Bell",
@@ -8458,7 +8469,7 @@
     }
   ],
   "activity_summary": {
-    "added": 635,
+    "added": 636,
     "removed": 146,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -12308,6 +12319,15 @@
       "Taco Bell",
       "Jefferson",
       "GA"
+    ],
+    [
+      "036372",
+      31.315457449306592,
+      -85.82937418366782,
+      9.99,
+      "Taco Bell",
+      "Enterprise",
+      "AL"
     ],
     [
       "041488",
