@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7668
+    "store_count": 7666
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7668
+      "count": 7666
     }
   ],
   "state_prices": [
@@ -104,12 +104,12 @@
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 248
+      "store_count": 249
     },
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 86
+      "store_count": 87
     },
     {
       "state": "NM",
@@ -154,7 +154,7 @@
     {
       "state": "MO",
       "avg_price": 0.0,
-      "store_count": 225
+      "store_count": 224
     },
     {
       "state": "MN",
@@ -199,7 +199,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "IL",
@@ -254,7 +254,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 837
+      "store_count": 836
     },
     {
       "state": "AZ",
@@ -264,7 +264,7 @@
     {
       "state": "AR",
       "avg_price": 0.0,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "AL",
@@ -1600,7 +1600,6 @@
     "039994",
     "037523",
     "039114",
-    "037215",
     "037744",
     "036165",
     "039783",
@@ -3660,7 +3659,6 @@
     "034414",
     "042887",
     "005670",
-    "041347",
     "035315",
     "000086",
     "042944",
@@ -3703,7 +3701,6 @@
     "026073",
     "031870",
     "016043",
-    "028905",
     "019718",
     "031432",
     "018574",
@@ -3911,7 +3908,6 @@
     "033038",
     "031488",
     "016289",
-    "009571",
     "039077",
     "024280",
     "016605",
@@ -6833,6 +6829,7 @@
     "041603",
     "028003",
     "025444",
+    "039054",
     "038898",
     "002700",
     "032995",
@@ -8031,9 +8028,17 @@
     "037058",
     "042069",
     "040713",
-    "042730"
+    "042730",
+    "036523"
   ],
   "priciest_stores": [
+    {
+      "store_number": "036523",
+      "name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "price": 0.0
+    },
     {
       "store_number": "042730",
       "name": "Taco Bell",
@@ -8096,16 +8101,49 @@
       "city": "San Antonio",
       "state": "FL",
       "price": 0.0
-    },
-    {
-      "store_number": "034661",
-      "name": "Taco Bell",
-      "city": "Louisville",
-      "state": "KY",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:59:05.219313+00:00"
+    },
+    {
+      "store_number": "041347",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:29.419037+00:00"
+    },
+    {
+      "store_number": "037215",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:51:10.881119+00:00"
+    },
+    {
+      "store_number": "036523",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:50:33.626355+00:00"
+    },
     {
       "store_number": "040445",
       "store_name": "Taco Bell",
@@ -8978,8 +9016,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 51,
+    "added": 38,
+    "removed": 53,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20111,15 +20149,6 @@
       "Taco Bell",
       "Linden",
       "NJ"
-    ],
-    [
-      "037215",
-      38.953427857480506,
-      -94.52352726163319,
-      0.0,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
     ],
     [
       "037744",
@@ -38653,15 +38682,6 @@
       "HI"
     ],
     [
-      "041347",
-      38.51941695394591,
-      -121.4396605472374,
-      0.0,
-      "Taco Bell",
-      "Sacramento",
-      "CA"
-    ],
-    [
       "035315",
       47.6720975462472,
       -122.37581714987755,
@@ -39038,15 +39058,6 @@
       "Taco Bell",
       "Bucyrus",
       "OH"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      0.0,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "019718",
@@ -40910,15 +40921,6 @@
       "Taco Bell",
       "College Park",
       "GA"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      0.0,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "039077",
@@ -67210,6 +67212,15 @@
       "AR"
     ],
     [
+      "039054",
+      41.20042753359659,
+      -73.98381442578278,
+      0.0,
+      "Taco Bell",
+      "West Haverstraw",
+      "NY"
+    ],
+    [
       "038898",
       40.58067528388567,
       -83.09465841273777,
@@ -77999,6 +78010,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "036523",
+      36.17972182498449,
+      -115.17859928477014,
+      0.0,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
     ]
   ]
 }

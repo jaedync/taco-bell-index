@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 47
+    "store_count": 46
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 47
+      "count": 46
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 47
+      "store_count": 46
     }
   ],
   "nutrition": {
@@ -91,9 +91,9 @@
       "price": 4.99
     },
     {
-      "store_number": "035629",
+      "store_number": "035304",
       "name": "Taco Bell",
-      "city": "Plymouth",
+      "city": "Shelby Township",
       "state": "MI",
       "price": 4.99
     },
@@ -126,7 +126,7 @@
     "034021",
     "036234",
     "035098",
-    "035629",
+    "035304",
     "041828",
     "035306",
     "037663",
@@ -140,7 +140,6 @@
     "004014",
     "020212",
     "002837",
-    "001795",
     "016415",
     "002937",
     "004986",
@@ -158,11 +157,11 @@
     "027361",
     "024650",
     "037839",
-    "001732",
     "033314",
     "001591",
     "039686",
     "033309",
+    "032514",
     "039685",
     "033315",
     "037362",
@@ -198,6 +197,13 @@
       "price": 4.99
     },
     {
+      "store_number": "032514",
+      "name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
       "store_number": "033309",
       "name": "Taco Bell",
       "city": "Clarkston",
@@ -226,13 +232,6 @@
       "price": 4.99
     },
     {
-      "store_number": "001732",
-      "name": "Taco Bell",
-      "city": "Canton",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
       "store_number": "037839",
       "name": "Taco Bell",
       "city": "Ann Arbor",
@@ -241,6 +240,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001795",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T22:00:30.724540+00:00"
+    },
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-23T21:56:30.659326+00:00"
+    },
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:55:30.450846+00:00"
+    },
+    {
+      "store_number": "035304",
+      "store_name": "Taco Bell",
+      "city": "Shelby Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-23T21:50:35.274132+00:00"
+    },
+    {
+      "store_number": "035629",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:50:34.027547+00:00"
+    },
     {
       "store_number": "037839",
       "store_name": "Taco Bell",
@@ -1053,8 +1102,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 17,
+    "added": 66,
+    "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1118,12 +1167,12 @@
       "MI"
     ],
     [
-      "035629",
-      42.39356807400018,
-      -83.51122462260832,
+      "035304",
+      42.66852493929189,
+      -83.03427430009569,
       4.99,
       "Taco Bell",
-      "Plymouth",
+      "Shelby Township",
       "MI"
     ],
     [
@@ -1241,15 +1290,6 @@
       4.99,
       "Taco Bell",
       "Chelsea",
-      "MI"
-    ],
-    [
-      "001795",
-      42.30977693893683,
-      -83.34892281415368,
-      4.99,
-      "Taco Bell",
-      "Westland",
       "MI"
     ],
     [
@@ -1406,15 +1446,6 @@
       "MI"
     ],
     [
-      "001732",
-      42.32247892201157,
-      -83.48488225604342,
-      4.99,
-      "Taco Bell",
-      "Canton",
-      "MI"
-    ],
-    [
       "033314",
       42.68711057443587,
       -83.38248093675571,
@@ -1448,6 +1479,15 @@
       4.99,
       "Taco Bell",
       "Clarkston",
+      "MI"
+    ],
+    [
+      "032514",
+      42.6514917,
+      -84.0732928,
+      4.99,
+      "Taco Bell",
+      "Fowlerville",
       "MI"
     ],
     [

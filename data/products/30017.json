@@ -17,7 +17,7 @@
     "max": 2.99,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 3447
+    "store_count": 3448
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 206
+      "count": 205
     },
     {
       "bucket": "$1.67",
@@ -66,15 +66,15 @@
     },
     {
       "bucket": "$1.79",
-      "count": 640
+      "count": 639
     },
     {
       "bucket": "$1.89",
-      "count": 271
+      "count": 272
     },
     {
       "bucket": "$1.99",
-      "count": 1529
+      "count": 1530
     },
     {
       "bucket": "$2.00",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$2.25",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$2.29",
@@ -150,7 +150,7 @@
     {
       "state": "CA",
       "avg_price": 1.97,
-      "store_count": 622
+      "store_count": 621
     },
     {
       "state": "CT",
@@ -205,7 +205,7 @@
     {
       "state": "MN",
       "avg_price": 1.86,
-      "store_count": 98
+      "store_count": 97
     },
     {
       "state": "FL",
@@ -225,7 +225,7 @@
     {
       "state": "MI",
       "avg_price": 1.82,
-      "store_count": 189
+      "store_count": 192
     },
     {
       "state": "NV",
@@ -240,7 +240,7 @@
     {
       "state": "SC",
       "avg_price": 1.8,
-      "store_count": 51
+      "store_count": 52
     },
     {
       "state": "MO",
@@ -260,7 +260,7 @@
     {
       "state": "CO",
       "avg_price": 1.77,
-      "store_count": 118
+      "store_count": 117
     },
     {
       "state": "AZ",
@@ -506,6 +506,106 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042772",
+      "store_name": "Taco Bell",
+      "city": "Williamston",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 1.79,
+      "new_price": 1.89,
+      "observed_at": "2026-04-23T21:58:55.897072+00:00"
+    },
+    {
+      "store_number": "004634",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:54.907504+00:00"
+    },
+    {
+      "store_number": "033304",
+      "store_name": "Taco Bell",
+      "city": "Flint",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-23T21:57:50.037316+00:00"
+    },
+    {
+      "store_number": "042960",
+      "store_name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-23T21:57:08.162098+00:00"
+    },
+    {
+      "store_number": "035467",
+      "store_name": "Taco Bell",
+      "city": "Citrus Heights",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:07.502670+00:00"
+    },
+    {
+      "store_number": "023159",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.25,
+      "observed_at": "2026-04-23T21:56:50.879711+00:00"
+    },
+    {
+      "store_number": "039656",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:56:39.686719+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-23T21:54:21.183552+00:00"
+    },
+    {
+      "store_number": "034817",
+      "store_name": "Taco Bell",
+      "city": "Clinton Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-23T21:50:17.469158+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:49:39.870049+00:00"
+    },
     {
       "store_number": "038759",
       "store_name": "Taco Bell",
@@ -4018,9 +4118,9 @@
     }
   ],
   "activity_summary": {
-    "added": 137,
-    "removed": 110,
-    "price_changed": 104,
+    "added": 142,
+    "removed": 114,
+    "price_changed": 105,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 170,
@@ -7683,15 +7783,6 @@
       "MO"
     ],
     [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      1.59,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
-    ],
-    [
       "027247",
       34.075653489920434,
       -118.02164912223816,
@@ -11256,15 +11347,6 @@
       "CO"
     ],
     [
-      "041269",
-      45.021568,
-      -93.173593,
-      1.79,
-      "Taco Bell",
-      "Roseville",
-      "MN"
-    ],
-    [
       "041775",
       39.526379660221515,
       -104.94167400409155,
@@ -12199,15 +12281,6 @@
       "Taco Bell",
       "North Las Vegas",
       "NV"
-    ],
-    [
-      "039656",
-      39.7439075,
-      -104.9900451,
-      1.79,
-      "Taco Bell",
-      "Denver",
-      "CO"
     ],
     [
       "040334",
@@ -15576,15 +15649,6 @@
       "WA"
     ],
     [
-      "042772",
-      35.83520001779231,
-      -77.06567734479904,
-      1.79,
-      "Taco Bell",
-      "Williamston",
-      "NC"
-    ],
-    [
       "023963",
       39.74070648276051,
       -104.81852794409438,
@@ -16719,6 +16783,15 @@
       "MI"
     ],
     [
+      "033304",
+      43.060967521639306,
+      -83.76767657702658,
+      1.79,
+      "Taco Bell",
+      "Flint",
+      "MI"
+    ],
+    [
       "005776",
       35.89992783909078,
       -78.65213980549495,
@@ -16968,6 +17041,15 @@
       1.79,
       "Taco Bell",
       "Greenwood",
+      "SC"
+    ],
+    [
+      "042960",
+      34.93612890844735,
+      -82.00218582664483,
+      1.79,
+      "Taco Bell",
+      "Spartanburg",
       "SC"
     ],
     [
@@ -18933,6 +19015,15 @@
       "CA"
     ],
     [
+      "042772",
+      35.83520001779231,
+      -77.06567734479904,
+      1.89,
+      "Taco Bell",
+      "Williamston",
+      "NC"
+    ],
+    [
       "024228",
       35.97917693272463,
       -77.80800717163315,
@@ -20047,6 +20138,15 @@
       "Taco Bell",
       "El Paso",
       "TX"
+    ],
+    [
+      "034817",
+      42.6266,
+      -82.9679,
+      1.99,
+      "Taco Bell",
+      "Clinton Township",
+      "MI"
     ],
     [
       "034274",
@@ -21774,6 +21874,15 @@
       1.99,
       "Taco Bell",
       "Novi",
+      "MI"
+    ],
+    [
+      "024745",
+      42.21337151111523,
+      -83.5428901715295,
+      1.99,
+      "Taco Bell",
+      "Belleville",
       "MI"
     ],
     [
@@ -23863,15 +23972,6 @@
       "Taco Bell",
       "Eagle",
       "CO"
-    ],
-    [
-      "035467",
-      38.706616358950875,
-      -121.27130358363502,
-      1.99,
-      "Taco Bell",
-      "Citrus Heights",
-      "CA"
     ],
     [
       "005469",
@@ -34663,6 +34763,15 @@
       "Taco Bell",
       "Hamilton",
       "MT"
+    ],
+    [
+      "023159",
+      38.78219637316416,
+      -121.28635749220848,
+      2.25,
+      "Taco Bell",
+      "Roseville",
+      "CA"
     ],
     [
       "002665",

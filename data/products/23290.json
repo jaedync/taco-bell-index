@@ -17,7 +17,7 @@
     "max": 8.99,
     "median": 5.99,
     "std_dev": 0.51,
-    "store_count": 7088
+    "store_count": 7089
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 335
+      "count": 334
     },
     {
       "bucket": "$5.05",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 1083
+      "count": 1084
     },
     {
       "bucket": "$6.00",
@@ -154,7 +154,7 @@
     },
     {
       "bucket": "$6.49",
-      "count": 330
+      "count": 329
     },
     {
       "bucket": "$6.50",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 82
+      "count": 83
     },
     {
       "bucket": "$6.60",
@@ -174,7 +174,7 @@
     },
     {
       "bucket": "$6.69",
-      "count": 92
+      "count": 93
     },
     {
       "bucket": "$6.79",
@@ -269,7 +269,7 @@
     {
       "state": "OH",
       "avg_price": 6.22,
-      "store_count": 403
+      "store_count": 402
     },
     {
       "state": "OR",
@@ -297,14 +297,14 @@
       "store_count": 35
     },
     {
+      "state": "NY",
+      "avg_price": 6.11,
+      "store_count": 247
+    },
+    {
       "state": "LA",
       "avg_price": 6.11,
       "store_count": 132
-    },
-    {
-      "state": "NY",
-      "avg_price": 6.11,
-      "store_count": 245
     },
     {
       "state": "MA",
@@ -334,12 +334,7 @@
     {
       "state": "MI",
       "avg_price": 6.01,
-      "store_count": 343
-    },
-    {
-      "state": "ND",
-      "avg_price": 5.99,
-      "store_count": 11
+      "store_count": 344
     },
     {
       "state": "ME",
@@ -348,6 +343,11 @@
     },
     {
       "state": "NH",
+      "avg_price": 5.99,
+      "store_count": 12
+    },
+    {
+      "state": "ND",
       "avg_price": 5.99,
       "store_count": 12
     },
@@ -384,7 +384,7 @@
     {
       "state": "AR",
       "avg_price": 5.82,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "SD",
@@ -464,7 +464,7 @@
     {
       "state": "IN",
       "avg_price": 5.48,
-      "store_count": 258
+      "store_count": 257
     },
     {
       "state": "SC",
@@ -663,6 +663,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.89,
+      "observed_at": "2026-04-23T21:59:05.219313+00:00"
+    },
+    {
+      "store_number": "004986",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-04-23T21:54:18.339115+00:00"
+    },
+    {
+      "store_number": "040532",
+      "store_name": "Taco Bell",
+      "city": "Westlake",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 6.49,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:51:46.437585+00:00"
+    },
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-04-23T21:50:53.894732+00:00"
+    },
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-23T21:50:51.285911+00:00"
+    },
     {
       "store_number": "040515",
       "store_name": "Taco Bell Cantina",
@@ -24735,8 +24785,8 @@
     }
   ],
   "activity_summary": {
-    "added": 202,
-    "removed": 651,
+    "added": 206,
+    "removed": 652,
     "price_changed": 1554,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26787,15 +26837,6 @@
       "Taco Bell",
       "Buda",
       "TX"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      4.99,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "032112",
@@ -50477,15 +50518,6 @@
       "AR"
     ],
     [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      5.89,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
-    ],
-    [
       "039077",
       40.798120761475886,
       -74.14759565505402,
@@ -53393,6 +53425,15 @@
       "AR"
     ],
     [
+      "039054",
+      41.20042753359659,
+      -73.98381442578278,
+      5.89,
+      "Taco Bell",
+      "West Haverstraw",
+      "NY"
+    ],
+    [
       "032999",
       42.34044468386268,
       -85.1550086454519,
@@ -56181,6 +56222,15 @@
       "Taco Bell",
       "Louisville",
       "KY"
+    ],
+    [
+      "041883",
+      48.173424515469144,
+      -103.62728089416856,
+      5.99,
+      "Taco Bell",
+      "Williston",
+      "ND"
     ],
     [
       "037732",
@@ -80375,15 +80425,6 @@
       "OH"
     ],
     [
-      "040532",
-      41.46795149509947,
-      -81.90103419082271,
-      6.49,
-      "Taco Bell",
-      "Westlake",
-      "OH"
-    ],
-    [
       "040535",
       41.52477514962175,
       -81.58726255092614,
@@ -82976,6 +83017,15 @@
       "IL"
     ],
     [
+      "041334",
+      40.69229211177486,
+      -73.99141198374691,
+      6.59,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "037348",
       45.667560817458465,
       -120.83672555398465,
@@ -83955,6 +84005,15 @@
       "Taco Bell",
       "Hamilton",
       "OH"
+    ],
+    [
+      "004986",
+      42.35859535314378,
+      -83.46154167319582,
+      6.69,
+      "Taco Bell",
+      "Plymouth",
+      "MI"
     ],
     [
       "026336",

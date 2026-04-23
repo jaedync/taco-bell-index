@@ -13,19 +13,14 @@
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.99,
-    "min": 5.99,
-    "max": 5.99,
-    "median": 5.99,
-    "std_dev": 0.0,
-    "store_count": 3
+    "avg": null,
+    "min": null,
+    "max": null,
+    "median": null,
+    "std_dev": null,
+    "store_count": 0
   },
-  "histogram": [
-    {
-      "bucket": "$5.99",
-      "count": 3
-    }
-  ],
+  "histogram": [],
   "state_prices": [],
   "nutrition": {
     "calories": 528.298,
@@ -41,58 +36,40 @@
     "protein_g": 12.515,
     "serving_size_g": 226.7959
   },
-  "cheapest_stores": [
-    {
-      "store_number": "030479",
-      "name": "Taco Bell",
-      "city": "Sacramento",
-      "state": "CA",
-      "price": 5.99
-    },
-    {
-      "store_number": "029535",
-      "name": "Taco Bell",
-      "city": "Tamarac",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
-      "store_number": "036547",
-      "name": "Taco Bell",
-      "city": "Fairfax",
-      "state": "VA",
-      "price": 5.99
-    }
-  ],
-  "min_price_store_numbers": [
-    "030479",
-    "029535",
-    "036547"
-  ],
-  "priciest_stores": [
-    {
-      "store_number": "036547",
-      "name": "Taco Bell",
-      "city": "Fairfax",
-      "state": "VA",
-      "price": 5.99
-    },
-    {
-      "store_number": "029535",
-      "name": "Taco Bell",
-      "city": "Tamarac",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
-      "store_number": "030479",
-      "name": "Taco Bell",
-      "city": "Sacramento",
-      "state": "CA",
-      "price": 5.99
-    }
-  ],
+  "cheapest_stores": [],
+  "min_price_store_numbers": [],
+  "priciest_stores": [],
   "price_changes": [
+    {
+      "store_number": "036547",
+      "store_name": "Taco Bell",
+      "city": "Fairfax",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:59:07.547623+00:00"
+    },
+    {
+      "store_number": "029535",
+      "store_name": "Taco Bell",
+      "city": "Tamarac",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:08.222867+00:00"
+    },
+    {
+      "store_number": "030479",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:51:04.684935+00:00"
+    },
     {
       "store_number": "027812",
       "store_name": "Taco Bell",
@@ -94786,41 +94763,13 @@
   ],
   "activity_summary": {
     "added": 1286,
-    "removed": 8179,
+    "removed": 8182,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 530,
+  "calories_from_menu": null,
   "calories_min": 530,
   "calories_max": 530,
   "combo_groups": [],
-  "map_data": [
-    [
-      "030479",
-      38.6017353264456,
-      -121.42743280306085,
-      5.99,
-      "Taco Bell",
-      "Sacramento",
-      "CA"
-    ],
-    [
-      "029535",
-      26.19420037978799,
-      -80.25327891111374,
-      5.99,
-      "Taco Bell",
-      "Tamarac",
-      "FL"
-    ],
-    [
-      "036547",
-      38.86154373554433,
-      -77.38936458529679,
-      5.99,
-      "Taco Bell",
-      "Fairfax",
-      "VA"
-    ]
-  ]
+  "map_data": []
 }

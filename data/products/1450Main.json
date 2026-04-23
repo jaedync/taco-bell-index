@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 618
+    "store_count": 616
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$1.05",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$1.19",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 59
+      "count": 58
     },
     {
       "bucket": "$1.59",
@@ -138,7 +138,7 @@
     {
       "state": "CA",
       "avg_price": 1.35,
-      "store_count": 153
+      "store_count": 152
     },
     {
       "state": "MD",
@@ -168,7 +168,7 @@
     {
       "state": "OR",
       "avg_price": 1.14,
-      "store_count": 56
+      "store_count": 55
     },
     {
       "state": "IL",
@@ -384,6 +384,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030748",
+      "store_name": "Taco Bell",
+      "city": "Tracy",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:27.223378+00:00"
+    },
+    {
+      "store_number": "005775",
+      "store_name": "Taco Bell",
+      "city": "Eugene",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 1.05,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:14.863508+00:00"
+    },
     {
       "store_number": "031113",
       "store_name": "Taco Bell",
@@ -1127,7 +1147,7 @@
   ],
   "activity_summary": {
     "added": 28,
-    "removed": 44,
+    "removed": 46,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3927,15 +3947,6 @@
       "OR"
     ],
     [
-      "005775",
-      44.0475908177801,
-      -123.13498014839136,
-      1.05,
-      "Taco Bell",
-      "Eugene",
-      "OR"
-    ],
-    [
       "017560",
       44.09038927595871,
       -123.0673318058416,
@@ -5463,15 +5474,6 @@
       1.49,
       "Taco Bell",
       "Scotts Valley",
-      "CA"
-    ],
-    [
-      "030748",
-      37.75350447915708,
-      -121.43481530251847,
-      1.49,
-      "Taco Bell",
-      "Tracy",
       "CA"
     ],
     [

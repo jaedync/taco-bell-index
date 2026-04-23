@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:07.698758+00:00",
-  "availability_pct": 3.6,
+  "availability_pct": 3.7,
   "price_stats": {
     "avg": 0.3,
     "min": 0.0,
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 281
+    "store_count": 284
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 75
+      "count": 76
     },
     {
       "bucket": "$0.20",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 55
+      "count": 57
     },
     {
       "bucket": "$0.55",
@@ -73,7 +73,7 @@
     {
       "state": "NV",
       "avg_price": 0.48,
-      "store_count": 21
+      "store_count": 22
     },
     {
       "state": "CO",
@@ -81,14 +81,14 @@
       "store_count": 17
     },
     {
-      "state": "OR",
+      "state": "CA",
       "avg_price": 0.31,
-      "store_count": 50
+      "store_count": 106
     },
     {
-      "state": "CA",
+      "state": "OR",
       "avg_price": 0.3,
-      "store_count": 105
+      "store_count": 51
     },
     {
       "state": "WY",
@@ -267,7 +267,8 @@
     "033926",
     "036765",
     "031564",
-    "031728"
+    "031728",
+    "021357"
   ],
   "priciest_stores": [
     {
@@ -327,21 +328,51 @@
       "price": 0.55
     },
     {
+      "store_number": "039840",
+      "name": "Taco Bell",
+      "city": "Chino",
+      "state": "CA",
+      "price": 0.5
+    },
+    {
       "store_number": "030937",
       "name": "Taco Bell",
       "city": "Pittsburg",
       "state": "CA",
       "price": 0.5
-    },
-    {
-      "store_number": "042779",
-      "name": "Taco Bell",
-      "city": "Dripping Springs",
-      "state": "TX",
-      "price": 0.5
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039840",
+      "store_name": "Taco Bell",
+      "city": "Chino",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-23T21:59:08.834049+00:00"
+    },
+    {
+      "store_number": "021357",
+      "store_name": "Taco Bell",
+      "city": "Newport",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:58:25.058393+00:00"
+    },
+    {
+      "store_number": "031862",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-23T21:57:37.967373+00:00"
+    },
     {
       "store_number": "003541",
       "store_name": "Taco Bell",
@@ -664,7 +695,7 @@
     }
   ],
   "activity_summary": {
-    "added": 12,
+    "added": 15,
     "removed": 20,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1348,6 +1379,15 @@
       "Taco Bell",
       "Tucson",
       "AZ"
+    ],
+    [
+      "021357",
+      44.654223553261865,
+      -124.05339632930009,
+      0.0,
+      "Taco Bell",
+      "Newport",
+      "OR"
     ],
     [
       "030305",
@@ -2772,6 +2812,15 @@
       "OR"
     ],
     [
+      "031862",
+      39.533994949755154,
+      -119.86692041158676,
+      0.5,
+      "Taco Bell",
+      "Reno",
+      "NV"
+    ],
+    [
       "036246",
       39.20001474234231,
       -119.7783406603541,
@@ -3129,6 +3178,15 @@
       0.5,
       "Taco Bell",
       "Pittsburg",
+      "CA"
+    ],
+    [
+      "039840",
+      34.02843114147127,
+      -117.68996005279128,
+      0.5,
+      "Taco Bell",
+      "Chino",
       "CA"
     ],
     [

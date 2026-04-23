@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 97
+    "store_count": 102
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 97
+      "count": 102
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 97
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -135,6 +135,7 @@
     "036234",
     "035098",
     "035629",
+    "035304",
     "041828",
     "042603",
     "035306",
@@ -143,6 +144,7 @@
     "030367",
     "029978",
     "037842",
+    "023745",
     "002260",
     "027886",
     "001571",
@@ -150,6 +152,7 @@
     "021292",
     "033313",
     "038975",
+    "027374",
     "033308",
     "005095",
     "031392",
@@ -210,8 +213,10 @@
     "039686",
     "033309",
     "040007",
+    "032514",
     "001661",
     "003294",
+    "029334",
     "039685",
     "033315",
     "031472",
@@ -255,6 +260,13 @@
       "price": 5.49
     },
     {
+      "store_number": "029334",
+      "name": "Taco Bell",
+      "city": "Romulus",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "003294",
       "name": "Taco Bell",
       "city": "Dearborn",
@@ -269,28 +281,71 @@
       "price": 5.49
     },
     {
+      "store_number": "032514",
+      "name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "price": 5.49
+    },
+    {
       "store_number": "040007",
       "name": "Taco Bell",
       "city": "Lake Orion",
       "state": "MI",
       "price": 5.49
-    },
-    {
-      "store_number": "033309",
-      "name": "Taco Bell",
-      "city": "Clarkston",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
-      "store_number": "039686",
-      "name": "Taco Bell",
-      "city": "Washington",
-      "state": "MI",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029334",
+      "store_name": "Taco Bell",
+      "city": "Romulus",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:56:36.224206+00:00"
+    },
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:56:30.659326+00:00"
+    },
+    {
+      "store_number": "027374",
+      "store_name": "Taco Bell",
+      "city": "Pinckney",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:51:46.140612+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:51:45.075586+00:00"
+    },
+    {
+      "store_number": "035304",
+      "store_name": "Taco Bell",
+      "city": "Shelby Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:50:35.274132+00:00"
+    },
     {
       "store_number": "003294",
       "store_name": "Taco Bell",
@@ -1863,7 +1918,7 @@
     }
   ],
   "activity_summary": {
-    "added": 127,
+    "added": 132,
     "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2022,6 +2077,15 @@
       "MI"
     ],
     [
+      "035304",
+      42.66852493929189,
+      -83.03427430009569,
+      5.49,
+      "Taco Bell",
+      "Shelby Township",
+      "MI"
+    ],
+    [
       "041828",
       43.13369395718771,
       -82.79883646585634,
@@ -2094,6 +2158,15 @@
       "MI"
     ],
     [
+      "023745",
+      42.224730175482414,
+      -83.4856314762491,
+      5.49,
+      "Taco Bell",
+      "Belleville",
+      "MI"
+    ],
+    [
       "002260",
       42.46009074071353,
       -83.14707800745964,
@@ -2154,6 +2227,15 @@
       5.49,
       "Taco Bell",
       "Pontiac",
+      "MI"
+    ],
+    [
+      "027374",
+      42.45818612287247,
+      -83.92965003848076,
+      5.49,
+      "Taco Bell",
+      "Pinckney",
       "MI"
     ],
     [
@@ -2697,6 +2779,15 @@
       "MI"
     ],
     [
+      "032514",
+      42.6514917,
+      -84.0732928,
+      5.49,
+      "Taco Bell",
+      "Fowlerville",
+      "MI"
+    ],
+    [
       "001661",
       42.35000651139183,
       -83.27328178973356,
@@ -2712,6 +2803,15 @@
       5.49,
       "Taco Bell",
       "Dearborn",
+      "MI"
+    ],
+    [
+      "029334",
+      42.231617860525866,
+      -83.38627657450499,
+      5.49,
+      "Taco Bell",
+      "Romulus",
       "MI"
     ],
     [

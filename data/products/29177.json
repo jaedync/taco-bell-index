@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 0.8,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 66
+    "store_count": 65
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 66
+      "count": 65
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 66
+      "store_count": 65
     }
   ],
   "nutrition": {
@@ -161,7 +161,6 @@
     "022589",
     "023298",
     "042914",
-    "022587",
     "022594",
     "042924",
     "023289",
@@ -260,6 +259,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022587",
+      "store_name": "Taco Bell",
+      "city": "South Daytona",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:26.368995+00:00"
+    },
     {
       "store_number": "034162",
       "store_name": "Taco Bell",
@@ -963,7 +972,7 @@
   ],
   "activity_summary": {
     "added": 68,
-    "removed": 2,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1370,15 +1379,6 @@
       10.99,
       "Taco Bell",
       "Ocala",
-      "FL"
-    ],
-    [
-      "022587",
-      29.1667363858959,
-      -80.99885885419098,
-      10.99,
-      "Taco Bell",
-      "South Daytona",
       "FL"
     ],
     [

@@ -17,12 +17,12 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7125
+    "store_count": 7123
   },
   "histogram": [
     {
       "bucket": "$0.10",
-      "count": 347
+      "count": 346
     },
     {
       "bucket": "$0.19",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.55",
-      "count": 143
+      "count": 142
     },
     {
       "bucket": "$0.59",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1124
+      "count": 1123
     },
     {
       "bucket": "$0.65",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 848
+      "count": 849
     },
     {
       "bucket": "$0.85",
@@ -227,7 +227,7 @@
     {
       "state": "FL",
       "avg_price": 0.67,
-      "store_count": 416
+      "store_count": 417
     },
     {
       "state": "NE",
@@ -255,14 +255,14 @@
       "store_count": 155
     },
     {
+      "state": "OH",
+      "avg_price": 0.63,
+      "store_count": 408
+    },
+    {
       "state": "MS",
       "avg_price": 0.63,
       "store_count": 78
-    },
-    {
-      "state": "OH",
-      "avg_price": 0.63,
-      "store_count": 409
     },
     {
       "state": "NJ",
@@ -312,7 +312,7 @@
     {
       "state": "IN",
       "avg_price": 0.59,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "KY",
@@ -402,7 +402,7 @@
     {
       "state": "AR",
       "avg_price": 0.13,
-      "store_count": 108
+      "store_count": 107
     }
   ],
   "nutrition": {
@@ -637,7 +637,6 @@
     "020532",
     "005549",
     "030898",
-    "009571",
     "019834",
     "004461",
     "016249",
@@ -913,6 +912,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033771",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.55,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:21.467977+00:00"
+    },
+    {
+      "store_number": "043059",
+      "store_name": "Taco Bell",
+      "city": "Sarasota",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-23T21:57:30.549029+00:00"
+    },
     {
       "store_number": "002469",
       "store_name": "Taco Bell",
@@ -6445,8 +6464,8 @@
     }
   ],
   "activity_summary": {
-    "added": 28,
-    "removed": 517,
+    "added": 29,
+    "removed": 518,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7758,15 +7777,6 @@
       0.1,
       "Taco Bell",
       "Van Buren",
-      "AR"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      0.1,
-      "Taco Bell",
-      "Stuttgart",
       "AR"
     ],
     [
@@ -26418,15 +26428,6 @@
       "NY"
     ],
     [
-      "033771",
-      40.01414218119531,
-      -83.01147915425645,
-      0.55,
-      "Taco Bell",
-      "Columbus",
-      "OH"
-    ],
-    [
       "033767",
       39.730452662497434,
       -84.1416574269806,
@@ -34768,15 +34769,6 @@
       "Taco Bell",
       "Pahrump",
       "NV"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      0.6,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "030765",
@@ -67815,6 +67807,15 @@
       0.8,
       "Taco Bell",
       "North Miami",
+      "FL"
+    ],
+    [
+      "043059",
+      27.299361955920517,
+      -82.45309797814116,
+      0.8,
+      "Taco Bell",
+      "Sarasota",
       "FL"
     ],
     [

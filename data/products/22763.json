@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7658
+    "store_count": 7663
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7658
+      "count": 7663
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 136
+      "store_count": 137
     },
     {
       "state": "VA",
@@ -84,7 +84,7 @@
     {
       "state": "PA",
       "avg_price": 0.0,
-      "store_count": 199
+      "store_count": 201
     },
     {
       "state": "OR",
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 86
+      "store_count": 87
     },
     {
       "state": "NM",
@@ -139,7 +139,7 @@
     {
       "state": "NC",
       "avg_price": 0.0,
-      "store_count": 261
+      "store_count": 262
     },
     {
       "state": "MT",
@@ -154,7 +154,7 @@
     {
       "state": "MO",
       "avg_price": 0.0,
-      "store_count": 224
+      "store_count": 225
     },
     {
       "state": "MN",
@@ -164,7 +164,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 345
+      "store_count": 346
     },
     {
       "state": "ME",
@@ -199,7 +199,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "IL",
@@ -264,7 +264,7 @@
     {
       "state": "AR",
       "avg_price": 0.0,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "AL",
@@ -2526,6 +2526,7 @@
     "030384",
     "002403",
     "032315",
+    "036245",
     "028836",
     "003924",
     "039952",
@@ -2705,6 +2706,7 @@
     "032342",
     "027881",
     "018719",
+    "040032",
     "034168",
     "029674",
     "033099",
@@ -3687,7 +3689,6 @@
     "034596",
     "026073",
     "016043",
-    "028905",
     "019718",
     "031432",
     "018574",
@@ -3697,6 +3698,7 @@
     "031281",
     "003176",
     "037400",
+    "035245",
     "030765",
     "040064",
     "003859",
@@ -3895,7 +3897,6 @@
     "033038",
     "031488",
     "016289",
-    "009571",
     "039077",
     "024280",
     "016605",
@@ -4762,7 +4763,6 @@
     "000939",
     "031343",
     "021178",
-    "039961",
     "032040",
     "031908",
     "033864",
@@ -5252,6 +5252,7 @@
     "030374",
     "030409",
     "021367",
+    "018767",
     "030846",
     "030796",
     "040877",
@@ -6809,6 +6810,7 @@
     "041603",
     "028003",
     "025444",
+    "039054",
     "038898",
     "002700",
     "032995",
@@ -6952,6 +6954,7 @@
     "029047",
     "021535",
     "034379",
+    "029411",
     "031979",
     "030944",
     "037209",
@@ -7301,6 +7304,7 @@
     "042281",
     "042124",
     "020219",
+    "039061",
     "018094",
     "040053",
     "042848",
@@ -8021,9 +8025,17 @@
     "040713",
     "032318",
     "033767",
-    "042730"
+    "042730",
+    "034814"
   ],
   "priciest_stores": [
+    {
+      "store_number": "034814",
+      "name": "Taco Bell",
+      "city": "New Hudson",
+      "state": "MI",
+      "price": 0.0
+    },
     {
       "store_number": "042730",
       "name": "Taco Bell",
@@ -8086,16 +8098,99 @@
       "city": "Seneca",
       "state": "SC",
       "price": 0.0
-    },
-    {
-      "store_number": "031870",
-      "name": "Taco Bell",
-      "city": "Pahrump",
-      "state": "NV",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039061",
+      "store_name": "Taco Bell",
+      "city": "Kingston",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:59:19.282693+00:00"
+    },
+    {
+      "store_number": "029411",
+      "store_name": "Taco Bell",
+      "city": "Benson",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:59:09.319947+00:00"
+    },
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:59:05.219313+00:00"
+    },
+    {
+      "store_number": "018767",
+      "store_name": "Taco Bell",
+      "city": "Vancouver",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:58:20.744633+00:00"
+    },
+    {
+      "store_number": "039961",
+      "store_name": "Taco Bell",
+      "city": "New Rochelle",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:06.917551+00:00"
+    },
+    {
+      "store_number": "035245",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:57:31.631375+00:00"
+    },
+    {
+      "store_number": "040032",
+      "store_name": "Taco Bell",
+      "city": "Chambersburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:56:54.361025+00:00"
+    },
+    {
+      "store_number": "036245",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:56:45.664198+00:00"
+    },
+    {
+      "store_number": "034814",
+      "store_name": "Taco Bell",
+      "city": "New Hudson",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:50:15.675067+00:00"
+    },
     {
       "store_number": "036213",
       "store_name": "Taco Bell",
@@ -10478,8 +10573,8 @@
     }
   ],
   "activity_summary": {
-    "added": 116,
-    "removed": 122,
+    "added": 124,
+    "removed": 123,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29947,6 +30042,15 @@
       "TN"
     ],
     [
+      "036245",
+      39.640767964172845,
+      -119.7107711346074,
+      0.0,
+      "Taco Bell",
+      "Sparks",
+      "NV"
+    ],
+    [
       "028836",
       37.40826538358988,
       -122.07762390375137,
@@ -31556,6 +31660,15 @@
       "Taco Bell",
       "Fort Worth",
       "TX"
+    ],
+    [
+      "040032",
+      39.932236699199805,
+      -77.64453227686019,
+      0.0,
+      "Taco Bell",
+      "Chambersburg",
+      "PA"
     ],
     [
       "034168",
@@ -40396,15 +40509,6 @@
       "OH"
     ],
     [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      0.0,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "019718",
       33.591900111887156,
       -101.93862645360636,
@@ -40484,6 +40588,15 @@
       "Taco Bell",
       "Colorado Springs",
       "CO"
+    ],
+    [
+      "035245",
+      38.92543343902219,
+      -94.52360703613749,
+      0.0,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
     ],
     [
       "030765",
@@ -42266,15 +42379,6 @@
       "Taco Bell",
       "College Park",
       "GA"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      0.0,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "039077",
@@ -50071,15 +50175,6 @@
       "KS"
     ],
     [
-      "039961",
-      40.91286638361039,
-      -73.77573797110017,
-      0.0,
-      "Taco Bell",
-      "New Rochelle",
-      "NY"
-    ],
-    [
       "032040",
       33.546534575312734,
       -80.83066114786561,
@@ -54479,6 +54574,15 @@
       "Taco Bell",
       "Oroville",
       "CA"
+    ],
+    [
+      "018767",
+      45.64041508612285,
+      -122.62093578280655,
+      0.0,
+      "Taco Bell",
+      "Vancouver",
+      "WA"
     ],
     [
       "030846",
@@ -68494,6 +68598,15 @@
       "AR"
     ],
     [
+      "039054",
+      41.20042753359659,
+      -73.98381442578278,
+      0.0,
+      "Taco Bell",
+      "West Haverstraw",
+      "NY"
+    ],
+    [
       "038898",
       40.58067528388567,
       -83.09465841273777,
@@ -69779,6 +69892,15 @@
       "Taco Bell",
       "Kansas City",
       "MO"
+    ],
+    [
+      "029411",
+      35.51703677474721,
+      -78.56191411658494,
+      0.0,
+      "Taco Bell",
+      "Benson",
+      "NC"
     ],
     [
       "031979",
@@ -72920,6 +73042,15 @@
       "Taco Bell",
       "Somerset",
       "OH"
+    ],
+    [
+      "039061",
+      41.25989355052693,
+      -75.8999568969557,
+      0.0,
+      "Taco Bell",
+      "Kingston",
+      "PA"
     ],
     [
       "018094",
@@ -79409,6 +79540,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "034814",
+      42.51408349329777,
+      -83.61905764312564,
+      0.0,
+      "Taco Bell",
+      "New Hudson",
+      "MI"
     ]
   ]
 }

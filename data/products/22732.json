@@ -17,7 +17,7 @@
     "max": 1.09,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6908
+    "store_count": 6906
   },
   "histogram": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 342
+      "count": 341
     },
     {
       "bucket": "$0.25",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 760
+      "count": 759
     },
     {
       "bucket": "$0.55",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 974
+      "count": 972
     },
     {
       "bucket": "$0.65",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 712
+      "count": 714
     },
     {
       "bucket": "$0.75",
@@ -211,7 +211,7 @@
     {
       "state": "CA",
       "avg_price": 0.69,
-      "store_count": 804
+      "store_count": 805
     },
     {
       "state": "NY",
@@ -241,7 +241,7 @@
     {
       "state": "VA",
       "avg_price": 0.65,
-      "store_count": 183
+      "store_count": 184
     },
     {
       "state": "CO",
@@ -261,7 +261,7 @@
     {
       "state": "NC",
       "avg_price": 0.61,
-      "store_count": 245
+      "store_count": 244
     },
     {
       "state": "WI",
@@ -269,14 +269,14 @@
       "store_count": 141
     },
     {
-      "state": "IN",
-      "avg_price": 0.6,
-      "store_count": 247
-    },
-    {
       "state": "OH",
       "avg_price": 0.6,
-      "store_count": 390
+      "store_count": 389
+    },
+    {
+      "state": "IN",
+      "avg_price": 0.6,
+      "store_count": 246
     },
     {
       "state": "MS",
@@ -405,8 +405,8 @@
     },
     {
       "state": "AR",
-      "avg_price": 0.22,
-      "store_count": 109
+      "avg_price": 0.23,
+      "store_count": 108
     }
   ],
   "nutrition": {
@@ -573,6 +573,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039840",
+      "store_name": "Taco Bell",
+      "city": "Chino",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-23T21:59:08.834049+00:00"
+    },
+    {
+      "store_number": "029942",
+      "store_name": "Taco Bell",
+      "city": "Ruther Glen",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-23T21:58:26.268430+00:00"
+    },
+    {
+      "store_number": "033771",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:21.467977+00:00"
+    },
+    {
+      "store_number": "030574",
+      "store_name": "Taco Bell",
+      "city": "Wilmington",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:29.345191+00:00"
+    },
     {
       "store_number": "036764",
       "store_name": "Taco Bell",
@@ -9765,8 +9805,8 @@
     }
   ],
   "activity_summary": {
-    "added": 226,
-    "removed": 686,
+    "added": 228,
+    "removed": 688,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11060,15 +11100,6 @@
       0.2,
       "Taco Bell",
       "Van Buren",
-      "AR"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      0.2,
-      "Taco Bell",
-      "Stuttgart",
       "AR"
     ],
     [
@@ -27965,15 +27996,6 @@
       "IL"
     ],
     [
-      "033771",
-      40.01414218119531,
-      -83.01147915425645,
-      0.5,
-      "Taco Bell",
-      "Columbus",
-      "OH"
-    ],
-    [
       "039724",
       36.185310142929005,
       -80.27468699899006,
@@ -39251,15 +39273,6 @@
       "CA"
     ],
     [
-      "030574",
-      34.122585469031954,
-      -77.90061414241791,
-      0.6,
-      "Taco Bell",
-      "Wilmington",
-      "NC"
-    ],
-    [
       "041347",
       38.51941695394591,
       -121.4396605472374,
@@ -39312,15 +39325,6 @@
       "Taco Bell",
       "Pahrump",
       "NV"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      0.6,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "031432",
@@ -56870,6 +56874,24 @@
       0.7,
       "Taco Bell",
       "Ontario",
+      "CA"
+    ],
+    [
+      "029942",
+      37.940757555899026,
+      -77.46092022328487,
+      0.7,
+      "Taco Bell",
+      "Ruther Glen",
+      "VA"
+    ],
+    [
+      "039840",
+      34.02843114147127,
+      -117.68996005279128,
+      0.7,
+      "Taco Bell",
+      "Chino",
       "CA"
     ],
     [

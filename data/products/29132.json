@@ -18,7 +18,7 @@
     "max": 13.99,
     "median": 8.19,
     "std_dev": 0.57,
-    "store_count": 6458
+    "store_count": 6459
   },
   "histogram": [
     {
@@ -63,15 +63,15 @@
     },
     {
       "bucket": "$7.79",
-      "count": 101
+      "count": 102
     },
     {
       "bucket": "$7.89",
-      "count": 68
+      "count": 67
     },
     {
       "bucket": "$7.99",
-      "count": 2329
+      "count": 2328
     },
     {
       "bucket": "$8.00",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$8.19",
-      "count": 352
+      "count": 351
     },
     {
       "bucket": "$8.20",
@@ -123,7 +123,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 616
+      "count": 618
     },
     {
       "bucket": "$8.80",
@@ -179,7 +179,7 @@
     },
     {
       "bucket": "$9.59",
-      "count": 75
+      "count": 76
     },
     {
       "bucket": "$9.69",
@@ -260,7 +260,7 @@
     {
       "state": "NY",
       "avg_price": 9.05,
-      "store_count": 245
+      "store_count": 246
     },
     {
       "state": "NH",
@@ -310,7 +310,7 @@
     {
       "state": "CA",
       "avg_price": 8.65,
-      "store_count": 826
+      "store_count": 825
     },
     {
       "state": "NJ",
@@ -325,12 +325,7 @@
     {
       "state": "IL",
       "avg_price": 8.5,
-      "store_count": 283
-    },
-    {
-      "state": "OR",
-      "avg_price": 8.49,
-      "store_count": 120
+      "store_count": 284
     },
     {
       "state": "UT",
@@ -341,6 +336,11 @@
       "state": "MT",
       "avg_price": 8.49,
       "store_count": 26
+    },
+    {
+      "state": "OR",
+      "avg_price": 8.49,
+      "store_count": 121
     },
     {
       "state": "NM",
@@ -380,7 +380,7 @@
     {
       "state": "IN",
       "avg_price": 8.3,
-      "store_count": 230
+      "store_count": 229
     },
     {
       "state": "OH",
@@ -435,7 +435,7 @@
     {
       "state": "AR",
       "avg_price": 7.99,
-      "store_count": 113
+      "store_count": 112
     },
     {
       "state": "WY",
@@ -495,7 +495,7 @@
     {
       "state": "MI",
       "avg_price": 7.79,
-      "store_count": 6
+      "store_count": 7
     }
   ],
   "nutrition": null,
@@ -661,6 +661,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.79,
+      "observed_at": "2026-04-23T21:59:05.219313+00:00"
+    },
+    {
+      "store_number": "042772",
+      "store_name": "Taco Bell",
+      "city": "Williamston",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 8.19,
+      "new_price": 8.79,
+      "observed_at": "2026-04-23T21:58:55.897072+00:00"
+    },
+    {
+      "store_number": "034200",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:38.589111+00:00"
+    },
+    {
+      "store_number": "021357",
+      "store_name": "Taco Bell",
+      "city": "Newport",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-23T21:58:25.058393+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.59,
+      "observed_at": "2026-04-23T21:57:41.399680+00:00"
+    },
+    {
+      "store_number": "042769",
+      "store_name": "Taco Bell",
+      "city": "Sparta",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-04-23T21:51:01.752960+00:00"
+    },
     {
       "store_number": "041589",
       "store_name": "Taco Bell",
@@ -21133,9 +21193,9 @@
     }
   ],
   "activity_summary": {
-    "added": 129,
-    "removed": 1257,
-    "price_changed": 661,
+    "added": 133,
+    "removed": 1258,
+    "price_changed": 662,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 420,
@@ -24258,6 +24318,15 @@
       "IA"
     ],
     [
+      "042769",
+      43.160614808378504,
+      -85.72218601200493,
+      7.79,
+      "Taco Bell",
+      "Sparta",
+      "MI"
+    ],
+    [
       "036389",
       41.79390539041682,
       -87.63258032846481,
@@ -25192,15 +25261,6 @@
       "Taco Bell",
       "Rockford",
       "IL"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      7.89,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "003289",
@@ -35247,15 +35307,6 @@
       "WI"
     ],
     [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      7.99,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
-    ],
-    [
       "030426",
       40.508346251205424,
       -112.01243340969086,
@@ -39241,6 +39292,15 @@
       "Taco Bell",
       "Riverbank",
       "CA"
+    ],
+    [
+      "021357",
+      44.654223553261865,
+      -124.05339632930009,
+      7.99,
+      "Taco Bell",
+      "Newport",
+      "OR"
     ],
     [
       "034623",
@@ -46524,15 +46584,6 @@
       "MA"
     ],
     [
-      "034200",
-      39.72753076302128,
-      -121.80665065349785,
-      7.99,
-      "Taco Bell",
-      "Chico",
-      "CA"
-    ],
-    [
       "029250",
       41.74231508100437,
       -72.71143823862076,
@@ -49690,15 +49741,6 @@
       "Taco Bell",
       "Yuba City",
       "CA"
-    ],
-    [
-      "042772",
-      35.83520001779231,
-      -77.06567734479904,
-      8.19,
-      "Taco Bell",
-      "Williamston",
-      "NC"
     ],
     [
       "003480",
@@ -67611,6 +67653,15 @@
       "CA"
     ],
     [
+      "042772",
+      35.83520001779231,
+      -77.06567734479904,
+      8.79,
+      "Taco Bell",
+      "Williamston",
+      "NC"
+    ],
+    [
       "030797",
       37.268360430549755,
       -121.94336772280097,
@@ -67834,6 +67885,15 @@
       "Taco Bell",
       "Frederick",
       "MD"
+    ],
+    [
+      "039054",
+      41.20042753359659,
+      -73.98381442578278,
+      8.79,
+      "Taco Bell",
+      "West Haverstraw",
+      "NY"
     ],
     [
       "002700",
@@ -77724,6 +77784,15 @@
       9.59,
       "Taco Bell",
       "Minooka",
+      "IL"
+    ],
+    [
+      "030404",
+      41.882211,
+      -87.640594,
+      9.59,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

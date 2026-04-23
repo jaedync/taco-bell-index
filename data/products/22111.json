@@ -17,7 +17,7 @@
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.21,
-    "store_count": 7697
+    "store_count": 7698
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 370
+      "count": 371
     },
     {
       "bucket": "$2.79",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 1001
+      "count": 1002
     },
     {
       "bucket": "$2.97",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 4152
+      "count": 4151
     },
     {
       "bucket": "$3.00",
@@ -258,14 +258,14 @@
       "store_count": 87
     },
     {
-      "state": "MI",
-      "avg_price": 3.04,
-      "store_count": 347
-    },
-    {
       "state": "PA",
       "avg_price": 3.04,
       "store_count": 202
+    },
+    {
+      "state": "MI",
+      "avg_price": 3.04,
+      "store_count": 349
     },
     {
       "state": "OH",
@@ -285,7 +285,7 @@
     {
       "state": "AR",
       "avg_price": 3.0,
-      "store_count": 113
+      "store_count": 112
     },
     {
       "state": "AZ",
@@ -340,7 +340,7 @@
     {
       "state": "IN",
       "avg_price": 2.96,
-      "store_count": 260
+      "store_count": 261
     },
     {
       "state": "WV",
@@ -425,7 +425,7 @@
     {
       "state": "ND",
       "avg_price": 2.79,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "MS",
@@ -598,6 +598,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033000",
+      "store_name": "Taco Bell",
+      "city": "Coopersville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-23T21:59:12.533595+00:00"
+    },
+    {
+      "store_number": "037578",
+      "store_name": "Taco Bell",
+      "city": "Grand Forks",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:59:06.210009+00:00"
+    },
+    {
+      "store_number": "033434",
+      "store_name": "Taco Bell",
+      "city": "Menominee",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-04-23T21:59:04.222590+00:00"
+    },
+    {
+      "store_number": "028863",
+      "store_name": "Taco Bell",
+      "city": "Vincennes",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-23T21:58:27.328399+00:00"
+    },
+    {
+      "store_number": "042357",
+      "store_name": "Taco Bell",
+      "city": "Mitchell",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-23T21:50:53.026377+00:00"
+    },
     {
       "store_number": "042287",
       "store_name": "Taco Bell",
@@ -4200,8 +4250,8 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
-    "removed": 43,
+    "added": 53,
+    "removed": 44,
     "price_changed": 268,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7467,6 +7517,15 @@
       "Taco Bell",
       "Plano",
       "TX"
+    ],
+    [
+      "033434",
+      45.1069887,
+      -87.6190027,
+      2.69,
+      "Taco Bell",
+      "Menominee",
+      "MI"
     ],
     [
       "035449",
@@ -11240,15 +11299,6 @@
       "MN"
     ],
     [
-      "037578",
-      47.90883353888597,
-      -97.04455323055299,
-      2.79,
-      "Taco Bell",
-      "Grand Forks",
-      "ND"
-    ],
-    [
       "018101",
       45.27995172296516,
       -93.00056637080161,
@@ -11319,6 +11369,15 @@
       "Taco Bell",
       "Irmo",
       "SC"
+    ],
+    [
+      "033000",
+      43.0588918419283,
+      -85.95632582902908,
+      2.79,
+      "Taco Bell",
+      "Coopersville",
+      "MI"
     ],
     [
       "030548",
@@ -12849,6 +12908,15 @@
       "Taco Bell",
       "Katy",
       "TX"
+    ],
+    [
+      "042357",
+      38.732499,
+      -86.490448,
+      2.89,
+      "Taco Bell",
+      "Mitchell",
+      "IN"
     ],
     [
       "042137",
@@ -15362,15 +15430,6 @@
       "OH"
     ],
     [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      2.89,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "031735",
       33.17546728496336,
       -96.83741463558198,
@@ -17556,6 +17615,15 @@
       "Taco Bell",
       "Ellenwood",
       "GA"
+    ],
+    [
+      "028863",
+      38.68984275350118,
+      -87.50482235850541,
+      2.89,
+      "Taco Bell",
+      "Vincennes",
+      "IN"
     ],
     [
       "030643",
@@ -39345,15 +39413,6 @@
       "Taco Bell",
       "Wauwatosa",
       "WI"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      2.99,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "039077",

@@ -69,7 +69,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 60
+      "store_count": 61
     },
     {
       "state": "PA",
@@ -1415,6 +1415,7 @@
     "004496",
     "022348",
     "029515",
+    "035467",
     "031904",
     "004445",
     "005469",
@@ -2033,7 +2034,6 @@
     "030939",
     "037573",
     "033302",
-    "004634",
     "036204",
     "039038",
     "035469",
@@ -3843,7 +3843,6 @@
     "034190",
     "032185",
     "005169",
-    "002170",
     "020173",
     "041368",
     "031500",
@@ -3885,9 +3884,17 @@
     "042871",
     "042953",
     "042963",
-    "042967"
+    "042967",
+    "042960"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042960",
+      "name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "price": 0.0
+    },
     {
       "store_number": "042967",
       "name": "Taco Bell",
@@ -3950,16 +3957,49 @@
       "city": "Jacksonville",
       "state": "FL",
       "price": 0.0
-    },
-    {
-      "store_number": "042952",
-      "name": "Taco Bell",
-      "city": "Easley",
-      "state": "SC",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004634",
+      "store_name": "Taco Bell",
+      "city": "Los Angeles",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:54.907504+00:00"
+    },
+    {
+      "store_number": "002170",
+      "store_name": "Taco Bell",
+      "city": "Wilmington",
+      "state": "DE",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:57:50.967707+00:00"
+    },
+    {
+      "store_number": "042960",
+      "store_name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:57:08.162098+00:00"
+    },
+    {
+      "store_number": "035467",
+      "store_name": "Taco Bell",
+      "city": "Citrus Heights",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-23T21:57:07.502670+00:00"
+    },
     {
       "store_number": "042967",
       "store_name": "Taco Bell",
@@ -5372,8 +5412,8 @@
     }
   ],
   "activity_summary": {
-    "added": 75,
-    "removed": 66,
+    "added": 77,
+    "removed": 68,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15202,6 +15242,15 @@
       "AZ"
     ],
     [
+      "035467",
+      38.706616358950875,
+      -121.27130358363502,
+      0.0,
+      "Taco Bell",
+      "Citrus Heights",
+      "CA"
+    ],
+    [
       "031904",
       36.143177213109794,
       -115.25935468962416,
@@ -20762,15 +20811,6 @@
       "Taco Bell",
       "Burton",
       "MI"
-    ],
-    [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      0.0,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
     ],
     [
       "036204",
@@ -37054,15 +37094,6 @@
       "TX"
     ],
     [
-      "002170",
-      39.72752044868582,
-      -75.64978976549355,
-      0.0,
-      "Taco Bell",
-      "Wilmington",
-      "DE"
-    ],
-    [
       "020173",
       45.19922701846011,
       -93.54932590386852,
@@ -37439,6 +37470,15 @@
       "Taco Bell",
       "Middleburg",
       "FL"
+    ],
+    [
+      "042960",
+      34.93612890844735,
+      -82.00218582664483,
+      0.0,
+      "Taco Bell",
+      "Spartanburg",
+      "SC"
     ]
   ]
 }

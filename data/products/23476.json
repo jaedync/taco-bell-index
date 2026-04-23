@@ -18,7 +18,7 @@
     "max": 1.5,
     "median": 0.2,
     "std_dev": 0.07,
-    "store_count": 7689
+    "store_count": 7690
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 5467
+      "count": 5468
     },
     {
       "bucket": "$0.22",
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 724
+      "count": 725
     },
     {
       "bucket": "$0.33",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$0.38",
-      "count": 2
+      "count": 1
     },
     {
       "bucket": "$0.39",
@@ -130,7 +130,7 @@
     {
       "state": "KY",
       "avg_price": 0.29,
-      "store_count": 160
+      "store_count": 161
     },
     {
       "state": "MD",
@@ -155,7 +155,7 @@
     {
       "state": "MI",
       "avg_price": 0.26,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "NE",
@@ -200,7 +200,7 @@
     {
       "state": "FL",
       "avg_price": 0.23,
-      "store_count": 448
+      "store_count": 450
     },
     {
       "state": "TN",
@@ -215,7 +215,7 @@
     {
       "state": "IN",
       "avg_price": 0.22,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "KS",
@@ -284,8 +284,8 @@
     },
     {
       "state": "PA",
-      "avg_price": 0.21,
-      "store_count": 202
+      "avg_price": 0.2,
+      "store_count": 201
     },
     {
       "state": "MA",
@@ -300,7 +300,12 @@
     {
       "state": "MN",
       "avg_price": 0.2,
-      "store_count": 99
+      "store_count": 98
+    },
+    {
+      "state": "NH",
+      "avg_price": 0.2,
+      "store_count": 12
     },
     {
       "state": "ND",
@@ -333,11 +338,6 @@
       "store_count": 127
     },
     {
-      "state": "NH",
-      "avg_price": 0.2,
-      "store_count": 11
-    },
-    {
       "state": "ME",
       "avg_price": 0.2,
       "store_count": 7
@@ -350,7 +350,7 @@
     {
       "state": "AR",
       "avg_price": 0.2,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "MS",
@@ -521,6 +521,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039549",
+      "store_name": "Taco Bell",
+      "city": "Milford",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.38,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:59:24.523413+00:00"
+    },
+    {
+      "store_number": "036135",
+      "store_name": "Taco Bell",
+      "city": "Spring Hill",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-23T21:59:16.678911+00:00"
+    },
+    {
+      "store_number": "004394",
+      "store_name": "Taco Bell",
+      "city": "Cold Spring",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-23T21:59:00.761307+00:00"
+    },
+    {
+      "store_number": "042934",
+      "store_name": "Taco Bell",
+      "city": "North Miami Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-23T21:58:48.336404+00:00"
+    },
+    {
+      "store_number": "029274",
+      "store_name": "Taco Bell",
+      "city": "Nashua",
+      "state": "NH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-23T21:58:12.864805+00:00"
+    },
+    {
+      "store_number": "042631",
+      "store_name": "Taco Bell",
+      "city": "Traverse City",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-04-23T21:56:56.913793+00:00"
+    },
+    {
+      "store_number": "036175",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:50:25.336005+00:00"
+    },
     {
       "store_number": "033129",
       "store_name": "Taco Bell",
@@ -3053,8 +3123,8 @@
     }
   ],
   "activity_summary": {
-    "added": 121,
-    "removed": 119,
+    "added": 126,
+    "removed": 121,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7040,15 +7110,6 @@
       "Taco Bell",
       "Cathedral City",
       "CA"
-    ],
-    [
-      "036175",
-      43.98882817,
-      -92.46104033,
-      0.2,
-      "Taco Bell",
-      "Rochester",
-      "MN"
     ],
     [
       "036170",
@@ -24277,15 +24338,6 @@
       "OH"
     ],
     [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      0.2,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "019718",
       33.591900111887156,
       -101.93862645360636,
@@ -25661,15 +25713,6 @@
       "Taco Bell",
       "College Park",
       "GA"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      0.2,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "039077",
@@ -32636,6 +32679,15 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Fullerton",
       "CA"
+    ],
+    [
+      "029274",
+      42.752145199452485,
+      -71.46093164386002,
+      0.2,
+      "Taco Bell",
+      "Nashua",
+      "NH"
     ],
     [
       "022845",
@@ -40990,6 +41042,15 @@
       "VA"
     ],
     [
+      "042934",
+      25.92550267707879,
+      -80.16624909254605,
+      0.2,
+      "Taco Bell",
+      "North Miami Beach",
+      "FL"
+    ],
+    [
       "023075",
       44.78007443087094,
       -106.94209740312544,
@@ -43634,6 +43695,15 @@
       "Taco Bell",
       "Woodbridge",
       "VA"
+    ],
+    [
+      "004394",
+      39.02791470313854,
+      -84.45141479372978,
+      0.2,
+      "Taco Bell",
+      "Cold Spring",
+      "KY"
     ],
     [
       "040054",
@@ -47108,6 +47178,15 @@
       "Taco Bell",
       "Southaven",
       "MS"
+    ],
+    [
+      "036135",
+      28.461261387202875,
+      -82.53953218460083,
+      0.2,
+      "Taco Bell",
+      "Spring Hill",
+      "FL"
     ],
     [
       "001204",
@@ -64183,6 +64262,15 @@
       "CA"
     ],
     [
+      "042631",
+      44.67547991811227,
+      -85.65568032459673,
+      0.3,
+      "Taco Bell",
+      "Traverse City",
+      "MI"
+    ],
+    [
       "039814",
       34.073826369068215,
       -117.6705220788881,
@@ -68752,15 +68840,6 @@
       0.38,
       "Taco Bell",
       "East Stroudsburg",
-      "PA"
-    ],
-    [
-      "039549",
-      41.352062077323495,
-      -74.73220378160477,
-      0.38,
-      "Taco Bell",
-      "Milford",
       "PA"
     ],
     [

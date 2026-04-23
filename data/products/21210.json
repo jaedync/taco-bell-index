@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7078
+    "store_count": 7076
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5239
+      "count": 5237
     },
     {
       "bucket": "$4.19",
@@ -207,8 +207,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 5.05,
-      "store_count": 108
+      "avg_price": 5.04,
+      "store_count": 109
     },
     {
       "state": "HI",
@@ -258,7 +258,7 @@
     {
       "state": "GA",
       "avg_price": 4.36,
-      "store_count": 235
+      "store_count": 234
     },
     {
       "state": "WI",
@@ -338,12 +338,12 @@
     {
       "state": "AR",
       "avg_price": 4.02,
-      "store_count": 106
+      "store_count": 105
     },
     {
       "state": "NM",
       "avg_price": 4.02,
-      "store_count": 55
+      "store_count": 54
     },
     {
       "state": "TX",
@@ -358,7 +358,7 @@
     {
       "state": "MD",
       "avg_price": 4.0,
-      "store_count": 81
+      "store_count": 82
     },
     {
       "state": "WY",
@@ -383,7 +383,7 @@
     {
       "state": "OK",
       "avg_price": 4.0,
-      "store_count": 113
+      "store_count": 112
     },
     {
       "state": "NH",
@@ -2992,7 +2992,6 @@
     "039548",
     "033038",
     "016289",
-    "009571",
     "039077",
     "016605",
     "042122",
@@ -4193,7 +4192,6 @@
     "032151",
     "026119",
     "023903",
-    "041238",
     "004274",
     "030369",
     "035072",
@@ -5231,7 +5229,6 @@
     "040860",
     "041318",
     "039922",
-    "043196",
     "040063",
     "038911",
     "020425",
@@ -5246,6 +5243,7 @@
     "033284",
     "024357",
     "023404",
+    "040055",
     "029553",
     "024056",
     "032981",
@@ -5719,9 +5717,9 @@
     "020826",
     "040419",
     "015885",
+    "002580",
     "027808",
     "032668",
-    "033437",
     "042069",
     "040713",
     "042730",
@@ -5803,6 +5801,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033437",
+      "store_name": "Taco Bell",
+      "city": "Broken Arrow",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:59:33.606842+00:00"
+    },
+    {
+      "store_number": "002580",
+      "store_name": "Taco Bell",
+      "city": "Goose Creek",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-23T21:59:21.995054+00:00"
+    },
+    {
+      "store_number": "040055",
+      "store_name": "Taco Bell",
+      "city": "Beltsville",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-23T21:59:19.911459+00:00"
+    },
+    {
+      "store_number": "043196",
+      "store_name": "Taco Bell",
+      "city": "Rio Rancho",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:59:19.399079+00:00"
+    },
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:33.446227+00:00"
+    },
     {
       "store_number": "040055",
       "store_name": "Taco Bell",
@@ -6855,8 +6903,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 50,
+    "added": 44,
+    "removed": 53,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29409,15 +29457,6 @@
       "GA"
     ],
     [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      4.0,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
-    ],
-    [
       "039077",
       40.798120761475886,
       -74.14759565505402,
@@ -40218,15 +40257,6 @@
       "AR"
     ],
     [
-      "041238",
-      33.92281058279636,
-      -83.34047734737396,
-      4.0,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "004274",
       33.45365710660152,
       -88.81976500153542,
@@ -49560,15 +49590,6 @@
       "SC"
     ],
     [
-      "043196",
-      35.23856421220278,
-      -106.65728241205215,
-      4.0,
-      "Taco Bell",
-      "Rio Rancho",
-      "NM"
-    ],
-    [
       "040063",
       39.81931165295382,
       -76.99576697502393,
@@ -49693,6 +49714,15 @@
       "Taco Bell",
       "East Peoria",
       "IL"
+    ],
+    [
+      "040055",
+      39.032229117011866,
+      -76.91209048630571,
+      4.0,
+      "Taco Bell",
+      "Beltsville",
+      "MD"
     ],
     [
       "029553",
@@ -53952,6 +53982,15 @@
       "PA"
     ],
     [
+      "002580",
+      32.99373267399565,
+      -80.03949661622755,
+      4.0,
+      "Taco Bell",
+      "Goose Creek",
+      "SC"
+    ],
+    [
       "027808",
       29.922975580908624,
       -95.60116052627563,
@@ -53968,15 +54007,6 @@
       "Taco Bell",
       "Glen Burnie",
       "MD"
-    ],
-    [
-      "033437",
-      36.004414035392806,
-      -95.68129956790096,
-      4.0,
-      "Taco Bell",
-      "Broken Arrow",
-      "OK"
     ],
     [
       "042069",

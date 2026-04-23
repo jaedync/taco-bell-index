@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.9,
+  "availability_pct": 100.0,
   "price_stats": {
     "avg": 3.01,
     "min": 2.29,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.2,
-    "store_count": 7704
+    "store_count": 7703
   },
   "histogram": [
     {
@@ -46,15 +46,15 @@
     },
     {
       "bucket": "$2.79",
-      "count": 413
+      "count": 411
     },
     {
       "bucket": "$2.89",
-      "count": 1003
+      "count": 1005
     },
     {
       "bucket": "$2.99",
-      "count": 4132
+      "count": 4131
     },
     {
       "bucket": "$3.00",
@@ -245,7 +245,7 @@
     {
       "state": "IA",
       "avg_price": 3.06,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "NV",
@@ -285,7 +285,7 @@
     {
       "state": "AR",
       "avg_price": 3.0,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "AZ",
@@ -340,7 +340,7 @@
     {
       "state": "IN",
       "avg_price": 2.96,
-      "store_count": 260
+      "store_count": 261
     },
     {
       "state": "WV",
@@ -355,7 +355,7 @@
     {
       "state": "WI",
       "avg_price": 2.94,
-      "store_count": 144
+      "store_count": 143
     },
     {
       "state": "TN",
@@ -420,7 +420,7 @@
     {
       "state": "MN",
       "avg_price": 2.79,
-      "store_count": 99
+      "store_count": 98
     },
     {
       "state": "ND",
@@ -598,6 +598,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009467",
+      "store_name": "Taco Bell",
+      "city": "Baxter",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:58.285697+00:00"
+    },
+    {
+      "store_number": "028863",
+      "store_name": "Taco Bell",
+      "city": "Vincennes",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-23T21:58:27.328399+00:00"
+    },
+    {
+      "store_number": "037059",
+      "store_name": "Taco Bell",
+      "city": "Dubuque",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-23T21:58:25.812663+00:00"
+    },
+    {
+      "store_number": "040160",
+      "store_name": "Taco Bell",
+      "city": "Superior",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:56:41.239756+00:00"
+    },
+    {
+      "store_number": "042357",
+      "store_name": "Taco Bell",
+      "city": "Mitchell",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-23T21:50:53.026377+00:00"
+    },
     {
       "store_number": "042287",
       "store_name": "Taco Bell",
@@ -4010,8 +4060,8 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 32,
+    "added": 46,
+    "removed": 34,
     "price_changed": 266,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8665,15 +8715,6 @@
       "OR"
     ],
     [
-      "040160",
-      46.696715633992035,
-      -92.10490124792814,
-      2.79,
-      "Taco Bell",
-      "Superior",
-      "WI"
-    ],
-    [
       "023837",
       45.03394635457155,
       -93.40599869193284,
@@ -11095,15 +11136,6 @@
       "MN"
     ],
     [
-      "009467",
-      46.35708087505865,
-      -94.24526094467144,
-      2.79,
-      "Taco Bell",
-      "Baxter",
-      "MN"
-    ],
-    [
       "031433",
       34.99201224894576,
       -78.35184462373945,
@@ -12839,6 +12871,15 @@
       "Taco Bell",
       "Katy",
       "TX"
+    ],
+    [
+      "042357",
+      38.732499,
+      -86.490448,
+      2.89,
+      "Taco Bell",
+      "Mitchell",
+      "IN"
     ],
     [
       "042137",
@@ -15514,15 +15555,6 @@
       "OH"
     ],
     [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      2.89,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "031735",
       33.17546728496336,
       -96.83741463558198,
@@ -17593,6 +17625,15 @@
       "OK"
     ],
     [
+      "037059",
+      42.489447,
+      -90.664758,
+      2.89,
+      "Taco Bell",
+      "Dubuque",
+      "IA"
+    ],
+    [
       "022587",
       29.1667363858959,
       -80.99885885419098,
@@ -17636,6 +17677,15 @@
       "Taco Bell",
       "Ellenwood",
       "GA"
+    ],
+    [
+      "028863",
+      38.68984275350118,
+      -87.50482235850541,
+      2.89,
+      "Taco Bell",
+      "Vincennes",
+      "IN"
     ],
     [
       "030643",
@@ -39191,15 +39241,6 @@
       "Taco Bell",
       "Wauwatosa",
       "WI"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      2.99,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "039077",

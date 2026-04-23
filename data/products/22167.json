@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.9,
+  "availability_pct": 100.0,
   "price_stats": {
     "avg": 4.76,
     "min": 2.99,
     "max": 7.79,
     "median": 4.79,
     "std_dev": 0.48,
-    "store_count": 7704
+    "store_count": 7705
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$3.89",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$3.99",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 316
+      "count": 315
     },
     {
       "bucket": "$4.39",
@@ -79,11 +79,11 @@
     },
     {
       "bucket": "$4.49",
-      "count": 339
+      "count": 340
     },
     {
       "bucket": "$4.59",
-      "count": 689
+      "count": 688
     },
     {
       "bucket": "$4.60",
@@ -131,7 +131,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 993
+      "count": 994
     },
     {
       "bucket": "$5.02",
@@ -159,7 +159,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 469
+      "count": 470
     },
     {
       "bucket": "$5.40",
@@ -167,7 +167,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 135
+      "count": 136
     },
     {
       "bucket": "$5.50",
@@ -278,7 +278,7 @@
     {
       "state": "MI",
       "avg_price": 5.02,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "DC",
@@ -293,12 +293,12 @@
     {
       "state": "ND",
       "avg_price": 4.99,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "IL",
       "avg_price": 4.99,
-      "store_count": 287
+      "store_count": 288
     },
     {
       "state": "DE",
@@ -413,7 +413,7 @@
     {
       "state": "AR",
       "avg_price": 4.57,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "GA",
@@ -438,7 +438,7 @@
     {
       "state": "IN",
       "avg_price": 4.4,
-      "store_count": 262
+      "store_count": 261
     },
     {
       "state": "OK",
@@ -656,6 +656,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042641",
+      "store_name": "Taco Bell",
+      "city": "Alpena",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.39,
+      "observed_at": "2026-04-23T21:59:17.714523+00:00"
+    },
+    {
+      "store_number": "042772",
+      "store_name": "Taco Bell",
+      "city": "Williamston",
+      "state": "NC",
+      "change_type": "price_change",
+      "old_price": 4.29,
+      "new_price": 4.49,
+      "observed_at": "2026-04-23T21:58:55.897072+00:00"
+    },
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:57:41.399680+00:00"
+    },
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-23T21:50:51.285911+00:00"
+    },
     {
       "store_number": "041589",
       "store_name": "Taco Bell",
@@ -14008,9 +14048,9 @@
     }
   ],
   "activity_summary": {
-    "added": 57,
+    "added": 60,
     "removed": 51,
-    "price_changed": 1227,
+    "price_changed": 1228,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 490,
@@ -16785,15 +16825,6 @@
       "028916",
       39.7712930861658,
       -86.0555596595049,
-      3.89,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
       3.89,
       "Taco Bell",
       "Indianapolis",
@@ -25800,15 +25831,6 @@
       "CA"
     ],
     [
-      "042772",
-      35.83520001779231,
-      -77.06567734479904,
-      4.29,
-      "Taco Bell",
-      "Williamston",
-      "NC"
-    ],
-    [
       "031699",
       35.49360842960523,
       -97.27615714073181,
@@ -31560,6 +31582,15 @@
       "KY"
     ],
     [
+      "042772",
+      35.83520001779231,
+      -77.06567734479904,
+      4.49,
+      "Taco Bell",
+      "Williamston",
+      "NC"
+    ],
+    [
       "024228",
       35.97917693272463,
       -77.80800717163315,
@@ -35473,15 +35504,6 @@
       "Taco Bell",
       "South Bend",
       "IN"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      4.59,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "019834",
@@ -60234,6 +60256,15 @@
       "PA"
     ],
     [
+      "041883",
+      48.173424515469144,
+      -103.62728089416856,
+      4.99,
+      "Taco Bell",
+      "Williston",
+      "ND"
+    ],
+    [
       "042087",
       35.58441463268701,
       -82.46981989035955,
@@ -79233,6 +79264,15 @@
       "CA"
     ],
     [
+      "042641",
+      45.04514546485744,
+      -83.452195953373,
+      5.39,
+      "Taco Bell",
+      "Alpena",
+      "MI"
+    ],
+    [
       "031390",
       41.90827167329248,
       -84.03040172432834,
@@ -80067,6 +80107,15 @@
       5.49,
       "Taco Bell",
       "Minooka",
+      "IL"
+    ],
+    [
+      "030404",
+      41.882211,
+      -87.640594,
+      5.49,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

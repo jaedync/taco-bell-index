@@ -18,19 +18,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 47
+    "store_count": 50
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 47
+      "count": 50
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 47
+      "store_count": 50
     }
   ],
   "nutrition": {
@@ -138,7 +138,10 @@
     "040656",
     "033310",
     "021299",
+    "024745",
     "030700",
+    "000848",
+    "004161",
     "021342",
     "031393",
     "024434",
@@ -241,6 +244,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004161",
+      "store_name": "Taco Bell",
+      "city": "Rochester Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:54:26.492103+00:00"
+    },
+    {
+      "store_number": "000848",
+      "store_name": "Taco Bell",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:54:22.715126+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-23T21:54:21.183552+00:00"
+    },
     {
       "store_number": "024745",
       "store_name": "Taco Bell",
@@ -1033,7 +1066,7 @@
     }
   ],
   "activity_summary": {
-    "added": 63,
+    "added": 66,
     "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1219,9 +1252,36 @@
       "MI"
     ],
     [
+      "024745",
+      42.21337151111523,
+      -83.5428901715295,
+      5.49,
+      "Taco Bell",
+      "Belleville",
+      "MI"
+    ],
+    [
       "030700",
       42.64717297287085,
       -83.17160936441803,
+      5.49,
+      "Taco Bell",
+      "Rochester Hills",
+      "MI"
+    ],
+    [
+      "000848",
+      42.250590141928726,
+      -83.19532196223633,
+      5.49,
+      "Taco Bell",
+      "Lincoln Park",
+      "MI"
+    ],
+    [
+      "004161",
+      42.638053116470445,
+      -83.1311120791861,
       5.49,
       "Taco Bell",
       "Rochester Hills",

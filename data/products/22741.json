@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$0.45",
-      "count": 224
+      "count": 223
     },
     {
       "bucket": "$0.48",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 1106
+      "count": 1105
     },
     {
       "bucket": "$0.55",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 792
+      "count": 794
     },
     {
       "bucket": "$0.72",
@@ -258,17 +258,17 @@
     {
       "state": "FL",
       "avg_price": 0.63,
-      "store_count": 447
+      "store_count": 448
+    },
+    {
+      "state": "NV",
+      "avg_price": 0.63,
+      "store_count": 87
     },
     {
       "state": "WI",
       "avg_price": 0.63,
       "store_count": 140
-    },
-    {
-      "state": "NV",
-      "avg_price": 0.63,
-      "store_count": 85
     },
     {
       "state": "IA",
@@ -293,7 +293,7 @@
     {
       "state": "IN",
       "avg_price": 0.61,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "LA",
@@ -363,7 +363,7 @@
     {
       "state": "TX",
       "avg_price": 0.54,
-      "store_count": 697
+      "store_count": 696
     },
     {
       "state": "UT",
@@ -373,7 +373,7 @@
     {
       "state": "AR",
       "avg_price": 0.5,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "MN",
@@ -570,6 +570,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032693",
+      "store_name": "Taco Bell",
+      "city": "Amarillo",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.45,
+      "new_price": null,
+      "observed_at": "2026-04-23T21:58:05.659004+00:00"
+    },
+    {
+      "store_number": "017693",
+      "store_name": "Taco Bell",
+      "city": "Tarpon Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-23T21:57:54.430569+00:00"
+    },
+    {
+      "store_number": "031862",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-23T21:57:37.967373+00:00"
+    },
+    {
+      "store_number": "042250",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-23T21:50:13.939630+00:00"
+    },
     {
       "store_number": "040340",
       "store_name": "Taco Bell",
@@ -1212,8 +1252,8 @@
     }
   ],
   "activity_summary": {
-    "added": 32,
-    "removed": 30,
+    "added": 35,
+    "removed": 31,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13490,15 +13530,6 @@
       "NM"
     ],
     [
-      "032693",
-      35.17874201974116,
-      -101.84826124728201,
-      0.45,
-      "Taco Bell",
-      "Amarillo",
-      "TX"
-    ],
-    [
       "041572",
       30.016288264301593,
       -90.23936055603372,
@@ -22184,15 +22215,6 @@
       "TX"
     ],
     [
-      "028905",
-      39.91015594384949,
-      -86.26229614019394,
-      0.5,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
       "031432",
       34.74048831722122,
       -77.97622277411392,
@@ -22425,15 +22447,6 @@
       "Taco Bell",
       "Obetz",
       "OH"
-    ],
-    [
-      "009571",
-      34.479723624135836,
-      -91.55825346708298,
-      0.5,
-      "Taco Bell",
-      "Stuttgart",
-      "AR"
     ],
     [
       "019834",
@@ -22974,6 +22987,15 @@
       "Taco Bell",
       "Red Oak",
       "TX"
+    ],
+    [
+      "017693",
+      28.14473771872977,
+      -82.74125576019287,
+      0.5,
+      "Taco Bell",
+      "Tarpon Springs",
+      "FL"
     ],
     [
       "003271",
@@ -47303,6 +47325,15 @@
       "CA"
     ],
     [
+      "042250",
+      39.5445,
+      -119.81623,
+      0.7,
+      "Taco Bell",
+      "Reno",
+      "NV"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -54096,6 +54127,15 @@
       "Taco Bell",
       "Oakland",
       "CA"
+    ],
+    [
+      "031862",
+      39.533994949755154,
+      -119.86692041158676,
+      0.7,
+      "Taco Bell",
+      "Reno",
+      "NV"
     ],
     [
       "041488",
