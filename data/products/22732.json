@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 89.6,
+  "availability_pct": 89.7,
   "price_stats": {
     "avg": 0.6,
     "min": 0.1,
     "max": 1.09,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6906
+    "store_count": 6911
   },
   "histogram": [
     {
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$0.49",
-      "count": 76
+      "count": 77
     },
     {
       "bucket": "$0.50",
-      "count": 759
+      "count": 761
     },
     {
       "bucket": "$0.55",
@@ -94,11 +94,11 @@
     },
     {
       "bucket": "$0.70",
-      "count": 714
+      "count": 716
     },
     {
       "bucket": "$0.75",
-      "count": 526
+      "count": 527
     },
     {
       "bucket": "$0.79",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$0.90",
-      "count": 114
+      "count": 113
     },
     {
       "bucket": "$0.91",
@@ -211,7 +211,7 @@
     {
       "state": "CA",
       "avg_price": 0.69,
-      "store_count": 805
+      "store_count": 806
     },
     {
       "state": "NY",
@@ -221,7 +221,7 @@
     {
       "state": "FL",
       "avg_price": 0.66,
-      "store_count": 408
+      "store_count": 409
     },
     {
       "state": "NE",
@@ -229,19 +229,19 @@
       "store_count": 43
     },
     {
-      "state": "OR",
-      "avg_price": 0.66,
-      "store_count": 121
-    },
-    {
       "state": "PA",
       "avg_price": 0.66,
       "store_count": 192
     },
     {
+      "state": "OR",
+      "avg_price": 0.65,
+      "store_count": 120
+    },
+    {
       "state": "VA",
       "avg_price": 0.65,
-      "store_count": 184
+      "store_count": 185
     },
     {
       "state": "CO",
@@ -261,7 +261,7 @@
     {
       "state": "NC",
       "avg_price": 0.61,
-      "store_count": 244
+      "store_count": 245
     },
     {
       "state": "WI",
@@ -269,14 +269,14 @@
       "store_count": 141
     },
     {
-      "state": "OH",
-      "avg_price": 0.6,
-      "store_count": 389
-    },
-    {
       "state": "IN",
       "avg_price": 0.6,
       "store_count": 246
+    },
+    {
+      "state": "OH",
+      "avg_price": 0.6,
+      "store_count": 390
     },
     {
       "state": "MS",
@@ -400,8 +400,8 @@
     },
     {
       "state": "OK",
-      "avg_price": 0.26,
-      "store_count": 121
+      "avg_price": 0.27,
+      "store_count": 122
     },
     {
       "state": "AR",
@@ -573,6 +573,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "037738",
+      "store_name": "Taco Bell",
+      "city": "Sweet Home",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:37:22.923386+00:00"
+    },
+    {
+      "store_number": "015857",
+      "store_name": "Taco Bell",
+      "city": "Midlothian",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-24T22:35:34.718529+00:00"
+    },
+    {
+      "store_number": "030757",
+      "store_name": "Taco Bell",
+      "city": "Hayward",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-24T22:25:57.011966+00:00"
+    },
+    {
+      "store_number": "018301",
+      "store_name": "Taco Bell",
+      "city": "Tampa",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.49,
+      "observed_at": "2026-04-24T22:15:49.415954+00:00"
+    },
+    {
+      "store_number": "029417",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-24T22:14:47.798598+00:00"
+    },
+    {
+      "store_number": "041202",
+      "store_name": "Taco Bell",
+      "city": "Mount Airy",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-24T21:23:29.588375+00:00"
+    },
     {
       "store_number": "039840",
       "store_name": "Taco Bell",
@@ -9805,8 +9875,8 @@
     }
   ],
   "activity_summary": {
-    "added": 228,
-    "removed": 688,
+    "added": 234,
+    "removed": 689,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -18025,11 +18095,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.4,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -23413,6 +23483,15 @@
       "Taco Bell",
       "Portland",
       "OR"
+    ],
+    [
+      "018301",
+      27.94528521239673,
+      -82.52321634281444,
+      0.49,
+      "Taco Bell",
+      "Tampa",
+      "FL"
     ],
     [
       "017693",
@@ -30696,6 +30775,24 @@
       "IN"
     ],
     [
+      "029417",
+      39.155577625545796,
+      -84.6294905943887,
+      0.5,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.5,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
+    ],
+    [
       "040717",
       43.11555516686867,
       -77.49130889699528,
@@ -35738,7 +35835,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.6,
       "Taco Bell",
       "Seguin",
@@ -56814,6 +56911,15 @@
       "PA"
     ],
     [
+      "015857",
+      37.40973209870202,
+      -77.65383259205241,
+      0.7,
+      "Taco Bell",
+      "Midlothian",
+      "VA"
+    ],
+    [
       "015885",
       40.635697428209575,
       -75.48713678732513,
@@ -56892,6 +56998,15 @@
       0.7,
       "Taco Bell",
       "Chino",
+      "CA"
+    ],
+    [
+      "030757",
+      37.68295850954963,
+      -122.08873629570007,
+      0.7,
+      "Taco Bell",
+      "Hayward",
       "CA"
     ],
     [
@@ -56974,6 +57089,15 @@
       "Taco Bell",
       "Taylorsville",
       "KY"
+    ],
+    [
+      "041202",
+      36.524366,
+      -80.626104,
+      0.75,
+      "Taco Bell",
+      "Mount Airy",
+      "NC"
     ],
     [
       "037739",
@@ -70114,15 +70238,6 @@
       "Taco Bell",
       "Longview",
       "WA"
-    ],
-    [
-      "037738",
-      44.398648143753476,
-      -122.72650975868241,
-      0.9,
-      "Taco Bell",
-      "Sweet Home",
-      "OR"
     ],
     [
       "038759",

@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 46
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 46
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -154,9 +154,10 @@
     "001896",
     "030253",
     "019191",
+    "024444",
     "027361",
     "024650",
-    "037839",
+    "001732",
     "033314",
     "001591",
     "039686",
@@ -232,14 +233,44 @@
       "price": 4.99
     },
     {
-      "store_number": "037839",
+      "store_number": "001732",
       "name": "Taco Bell",
-      "city": "Ann Arbor",
+      "city": "Canton",
       "state": "MI",
       "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-24T21:55:12.930240+00:00"
+    },
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:55:11.458987+00:00"
+    },
+    {
+      "store_number": "024444",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-24T21:55:08.922772+00:00"
+    },
     {
       "store_number": "001795",
       "store_name": "Taco Bell",
@@ -1102,8 +1133,8 @@
     }
   ],
   "activity_summary": {
-    "added": 66,
-    "removed": 20,
+    "added": 68,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1419,6 +1450,15 @@
       "MI"
     ],
     [
+      "024444",
+      42.44013679435563,
+      -83.3737537537855,
+      4.99,
+      "Taco Bell",
+      "Livonia",
+      "MI"
+    ],
+    [
       "027361",
       42.54992472502078,
       -82.92630142999315,
@@ -1437,12 +1477,12 @@
       "MI"
     ],
     [
-      "037839",
-      42.23087868339839,
-      -83.73982473278835,
+      "001732",
+      42.32247892201157,
+      -83.48488225604342,
       4.99,
       "Taco Bell",
-      "Ann Arbor",
+      "Canton",
       "MI"
     ],
     [

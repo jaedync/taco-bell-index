@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.4,
+  "availability_pct": 99.5,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7662
+    "store_count": 7664
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7662
+      "count": 7664
     }
   ],
   "state_prices": [
@@ -94,7 +94,7 @@
     {
       "state": "OK",
       "avg_price": 0.0,
-      "store_count": 127
+      "store_count": 128
     },
     {
       "state": "OH",
@@ -104,7 +104,7 @@
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 249
+      "store_count": 250
     },
     {
       "state": "NV",
@@ -194,7 +194,7 @@
     {
       "state": "KS",
       "avg_price": 0.0,
-      "store_count": 92
+      "store_count": 90
     },
     {
       "state": "IN",
@@ -224,12 +224,12 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 253
+      "store_count": 254
     },
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 450
+      "store_count": 451
     },
     {
       "state": "DE",
@@ -2372,6 +2372,7 @@
     "004142",
     "020014",
     "033315",
+    "041246",
     "022455",
     "030867",
     "015908",
@@ -2859,6 +2860,7 @@
     "030893",
     "026044",
     "035740",
+    "042886",
     "032987",
     "033037",
     "032758",
@@ -4770,6 +4772,7 @@
     "000939",
     "031343",
     "021178",
+    "039961",
     "032040",
     "031908",
     "033864",
@@ -6354,7 +6357,6 @@
     "003742",
     "031614",
     "028008",
-    "017457",
     "042961",
     "020344",
     "034672",
@@ -7139,7 +7141,6 @@
     "033043",
     "040402",
     "039731",
-    "002518",
     "003192",
     "027494",
     "026927",
@@ -8025,9 +8026,17 @@
     "043007",
     "040713",
     "031500",
-    "042730"
+    "042730",
+    "042450"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042450",
+      "name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "price": 0.0
+    },
     {
       "store_number": "042730",
       "name": "Taco Bell",
@@ -8090,16 +8099,59 @@
       "city": "Saint Petersburg",
       "state": "FL",
       "price": 0.0
-    },
-    {
-      "store_number": "023269",
-      "name": "Taco Bell",
-      "city": "Germantown",
-      "state": "WI",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "002518",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:37:10.234375+00:00"
+    },
+    {
+      "store_number": "039961",
+      "store_name": "Taco Bell",
+      "city": "New Rochelle",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:16:56.535180+00:00"
+    },
+    {
+      "store_number": "042886",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:05:33.444046+00:00"
+    },
+    {
+      "store_number": "041246",
+      "store_name": "Taco Bell",
+      "city": "Roswell",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T21:57:43.775522+00:00"
+    },
     {
       "store_number": "032475",
       "store_name": "Taco Bell",
@@ -9752,8 +9804,8 @@
     }
   ],
   "activity_summary": {
-    "added": 74,
-    "removed": 91,
+    "added": 78,
+    "removed": 92,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11547,7 +11599,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.0,
       "Taco Bell",
       "Seguin",
@@ -22121,11 +22173,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.0,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -27835,6 +27887,15 @@
       "MI"
     ],
     [
+      "041246",
+      34.02688920225713,
+      -84.33440368976099,
+      0.0,
+      "Taco Bell",
+      "Roswell",
+      "GA"
+    ],
+    [
       "022455",
       41.68088118161729,
       -81.2988549470902,
@@ -32216,6 +32277,15 @@
       "Taco Bell",
       "Bridge City",
       "TX"
+    ],
+    [
+      "042886",
+      30.22117370018635,
+      -81.5848857164383,
+      0.0,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
     ],
     [
       "032987",
@@ -49417,6 +49487,15 @@
       "KS"
     ],
     [
+      "039961",
+      40.91286638361039,
+      -73.77573797110017,
+      0.0,
+      "Taco Bell",
+      "New Rochelle",
+      "NY"
+    ],
+    [
       "032040",
       33.546534575312734,
       -80.83066114786561,
@@ -63673,15 +63752,6 @@
       "TX"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.0,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "042961",
       34.216861,
       -82.157881,
@@ -70736,15 +70806,6 @@
       "Taco Bell",
       "Charlottesville",
       "VA"
-    ],
-    [
-      "002518",
-      39.19256372557171,
-      -96.60670072655194,
-      0.0,
-      "Taco Bell",
-      "Manhattan",
-      "KS"
     ],
     [
       "003192",
@@ -78719,6 +78780,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.0,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ]
   ]
 }

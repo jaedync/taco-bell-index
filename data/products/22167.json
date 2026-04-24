@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 4.76,
     "min": 2.99,
     "max": 7.79,
     "median": 4.79,
-    "std_dev": 0.48,
-    "store_count": 7705
+    "std_dev": 0.49,
+    "store_count": 7702
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$3.09",
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 430
+      "count": 429
     },
     {
       "bucket": "$4.09",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 688
+      "count": 687
     },
     {
       "bucket": "$4.60",
@@ -151,7 +151,7 @@
     },
     {
       "bucket": "$5.29",
-      "count": 163
+      "count": 162
     },
     {
       "bucket": "$5.30",
@@ -159,7 +159,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 470
+      "count": 469
     },
     {
       "bucket": "$5.40",
@@ -278,7 +278,7 @@
     {
       "state": "MI",
       "avg_price": 5.02,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "DC",
@@ -317,8 +317,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 4.93,
-      "store_count": 122
+      "avg_price": 4.92,
+      "store_count": 121
     },
     {
       "state": "NY",
@@ -442,8 +442,8 @@
     },
     {
       "state": "OK",
-      "avg_price": 4.28,
-      "store_count": 127
+      "avg_price": 4.27,
+      "store_count": 128
     },
     {
       "state": "SC",
@@ -453,7 +453,7 @@
     {
       "state": "KS",
       "avg_price": 4.19,
-      "store_count": 92
+      "store_count": 90
     },
     {
       "state": "NE",
@@ -581,7 +581,8 @@
     "031587",
     "028361",
     "031586",
-    "032188"
+    "032188",
+    "042450"
   ],
   "priciest_stores": [
     {
@@ -656,6 +657,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:16:32.842843+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.39,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:24:01.714586+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:23:29.025065+00:00"
+    },
     {
       "store_number": "042641",
       "store_name": "Taco Bell",
@@ -14048,8 +14089,8 @@
     }
   ],
   "activity_summary": {
-    "added": 60,
-    "removed": 51,
+    "added": 61,
+    "removed": 54,
     "price_changed": 1228,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14318,6 +14359,15 @@
       "Taco Bell",
       "Brownfield",
       "TX"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      2.99,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "031484",
@@ -19862,15 +19912,6 @@
       "Taco Bell",
       "Richardson",
       "TX"
-    ],
-    [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      3.99,
-      "Taco Bell",
-      "Iola",
-      "KS"
     ],
     [
       "036132",
@@ -35893,15 +35934,6 @@
       "ID"
     ],
     [
-      "034380",
-      39.11631009128362,
-      -94.67128559947014,
-      4.59,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
-    ],
-    [
       "030524",
       25.975387721829343,
       -80.29570475220686,
@@ -46650,7 +46682,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       4.79,
       "Taco Bell",
       "Seguin",
@@ -69059,11 +69091,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       5.19,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -73864,15 +73896,6 @@
       "MI"
     ],
     [
-      "041378",
-      44.78154,
-      -117.82173,
-      5.29,
-      "Taco Bell",
-      "Baker City",
-      "OR"
-    ],
-    [
       "040918",
       48.93754777271098,
       -122.48602126456785,
@@ -75572,15 +75595,6 @@
       "Taco Bell",
       "Post Falls",
       "ID"
-    ],
-    [
-      "041745",
-      42.538476867889386,
-      -83.48039326911228,
-      5.39,
-      "Taco Bell",
-      "Walled Lake",
-      "MI"
     ],
     [
       "037713",

@@ -17,7 +17,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.1,
-    "store_count": 7665
+    "store_count": 7664
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$24.49",
-      "count": 44
+      "count": 45
     },
     {
       "bucket": "$24.59",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$25.49",
-      "count": 127
+      "count": 126
     },
     {
       "bucket": "$25.59",
@@ -166,7 +166,7 @@
     },
     {
       "bucket": "$27.99",
-      "count": 294
+      "count": 293
     },
     {
       "bucket": "$28.29",
@@ -206,7 +206,7 @@
     },
     {
       "bucket": "$29.99",
-      "count": 707
+      "count": 708
     },
     {
       "bucket": "$30.49",
@@ -222,7 +222,7 @@
     },
     {
       "bucket": "$31.99",
-      "count": 651
+      "count": 650
     },
     {
       "bucket": "$32.00",
@@ -452,8 +452,8 @@
     },
     {
       "state": "OK",
-      "avg_price": 31.32,
-      "store_count": 127
+      "avg_price": 31.27,
+      "store_count": 128
     },
     {
       "state": "LA",
@@ -502,13 +502,13 @@
     },
     {
       "state": "OR",
-      "avg_price": 30.11,
-      "store_count": 121
+      "avg_price": 30.13,
+      "store_count": 120
     },
     {
       "state": "MI",
       "avg_price": 30.07,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "MN",
@@ -528,7 +528,7 @@
     {
       "state": "ND",
       "avg_price": 29.99,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "MO",
@@ -582,8 +582,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 28.57,
-      "store_count": 140
+      "avg_price": 28.58,
+      "store_count": 141
     },
     {
       "state": "GA",
@@ -593,7 +593,7 @@
     {
       "state": "KS",
       "avg_price": 28.41,
-      "store_count": 92
+      "store_count": 90
     },
     {
       "state": "TN",
@@ -774,6 +774,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 24.49,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "037578",
+      "store_name": "Taco Bell",
+      "city": "Grand Forks",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 29.99,
+      "observed_at": "2026-04-24T22:37:05.384452+00:00"
+    },
+    {
+      "store_number": "033009",
+      "store_name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 29.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:27:51.180638+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 31.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:16:32.842843+00:00"
+    },
+    {
+      "store_number": "040160",
+      "store_name": "Taco Bell",
+      "city": "Superior",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 29.99,
+      "observed_at": "2026-04-24T21:57:48.892939+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 27.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:23:29.025065+00:00"
+    },
     {
       "store_number": "033000",
       "store_name": "Taco Bell",
@@ -2856,8 +2916,8 @@
     }
   ],
   "activity_summary": {
-    "added": 59,
-    "removed": 52,
+    "added": 62,
+    "removed": 55,
     "price_changed": 97,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5445,6 +5505,15 @@
       "MS"
     ],
     [
+      "042450",
+      36.11539,
+      -97.065863,
+      24.49,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
+    ],
+    [
       "034619",
       34.60928429487368,
       -79.67594271043608,
@@ -7944,15 +8013,6 @@
       25.49,
       "Taco Bell",
       "Coffeyville",
-      "KS"
-    ],
-    [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      25.49,
-      "Taco Bell",
-      "Iola",
       "KS"
     ],
     [
@@ -16920,15 +16980,6 @@
       "GA"
     ],
     [
-      "041378",
-      44.78154,
-      -117.82173,
-      27.99,
-      "Taco Bell",
-      "Baker City",
-      "OR"
-    ],
-    [
       "041372",
       41.28488281299361,
       -82.06365215828382,
@@ -19954,11 +20005,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       28.49,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -22358,7 +22409,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       28.99,
       "Taco Bell",
       "Seguin",
@@ -29556,6 +29607,15 @@
       "MA"
     ],
     [
+      "040160",
+      46.696715633992035,
+      -92.10490124792814,
+      29.99,
+      "Taco Bell",
+      "Superior",
+      "WI"
+    ],
+    [
       "040334",
       45.914309823967585,
       -89.2542557386751,
@@ -32346,15 +32406,6 @@
       "NC"
     ],
     [
-      "033009",
-      42.80323761876341,
-      -86.1141416838652,
-      29.99,
-      "Taco Bell",
-      "Holland",
-      "MI"
-    ],
-    [
       "033027",
       43.20541969368313,
       -86.19753323572108,
@@ -33172,6 +33223,15 @@
       "Taco Bell",
       "Marshall",
       "MN"
+    ],
+    [
+      "037578",
+      47.90883353888597,
+      -97.04455323055299,
+      29.99,
+      "Taco Bell",
+      "Grand Forks",
+      "ND"
     ],
     [
       "029240",
@@ -48652,15 +48712,6 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "034380",
-      39.11631009128362,
-      -94.67128559947014,
-      31.99,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
     ],
     [
       "023134",

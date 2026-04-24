@@ -29,7 +29,7 @@
     {
       "state": "WY",
       "avg_price": 0.0,
-      "store_count": 10
+      "store_count": 11
     },
     {
       "state": "WV",
@@ -194,7 +194,7 @@
     {
       "state": "KS",
       "avg_price": 0.0,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "IN",
@@ -204,7 +204,7 @@
     {
       "state": "IL",
       "avg_price": 0.0,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "ID",
@@ -254,7 +254,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 836
+      "store_count": 837
     },
     {
       "state": "AZ",
@@ -2803,6 +2803,7 @@
     "039814",
     "003496",
     "017156",
+    "023077",
     "035436",
     "004452",
     "031907",
@@ -2897,7 +2898,6 @@
     "029284",
     "004958",
     "038936",
-    "036178",
     "002079",
     "031620",
     "040066",
@@ -5241,6 +5241,7 @@
     "039919",
     "031956",
     "038943",
+    "025498",
     "019260",
     "027980",
     "002995",
@@ -6373,7 +6374,6 @@
     "003742",
     "031614",
     "028008",
-    "017457",
     "042961",
     "020344",
     "034672",
@@ -6712,7 +6712,6 @@
     "039716",
     "004850",
     "017577",
-    "033291",
     "029446",
     "015758",
     "037394",
@@ -8044,9 +8043,17 @@
     "042069",
     "040713",
     "042730",
-    "015968"
+    "015968",
+    "042450"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042450",
+      "name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "price": 0.0
+    },
     {
       "store_number": "015968",
       "name": "Taco Bell",
@@ -8109,16 +8116,59 @@
       "city": "Statesville",
       "state": "NC",
       "price": 0.0
-    },
-    {
-      "store_number": "030765",
-      "name": "Taco Bell",
-      "city": "Newark",
-      "state": "CA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "033291",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:35:33.146092+00:00"
+    },
+    {
+      "store_number": "025498",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:17:44.964069+00:00"
+    },
+    {
+      "store_number": "036178",
+      "store_name": "Taco Bell",
+      "city": "Melrose Park",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:05:34.995009+00:00"
+    },
+    {
+      "store_number": "023077",
+      "store_name": "Taco Bell",
+      "city": "Casper",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:05:29.139240+00:00"
+    },
     {
       "store_number": "033867",
       "store_name": "Taco Bell",
@@ -9561,8 +9611,8 @@
     }
   ],
   "activity_summary": {
-    "added": 74,
-    "removed": 70,
+    "added": 77,
+    "removed": 72,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11356,7 +11406,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.0,
       "Taco Bell",
       "Seguin",
@@ -22002,11 +22052,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.0,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -31523,6 +31573,15 @@
       "OK"
     ],
     [
+      "023077",
+      42.85090352622118,
+      -106.27155125141144,
+      0.0,
+      "Taco Bell",
+      "Casper",
+      "WY"
+    ],
+    [
       "035436",
       33.045028447001094,
       -97.01408460246786,
@@ -32367,15 +32426,6 @@
       "Taco Bell",
       "Spokane",
       "WA"
-    ],
-    [
-      "036178",
-      41.90869910461482,
-      -87.84426663817612,
-      0.0,
-      "Taco Bell",
-      "Melrose Park",
-      "IL"
     ],
     [
       "002079",
@@ -53465,6 +53515,15 @@
       "WA"
     ],
     [
+      "025498",
+      32.75569200632311,
+      -117.1361590297267,
+      0.0,
+      "Taco Bell",
+      "San Diego",
+      "CA"
+    ],
+    [
       "019260",
       34.03748238576338,
       -118.38836838306634,
@@ -63653,15 +63712,6 @@
       "TX"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.0,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "042961",
       34.216861,
       -82.157881,
@@ -66702,15 +66752,6 @@
       "Taco Bell",
       "Marshfield",
       "MO"
-    ],
-    [
-      "033291",
-      35.612484757959585,
-      -97.56641839696391,
-      0.0,
-      "Taco Bell",
-      "Oklahoma City",
-      "OK"
     ],
     [
       "029446",
@@ -78699,6 +78740,15 @@
       "Taco Bell",
       "Jefferson City",
       "TN"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.0,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ]
   ]
 }

@@ -11,19 +11,23 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.82,
+    "avg": 6.94,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.49,
-    "std_dev": 0.58,
-    "store_count": 3
+    "median": 6.89,
+    "std_dev": 0.53,
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$6.49",
       "count": 2
+    },
+    {
+      "bucket": "$7.29",
+      "count": 1
     },
     {
       "bucket": "$7.49",
@@ -61,6 +65,13 @@
       "price": 6.49
     },
     {
+      "store_number": "041251",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 7.29
+    },
+    {
       "store_number": "041223",
       "name": "Taco Bell",
       "city": "Ellenwood",
@@ -81,6 +92,13 @@
       "price": 7.49
     },
     {
+      "store_number": "041251",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 7.29
+    },
+    {
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
@@ -96,6 +114,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041251",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-04-24T22:15:43.308880+00:00"
+    },
     {
       "store_number": "027858",
       "store_name": "Taco Bell",
@@ -398,7 +426,7 @@
     }
   ],
   "activity_summary": {
-    "added": 5,
+    "added": 6,
     "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -444,6 +472,15 @@
       "Taco Bell",
       "Pigeon Forge",
       "TN"
+    ],
+    [
+      "041251",
+      33.9548504761488,
+      -84.05577776243516,
+      7.29,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
     ],
     [
       "041223",

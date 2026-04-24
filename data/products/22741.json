@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7620
+    "store_count": 7618
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 499
+      "count": 500
     },
     {
       "bucket": "$0.45",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$0.49",
-      "count": 390
+      "count": 389
     },
     {
       "bucket": "$0.50",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 844
+      "count": 843
     },
     {
       "bucket": "$0.69",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 610
+      "count": 609
     },
     {
       "bucket": "$0.79",
@@ -203,7 +203,7 @@
     {
       "state": "OR",
       "avg_price": 0.67,
-      "store_count": 121
+      "store_count": 120
     },
     {
       "state": "MI",
@@ -323,7 +323,7 @@
     {
       "state": "PA",
       "avg_price": 0.58,
-      "store_count": 200
+      "store_count": 199
     },
     {
       "state": "MO",
@@ -358,7 +358,7 @@
     {
       "state": "KS",
       "avg_price": 0.54,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "TX",
@@ -408,7 +408,7 @@
     {
       "state": "OK",
       "avg_price": 0.41,
-      "store_count": 126
+      "store_count": 127
     },
     {
       "state": "NE",
@@ -570,6 +570,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "024409",
+      "store_name": "Taco Bell",
+      "city": "York",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:25:26.403495+00:00"
+    },
+    {
+      "store_number": "021401",
+      "store_name": "Taco Bell",
+      "city": "White City",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:10:15.157754+00:00"
+    },
     {
       "store_number": "032693",
       "store_name": "Taco Bell",
@@ -1252,8 +1282,8 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
-    "removed": 31,
+    "added": 36,
+    "removed": 33,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12486,6 +12516,15 @@
       "OH"
     ],
     [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.4,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
+    ],
+    [
       "041144",
       29.5743287,
       -98.56693969999999,
@@ -12730,11 +12769,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.45,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -17218,15 +17257,6 @@
       "Taco Bell",
       "Victoria",
       "TX"
-    ],
-    [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.49,
-      "Taco Bell",
-      "Iola",
-      "KS"
     ],
     [
       "020344",
@@ -44103,15 +44133,6 @@
       "CO"
     ],
     [
-      "024409",
-      39.96346866650875,
-      -76.76920932276713,
-      0.65,
-      "Taco Bell",
-      "York",
-      "PA"
-    ],
-    [
       "036543",
       38.95896136561548,
       -77.40294046237972,
@@ -47237,7 +47258,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.7,
       "Taco Bell",
       "Seguin",
@@ -55990,15 +56011,6 @@
       "Taco Bell",
       "Canoga Park",
       "CA"
-    ],
-    [
-      "021401",
-      42.42572787653785,
-      -122.85097369554933,
-      0.75,
-      "Taco Bell",
-      "White City",
-      "OR"
     ],
     [
       "003975",

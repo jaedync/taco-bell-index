@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.91,
-    "store_count": 7589
+    "store_count": 7588
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$19.49",
-      "count": 270
+      "count": 269
     },
     {
       "bucket": "$19.59",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 481
+      "count": 480
     },
     {
       "bucket": "$20.19",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 716
+      "count": 717
     },
     {
       "bucket": "$21.09",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1424
+      "count": 1425
     },
     {
       "bucket": "$22.29",
@@ -194,7 +194,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1793
+      "count": 1792
     },
     {
       "bucket": "$23.00",
@@ -450,7 +450,7 @@
     {
       "state": "AZ",
       "avg_price": 22.91,
-      "store_count": 193
+      "store_count": 192
     },
     {
       "state": "FL",
@@ -489,8 +489,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 22.22,
-      "store_count": 346
+      "avg_price": 22.23,
+      "store_count": 345
     },
     {
       "state": "WI",
@@ -510,7 +510,7 @@
     {
       "state": "OK",
       "avg_price": 21.89,
-      "store_count": 125
+      "store_count": 126
     },
     {
       "state": "AR",
@@ -520,7 +520,7 @@
     {
       "state": "MO",
       "avg_price": 21.72,
-      "store_count": 223
+      "store_count": 224
     },
     {
       "state": "LA",
@@ -574,8 +574,8 @@
     },
     {
       "state": "KS",
-      "avg_price": 20.98,
-      "store_count": 89
+      "avg_price": 20.99,
+      "store_count": 88
     },
     {
       "state": "AL",
@@ -762,6 +762,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "033009",
+      "store_name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:27:51.180638+00:00"
+    },
+    {
+      "store_number": "027911",
+      "store_name": "Taco Bell",
+      "city": "Jefferson City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 21.99,
+      "observed_at": "2026-04-24T22:17:46.442012+00:00"
+    },
+    {
+      "store_number": "040508",
+      "store_name": "Taco Bell",
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:23:27.024278+00:00"
+    },
     {
       "store_number": "033000",
       "store_name": "Taco Bell",
@@ -2224,8 +2264,8 @@
     }
   ],
   "activity_summary": {
-    "added": 57,
-    "removed": 38,
+    "added": 59,
+    "removed": 40,
     "price_changed": 51,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7135,15 +7175,6 @@
       "KS"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      19.49,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "024663",
       38.17946218597431,
       -84.81419925393311,
@@ -10753,15 +10784,6 @@
       "MN"
     ],
     [
-      "033009",
-      42.80323761876341,
-      -86.1141416838652,
-      19.99,
-      "Taco Bell",
-      "Holland",
-      "MI"
-    ],
-    [
       "033027",
       43.20541969368313,
       -86.19753323572108,
@@ -12969,7 +12991,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       20.99,
       "Taco Bell",
       "Seguin",
@@ -19283,6 +19305,15 @@
       "Taco Bell",
       "Levelland",
       "TX"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      20.99,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "032093",
@@ -33955,6 +33986,15 @@
       "PA"
     ],
     [
+      "027911",
+      38.58174429137641,
+      -92.2195034176275,
+      21.99,
+      "Taco Bell",
+      "Jefferson City",
+      "MO"
+    ],
+    [
       "034859",
       28.59831098412045,
       -81.20885426661394,
@@ -35825,15 +35865,6 @@
       "Taco Bell",
       "Georgetown",
       "OH"
-    ],
-    [
-      "040508",
-      31.505907709334757,
-      -110.25681404051018,
-      22.99,
-      "Taco Bell",
-      "Sierra Vista",
-      "AZ"
     ],
     [
       "034909",
@@ -38753,11 +38784,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       22.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [

@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.3,
+  "availability_pct": 99.2,
   "price_stats": {
     "avg": 0.82,
     "min": 0.3,
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7652
+    "store_count": 7648
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 27
+      "count": 28
     },
     {
       "bucket": "$0.45",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 193
+      "count": 192
     },
     {
       "bucket": "$0.60",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 447
+      "count": 446
     },
     {
       "bucket": "$0.75",
@@ -98,11 +98,11 @@
     },
     {
       "bucket": "$0.89",
-      "count": 126
+      "count": 124
     },
     {
       "bucket": "$0.90",
-      "count": 1738
+      "count": 1737
     },
     {
       "bucket": "$0.95",
@@ -269,12 +269,12 @@
     {
       "state": "MO",
       "avg_price": 0.85,
-      "store_count": 227
+      "store_count": 226
     },
     {
       "state": "OK",
       "avg_price": 0.84,
-      "store_count": 125
+      "store_count": 126
     },
     {
       "state": "OH",
@@ -299,7 +299,7 @@
     {
       "state": "OR",
       "avg_price": 0.82,
-      "store_count": 121
+      "store_count": 120
     },
     {
       "state": "GA",
@@ -379,7 +379,7 @@
     {
       "state": "KS",
       "avg_price": 0.71,
-      "store_count": 92
+      "store_count": 89
     },
     {
       "state": "WI",
@@ -584,6 +584,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "029671",
+      "store_name": "Taco Bell",
+      "city": "O'Fallon",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:37:17.526583+00:00"
+    },
+    {
+      "store_number": "034394",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:37:15.925468+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:16:32.842843+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:23:29.025065+00:00"
+    },
     {
       "store_number": "042357",
       "store_name": "Taco Bell",
@@ -2706,8 +2756,8 @@
     }
   ],
   "activity_summary": {
-    "added": 37,
-    "removed": 24,
+    "added": 38,
+    "removed": 28,
     "price_changed": 151,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3084,6 +3134,15 @@
       "Taco Bell",
       "Suamico",
       "WI"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.4,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "041324",
@@ -7548,15 +7607,6 @@
       "Taco Bell",
       "Victoria",
       "TX"
-    ],
-    [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.59,
-      "Taco Bell",
-      "Iola",
-      "KS"
     ],
     [
       "020344",
@@ -19502,15 +19552,6 @@
       "TX"
     ],
     [
-      "029671",
-      38.76239408535078,
-      -90.69962463808224,
-      0.7,
-      "Taco Bell",
-      "O'Fallon",
-      "MO"
-    ],
-    [
       "029681",
       38.88348812253596,
       -90.12160553900853,
@@ -20035,7 +20076,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.75,
       "Taco Bell",
       "Seguin",
@@ -20952,11 +20993,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.75,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -39131,15 +39172,6 @@
       "MO"
     ],
     [
-      "034380",
-      39.11631009128362,
-      -94.67128559947014,
-      0.89,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
-    ],
-    [
       "037537",
       35.21439289314437,
       -111.59865130485741,
@@ -39545,15 +39577,6 @@
       "MO"
     ],
     [
-      "034394",
-      39.12901809821786,
-      -94.82332013550149,
-      0.89,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
-    ],
-    [
       "034407",
       39.14398877924007,
       -94.56726467285651,
@@ -39912,15 +39935,6 @@
       "Taco Bell",
       "Talbott",
       "TN"
-    ],
-    [
-      "041378",
-      44.78154,
-      -117.82173,
-      0.9,
-      "Taco Bell",
-      "Baker City",
-      "OR"
     ],
     [
       "040955",

@@ -17,7 +17,7 @@
     "max": 1.1,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7028
+    "store_count": 7029
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.45",
-      "count": 260
+      "count": 259
     },
     {
       "bucket": "$0.49",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 520
+      "count": 521
     },
     {
       "bucket": "$0.55",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 45
+      "count": 46
     },
     {
       "bucket": "$0.90",
@@ -200,7 +200,7 @@
     {
       "state": "PA",
       "avg_price": 0.67,
-      "store_count": 194
+      "store_count": 195
     },
     {
       "state": "OR",
@@ -335,7 +335,7 @@
     {
       "state": "KS",
       "avg_price": 0.54,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "NM",
@@ -358,14 +358,14 @@
       "store_count": 35
     },
     {
+      "state": "OK",
+      "avg_price": 0.42,
+      "store_count": 127
+    },
+    {
       "state": "AR",
       "avg_price": 0.42,
       "store_count": 112
-    },
-    {
-      "state": "OK",
-      "avg_price": 0.42,
-      "store_count": 126
     },
     {
       "state": "AZ",
@@ -555,6 +555,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "041494",
+      "store_name": "Taco Bell",
+      "city": "Mansfield",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.89,
+      "observed_at": "2026-04-24T21:24:33.800678+00:00"
+    },
     {
       "store_number": "042730",
       "store_name": "Taco Bell",
@@ -5907,7 +5927,7 @@
     }
   ],
   "activity_summary": {
-    "added": 22,
+    "added": 24,
     "removed": 505,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
@@ -12867,11 +12887,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.4,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -21236,15 +21256,6 @@
       "KS"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.45,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "041562",
       29.97396117897898,
       -90.14348168672768,
@@ -27383,6 +27394,15 @@
       "PA"
     ],
     [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.5,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
+    ],
+    [
       "040717",
       43.11555516686867,
       -77.49130889699528,
@@ -32938,7 +32958,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.6,
       "Taco Bell",
       "Seguin",
@@ -66819,6 +66839,15 @@
       "Taco Bell",
       "Grosse Pointe",
       "MI"
+    ],
+    [
+      "041494",
+      41.781297114102,
+      -77.06887830760846,
+      0.89,
+      "Taco Bell",
+      "Mansfield",
+      "PA"
     ],
     [
       "035304",

@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.818531+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.7,
   "price_stats": {
     "avg": 5.49,
     "min": 5.49,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 50
+    "store_count": 51
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 50
+      "count": 51
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 50
+      "store_count": 51
     }
   ],
   "nutrition": {
@@ -157,6 +157,7 @@
     "033316",
     "004298",
     "033301",
+    "021162",
     "023045",
     "040006",
     "024658",
@@ -244,6 +245,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "021162",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-24T21:57:38.933221+00:00"
+    },
     {
       "store_number": "004161",
       "store_name": "Taco Bell",
@@ -1066,7 +1077,7 @@
     }
   ],
   "activity_summary": {
-    "added": 66,
+    "added": 67,
     "removed": 16,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1420,6 +1431,15 @@
       5.49,
       "Taco Bell",
       "Waterford",
+      "MI"
+    ],
+    [
+      "021162",
+      42.336587950303986,
+      -83.3853131532669,
+      5.49,
+      "Taco Bell",
+      "Westland",
       "MI"
     ],
     [

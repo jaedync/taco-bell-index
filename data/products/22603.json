@@ -17,7 +17,7 @@
     "max": 15.99,
     "median": 10.79,
     "std_dev": 0.95,
-    "store_count": 7693
+    "store_count": 7694
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 246
+      "count": 245
     },
     {
       "bucket": "$8.59",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 50
+      "count": 51
     },
     {
       "bucket": "$8.95",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 799
+      "count": 800
     },
     {
       "bucket": "$10.09",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$10.49",
-      "count": 181
+      "count": 182
     },
     {
       "bucket": "$10.55",
@@ -142,7 +142,7 @@
     },
     {
       "bucket": "$10.79",
-      "count": 317
+      "count": 316
     },
     {
       "bucket": "$10.85",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$10.89",
-      "count": 154
+      "count": 153
     },
     {
       "bucket": "$10.90",
@@ -158,7 +158,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 1456
+      "count": 1457
     },
     {
       "bucket": "$11.00",
@@ -380,8 +380,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 11.23,
-      "store_count": 348
+      "avg_price": 11.22,
+      "store_count": 349
     },
     {
       "state": "DC",
@@ -429,14 +429,14 @@
       "store_count": 49
     },
     {
-      "state": "OK",
-      "avg_price": 10.81,
-      "store_count": 127
-    },
-    {
       "state": "NM",
       "avg_price": 10.79,
       "store_count": 58
+    },
+    {
+      "state": "OK",
+      "avg_price": 10.79,
+      "store_count": 128
     },
     {
       "state": "UT",
@@ -446,7 +446,7 @@
     {
       "state": "OR",
       "avg_price": 10.71,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "VA",
@@ -496,7 +496,7 @@
     {
       "state": "WI",
       "avg_price": 10.33,
-      "store_count": 143
+      "store_count": 144
     },
     {
       "state": "ID",
@@ -526,7 +526,7 @@
     {
       "state": "ND",
       "avg_price": 9.99,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "IN",
@@ -561,7 +561,7 @@
     {
       "state": "KS",
       "avg_price": 9.45,
-      "store_count": 92
+      "store_count": 90
     },
     {
       "state": "MS",
@@ -725,6 +725,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "037578",
+      "store_name": "Taco Bell",
+      "city": "Grand Forks",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-04-24T22:37:05.384452+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_removed",
+      "old_price": 10.79,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:16:32.842843+00:00"
+    },
+    {
+      "store_number": "040160",
+      "store_name": "Taco Bell",
+      "city": "Superior",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-04-24T21:57:48.892939+00:00"
+    },
+    {
+      "store_number": "040007",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-04-24T21:57:41.916696+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 10.89,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:23:29.025065+00:00"
+    },
     {
       "store_number": "037578",
       "store_name": "Taco Bell",
@@ -17497,8 +17557,8 @@
     }
   ],
   "activity_summary": {
-    "added": 110,
-    "removed": 104,
+    "added": 114,
+    "removed": 106,
     "price_changed": 1463,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19468,15 +19528,6 @@
       "TX"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      8.49,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "020344",
       28.04043926527881,
       -97.0428694490738,
@@ -20933,6 +20984,15 @@
       "Taco Bell",
       "Brownfield",
       "TX"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      8.89,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "041494",
@@ -24132,7 +24192,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       9.49,
       "Taco Bell",
       "Seguin",
@@ -38359,6 +38419,15 @@
       "NC"
     ],
     [
+      "037578",
+      47.90883353888597,
+      -97.04455323055299,
+      9.99,
+      "Taco Bell",
+      "Grand Forks",
+      "ND"
+    ],
+    [
       "039738",
       36.06657594135275,
       -80.25761067867279,
@@ -45802,6 +45871,15 @@
       "UT"
     ],
     [
+      "040160",
+      46.696715633992035,
+      -92.10490124792814,
+      10.49,
+      "Taco Bell",
+      "Superior",
+      "WI"
+    ],
+    [
       "042911",
       25.479712930757472,
       -80.46359722317902,
@@ -51220,15 +51298,6 @@
       "OH"
     ],
     [
-      "034380",
-      39.11631009128362,
-      -94.67128559947014,
-      10.79,
-      "Taco Bell",
-      "Kansas City",
-      "KS"
-    ],
-    [
       "041214",
       33.7017783646953,
       -84.26797441673443,
@@ -52748,15 +52817,6 @@
       "Taco Bell",
       "St Johns",
       "FL"
-    ],
-    [
-      "041378",
-      44.78154,
-      -117.82173,
-      10.89,
-      "Taco Bell",
-      "Baker City",
-      "OR"
     ],
     [
       "040761",
@@ -56738,11 +56798,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       10.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -57212,6 +57272,15 @@
       "Taco Bell",
       "Bakersfield",
       "CA"
+    ],
+    [
+      "040007",
+      42.773823760985884,
+      -83.23956324725259,
+      10.99,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
     ],
     [
       "033309",

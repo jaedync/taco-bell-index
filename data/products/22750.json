@@ -10,19 +10,19 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.5,
+  "availability_pct": 99.6,
   "price_stats": {
     "avg": 0.29,
     "min": 0.0,
     "max": 1.0,
     "median": 0.25,
     "std_dev": 0.23,
-    "store_count": 7671
+    "store_count": 7672
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 2140
+      "count": 2141
     },
     {
       "bucket": "$0.10",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 390
+      "count": 389
     },
     {
       "bucket": "$0.31",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 245
+      "count": 246
     },
     {
       "bucket": "$0.60",
@@ -202,7 +202,7 @@
     {
       "state": "MI",
       "avg_price": 0.4,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "MD",
@@ -256,8 +256,8 @@
     },
     {
       "state": "OK",
-      "avg_price": 0.31,
-      "store_count": 126
+      "avg_price": 0.3,
+      "store_count": 127
     },
     {
       "state": "CA",
@@ -302,7 +302,7 @@
     {
       "state": "KS",
       "avg_price": 0.26,
-      "store_count": 90
+      "store_count": 89
     },
     {
       "state": "OH",
@@ -2631,7 +2631,8 @@
     "041135",
     "036216",
     "040419",
-    "040784"
+    "040784",
+    "042450"
   ],
   "priciest_stores": [
     {
@@ -2706,6 +2707,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-04-24T21:54:59.674763+00:00"
+    },
     {
       "store_number": "003190",
       "store_name": "Taco Bell",
@@ -3028,7 +3049,7 @@
     }
   ],
   "activity_summary": {
-    "added": 13,
+    "added": 15,
     "removed": 7,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3536,7 +3557,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.0,
       "Taco Bell",
       "Seguin",
@@ -6379,11 +6400,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.0,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -22297,6 +22318,15 @@
       "Taco Bell",
       "Columbia",
       "SC"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.0,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "040880",
@@ -42999,15 +43029,6 @@
       "CA"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.3,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "042747",
       41.6569227804983,
       -88.00165498403126,
@@ -63525,6 +63546,15 @@
       0.59,
       "Taco Bell",
       "Dearborn",
+      "MI"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      0.59,
+      "Taco Bell",
+      "Roseville",
       "MI"
     ],
     [

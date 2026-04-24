@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 212
+      "count": 213
     },
     {
       "bucket": "$2.09",
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 600
+      "count": 599
     },
     {
       "bucket": "$2.50",
@@ -79,11 +79,11 @@
     },
     {
       "bucket": "$2.59",
-      "count": 694
+      "count": 695
     },
     {
       "bucket": "$2.69",
-      "count": 843
+      "count": 842
     },
     {
       "bucket": "$2.75",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 744
+      "count": 745
     },
     {
       "bucket": "$2.90",
@@ -151,7 +151,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 336
+      "count": 335
     },
     {
       "bucket": "$3.49",
@@ -203,7 +203,7 @@
     {
       "state": "MI",
       "avg_price": 3.07,
-      "store_count": 348
+      "store_count": 346
     },
     {
       "state": "WY",
@@ -248,7 +248,7 @@
     {
       "state": "MO",
       "avg_price": 2.9,
-      "store_count": 225
+      "store_count": 226
     },
     {
       "state": "UT",
@@ -276,14 +276,14 @@
       "store_count": 87
     },
     {
-      "state": "OK",
-      "avg_price": 2.83,
-      "store_count": 126
-    },
-    {
       "state": "PA",
       "avg_price": 2.82,
       "store_count": 202
+    },
+    {
+      "state": "OK",
+      "avg_price": 2.82,
+      "store_count": 127
     },
     {
       "state": "VA",
@@ -323,7 +323,7 @@
     {
       "state": "FL",
       "avg_price": 2.76,
-      "store_count": 450
+      "store_count": 451
     },
     {
       "state": "WV",
@@ -383,7 +383,7 @@
     {
       "state": "KS",
       "avg_price": 2.57,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "MA",
@@ -589,6 +589,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036309",
+      "store_name": "Taco Bell",
+      "city": "Zephyrhills",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-04-24T22:42:57.060064+00:00"
+    },
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:27:51.690236+00:00"
+    },
+    {
+      "store_number": "032706",
+      "store_name": "Taco Bell",
+      "city": "Jefferson City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-24T22:26:15.970013+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:24:01.714586+00:00"
+    },
     {
       "store_number": "042641",
       "store_name": "Taco Bell",
@@ -17521,8 +17571,8 @@
     }
   ],
   "activity_summary": {
-    "added": 53,
-    "removed": 35,
+    "added": 56,
+    "removed": 37,
     "price_changed": 1605,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20752,6 +20802,15 @@
       "Taco Bell",
       "Canton",
       "MS"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      1.99,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "027513",
@@ -30393,15 +30452,6 @@
       "TN"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      2.49,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "004120",
       39.03836518191212,
       -95.76130165064725,
@@ -32254,6 +32304,15 @@
       "Taco Bell",
       "Emory",
       "TX"
+    ],
+    [
+      "036309",
+      28.2192,
+      -82.2504,
+      2.59,
+      "Taco Bell",
+      "Zephyrhills",
+      "FL"
     ],
     [
       "042978",
@@ -43143,15 +43202,6 @@
       2.69,
       "Taco Bell",
       "Muskegon",
-      "MI"
-    ],
-    [
-      "033016",
-      42.90375328148109,
-      -85.78662677675311,
-      2.69,
-      "Taco Bell",
-      "Jenison",
       "MI"
     ],
     [
@@ -62757,6 +62807,15 @@
       "MO"
     ],
     [
+      "032706",
+      38.54822097966061,
+      -92.14979738811962,
+      2.89,
+      "Taco Bell",
+      "Jefferson City",
+      "MO"
+    ],
+    [
       "037015",
       46.9533,
       -114.133,
@@ -63344,7 +63403,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       2.99,
       "Taco Bell",
       "Seguin",
@@ -65332,11 +65391,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       2.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -82905,15 +82964,6 @@
       3.29,
       "Taco Bell",
       "Spring Arbor",
-      "MI"
-    ],
-    [
-      "041745",
-      42.538476867889386,
-      -83.48039326911228,
-      3.29,
-      "Taco Bell",
-      "Walled Lake",
       "MI"
     ],
     [

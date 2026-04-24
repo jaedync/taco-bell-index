@@ -20,7 +20,7 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7076
+    "store_count": 7075
   },
   "histogram": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 497
+      "count": 496
     },
     {
       "bucket": "$5.19",
@@ -221,14 +221,14 @@
       "store_count": 14
     },
     {
+      "state": "KS",
+      "avg_price": 4.93,
+      "store_count": 86
+    },
+    {
       "state": "NY",
       "avg_price": 4.93,
       "store_count": 224
-    },
-    {
-      "state": "KS",
-      "avg_price": 4.92,
-      "store_count": 87
     },
     {
       "state": "MO",
@@ -273,7 +273,7 @@
     {
       "state": "CT",
       "avg_price": 4.24,
-      "store_count": 42
+      "store_count": 41
     },
     {
       "state": "TN",
@@ -293,12 +293,12 @@
     {
       "state": "CO",
       "avg_price": 4.14,
-      "store_count": 136
+      "store_count": 135
     },
     {
       "state": "PA",
       "avg_price": 4.12,
-      "store_count": 181
+      "store_count": 180
     },
     {
       "state": "MA",
@@ -308,7 +308,7 @@
     {
       "state": "IN",
       "avg_price": 4.06,
-      "store_count": 249
+      "store_count": 250
     },
     {
       "state": "MT",
@@ -343,7 +343,7 @@
     {
       "state": "NM",
       "avg_price": 4.02,
-      "store_count": 54
+      "store_count": 55
     },
     {
       "state": "TX",
@@ -383,7 +383,7 @@
     {
       "state": "OK",
       "avg_price": 4.0,
-      "store_count": 112
+      "store_count": 113
     },
     {
       "state": "NH",
@@ -2117,7 +2117,6 @@
     "028466",
     "036546",
     "032936",
-    "029303",
     "028490",
     "040039",
     "029893",
@@ -2327,6 +2326,7 @@
     "030891",
     "042621",
     "033772",
+    "033778",
     "028407",
     "016319",
     "037589",
@@ -3038,7 +3038,6 @@
     "036114",
     "004462",
     "031450",
-    "019266",
     "030127",
     "041232",
     "004092",
@@ -4461,7 +4460,6 @@
     "027599",
     "004807",
     "031402",
-    "002542",
     "030082",
     "021487",
     "023195",
@@ -4608,7 +4606,6 @@
     "035432",
     "031614",
     "028008",
-    "017457",
     "020344",
     "034672",
     "030881",
@@ -5229,6 +5226,7 @@
     "040860",
     "041318",
     "039922",
+    "043196",
     "040063",
     "038911",
     "020425",
@@ -5726,7 +5724,9 @@
     "034782",
     "035065",
     "039033",
-    "015564"
+    "015564",
+    "041738",
+    "042450"
   ],
   "priciest_stores": [
     {
@@ -5801,6 +5801,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "043196",
+      "store_name": "Taco Bell",
+      "city": "Rio Rancho",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-24T22:37:13.617208+00:00"
+    },
+    {
+      "store_number": "002542",
+      "store_name": "Taco Bell",
+      "city": "Golden",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:27:57.715135+00:00"
+    },
+    {
+      "store_number": "019266",
+      "store_name": "Taco Bell",
+      "city": "Fairless Hills",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:15:37.680287+00:00"
+    },
+    {
+      "store_number": "023061",
+      "store_name": "Taco Bell",
+      "city": "Dayton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:15:24.436318+00:00"
+    },
+    {
+      "store_number": "033778",
+      "store_name": "Taco Bell",
+      "city": "Huber Heights",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-24T22:05:36.319382+00:00"
+    },
+    {
+      "store_number": "029303",
+      "store_name": "Taco Bell",
+      "city": "Wallingford",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:04:54.751929+00:00"
+    },
+    {
+      "store_number": "041738",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-24T21:23:28.768869+00:00"
+    },
     {
       "store_number": "033437",
       "store_name": "Taco Bell",
@@ -6903,8 +6983,8 @@
     }
   ],
   "activity_summary": {
-    "added": 44,
-    "removed": 53,
+    "added": 48,
+    "removed": 57,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8228,7 +8308,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       4.0,
       "Taco Bell",
       "Seguin",
@@ -15742,11 +15822,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       4.0,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -21582,15 +21662,6 @@
       "OR"
     ],
     [
-      "029303",
-      41.48501245421248,
-      -72.80876179041115,
-      4.0,
-      "Taco Bell",
-      "Wallingford",
-      "CT"
-    ],
-    [
       "028490",
       38.67464477235669,
       -90.37167175556087,
@@ -23469,6 +23540,15 @@
       4.0,
       "Taco Bell",
       "Cincinnati",
+      "OH"
+    ],
+    [
+      "033778",
+      39.87449205704822,
+      -84.13660258054733,
+      4.0,
+      "Taco Bell",
+      "Huber Heights",
       "OH"
     ],
     [
@@ -29869,15 +29949,6 @@
       "Taco Bell",
       "Pleasant Hill",
       "CA"
-    ],
-    [
-      "019266",
-      40.18524033609046,
-      -74.86896294614941,
-      4.0,
-      "Taco Bell",
-      "Fairless Hills",
-      "PA"
     ],
     [
       "030127",
@@ -42678,15 +42749,6 @@
       "TX"
     ],
     [
-      "002542",
-      39.741569185208704,
-      -105.2005484663675,
-      4.0,
-      "Taco Bell",
-      "Golden",
-      "CO"
-    ],
-    [
       "030082",
       30.495207996062696,
       -97.65591998399941,
@@ -43999,15 +44061,6 @@
       "Taco Bell",
       "Victoria",
       "TX"
-    ],
-    [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      4.0,
-      "Taco Bell",
-      "Iola",
-      "KS"
     ],
     [
       "020344",
@@ -49590,6 +49643,15 @@
       "SC"
     ],
     [
+      "043196",
+      35.23856421220278,
+      -106.65728241205215,
+      4.0,
+      "Taco Bell",
+      "Rio Rancho",
+      "NM"
+    ],
+    [
       "040063",
       39.81931165295382,
       -76.99576697502393,
@@ -54072,6 +54134,24 @@
       "VA"
     ],
     [
+      "041738",
+      39.767431029362385,
+      -86.15898341104509,
+      4.0,
+      "Taco Bell Cantina Cantina",
+      "Indianapolis",
+      "IN"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      4.0,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -57355,15 +57435,6 @@
       "Taco Bell",
       "Memphis",
       "TN"
-    ],
-    [
-      "023061",
-      39.82123420283317,
-      -84.28484908774413,
-      5.0,
-      "Taco Bell",
-      "Dayton",
-      "OH"
     ],
     [
       "034194",

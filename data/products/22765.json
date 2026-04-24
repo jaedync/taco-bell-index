@@ -94,7 +94,7 @@
     {
       "state": "OK",
       "avg_price": 0.0,
-      "store_count": 127
+      "store_count": 128
     },
     {
       "state": "OH",
@@ -189,12 +189,12 @@
     {
       "state": "KY",
       "avg_price": 0.0,
-      "store_count": 158
+      "store_count": 159
     },
     {
       "state": "KS",
       "avg_price": 0.0,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "IN",
@@ -204,7 +204,7 @@
     {
       "state": "IL",
       "avg_price": 0.0,
-      "store_count": 286
+      "store_count": 285
     },
     {
       "state": "ID",
@@ -2896,7 +2896,6 @@
     "004958",
     "034177",
     "038936",
-    "036178",
     "002079",
     "031620",
     "040066",
@@ -3419,6 +3418,7 @@
     "029068",
     "024311",
     "004804",
+    "036158",
     "033796",
     "029329",
     "005599",
@@ -6364,7 +6364,6 @@
     "003742",
     "031614",
     "028008",
-    "017457",
     "042961",
     "020344",
     "034672",
@@ -8029,9 +8028,17 @@
     "042069",
     "040713",
     "042730",
-    "036523"
+    "036523",
+    "042450"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042450",
+      "name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "price": 0.0
+    },
     {
       "store_number": "036523",
       "name": "Taco Bell",
@@ -8094,16 +8101,39 @@
       "city": "Whitehall",
       "state": "PA",
       "price": 0.0
-    },
-    {
-      "store_number": "040419",
-      "name": "Taco Bell",
-      "city": "San Antonio",
-      "state": "FL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "036158",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:14:51.180613+00:00"
+    },
+    {
+      "store_number": "036178",
+      "store_name": "Taco Bell",
+      "city": "Melrose Park",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:05:34.995009+00:00"
+    },
     {
       "store_number": "039054",
       "store_name": "Taco Bell",
@@ -9016,8 +9046,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 53,
+    "added": 40,
+    "removed": 54,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10811,7 +10841,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.0,
       "Taco Bell",
       "Seguin",
@@ -21430,11 +21460,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.0,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -31815,15 +31845,6 @@
       "WA"
     ],
     [
-      "036178",
-      41.90869910461482,
-      -87.84426663817612,
-      0.0,
-      "Taco Bell",
-      "Melrose Park",
-      "IL"
-    ],
-    [
       "002079",
       29.9872385795129,
       -91.82487561369271,
@@ -36520,6 +36541,15 @@
       "Taco Bell",
       "Missoula",
       "MT"
+    ],
+    [
+      "036158",
+      38.15673099468493,
+      -85.71212388580534,
+      0.0,
+      "Taco Bell",
+      "Louisville",
+      "KY"
     ],
     [
       "033796",
@@ -63027,15 +63057,6 @@
       "TX"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.0,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "042961",
       34.216861,
       -82.157881,
@@ -78019,6 +78040,15 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.0,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ]
   ]
 }

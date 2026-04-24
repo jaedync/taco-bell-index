@@ -22,7 +22,7 @@
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 76
+      "count": 75
     },
     {
       "bucket": "$0.20",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$0.55",
@@ -83,7 +83,7 @@
     {
       "state": "CA",
       "avg_price": 0.31,
-      "store_count": 106
+      "store_count": 107
     },
     {
       "state": "OR",
@@ -102,8 +102,8 @@
     },
     {
       "state": "AZ",
-      "avg_price": 0.03,
-      "store_count": 15
+      "avg_price": 0.04,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -150,13 +150,6 @@
       "price": 0.0
     },
     {
-      "store_number": "034918",
-      "name": "Taco Bell",
-      "city": "Buckeye",
-      "state": "AZ",
-      "price": 0.0
-    },
-    {
       "store_number": "036411",
       "name": "Taco Bell",
       "city": "Rochester",
@@ -190,6 +183,13 @@
       "city": "Mesa",
       "state": "AZ",
       "price": 0.0
+    },
+    {
+      "store_number": "037542",
+      "name": "Taco Bell",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "price": 0.0
     }
   ],
   "min_price_store_numbers": [
@@ -197,7 +197,6 @@
     "040355",
     "035632",
     "024286",
-    "034918",
     "036411",
     "037045",
     "036165",
@@ -328,21 +327,41 @@
       "price": 0.55
     },
     {
+      "store_number": "030757",
+      "name": "Taco Bell",
+      "city": "Hayward",
+      "state": "CA",
+      "price": 0.5
+    },
+    {
       "store_number": "039840",
       "name": "Taco Bell",
       "city": "Chino",
       "state": "CA",
       "price": 0.5
-    },
-    {
-      "store_number": "030937",
-      "name": "Taco Bell",
-      "city": "Pittsburg",
-      "state": "CA",
-      "price": 0.5
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030757",
+      "store_name": "Taco Bell",
+      "city": "Hayward",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-24T22:25:57.011966+00:00"
+    },
+    {
+      "store_number": "034918",
+      "store_name": "Taco Bell",
+      "city": "Buckeye",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:34:08.074963+00:00"
+    },
     {
       "store_number": "039840",
       "store_name": "Taco Bell",
@@ -695,8 +714,8 @@
     }
   ],
   "activity_summary": {
-    "added": 15,
-    "removed": 20,
+    "added": 16,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -740,15 +759,6 @@
       "Taco Bell",
       "San Luis Obispo",
       "CA"
-    ],
-    [
-      "034918",
-      33.465959860320915,
-      -112.50494081024209,
-      0.0,
-      "Taco Bell",
-      "Buckeye",
-      "AZ"
     ],
     [
       "036411",
@@ -3187,6 +3197,15 @@
       0.5,
       "Taco Bell",
       "Chino",
+      "CA"
+    ],
+    [
+      "030757",
+      37.68295850954963,
+      -122.08873629570007,
+      0.5,
+      "Taco Bell",
+      "Hayward",
       "CA"
     ],
     [

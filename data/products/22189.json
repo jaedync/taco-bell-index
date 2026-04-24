@@ -16,8 +16,8 @@
     "min": 11.88,
     "max": 36.99,
     "median": 22.99,
-    "std_dev": 1.83,
-    "store_count": 7678
+    "std_dev": 1.82,
+    "store_count": 7677
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$19.49",
-      "count": 255
+      "count": 254
     },
     {
       "bucket": "$19.89",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 460
+      "count": 459
     },
     {
       "bucket": "$20.19",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 739
+      "count": 740
     },
     {
       "bucket": "$21.09",
@@ -478,7 +478,7 @@
     {
       "state": "MI",
       "avg_price": 22.22,
-      "store_count": 349
+      "store_count": 348
     },
     {
       "state": "WI",
@@ -501,14 +501,14 @@
       "store_count": 113
     },
     {
-      "state": "OK",
-      "avg_price": 21.89,
-      "store_count": 127
-    },
-    {
       "state": "ID",
       "avg_price": 21.89,
       "store_count": 34
+    },
+    {
+      "state": "OK",
+      "avg_price": 21.88,
+      "store_count": 128
     },
     {
       "state": "LA",
@@ -562,8 +562,8 @@
     },
     {
       "state": "KS",
-      "avg_price": 20.9,
-      "store_count": 92
+      "avg_price": 20.91,
+      "store_count": 91
     },
     {
       "state": "AL",
@@ -750,6 +750,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "033009",
+      "store_name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:27:51.180638+00:00"
+    },
     {
       "store_number": "033000",
       "store_name": "Taco Bell",
@@ -2232,8 +2252,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 34,
+    "added": 43,
+    "removed": 35,
     "price_changed": 72,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7053,15 +7073,6 @@
       "KS"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      19.49,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "024663",
       38.17946218597431,
       -84.81419925393311,
@@ -10572,15 +10583,6 @@
       "NE"
     ],
     [
-      "033009",
-      42.80323761876341,
-      -86.1141416838652,
-      19.99,
-      "Taco Bell",
-      "Holland",
-      "MI"
-    ],
-    [
       "033027",
       43.20541969368313,
       -86.19753323572108,
@@ -12914,7 +12916,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       20.99,
       "Taco Bell",
       "Seguin",
@@ -19443,6 +19445,15 @@
       20.99,
       "Taco Bell",
       "Lawton",
+      "OK"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      20.99,
+      "Taco Bell",
+      "Stillwater",
       "OK"
     ],
     [
@@ -39481,11 +39492,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       22.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [

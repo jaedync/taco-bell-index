@@ -12,14 +12,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 90.9,
+  "availability_pct": 91.0,
   "price_stats": {
     "avg": 3.29,
     "min": 1.59,
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7008
+    "store_count": 7010
   },
   "histogram": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 56
+      "count": 57
     },
     {
       "bucket": "$2.29",
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2548
+      "count": 2547
     },
     {
       "bucket": "$3.09",
@@ -96,7 +96,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 715
+      "count": 716
     },
     {
       "bucket": "$3.29",
@@ -104,7 +104,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 473
+      "count": 475
     },
     {
       "bucket": "$3.40",
@@ -168,7 +168,7 @@
     },
     {
       "bucket": "$4.18",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$4.19",
@@ -239,7 +239,7 @@
     {
       "state": "CA",
       "avg_price": 3.65,
-      "store_count": 834
+      "store_count": 835
     },
     {
       "state": "HI",
@@ -299,7 +299,7 @@
     {
       "state": "OH",
       "avg_price": 3.31,
-      "store_count": 191
+      "store_count": 192
     },
     {
       "state": "ID",
@@ -418,8 +418,8 @@
     },
     {
       "state": "KS",
-      "avg_price": 3.05,
-      "store_count": 91
+      "avg_price": 3.06,
+      "store_count": 90
     },
     {
       "state": "AZ",
@@ -464,7 +464,7 @@
     {
       "state": "OK",
       "avg_price": 2.97,
-      "store_count": 127
+      "store_count": 128
     }
   ],
   "nutrition": {
@@ -629,6 +629,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "020219",
+      "store_name": "Taco Bell",
+      "city": "Somerset",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-24T22:37:13.445462+00:00"
+    },
+    {
+      "store_number": "035467",
+      "store_name": "Taco Bell",
+      "city": "Citrus Heights",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-24T22:10:12.588979+00:00"
+    },
+    {
+      "store_number": "039533",
+      "store_name": "Taco Bell",
+      "city": "Staten Island",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-24T21:57:47.893221+00:00"
+    },
+    {
+      "store_number": "038758",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 4.18,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:57:47.595076+00:00"
+    },
     {
       "store_number": "030306",
       "store_name": "Taco Bell",
@@ -16811,8 +16861,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 664,
+    "added": 68,
+    "removed": 665,
     "price_changed": 890,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17423,6 +17473,15 @@
       "Taco Bell",
       "Brownfield",
       "TX"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      2.19,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "041498",
@@ -22053,7 +22112,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       2.99,
       "Taco Bell",
       "Seguin",
@@ -25949,11 +26008,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       2.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -39259,15 +39318,6 @@
       "PA"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      2.99,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "042961",
       34.216861,
       -82.157881,
@@ -46133,6 +46183,15 @@
       "Taco Bell",
       "Portland",
       "OR"
+    ],
+    [
+      "035467",
+      38.706616358950875,
+      -121.27130358363502,
+      3.19,
+      "Taco Bell",
+      "Citrus Heights",
+      "CA"
     ],
     [
       "015905",
@@ -55459,6 +55518,15 @@
       "TX"
     ],
     [
+      "039533",
+      40.61588913813116,
+      -74.07188228344974,
+      3.39,
+      "Taco Bell",
+      "Staten Island",
+      "NY"
+    ],
+    [
       "042577",
       33.92625404412495,
       -84.74611869194156,
@@ -58562,6 +58630,15 @@
       "Taco Bell",
       "Edgewood",
       "MD"
+    ],
+    [
+      "020219",
+      39.808084803346254,
+      -82.29969710111618,
+      3.39,
+      "Taco Bell",
+      "Somerset",
+      "OH"
     ],
     [
       "038830",
@@ -76543,15 +76620,6 @@
       4.18,
       "Taco Bell",
       "Bronx",
-      "NY"
-    ],
-    [
-      "038758",
-      40.83865506131583,
-      -73.94110877670383,
-      4.18,
-      "Taco Bell",
-      "New York",
       "NY"
     ],
     [

@@ -17,7 +17,7 @@
     "max": 1.99,
     "median": 0.95,
     "std_dev": 0.18,
-    "store_count": 7669
+    "store_count": 7671
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 77
+      "count": 78
     },
     {
       "bucket": "$0.67",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 500
+      "count": 499
     },
     {
       "bucket": "$0.85",
@@ -102,11 +102,11 @@
     },
     {
       "bucket": "$0.99",
-      "count": 562
+      "count": 563
     },
     {
       "bucket": "$1.00",
-      "count": 2149
+      "count": 2150
     },
     {
       "bucket": "$1.04",
@@ -197,7 +197,7 @@
     {
       "state": "CT",
       "avg_price": 1.09,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "MT",
@@ -262,7 +262,7 @@
     {
       "state": "FL",
       "avg_price": 0.98,
-      "store_count": 450
+      "store_count": 451
     },
     {
       "state": "LA",
@@ -370,19 +370,19 @@
       "store_count": 113
     },
     {
+      "state": "KS",
+      "avg_price": 0.88,
+      "store_count": 91
+    },
+    {
       "state": "AK",
       "avg_price": 0.88,
       "store_count": 14
     },
     {
-      "state": "KS",
-      "avg_price": 0.88,
-      "store_count": 92
-    },
-    {
       "state": "OK",
       "avg_price": 0.87,
-      "store_count": 125
+      "store_count": 126
     },
     {
       "state": "KY",
@@ -594,6 +594,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "036300",
+      "store_name": "Taco Bell",
+      "city": "Chiefland",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-04-24T22:26:12.499374+00:00"
+    },
+    {
+      "store_number": "029250",
+      "store_name": "Taco Bell",
+      "city": "Hartford",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-04-24T22:15:46.651326+00:00"
+    },
     {
       "store_number": "035440",
       "store_name": "Taco Bell",
@@ -1136,7 +1166,7 @@
     }
   ],
   "activity_summary": {
-    "added": 22,
+    "added": 25,
     "removed": 20,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6491,6 +6521,15 @@
       "Taco Bell",
       "Brownfield",
       "TX"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.65,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "004062",
@@ -16051,15 +16090,6 @@
       "GA"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.8,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "036275",
       42.94187268353486,
       -88.86326370527968,
@@ -23118,7 +23148,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.9,
       "Taco Bell",
       "Seguin",
@@ -32711,11 +32741,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.95,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -38531,6 +38561,15 @@
       "Taco Bell",
       "Portland",
       "OR"
+    ],
+    [
+      "029250",
+      41.74231508100437,
+      -72.71143823862076,
+      0.99,
+      "Taco Bell",
+      "Hartford",
+      "CT"
     ],
     [
       "030141",
@@ -60356,6 +60395,15 @@
       "Taco Bell",
       "Toledo",
       "OH"
+    ],
+    [
+      "036300",
+      29.499343592274975,
+      -82.86923924091752,
+      1.0,
+      "Taco Bell",
+      "Chiefland",
+      "FL"
     ],
     [
       "032954",

@@ -18,7 +18,7 @@
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7201
+    "store_count": 7199
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 32
+      "count": 33
     },
     {
       "bucket": "$4.09",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 401
+      "count": 400
     },
     {
       "bucket": "$5.05",
@@ -139,7 +139,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 1744
+      "count": 1742
     },
     {
       "bucket": "$6.00",
@@ -314,8 +314,8 @@
     },
     {
       "state": "OK",
-      "avg_price": 6.03,
-      "store_count": 127
+      "avg_price": 6.02,
+      "store_count": 128
     },
     {
       "state": "RI",
@@ -335,7 +335,7 @@
     {
       "state": "CA",
       "avg_price": 5.94,
-      "store_count": 840
+      "store_count": 838
     },
     {
       "state": "HI",
@@ -485,7 +485,7 @@
     {
       "state": "KS",
       "avg_price": 5.08,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "NE",
@@ -647,6 +647,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "016929",
+      "store_name": "Taco Bell",
+      "city": "Clearlake",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:34:00.499076+00:00"
+    },
+    {
+      "store_number": "002984",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T22:17:34.803414+00:00"
+    },
     {
       "store_number": "042772",
       "store_name": "Taco Bell",
@@ -16739,8 +16769,8 @@
     }
   ],
   "activity_summary": {
-    "added": 65,
-    "removed": 550,
+    "added": 66,
+    "removed": 552,
     "price_changed": 994,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17045,6 +17075,15 @@
       "Taco Bell",
       "Brownfield",
       "TX"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      3.99,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "035126",
@@ -23482,15 +23521,6 @@
       "SC"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      4.99,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "004120",
       39.03836518191212,
       -95.76130165064725,
@@ -27300,7 +27330,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       5.29,
       "Taco Bell",
       "Seguin",
@@ -52859,11 +52889,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       5.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -59689,15 +59719,6 @@
       "CA"
     ],
     [
-      "002984",
-      33.651804662352674,
-      -117.64569823445527,
-      5.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Mission Viejo",
-      "CA"
-    ],
-    [
       "036352",
       40.82547053540201,
       -91.14084541797638,
@@ -62522,15 +62543,6 @@
       "Taco Bell",
       "Monroe",
       "LA"
-    ],
-    [
-      "016929",
-      38.94958255178735,
-      -122.63059079647064,
-      5.99,
-      "Taco Bell",
-      "Clearlake",
-      "CA"
     ],
     [
       "002396",

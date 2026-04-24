@@ -18,7 +18,7 @@
     "max": 5.79,
     "median": 2.39,
     "std_dev": 0.38,
-    "store_count": 7700
+    "store_count": 7702
   },
   "histogram": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1854
+      "count": 1855
     },
     {
       "bucket": "$2.09",
@@ -75,7 +75,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 619
+      "count": 620
     },
     {
       "bucket": "$2.50",
@@ -302,7 +302,7 @@
     {
       "state": "PA",
       "avg_price": 2.45,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "WI",
@@ -346,8 +346,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 2.26,
-      "store_count": 115
+      "avg_price": 2.27,
+      "store_count": 116
     },
     {
       "state": "NC",
@@ -355,14 +355,14 @@
       "store_count": 264
     },
     {
-      "state": "OK",
-      "avg_price": 2.23,
-      "store_count": 127
-    },
-    {
       "state": "NE",
       "avg_price": 2.23,
       "store_count": 44
+    },
+    {
+      "state": "OK",
+      "avg_price": 2.23,
+      "store_count": 128
     },
     {
       "state": "MN",
@@ -422,7 +422,7 @@
     {
       "state": "KS",
       "avg_price": 2.08,
-      "store_count": 92
+      "store_count": 91
     },
     {
       "state": "HI",
@@ -612,6 +612,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "039922",
+      "store_name": "Taco Bell",
+      "city": "Bluffton",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-04-24T22:37:13.599686+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-24T21:54:59.674763+00:00"
+    },
+    {
+      "store_number": "041177",
+      "store_name": "Taco Bell",
+      "city": "Parkesburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-24T21:24:33.603540+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:24:01.714586+00:00"
+    },
     {
       "store_number": "039922",
       "store_name": "Taco Bell",
@@ -9604,8 +9654,8 @@
     }
   ],
   "activity_summary": {
-    "added": 55,
-    "removed": 50,
+    "added": 59,
+    "removed": 51,
     "price_changed": 794,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12522,15 +12572,6 @@
       "TX"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      1.89,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "020344",
       28.04043926527881,
       -97.0428694490738,
@@ -13422,6 +13463,15 @@
       "TX"
     ],
     [
+      "042450",
+      36.11539,
+      -97.065863,
+      1.89,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
+    ],
+    [
       "032954",
       39.03570243248032,
       -77.05521037225668,
@@ -13856,7 +13906,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       1.99,
       "Taco Bell",
       "Seguin",
@@ -14257,6 +14307,15 @@
       "Taco Bell",
       "Bryan",
       "TX"
+    ],
+    [
+      "041177",
+      39.985111,
+      -75.932244,
+      1.99,
+      "Taco Bell",
+      "Parkesburg",
+      "PA"
     ],
     [
       "041954",
@@ -54795,6 +54854,15 @@
       "FL"
     ],
     [
+      "039922",
+      32.255501256143404,
+      -80.84758818964474,
+      2.49,
+      "Taco Bell",
+      "Bluffton",
+      "SC"
+    ],
+    [
       "020425",
       32.83247745709776,
       -79.82560830433937,
@@ -71355,15 +71423,6 @@
       "MI"
     ],
     [
-      "041745",
-      42.538476867889386,
-      -83.48039326911228,
-      2.99,
-      "Taco Bell",
-      "Walled Lake",
-      "MI"
-    ],
-    [
       "041953",
       34.083967907322304,
       -118.35964792417609,
@@ -72184,11 +72243,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       2.99,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -72459,6 +72518,15 @@
       2.99,
       "Taco Bell",
       "Dearborn",
+      "MI"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      2.99,
+      "Taco Bell",
+      "Roseville",
       "MI"
     ],
     [

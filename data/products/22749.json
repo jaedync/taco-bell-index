@@ -17,12 +17,12 @@
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7611
+    "store_count": 7610
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 270
+      "count": 271
     },
     {
       "bucket": "$0.10",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 2304
+      "count": 2302
     },
     {
       "bucket": "$0.35",
@@ -220,7 +220,7 @@
     {
       "state": "GA",
       "avg_price": 0.42,
-      "store_count": 249
+      "store_count": 248
     },
     {
       "state": "DE",
@@ -310,7 +310,7 @@
     {
       "state": "KS",
       "avg_price": 0.34,
-      "store_count": 91
+      "store_count": 90
     },
     {
       "state": "KY",
@@ -395,7 +395,7 @@
     {
       "state": "OK",
       "avg_price": 0.22,
-      "store_count": 124
+      "store_count": 125
     },
     {
       "state": "WY",
@@ -769,7 +769,8 @@
     "034028",
     "032188",
     "032955",
-    "033750"
+    "033750",
+    "042450"
   ],
   "priciest_stores": [
     {
@@ -844,6 +845,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042450",
+      "store_name": "Taco Bell",
+      "city": "Stillwater",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-24T22:37:35.205747+00:00"
+    },
+    {
+      "store_number": "037332",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-24T21:44:38.613369+00:00"
+    },
     {
       "store_number": "028110",
       "store_name": "Taco Bell",
@@ -1686,8 +1707,8 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
-    "removed": 31,
+    "added": 35,
+    "removed": 32,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4125,6 +4146,15 @@
       "Taco Bell",
       "Muncy",
       "PA"
+    ],
+    [
+      "042450",
+      36.11539,
+      -97.065863,
+      0.0,
+      "Taco Bell",
+      "Stillwater",
+      "OK"
     ],
     [
       "040776",
@@ -18095,15 +18125,6 @@
       "CA"
     ],
     [
-      "037332",
-      33.72820549105344,
-      -84.57252377913323,
-      0.3,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "036501",
       32.45908731430905,
       -111.2161373653339,
@@ -31289,15 +31310,6 @@
       "TX"
     ],
     [
-      "017457",
-      37.93696648776899,
-      -95.40970806779114,
-      0.3,
-      "Taco Bell",
-      "Iola",
-      "KS"
-    ],
-    [
       "041562",
       29.97396117897898,
       -90.14348168672768,
@@ -42675,11 +42687,11 @@
     ],
     [
       "037684",
-      37.10062776163656,
-      -113.53557160395853,
+      37.1005241,
+      -113.5355562,
       0.4,
       "Taco Bell",
-      "Saint George",
+      "St. George",
       "UT"
     ],
     [
@@ -45493,7 +45505,7 @@
     [
       "041554",
       29.576953,
-      -97.991228,
+      -97.99122799999999,
       0.45,
       "Taco Bell",
       "Seguin",
