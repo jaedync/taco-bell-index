@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.818531+00:00",
-  "availability_pct": 0.7,
+  "availability_pct": 0.6,
   "price_stats": {
     "avg": 5.49,
     "min": 5.49,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 51
+    "store_count": 50
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 51
+      "count": 50
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 51
+      "store_count": 50
     }
   ],
   "nutrition": {
@@ -146,7 +146,6 @@
     "031393",
     "024434",
     "033312",
-    "001738",
     "037840",
     "041875",
     "024150",
@@ -245,6 +244,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "001738",
+      "store_name": "Taco Bell",
+      "city": "Farmington Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:53:41.389636+00:00"
+    },
     {
       "store_number": "021162",
       "store_name": "Taco Bell",
@@ -1078,7 +1087,7 @@
   ],
   "activity_summary": {
     "added": 67,
-    "removed": 16,
+    "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1332,15 +1341,6 @@
       5.49,
       "Taco Bell",
       "Troy",
-      "MI"
-    ],
-    [
-      "001738",
-      42.468798757808486,
-      -83.42478863430642,
-      5.49,
-      "Taco Bell",
-      "Farmington Hills",
       "MI"
     ],
     [

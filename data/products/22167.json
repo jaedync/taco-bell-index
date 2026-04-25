@@ -17,8 +17,8 @@
     "min": 2.99,
     "max": 7.79,
     "median": 4.79,
-    "std_dev": 0.49,
-    "store_count": 7702
+    "std_dev": 0.48,
+    "store_count": 7701
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 104
+      "count": 103
     },
     {
       "bucket": "$3.89",
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 429
+      "count": 428
     },
     {
       "bucket": "$4.09",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 687
+      "count": 688
     },
     {
       "bucket": "$4.60",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 844
+      "count": 843
     },
     {
       "bucket": "$4.81",
@@ -159,7 +159,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 469
+      "count": 470
     },
     {
       "bucket": "$5.40",
@@ -278,7 +278,7 @@
     {
       "state": "MI",
       "avg_price": 5.02,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "DC",
@@ -343,7 +343,7 @@
     {
       "state": "WI",
       "avg_price": 4.81,
-      "store_count": 144
+      "store_count": 143
     },
     {
       "state": "ID",
@@ -393,7 +393,7 @@
     {
       "state": "KY",
       "avg_price": 4.65,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "NC",
@@ -453,12 +453,12 @@
     {
       "state": "KS",
       "avg_price": 4.19,
-      "store_count": 90
+      "store_count": 91
     },
     {
       "state": "NE",
       "avg_price": 4.03,
-      "store_count": 44
+      "store_count": 43
     },
     {
       "state": "MS",
@@ -657,6 +657,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035270",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:58:12.458300+00:00"
+    },
+    {
+      "store_number": "036159",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:56:30.079818+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-04-25T20:56:03.708267+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.39,
+      "observed_at": "2026-04-25T20:47:48.825215+00:00"
+    },
     {
       "store_number": "042450",
       "store_name": "Taco Bell",
@@ -14089,8 +14129,8 @@
     }
   ],
   "activity_summary": {
-    "added": 61,
-    "removed": 54,
+    "added": 63,
+    "removed": 56,
     "price_changed": 1228,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16627,15 +16667,6 @@
       "Taco Bell",
       "Ridgeland",
       "MS"
-    ],
-    [
-      "003159",
-      44.00878357759126,
-      -88.58106107266394,
-      3.79,
-      "Taco Bell",
-      "Oshkosh",
-      "WI"
     ],
     [
       "032322",
@@ -19998,15 +20029,6 @@
       "035283",
       41.292712313998464,
       -96.14230982961999,
-      3.99,
-      "Taco Bell",
-      "Omaha",
-      "NE"
-    ],
-    [
-      "035270",
-      41.23443163312327,
-      -96.1424195766449,
       3.99,
       "Taco Bell",
       "Omaha",
@@ -35934,6 +35956,15 @@
       "ID"
     ],
     [
+      "034380",
+      39.11631009128362,
+      -94.67128559947014,
+      4.59,
+      "Taco Bell",
+      "Kansas City",
+      "KS"
+    ],
+    [
       "030524",
       25.975387721829343,
       -80.29570475220686,
@@ -51358,15 +51389,6 @@
       "Taco Bell",
       "La Crosse",
       "WI"
-    ],
-    [
-      "036159",
-      38.212169490530904,
-      -85.72046972741934,
-      4.79,
-      "Taco Bell",
-      "Louisville",
-      "KY"
     ],
     [
       "029048",
@@ -75595,6 +75617,15 @@
       "Taco Bell",
       "Post Falls",
       "ID"
+    ],
+    [
+      "041745",
+      42.538476867889386,
+      -83.48039326911228,
+      5.39,
+      "Taco Bell",
+      "Walled Lake",
+      "MI"
     ],
     [
       "037713",

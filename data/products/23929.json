@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 47
+    "store_count": 48
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 47
+      "count": 48
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 47
+      "store_count": 48
     }
   ],
   "nutrition": {
@@ -157,6 +157,7 @@
     "024444",
     "027361",
     "024650",
+    "037839",
     "001732",
     "033314",
     "001591",
@@ -241,6 +242,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037839",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-25T20:53:41.700383+00:00"
+    },
     {
       "store_number": "001732",
       "store_name": "Taco Bell",
@@ -1133,7 +1144,7 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
+    "added": 69,
     "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1474,6 +1485,15 @@
       4.99,
       "Taco Bell",
       "Clinton Township",
+      "MI"
+    ],
+    [
+      "037839",
+      42.23087868339839,
+      -83.73982473278835,
+      4.99,
+      "Taco Bell",
+      "Ann Arbor",
       "MI"
     ],
     [

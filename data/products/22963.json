@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 206
+      "count": 205
     },
     {
       "bucket": "$5.09",
@@ -74,11 +74,11 @@
     },
     {
       "bucket": "$5.49",
-      "count": 321
+      "count": 320
     },
     {
       "bucket": "$5.59",
-      "count": 447
+      "count": 448
     },
     {
       "bucket": "$5.69",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 963
+      "count": 962
     },
     {
       "bucket": "$6.00",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 1367
+      "count": 1368
     },
     {
       "bucket": "$6.25",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 478
+      "count": 479
     },
     {
       "bucket": "$6.30",
@@ -274,7 +274,7 @@
     {
       "state": "CA",
       "avg_price": 6.3,
-      "store_count": 834
+      "store_count": 836
     },
     {
       "state": "MD",
@@ -317,14 +317,14 @@
       "store_count": 35
     },
     {
+      "state": "WI",
+      "avg_price": 6.11,
+      "store_count": 140
+    },
+    {
       "state": "LA",
       "avg_price": 6.11,
       "store_count": 134
-    },
-    {
-      "state": "WI",
-      "avg_price": 6.1,
-      "store_count": 141
     },
     {
       "state": "PA",
@@ -384,7 +384,7 @@
     {
       "state": "KY",
       "avg_price": 5.92,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "FL",
@@ -444,7 +444,7 @@
     {
       "state": "KS",
       "avg_price": 5.59,
-      "store_count": 90
+      "store_count": 91
     },
     {
       "state": "MO",
@@ -454,7 +454,7 @@
     {
       "state": "NE",
       "avg_price": 5.54,
-      "store_count": 44
+      "store_count": 43
     },
     {
       "state": "SC",
@@ -652,6 +652,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035270",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:58:12.458300+00:00"
+    },
+    {
+      "store_number": "016929",
+      "store_name": "Taco Bell",
+      "city": "Clearlake",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-04-25T20:58:11.633045+00:00"
+    },
+    {
+      "store_number": "023176",
+      "store_name": "Taco Bell",
+      "city": "Fullerton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-04-25T20:56:39.897158+00:00"
+    },
+    {
+      "store_number": "036159",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:56:30.079818+00:00"
+    },
+    {
+      "store_number": "034380",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.59,
+      "observed_at": "2026-04-25T20:56:03.708267+00:00"
+    },
     {
       "store_number": "042450",
       "store_name": "Taco Bell",
@@ -22514,8 +22564,8 @@
     }
   ],
   "activity_summary": {
-    "added": 147,
-    "removed": 612,
+    "added": 150,
+    "removed": 614,
     "price_changed": 1427,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24818,15 +24868,6 @@
       "Taco Bell",
       "Fishers",
       "IN"
-    ],
-    [
-      "003159",
-      44.00878357759126,
-      -88.58106107266394,
-      4.99,
-      "Taco Bell",
-      "Oshkosh",
-      "WI"
     ],
     [
       "028884",
@@ -30589,15 +30630,6 @@
       "NE"
     ],
     [
-      "035270",
-      41.23443163312327,
-      -96.1424195766449,
-      5.49,
-      "Taco Bell",
-      "Omaha",
-      "NE"
-    ],
-    [
       "024464",
       38.94308447290538,
       -95.25115766215166,
@@ -33278,6 +33310,15 @@
       "Taco Bell",
       "Youngstown",
       "OH"
+    ],
+    [
+      "034380",
+      39.11631009128362,
+      -94.67128559947014,
+      5.59,
+      "Taco Bell",
+      "Kansas City",
+      "KS"
     ],
     [
       "039729",
@@ -54889,15 +54930,6 @@
       "TX"
     ],
     [
-      "036159",
-      38.212169490530904,
-      -85.72046972741934,
-      5.99,
-      "Taco Bell",
-      "Louisville",
-      "KY"
-    ],
-    [
       "031866",
       39.17638049961737,
       -119.73280139025759,
@@ -66175,6 +66207,15 @@
       "LA"
     ],
     [
+      "023176",
+      33.87068769461627,
+      -117.9196197688907,
+      6.19,
+      "Taco Bell",
+      "Fullerton",
+      "CA"
+    ],
+    [
       "032737",
       33.46546791271026,
       -112.06887204946725,
@@ -74300,6 +74341,15 @@
       "Taco Bell",
       "Meridian",
       "ID"
+    ],
+    [
+      "016929",
+      38.94958255178735,
+      -122.63059079647064,
+      6.29,
+      "Taco Bell",
+      "Clearlake",
+      "CA"
     ],
     [
       "029968",

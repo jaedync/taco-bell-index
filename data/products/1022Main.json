@@ -17,8 +17,8 @@
     "min": 2.29,
     "max": 3.49,
     "median": 3.19,
-    "std_dev": 0.23,
-    "store_count": 722
+    "std_dev": 0.24,
+    "store_count": 721
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 28
+      "count": 29
     },
     {
       "bucket": "$2.79",
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 85
+      "count": 84
     },
     {
       "bucket": "$2.99",
@@ -59,15 +59,15 @@
     },
     {
       "bucket": "$3.19",
-      "count": 189
+      "count": 188
     },
     {
       "bucket": "$3.29",
-      "count": 220
+      "count": 219
     },
     {
       "bucket": "$3.39",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$3.49",
@@ -93,7 +93,7 @@
     {
       "state": "OK",
       "avg_price": 3.23,
-      "store_count": 116
+      "store_count": 114
     },
     {
       "state": "LA",
@@ -108,12 +108,12 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 434
+      "store_count": 436
     },
     {
       "state": "GA",
       "avg_price": 2.89,
-      "store_count": 8
+      "store_count": 7
     },
     {
       "state": "NM",
@@ -213,6 +213,13 @@
       "price": 3.49
     },
     {
+      "store_number": "032168",
+      "name": "Taco Bell",
+      "city": "Chicago Heights",
+      "state": "IL",
+      "price": 3.39
+    },
+    {
       "store_number": "026049",
       "name": "Taco Bell",
       "city": "Salisbury",
@@ -260,16 +267,79 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "034383",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032168",
+      "store_name": "Taco Bell",
+      "city": "Chicago Heights",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-25T20:58:01.253060+00:00"
+    },
+    {
+      "store_number": "030382",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:57:57.787686+00:00"
+    },
+    {
+      "store_number": "031958",
+      "store_name": "Taco Bell",
+      "city": "Janesville",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:57:21.589192+00:00"
+    },
+    {
+      "store_number": "035424",
+      "store_name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-25T20:56:00.046555+00:00"
+    },
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:55:13.888782+00:00"
+    },
+    {
+      "store_number": "037111",
+      "store_name": "Taco Bell",
+      "city": "Denton",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-04-25T20:53:07.816111+00:00"
+    },
+    {
+      "store_number": "040653",
+      "store_name": "Taco Bell",
+      "city": "Edmond",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:46:44.957848+00:00"
+    },
     {
       "store_number": "027869",
       "store_name": "Taco Bell",
@@ -3382,8 +3452,8 @@
     }
   ],
   "activity_summary": {
-    "added": 76,
-    "removed": 89,
+    "added": 79,
+    "removed": 93,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3996,6 +4066,15 @@
       "TX"
     ],
     [
+      "037111",
+      33.25664233693091,
+      -97.10876181248749,
+      2.69,
+      "Taco Bell",
+      "Denton",
+      "TX"
+    ],
+    [
       "036000",
       34.076910339390565,
       -98.55837532831053,
@@ -4597,15 +4676,6 @@
       "Taco Bell",
       "Uvalde",
       "TX"
-    ],
-    [
-      "016289",
-      33.61549907748702,
-      -84.47322343291489,
-      2.89,
-      "Taco Bell",
-      "College Park",
-      "GA"
     ],
     [
       "030149",
@@ -6093,15 +6163,6 @@
       "TX"
     ],
     [
-      "040653",
-      35.7255,
-      -97.421,
-      3.19,
-      "Taco Bell",
-      "Edmond",
-      "OK"
-    ],
-    [
       "040363",
       28.970832740244724,
       -95.36990257678279,
@@ -7218,6 +7279,15 @@
       "TX"
     ],
     [
+      "035424",
+      32.70915421880213,
+      -97.0055797771551,
+      3.19,
+      "Taco Bell",
+      "Grand Prairie",
+      "TX"
+    ],
+    [
       "035749",
       30.067885839364738,
       -94.13151000000005,
@@ -7774,15 +7844,6 @@
       "Taco Bell",
       "La Place",
       "LA"
-    ],
-    [
-      "031958",
-      42.67888141078665,
-      -89.05132506789414,
-      3.19,
-      "Taco Bell",
-      "Janesville",
-      "WI"
     ],
     [
       "041134",
@@ -9009,15 +9070,6 @@
       "AR"
     ],
     [
-      "030382",
-      35.40589397607766,
-      -97.54869892263741,
-      3.29,
-      "Taco Bell",
-      "Oklahoma City",
-      "OK"
-    ],
-    [
       "025721",
       35.40565848428827,
       -94.51763451846091,
@@ -9871,6 +9923,15 @@
       "Taco Bell",
       "Salisbury",
       "NC"
+    ],
+    [
+      "032168",
+      41.52749513784631,
+      -87.63523307368308,
+      3.39,
+      "Taco Bell",
+      "Chicago Heights",
+      "IL"
     ],
     [
       "038783",

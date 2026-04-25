@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.82,
-    "store_count": 7677
+    "store_count": 7673
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$17.89",
-      "count": 25
+      "count": 24
     },
     {
       "bucket": "$17.99",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$18.49",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$18.59",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$18.79",
-      "count": 33
+      "count": 32
     },
     {
       "bucket": "$18.89",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 459
+      "count": 458
     },
     {
       "bucket": "$20.19",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 740
+      "count": 741
     },
     {
       "bucket": "$21.09",
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1796
+      "count": 1795
     },
     {
       "bucket": "$23.19",
@@ -482,18 +482,18 @@
     },
     {
       "state": "WI",
-      "avg_price": 22.09,
-      "store_count": 142
+      "avg_price": 22.11,
+      "store_count": 141
     },
     {
       "state": "IA",
-      "avg_price": 22.0,
-      "store_count": 46
+      "avg_price": 21.98,
+      "store_count": 47
     },
     {
       "state": "MO",
-      "avg_price": 21.93,
-      "store_count": 227
+      "avg_price": 21.92,
+      "store_count": 226
     },
     {
       "state": "AR",
@@ -516,14 +516,14 @@
       "store_count": 134
     },
     {
+      "state": "SC",
+      "avg_price": 21.57,
+      "store_count": 116
+    },
+    {
       "state": "NC",
       "avg_price": 21.55,
       "store_count": 263
-    },
-    {
-      "state": "SC",
-      "avg_price": 21.54,
-      "store_count": 117
     },
     {
       "state": "KY",
@@ -573,7 +573,7 @@
     {
       "state": "IN",
       "avg_price": 20.8,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "WV",
@@ -587,8 +587,8 @@
     },
     {
       "state": "NE",
-      "avg_price": 20.17,
-      "store_count": 44
+      "avg_price": 20.18,
+      "store_count": 43
     },
     {
       "state": "SD",
@@ -750,6 +750,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035270",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:58:12.458300+00:00"
+    },
+    {
+      "store_number": "031792",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 17.89,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:56:56.735899+00:00"
+    },
+    {
+      "store_number": "028880",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 18.79,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:54:44.628615+00:00"
+    },
+    {
+      "store_number": "037060",
+      "store_name": "Taco Bell",
+      "city": "Mason City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-25T20:54:30.149860+00:00"
+    },
+    {
+      "store_number": "035244",
+      "store_name": "Taco Bell",
+      "city": "Raymore",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:54:10.824306+00:00"
+    },
     {
       "store_number": "042450",
       "store_name": "Taco Bell",
@@ -2252,8 +2302,8 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
-    "removed": 35,
+    "added": 44,
+    "removed": 39,
     "price_changed": 72,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2504,15 +2554,6 @@
       "031791",
       34.06353546239675,
       -80.9546967226825,
-      17.89,
-      "Taco Bell",
-      "Columbia",
-      "SC"
-    ],
-    [
-      "031792",
-      34.13927618560603,
-      -80.93461190165726,
       17.89,
       "Taco Bell",
       "Columbia",
@@ -3230,15 +3271,6 @@
       "IN"
     ],
     [
-      "003159",
-      44.00878357759126,
-      -88.58106107266394,
-      18.49,
-      "Taco Bell",
-      "Oshkosh",
-      "WI"
-    ],
-    [
       "028889",
       39.52763895151228,
       -86.80124406518189,
@@ -3476,15 +3508,6 @@
       "028867",
       39.884251377707585,
       -86.21007777907809,
-      18.79,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
-    ],
-    [
-      "028880",
-      39.781984127668075,
-      -86.04584185173735,
       18.79,
       "Taco Bell",
       "Indianapolis",
@@ -10952,15 +10975,6 @@
       "NE"
     ],
     [
-      "035270",
-      41.23443163312327,
-      -96.1424195766449,
-      19.99,
-      "Taco Bell",
-      "Omaha",
-      "NE"
-    ],
-    [
       "003994",
       44.048408121351216,
       -91.67574070399496,
@@ -15315,6 +15329,15 @@
       "Taco Bell",
       "Decatur",
       "TX"
+    ],
+    [
+      "037060",
+      43.1477402168443,
+      -93.21318903568681,
+      20.99,
+      "Taco Bell",
+      "Mason City",
+      "IA"
     ],
     [
       "029137",
@@ -41595,15 +41618,6 @@
       "Taco Bell",
       "San Antonio",
       "TX"
-    ],
-    [
-      "035244",
-      38.8123173462299,
-      -94.46951776742935,
-      22.99,
-      "Taco Bell",
-      "Raymore",
-      "MO"
     ],
     [
       "034410",

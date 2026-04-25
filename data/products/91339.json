@@ -17,8 +17,8 @@
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.21,
-    "store_count": 24
+    "std_dev": 0.2,
+    "store_count": 25
   },
   "histogram": [
     {
@@ -27,19 +27,14 @@
     },
     {
       "bucket": "$5.49",
-      "count": 19
+      "count": 20
     }
   ],
   "state_prices": [
     {
-      "state": "TN",
-      "avg_price": 5.49,
-      "store_count": 5
-    },
-    {
       "state": "GA",
-      "avg_price": 5.41,
-      "store_count": 13
+      "avg_price": 5.42,
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -137,10 +132,10 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "004254",
+      "store_number": "002167",
       "name": "Taco Bell",
-      "city": "Manchester",
-      "state": "TN",
+      "city": "Atlanta",
+      "state": "GA",
       "price": 5.49
     },
     {
@@ -208,6 +203,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-25T20:58:06.678088+00:00"
+    },
+    {
+      "store_number": "041223",
+      "store_name": "Taco Bell",
+      "city": "Ellenwood",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-25T20:57:53.787784+00:00"
+    },
+    {
+      "store_number": "004254",
+      "store_name": "Taco Bell",
+      "city": "Manchester",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:53:46.175088+00:00"
+    },
     {
       "store_number": "004254",
       "store_name": "Taco Bell",
@@ -750,8 +775,8 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
-    "removed": 28,
+    "added": 28,
+    "removed": 29,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -849,6 +874,15 @@
       "Taco Bell",
       "Tallassee",
       "AL"
+    ],
+    [
+      "041223",
+      33.61940670172887,
+      -84.24365535383913,
+      5.49,
+      "Taco Bell",
+      "Ellenwood",
+      "GA"
     ],
     [
       "041257",
@@ -968,13 +1002,13 @@
       "GA"
     ],
     [
-      "004254",
-      35.457761961530565,
-      -86.05468525553988,
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
       5.49,
       "Taco Bell",
-      "Manchester",
-      "TN"
+      "Atlanta",
+      "GA"
     ]
   ]
 }

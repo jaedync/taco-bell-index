@@ -17,16 +17,16 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7123
+    "store_count": 7122
   },
   "histogram": [
     {
       "bucket": "$0.10",
-      "count": 346
+      "count": 347
     },
     {
       "bucket": "$0.19",
-      "count": 131
+      "count": 130
     },
     {
       "bucket": "$0.25",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 219
+      "count": 220
     },
     {
       "bucket": "$0.35",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1123
+      "count": 1122
     },
     {
       "bucket": "$0.65",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 717
+      "count": 716
     },
     {
       "bucket": "$0.79",
@@ -277,7 +277,7 @@
     {
       "state": "NC",
       "avg_price": 0.61,
-      "store_count": 257
+      "store_count": 256
     },
     {
       "state": "UT",
@@ -327,7 +327,7 @@
     {
       "state": "WI",
       "avg_price": 0.57,
-      "store_count": 144
+      "store_count": 143
     },
     {
       "state": "NM",
@@ -351,8 +351,8 @@
     },
     {
       "state": "KS",
-      "avg_price": 0.54,
-      "store_count": 89
+      "avg_price": 0.53,
+      "store_count": 90
     },
     {
       "state": "WV",
@@ -382,7 +382,7 @@
     {
       "state": "SD",
       "avg_price": 0.26,
-      "store_count": 15
+      "store_count": 16
     },
     {
       "state": "WY",
@@ -392,7 +392,7 @@
     {
       "state": "MN",
       "avg_price": 0.2,
-      "store_count": 100
+      "store_count": 99
     },
     {
       "state": "OK",
@@ -828,6 +828,7 @@
     "033476",
     "033492",
     "033493",
+    "033582",
     "033469",
     "033496",
     "033639",
@@ -912,6 +913,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033582",
+      "store_name": "Taco Bell",
+      "city": "Parsons",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.1,
+      "observed_at": "2026-04-25T20:58:35.192627+00:00"
+    },
+    {
+      "store_number": "003379",
+      "store_name": "Taco Bell",
+      "city": "Blaine",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.19,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:56:45.746754+00:00"
+    },
+    {
+      "store_number": "032302",
+      "store_name": "Taco Bell",
+      "city": "Brookings",
+      "state": "SD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-04-25T20:54:11.342934+00:00"
+    },
+    {
+      "store_number": "004939",
+      "store_name": "Taco Bell",
+      "city": "Hickory",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:53:32.663743+00:00"
+    },
     {
       "store_number": "042855",
       "store_name": "Taco Bell",
@@ -6514,8 +6555,8 @@
     }
   ],
   "activity_summary": {
-    "added": 32,
-    "removed": 520,
+    "added": 34,
+    "removed": 522,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9549,6 +9590,15 @@
       "OK"
     ],
     [
+      "033582",
+      37.34224726372693,
+      -95.25867769444275,
+      0.1,
+      "Taco Bell",
+      "Parsons",
+      "KS"
+    ],
+    [
       "033469",
       38.518983707393346,
       -90.3422375671875,
@@ -10285,15 +10335,6 @@
       "Taco Bell",
       "Madison",
       "WI"
-    ],
-    [
-      "003379",
-      45.129050830630256,
-      -93.25723533333985,
-      0.19,
-      "Taco Bell",
-      "Blaine",
-      "MN"
     ],
     [
       "027882",
@@ -12895,6 +12936,15 @@
       "Taco Bell",
       "Kayenta",
       "AZ"
+    ],
+    [
+      "032302",
+      44.3165094626829,
+      -96.76214107575599,
+      0.3,
+      "Taco Bell",
+      "Brookings",
+      "SD"
     ],
     [
       "020027",
@@ -39510,15 +39560,6 @@
       "WI"
     ],
     [
-      "003159",
-      44.00878357759126,
-      -88.58106107266394,
-      0.6,
-      "Taco Bell",
-      "Oshkosh",
-      "WI"
-    ],
-    [
       "029588",
       27.92276848287077,
       -82.32162037175773,
@@ -53926,15 +53967,6 @@
       "Taco Bell",
       "Porter",
       "TX"
-    ],
-    [
-      "004939",
-      35.70124935243591,
-      -81.28842423856156,
-      0.75,
-      "Taco Bell",
-      "Hickory",
-      "NC"
     ],
     [
       "002882",

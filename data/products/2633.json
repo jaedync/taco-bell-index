@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3561
+    "store_count": 3560
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3561
+      "count": 3560
     }
   ],
   "state_prices": [
@@ -69,7 +69,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 61
+      "store_count": 60
     },
     {
       "state": "PA",
@@ -99,7 +99,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 78
+      "store_count": 79
     },
     {
       "state": "NM",
@@ -109,7 +109,7 @@
     {
       "state": "NE",
       "avg_price": 0.0,
-      "store_count": 42
+      "store_count": 41
     },
     {
       "state": "ND",
@@ -134,7 +134,7 @@
     {
       "state": "MO",
       "avg_price": 0.0,
-      "store_count": 64
+      "store_count": 65
     },
     {
       "state": "MN",
@@ -174,7 +174,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 135
+      "store_count": 133
     },
     {
       "state": "IL",
@@ -224,7 +224,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 625
+      "store_count": 626
     },
     {
       "state": "AZ",
@@ -414,7 +414,6 @@
     "041069",
     "041180",
     "041274",
-    "041048",
     "040425",
     "041105",
     "034775",
@@ -1515,6 +1514,7 @@
     "015610",
     "029582",
     "002661",
+    "029636",
     "028732",
     "031914",
     "040800",
@@ -2032,6 +2032,7 @@
     "032529",
     "030939",
     "037573",
+    "031884",
     "033302",
     "036204",
     "039038",
@@ -2213,7 +2214,6 @@
     "041612",
     "036211",
     "031987",
-    "002057",
     "002083",
     "023072",
     "031994",
@@ -2821,6 +2821,7 @@
     "029496",
     "003163",
     "001613",
+    "003543",
     "034200",
     "034626",
     "041609",
@@ -3161,7 +3162,6 @@
     "035283",
     "029310",
     "003480",
-    "035270",
     "023963",
     "004913",
     "022599",
@@ -3874,7 +3874,6 @@
     "042879",
     "042884",
     "042882",
-    "042952",
     "042883",
     "031505",
     "042947",
@@ -3959,6 +3958,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035270",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:58:12.458300+00:00"
+    },
+    {
+      "store_number": "003543",
+      "store_name": "Taco Bell",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-25T20:58:03.644965+00:00"
+    },
+    {
+      "store_number": "002057",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:56:17.964733+00:00"
+    },
+    {
+      "store_number": "031884",
+      "store_name": "Taco Bell",
+      "city": "Carson City",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-25T20:55:47.676129+00:00"
+    },
+    {
+      "store_number": "042952",
+      "store_name": "Taco Bell",
+      "city": "Easley",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:55:12.369552+00:00"
+    },
+    {
+      "store_number": "029636",
+      "store_name": "Taco Bell",
+      "city": "Warrenton",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-25T20:54:42.770979+00:00"
+    },
+    {
+      "store_number": "041048",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:47:17.083248+00:00"
+    },
     {
       "store_number": "019252",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -5421,8 +5490,8 @@
     }
   ],
   "activity_summary": {
-    "added": 77,
-    "removed": 69,
+    "added": 80,
+    "removed": 73,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6240,15 +6309,6 @@
       "Taco Bell",
       "Montgomery",
       "NY"
-    ],
-    [
-      "041048",
-      39.667,
-      -86.0211,
-      0.0,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "040425",
@@ -16151,6 +16211,15 @@
       "OH"
     ],
     [
+      "029636",
+      38.81939159736144,
+      -91.14141136407846,
+      0.0,
+      "Taco Bell",
+      "Warrenton",
+      "MO"
+    ],
+    [
       "028732",
       34.106838877600204,
       -117.81915038824081,
@@ -20804,6 +20873,15 @@
       "AZ"
     ],
     [
+      "031884",
+      39.129537169593675,
+      -119.77106456460206,
+      0.0,
+      "Taco Bell",
+      "Carson City",
+      "NV"
+    ],
+    [
       "033302",
       43.03346388268723,
       -83.63298811023924,
@@ -22431,15 +22509,6 @@
       "Taco Bell",
       "Racine",
       "WI"
-    ],
-    [
-      "002057",
-      39.76917983510871,
-      -86.1092864424154,
-      0.0,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "002083",
@@ -27905,6 +27974,15 @@
       "NY"
     ],
     [
+      "003543",
+      34.21076962936434,
+      -118.84296633303165,
+      0.0,
+      "Taco Bell",
+      "Thousand Oaks",
+      "CA"
+    ],
+    [
       "034200",
       39.72753076302128,
       -121.80665065349785,
@@ -30963,15 +31041,6 @@
       "Taco Bell",
       "Suffolk",
       "VA"
-    ],
-    [
-      "035270",
-      41.23443163312327,
-      -96.1424195766449,
-      0.0,
-      "Taco Bell",
-      "Omaha",
-      "NE"
     ],
     [
       "023963",
@@ -37380,15 +37449,6 @@
       "Taco Bell",
       "Orange Park",
       "FL"
-    ],
-    [
-      "042952",
-      34.824139443273296,
-      -82.55927860736847,
-      0.0,
-      "Taco Bell",
-      "Easley",
-      "SC"
     ],
     [
       "042883",

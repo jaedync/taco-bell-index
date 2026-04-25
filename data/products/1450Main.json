@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 616
+    "store_count": 613
   },
   "histogram": [
     {
@@ -30,15 +30,15 @@
     },
     {
       "bucket": "$0.89",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$0.99",
-      "count": 125
+      "count": 124
     },
     {
       "bucket": "$1.00",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$1.05",
@@ -156,14 +156,14 @@
       "store_count": 24
     },
     {
+      "state": "NE",
+      "avg_price": 1.19,
+      "store_count": 9
+    },
+    {
       "state": "KY",
       "avg_price": 1.19,
       "store_count": 5
-    },
-    {
-      "state": "NE",
-      "avg_price": 1.17,
-      "store_count": 10
     },
     {
       "state": "OR",
@@ -172,8 +172,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.13,
-      "store_count": 29
+      "avg_price": 1.14,
+      "store_count": 28
     },
     {
       "state": "KS",
@@ -186,14 +186,14 @@
       "store_count": 7
     },
     {
+      "state": "WI",
+      "avg_price": 0.95,
+      "store_count": 36
+    },
+    {
       "state": "FL",
       "avg_price": 0.95,
       "store_count": 5
-    },
-    {
-      "state": "WI",
-      "avg_price": 0.95,
-      "store_count": 37
     },
     {
       "state": "MO",
@@ -379,6 +379,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035280",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:55:10.751811+00:00"
+    },
+    {
+      "store_number": "036178",
+      "store_name": "Taco Bell",
+      "city": "Melrose Park",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:54:25.006476+00:00"
+    },
     {
       "store_number": "023073",
       "store_name": "Taco Bell",
@@ -1162,7 +1182,7 @@
   ],
   "activity_summary": {
     "added": 29,
-    "removed": 47,
+    "removed": 49,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2693,15 +2713,6 @@
       "TX"
     ],
     [
-      "003159",
-      44.00878357759126,
-      -88.58106107266394,
-      0.89,
-      "Taco Bell",
-      "Oshkosh",
-      "WI"
-    ],
-    [
       "033795",
       40.12175115250633,
       -84.6206987288405,
@@ -3051,15 +3062,6 @@
       "Taco Bell",
       "Jackson",
       "CA"
-    ],
-    [
-      "035280",
-      41.20441878407698,
-      -96.08177751302719,
-      0.99,
-      "Taco Bell",
-      "Omaha",
-      "NE"
     ],
     [
       "037577",
@@ -3834,15 +3836,6 @@
       "Taco Bell",
       "Lacey",
       "WA"
-    ],
-    [
-      "036178",
-      41.90869910461482,
-      -87.84426663817612,
-      1.0,
-      "Taco Bell",
-      "Melrose Park",
-      "IL"
     ],
     [
       "036198",

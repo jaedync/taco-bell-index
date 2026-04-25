@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.5,
+  "availability_pct": 98.4,
   "price_stats": {
     "avg": 22.42,
     "min": 17.09,
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.91,
-    "store_count": 7588
+    "store_count": 7585
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$17.99",
-      "count": 88
+      "count": 87
     },
     {
       "bucket": "$18.19",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$18.49",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$18.59",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 480
+      "count": 479
     },
     {
       "bucket": "$20.19",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$20.99",
-      "count": 717
+      "count": 718
     },
     {
       "bucket": "$21.09",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 745
+      "count": 744
     },
     {
       "bucket": "$23.50",
@@ -405,7 +405,7 @@
     {
       "state": "MA",
       "avg_price": 23.57,
-      "store_count": 66
+      "store_count": 65
     },
     {
       "state": "NH",
@@ -494,8 +494,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 22.09,
-      "store_count": 142
+      "avg_price": 22.12,
+      "store_count": 141
     },
     {
       "state": "ID",
@@ -504,8 +504,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 21.99,
-      "store_count": 46
+      "avg_price": 21.97,
+      "store_count": 47
     },
     {
       "state": "OK",
@@ -528,14 +528,14 @@
       "store_count": 134
     },
     {
+      "state": "SC",
+      "avg_price": 21.63,
+      "store_count": 115
+    },
+    {
       "state": "TN",
       "avg_price": 21.61,
       "store_count": 254
-    },
-    {
-      "state": "SC",
-      "avg_price": 21.6,
-      "store_count": 116
     },
     {
       "state": "NC",
@@ -610,7 +610,7 @@
     {
       "state": "NE",
       "avg_price": 20.04,
-      "store_count": 44
+      "store_count": 43
     }
   ],
   "nutrition": null,
@@ -762,6 +762,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035270",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:58:12.458300+00:00"
+    },
+    {
+      "store_number": "029270",
+      "store_name": "Taco Bell",
+      "city": "Danvers",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:58:04.661896+00:00"
+    },
+    {
+      "store_number": "031792",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 17.99,
+      "new_price": null,
+      "observed_at": "2026-04-25T20:56:56.735899+00:00"
+    },
+    {
+      "store_number": "037060",
+      "store_name": "Taco Bell",
+      "city": "Mason City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-25T20:54:30.149860+00:00"
+    },
     {
       "store_number": "042450",
       "store_name": "Taco Bell",
@@ -2264,8 +2304,8 @@
     }
   ],
   "activity_summary": {
-    "added": 59,
-    "removed": 40,
+    "added": 60,
+    "removed": 43,
     "price_changed": 51,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2907,15 +2947,6 @@
       "Taco Bell",
       "Tyler",
       "TX"
-    ],
-    [
-      "031792",
-      34.13927618560603,
-      -80.93461190165726,
-      17.99,
-      "Taco Bell",
-      "Columbia",
-      "SC"
     ],
     [
       "028894",
@@ -3767,15 +3798,6 @@
       "005309",
       44.039739665353025,
       -88.54228451123232,
-      18.49,
-      "Taco Bell",
-      "Oshkosh",
-      "WI"
-    ],
-    [
-      "003159",
-      44.00878357759126,
-      -88.58106107266394,
       18.49,
       "Taco Bell",
       "Oshkosh",
@@ -11225,15 +11247,6 @@
       "NE"
     ],
     [
-      "035270",
-      41.23443163312327,
-      -96.1424195766449,
-      19.99,
-      "Taco Bell",
-      "Omaha",
-      "NE"
-    ],
-    [
       "003994",
       44.048408121351216,
       -91.67574070399496,
@@ -15354,6 +15367,15 @@
       "Taco Bell",
       "Decatur",
       "TX"
+    ],
+    [
+      "037060",
+      43.1477402168443,
+      -93.21318903568681,
+      20.99,
+      "Taco Bell",
+      "Mason City",
+      "IA"
     ],
     [
       "029137",
@@ -57042,15 +57064,6 @@
       "Taco Bell",
       "Huntington Station",
       "NY"
-    ],
-    [
-      "029270",
-      42.547937328652,
-      -70.94245353344377,
-      23.49,
-      "Taco Bell",
-      "Danvers",
-      "MA"
     ],
     [
       "032565",
