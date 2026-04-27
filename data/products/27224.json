@@ -19,7 +19,7 @@
     "max": 4.99,
     "median": 3.59,
     "std_dev": 0.24,
-    "store_count": 55
+    "store_count": 54
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 28
+      "count": 27
     },
     {
       "bucket": "$3.69",
@@ -51,7 +51,7 @@
     {
       "state": "GA",
       "avg_price": 3.69,
-      "store_count": 54
+      "store_count": 53
     }
   ],
   "nutrition": {
@@ -216,6 +216,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:31.907221+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -769,7 +779,7 @@
   ],
   "activity_summary": {
     "added": 4,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1001,15 +1011,6 @@
       3.59,
       "Taco Bell",
       "Cumming",
-      "GA"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      3.59,
-      "Taco Bell",
-      "Smyrna",
       "GA"
     ],
     [

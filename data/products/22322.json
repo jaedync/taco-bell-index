@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.8,
+  "availability_pct": 92.7,
   "price_stats": {
-    "avg": 7.01,
+    "avg": 7.02,
     "min": 4.99,
     "max": 9.59,
     "median": 6.99,
     "std_dev": 0.6,
-    "store_count": 7154
+    "store_count": 7146
   },
   "histogram": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$5.89",
-      "count": 28
+      "count": 27
     },
     {
       "bucket": "$5.99",
-      "count": 213
+      "count": 212
     },
     {
       "bucket": "$6.09",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$6.99",
-      "count": 839
+      "count": 838
     },
     {
       "bucket": "$7.09",
@@ -134,7 +134,7 @@
     },
     {
       "bucket": "$7.19",
-      "count": 671
+      "count": 669
     },
     {
       "bucket": "$7.20",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 679
+      "count": 677
     },
     {
       "bucket": "$7.36",
@@ -174,7 +174,7 @@
     },
     {
       "bucket": "$7.59",
-      "count": 300
+      "count": 299
     },
     {
       "bucket": "$7.60",
@@ -296,7 +296,7 @@
     {
       "state": "AR",
       "avg_price": 7.39,
-      "store_count": 113
+      "store_count": 112
     },
     {
       "state": "CO",
@@ -311,7 +311,7 @@
     {
       "state": "CA",
       "avg_price": 7.29,
-      "store_count": 836
+      "store_count": 835
     },
     {
       "state": "RI",
@@ -381,7 +381,7 @@
     {
       "state": "MO",
       "avg_price": 7.06,
-      "store_count": 225
+      "store_count": 224
     },
     {
       "state": "LA",
@@ -421,7 +421,12 @@
     {
       "state": "OH",
       "avg_price": 6.93,
-      "store_count": 406
+      "store_count": 405
+    },
+    {
+      "state": "IA",
+      "avg_price": 6.91,
+      "store_count": 46
     },
     {
       "state": "NC",
@@ -434,19 +439,14 @@
       "store_count": 72
     },
     {
-      "state": "IA",
-      "avg_price": 6.89,
-      "store_count": 47
-    },
-    {
       "state": "NJ",
       "avg_price": 6.87,
       "store_count": 120
     },
     {
       "state": "FL",
-      "avg_price": 6.85,
-      "store_count": 420
+      "avg_price": 6.84,
+      "store_count": 419
     },
     {
       "state": "SD",
@@ -464,14 +464,14 @@
       "store_count": 86
     },
     {
-      "state": "SC",
-      "avg_price": 6.52,
-      "store_count": 106
-    },
-    {
       "state": "TX",
       "avg_price": 6.52,
       "store_count": 696
+    },
+    {
+      "state": "SC",
+      "avg_price": 6.52,
+      "store_count": 105
     },
     {
       "state": "TN",
@@ -495,8 +495,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 6.24,
-      "store_count": 40
+      "avg_price": 6.25,
+      "store_count": 39
     },
     {
       "state": "MS",
@@ -665,6 +665,106 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003394",
+      "store_name": "Taco Bell",
+      "city": "Delaware",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:44:55.498089+00:00"
+    },
+    {
+      "store_number": "043145",
+      "store_name": "Taco Bell",
+      "city": "Moulton",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:44:41.197236+00:00"
+    },
+    {
+      "store_number": "042868",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 7.29,
+      "new_price": 7.49,
+      "observed_at": "2026-04-27T22:44:38.502625+00:00"
+    },
+    {
+      "store_number": "037059",
+      "store_name": "Taco Bell",
+      "city": "Dubuque",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:50.371099+00:00"
+    },
+    {
+      "store_number": "023176",
+      "store_name": "Taco Bell",
+      "city": "Fullerton",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 7.59,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:15.700148+00:00"
+    },
+    {
+      "store_number": "042998",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "price_change",
+      "old_price": 7.29,
+      "new_price": 7.49,
+      "observed_at": "2026-04-27T22:41:22.487149+00:00"
+    },
+    {
+      "store_number": "022180",
+      "store_name": "Taco Bell",
+      "city": "Fort Mill",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 7.19,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:34:05.116742+00:00"
+    },
+    {
+      "store_number": "037371",
+      "store_name": "Taco Bell",
+      "city": "Tontitown",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:20:45.625250+00:00"
+    },
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 7.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:20:45.223714+00:00"
+    },
+    {
+      "store_number": "036251",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 7.19,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:10:07.347390+00:00"
+    },
     {
       "store_number": "032362",
       "store_name": "Taco Bell",
@@ -19478,8 +19578,8 @@
   ],
   "activity_summary": {
     "added": 88,
-    "removed": 567,
-    "price_changed": 1226,
+    "removed": 575,
+    "price_changed": 1228,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 500,
@@ -21558,15 +21658,6 @@
       "TX"
     ],
     [
-      "043145",
-      34.487707747098206,
-      -87.27569624374031,
-      5.89,
-      "Taco Bell",
-      "Moulton",
-      "AL"
-    ],
-    [
       "002471",
       39.235476426144174,
       -121.03791760601138,
@@ -22807,15 +22898,6 @@
       "Taco Bell",
       "Purcell",
       "OK"
-    ],
-    [
-      "037059",
-      42.489447,
-      -90.664758,
-      5.99,
-      "Taco Bell",
-      "Dubuque",
-      "IA"
     ],
     [
       "035404",
@@ -52203,15 +52285,6 @@
       "WI"
     ],
     [
-      "003394",
-      40.273244364890225,
-      -83.07024464453947,
-      6.99,
-      "Taco Bell",
-      "Delaware",
-      "OH"
-    ],
-    [
       "019673",
       45.33656275467377,
       -118.06058969333449,
@@ -53668,15 +53741,6 @@
       "Taco Bell",
       "Plymouth",
       "MI"
-    ],
-    [
-      "036251",
-      39.034202183610354,
-      -94.53198025225383,
-      7.19,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
     ],
     [
       "036391",
@@ -55342,15 +55406,6 @@
       "Taco Bell",
       "Amherst",
       "OH"
-    ],
-    [
-      "022180",
-      35.00682290351606,
-      -80.85491690544606,
-      7.19,
-      "Taco Bell",
-      "Fort Mill",
-      "SC"
     ],
     [
       "015366",
@@ -61923,15 +61978,6 @@
       "LA"
     ],
     [
-      "042998",
-      29.39879113729959,
-      -98.38631089496963,
-      7.29,
-      "Taco Bell",
-      "San Antonio",
-      "TX"
-    ],
-    [
       "041348",
       38.02059131239766,
       -121.31903176011292,
@@ -64459,15 +64505,6 @@
       "Taco Bell",
       "Lehighton",
       "PA"
-    ],
-    [
-      "042868",
-      29.551052454905655,
-      -98.51167134943353,
-      7.29,
-      "Taco Bell",
-      "San Antonio",
-      "TX"
     ],
     [
       "018147",
@@ -68862,15 +68899,6 @@
       "CA"
     ],
     [
-      "035462",
-      28.541891996394657,
-      -81.37876977112303,
-      7.49,
-      "Taco Bell Cantina",
-      "Orlando",
-      "FL"
-    ],
-    [
       "042815",
       29.40683,
       -98.70831,
@@ -68905,15 +68933,6 @@
       "Taco Bell",
       "Ozark",
       "MO"
-    ],
-    [
-      "037371",
-      36.175492767123025,
-      -94.21652274146606,
-      7.49,
-      "Taco Bell",
-      "Tontitown",
-      "AR"
     ],
     [
       "037133",
@@ -71002,6 +71021,15 @@
       "Taco Bell",
       "Celina",
       "OH"
+    ],
+    [
+      "042998",
+      29.39879113729959,
+      -98.38631089496963,
+      7.49,
+      "Taco Bell",
+      "San Antonio",
+      "TX"
     ],
     [
       "041398",
@@ -74586,6 +74614,15 @@
       "PA"
     ],
     [
+      "042868",
+      29.551052454905655,
+      -98.51167134943353,
+      7.49,
+      "Taco Bell",
+      "San Antonio",
+      "TX"
+    ],
+    [
       "030184",
       39.10864565379835,
       -93.21233736981733,
@@ -77670,15 +77707,6 @@
       7.59,
       "Taco Bell",
       "Menifee",
-      "CA"
-    ],
-    [
-      "023176",
-      33.87068769461627,
-      -117.9196197688907,
-      7.59,
-      "Taco Bell",
-      "Fullerton",
       "CA"
     ],
     [

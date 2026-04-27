@@ -25,7 +25,7 @@
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5235
+      "count": 5234
     },
     {
       "bucket": "$4.19",
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 496
+      "count": 497
     },
     {
       "bucket": "$5.19",
@@ -113,7 +113,7 @@
     },
     {
       "bucket": "$6.99",
-      "count": 81
+      "count": 80
     },
     {
       "bucket": "$7.00",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 536
+      "count": 537
     },
     {
       "bucket": "$8.00",
@@ -178,7 +178,7 @@
     {
       "state": "WA",
       "avg_price": 5.94,
-      "store_count": 122
+      "store_count": 123
     },
     {
       "state": "FL",
@@ -187,8 +187,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 5.59,
-      "store_count": 775
+      "avg_price": 5.6,
+      "store_count": 774
     },
     {
       "state": "AZ",
@@ -233,7 +233,7 @@
     {
       "state": "MO",
       "avg_price": 4.73,
-      "store_count": 220
+      "store_count": 219
     },
     {
       "state": "IL",
@@ -273,7 +273,7 @@
     {
       "state": "CT",
       "avg_price": 4.24,
-      "store_count": 41
+      "store_count": 42
     },
     {
       "state": "TN",
@@ -383,7 +383,7 @@
     {
       "state": "OK",
       "avg_price": 4.0,
-      "store_count": 112
+      "store_count": 113
     },
     {
       "state": "NH",
@@ -393,7 +393,7 @@
     {
       "state": "ND",
       "avg_price": 4.0,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "ME",
@@ -514,6 +514,7 @@
     "040482",
     "037080",
     "041154",
+    "040653",
     "040780",
     "033377",
     "039146",
@@ -909,7 +910,6 @@
     "035882",
     "036292",
     "020696",
-    "036222",
     "035899",
     "032631",
     "034818",
@@ -2116,6 +2116,7 @@
     "028466",
     "036546",
     "032936",
+    "029303",
     "028490",
     "040039",
     "029893",
@@ -2328,7 +2329,6 @@
     "033778",
     "028407",
     "016319",
-    "037589",
     "039762",
     "030371",
     "040038",
@@ -4694,7 +4694,6 @@
     "029099",
     "029375",
     "030128",
-    "017116",
     "030108",
     "032724",
     "041837",
@@ -5799,6 +5798,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036222",
+      "store_name": "Taco Bell",
+      "city": "Poplar Bluff",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:50:12.885752+00:00"
+    },
+    {
+      "store_number": "017116",
+      "store_name": "Taco Bell",
+      "city": "Gridley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:44:09.485037+00:00"
+    },
+    {
+      "store_number": "037589",
+      "store_name": "Taco Bell",
+      "city": "West Fargo",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:38:57.181504+00:00"
+    },
+    {
+      "store_number": "029303",
+      "store_name": "Taco Bell",
+      "city": "Wallingford",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-27T22:34:22.252298+00:00"
+    },
+    {
+      "store_number": "042453",
+      "store_name": "Taco Bell",
+      "city": "La Jolla",
+      "state": "CA",
+      "change_type": "price_change",
+      "old_price": 6.99,
+      "new_price": 7.99,
+      "observed_at": "2026-04-27T22:20:44.353152+00:00"
+    },
+    {
+      "store_number": "036344",
+      "store_name": "Taco Bell",
+      "city": "Ridgefield",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.0,
+      "observed_at": "2026-04-27T22:10:06.669806+00:00"
+    },
+    {
+      "store_number": "040653",
+      "store_name": "Taco Bell",
+      "city": "Edmond",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-27T21:54:26.204486+00:00"
+    },
     {
       "store_number": "040653",
       "store_name": "Taco Bell",
@@ -6991,9 +7060,9 @@
     }
   ],
   "activity_summary": {
-    "added": 48,
-    "removed": 58,
-    "price_changed": 13,
+    "added": 51,
+    "removed": 61,
+    "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 0,
@@ -7241,6 +7310,15 @@
       "Taco Bell",
       "Columbus",
       "GA"
+    ],
+    [
+      "040653",
+      35.7255,
+      -97.421,
+      4.0,
+      "Taco Bell",
+      "Edmond",
+      "OK"
     ],
     [
       "040780",
@@ -10795,15 +10873,6 @@
       4.0,
       "Taco Bell",
       "Pleasant Hill",
-      "MO"
-    ],
-    [
-      "036222",
-      36.73573564314621,
-      -90.39699281386815,
-      4.0,
-      "Taco Bell",
-      "Poplar Bluff",
       "MO"
     ],
     [
@@ -21661,6 +21730,15 @@
       "OR"
     ],
     [
+      "029303",
+      41.48501245421248,
+      -72.80876179041115,
+      4.0,
+      "Taco Bell",
+      "Wallingford",
+      "CT"
+    ],
+    [
       "028490",
       38.67464477235669,
       -90.37167175556087,
@@ -23567,15 +23645,6 @@
       "Taco Bell",
       "West Chester",
       "OH"
-    ],
-    [
-      "037589",
-      46.84349899399891,
-      -96.88408175114091,
-      4.0,
-      "Taco Bell",
-      "West Fargo",
-      "ND"
     ],
     [
       "039762",
@@ -44863,15 +44932,6 @@
       "TX"
     ],
     [
-      "017116",
-      39.35935180179898,
-      -121.68838708171434,
-      4.0,
-      "Taco Bell",
-      "Gridley",
-      "CA"
-    ],
-    [
       "030108",
       31.10226008065569,
       -97.35637128353119,
@@ -59920,6 +59980,15 @@
       "CA"
     ],
     [
+      "036344",
+      45.81521068263736,
+      -122.7031338757779,
+      5.0,
+      "Taco Bell",
+      "Ridgefield",
+      "WA"
+    ],
+    [
       "042766",
       46.664037691041344,
       -120.52170394459571,
@@ -64141,15 +64210,6 @@
       "CA"
     ],
     [
-      "042453",
-      32.8798892,
-      -117.2364949,
-      6.99,
-      "Taco Bell",
-      "La Jolla",
-      "CA"
-    ],
-    [
       "042741",
       38.620158,
       -94.691028,
@@ -65264,6 +65324,15 @@
       "Taco Bell",
       "Apex",
       "NC"
+    ],
+    [
+      "042453",
+      32.8798892,
+      -117.2364949,
+      7.99,
+      "Taco Bell",
+      "La Jolla",
+      "CA"
     ],
     [
       "042681",

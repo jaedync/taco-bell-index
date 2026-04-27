@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.8,
+  "availability_pct": 98.7,
   "price_stats": {
     "avg": 0.38,
     "min": 0.0,
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7609
+    "store_count": 7606
   },
   "histogram": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "bucket": "$0.10",
-      "count": 446
+      "count": 447
     },
     {
       "bucket": "$0.15",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.25",
-      "count": 151
+      "count": 150
     },
     {
       "bucket": "$0.29",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 2303
+      "count": 2300
     },
     {
       "bucket": "$0.35",
@@ -175,7 +175,7 @@
     {
       "state": "OR",
       "avg_price": 0.52,
-      "store_count": 118
+      "store_count": 117
     },
     {
       "state": "NV",
@@ -275,7 +275,7 @@
     {
       "state": "MI",
       "avg_price": 0.38,
-      "store_count": 345
+      "store_count": 343
     },
     {
       "state": "PA",
@@ -335,7 +335,7 @@
     {
       "state": "IL",
       "avg_price": 0.32,
-      "store_count": 285
+      "store_count": 284
     },
     {
       "state": "IA",
@@ -378,14 +378,14 @@
       "store_count": 28
     },
     {
-      "state": "NM",
-      "avg_price": 0.23,
-      "store_count": 55
-    },
-    {
       "state": "AR",
       "avg_price": 0.23,
       "store_count": 113
+    },
+    {
+      "state": "NM",
+      "avg_price": 0.23,
+      "store_count": 56
     },
     {
       "state": "SD",
@@ -844,6 +844,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "026750",
+      "store_name": "Taco Bell",
+      "city": "Palatine",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:44:36.769810+00:00"
+    },
+    {
+      "store_number": "038828",
+      "store_name": "Taco Bell",
+      "city": "Madras",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:37.179884+00:00"
+    },
+    {
+      "store_number": "004472",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.1,
+      "observed_at": "2026-04-27T22:34:20.726146+00:00"
+    },
+    {
+      "store_number": "042669",
+      "store_name": "Taco Bell",
+      "city": "Brighton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:20:43.904345+00:00"
+    },
+    {
+      "store_number": "041745",
+      "store_name": "Taco Bell",
+      "city": "Walled Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:00:00.674773+00:00"
+    },
     {
       "store_number": "035742",
       "store_name": "Taco Bell",
@@ -1726,8 +1776,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 33,
+    "added": 37,
+    "removed": 37,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8181,6 +8231,15 @@
       "SC"
     ],
     [
+      "004472",
+      35.186745418512245,
+      -106.66279477572962,
+      0.1,
+      "Taco Bell / Pizza Hut",
+      "Albuquerque",
+      "NM"
+    ],
+    [
       "040336",
       29.849468941760318,
       -95.2156553155379,
@@ -14400,15 +14459,6 @@
       "HI"
     ],
     [
-      "038828",
-      44.63555134070558,
-      -121.13039374351501,
-      0.25,
-      "Taco Bell",
-      "Madras",
-      "OR"
-    ],
-    [
       "009243",
       21.27682,
       -157.787042,
@@ -15856,15 +15906,6 @@
       "Taco Bell",
       "Newnan",
       "GA"
-    ],
-    [
-      "041745",
-      42.538476867889386,
-      -83.48039326911228,
-      0.3,
-      "Taco Bell",
-      "Walled Lake",
-      "MI"
     ],
     [
       "037713",
@@ -17521,15 +17562,6 @@
       "Taco Bell",
       "Mahomet",
       "IL"
-    ],
-    [
-      "042669",
-      42.50641190883397,
-      -83.76157922006747,
-      0.3,
-      "Taco Bell",
-      "Brighton",
-      "MI"
     ],
     [
       "042695",
@@ -33136,15 +33168,6 @@
       "Taco Bell",
       "New Haven",
       "IN"
-    ],
-    [
-      "026750",
-      42.13960830699689,
-      -88.01524109830522,
-      0.3,
-      "Taco Bell",
-      "Palatine",
-      "IL"
     ],
     [
       "033867",

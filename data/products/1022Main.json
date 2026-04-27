@@ -17,7 +17,7 @@
     "min": 2.29,
     "max": 3.49,
     "median": 3.19,
-    "std_dev": 0.24,
+    "std_dev": 0.23,
     "store_count": 721
   },
   "histogram": [
@@ -43,15 +43,15 @@
     },
     {
       "bucket": "$2.79",
-      "count": 40
+      "count": 39
     },
     {
       "bucket": "$2.89",
-      "count": 84
+      "count": 83
     },
     {
       "bucket": "$2.99",
-      "count": 104
+      "count": 103
     },
     {
       "bucket": "$3.09",
@@ -59,11 +59,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 188
+      "count": 191
     },
     {
       "bucket": "$3.29",
-      "count": 219
+      "count": 220
     },
     {
       "bucket": "$3.39",
@@ -71,14 +71,14 @@
     },
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 3.33,
-      "store_count": 5
+      "avg_price": 3.34,
+      "store_count": 6
     },
     {
       "state": "MO",
@@ -93,7 +93,7 @@
     {
       "state": "OK",
       "avg_price": 3.23,
-      "store_count": 114
+      "store_count": 115
     },
     {
       "state": "LA",
@@ -108,12 +108,12 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 436
+      "store_count": 434
     },
     {
       "state": "GA",
       "avg_price": 2.89,
-      "store_count": 7
+      "store_count": 5
     },
     {
       "state": "NM",
@@ -199,13 +199,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "032052",
-      "name": "Taco Bell",
-      "city": "Alamosa",
-      "state": "CO",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -213,10 +206,10 @@
       "price": 3.49
     },
     {
-      "store_number": "032168",
+      "store_number": "030794",
       "name": "Taco Bell",
-      "city": "Chicago Heights",
-      "state": "IL",
+      "city": "San Jose",
+      "state": "CA",
       "price": 3.39
     },
     {
@@ -267,9 +260,136 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
+    },
+    {
+      "store_number": "034383",
+      "name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-27T22:44:10.823477+00:00"
+    },
+    {
+      "store_number": "031614",
+      "store_name": "Taco Bell",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-27T22:43:57.025764+00:00"
+    },
+    {
+      "store_number": "032168",
+      "store_name": "Taco Bell",
+      "city": "Chicago Heights",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:43:28.657740+00:00"
+    },
+    {
+      "store_number": "030160",
+      "store_name": "Taco Bell",
+      "city": "Giddings",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:43:08.668982+00:00"
+    },
+    {
+      "store_number": "032052",
+      "store_name": "Taco Bell",
+      "city": "Alamosa",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:46.862248+00:00"
+    },
+    {
+      "store_number": "043135",
+      "store_name": "Taco Bell",
+      "city": "Hephzibah",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:39.704294+00:00"
+    },
+    {
+      "store_number": "018709",
+      "store_name": "Taco Bell",
+      "city": "Texarkana",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:35.039894+00:00"
+    },
+    {
+      "store_number": "041209",
+      "store_name": "Taco Bell",
+      "city": "Stone Mountain",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:23.940075+00:00"
+    },
+    {
+      "store_number": "030794",
+      "store_name": "Taco Bell",
+      "city": "San Jose",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-27T22:41:22.194730+00:00"
+    },
+    {
+      "store_number": "031870",
+      "store_name": "Taco Bell",
+      "city": "Pahrump",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-27T22:41:15.206220+00:00"
+    },
+    {
+      "store_number": "041139",
+      "store_name": "Taco Bell",
+      "city": "Metamora",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-27T21:54:27.946520+00:00"
+    },
+    {
+      "store_number": "040653",
+      "store_name": "Taco Bell",
+      "city": "Edmond",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-27T21:54:26.204486+00:00"
+    },
     {
       "store_number": "032168",
       "store_name": "Taco Bell",
@@ -3452,8 +3572,8 @@
     }
   ],
   "activity_summary": {
-    "added": 79,
-    "removed": 93,
+    "added": 85,
+    "removed": 99,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4417,15 +4537,6 @@
       "OK"
     ],
     [
-      "041209",
-      33.79624014524105,
-      -84.2242420061801,
-      2.79,
-      "Taco Bell",
-      "Stone Mountain",
-      "GA"
-    ],
-    [
       "031798",
       33.17356669559879,
       -96.69555886011887,
@@ -4864,15 +4975,6 @@
       2.89,
       "Taco Bell",
       "Laredo",
-      "TX"
-    ],
-    [
-      "030160",
-      30.17897075410654,
-      -96.91575028004996,
-      2.89,
-      "Taco Bell",
-      "Giddings",
       "TX"
     ],
     [
@@ -5848,15 +5950,6 @@
       "TX"
     ],
     [
-      "043135",
-      33.377407060331116,
-      -82.0737755745813,
-      2.99,
-      "Taco Bell",
-      "Hephzibah",
-      "GA"
-    ],
-    [
       "030074",
       30.238169403057256,
       -97.72528974122092,
@@ -6161,6 +6254,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "040653",
+      35.7255,
+      -97.421,
+      3.19,
+      "Taco Bell",
+      "Edmond",
+      "OK"
     ],
     [
       "040363",
@@ -7846,6 +7948,24 @@
       "LA"
     ],
     [
+      "041139",
+      42.93682704288596,
+      -83.31409993690721,
+      3.19,
+      "Taco Bell",
+      "Metamora",
+      "MI"
+    ],
+    [
+      "031870",
+      36.21146925670526,
+      -115.98797873852008,
+      3.19,
+      "Taco Bell",
+      "Pahrump",
+      "NV"
+    ],
+    [
       "041134",
       35.25553019058207,
       -95.10887520652496,
@@ -8681,15 +8801,6 @@
       "Taco Bell",
       "Tulsa",
       "OK"
-    ],
-    [
-      "018709",
-      33.417837877875996,
-      -94.0995210483834,
-      3.29,
-      "Taco Bell",
-      "Texarkana",
-      "TX"
     ],
     [
       "027823",
@@ -9817,6 +9928,24 @@
       "OK"
     ],
     [
+      "031614",
+      40.426674889280655,
+      -79.88868681712114,
+      3.29,
+      "Taco Bell",
+      "Pittsburgh",
+      "PA"
+    ],
+    [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      3.29,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "036251",
       39.034202183610354,
       -94.53198025225383,
@@ -9925,13 +10054,13 @@
       "NC"
     ],
     [
-      "032168",
-      41.52749513784631,
-      -87.63523307368308,
+      "030794",
+      37.274951584449624,
+      -121.85246278347222,
       3.39,
       "Taco Bell",
-      "Chicago Heights",
-      "IL"
+      "San Jose",
+      "CA"
     ],
     [
       "038783",
@@ -9941,21 +10070,12 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "032052",
-      37.47500091763382,
-      -105.89320246876923,
-      3.49,
-      "Taco Bell",
-      "Alamosa",
-      "CO"
     ]
   ],
   "drink_sizes": [
     {
       "size": "LARGE",
-      "avg_price": 3.08,
+      "avg_price": 3.09,
       "min_price": 2.29,
       "max_price": 3.49,
       "calories": 0,

@@ -13,17 +13,17 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.27,
+    "avg": 4.26,
     "min": 3.99,
     "max": 4.49,
     "median": 4.29,
-    "std_dev": 0.15,
-    "store_count": 37
+    "std_dev": 0.16,
+    "store_count": 38
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$4.29",
@@ -42,8 +42,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 4.15,
-      "store_count": 15
+      "avg_price": 4.14,
+      "store_count": 16
     }
   ],
   "nutrition": {
@@ -111,6 +111,13 @@
       "price": 3.99
     },
     {
+      "store_number": "022811",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "price": 3.99
+    },
+    {
       "store_number": "036171",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Henderson",
@@ -123,13 +130,6 @@
       "city": "Las Vegas",
       "state": "NV",
       "price": 4.29
-    },
-    {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
-      "state": "CA",
-      "price": 4.29
     }
   ],
   "min_price_store_numbers": [
@@ -139,7 +139,8 @@
     "021176",
     "002689",
     "002851",
-    "026050"
+    "026050",
+    "022811"
   ],
   "priciest_stores": [
     {
@@ -214,6 +215,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-27T22:33:53.357184+00:00"
+    },
     {
       "store_number": "021422",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -336,7 +347,7 @@
     }
   ],
   "activity_summary": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
@@ -407,6 +418,15 @@
       3.99,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "La Porte",
+      "TX"
+    ],
+    [
+      "022811",
+      30.075174271564272,
+      -95.51512733101845,
+      3.99,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Spring",
       "TX"
     ],
     [
@@ -683,7 +703,7 @@
   "drink_sizes": [
     {
       "size": "MEDIUM",
-      "avg_price": 4.27,
+      "avg_price": 4.26,
       "min_price": 3.99,
       "max_price": 4.49,
       "calories": 220,

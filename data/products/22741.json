@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7617
+    "store_count": 7620
   },
   "histogram": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$0.49",
-      "count": 389
+      "count": 390
     },
     {
       "bucket": "$0.50",
-      "count": 1104
+      "count": 1105
     },
     {
       "bucket": "$0.55",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 609
+      "count": 610
     },
     {
       "bucket": "$0.79",
@@ -221,6 +221,11 @@
       "store_count": 198
     },
     {
+      "state": "MD",
+      "avg_price": 0.66,
+      "store_count": 91
+    },
+    {
       "state": "WA",
       "avg_price": 0.66,
       "store_count": 137
@@ -229,11 +234,6 @@
       "state": "DE",
       "avg_price": 0.66,
       "store_count": 16
-    },
-    {
-      "state": "MD",
-      "avg_price": 0.66,
-      "store_count": 90
     },
     {
       "state": "CA",
@@ -261,14 +261,14 @@
       "store_count": 448
     },
     {
-      "state": "WI",
-      "avg_price": 0.63,
-      "store_count": 139
-    },
-    {
       "state": "NV",
       "avg_price": 0.63,
       "store_count": 87
+    },
+    {
+      "state": "WI",
+      "avg_price": 0.63,
+      "store_count": 140
     },
     {
       "state": "IA",
@@ -338,7 +338,7 @@
     {
       "state": "KY",
       "avg_price": 0.56,
-      "store_count": 159
+      "store_count": 160
     },
     {
       "state": "NJ",
@@ -570,6 +570,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031960",
+      "store_name": "Taco Bell",
+      "city": "Monona",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.49,
+      "observed_at": "2026-04-27T22:45:35.859720+00:00"
+    },
+    {
+      "store_number": "039965",
+      "store_name": "Taco Bell",
+      "city": "Gambrills",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-27T22:45:20.166747+00:00"
+    },
+    {
+      "store_number": "004394",
+      "store_name": "Taco Bell",
+      "city": "Cold Spring",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-27T22:44:19.515698+00:00"
+    },
     {
       "store_number": "042450",
       "store_name": "Taco Bell",
@@ -1282,7 +1312,7 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
+    "added": 39,
     "removed": 33,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
@@ -18060,6 +18090,15 @@
       "TX"
     ],
     [
+      "031960",
+      43.04753779301816,
+      -89.32267232799859,
+      0.49,
+      "Taco Bell",
+      "Monona",
+      "WI"
+    ],
+    [
       "040303",
       42.6773,
       -83.2838,
@@ -26023,6 +26062,15 @@
       "Taco Bell",
       "Marshfield",
       "MO"
+    ],
+    [
+      "004394",
+      39.02791470313854,
+      -84.45141479372978,
+      0.5,
+      "Taco Bell",
+      "Cold Spring",
+      "KY"
     ],
     [
       "002444",
@@ -59233,6 +59281,15 @@
       "Taco Bell",
       "Alpharetta",
       "GA"
+    ],
+    [
+      "039965",
+      39.02555490292127,
+      -76.69070183183067,
+      0.75,
+      "Taco Bell",
+      "Gambrills",
+      "MD"
     ],
     [
       "029553",

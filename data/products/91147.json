@@ -18,12 +18,12 @@
     "max": 11.49,
     "median": 9.99,
     "std_dev": 0.35,
-    "store_count": 490
+    "store_count": 491
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 425
+      "count": 426
     },
     {
       "bucket": "$10.99",
@@ -38,7 +38,7 @@
     {
       "state": "GA",
       "avg_price": 10.27,
-      "store_count": 237
+      "store_count": 238
     },
     {
       "state": "TN",
@@ -403,6 +403,7 @@
     "041800",
     "042131",
     "005323",
+    "042574",
     "018166",
     "002302",
     "042134",
@@ -647,6 +648,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042574",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-04-27T22:41:34.927442+00:00"
+    },
     {
       "store_number": "036372",
       "store_name": "Taco Bell",
@@ -8469,7 +8480,7 @@
     }
   ],
   "activity_summary": {
-    "added": 636,
+    "added": 637,
     "removed": 146,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -10797,6 +10808,15 @@
       9.99,
       "Taco Bell",
       "Union City",
+      "GA"
+    ],
+    [
+      "042574",
+      33.910308019300345,
+      -84.82438392472432,
+      9.99,
+      "Taco Bell",
+      "Dallas",
       "GA"
     ],
     [

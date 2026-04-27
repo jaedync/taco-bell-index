@@ -12,14 +12,18 @@
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.59,
-    "min": 2.29,
+    "avg": 2.52,
+    "min": 2.19,
     "max": 2.79,
-    "median": 2.59,
-    "std_dev": 0.21,
-    "store_count": 5
+    "median": 2.54,
+    "std_dev": 0.25,
+    "store_count": 6
   },
   "histogram": [
+    {
+      "bucket": "$2.19",
+      "count": 1
+    },
     {
       "bucket": "$2.29",
       "count": 1
@@ -46,6 +50,13 @@
   ],
   "nutrition": null,
   "cheapest_stores": [
+    {
+      "store_number": "039656",
+      "name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "price": 2.19
+    },
     {
       "store_number": "040658",
       "name": "Taco Bell",
@@ -83,7 +94,7 @@
     }
   ],
   "min_price_store_numbers": [
-    "040658"
+    "039656"
   ],
   "priciest_stores": [
     {
@@ -120,9 +131,26 @@
       "city": "Bronx",
       "state": "NY",
       "price": 2.29
+    },
+    {
+      "store_number": "039656",
+      "name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "price": 2.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039656",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-27T22:34:09.357829+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -225,7 +253,7 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
+    "added": 4,
     "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -235,6 +263,15 @@
   "calories_max": 0,
   "combo_groups": [],
   "map_data": [
+    [
+      "039656",
+      39.7439075,
+      -104.9900451,
+      2.19,
+      "Taco Bell",
+      "Denver",
+      "CO"
+    ],
     [
       "040658",
       40.88004873961616,
@@ -284,11 +321,11 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 2.43,
+      "avg_price": 2.41,
       "min_price": 2.19,
       "max_price": 2.79,
       "calories": 0,
-      "happier_hour_avg": 2.01
+      "happier_hour_avg": 1.89
     }
   ]
 }

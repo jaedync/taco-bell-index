@@ -237,13 +237,32 @@
     },
     {
       "date": "2026-04-27",
-      "avg": 4.1273,
+      "avg": 4.128,
       "median": 4.19,
       "p10": 3.79,
       "p90": 4.39,
-      "store_count": 6143,
-      "availability_pct": 74.51
+      "store_count": 6189,
+      "availability_pct": 75.07
     }
   ],
-  "events": []
+  "events": [
+    {
+      "event_type": "retired",
+      "observed_at": "2026-03-31",
+      "store_pct": 0.24,
+      "notes": "availability < 5% for 7 consecutive days"
+    },
+    {
+      "event_type": "returned",
+      "observed_at": "2026-04-07",
+      "store_pct": 0.62,
+      "notes": "back after 7 days"
+    },
+    {
+      "event_type": "launching",
+      "observed_at": "2026-04-17",
+      "store_pct": 76.58,
+      "notes": "crossed 25% threshold"
+    }
+  ]
 }

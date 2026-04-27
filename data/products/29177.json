@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
-  "availability_pct": 0.9,
+  "availability_pct": 0.8,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 66
+    "store_count": 64
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 66
+      "count": 64
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 66
+      "store_count": 64
     }
   ],
   "nutrition": {
@@ -52,13 +52,6 @@
       "store_number": "039700",
       "name": "Taco Bell",
       "city": "Clermont",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "040730",
-      "name": "Taco Bell",
-      "city": "Edgewater",
       "state": "FL",
       "price": 10.99
     },
@@ -117,11 +110,17 @@
       "city": "Minneola",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "037372",
+      "name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
-    "040730",
     "040450",
     "034859",
     "036021",
@@ -149,7 +148,6 @@
     "023299",
     "005646",
     "027970",
-    "027979",
     "028007",
     "022590",
     "027971",
@@ -260,6 +258,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:50:07.202886+00:00"
+    },
+    {
+      "store_number": "027979",
+      "store_name": "Taco Bell",
+      "city": "Lake Mary",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:51.859461+00:00"
+    },
     {
       "store_number": "022587",
       "store_name": "Taco Bell",
@@ -983,7 +1001,7 @@
   ],
   "activity_summary": {
     "added": 69,
-    "removed": 3,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1030,15 +1048,6 @@
       10.99,
       "Taco Bell",
       "Clermont",
-      "FL"
-    ],
-    [
-      "040730",
-      28.978999988269013,
-      -80.90048237483407,
-      10.99,
-      "Taco Bell",
-      "Edgewater",
       "FL"
     ],
     [
@@ -1282,15 +1291,6 @@
       10.99,
       "Taco Bell",
       "Merritt Island",
-      "FL"
-    ],
-    [
-      "027979",
-      28.755784924346298,
-      -81.3436637725863,
-      10.99,
-      "Taco Bell",
-      "Lake Mary",
       "FL"
     ],
     [

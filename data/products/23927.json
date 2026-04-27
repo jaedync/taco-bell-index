@@ -11,26 +11,26 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.818531+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.7,
   "price_stats": {
     "avg": 5.49,
     "min": 5.49,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 50
+    "store_count": 52
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 50
+      "count": 52
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 50
+      "store_count": 52
     }
   ],
   "nutrition": {
@@ -146,7 +146,9 @@
     "031393",
     "024434",
     "033312",
+    "001738",
     "037840",
+    "003296",
     "041875",
     "024150",
     "024651",
@@ -244,6 +246,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003296",
+      "store_name": "Taco Bell",
+      "city": "Plymouth",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-27T22:33:55.951786+00:00"
+    },
+    {
+      "store_number": "001738",
+      "store_name": "Taco Bell",
+      "city": "Farmington Hills",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-27T22:33:55.633108+00:00"
+    },
     {
       "store_number": "001738",
       "store_name": "Taco Bell",
@@ -1086,7 +1108,7 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
+    "added": 69,
     "removed": 17,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1344,12 +1366,30 @@
       "MI"
     ],
     [
+      "001738",
+      42.468798757808486,
+      -83.42478863430642,
+      5.49,
+      "Taco Bell",
+      "Farmington Hills",
+      "MI"
+    ],
+    [
       "037840",
       42.58959812045883,
       -83.88072914914574,
       5.49,
       "Taco Bell",
       "Howell",
+      "MI"
+    ],
+    [
+      "003296",
+      42.37675575824454,
+      -83.46110030079672,
+      5.49,
+      "Taco Bell",
+      "Plymouth",
       "MI"
     ],
     [

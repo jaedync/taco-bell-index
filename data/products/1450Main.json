@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
-  "availability_pct": 8.0,
+  "availability_pct": 7.9,
   "price_stats": {
     "avg": 1.19,
     "min": 0.69,
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 613
+    "store_count": 611
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 124
+      "count": 123
     },
     {
       "bucket": "$1.00",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$1.05",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$1.19",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 64
+      "count": 65
     },
     {
       "bucket": "$1.39",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 58
+      "count": 57
     },
     {
       "bucket": "$1.59",
@@ -128,7 +128,7 @@
     {
       "state": "WA",
       "avg_price": 1.44,
-      "store_count": 82
+      "store_count": 81
     },
     {
       "state": "MI",
@@ -138,7 +138,7 @@
     {
       "state": "CA",
       "avg_price": 1.35,
-      "store_count": 152
+      "store_count": 153
     },
     {
       "state": "MD",
@@ -166,14 +166,14 @@
       "store_count": 5
     },
     {
+      "state": "IL",
+      "avg_price": 1.14,
+      "store_count": 27
+    },
+    {
       "state": "OR",
       "avg_price": 1.14,
       "store_count": 56
-    },
-    {
-      "state": "IL",
-      "avg_price": 1.14,
-      "store_count": 28
     },
     {
       "state": "KS",
@@ -186,14 +186,14 @@
       "store_count": 7
     },
     {
-      "state": "WI",
-      "avg_price": 0.95,
-      "store_count": 36
-    },
-    {
       "state": "FL",
       "avg_price": 0.95,
       "store_count": 5
+    },
+    {
+      "state": "WI",
+      "avg_price": 0.94,
+      "store_count": 35
     },
     {
       "state": "MO",
@@ -213,7 +213,12 @@
     {
       "state": "MN",
       "avg_price": 0.8,
-      "store_count": 83
+      "store_count": 82
+    },
+    {
+      "state": "WY",
+      "avg_price": 0.79,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -379,6 +384,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016822",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:45:35.954249+00:00"
+    },
+    {
+      "store_number": "019213",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:44:14.587452+00:00"
+    },
+    {
+      "store_number": "023074",
+      "store_name": "Taco Bell",
+      "city": "Cheyenne",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-27T22:42:41.826215+00:00"
+    },
+    {
+      "store_number": "021113",
+      "store_name": "Taco Bell",
+      "city": "Elk Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-04-27T22:40:36.292632+00:00"
+    },
+    {
+      "store_number": "037180",
+      "store_name": "Taco Bell",
+      "city": "Walla Walla",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 1.05,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:24:47.872107+00:00"
+    },
+    {
+      "store_number": "040822",
+      "store_name": "Taco Bell",
+      "city": "Chippewa Falls",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:00:00.742484+00:00"
+    },
     {
       "store_number": "035280",
       "store_name": "Taco Bell",
@@ -1181,8 +1246,8 @@
     }
   ],
   "activity_summary": {
-    "added": 29,
-    "removed": 49,
+    "added": 31,
+    "removed": 53,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2047,6 +2112,15 @@
       "WI"
     ],
     [
+      "023074",
+      41.1388001852768,
+      -104.78724454344956,
+      0.79,
+      "Taco Bell",
+      "Cheyenne",
+      "WY"
+    ],
+    [
       "041363",
       37.98557851945033,
       -121.33741199970245,
@@ -2585,15 +2659,6 @@
       "Taco Bell / KFC",
       "Rio Vista",
       "CA"
-    ],
-    [
-      "016822",
-      45.56805756390271,
-      -94.14128758860289,
-      0.79,
-      "Taco Bell",
-      "Saint Cloud",
-      "MN"
     ],
     [
       "031968",
@@ -3595,15 +3660,6 @@
       "NE"
     ],
     [
-      "019213",
-      38.624705889810166,
-      -88.96405309438705,
-      0.99,
-      "Taco Bell",
-      "Salem",
-      "IL"
-    ],
-    [
       "024465",
       38.404629048244445,
       -96.19775354862213,
@@ -3872,15 +3928,6 @@
       "Taco Bell",
       "Corvallis",
       "OR"
-    ],
-    [
-      "037180",
-      46.06263676184808,
-      -118.34749733066238,
-      1.05,
-      "Taco Bell",
-      "Walla Walla",
-      "WA"
     ],
     [
       "037177",
@@ -4702,6 +4749,15 @@
       "OH"
     ],
     [
+      "021113",
+      38.42306026595721,
+      -121.4251898927705,
+      1.29,
+      "Taco Bell",
+      "Elk Grove",
+      "CA"
+    ],
+    [
       "032680",
       35.62693685260113,
       -118.4734794532001,
@@ -5186,15 +5242,6 @@
       "Taco Bell",
       "Taft",
       "CA"
-    ],
-    [
-      "040822",
-      44.9216,
-      -91.3722,
-      1.49,
-      "Taco Bell",
-      "Chippewa Falls",
-      "WI"
     ],
     [
       "037328",

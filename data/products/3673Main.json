@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
-  "availability_pct": 0.4,
+  "availability_pct": 0.5,
   "price_stats": {
-    "avg": 3.9,
+    "avg": 3.89,
     "min": 3.79,
     "max": 3.99,
     "median": 3.99,
     "std_dev": 0.1,
-    "store_count": 33
+    "store_count": 35
   },
   "histogram": [
     {
       "bucket": "$3.79",
-      "count": 15
+      "count": 17
     },
     {
       "bucket": "$3.99",
@@ -39,7 +39,7 @@
     {
       "state": "TX",
       "avg_price": 3.79,
-      "store_count": 11
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -86,9 +86,23 @@
       "price": 3.79
     },
     {
+      "store_number": "002689",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "price": 3.79
+    },
+    {
       "store_number": "002851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Humble",
+      "state": "TX",
+      "price": 3.79
+    },
+    {
+      "store_number": "026050",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Porte",
       "state": "TX",
       "price": 3.79
     },
@@ -112,20 +126,6 @@
       "city": "Fort Worth",
       "state": "TX",
       "price": 3.79
-    },
-    {
-      "store_number": "027505",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Irvine",
-      "state": "CA",
-      "price": 3.79
-    },
-    {
-      "store_number": "001331",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Dallas",
-      "state": "TX",
-      "price": 3.79
     }
   ],
   "min_price_store_numbers": [
@@ -133,7 +133,9 @@
     "019252",
     "024393",
     "021176",
+    "002689",
     "002851",
+    "026050",
     "002981",
     "001089",
     "027669",
@@ -219,6 +221,26 @@
   ],
   "price_changes": [
     {
+      "store_number": "026050",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "La Porte",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-04-27T22:34:04.071215+00:00"
+    },
+    {
+      "store_number": "002689",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-04-27T22:33:55.259376+00:00"
+    },
+    {
       "store_number": "002984",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mission Viejo",
@@ -250,7 +272,7 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 3,
     "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -297,12 +319,30 @@
       "TX"
     ],
     [
+      "002689",
+      29.680382783181383,
+      -95.12291199994706,
+      3.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Deer Park",
+      "TX"
+    ],
+    [
       "002851",
       29.9977979971997,
       -95.16799039678068,
       3.79,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Humble",
+      "TX"
+    ],
+    [
+      "026050",
+      29.664543899716055,
+      -95.09931559861116,
+      3.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "La Porte",
       "TX"
     ],
     [

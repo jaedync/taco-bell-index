@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.6,
+  "availability_pct": 99.5,
   "price_stats": {
     "avg": 22.41,
     "min": 11.88,
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.82,
-    "store_count": 7673
+    "store_count": 7668
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$17.89",
-      "count": 24
+      "count": 25
     },
     {
       "bucket": "$17.99",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$19.09",
-      "count": 24
+      "count": 23
     },
     {
       "bucket": "$19.39",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 458
+      "count": 456
     },
     {
       "bucket": "$20.19",
@@ -166,7 +166,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1434
+      "count": 1433
     },
     {
       "bucket": "$22.19",
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1795
+      "count": 1794
     },
     {
       "bucket": "$23.19",
@@ -250,7 +250,7 @@
     },
     {
       "bucket": "$23.99",
-      "count": 325
+      "count": 324
     },
     {
       "bucket": "$24.00",
@@ -468,17 +468,17 @@
     {
       "state": "OH",
       "avg_price": 22.37,
-      "store_count": 409
+      "store_count": 408
     },
     {
       "state": "GA",
       "avg_price": 22.33,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "MI",
-      "avg_price": 22.22,
-      "store_count": 348
+      "avg_price": 22.23,
+      "store_count": 346
     },
     {
       "state": "WI",
@@ -487,8 +487,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 21.98,
-      "store_count": 47
+      "avg_price": 21.94,
+      "store_count": 46
     },
     {
       "state": "MO",
@@ -516,14 +516,14 @@
       "store_count": 134
     },
     {
-      "state": "SC",
-      "avg_price": 21.57,
-      "store_count": 116
-    },
-    {
       "state": "NC",
       "avg_price": 21.55,
       "store_count": 263
+    },
+    {
+      "state": "SC",
+      "avg_price": 21.54,
+      "store_count": 117
     },
     {
       "state": "KY",
@@ -572,8 +572,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 20.8,
-      "store_count": 259
+      "avg_price": 20.81,
+      "store_count": 258
     },
     {
       "state": "WV",
@@ -750,6 +750,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031268",
+      "store_name": "Taco Bell",
+      "city": "Ankeny",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 23.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:43:35.608059+00:00"
+    },
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:31.907221+00:00"
+    },
+    {
+      "store_number": "031792",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 17.89,
+      "observed_at": "2026-04-27T22:42:29.584762+00:00"
+    },
+    {
+      "store_number": "030677",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:09.615058+00:00"
+    },
+    {
+      "store_number": "033015",
+      "store_name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:58.017694+00:00"
+    },
+    {
+      "store_number": "034786",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 19.09,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:36.248679+00:00"
+    },
+    {
+      "store_number": "041324",
+      "store_name": "Taco Bell",
+      "city": "Grandville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T21:54:26.085471+00:00"
+    },
     {
       "store_number": "035270",
       "store_name": "Taco Bell",
@@ -2302,8 +2372,8 @@
     }
   ],
   "activity_summary": {
-    "added": 44,
-    "removed": 39,
+    "added": 45,
+    "removed": 45,
     "price_changed": 72,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2554,6 +2624,15 @@
       "031791",
       34.06353546239675,
       -80.9546967226825,
+      17.89,
+      "Taco Bell",
+      "Columbia",
+      "SC"
+    ],
+    [
+      "031792",
+      34.13927618560603,
+      -80.93461190165726,
       17.89,
       "Taco Bell",
       "Columbia",
@@ -5188,15 +5267,6 @@
       "IN"
     ],
     [
-      "034786",
-      37.97724933062687,
-      -87.6292207436168,
-      19.09,
-      "Taco Bell",
-      "Evansville",
-      "IN"
-    ],
-    [
       "028922",
       39.21132909184719,
       -86.5860689595504,
@@ -7654,15 +7724,6 @@
       "MN"
     ],
     [
-      "041324",
-      42.88062253819751,
-      -85.76345292883101,
-      19.99,
-      "Taco Bell",
-      "Grandville",
-      "MI"
-    ],
-    [
       "041154",
       32.473945760941746,
       -84.9882127315456,
@@ -9884,15 +9945,6 @@
       "Taco Bell",
       "Saint Paul",
       "MN"
-    ],
-    [
-      "033015",
-      42.8313575945687,
-      -86.09484677018372,
-      19.99,
-      "Taco Bell",
-      "Holland",
-      "MI"
     ],
     [
       "029103",
@@ -29191,15 +29243,6 @@
       "LA"
     ],
     [
-      "030677",
-      41.65265762502999,
-      -83.61882623255677,
-      21.99,
-      "Taco Bell",
-      "Toledo",
-      "OH"
-    ],
-    [
       "029048",
       36.63353061429419,
       -82.12641424493624,
@@ -47054,15 +47097,6 @@
       "Taco Bell",
       "Los Angeles",
       "CA"
-    ],
-    [
-      "002995",
-      33.88866329031674,
-      -84.47492127122132,
-      22.99,
-      "Taco Bell",
-      "Smyrna",
-      "GA"
     ],
     [
       "031618",
@@ -65387,15 +65421,6 @@
       "Taco Bell",
       "Canton",
       "GA"
-    ],
-    [
-      "031268",
-      41.74796773569464,
-      -93.60074189019,
-      23.99,
-      "Taco Bell",
-      "Ankeny",
-      "IA"
     ],
     [
       "030934",

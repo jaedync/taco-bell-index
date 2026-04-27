@@ -18,19 +18,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 32
+    "store_count": 31
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 32
+      "count": 31
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 32
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -48,13 +48,6 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
-    {
-      "store_number": "040730",
-      "name": "Taco Bell",
-      "city": "Edgewater",
-      "state": "FL",
-      "price": 10.99
-    },
     {
       "store_number": "034859",
       "name": "Taco Bell Cantina Cantina",
@@ -117,10 +110,16 @@
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "027981",
+      "name": "Taco Bell",
+      "city": "Winter Park",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
-    "040730",
     "034859",
     "034809",
     "036232",
@@ -226,6 +225,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040730",
+      "store_name": "Taco Bell",
+      "city": "Edgewater",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:50:07.202886+00:00"
+    },
     {
       "store_number": "027979",
       "store_name": "Taco Bell",
@@ -1229,7 +1238,7 @@
   ],
   "activity_summary": {
     "added": 66,
-    "removed": 34,
+    "removed": 35,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1269,15 +1278,6 @@
     }
   ],
   "map_data": [
-    [
-      "040730",
-      28.978999988269013,
-      -80.90048237483407,
-      10.99,
-      "Taco Bell",
-      "Edgewater",
-      "FL"
-    ],
     [
       "034859",
       28.59831098412045,

@@ -11,14 +11,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.8,
+  "availability_pct": 99.7,
   "price_stats": {
     "avg": 0.23,
     "min": 0.19,
     "max": 1.5,
     "median": 0.2,
     "std_dev": 0.07,
-    "store_count": 7686
+    "store_count": 7682
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 5465
+      "count": 5462
     },
     {
       "bucket": "$0.22",
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 725
+      "count": 724
     },
     {
       "bucket": "$0.33",
@@ -145,7 +145,7 @@
     {
       "state": "OR",
       "avg_price": 0.27,
-      "store_count": 121
+      "store_count": 122
     },
     {
       "state": "GA",
@@ -175,7 +175,7 @@
     {
       "state": "CA",
       "avg_price": 0.25,
-      "store_count": 839
+      "store_count": 838
     },
     {
       "state": "DE",
@@ -185,7 +185,7 @@
     {
       "state": "IL",
       "avg_price": 0.24,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "ID",
@@ -205,12 +205,12 @@
     {
       "state": "TN",
       "avg_price": 0.23,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "MO",
       "avg_price": 0.23,
-      "store_count": 226
+      "store_count": 225
     },
     {
       "state": "IN",
@@ -245,7 +245,7 @@
     {
       "state": "WI",
       "avg_price": 0.22,
-      "store_count": 142
+      "store_count": 141
     },
     {
       "state": "OH",
@@ -521,6 +521,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:44:10.823477+00:00"
+    },
+    {
+      "store_number": "031492",
+      "store_name": "Taco Bell",
+      "city": "Appleton",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:21.846306+00:00"
+    },
+    {
+      "store_number": "026240",
+      "store_name": "Taco Bell",
+      "city": "San Diego",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:09.223912+00:00"
+    },
+    {
+      "store_number": "026742",
+      "store_name": "Taco Bell",
+      "city": "New Lenox",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:42.425933+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:31.180524+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-04-27T22:41:21.455273+00:00"
+    },
+    {
+      "store_number": "031832",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-04-27T22:38:59.434770+00:00"
+    },
+    {
+      "store_number": "036251",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:10:07.347390+00:00"
+    },
     {
       "store_number": "033440",
       "store_name": "Taco Bell",
@@ -3263,8 +3343,8 @@
     }
   ],
   "activity_summary": {
-    "added": 132,
-    "removed": 129,
+    "added": 134,
+    "removed": 135,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25189,6 +25269,15 @@
       "CO"
     ],
     [
+      "041228",
+      33.70089923153877,
+      -84.16987270116806,
+      0.2,
+      "Taco Bell",
+      "Lithonia",
+      "GA"
+    ],
+    [
       "042882",
       30.18600083709369,
       -81.73982814701048,
@@ -26546,15 +26635,6 @@
       "Taco Bell",
       "Charmco",
       "WV"
-    ],
-    [
-      "003889",
-      33.966106,
-      -84.410766,
-      0.2,
-      "Taco Bell",
-      "Marietta",
-      "GA"
     ],
     [
       "042849",
@@ -31984,15 +32064,6 @@
       "CA"
     ],
     [
-      "026240",
-      32.75061018589438,
-      -117.20830118661118,
-      0.2,
-      "Taco Bell",
-      "San Diego",
-      "CA"
-    ],
-    [
       "031502",
       43.814271870625234,
       -91.23950779438019,
@@ -33476,15 +33547,6 @@
       "Taco Bell",
       "Flemington",
       "NJ"
-    ],
-    [
-      "031492",
-      44.28763496706581,
-      -88.41538538040368,
-      0.2,
-      "Taco Bell",
-      "Appleton",
-      "WI"
     ],
     [
       "037571",
@@ -42557,15 +42619,6 @@
       "Taco Bell",
       "De Pere",
       "WI"
-    ],
-    [
-      "024403",
-      35.96722562647426,
-      -85.03864054957367,
-      0.2,
-      "Taco Bell",
-      "Crossville",
-      "TN"
     ],
     [
       "004640",
@@ -52963,15 +53016,6 @@
       "NV"
     ],
     [
-      "036251",
-      39.034202183610354,
-      -94.53198025225383,
-      0.25,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
-    ],
-    [
       "036335",
       44.23134523351836,
       -123.20316993743882,
@@ -57209,6 +57253,15 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "031832",
+      45.46856382098697,
+      -122.69208640606848,
+      0.25,
+      "Taco Bell",
+      "Portland",
+      "OR"
     ],
     [
       "032954",
@@ -65624,15 +65677,6 @@
       "Taco Bell",
       "Chino Hills",
       "CA"
-    ],
-    [
-      "026742",
-      41.51709918259192,
-      -87.97966361045832,
-      0.3,
-      "Taco Bell",
-      "New Lenox",
-      "IL"
     ],
     [
       "027902",

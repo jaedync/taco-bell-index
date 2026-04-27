@@ -10,19 +10,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 97.7,
+  "availability_pct": 97.6,
   "price_stats": {
     "avg": 0.26,
     "min": 0.25,
     "max": 0.99,
     "median": 0.25,
     "std_dev": 0.06,
-    "store_count": 7525
+    "store_count": 7520
   },
   "histogram": [
     {
       "bucket": "$0.25",
-      "count": 6920
+      "count": 6916
     },
     {
       "bucket": "$0.27",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.35",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$0.38",
@@ -123,7 +123,7 @@
     {
       "state": "MA",
       "avg_price": 0.3,
-      "store_count": 64
+      "store_count": 62
     },
     {
       "state": "CT",
@@ -138,7 +138,7 @@
     {
       "state": "AZ",
       "avg_price": 0.28,
-      "store_count": 192
+      "store_count": 191
     },
     {
       "state": "WV",
@@ -148,7 +148,7 @@
     {
       "state": "CA",
       "avg_price": 0.26,
-      "store_count": 833
+      "store_count": 834
     },
     {
       "state": "FL",
@@ -188,7 +188,7 @@
     {
       "state": "OH",
       "avg_price": 0.25,
-      "store_count": 405
+      "store_count": 404
     },
     {
       "state": "TX",
@@ -203,7 +203,7 @@
     {
       "state": "NM",
       "avg_price": 0.25,
-      "store_count": 58
+      "store_count": 57
     },
     {
       "state": "IL",
@@ -218,7 +218,7 @@
     {
       "state": "MI",
       "avg_price": 0.25,
-      "store_count": 347
+      "store_count": 346
     },
     {
       "state": "MO",
@@ -1063,7 +1063,6 @@
     "036418",
     "035226",
     "036416",
-    "035098",
     "034806",
     "036449",
     "036033",
@@ -1580,7 +1579,6 @@
     "037682",
     "036309",
     "037338",
-    "040884",
     "037525",
     "038966",
     "038778",
@@ -2390,7 +2388,6 @@
     "003924",
     "017983",
     "029324",
-    "041624",
     "023261",
     "028434",
     "034621",
@@ -2836,6 +2833,7 @@
     "017131",
     "039849",
     "020501",
+    "034205",
     "028510",
     "040026",
     "003915",
@@ -3419,7 +3417,6 @@
     "030086",
     "035173",
     "033622",
-    "019309",
     "039970",
     "042146",
     "031501",
@@ -4443,7 +4440,6 @@
     "023270",
     "035445",
     "020864",
-    "005721",
     "030750",
     "022282",
     "029905",
@@ -7422,6 +7418,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005721",
+      "store_name": "Taco Bell",
+      "city": "Lima",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:42:06.964100+00:00"
+    },
+    {
+      "store_number": "019309",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:41:14.628808+00:00"
+    },
+    {
+      "store_number": "034205",
+      "store_name": "Taco Bell",
+      "city": "Fresno",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-04-27T22:38:59.454391+00:00"
+    },
+    {
+      "store_number": "041624",
+      "store_name": "Taco Bell",
+      "city": "Apache Junction",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:34:17.325167+00:00"
+    },
+    {
+      "store_number": "040884",
+      "store_name": "Taco Bell",
+      "city": "Norwood",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:24:49.276878+00:00"
+    },
+    {
+      "store_number": "035098",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:10:06.734717+00:00"
+    },
+    {
+      "store_number": "041634",
+      "store_name": "Taco Bell",
+      "city": "Allston",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.35,
+      "new_price": null,
+      "observed_at": "2026-04-27T21:54:27.882448+00:00"
+    },
     {
       "store_number": "034205",
       "store_name": "Taco Bell",
@@ -17584,8 +17650,8 @@
     }
   ],
   "activity_summary": {
-    "added": 378,
-    "removed": 527,
+    "added": 379,
+    "removed": 533,
     "price_changed": 111,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23310,15 +23376,6 @@
       "AL"
     ],
     [
-      "035098",
-      42.478732,
-      -82.988893,
-      0.25,
-      "Taco Bell",
-      "Warren",
-      "MI"
-    ],
-    [
       "034806",
       40.397715,
       -74.557961,
@@ -27961,15 +28018,6 @@
       "Taco Bell",
       "Jeffersonville",
       "IN"
-    ],
-    [
-      "040884",
-      42.17936107988532,
-      -71.18951117236664,
-      0.25,
-      "Taco Bell",
-      "Norwood",
-      "MA"
     ],
     [
       "037525",
@@ -35253,15 +35301,6 @@
       "CT"
     ],
     [
-      "041624",
-      33.41294318178485,
-      -111.54743222286925,
-      0.25,
-      "Taco Bell",
-      "Apache Junction",
-      "AZ"
-    ],
-    [
       "023261",
       35.08246951984894,
       -77.03215553993377,
@@ -39265,6 +39304,15 @@
       "Taco Bell",
       "Hialeah",
       "FL"
+    ],
+    [
+      "034205",
+      36.851660201526045,
+      -119.77506072075812,
+      0.25,
+      "Taco Bell",
+      "Fresno",
+      "CA"
     ],
     [
       "028510",
@@ -44512,15 +44560,6 @@
       "Taco Bell",
       "Los Angeles",
       "CA"
-    ],
-    [
-      "019309",
-      35.14628441523667,
-      -106.55435056241004,
-      0.25,
-      "Taco Bell / Pizza Hut",
-      "Albuquerque",
-      "NM"
     ],
     [
       "039970",
@@ -53728,15 +53767,6 @@
       "Taco Bell",
       "Broken Arrow",
       "OK"
-    ],
-    [
-      "005721",
-      40.76809082603134,
-      -84.16137322788927,
-      0.25,
-      "Taco Bell",
-      "Lima",
-      "OH"
     ],
     [
       "030750",
@@ -80917,15 +80947,6 @@
       "Taco Bell",
       "Chester",
       "NY"
-    ],
-    [
-      "041634",
-      42.35004473519911,
-      -71.13056314201336,
-      0.35,
-      "Taco Bell",
-      "Allston",
-      "MA"
     ],
     [
       "040709",

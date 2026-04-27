@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.39,
+    "avg": 5.38,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.2,
-    "store_count": 25
+    "std_dev": 0.21,
+    "store_count": 22
   },
   "histogram": [
     {
@@ -27,14 +27,14 @@
     },
     {
       "bucket": "$5.49",
-      "count": 20
+      "count": 17
     }
   ],
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 5.42,
-      "store_count": 15
+      "avg_price": 5.41,
+      "store_count": 13
     }
   ],
   "nutrition": {
@@ -95,13 +95,6 @@
       "price": 5.49
     },
     {
-      "store_number": "039938",
-      "name": "Taco Bell",
-      "city": "Summerville",
-      "state": "GA",
-      "price": 5.49
-    },
-    {
       "store_number": "029120",
       "name": "Taco Bell",
       "city": "Leeds",
@@ -116,10 +109,17 @@
       "price": 5.49
     },
     {
-      "store_number": "040382",
+      "store_number": "041223",
       "name": "Taco Bell",
-      "city": "Tallassee",
-      "state": "AL",
+      "city": "Ellenwood",
+      "state": "GA",
+      "price": 5.49
+    },
+    {
+      "store_number": "041257",
+      "name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
       "price": 5.49
     }
   ],
@@ -203,6 +203,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:43:21.208475+00:00"
+    },
+    {
+      "store_number": "040382",
+      "store_name": "Taco Bell",
+      "city": "Tallassee",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:34:09.504142+00:00"
+    },
+    {
+      "store_number": "039938",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-04-27T22:33:51.938893+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -776,7 +806,7 @@
   ],
   "activity_summary": {
     "added": 28,
-    "removed": 29,
+    "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -840,15 +870,6 @@
       "TN"
     ],
     [
-      "039938",
-      34.49523577676158,
-      -85.33594563603401,
-      5.49,
-      "Taco Bell",
-      "Summerville",
-      "GA"
-    ],
-    [
       "029120",
       33.561014179123816,
       -86.52200907468801,
@@ -865,15 +886,6 @@
       "Taco Bell",
       "Red Bank",
       "TN"
-    ],
-    [
-      "040382",
-      32.544172412004265,
-      -85.90615375967491,
-      5.49,
-      "Taco Bell",
-      "Tallassee",
-      "AL"
     ],
     [
       "041223",
@@ -900,15 +912,6 @@
       5.49,
       "Taco Bell",
       "Dawson",
-      "GA"
-    ],
-    [
-      "041238",
-      33.92281058279636,
-      -83.34047734737396,
-      5.49,
-      "Taco Bell",
-      "Athens",
       "GA"
     ],
     [
