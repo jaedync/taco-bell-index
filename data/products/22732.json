@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 89.8,
+  "availability_pct": 89.9,
   "price_stats": {
     "avg": 0.6,
     "min": 0.1,
     "max": 1.09,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6917
+    "store_count": 6924
   },
   "histogram": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 762
+      "count": 763
     },
     {
       "bucket": "$0.55",
@@ -82,19 +82,19 @@
     },
     {
       "bucket": "$0.60",
-      "count": 975
+      "count": 976
     },
     {
       "bucket": "$0.65",
-      "count": 530
+      "count": 531
     },
     {
       "bucket": "$0.69",
-      "count": 151
+      "count": 152
     },
     {
       "bucket": "$0.70",
-      "count": 715
+      "count": 717
     },
     {
       "bucket": "$0.75",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 186
+      "count": 187
     },
     {
       "bucket": "$0.80",
@@ -181,7 +181,7 @@
     {
       "state": "IA",
       "avg_price": 0.76,
-      "store_count": 46
+      "store_count": 47
     },
     {
       "state": "MI",
@@ -211,7 +211,7 @@
     {
       "state": "CA",
       "avg_price": 0.69,
-      "store_count": 806
+      "store_count": 807
     },
     {
       "state": "NY",
@@ -244,14 +244,14 @@
       "store_count": 185
     },
     {
-      "state": "CO",
-      "avg_price": 0.63,
-      "store_count": 148
-    },
-    {
       "state": "NV",
       "avg_price": 0.63,
-      "store_count": 83
+      "store_count": 84
+    },
+    {
+      "state": "CO",
+      "avg_price": 0.63,
+      "store_count": 149
     },
     {
       "state": "NJ",
@@ -261,7 +261,7 @@
     {
       "state": "NC",
       "avg_price": 0.61,
-      "store_count": 247
+      "store_count": 248
     },
     {
       "state": "WI",
@@ -311,7 +311,7 @@
     {
       "state": "IL",
       "avg_price": 0.57,
-      "store_count": 276
+      "store_count": 277
     },
     {
       "state": "KY",
@@ -345,8 +345,8 @@
     },
     {
       "state": "MA",
-      "avg_price": 0.53,
-      "store_count": 61
+      "avg_price": 0.54,
+      "store_count": 62
     },
     {
       "state": "KS",
@@ -573,6 +573,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-28T21:57:29.563207+00:00"
+    },
+    {
+      "store_number": "030934",
+      "store_name": "Taco Bell",
+      "city": "Santa Rosa",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-28T21:56:54.731177+00:00"
+    },
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-28T21:56:28.782932+00:00"
+    },
+    {
+      "store_number": "043025",
+      "store_name": "Taco Bell",
+      "city": "Macomb",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-28T21:56:02.725663+00:00"
+    },
+    {
+      "store_number": "037052",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.69,
+      "observed_at": "2026-04-28T21:55:38.769486+00:00"
+    },
+    {
+      "store_number": "031903",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-28T21:55:30.668900+00:00"
+    },
     {
       "store_number": "004795",
       "store_name": "Taco Bell",
@@ -10045,7 +10115,7 @@
     }
   ],
   "activity_summary": {
-    "added": 246,
+    "added": 253,
     "removed": 694,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
@@ -30099,6 +30169,15 @@
       "AZ"
     ],
     [
+      "029412",
+      35.919901991392784,
+      -78.95752345027176,
+      0.5,
+      "Taco Bell",
+      "Durham",
+      "NC"
+    ],
+    [
       "029283",
       35.82080837744057,
       -78.84972430771086,
@@ -41403,6 +41482,15 @@
       "NV"
     ],
     [
+      "029263",
+      42.50358312787979,
+      -70.92246077476568,
+      0.6,
+      "Taco Bell",
+      "Salem",
+      "MA"
+    ],
+    [
       "032682",
       34.18847879539225,
       -79.83325141674868,
@@ -49422,6 +49510,15 @@
       "OH"
     ],
     [
+      "042005",
+      39.4768,
+      -104.759,
+      0.65,
+      "Taco Bell",
+      "Parker",
+      "CO"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -50760,6 +50857,15 @@
       0.69,
       "Taco Bell",
       "Council Bluffs",
+      "IA"
+    ],
+    [
+      "037052",
+      41.98198548377206,
+      -91.66368036414497,
+      0.69,
+      "Taco Bell",
+      "Cedar Rapids",
       "IA"
     ],
     [
@@ -55434,6 +55540,15 @@
       "PA"
     ],
     [
+      "030934",
+      38.45800478015655,
+      -122.71787120844238,
+      0.7,
+      "Taco Bell",
+      "Santa Rosa",
+      "CA"
+    ],
+    [
       "040400",
       33.79040180315898,
       -118.21526169776917,
@@ -57214,6 +57329,15 @@
       "Taco Bell",
       "Hayward",
       "CA"
+    ],
+    [
+      "031903",
+      39.436700528957026,
+      -119.75799590349197,
+      0.7,
+      "Taco Bell",
+      "Reno",
+      "NV"
     ],
     [
       "035849",
@@ -63073,6 +63197,15 @@
       "Taco Bell",
       "Hannibal",
       "MO"
+    ],
+    [
+      "043025",
+      40.45912778930967,
+      -90.67748503846553,
+      0.79,
+      "Taco Bell",
+      "Macomb",
+      "IL"
     ],
     [
       "003778",

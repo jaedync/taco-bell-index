@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:40:07.243504+00:00",
   "availability_pct": 2.2,
   "price_stats": {
-    "avg": 3.83,
+    "avg": 3.82,
     "min": 2.09,
     "max": 4.99,
     "median": 3.89,
-    "std_dev": 0.39,
-    "store_count": 169
+    "std_dev": 0.38,
+    "store_count": 170
   },
   "histogram": [
     {
@@ -67,19 +67,19 @@
     },
     {
       "bucket": "$3.69",
-      "count": 17
+      "count": 18
     },
     {
       "bucket": "$3.79",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$3.89",
-      "count": 17
+      "count": 19
     },
     {
       "bucket": "$3.99",
-      "count": 43
+      "count": 44
     },
     {
       "bucket": "$4.09",
@@ -87,15 +87,11 @@
     },
     {
       "bucket": "$4.19",
-      "count": 16
+      "count": 13
     },
     {
       "bucket": "$4.29",
       "count": 4
-    },
-    {
-      "bucket": "$4.35",
-      "count": 1
     },
     {
       "bucket": "$4.39",
@@ -117,14 +113,9 @@
       "store_count": 9
     },
     {
-      "state": "NC",
-      "avg_price": 4.03,
-      "store_count": 5
-    },
-    {
       "state": "MO",
       "avg_price": 4.02,
-      "store_count": 7
+      "store_count": 8
     },
     {
       "state": "OK",
@@ -138,8 +129,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 3.93,
-      "store_count": 5
+      "avg_price": 3.92,
+      "store_count": 6
     },
     {
       "state": "CA",
@@ -152,11 +143,6 @@
       "store_count": 7
     },
     {
-      "state": "NY",
-      "avg_price": 3.84,
-      "store_count": 5
-    },
-    {
       "state": "GA",
       "avg_price": 3.81,
       "store_count": 15
@@ -167,14 +153,19 @@
       "store_count": 7
     },
     {
+      "state": "NY",
+      "avg_price": 3.73,
+      "store_count": 5
+    },
+    {
       "state": "OH",
       "avg_price": 3.69,
       "store_count": 6
     },
     {
       "state": "TX",
-      "avg_price": 3.67,
-      "store_count": 17
+      "avg_price": 3.66,
+      "store_count": 16
     },
     {
       "state": "TN",
@@ -328,14 +319,124 @@
       "price": 4.39
     },
     {
-      "store_number": "029470",
-      "name": "Taco Bell",
-      "city": "Painted Post",
-      "state": "NY",
-      "price": 4.35
+      "store_number": "036192",
+      "name": "Taco Bell / Pizza Hut",
+      "city": "Northlake",
+      "state": "IL",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004779",
+      "store_name": "Taco Bell",
+      "city": "Smithfield",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:20.233099+00:00"
+    },
+    {
+      "store_number": "034387",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-28T21:57:16.521094+00:00"
+    },
+    {
+      "store_number": "023074",
+      "store_name": "Taco Bell",
+      "city": "Cheyenne",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-04-28T21:56:32.860672+00:00"
+    },
+    {
+      "store_number": "029470",
+      "store_name": "Taco Bell",
+      "city": "Painted Post",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 4.35,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:19.180433+00:00"
+    },
+    {
+      "store_number": "022595",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-04-28T21:56:14.805430+00:00"
+    },
+    {
+      "store_number": "029386",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-04-28T21:56:06.384629+00:00"
+    },
+    {
+      "store_number": "033021",
+      "store_name": "Taco Bell",
+      "city": "Cedar Springs",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-04-28T21:56:01.917567+00:00"
+    },
+    {
+      "store_number": "035008",
+      "store_name": "Taco Bell",
+      "city": "Tompkinsville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-04-28T21:55:04.773284+00:00"
+    },
+    {
+      "store_number": "037292",
+      "store_name": "Taco Bell",
+      "city": "Tucson",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:43.384063+00:00"
+    },
+    {
+      "store_number": "034556",
+      "store_name": "Taco Bell",
+      "city": "Raleigh",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:26.610013+00:00"
+    },
+    {
+      "store_number": "041144",
+      "store_name": "Taco Bell",
+      "city": "San Antonio",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.89,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:53:49.252935+00:00"
+    },
     {
       "store_number": "029074",
       "store_name": "Taco Bell",
@@ -3258,8 +3359,8 @@
     }
   ],
   "activity_summary": {
-    "added": 104,
-    "removed": 165,
+    "added": 110,
+    "removed": 170,
     "price_changed": 23,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3791,6 +3892,15 @@
       "GA"
     ],
     [
+      "035008",
+      36.703443074300715,
+      -85.69074595112293,
+      3.69,
+      "Taco Bell",
+      "Tompkinsville",
+      "KY"
+    ],
+    [
       "040418",
       32.6318,
       -85.4985,
@@ -3971,13 +4081,13 @@
       "GA"
     ],
     [
-      "041144",
-      29.5743287,
-      -98.56693969999999,
-      3.89,
+      "029386",
+      43.241257878067756,
+      -77.64647215604782,
+      3.79,
       "Taco Bell",
-      "San Antonio",
-      "TX"
+      "Rochester",
+      "NY"
     ],
     [
       "034785",
@@ -4122,6 +4232,33 @@
       "Taco Bell",
       "Chillicothe",
       "OH"
+    ],
+    [
+      "033021",
+      43.22036483903409,
+      -85.5639481334947,
+      3.89,
+      "Taco Bell",
+      "Cedar Springs",
+      "MI"
+    ],
+    [
+      "022595",
+      28.55328983120039,
+      -80.84494297208039,
+      3.89,
+      "Taco Bell",
+      "Titusville",
+      "FL"
+    ],
+    [
+      "023074",
+      41.1388001852768,
+      -104.78724454344956,
+      3.89,
+      "Taco Bell",
+      "Cheyenne",
+      "WY"
     ],
     [
       "041134",
@@ -4511,6 +4648,15 @@
       "CA"
     ],
     [
+      "034387",
+      38.94175942100975,
+      -94.6077268471742,
+      3.99,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
+    ],
+    [
       "003991",
       40.405731305744325,
       -120.6333485870065,
@@ -4527,15 +4673,6 @@
       "Taco Bell",
       "Calexico",
       "CA"
-    ],
-    [
-      "037292",
-      32.186814101078134,
-      -110.95585192820701,
-      4.19,
-      "Taco Bell",
-      "Tucson",
-      "AZ"
     ],
     [
       "036422",
@@ -4637,15 +4774,6 @@
       "NM"
     ],
     [
-      "034556",
-      35.83562804680089,
-      -78.58137823335784,
-      4.19,
-      "Taco Bell",
-      "Raleigh",
-      "NC"
-    ],
-    [
       "042838",
       39.8171932433511,
       -75.45720799526146,
@@ -4653,15 +4781,6 @@
       "Taco Bell",
       "Claymont",
       "DE"
-    ],
-    [
-      "004779",
-      35.51995953592308,
-      -78.31256349386422,
-      4.19,
-      "Taco Bell",
-      "Smithfield",
-      "NC"
     ],
     [
       "041488",
@@ -4698,15 +4817,6 @@
       "Taco Bell / Pizza Hut",
       "Northlake",
       "IL"
-    ],
-    [
-      "029470",
-      42.153814306378294,
-      -77.10424223428647,
-      4.35,
-      "Taco Bell",
-      "Painted Post",
-      "NY"
     ],
     [
       "041499",
@@ -4805,7 +4915,7 @@
       "min_price": 2.09,
       "max_price": 4.99,
       "calories": 150,
-      "happier_hour_avg": 1.21
+      "happier_hour_avg": 1.2
     }
   ]
 }

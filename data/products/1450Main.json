@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 611
+    "store_count": 608
   },
   "histogram": [
     {
@@ -26,11 +26,11 @@
     },
     {
       "bucket": "$0.79",
-      "count": 163
+      "count": 161
     },
     {
       "bucket": "$0.89",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$0.99",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 53
+      "count": 54
     },
     {
       "bucket": "$1.20",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 65
+      "count": 64
     },
     {
       "bucket": "$1.39",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 57
+      "count": 55
     },
     {
       "bucket": "$1.59",
@@ -131,14 +131,9 @@
       "store_count": 81
     },
     {
-      "state": "MI",
-      "avg_price": 1.37,
-      "store_count": 9
-    },
-    {
       "state": "CA",
       "avg_price": 1.35,
-      "store_count": 153
+      "store_count": 151
     },
     {
       "state": "MD",
@@ -149,6 +144,11 @@
       "state": "IA",
       "avg_price": 1.33,
       "store_count": 10
+    },
+    {
+      "state": "MI",
+      "avg_price": 1.31,
+      "store_count": 11
     },
     {
       "state": "NY",
@@ -207,8 +207,8 @@
     },
     {
       "state": "SD",
-      "avg_price": 0.8,
-      "store_count": 14
+      "avg_price": 0.81,
+      "store_count": 13
     },
     {
       "state": "MN",
@@ -384,6 +384,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031112",
+      "store_name": "Taco Bell",
+      "city": "Rapid City",
+      "state": "SD",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:38.788332+00:00"
+    },
+    {
+      "store_number": "029412",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:29.563207+00:00"
+    },
+    {
+      "store_number": "030779",
+      "store_name": "Taco Bell",
+      "city": "Tracy",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:24.590802+00:00"
+    },
+    {
+      "store_number": "035424",
+      "store_name": "Taco Bell",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:07.293213+00:00"
+    },
+    {
+      "store_number": "030785",
+      "store_name": "Taco Bell",
+      "city": "South San Francisco",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:58.058390+00:00"
+    },
+    {
+      "store_number": "033432",
+      "store_name": "Taco Bell",
+      "city": "Houghton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-04-28T21:55:18.331244+00:00"
+    },
+    {
+      "store_number": "041027",
+      "store_name": "Taco Bell",
+      "city": "Monroe",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.89,
+      "observed_at": "2026-04-28T21:53:50.397783+00:00"
+    },
     {
       "store_number": "016822",
       "store_name": "Taco Bell",
@@ -1246,8 +1316,8 @@
     }
   ],
   "activity_summary": {
-    "added": 31,
-    "removed": 53,
+    "added": 33,
+    "removed": 58,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1968,15 +2038,6 @@
       "MN"
     ],
     [
-      "035424",
-      32.70915421880213,
-      -97.0055797771551,
-      0.79,
-      "Taco Bell",
-      "Grand Prairie",
-      "TX"
-    ],
-    [
       "004672",
       45.04662519697799,
       -93.10587488117568,
@@ -2634,15 +2695,6 @@
       "MN"
     ],
     [
-      "031112",
-      44.095223030853866,
-      -103.14761910119815,
-      0.79,
-      "Taco Bell",
-      "Rapid City",
-      "SD"
-    ],
-    [
       "016318",
       44.87773336842042,
       -94.37622703226064,
@@ -2785,6 +2837,15 @@
       "Taco Bell",
       "Greenville",
       "OH"
+    ],
+    [
+      "041027",
+      41.9491,
+      -83.401,
+      0.89,
+      "Taco Bell",
+      "Monroe",
+      "MI"
     ],
     [
       "038965",
@@ -4200,6 +4261,15 @@
       "AZ"
     ],
     [
+      "033432",
+      47.112375862289305,
+      -88.58703643083572,
+      1.19,
+      "Taco Bell",
+      "Houghton",
+      "MI"
+    ],
+    [
       "017490",
       42.60646504220575,
       -76.16564279019818,
@@ -5145,15 +5215,6 @@
       "CA"
     ],
     [
-      "029412",
-      35.919901991392784,
-      -78.95752345027176,
-      1.29,
-      "Taco Bell",
-      "Durham",
-      "NC"
-    ],
-    [
       "023050",
       35.64029622449355,
       -120.6879911149355,
@@ -5397,15 +5458,6 @@
       "CA"
     ],
     [
-      "030785",
-      37.64683879461168,
-      -122.42873983838048,
-      1.49,
-      "Taco Bell",
-      "South San Francisco",
-      "CA"
-    ],
-    [
       "030939",
       38.23808321030727,
       -122.6355636119842,
@@ -5449,15 +5501,6 @@
       "Taco Bell",
       "Springfield",
       "IL"
-    ],
-    [
-      "030779",
-      37.753596799972364,
-      -121.46893599632676,
-      1.49,
-      "Taco Bell",
-      "Tracy",
-      "CA"
     ],
     [
       "036352",

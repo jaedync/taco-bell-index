@@ -17,7 +17,7 @@
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7646
+    "store_count": 7645
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 265
+      "count": 264
     },
     {
       "bucket": "$0.55",
@@ -74,11 +74,11 @@
     },
     {
       "bucket": "$0.70",
-      "count": 446
+      "count": 445
     },
     {
       "bucket": "$0.75",
-      "count": 812
+      "count": 813
     },
     {
       "bucket": "$0.76",
@@ -98,11 +98,11 @@
     },
     {
       "bucket": "$0.89",
-      "count": 125
+      "count": 126
     },
     {
       "bucket": "$0.90",
-      "count": 1736
+      "count": 1735
     },
     {
       "bucket": "$0.95",
@@ -284,7 +284,7 @@
     {
       "state": "MI",
       "avg_price": 0.83,
-      "store_count": 346
+      "store_count": 345
     },
     {
       "state": "IA",
@@ -299,7 +299,7 @@
     {
       "state": "OR",
       "avg_price": 0.82,
-      "store_count": 120
+      "store_count": 119
     },
     {
       "state": "GA",
@@ -339,7 +339,7 @@
     {
       "state": "IN",
       "avg_price": 0.77,
-      "store_count": 258
+      "store_count": 257
     },
     {
       "state": "MS",
@@ -364,7 +364,7 @@
     {
       "state": "CO",
       "avg_price": 0.74,
-      "store_count": 154
+      "store_count": 155
     },
     {
       "state": "ND",
@@ -379,7 +379,7 @@
     {
       "state": "KS",
       "avg_price": 0.71,
-      "store_count": 89
+      "store_count": 90
     },
     {
       "state": "WI",
@@ -584,6 +584,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "034394",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.89,
+      "observed_at": "2026-04-28T21:57:36.258956+00:00"
+    },
+    {
+      "store_number": "028858",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:30.465040+00:00"
+    },
+    {
+      "store_number": "019722",
+      "store_name": "Taco Bell",
+      "city": "Hermiston",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:02.030248+00:00"
+    },
+    {
+      "store_number": "033022",
+      "store_name": "Taco Bell",
+      "city": "Allendale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:54.618113+00:00"
+    },
     {
       "store_number": "036235",
       "store_name": "Taco Bell",
@@ -2786,8 +2836,8 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
-    "removed": 30,
+    "added": 41,
+    "removed": 33,
     "price_changed": 151,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4676,15 +4726,6 @@
       "Taco Bell",
       "Danville",
       "IL"
-    ],
-    [
-      "033022",
-      42.97281787822234,
-      -85.90917639439795,
-      0.5,
-      "Taco Bell",
-      "Allendale",
-      "MI"
     ],
     [
       "002365",
@@ -19456,15 +19497,6 @@
       "CA"
     ],
     [
-      "028858",
-      39.22265283263655,
-      -85.91242123542881,
-      0.7,
-      "Taco Bell",
-      "Columbus",
-      "IN"
-    ],
-    [
       "033289",
       35.23165163347226,
       -97.42304249629271,
@@ -27194,6 +27226,15 @@
       "Taco Bell",
       "Galax",
       "VA"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      0.75,
+      "Taco Bell",
+      "Parker",
+      "CO"
     ],
     [
       "038844",
@@ -39598,6 +39639,15 @@
       "MO"
     ],
     [
+      "034394",
+      39.12901809821786,
+      -94.82332013550149,
+      0.89,
+      "Taco Bell",
+      "Kansas City",
+      "KS"
+    ],
+    [
       "034407",
       39.14398877924007,
       -94.56726467285651,
@@ -51881,15 +51931,6 @@
       "Taco Bell",
       "Pittsburgh",
       "PA"
-    ],
-    [
-      "019722",
-      45.85389982436809,
-      -119.29066421138539,
-      0.9,
-      "Taco Bell",
-      "Hermiston",
-      "OR"
     ],
     [
       "023135",

@@ -19,7 +19,7 @@
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7008
+    "store_count": 7010
   },
   "histogram": [
     {
@@ -96,11 +96,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 715
+      "count": 716
     },
     {
       "bucket": "$3.29",
-      "count": 371
+      "count": 370
     },
     {
       "bucket": "$3.39",
@@ -148,7 +148,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 301
+      "count": 302
     },
     {
       "bucket": "$4.05",
@@ -172,7 +172,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 336
+      "count": 337
     },
     {
       "bucket": "$4.20",
@@ -223,8 +223,8 @@
     },
     {
       "state": "CO",
-      "avg_price": 3.95,
-      "store_count": 152
+      "avg_price": 3.96,
+      "store_count": 153
     },
     {
       "state": "CT",
@@ -263,8 +263,8 @@
     },
     {
       "state": "NM",
-      "avg_price": 3.49,
-      "store_count": 55
+      "avg_price": 3.5,
+      "store_count": 56
     },
     {
       "state": "NY",
@@ -289,7 +289,7 @@
     {
       "state": "PA",
       "avg_price": 3.4,
-      "store_count": 172
+      "store_count": 171
     },
     {
       "state": "OR",
@@ -309,7 +309,7 @@
     {
       "state": "IN",
       "avg_price": 3.29,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "UT",
@@ -349,7 +349,7 @@
     {
       "state": "NC",
       "avg_price": 3.19,
-      "store_count": 259
+      "store_count": 260
     },
     {
       "state": "WI",
@@ -359,7 +359,7 @@
     {
       "state": "MA",
       "avg_price": 3.17,
-      "store_count": 62
+      "store_count": 63
     },
     {
       "state": "MS",
@@ -629,6 +629,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "033694",
+      "store_name": "Taco Bell",
+      "city": "Grants",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-04-28T21:57:44.499246+00:00"
+    },
+    {
+      "store_number": "032215",
+      "store_name": "Taco Bell",
+      "city": "State College",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:40.888116+00:00"
+    },
+    {
+      "store_number": "002808",
+      "store_name": "Taco Bell",
+      "city": "Aberdeen",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:57:28.552628+00:00"
+    },
+    {
+      "store_number": "028892",
+      "store_name": "Taco Bell",
+      "city": "Washington",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:08.987270+00:00"
+    },
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-28T21:56:28.782932+00:00"
+    },
     {
       "store_number": "019531",
       "store_name": "Taco Bell",
@@ -16891,8 +16951,8 @@
     }
   ],
   "activity_summary": {
-    "added": 69,
-    "removed": 667,
+    "added": 73,
+    "removed": 669,
     "price_changed": 890,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -42939,15 +42999,6 @@
       "PA"
     ],
     [
-      "032215",
-      40.78493863484153,
-      -77.82897730173318,
-      2.99,
-      "Taco Bell",
-      "State College",
-      "PA"
-    ],
-    [
       "031615",
       40.63740619048412,
       -79.93957578088157,
@@ -44386,6 +44437,15 @@
       "Taco Bell",
       "Landover Hills",
       "MD"
+    ],
+    [
+      "002808",
+      35.15518343040507,
+      -79.41709756851196,
+      2.99,
+      "Taco Bell",
+      "Aberdeen",
+      "NC"
     ],
     [
       "040904",
@@ -48337,6 +48397,15 @@
       "Taco Bell",
       "Rapid City",
       "SD"
+    ],
+    [
+      "029263",
+      42.50358312787979,
+      -70.92246077476568,
+      3.19,
+      "Taco Bell",
+      "Salem",
+      "MA"
     ],
     [
       "034171",
@@ -53611,15 +53680,6 @@
       "Taco Bell",
       "Olathe",
       "KS"
-    ],
-    [
-      "028892",
-      38.65268374073738,
-      -87.15562218834319,
-      3.29,
-      "Taco Bell",
-      "Washington",
-      "IN"
     ],
     [
       "032289",
@@ -76248,6 +76308,15 @@
       "WA"
     ],
     [
+      "033694",
+      35.128426962133176,
+      -107.82691243861582,
+      3.99,
+      "Taco Bell",
+      "Grants",
+      "NM"
+    ],
+    [
       "032393",
       35.21153882543818,
       -106.69851558832647,
@@ -79692,6 +79761,15 @@
       4.19,
       "Taco Bell",
       "Greeley",
+      "CO"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      4.19,
+      "Taco Bell",
+      "Parker",
       "CO"
     ],
     [

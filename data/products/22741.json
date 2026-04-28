@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7620
+    "store_count": 7619
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 254
+      "count": 253
     },
     {
       "bucket": "$0.35",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 843
+      "count": 844
     },
     {
       "bucket": "$0.69",
@@ -142,7 +142,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 261
+      "count": 260
     },
     {
       "bucket": "$1.00",
@@ -278,7 +278,7 @@
     {
       "state": "CO",
       "avg_price": 0.62,
-      "store_count": 154
+      "store_count": 155
     },
     {
       "state": "IL",
@@ -293,7 +293,7 @@
     {
       "state": "IN",
       "avg_price": 0.61,
-      "store_count": 258
+      "store_count": 257
     },
     {
       "state": "LA",
@@ -418,7 +418,7 @@
     {
       "state": "ND",
       "avg_price": 0.3,
-      "store_count": 12
+      "store_count": 11
     }
   ],
   "nutrition": null,
@@ -570,6 +570,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "037582",
+      "store_name": "Taco Bell",
+      "city": "Dickinson",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:07.067716+00:00"
+    },
+    {
+      "store_number": "042623",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:39.185665+00:00"
+    },
     {
       "store_number": "031960",
       "store_name": "Taco Bell",
@@ -1312,8 +1342,8 @@
     }
   ],
   "activity_summary": {
-    "added": 39,
-    "removed": 33,
+    "added": 40,
+    "removed": 35,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3157,15 +3187,6 @@
       "Taco Bell",
       "Allegan",
       "MI"
-    ],
-    [
-      "037582",
-      46.90019126278829,
-      -102.78885573148727,
-      0.3,
-      "Taco Bell",
-      "Dickinson",
-      "ND"
     ],
     [
       "027877",
@@ -46620,6 +46641,15 @@
       "PA"
     ],
     [
+      "042005",
+      39.4768,
+      -104.759,
+      0.65,
+      "Taco Bell",
+      "Parker",
+      "CO"
+    ],
+    [
       "041794",
       40.112400700572536,
       -88.28095051104508,
@@ -68439,15 +68469,6 @@
       "042633",
       41.027042755310184,
       -85.1680694595143,
-      0.99,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
-    ],
-    [
-      "042623",
-      41.12184543646923,
-      -85.06201480708354,
       0.99,
       "Taco Bell",
       "Fort Wayne",

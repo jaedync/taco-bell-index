@@ -20,12 +20,12 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7073
+    "store_count": 7076
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5234
+      "count": 5237
     },
     {
       "bucket": "$4.19",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$6.00",
-      "count": 276
+      "count": 275
     },
     {
       "bucket": "$6.39",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 537
+      "count": 538
     },
     {
       "bucket": "$8.00",
@@ -182,13 +182,13 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.74,
-      "store_count": 432
+      "avg_price": 5.75,
+      "store_count": 433
     },
     {
       "state": "CA",
       "avg_price": 5.6,
-      "store_count": 774
+      "store_count": 775
     },
     {
       "state": "AZ",
@@ -232,8 +232,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 4.73,
-      "store_count": 219
+      "avg_price": 4.72,
+      "store_count": 218
     },
     {
       "state": "IL",
@@ -258,7 +258,7 @@
     {
       "state": "GA",
       "avg_price": 4.36,
-      "store_count": 234
+      "store_count": 235
     },
     {
       "state": "WI",
@@ -293,7 +293,7 @@
     {
       "state": "CO",
       "avg_price": 4.14,
-      "store_count": 135
+      "store_count": 136
     },
     {
       "state": "PA",
@@ -323,7 +323,7 @@
     {
       "state": "MI",
       "avg_price": 4.03,
-      "store_count": 332
+      "store_count": 331
     },
     {
       "state": "VA",
@@ -348,7 +348,7 @@
     {
       "state": "TX",
       "avg_price": 4.01,
-      "store_count": 647
+      "store_count": 648
     },
     {
       "state": "MN",
@@ -1099,7 +1099,6 @@
     "037009",
     "039993",
     "036250",
-    "037166",
     "037050",
     "031534",
     "037100",
@@ -4190,6 +4189,7 @@
     "032151",
     "026119",
     "023903",
+    "041238",
     "004274",
     "030369",
     "035072",
@@ -4694,6 +4694,7 @@
     "029099",
     "029375",
     "030128",
+    "017116",
     "030108",
     "032724",
     "041837",
@@ -5723,7 +5724,9 @@
     "039033",
     "015564",
     "041738",
-    "042450"
+    "042450",
+    "027669",
+    "042005"
   ],
   "priciest_stores": [
     {
@@ -5798,6 +5801,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "017116",
+      "store_name": "Taco Bell",
+      "city": "Gridley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-28T21:57:09.209532+00:00"
+    },
+    {
+      "store_number": "043065",
+      "store_name": "Taco Bell",
+      "city": "Lithia",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-28T21:57:02.632593+00:00"
+    },
+    {
+      "store_number": "041238",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-28T21:56:45.760126+00:00"
+    },
+    {
+      "store_number": "024472",
+      "store_name": "Taco Bell",
+      "city": "Saint Joseph",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.0,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:15.618947+00:00"
+    },
+    {
+      "store_number": "027669",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-04-28T21:55:57.788773+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:34.228492+00:00"
+    },
     {
       "store_number": "036222",
       "store_name": "Taco Bell",
@@ -7060,8 +7133,8 @@
     }
   ],
   "activity_summary": {
-    "added": 51,
-    "removed": 61,
+    "added": 56,
+    "removed": 63,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12575,15 +12648,6 @@
       "Taco Bell",
       "Ashland City",
       "TN"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      4.0,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
     ],
     [
       "037050",
@@ -40396,6 +40460,15 @@
       "AR"
     ],
     [
+      "041238",
+      33.92281058279636,
+      -83.34047734737396,
+      4.0,
+      "Taco Bell",
+      "Athens",
+      "GA"
+    ],
+    [
       "004274",
       33.45365710660152,
       -88.81976500153542,
@@ -44930,6 +45003,15 @@
       "Taco Bell",
       "Marble Falls",
       "TX"
+    ],
+    [
+      "017116",
+      39.35935180179898,
+      -121.68838708171434,
+      4.0,
+      "Taco Bell",
+      "Gridley",
+      "CA"
     ],
     [
       "030108",
@@ -54202,6 +54284,24 @@
       "OK"
     ],
     [
+      "027669",
+      32.89279522526115,
+      -97.28746792244917,
+      4.0,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Fort Worth",
+      "TX"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      4.0,
+      "Taco Bell",
+      "Parker",
+      "CO"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -62581,15 +62681,6 @@
       "CA"
     ],
     [
-      "024472",
-      39.7998437269227,
-      -94.81425364317147,
-      6.0,
-      "Taco Bell",
-      "Saint Joseph",
-      "MO"
-    ],
-    [
       "031908",
       36.13050642100059,
       -115.06476138533799,
@@ -69761,6 +69852,15 @@
       "Taco Bell",
       "Evans",
       "GA"
+    ],
+    [
+      "043065",
+      27.85871081561891,
+      -82.20340908320395,
+      7.99,
+      "Taco Bell",
+      "Lithia",
+      "FL"
     ],
     [
       "026730",

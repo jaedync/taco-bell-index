@@ -18,19 +18,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 64
+    "store_count": 65
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 64
+      "count": 65
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 64
+      "store_count": 65
     }
   ],
   "nutrition": {
@@ -148,6 +148,7 @@
     "023299",
     "005646",
     "027970",
+    "027979",
     "028007",
     "022590",
     "027971",
@@ -258,6 +259,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027979",
+      "store_name": "Taco Bell",
+      "city": "Lake Mary",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-04-28T21:56:07.670165+00:00"
+    },
     {
       "store_number": "040730",
       "store_name": "Taco Bell",
@@ -1000,7 +1011,7 @@
     }
   ],
   "activity_summary": {
-    "added": 69,
+    "added": 70,
     "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1291,6 +1302,15 @@
       10.99,
       "Taco Bell",
       "Merritt Island",
+      "FL"
+    ],
+    [
+      "027979",
+      28.755784924346298,
+      -81.3436637725863,
+      10.99,
+      "Taco Bell",
+      "Lake Mary",
       "FL"
     ],
     [

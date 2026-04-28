@@ -17,7 +17,7 @@
     "max": 13.99,
     "median": 8.79,
     "std_dev": 0.7,
-    "store_count": 7695
+    "store_count": 7699
   },
   "histogram": [
     {
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 544
+      "count": 546
     },
     {
       "bucket": "$8.09",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$8.29",
-      "count": 445
+      "count": 444
     },
     {
       "bucket": "$8.39",
@@ -142,7 +142,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 434
+      "count": 435
     },
     {
       "bucket": "$8.90",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$9.19",
-      "count": 442
+      "count": 444
     },
     {
       "bucket": "$9.29",
@@ -361,7 +361,7 @@
     {
       "state": "CO",
       "avg_price": 8.86,
-      "store_count": 156
+      "store_count": 157
     },
     {
       "state": "DC",
@@ -375,8 +375,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.85,
-      "store_count": 347
+      "avg_price": 8.84,
+      "store_count": 349
     },
     {
       "state": "RI",
@@ -385,8 +385,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 8.78,
-      "store_count": 48
+      "avg_price": 8.79,
+      "store_count": 49
     },
     {
       "state": "AR",
@@ -431,12 +431,12 @@
     {
       "state": "OH",
       "avg_price": 8.6,
-      "store_count": 410
+      "store_count": 411
     },
     {
       "state": "MO",
       "avg_price": 8.58,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "HI",
@@ -699,6 +699,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "031268",
+      "store_name": "Taco Bell",
+      "city": "Ankeny",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-04-28T21:56:54.550661+00:00"
+    },
+    {
+      "store_number": "030677",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-04-28T21:56:19.104069+00:00"
+    },
+    {
+      "store_number": "024472",
+      "store_name": "Taco Bell",
+      "city": "Saint Joseph",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 8.29,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:15.618947+00:00"
+    },
+    {
+      "store_number": "033015",
+      "store_name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-28T21:56:12.333775+00:00"
+    },
+    {
+      "store_number": "041324",
+      "store_name": "Taco Bell",
+      "city": "Grandville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-28T21:53:48.464002+00:00"
+    },
     {
       "store_number": "031268",
       "store_name": "Taco Bell",
@@ -13881,8 +13941,8 @@
     }
   ],
   "activity_summary": {
-    "added": 92,
-    "removed": 91,
+    "added": 97,
+    "removed": 92,
     "price_changed": 1135,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25536,6 +25596,15 @@
       "MN"
     ],
     [
+      "041324",
+      42.88062253819751,
+      -85.76345292883101,
+      7.99,
+      "Taco Bell",
+      "Grandville",
+      "MI"
+    ],
+    [
       "041333",
       35.9877670904,
       -84.0492502669,
@@ -28000,6 +28069,15 @@
       "Taco Bell",
       "Kirkwood",
       "MO"
+    ],
+    [
+      "033015",
+      42.8313575945687,
+      -86.09484677018372,
+      7.99,
+      "Taco Bell",
+      "Holland",
+      "MI"
     ],
     [
       "034594",
@@ -34498,15 +34576,6 @@
       "Taco Bell",
       "Las Cruces",
       "NM"
-    ],
-    [
-      "024472",
-      39.7998437269227,
-      -94.81425364317147,
-      8.29,
-      "Taco Bell",
-      "Saint Joseph",
-      "MO"
     ],
     [
       "032307",
@@ -62607,6 +62676,15 @@
       "IL"
     ],
     [
+      "042005",
+      39.4768,
+      -104.759,
+      8.89,
+      "Taco Bell",
+      "Parker",
+      "CO"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -73209,6 +73287,15 @@
       "CA"
     ],
     [
+      "030677",
+      41.65265762502999,
+      -83.61882623255677,
+      9.19,
+      "Taco Bell",
+      "Toledo",
+      "OH"
+    ],
+    [
       "027949",
       33.683159815803414,
       -117.91990716757027,
@@ -73792,6 +73879,15 @@
       "Taco Bell",
       "Monroe",
       "WA"
+    ],
+    [
+      "031268",
+      41.74796773569464,
+      -93.60074189019,
+      9.19,
+      "Taco Bell",
+      "Ankeny",
+      "IA"
     ],
     [
       "027890",

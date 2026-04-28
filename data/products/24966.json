@@ -11,19 +11,19 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 1.3,
+  "availability_pct": 1.2,
   "price_stats": {
     "avg": 7.03,
     "min": 6.99,
     "max": 10.99,
     "median": 6.99,
     "std_dev": 0.41,
-    "store_count": 97
+    "store_count": 95
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 96
+      "count": 94
     },
     {
       "bucket": "$10.99",
@@ -34,7 +34,7 @@
     {
       "state": "FL",
       "avg_price": 7.03,
-      "store_count": 96
+      "store_count": 94
     }
   ],
   "nutrition": {
@@ -142,7 +142,6 @@
     "041964",
     "035462",
     "036232",
-    "042977",
     "036438",
     "037372",
     "037110",
@@ -217,7 +216,6 @@
     "027977",
     "023300",
     "034162",
-    "034163",
     "042971",
     "032959"
   ],
@@ -240,13 +238,6 @@
       "store_number": "042971",
       "name": "Taco Bell",
       "city": "Palm Coast",
-      "state": "FL",
-      "price": 6.99
-    },
-    {
-      "store_number": "034163",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
       "state": "FL",
       "price": 6.99
     },
@@ -291,9 +282,36 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 6.99
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:48.481165+00:00"
+    },
+    {
+      "store_number": "042977",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:44.242407+00:00"
+    },
     {
       "store_number": "042977",
       "store_name": "Taco Bell",
@@ -1387,7 +1405,7 @@
   ],
   "activity_summary": {
     "added": 102,
-    "removed": 7,
+    "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1575,15 +1593,6 @@
       6.99,
       "Taco Bell",
       "Apopka",
-      "FL"
-    ],
-    [
-      "042977",
-      28.7471,
-      -81.8773,
-      6.99,
-      "Taco Bell",
-      "Leesburg",
       "FL"
     ],
     [
@@ -2250,15 +2259,6 @@
       6.99,
       "Taco Bell",
       "Kissimmee",
-      "FL"
-    ],
-    [
-      "034163",
-      28.24668494787806,
-      -81.24437438517288,
-      6.99,
-      "Taco Bell",
-      "Saint Cloud",
       "FL"
     ],
     [

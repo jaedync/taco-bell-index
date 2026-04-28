@@ -17,7 +17,7 @@
     "max": 1.1,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7028
+    "store_count": 7030
   },
   "histogram": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 751
+      "count": 752
     },
     {
       "bucket": "$0.69",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 190
+      "count": 191
     },
     {
       "bucket": "$0.80",
@@ -185,7 +185,7 @@
     {
       "state": "NY",
       "avg_price": 0.7,
-      "store_count": 239
+      "store_count": 240
     },
     {
       "state": "AL",
@@ -225,7 +225,7 @@
     {
       "state": "CO",
       "avg_price": 0.64,
-      "store_count": 154
+      "store_count": 155
     },
     {
       "state": "VA",
@@ -555,6 +555,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "035336",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-28T21:54:27.148839+00:00"
+    },
     {
       "store_number": "030763",
       "store_name": "Taco Bell",
@@ -5967,7 +5987,7 @@
     }
   ],
   "activity_summary": {
-    "added": 26,
+    "added": 28,
     "removed": 507,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
@@ -47000,6 +47020,15 @@
       "PA"
     ],
     [
+      "042005",
+      39.4768,
+      -104.759,
+      0.65,
+      "Taco Bell",
+      "Parker",
+      "CO"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -60606,6 +60635,15 @@
       "Taco Bell",
       "Winter Garden",
       "FL"
+    ],
+    [
+      "035336",
+      40.70847127284533,
+      -74.00504528587913,
+      0.79,
+      "Taco Bell",
+      "New York",
+      "NY"
     ],
     [
       "034909",

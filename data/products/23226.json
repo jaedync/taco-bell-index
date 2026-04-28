@@ -12,14 +12,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.6,
+  "availability_pct": 99.7,
   "price_stats": {
     "avg": 2.99,
     "min": 2.69,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.15,
-    "store_count": 7677
+    "store_count": 7680
   },
   "histogram": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 5974
+      "count": 5977
     },
     {
       "bucket": "$3.00",
@@ -191,7 +191,7 @@
     {
       "state": "CO",
       "avg_price": 3.01,
-      "store_count": 154
+      "store_count": 155
     },
     {
       "state": "MT",
@@ -214,6 +214,11 @@
       "store_count": 100
     },
     {
+      "state": "NE",
+      "avg_price": 2.99,
+      "store_count": 43
+    },
+    {
       "state": "WY",
       "avg_price": 2.99,
       "store_count": 11
@@ -227,11 +232,6 @@
       "state": "RI",
       "avg_price": 2.99,
       "store_count": 15
-    },
-    {
-      "state": "NE",
-      "avg_price": 2.99,
-      "store_count": 42
     },
     {
       "state": "ND",
@@ -291,7 +291,7 @@
     {
       "state": "MI",
       "avg_price": 2.98,
-      "store_count": 347
+      "store_count": 348
     },
     {
       "state": "IN",
@@ -306,7 +306,7 @@
     {
       "state": "SC",
       "avg_price": 2.98,
-      "store_count": 114
+      "store_count": 115
     },
     {
       "state": "AR",
@@ -361,7 +361,7 @@
     {
       "state": "KY",
       "avg_price": 2.94,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "WI",
@@ -571,6 +571,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "033016",
+      "store_name": "Taco Bell",
+      "city": "Jenison",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:56:53.303391+00:00"
+    },
+    {
+      "store_number": "035284",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:56:06.449915+00:00"
+    },
+    {
+      "store_number": "003335",
+      "store_name": "Taco Bell",
+      "city": "Reynoldsburg",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:37.873884+00:00"
+    },
+    {
+      "store_number": "022180",
+      "store_name": "Taco Bell",
+      "city": "Fort Mill",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:55:08.258282+00:00"
+    },
+    {
+      "store_number": "021478",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:54:55.276840+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:37.670743+00:00"
+    },
     {
       "store_number": "021478",
       "store_name": "Taco Bell",
@@ -3233,8 +3303,8 @@
     }
   ],
   "activity_summary": {
-    "added": 79,
-    "removed": 67,
+    "added": 84,
+    "removed": 69,
     "price_changed": 120,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -22099,15 +22169,6 @@
       "OH"
     ],
     [
-      "042410",
-      38.19671929207219,
-      -85.78242777036012,
-      2.99,
-      "Taco Bell",
-      "Louisville",
-      "KY"
-    ],
-    [
       "042231",
       42.0340237205417,
       -86.51482971902675,
@@ -25202,6 +25263,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "021478",
+      41.40384923491452,
+      -82.66042605042458,
+      2.99,
+      "Taco Bell",
+      "Sandusky",
+      "OH"
     ],
     [
       "027789",
@@ -29828,6 +29898,15 @@
       "Taco Bell",
       "Soddy Daisy",
       "TN"
+    ],
+    [
+      "022180",
+      35.00682290351606,
+      -80.85491690544606,
+      2.99,
+      "Taco Bell",
+      "Fort Mill",
+      "SC"
     ],
     [
       "022460",
@@ -37426,15 +37505,6 @@
       "MA"
     ],
     [
-      "003335",
-      39.95448915785347,
-      -82.82650233061759,
-      2.99,
-      "Taco Bell",
-      "Reynoldsburg",
-      "OH"
-    ],
-    [
       "038932",
       45.81057674678202,
       -108.47146515549866,
@@ -44651,6 +44721,15 @@
       "Taco Bell",
       "Hialeah",
       "FL"
+    ],
+    [
+      "035284",
+      41.25932562746179,
+      -95.97073674201965,
+      2.99,
+      "Taco Bell",
+      "Omaha",
+      "NE"
     ],
     [
       "037414",
@@ -69259,6 +69338,15 @@
       "OK"
     ],
     [
+      "033016",
+      42.90375328148109,
+      -85.78662677675311,
+      2.99,
+      "Taco Bell",
+      "Jenison",
+      "MI"
+    ],
+    [
       "039922",
       32.255501256143404,
       -80.84758818964474,
@@ -69347,6 +69435,15 @@
       "Taco Bell",
       "Indianapolis",
       "IN"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      2.99,
+      "Taco Bell",
+      "Parker",
+      "CO"
     ],
     [
       "039146",

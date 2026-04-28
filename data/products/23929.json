@@ -18,19 +18,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 46
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 46
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -135,9 +135,9 @@
     "030367",
     "037842",
     "002260",
+    "024649",
     "033308",
     "005095",
-    "004014",
     "020212",
     "002837",
     "016415",
@@ -154,6 +154,7 @@
     "001896",
     "030253",
     "019191",
+    "024444",
     "027361",
     "024650",
     "001732",
@@ -240,6 +241,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024444",
+      "store_name": "Taco Bell",
+      "city": "Livonia",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-28T21:55:03.266716+00:00"
+    },
+    {
+      "store_number": "004014",
+      "store_name": "Taco Bell",
+      "city": "Detroit",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:58.346142+00:00"
+    },
+    {
+      "store_number": "024649",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-28T21:54:56.920423+00:00"
+    },
     {
       "store_number": "037839",
       "store_name": "Taco Bell",
@@ -1182,8 +1213,8 @@
     }
   ],
   "activity_summary": {
-    "added": 70,
-    "removed": 24,
+    "added": 72,
+    "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1328,6 +1359,15 @@
       "MI"
     ],
     [
+      "024649",
+      42.52178106926556,
+      -83.00523649155991,
+      4.99,
+      "Taco Bell",
+      "Warren",
+      "MI"
+    ],
+    [
       "033308",
       42.53188172228296,
       -83.16505417227751,
@@ -1343,15 +1383,6 @@
       4.99,
       "Taco Bell",
       "Southgate",
-      "MI"
-    ],
-    [
-      "004014",
-      42.39195154639961,
-      -83.13931167125702,
-      4.99,
-      "Taco Bell",
-      "Detroit",
       "MI"
     ],
     [
@@ -1496,6 +1527,15 @@
       4.99,
       "Taco Bell",
       "Marysville",
+      "MI"
+    ],
+    [
+      "024444",
+      42.44013679435563,
+      -83.3737537537855,
+      4.99,
+      "Taco Bell",
+      "Livonia",
       "MI"
     ],
     [

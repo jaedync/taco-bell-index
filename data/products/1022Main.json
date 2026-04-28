@@ -17,8 +17,8 @@
     "min": 2.29,
     "max": 3.49,
     "median": 3.19,
-    "std_dev": 0.23,
-    "store_count": 721
+    "std_dev": 0.24,
+    "store_count": 723
   },
   "histogram": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$2.79",
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 103
+      "count": 104
     },
     {
       "bucket": "$3.09",
@@ -59,11 +59,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 191
+      "count": 189
     },
     {
       "bucket": "$3.29",
-      "count": 220
+      "count": 221
     },
     {
       "bucket": "$3.39",
@@ -71,15 +71,10 @@
     },
     {
       "bucket": "$3.49",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
-    {
-      "state": "CA",
-      "avg_price": 3.34,
-      "store_count": 6
-    },
     {
       "state": "MO",
       "avg_price": 3.31,
@@ -91,19 +86,24 @@
       "store_count": 93
     },
     {
+      "state": "CA",
+      "avg_price": 3.25,
+      "store_count": 7
+    },
+    {
       "state": "OK",
       "avg_price": 3.23,
       "store_count": 115
     },
     {
       "state": "LA",
-      "avg_price": 3.12,
-      "store_count": 6
+      "avg_price": 3.11,
+      "store_count": 5
     },
     {
       "state": "FL",
-      "avg_price": 3.09,
-      "store_count": 5
+      "avg_price": 3.07,
+      "store_count": 6
     },
     {
       "state": "TX",
@@ -199,6 +199,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039090",
+      "name": "Taco Bell",
+      "city": "Burke",
+      "state": "VA",
+      "price": 3.49
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -260,16 +267,89 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "034383",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "017116",
+      "store_name": "Taco Bell",
+      "city": "Gridley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-04-28T21:57:09.209532+00:00"
+    },
+    {
+      "store_number": "022595",
+      "store_name": "Taco Bell",
+      "city": "Titusville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:56:14.805430+00:00"
+    },
+    {
+      "store_number": "018709",
+      "store_name": "Taco Bell",
+      "city": "Texarkana",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-04-28T21:55:59.173111+00:00"
+    },
+    {
+      "store_number": "024768",
+      "store_name": "Taco Bell",
+      "city": "La Place",
+      "state": "LA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:53.919837+00:00"
+    },
+    {
+      "store_number": "039090",
+      "store_name": "Taco Bell",
+      "city": "Burke",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.49,
+      "observed_at": "2026-04-28T21:55:45.562082+00:00"
+    },
+    {
+      "store_number": "042227",
+      "store_name": "Taco Bell",
+      "city": "Peoria",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-28T21:55:16.532760+00:00"
+    },
+    {
+      "store_number": "035351",
+      "store_name": "Taco Bell",
+      "city": "Garfield Heights",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:05.065385+00:00"
+    },
+    {
+      "store_number": "035718",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rosenberg",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:03.623671+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -3572,8 +3652,8 @@
     }
   ],
   "activity_summary": {
-    "added": 85,
-    "removed": 99,
+    "added": 90,
+    "removed": 102,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4193,6 +4273,15 @@
       "Taco Bell",
       "Denton",
       "TX"
+    ],
+    [
+      "017116",
+      39.35935180179898,
+      -121.68838708171434,
+      2.69,
+      "Taco Bell",
+      "Gridley",
+      "CA"
     ],
     [
       "036000",
@@ -6202,15 +6291,6 @@
       "OH"
     ],
     [
-      "035351",
-      41.420732327500886,
-      -81.60833082632507,
-      2.99,
-      "Taco Bell",
-      "Garfield Heights",
-      "OH"
-    ],
-    [
       "022091",
       39.77359444714521,
       -104.81062710285181,
@@ -6218,6 +6298,24 @@
       "Taco Bell",
       "Denver",
       "CO"
+    ],
+    [
+      "042227",
+      33.65216427933272,
+      -112.25730679934713,
+      2.99,
+      "Taco Bell",
+      "Peoria",
+      "AZ"
+    ],
+    [
+      "022595",
+      28.55328983120039,
+      -80.84494297208039,
+      2.99,
+      "Taco Bell",
+      "Titusville",
+      "FL"
     ],
     [
       "022088",
@@ -6838,15 +6936,6 @@
       3.19,
       "Taco Bell",
       "Pasadena",
-      "TX"
-    ],
-    [
-      "035718",
-      29.54514380488333,
-      -95.74617441211682,
-      3.19,
-      "Taco Bell / KFC",
-      "Rosenberg",
       "TX"
     ],
     [
@@ -7939,15 +8028,6 @@
       "KY"
     ],
     [
-      "024768",
-      30.06967195205773,
-      -90.48493131995195,
-      3.19,
-      "Taco Bell",
-      "La Place",
-      "LA"
-    ],
-    [
       "041139",
       42.93682704288596,
       -83.31409993690721,
@@ -8801,6 +8881,15 @@
       "Taco Bell",
       "Tulsa",
       "OK"
+    ],
+    [
+      "018709",
+      33.417837877875996,
+      -94.0995210483834,
+      3.29,
+      "Taco Bell",
+      "Texarkana",
+      "TX"
     ],
     [
       "027823",
@@ -10070,6 +10159,15 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "039090",
+      38.800228367185234,
+      -77.32320535550714,
+      3.49,
+      "Taco Bell",
+      "Burke",
+      "VA"
     ]
   ],
   "drink_sizes": [

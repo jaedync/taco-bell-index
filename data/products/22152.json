@@ -13,7 +13,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.7,
+  "availability_pct": 99.6,
   "price_stats": {
     "avg": 1.47,
     "min": 1.0,
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 692
+      "count": 693
     },
     {
       "bucket": "$1.60",
@@ -73,7 +73,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 373
+      "count": 372
     },
     {
       "bucket": "$1.75",
@@ -228,7 +228,7 @@
     {
       "state": "CA",
       "avg_price": 1.58,
-      "store_count": 839
+      "store_count": 838
     },
     {
       "state": "MD",
@@ -248,7 +248,7 @@
     {
       "state": "CO",
       "avg_price": 1.53,
-      "store_count": 155
+      "store_count": 156
     },
     {
       "state": "IL",
@@ -263,7 +263,7 @@
     {
       "state": "NV",
       "avg_price": 1.5,
-      "store_count": 86
+      "store_count": 87
     },
     {
       "state": "UT",
@@ -308,7 +308,7 @@
     {
       "state": "FL",
       "avg_price": 1.43,
-      "store_count": 452
+      "store_count": 451
     },
     {
       "state": "VA",
@@ -328,7 +328,7 @@
     {
       "state": "NC",
       "avg_price": 1.39,
-      "store_count": 261
+      "store_count": 262
     },
     {
       "state": "RI",
@@ -337,8 +337,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 1.37,
-      "store_count": 117
+      "avg_price": 1.38,
+      "store_count": 116
     },
     {
       "state": "KS",
@@ -638,6 +638,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "032476",
+      "store_name": "Taco Bell",
+      "city": "Pickens",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:30.100703+00:00"
+    },
+    {
+      "store_number": "029537",
+      "store_name": "Taco Bell",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:12.016619+00:00"
+    },
+    {
+      "store_number": "030765",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:45.517517+00:00"
+    },
+    {
+      "store_number": "031903",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-28T21:55:30.668900+00:00"
+    },
+    {
+      "store_number": "030565",
+      "store_name": "Taco Bell",
+      "city": "Fayetteville",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-04-28T21:55:28.523965+00:00"
+    },
     {
       "store_number": "030549",
       "store_name": "Taco Bell",
@@ -3560,8 +3620,8 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
-    "removed": 52,
+    "added": 70,
+    "removed": 55,
     "price_changed": 173,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5389,6 +5449,15 @@
       "MO"
     ],
     [
+      "030565",
+      35.02673035918971,
+      -79.05189335346222,
+      1.19,
+      "Taco Bell",
+      "Fayetteville",
+      "NC"
+    ],
+    [
       "016097",
       39.927523275965676,
       -86.03463426232338,
@@ -6728,15 +6797,6 @@
       "Taco Bell",
       "New Castle",
       "PA"
-    ],
-    [
-      "032476",
-      34.86972769033337,
-      -82.6909696282832,
-      1.19,
-      "Taco Bell",
-      "Pickens",
-      "SC"
     ],
     [
       "028894",
@@ -45007,6 +45067,15 @@
       "KS"
     ],
     [
+      "031903",
+      39.436700528957026,
+      -119.75799590349197,
+      1.49,
+      "Taco Bell",
+      "Reno",
+      "NV"
+    ],
+    [
       "029581",
       28.264079376287015,
       -82.18852187322469,
@@ -47516,15 +47585,6 @@
       "Taco Bell",
       "Durham",
       "NC"
-    ],
-    [
-      "029537",
-      26.12086662267754,
-      -80.19428734482972,
-      1.49,
-      "Taco Bell",
-      "Fort Lauderdale",
-      "FL"
     ],
     [
       "037569",
@@ -59452,6 +59512,15 @@
       "GA"
     ],
     [
+      "042005",
+      39.4768,
+      -104.759,
+      1.59,
+      "Taco Bell",
+      "Parker",
+      "CO"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -61042,15 +61111,6 @@
       1.69,
       "Taco Bell",
       "Los Angeles",
-      "CA"
-    ],
-    [
-      "030765",
-      37.54069853113115,
-      -122.02695988121377,
-      1.69,
-      "Taco Bell",
-      "Newark",
       "CA"
     ],
     [

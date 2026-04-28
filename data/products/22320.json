@@ -18,7 +18,7 @@
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7190
+    "store_count": 7193
   },
   "histogram": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 385
+      "count": 384
     },
     {
       "bucket": "$5.49",
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$5.59",
-      "count": 226
+      "count": 227
     },
     {
       "bucket": "$5.66",
@@ -115,7 +115,7 @@
     },
     {
       "bucket": "$5.69",
-      "count": 475
+      "count": 476
     },
     {
       "bucket": "$5.76",
@@ -135,11 +135,11 @@
     },
     {
       "bucket": "$5.89",
-      "count": 338
+      "count": 339
     },
     {
       "bucket": "$5.99",
-      "count": 1743
+      "count": 1742
     },
     {
       "bucket": "$6.00",
@@ -155,7 +155,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 702
+      "count": 703
     },
     {
       "bucket": "$6.20",
@@ -171,7 +171,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 267
+      "count": 268
     },
     {
       "bucket": "$6.30",
@@ -270,7 +270,7 @@
     {
       "state": "CO",
       "avg_price": 6.2,
-      "store_count": 156
+      "store_count": 157
     },
     {
       "state": "CT",
@@ -295,7 +295,7 @@
     {
       "state": "AR",
       "avg_price": 6.13,
-      "store_count": 111
+      "store_count": 112
     },
     {
       "state": "MI",
@@ -345,7 +345,7 @@
     {
       "state": "WY",
       "avg_price": 5.91,
-      "store_count": 10
+      "store_count": 11
     },
     {
       "state": "OR",
@@ -375,7 +375,12 @@
     {
       "state": "LA",
       "avg_price": 5.83,
-      "store_count": 134
+      "store_count": 133
+    },
+    {
+      "state": "PA",
+      "avg_price": 5.82,
+      "store_count": 201
     },
     {
       "state": "VA",
@@ -386,11 +391,6 @@
       "state": "ID",
       "avg_price": 5.82,
       "store_count": 35
-    },
-    {
-      "state": "PA",
-      "avg_price": 5.82,
-      "store_count": 202
     },
     {
       "state": "NY",
@@ -409,8 +409,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 5.76,
-      "store_count": 227
+      "avg_price": 5.75,
+      "store_count": 228
     },
     {
       "state": "NC",
@@ -448,14 +448,14 @@
       "store_count": 700
     },
     {
-      "state": "AL",
-      "avg_price": 5.39,
-      "store_count": 39
-    },
-    {
       "state": "SC",
       "avg_price": 5.39,
       "store_count": 107
+    },
+    {
+      "state": "AL",
+      "avg_price": 5.38,
+      "store_count": 40
     },
     {
       "state": "TN",
@@ -647,6 +647,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.29,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "043145",
+      "store_name": "Taco Bell",
+      "city": "Moulton",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.89,
+      "observed_at": "2026-04-28T21:57:21.549485+00:00"
+    },
+    {
+      "store_number": "023075",
+      "store_name": "Taco Bell",
+      "city": "Sheridan",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.89,
+      "observed_at": "2026-04-28T21:57:02.677611+00:00"
+    },
+    {
+      "store_number": "039086",
+      "store_name": "Taco Bell",
+      "city": "Williamsport",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 4.89,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:55.013874+00:00"
+    },
+    {
+      "store_number": "032476",
+      "store_name": "Taco Bell",
+      "city": "Pickens",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 5.39,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:30.100703+00:00"
+    },
+    {
+      "store_number": "017183",
+      "store_name": "Taco Bell",
+      "city": "Alexandria",
+      "state": "LA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:55:38.749786+00:00"
+    },
+    {
+      "store_number": "022180",
+      "store_name": "Taco Bell",
+      "city": "Fort Mill",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.69,
+      "observed_at": "2026-04-28T21:55:08.258282+00:00"
+    },
+    {
+      "store_number": "037371",
+      "store_name": "Taco Bell",
+      "city": "Tontitown",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.19,
+      "observed_at": "2026-04-28T21:54:43.693872+00:00"
+    },
+    {
+      "store_number": "036251",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.59,
+      "observed_at": "2026-04-28T21:54:29.329170+00:00"
+    },
     {
       "store_number": "021478",
       "store_name": "Taco Bell",
@@ -16889,8 +16979,8 @@
     }
   ],
   "activity_summary": {
-    "added": 67,
-    "removed": 561,
+    "added": 73,
+    "removed": 564,
     "price_changed": 996,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20437,15 +20527,6 @@
       "VA"
     ],
     [
-      "039086",
-      41.24957100972297,
-      -76.96635739941992,
-      4.89,
-      "Taco Bell",
-      "Williamsport",
-      "PA"
-    ],
-    [
       "039039",
       38.57528819303859,
       -77.3156701543584,
@@ -20597,6 +20678,15 @@
       "Taco Bell",
       "Phillipsburg",
       "NJ"
+    ],
+    [
+      "043145",
+      34.487707747098206,
+      -87.27569624374031,
+      4.89,
+      "Taco Bell",
+      "Moulton",
+      "AL"
     ],
     [
       "039082",
@@ -31309,15 +31399,6 @@
       "CA"
     ],
     [
-      "032476",
-      34.86972769033337,
-      -82.6909696282832,
-      5.39,
-      "Taco Bell",
-      "Pickens",
-      "SC"
-    ],
-    [
       "030091",
       31.08087510532758,
       -97.45818619431702,
@@ -36853,6 +36934,15 @@
       "FL"
     ],
     [
+      "036251",
+      39.034202183610354,
+      -94.53198025225383,
+      5.59,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
+    ],
+    [
       "036391",
       39.3614922,
       -94.583833,
@@ -40334,6 +40424,15 @@
       "Taco Bell",
       "Amherst",
       "OH"
+    ],
+    [
+      "022180",
+      35.00682290351606,
+      -80.85491690544606,
+      5.69,
+      "Taco Bell",
+      "Fort Mill",
+      "SC"
     ],
     [
       "037094",
@@ -49939,6 +50038,15 @@
       "LA"
     ],
     [
+      "023075",
+      44.78007443087094,
+      -106.94209740312544,
+      5.89,
+      "Taco Bell",
+      "Sheridan",
+      "WY"
+    ],
+    [
       "038827",
       43.67487712511198,
       -121.5007816162688,
@@ -56588,15 +56696,6 @@
       "Taco Bell",
       "Greenacres",
       "FL"
-    ],
-    [
-      "017183",
-      31.29583474962598,
-      -92.4794281227878,
-      5.99,
-      "Taco Bell",
-      "Alexandria",
-      "LA"
     ],
     [
       "029546",
@@ -67228,6 +67327,15 @@
       "MO"
     ],
     [
+      "037371",
+      36.175492767123025,
+      -94.21652274146606,
+      6.19,
+      "Taco Bell",
+      "Tontitown",
+      "AR"
+    ],
+    [
       "023248",
       42.49201883496908,
       -83.46934098565771,
@@ -75047,6 +75155,15 @@
       "Taco Bell",
       "Vancouver",
       "WA"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      6.29,
+      "Taco Bell",
+      "Parker",
+      "CO"
     ],
     [
       "041644",

@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 46.2,
+  "availability_pct": 46.1,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
@@ -29,7 +29,7 @@
     {
       "state": "WY",
       "avg_price": 0.0,
-      "store_count": 9
+      "store_count": 10
     },
     {
       "state": "WI",
@@ -84,7 +84,7 @@
     {
       "state": "OK",
       "avg_price": 0.0,
-      "store_count": 25
+      "store_count": 24
     },
     {
       "state": "OH",
@@ -199,7 +199,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 69
+      "store_count": 68
     },
     {
       "state": "FL",
@@ -219,7 +219,7 @@
     {
       "state": "CO",
       "avg_price": 0.0,
-      "store_count": 123
+      "store_count": 124
     },
     {
       "state": "CA",
@@ -714,6 +714,7 @@
     "042163",
     "042449",
     "042225",
+    "042706",
     "041811",
     "041833",
     "041388",
@@ -933,7 +934,6 @@
     "029863",
     "003990",
     "003858",
-    "017019",
     "005500",
     "029524",
     "040957",
@@ -2510,6 +2510,7 @@
     "040401",
     "023853",
     "029319",
+    "023074",
     "032991",
     "039822",
     "031222",
@@ -2565,7 +2566,6 @@
     "031695",
     "031631",
     "035901",
-    "004486",
     "031346",
     "027724",
     "037299",
@@ -3127,7 +3127,6 @@
     "002396",
     "035268",
     "033845",
-    "029375",
     "004249",
     "017116",
     "001704",
@@ -3879,9 +3878,17 @@
     "042953",
     "042963",
     "042967",
-    "042960"
+    "042960",
+    "042005"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042005",
+      "name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "price": 0.0
+    },
     {
       "store_number": "042960",
       "name": "Taco Bell",
@@ -3944,16 +3951,69 @@
       "city": "Jacksonville",
       "state": "FL",
       "price": 0.0
-    },
-    {
-      "store_number": "042882",
-      "name": "Taco Bell",
-      "city": "Orange Park",
-      "state": "FL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042005",
+      "store_name": "Taco Bell",
+      "city": "Parker",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-28T21:57:51.646599+00:00"
+    },
+    {
+      "store_number": "029375",
+      "store_name": "Taco Bell",
+      "city": "Atoka",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:57:09.002412+00:00"
+    },
+    {
+      "store_number": "004486",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:56:36.663695+00:00"
+    },
+    {
+      "store_number": "023074",
+      "store_name": "Taco Bell",
+      "city": "Cheyenne",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-28T21:56:32.860672+00:00"
+    },
+    {
+      "store_number": "017019",
+      "store_name": "Taco Bell",
+      "city": "Trenton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-28T21:54:59.726547+00:00"
+    },
+    {
+      "store_number": "042706",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-28T21:54:40.084551+00:00"
+    },
     {
       "store_number": "005759",
       "store_name": "Taco Bell",
@@ -5526,8 +5586,8 @@
     }
   ],
   "activity_summary": {
-    "added": 80,
-    "removed": 77,
+    "added": 83,
+    "removed": 80,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9047,6 +9107,15 @@
       "MI"
     ],
     [
+      "042706",
+      41.075214,
+      -85.144111,
+      0.0,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
+    ],
+    [
       "041811",
       47.67124854995076,
       -122.11369314234523,
@@ -11016,15 +11085,6 @@
       "Taco Bell",
       "Wooster",
       "OH"
-    ],
-    [
-      "017019",
-      34.86999408056037,
-      -85.51889202302894,
-      0.0,
-      "Taco Bell",
-      "Trenton",
-      "GA"
     ],
     [
       "005500",
@@ -25211,6 +25271,15 @@
       "CT"
     ],
     [
+      "023074",
+      41.1388001852768,
+      -104.78724454344956,
+      0.0,
+      "Taco Bell",
+      "Cheyenne",
+      "WY"
+    ],
+    [
       "032991",
       42.79655284205683,
       -86.0772706929193,
@@ -25704,15 +25773,6 @@
       "Taco Bell",
       "Lodi",
       "CA"
-    ],
-    [
-      "004486",
-      39.65082230509987,
-      -86.12177318726573,
-      0.0,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "031346",
@@ -30762,15 +30822,6 @@
       "Taco Bell",
       "Lakewood",
       "CO"
-    ],
-    [
-      "029375",
-      34.37136827754819,
-      -96.1366212442681,
-      0.0,
-      "Taco Bell",
-      "Atoka",
-      "OK"
     ],
     [
       "004249",
@@ -37539,6 +37590,15 @@
       "Taco Bell",
       "Spartanburg",
       "SC"
+    ],
+    [
+      "042005",
+      39.4768,
+      -104.759,
+      0.0,
+      "Taco Bell",
+      "Parker",
+      "CO"
     ]
   ]
 }
