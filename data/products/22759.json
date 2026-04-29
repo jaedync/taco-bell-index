@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7680
+    "store_count": 7678
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7680
+      "count": 7678
     }
   ],
   "state_prices": [
@@ -39,7 +39,7 @@
     {
       "state": "WI",
       "avg_price": 0.0,
-      "store_count": 140
+      "store_count": 139
     },
     {
       "state": "WA",
@@ -99,7 +99,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 408
+      "store_count": 407
     },
     {
       "state": "NY",
@@ -109,7 +109,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 85
+      "store_count": 83
     },
     {
       "state": "NM",
@@ -189,7 +189,7 @@
     {
       "state": "KY",
       "avg_price": 0.0,
-      "store_count": 160
+      "store_count": 161
     },
     {
       "state": "KS",
@@ -224,7 +224,7 @@
     {
       "state": "GA",
       "avg_price": 0.0,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "FL",
@@ -3331,6 +3331,7 @@
     "041211",
     "016351",
     "042217",
+    "041249",
     "029965",
     "020192",
     "032673",
@@ -4373,7 +4374,6 @@
     "030939",
     "037573",
     "030072",
-    "031884",
     "003271",
     "033302",
     "037392",
@@ -4817,7 +4817,6 @@
     "033768",
     "029273",
     "031873",
-    "031500",
     "031323",
     "037579",
     "003308",
@@ -5731,7 +5730,6 @@
     "030553",
     "009409",
     "030744",
-    "004201",
     "040970",
     "029069",
     "003408",
@@ -8023,7 +8021,6 @@
     "017105",
     "027951",
     "005029",
-    "036244",
     "038828",
     "030849",
     "033002",
@@ -8043,9 +8040,17 @@
     "042730",
     "015968",
     "042450",
-    "042005"
+    "042005",
+    "042410"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042410",
+      "name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "price": 0.0
+    },
     {
       "store_number": "042005",
       "name": "Taco Bell",
@@ -8108,16 +8113,59 @@
       "city": "Douglassville",
       "state": "PA",
       "price": 0.0
-    },
-    {
-      "store_number": "034150",
-      "name": "Taco Bell Cantina",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036244",
+      "store_name": "Taco Bell",
+      "city": "Sparks",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:10.527598+00:00"
+    },
+    {
+      "store_number": "031500",
+      "store_name": "Taco Bell",
+      "city": "Appleton",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:03:05.164430+00:00"
+    },
+    {
+      "store_number": "031884",
+      "store_name": "Taco Bell",
+      "city": "Carson City",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:51.117690+00:00"
+    },
+    {
+      "store_number": "041249",
+      "store_name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-29T22:02:16.955676+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-29T21:46:47.312749+00:00"
+    },
     {
       "store_number": "042005",
       "store_name": "Taco Bell",
@@ -9830,8 +9878,8 @@
     }
   ],
   "activity_summary": {
-    "added": 88,
-    "removed": 83,
+    "added": 90,
+    "removed": 86,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -36544,6 +36592,15 @@
       "LA"
     ],
     [
+      "041249",
+      33.96647033026141,
+      -84.010348240854,
+      0.0,
+      "Taco Bell",
+      "Lawrenceville",
+      "GA"
+    ],
+    [
       "029965",
       33.78004511626623,
       -116.46651830795574,
@@ -45922,15 +45979,6 @@
       "TX"
     ],
     [
-      "031884",
-      39.129537169593675,
-      -119.77106456460206,
-      0.0,
-      "Taco Bell",
-      "Carson City",
-      "NV"
-    ],
-    [
       "003271",
       36.18185366063758,
       -94.13909408147447,
@@ -49916,15 +49964,6 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "031500",
-      44.258858016080104,
-      -88.35945729912964,
-      0.0,
-      "Taco Bell",
-      "Appleton",
-      "WI"
     ],
     [
       "031323",
@@ -58142,15 +58181,6 @@
       "Taco Bell",
       "Castro Valley",
       "CA"
-    ],
-    [
-      "004201",
-      40.73041125759995,
-      -84.06717391451815,
-      0.0,
-      "Taco Bell",
-      "Lima",
-      "OH"
     ],
     [
       "040970",
@@ -78772,15 +78802,6 @@
       "CA"
     ],
     [
-      "036244",
-      39.53105751055179,
-      -119.71590512967516,
-      0.0,
-      "Taco Bell",
-      "Sparks",
-      "NV"
-    ],
-    [
       "038828",
       44.63555134070558,
       -121.13039374351501,
@@ -78959,6 +78980,15 @@
       "Taco Bell",
       "Parker",
       "CO"
+    ],
+    [
+      "042410",
+      38.19671929207219,
+      -85.78242777036012,
+      0.0,
+      "Taco Bell",
+      "Louisville",
+      "KY"
     ]
   ]
 }

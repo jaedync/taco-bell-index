@@ -18,19 +18,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 95
+    "store_count": 93
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 95
+      "count": 93
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 6.99,
-      "store_count": 95
+      "store_count": 93
     }
   ],
   "nutrition": {
@@ -145,7 +145,6 @@
     "032537",
     "032177",
     "031840",
-    "023290",
     "030349",
     "023302",
     "042941",
@@ -212,7 +211,6 @@
     "027977",
     "023300",
     "034162",
-    "034163",
     "032959",
     "038869"
   ],
@@ -228,13 +226,6 @@
       "store_number": "032959",
       "name": "Taco Bell",
       "city": "Ocoee",
-      "state": "FL",
-      "price": 6.99
-    },
-    {
-      "store_number": "034163",
-      "name": "Taco Bell",
-      "city": "Saint Cloud",
       "state": "FL",
       "price": 6.99
     },
@@ -286,9 +277,36 @@
       "city": "Belleview",
       "state": "FL",
       "price": 6.99
+    },
+    {
+      "store_number": "042928",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:46.228243+00:00"
+    },
+    {
+      "store_number": "023290",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:08.769995+00:00"
+    },
     {
       "store_number": "035462",
       "store_name": "Taco Bell Cantina",
@@ -1402,7 +1420,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 8,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1634,15 +1652,6 @@
       6.99,
       "Taco Bell",
       "Ocala",
-      "FL"
-    ],
-    [
-      "023290",
-      28.568820173202138,
-      -81.28160832216957,
-      6.99,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [
@@ -2237,15 +2246,6 @@
       6.99,
       "Taco Bell",
       "Kissimmee",
-      "FL"
-    ],
-    [
-      "034163",
-      28.24668494787806,
-      -81.24437438517288,
-      6.99,
-      "Taco Bell",
-      "Saint Cloud",
       "FL"
     ],
     [

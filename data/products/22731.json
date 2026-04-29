@@ -17,12 +17,12 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7112
+    "store_count": 7109
   },
   "histogram": [
     {
       "bucket": "$0.10",
-      "count": 347
+      "count": 346
     },
     {
       "bucket": "$0.19",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 333
+      "count": 332
     },
     {
       "bucket": "$0.43",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 738
+      "count": 739
     },
     {
       "bucket": "$0.55",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1120
+      "count": 1118
     },
     {
       "bucket": "$0.65",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 846
+      "count": 847
     },
     {
       "bucket": "$0.85",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$0.95",
-      "count": 19
+      "count": 18
     },
     {
       "bucket": "$0.96",
@@ -252,17 +252,17 @@
     {
       "state": "CO",
       "avg_price": 0.64,
-      "store_count": 155
-    },
-    {
-      "state": "MS",
-      "avg_price": 0.63,
-      "store_count": 78
+      "store_count": 156
     },
     {
       "state": "OH",
       "avg_price": 0.63,
       "store_count": 406
+    },
+    {
+      "state": "MS",
+      "avg_price": 0.63,
+      "store_count": 78
     },
     {
       "state": "NJ",
@@ -312,7 +312,7 @@
     {
       "state": "IN",
       "avg_price": 0.59,
-      "store_count": 260
+      "store_count": 257
     },
     {
       "state": "KY",
@@ -396,8 +396,8 @@
     },
     {
       "state": "OK",
-      "avg_price": 0.19,
-      "store_count": 125
+      "avg_price": 0.2,
+      "store_count": 124
     },
     {
       "state": "AR",
@@ -774,7 +774,6 @@
     "027038",
     "028493",
     "017577",
-    "022230",
     "001669",
     "026913",
     "002278",
@@ -913,6 +912,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003394",
+      "store_name": "Taco Bell",
+      "city": "Delaware",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-29T22:04:18.115545+00:00"
+    },
+    {
+      "store_number": "022230",
+      "store_name": "Taco Bell",
+      "city": "Broken Arrow",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 0.1,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:11.219694+00:00"
+    },
+    {
+      "store_number": "032052",
+      "store_name": "Taco Bell",
+      "city": "Alamosa",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-29T22:03:24.171212+00:00"
+    },
+    {
+      "store_number": "039836",
+      "store_name": "Taco Bell",
+      "city": "Moreno Valley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-04-29T22:03:16.522579+00:00"
+    },
+    {
+      "store_number": "028901",
+      "store_name": "Taco Bell",
+      "city": "Bloomington",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:03:08.255399+00:00"
+    },
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:22.843334+00:00"
+    },
+    {
+      "store_number": "015757",
+      "store_name": "Taco Bell",
+      "city": "Hammond",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:19.013443+00:00"
+    },
     {
       "store_number": "042005",
       "store_name": "Taco Bell",
@@ -6735,8 +6804,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 536,
+    "added": 41,
+    "removed": 540,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9282,15 +9351,6 @@
       "Taco Bell",
       "Marshfield",
       "MO"
-    ],
-    [
-      "022230",
-      36.060545024650075,
-      -95.77415168321542,
-      0.1,
-      "Taco Bell",
-      "Broken Arrow",
-      "OK"
     ],
     [
       "001669",
@@ -15897,15 +15957,6 @@
       "Taco Bell",
       "Farmington",
       "NM"
-    ],
-    [
-      "004201",
-      40.73041125759995,
-      -84.06717391451815,
-      0.4,
-      "Taco Bell",
-      "Lima",
-      "OH"
     ],
     [
       "041399",
@@ -23583,6 +23634,15 @@
       "Taco Bell",
       "Clemmons",
       "NC"
+    ],
+    [
+      "032052",
+      37.47500091763382,
+      -105.89320246876923,
+      0.5,
+      "Taco Bell",
+      "Alamosa",
+      "CO"
     ],
     [
       "036296",
@@ -34745,15 +34805,6 @@
       "CA"
     ],
     [
-      "028861",
-      39.80032567328473,
-      -86.26901320651086,
-      0.6,
-      "Taco Bell",
-      "Speedway",
-      "IN"
-    ],
-    [
       "003026",
       39.14192404028204,
       -121.62236586213112,
@@ -36813,15 +36864,6 @@
       "Taco Bell",
       "Llano",
       "TX"
-    ],
-    [
-      "028901",
-      39.16895957861542,
-      -86.53400216998307,
-      0.6,
-      "Taco Bell",
-      "Bloomington",
-      "IN"
     ],
     [
       "029106",
@@ -64184,15 +64226,6 @@
       "CA"
     ],
     [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      0.8,
-      "Taco Bell",
-      "Fremont",
-      "CA"
-    ],
-    [
       "031496",
       44.205098789389204,
       -88.4464386552736,
@@ -65271,6 +65304,15 @@
       "Taco Bell",
       "Lehigh Acres",
       "FL"
+    ],
+    [
+      "039836",
+      33.93577286276548,
+      -117.19103876471928,
+      0.8,
+      "Taco Bell",
+      "Moreno Valley",
+      "CA"
     ],
     [
       "030411",
@@ -67224,6 +67266,15 @@
       "Taco Bell",
       "Neenah",
       "WI"
+    ],
+    [
+      "003394",
+      40.273244364890225,
+      -83.07024464453947,
+      0.8,
+      "Taco Bell",
+      "Delaware",
+      "OH"
     ],
     [
       "041597",
@@ -70221,15 +70272,6 @@
       "Taco Bell",
       "Port Huron",
       "MI"
-    ],
-    [
-      "015757",
-      41.594826257811974,
-      -87.48036556161995,
-      0.95,
-      "Taco Bell",
-      "Hammond",
-      "IN"
     ],
     [
       "030947",

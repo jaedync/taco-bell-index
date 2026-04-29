@@ -11,14 +11,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:07.034886+00:00",
-  "availability_pct": 9.4,
+  "availability_pct": 9.3,
   "price_stats": {
     "avg": 3.08,
     "min": 2.29,
     "max": 3.49,
     "median": 3.19,
     "std_dev": 0.24,
-    "store_count": 723
+    "store_count": 720
   },
   "histogram": [
     {
@@ -59,19 +59,19 @@
     },
     {
       "bucket": "$3.19",
-      "count": 189
+      "count": 188
     },
     {
       "bucket": "$3.29",
-      "count": 221
+      "count": 219
     },
     {
       "bucket": "$3.39",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$3.49",
-      "count": 2
+      "count": 1
     }
   ],
   "state_prices": [
@@ -83,7 +83,7 @@
     {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 93
+      "store_count": 92
     },
     {
       "state": "CA",
@@ -108,7 +108,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 434
+      "store_count": 433
     },
     {
       "state": "GA",
@@ -199,18 +199,18 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "039090",
-      "name": "Taco Bell",
-      "city": "Burke",
-      "state": "VA",
-      "price": 3.49
-    },
-    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
+    },
+    {
+      "store_number": "031885",
+      "name": "Taco Bell",
+      "city": "Elko",
+      "state": "NV",
+      "price": 3.39
     },
     {
       "store_number": "030794",
@@ -270,6 +270,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029599",
+      "store_name": "Taco Bell",
+      "city": "Crossett",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:22.939535+00:00"
+    },
+    {
+      "store_number": "031885",
+      "store_name": "Taco Bell",
+      "city": "Elko",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-04-29T22:03:51.363552+00:00"
+    },
+    {
+      "store_number": "039090",
+      "store_name": "Taco Bell",
+      "city": "Burke",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:30.106799+00:00"
+    },
+    {
+      "store_number": "032480",
+      "store_name": "Taco Bell",
+      "city": "Walnut Ridge",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-29T22:02:26.397447+00:00"
+    },
+    {
+      "store_number": "031577",
+      "store_name": "Taco Bell",
+      "city": "Morrilton",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:00:27.755386+00:00"
+    },
+    {
+      "store_number": "035358",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-29T21:58:29.355444+00:00"
+    },
+    {
+      "store_number": "019740",
+      "store_name": "Taco Bell",
+      "city": "League City",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-04-29T21:56:25.647897+00:00"
+    },
     {
       "store_number": "017116",
       "store_name": "Taco Bell",
@@ -3652,8 +3722,8 @@
     }
   ],
   "activity_summary": {
-    "added": 90,
-    "removed": 102,
+    "added": 92,
+    "removed": 107,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5706,15 +5776,6 @@
       "TX"
     ],
     [
-      "035358",
-      41.44028763704379,
-      -81.7272537499656,
-      2.99,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
-    ],
-    [
       "027788",
       30.02228761791809,
       -95.52080216286544,
@@ -5875,6 +5936,15 @@
       "Taco Bell",
       "Gainesville",
       "TX"
+    ],
+    [
+      "032480",
+      36.07600923480633,
+      -90.95436919703081,
+      2.99,
+      "Taco Bell",
+      "Walnut Ridge",
+      "AR"
     ],
     [
       "031735",
@@ -6783,15 +6853,6 @@
       3.19,
       "Taco Bell",
       "Houston",
-      "TX"
-    ],
-    [
-      "019740",
-      29.520752813275614,
-      -95.076764523983,
-      3.19,
-      "Taco Bell",
-      "League City",
       "TX"
     ],
     [
@@ -8433,15 +8494,6 @@
       "OK"
     ],
     [
-      "031577",
-      35.16961094019128,
-      -92.71865986489696,
-      3.29,
-      "Taco Bell",
-      "Morrilton",
-      "AR"
-    ],
-    [
       "030384",
       35.4971053401798,
       -97.74209359411932,
@@ -9747,15 +9799,6 @@
       "AR"
     ],
     [
-      "029599",
-      33.13506202021908,
-      -91.96270648352113,
-      3.29,
-      "Taco Bell",
-      "Crossett",
-      "AR"
-    ],
-    [
       "004285",
       36.17473830317983,
       -94.55238193273539,
@@ -10152,6 +10195,15 @@
       "CA"
     ],
     [
+      "031885",
+      40.834828746404284,
+      -115.78682546319214,
+      3.39,
+      "Taco Bell",
+      "Elko",
+      "NV"
+    ],
+    [
       "038783",
       39.050835,
       -94.5884833,
@@ -10159,15 +10211,6 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
-    ],
-    [
-      "039090",
-      38.800228367185234,
-      -77.32320535550714,
-      3.49,
-      "Taco Bell",
-      "Burke",
-      "VA"
     ]
   ],
   "drink_sizes": [

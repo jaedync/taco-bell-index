@@ -13,28 +13,28 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.39,
+    "avg": 5.41,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
-    "std_dev": 0.21,
+    "std_dev": 0.19,
     "store_count": 24
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$5.49",
-      "count": 19
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "GA",
       "avg_price": 5.42,
-      "store_count": 14
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -57,13 +57,6 @@
       "name": "Taco Bell",
       "city": "Villa Rica",
       "state": "GA",
-      "price": 4.99
-    },
-    {
-      "store_number": "043129",
-      "name": "Taco Bell",
-      "city": "Aiken",
-      "state": "SC",
       "price": 4.99
     },
     {
@@ -121,16 +114,29 @@
       "city": "Cumming",
       "state": "GA",
       "price": 5.49
+    },
+    {
+      "store_number": "040384",
+      "name": "Taco Bell",
+      "city": "Dawson",
+      "state": "GA",
+      "price": 5.49
     }
   ],
   "min_price_store_numbers": [
     "033481",
-    "043129",
     "038733",
     "033933",
     "041839"
   ],
   "priciest_stores": [
+    {
+      "store_number": "003668",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 5.49
+    },
     {
       "store_number": "029100",
       "name": "Taco Bell",
@@ -193,16 +199,29 @@
       "city": "Griffin",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "039946",
-      "name": "Taco Bell",
-      "city": "Monroe",
-      "state": "GA",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "043129",
+      "store_name": "Taco Bell",
+      "city": "Aiken",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:03.999350+00:00"
+    },
+    {
+      "store_number": "003668",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-04-29T22:02:47.277735+00:00"
+    },
     {
       "store_number": "029100",
       "store_name": "Taco Bell",
@@ -825,8 +844,8 @@
     }
   ],
   "activity_summary": {
-    "added": 30,
-    "removed": 32,
+    "added": 31,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -843,15 +862,6 @@
       "Taco Bell",
       "Villa Rica",
       "GA"
-    ],
-    [
-      "043129",
-      33.56501819417912,
-      -81.7408172681462,
-      4.99,
-      "Taco Bell",
-      "Aiken",
-      "SC"
     ],
     [
       "038733",
@@ -1050,6 +1060,15 @@
       "Taco Bell",
       "Auburn",
       "AL"
+    ],
+    [
+      "003668",
+      33.77267954859662,
+      -84.37298566102982,
+      5.49,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
     ]
   ]
 }

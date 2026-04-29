@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7619
+    "store_count": 7618
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.39",
-      "count": 323
+      "count": 322
     },
     {
       "bucket": "$0.40",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 938
+      "count": 937
     },
     {
       "bucket": "$0.61",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$0.69",
-      "count": 48
+      "count": 47
     },
     {
       "bucket": "$0.70",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$0.93",
-      "count": 4
+      "count": 5
     },
     {
       "bucket": "$0.94",
@@ -142,7 +142,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 260
+      "count": 261
     },
     {
       "bucket": "$1.00",
@@ -238,7 +238,7 @@
     {
       "state": "CA",
       "avg_price": 0.66,
-      "store_count": 830
+      "store_count": 829
     },
     {
       "state": "MA",
@@ -263,7 +263,7 @@
     {
       "state": "NV",
       "avg_price": 0.63,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "WI",
@@ -293,7 +293,7 @@
     {
       "state": "IN",
       "avg_price": 0.61,
-      "store_count": 257
+      "store_count": 258
     },
     {
       "state": "LA",
@@ -323,7 +323,7 @@
     {
       "state": "PA",
       "avg_price": 0.58,
-      "store_count": 199
+      "store_count": 198
     },
     {
       "state": "MO",
@@ -343,7 +343,7 @@
     {
       "state": "NJ",
       "avg_price": 0.55,
-      "store_count": 121
+      "store_count": 122
     },
     {
       "state": "NH",
@@ -570,6 +570,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039545",
+      "store_name": "Taco Bell",
+      "city": "Vernon",
+      "state": "NJ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.93,
+      "observed_at": "2026-04-29T22:04:39.943872+00:00"
+    },
+    {
+      "store_number": "009538",
+      "store_name": "Taco Bell",
+      "city": "Merrillville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-04-29T22:03:13.565144+00:00"
+    },
+    {
+      "store_number": "039062",
+      "store_name": "Taco Bell",
+      "city": "Wilkes Barre",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.39,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:47.888078+00:00"
+    },
+    {
+      "store_number": "031860",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:40.266306+00:00"
+    },
     {
       "store_number": "042005",
       "store_name": "Taco Bell",
@@ -1342,8 +1382,8 @@
     }
   ],
   "activity_summary": {
-    "added": 40,
-    "removed": 35,
+    "added": 42,
+    "removed": 37,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6589,15 +6629,6 @@
       "Taco Bell",
       "Binghamton",
       "NY"
-    ],
-    [
-      "039062",
-      41.250723509747644,
-      -75.85466533899307,
-      0.39,
-      "Taco Bell",
-      "Wilkes Barre",
-      "PA"
     ],
     [
       "039069",
@@ -34734,15 +34765,6 @@
       "NC"
     ],
     [
-      "031860",
-      36.115818007052,
-      -115.2072474360466,
-      0.6,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
-    ],
-    [
       "031915",
       36.00275630963772,
       -115.20715390293729,
@@ -46846,15 +46868,6 @@
       "Taco Bell",
       "Danville",
       "IL"
-    ],
-    [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      0.69,
-      "Taco Bell",
-      "Fremont",
-      "CA"
     ],
     [
       "024362",
@@ -67197,6 +67210,15 @@
       "NJ"
     ],
     [
+      "039545",
+      41.19914267445654,
+      -74.48748706784548,
+      0.93,
+      "Taco Bell",
+      "Vernon",
+      "NJ"
+    ],
+    [
       "037092",
       40.81555319498846,
       -74.47340305784236,
@@ -69634,6 +69656,15 @@
       "Taco Bell",
       "Brooklyn",
       "MI"
+    ],
+    [
+      "009538",
+      41.470433349370474,
+      -87.3020822090971,
+      0.99,
+      "Taco Bell",
+      "Merrillville",
+      "IN"
     ],
     [
       "034273",

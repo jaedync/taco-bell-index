@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 608
+    "store_count": 609
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 123
+      "count": 125
     },
     {
       "bucket": "$1.00",
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$1.49",
-      "count": 55
+      "count": 54
     },
     {
       "bucket": "$1.59",
-      "count": 41
+      "count": 42
     },
     {
       "bucket": "$1.69",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$2.09",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$2.29",
@@ -127,13 +127,13 @@
     },
     {
       "state": "WA",
-      "avg_price": 1.44,
-      "store_count": 81
+      "avg_price": 1.45,
+      "store_count": 82
     },
     {
       "state": "CA",
-      "avg_price": 1.35,
-      "store_count": 151
+      "avg_price": 1.34,
+      "store_count": 149
     },
     {
       "state": "MD",
@@ -166,24 +166,24 @@
       "store_count": 5
     },
     {
-      "state": "IL",
-      "avg_price": 1.14,
-      "store_count": 27
-    },
-    {
       "state": "OR",
       "avg_price": 1.14,
       "store_count": 56
     },
     {
-      "state": "KS",
-      "avg_price": 0.99,
-      "store_count": 22
+      "state": "IL",
+      "avg_price": 1.14,
+      "store_count": 28
     },
     {
       "state": "ND",
       "avg_price": 0.99,
       "store_count": 7
+    },
+    {
+      "state": "KS",
+      "avg_price": 0.99,
+      "store_count": 23
     },
     {
       "state": "FL",
@@ -384,6 +384,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040473",
+      "store_name": "Taco Bell",
+      "city": "Longview",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-04-29T22:04:34.967891+00:00"
+    },
+    {
+      "store_number": "020033",
+      "store_name": "Taco Bell",
+      "city": "Arkansas City",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-04-29T22:03:51.532103+00:00"
+    },
+    {
+      "store_number": "030776",
+      "store_name": "Taco Bell",
+      "city": "Concord",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:41.758087+00:00"
+    },
+    {
+      "store_number": "020134",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-04-29T22:02:10.300717+00:00"
+    },
+    {
+      "store_number": "016736",
+      "store_name": "Taco Bell",
+      "city": "Milpitas",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.09,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:06.966575+00:00"
+    },
     {
       "store_number": "031112",
       "store_name": "Taco Bell",
@@ -1316,8 +1366,8 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 58,
+    "added": 36,
+    "removed": 60,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3064,6 +3114,15 @@
       "MO"
     ],
     [
+      "020134",
+      39.87651629080114,
+      -88.94797674845444,
+      0.99,
+      "Taco Bell",
+      "Decatur",
+      "IL"
+    ],
+    [
       "019348",
       37.82568405967351,
       -96.84989231015076,
@@ -3953,6 +4012,15 @@
       "Taco Bell",
       "Lacey",
       "WA"
+    ],
+    [
+      "020033",
+      37.0830747604046,
+      -97.04059190800726,
+      0.99,
+      "Taco Bell",
+      "Arkansas City",
+      "KS"
     ],
     [
       "036198",
@@ -5449,15 +5517,6 @@
       "CA"
     ],
     [
-      "030776",
-      37.961085548589196,
-      -121.98338689826979,
-      1.49,
-      "Taco Bell",
-      "Concord",
-      "CA"
-    ],
-    [
       "030939",
       38.23808321030727,
       -122.6355636119842,
@@ -6169,6 +6228,15 @@
       "CA"
     ],
     [
+      "040473",
+      46.1555938,
+      -122.9823091,
+      1.59,
+      "Taco Bell",
+      "Longview",
+      "WA"
+    ],
+    [
       "039651",
       40.22386416822659,
       -74.26820918784254,
@@ -6689,15 +6757,6 @@
       "Taco Bell",
       "Peoria",
       "AZ"
-    ],
-    [
-      "016736",
-      37.42770943069322,
-      -121.92128748516552,
-      2.09,
-      "Taco Bell",
-      "Milpitas",
-      "CA"
     ],
     [
       "019505",

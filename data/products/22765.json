@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7662
+    "store_count": 7656
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7662
+      "count": 7656
     }
   ],
   "state_prices": [
@@ -44,7 +44,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 133
+      "store_count": 134
     },
     {
       "state": "VA",
@@ -99,17 +99,17 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 411
+      "store_count": 409
     },
     {
       "state": "NY",
       "avg_price": 0.0,
-      "store_count": 248
+      "store_count": 247
     },
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 87
+      "store_count": 86
     },
     {
       "state": "NM",
@@ -149,7 +149,7 @@
     {
       "state": "MS",
       "avg_price": 0.0,
-      "store_count": 81
+      "store_count": 80
     },
     {
       "state": "MO",
@@ -189,7 +189,7 @@
     {
       "state": "KY",
       "avg_price": 0.0,
-      "store_count": 159
+      "store_count": 160
     },
     {
       "state": "KS",
@@ -204,7 +204,7 @@
     {
       "state": "IL",
       "avg_price": 0.0,
-      "store_count": 286
+      "store_count": 285
     },
     {
       "state": "ID",
@@ -254,12 +254,12 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 835
+      "store_count": 834
     },
     {
       "state": "AZ",
       "avg_price": 0.0,
-      "store_count": 193
+      "store_count": 192
     },
     {
       "state": "AR",
@@ -2166,7 +2166,6 @@
     "035721",
     "021229",
     "035713",
-    "029743",
     "034572",
     "032747",
     "024650",
@@ -3031,7 +3030,6 @@
     "031805",
     "023177",
     "030349",
-    "030407",
     "038894",
     "040866",
     "017131",
@@ -3528,7 +3526,6 @@
     "003026",
     "040052",
     "035342",
-    "031865",
     "031463",
     "021193",
     "031335",
@@ -4098,7 +4095,6 @@
     "003907",
     "022917",
     "019752",
-    "002420",
     "033034",
     "029533",
     "032115",
@@ -4956,6 +4952,7 @@
     "016276",
     "026839",
     "036481",
+    "022605",
     "024614",
     "040941",
     "029106",
@@ -5724,7 +5721,6 @@
     "030553",
     "009409",
     "030744",
-    "004201",
     "040970",
     "029069",
     "003408",
@@ -6464,7 +6460,6 @@
     "034624",
     "037485",
     "031494",
-    "037566",
     "041836",
     "002821",
     "021187",
@@ -6829,7 +6824,6 @@
     "041603",
     "028003",
     "025444",
-    "039054",
     "038898",
     "002700",
     "032995",
@@ -7233,7 +7227,6 @@
     "029078",
     "022741",
     "042818",
-    "032332",
     "000071",
     "034402",
     "036135",
@@ -8025,9 +8018,17 @@
     "042730",
     "036523",
     "042450",
-    "042005"
+    "042005",
+    "042410"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042410",
+      "name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "price": 0.0
+    },
     {
       "store_number": "042005",
       "name": "Taco Bell",
@@ -8090,16 +8091,89 @@
       "city": "Boutte",
       "state": "LA",
       "price": 0.0
-    },
-    {
-      "store_number": "041229",
-      "name": "Taco Bell",
-      "city": "Powder Springs",
-      "state": "GA",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032332",
+      "store_name": "Taco Bell",
+      "city": "Southaven",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:19.924591+00:00"
+    },
+    {
+      "store_number": "039054",
+      "store_name": "Taco Bell",
+      "city": "West Haverstraw",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:13.428562+00:00"
+    },
+    {
+      "store_number": "037566",
+      "store_name": "Taco Bell",
+      "city": "Phoenix",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:04:05.036449+00:00"
+    },
+    {
+      "store_number": "022605",
+      "store_name": "Taco Bell",
+      "city": "Lake Stevens",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-29T22:03:09.571039+00:00"
+    },
+    {
+      "store_number": "031865",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:23.528226+00:00"
+    },
+    {
+      "store_number": "030407",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:08.589343+00:00"
+    },
+    {
+      "store_number": "029743",
+      "store_name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T21:58:27.299070+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-29T21:46:47.312749+00:00"
+    },
     {
       "store_number": "042005",
       "store_name": "Taco Bell",
@@ -9252,8 +9326,8 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
-    "removed": 66,
+    "added": 51,
+    "removed": 72,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25481,15 +25555,6 @@
       "TX"
     ],
     [
-      "029743",
-      41.43733761298764,
-      -82.18502319884499,
-      0.0,
-      "Taco Bell",
-      "Lorain",
-      "OH"
-    ],
-    [
       "034572",
       38.413265639282265,
       -82.26123234629426,
@@ -33266,15 +33331,6 @@
       "FL"
     ],
     [
-      "030407",
-      41.75244929284412,
-      -87.58651092281517,
-      0.0,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "038894",
       40.262862196329365,
       -81.86988267654658,
@@ -37737,15 +37793,6 @@
       "Taco Bell",
       "Cleburne",
       "TX"
-    ],
-    [
-      "031865",
-      36.196183550294315,
-      -115.22690780466291,
-      0.0,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "031463",
@@ -42867,15 +42914,6 @@
       "Taco Bell",
       "Hobart",
       "IN"
-    ],
-    [
-      "002420",
-      37.491089450882825,
-      -121.92717611789703,
-      0.0,
-      "Taco Bell",
-      "Fremont",
-      "CA"
     ],
     [
       "033034",
@@ -50591,6 +50629,15 @@
       "AL"
     ],
     [
+      "022605",
+      47.998161514148876,
+      -122.10805786011883,
+      0.0,
+      "Taco Bell",
+      "Lake Stevens",
+      "WA"
+    ],
+    [
       "024614",
       39.76444848177882,
       -89.71098331307113,
@@ -57503,15 +57550,6 @@
       "CA"
     ],
     [
-      "004201",
-      40.73041125759995,
-      -84.06717391451815,
-      0.0,
-      "Taco Bell",
-      "Lima",
-      "OH"
-    ],
-    [
       "040970",
       35.46622210217331,
       -83.00677247827227,
@@ -64163,15 +64201,6 @@
       "WI"
     ],
     [
-      "037566",
-      33.625899710485676,
-      -112.01394544184943,
-      0.0,
-      "Taco Bell",
-      "Phoenix",
-      "AZ"
-    ],
-    [
       "041836",
       30.58692456525793,
       -84.59584338998732,
@@ -67446,15 +67475,6 @@
       "Taco Bell",
       "Russellville",
       "AR"
-    ],
-    [
-      "039054",
-      41.20042753359659,
-      -73.98381442578278,
-      0.0,
-      "Taco Bell",
-      "West Haverstraw",
-      "NY"
     ],
     [
       "038898",
@@ -71082,15 +71102,6 @@
       "Taco Bell",
       "Mobile",
       "AL"
-    ],
-    [
-      "032332",
-      34.99150725821966,
-      -90.00977942255106,
-      0.0,
-      "Taco Bell",
-      "Southaven",
-      "MS"
     ],
     [
       "000071",
@@ -78219,6 +78230,15 @@
       "Taco Bell",
       "Parker",
       "CO"
+    ],
+    [
+      "042410",
+      38.19671929207219,
+      -85.78242777036012,
+      0.0,
+      "Taco Bell",
+      "Louisville",
+      "KY"
     ]
   ]
 }

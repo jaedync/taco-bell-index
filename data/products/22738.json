@@ -17,12 +17,12 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 284
+    "store_count": 283
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 75
+      "count": 74
     },
     {
       "bucket": "$0.20",
@@ -82,8 +82,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 0.3,
-      "store_count": 108
+      "avg_price": 0.31,
+      "store_count": 107
     },
     {
       "state": "OR",
@@ -244,7 +244,6 @@
     "032587",
     "032951",
     "034200",
-    "002474",
     "003187",
     "015599",
     "019722",
@@ -342,6 +341,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002474",
+      "store_name": "Taco Bell",
+      "city": "Santa Maria",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:03:43.654167+00:00"
+    },
     {
       "store_number": "024784",
       "store_name": "Taco Bell",
@@ -755,7 +764,7 @@
   ],
   "activity_summary": {
     "added": 18,
-    "removed": 23,
+    "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1221,15 +1230,6 @@
       0.0,
       "Taco Bell",
       "Chico",
-      "CA"
-    ],
-    [
-      "002474",
-      34.92605072654064,
-      -120.43646965922562,
-      0.0,
-      "Taco Bell",
-      "Santa Maria",
       "CA"
     ],
     [

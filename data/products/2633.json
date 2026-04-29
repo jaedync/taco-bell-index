@@ -17,12 +17,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3556
+    "store_count": 3553
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3556
+      "count": 3553
     }
   ],
   "state_prices": [
@@ -34,7 +34,7 @@
     {
       "state": "WI",
       "avg_price": 0.0,
-      "store_count": 74
+      "store_count": 73
     },
     {
       "state": "WA",
@@ -44,7 +44,7 @@
     {
       "state": "VA",
       "avg_price": 0.0,
-      "store_count": 45
+      "store_count": 44
     },
     {
       "state": "UT",
@@ -54,7 +54,7 @@
     {
       "state": "TX",
       "avg_price": 0.0,
-      "store_count": 98
+      "store_count": 97
     },
     {
       "state": "TN",
@@ -69,7 +69,7 @@
     {
       "state": "SC",
       "avg_price": 0.0,
-      "store_count": 60
+      "store_count": 61
     },
     {
       "state": "PA",
@@ -89,7 +89,7 @@
     {
       "state": "OH",
       "avg_price": 0.0,
-      "store_count": 216
+      "store_count": 217
     },
     {
       "state": "NY",
@@ -174,7 +174,7 @@
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 131
+      "store_count": 130
     },
     {
       "state": "IL",
@@ -184,7 +184,7 @@
     {
       "state": "ID",
       "avg_price": 0.0,
-      "store_count": 35
+      "store_count": 34
     },
     {
       "state": "IA",
@@ -494,7 +494,6 @@
     "042280",
     "034948",
     "034273",
-    "031105",
     "035064",
     "034355",
     "034817",
@@ -620,7 +619,6 @@
     "034783",
     "036286",
     "034809",
-    "043007",
     "036130",
     "043006",
     "036447",
@@ -2005,7 +2003,6 @@
     "037532",
     "015353",
     "031630",
-    "031497",
     "029534",
     "029650",
     "017313",
@@ -2203,7 +2200,6 @@
     "034204",
     "043026",
     "032090",
-    "003798",
     "019957",
     "031555",
     "031114",
@@ -3109,6 +3105,7 @@
     "042462",
     "037566",
     "021187",
+    "005759",
     "031969",
     "029244",
     "018554",
@@ -3837,7 +3834,6 @@
     "042937",
     "034190",
     "032185",
-    "005169",
     "020173",
     "041368",
     "031500",
@@ -3879,9 +3875,17 @@
     "042963",
     "042967",
     "042960",
-    "042005"
+    "042005",
+    "042948"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042948",
+      "name": "Taco Bell",
+      "city": "Duncan",
+      "state": "SC",
+      "price": 0.0
+    },
     {
       "store_number": "042005",
       "name": "Taco Bell",
@@ -3944,16 +3948,79 @@
       "city": "Piedmont",
       "state": "SC",
       "price": 0.0
-    },
-    {
-      "store_number": "042883",
-      "name": "Taco Bell",
-      "city": "Jacksonville",
-      "state": "FL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005759",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-29T22:04:05.073684+00:00"
+    },
+    {
+      "store_number": "042948",
+      "store_name": "Taco Bell",
+      "city": "Duncan",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-04-29T22:04:04.753200+00:00"
+    },
+    {
+      "store_number": "003798",
+      "store_name": "Taco Bell",
+      "city": "Boise",
+      "state": "ID",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:03:02.006082+00:00"
+    },
+    {
+      "store_number": "031497",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:49.482694+00:00"
+    },
+    {
+      "store_number": "005169",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T21:58:27.463771+00:00"
+    },
+    {
+      "store_number": "043007",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T21:46:43.046526+00:00"
+    },
+    {
+      "store_number": "031105",
+      "store_name": "Taco Bell",
+      "city": "Woodbridge",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-04-29T21:46:29.121337+00:00"
+    },
     {
       "store_number": "042005",
       "store_name": "Taco Bell",
@@ -5586,8 +5653,8 @@
     }
   ],
   "activity_summary": {
-    "added": 83,
-    "removed": 80,
+    "added": 85,
+    "removed": 85,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7127,15 +7194,6 @@
       "NY"
     ],
     [
-      "031105",
-      38.68443164105487,
-      -77.31613203391817,
-      0.0,
-      "Taco Bell",
-      "Woodbridge",
-      "VA"
-    ],
-    [
       "035064",
       41.355107653503794,
       -83.65091883837322,
@@ -8259,15 +8317,6 @@
       "Taco Bell",
       "Umatilla",
       "FL"
-    ],
-    [
-      "043007",
-      39.85505652122834,
-      -86.24080654485579,
-      0.0,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "036130",
@@ -20726,15 +20775,6 @@
       "FL"
     ],
     [
-      "031497",
-      43.092868571821576,
-      -88.00764165353945,
-      0.0,
-      "Taco Bell",
-      "Milwaukee",
-      "WI"
-    ],
-    [
       "029534",
       28.094948707434398,
       -81.9730818271637,
@@ -22506,15 +22546,6 @@
       "Taco Bell",
       "Columbia City",
       "IN"
-    ],
-    [
-      "003798",
-      43.63701120267759,
-      -116.23160102966722,
-      0.0,
-      "Taco Bell",
-      "Boise",
-      "ID"
     ],
     [
       "019957",
@@ -30662,6 +30693,15 @@
       "AZ"
     ],
     [
+      "005759",
+      41.72334997146125,
+      -83.5107481399685,
+      0.0,
+      "Taco Bell",
+      "Toledo",
+      "OH"
+    ],
+    [
       "031969",
       42.31746535238705,
       -89.03422667648101,
@@ -37214,15 +37254,6 @@
       "NY"
     ],
     [
-      "005169",
-      29.994786351658092,
-      -95.48507988452911,
-      0.0,
-      "Taco Bell",
-      "Houston",
-      "TX"
-    ],
-    [
       "020173",
       45.19922701846011,
       -93.54932590386852,
@@ -37599,6 +37630,15 @@
       "Taco Bell",
       "Parker",
       "CO"
+    ],
+    [
+      "042948",
+      34.90936320113407,
+      -82.1032745093271,
+      0.0,
+      "Taco Bell",
+      "Duncan",
+      "SC"
     ]
   ]
 }

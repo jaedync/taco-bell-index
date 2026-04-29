@@ -13,17 +13,17 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 4.12,
+    "avg": 4.11,
     "min": 3.79,
     "max": 4.49,
-    "median": 3.89,
+    "median": 3.79,
     "std_dev": 0.35,
-    "store_count": 32
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$3.79",
-      "count": 16
+      "count": 17
     },
     {
       "bucket": "$3.99",
@@ -46,8 +46,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.81,
-      "store_count": 13
+      "avg_price": 3.8,
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -152,7 +152,8 @@
     "016276",
     "009489",
     "002984",
-    "027489"
+    "027489",
+    "021422"
   ],
   "priciest_stores": [
     {
@@ -228,6 +229,16 @@
   ],
   "price_changes": [
     {
+      "store_number": "021422",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-04-29T22:04:28.053840+00:00"
+    },
+    {
       "store_number": "001089",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Dallas",
@@ -239,7 +250,7 @@
     }
   ],
   "activity_summary": {
-    "added": 0,
+    "added": 1,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -394,6 +405,15 @@
       "TX"
     ],
     [
+      "021422",
+      32.80085004490358,
+      -96.95793691778691,
+      3.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Irving",
+      "TX"
+    ],
+    [
       "022811",
       30.075174271564272,
       -95.51512733101845,
@@ -541,7 +561,7 @@
   "drink_sizes": [
     {
       "size": "REGULAR",
-      "avg_price": 4.11,
+      "avg_price": 4.1,
       "min_price": 3.79,
       "max_price": 4.49,
       "calories": 90,

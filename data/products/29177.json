@@ -18,19 +18,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 65
+    "store_count": 64
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 65
+      "count": 64
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 65
+      "store_count": 64
     }
   ],
   "nutrition": {
@@ -134,7 +134,6 @@
     "037187",
     "039587",
     "031840",
-    "023290",
     "030349",
     "042941",
     "022592",
@@ -259,6 +258,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023290",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-29T22:02:08.769995+00:00"
+    },
     {
       "store_number": "027979",
       "store_name": "Taco Bell",
@@ -1012,7 +1021,7 @@
   ],
   "activity_summary": {
     "added": 70,
-    "removed": 5,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1176,15 +1185,6 @@
       10.99,
       "Taco Bell",
       "Ocala",
-      "FL"
-    ],
-    [
-      "023290",
-      28.568820173202138,
-      -81.28160832216957,
-      10.99,
-      "Taco Bell",
-      "Orlando",
       "FL"
     ],
     [

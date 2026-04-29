@@ -17,16 +17,20 @@
     "min": 6.49,
     "max": 7.49,
     "median": 6.89,
-    "std_dev": 0.53,
-    "store_count": 4
+    "std_dev": 0.5,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 2
+      "count": 3
     },
     {
       "bucket": "$7.29",
+      "count": 1
+    },
+    {
+      "bucket": "$7.39",
       "count": 1
     },
     {
@@ -58,6 +62,13 @@
       "price": 6.49
     },
     {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "price": 6.49
+    },
+    {
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
@@ -72,6 +83,13 @@
       "price": 7.29
     },
     {
+      "store_number": "003889",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 7.39
+    },
+    {
       "store_number": "041223",
       "name": "Taco Bell",
       "city": "Ellenwood",
@@ -81,6 +99,7 @@
   ],
   "min_price_store_numbers": [
     "031389",
+    "024403",
     "026432"
   ],
   "priciest_stores": [
@@ -90,6 +109,13 @@
       "city": "Ellenwood",
       "state": "GA",
       "price": 7.49
+    },
+    {
+      "store_number": "003889",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 7.39
     },
     {
       "store_number": "041251",
@@ -102,6 +128,13 @@
       "store_number": "026432",
       "name": "Taco Bell",
       "city": "Pigeon Forge",
+      "state": "TN",
+      "price": 6.49
+    },
+    {
+      "store_number": "024403",
+      "name": "Taco Bell",
+      "city": "Crossville",
       "state": "TN",
       "price": 6.49
     },
@@ -114,6 +147,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024403",
+      "store_name": "Taco Bell",
+      "city": "Crossville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-04-29T22:04:06.169080+00:00"
+    },
+    {
+      "store_number": "003889",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.39,
+      "observed_at": "2026-04-29T22:02:40.169761+00:00"
+    },
     {
       "store_number": "041251",
       "store_name": "Taco Bell",
@@ -426,7 +479,7 @@
     }
   ],
   "activity_summary": {
-    "added": 6,
+    "added": 8,
     "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -465,6 +518,15 @@
       "GA"
     ],
     [
+      "024403",
+      35.96722562647426,
+      -85.03864054957367,
+      6.49,
+      "Taco Bell",
+      "Crossville",
+      "TN"
+    ],
+    [
       "026432",
       35.80377693492917,
       -83.58050286769867,
@@ -480,6 +542,15 @@
       7.29,
       "Taco Bell",
       "Lawrenceville",
+      "GA"
+    ],
+    [
+      "003889",
+      33.966106,
+      -84.410766,
+      7.39,
+      "Taco Bell",
+      "Marietta",
       "GA"
     ],
     [
