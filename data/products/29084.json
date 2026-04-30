@@ -195,7 +195,6 @@
     "027990",
     "027987",
     "021472",
-    "039585",
     "023301",
     "027985",
     "022593",
@@ -217,6 +216,7 @@
     "027977",
     "023300",
     "034162",
+    "034163",
     "042971",
     "032959",
     "038869"
@@ -247,6 +247,13 @@
       "store_number": "042971",
       "name": "Taco Bell",
       "city": "Palm Coast",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
       "state": "FL",
       "price": 5.99
     },
@@ -284,16 +291,29 @@
       "city": "Lady Lake",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "023297",
-      "name": "Taco Bell",
-      "city": "Winter Park",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-04-30T20:49:38.166177+00:00"
+    },
+    {
+      "store_number": "039585",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:04.000950+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -1366,8 +1386,8 @@
     }
   ],
   "activity_summary": {
-    "added": 102,
-    "removed": 5,
+    "added": 103,
+    "removed": 6,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2025,15 +2045,6 @@
       "FL"
     ],
     [
-      "039585",
-      28.304853694257584,
-      -81.42185122376063,
-      5.99,
-      "Taco Bell",
-      "Kissimmee",
-      "FL"
-    ],
-    [
       "023301",
       28.81991652747539,
       -81.67213984359886,
@@ -2220,6 +2231,15 @@
       5.99,
       "Taco Bell",
       "Kissimmee",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      5.99,
+      "Taco Bell",
+      "Saint Cloud",
       "FL"
     ],
     [

@@ -18,7 +18,7 @@
     "max": 5.79,
     "median": 2.39,
     "std_dev": 0.38,
-    "store_count": 7695
+    "store_count": 7697
   },
   "histogram": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1857
+      "count": 1858
     },
     {
       "bucket": "$2.09",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 884
+      "count": 885
     },
     {
       "bucket": "$2.29",
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$2.39",
-      "count": 612
+      "count": 611
     },
     {
       "bucket": "$2.49",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 408
+      "count": 406
     },
     {
       "bucket": "$2.69",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 407
+      "count": 409
     },
     {
       "bucket": "$2.80",
@@ -155,7 +155,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 48
+      "count": 49
     },
     {
       "bucket": "$3.29",
@@ -257,7 +257,7 @@
     {
       "state": "IL",
       "avg_price": 2.64,
-      "store_count": 288
+      "store_count": 289
     },
     {
       "state": "UT",
@@ -277,7 +277,7 @@
     {
       "state": "MI",
       "avg_price": 2.58,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "IA",
@@ -372,7 +372,7 @@
     {
       "state": "VA",
       "avg_price": 2.22,
-      "store_count": 200
+      "store_count": 201
     },
     {
       "state": "IN",
@@ -417,7 +417,7 @@
     {
       "state": "TX",
       "avg_price": 2.09,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "KS",
@@ -612,6 +612,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 2.59,
+      "new_price": 2.79,
+      "observed_at": "2026-04-30T20:48:22.571928+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.39,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:47:24.328180+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 2.59,
+      "new_price": 2.79,
+      "observed_at": "2026-04-30T20:47:11.366514+00:00"
+    },
     {
       "store_number": "034682",
       "store_name": "Taco Bell",
@@ -9944,9 +10004,9 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
-    "removed": 64,
-    "price_changed": 801,
+    "added": 71,
+    "removed": 65,
+    "price_changed": 803,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 350,
@@ -18317,8 +18377,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       1.99,
       "Taco Bell",
       "Loudonville",
@@ -30439,6 +30499,15 @@
       "PA"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      1.99,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "041161",
       40.0061642279185,
       -86.1265645844413,
@@ -39547,6 +39616,15 @@
       "CO"
     ],
     [
+      "042529",
+      31.991728,
+      -102.098081,
+      2.19,
+      "Taco Bell",
+      "Midland",
+      "TX"
+    ],
+    [
       "040979",
       40.438755,
       -79.774354,
@@ -45574,15 +45652,6 @@
       2.39,
       "Taco Bell",
       "Lincoln Park",
-      "MI"
-    ],
-    [
-      "023745",
-      42.224730175482414,
-      -83.4856314762491,
-      2.39,
-      "Taco Bell",
-      "Belleville",
       "MI"
     ],
     [
@@ -55963,15 +56032,6 @@
       "FL"
     ],
     [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      2.59,
-      "Taco Bell",
-      "Villa Rica",
-      "GA"
-    ],
-    [
       "034556",
       35.83562804680089,
       -78.58137823335784,
@@ -57923,15 +57983,6 @@
       "Taco Bell",
       "San Diego",
       "CA"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      2.59,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "042794",
@@ -64720,6 +64771,15 @@
       "FL"
     ],
     [
+      "033481",
+      33.73376376352933,
+      -84.90097259926127,
+      2.79,
+      "Taco Bell",
+      "Villa Rica",
+      "GA"
+    ],
+    [
       "039992",
       38.7171415,
       -76.65687000000001,
@@ -66392,6 +66452,15 @@
       "Taco Bell",
       "Louisville",
       "KY"
+    ],
+    [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      2.79,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
     ],
     [
       "002617",
@@ -78747,6 +78816,15 @@
       -87.70163886242611,
       3.19,
       "Taco Bell Cantina Cantina",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      3.19,
+      "Taco Bell",
       "Chicago",
       "IL"
     ],

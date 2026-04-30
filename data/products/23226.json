@@ -12,14 +12,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.7,
+  "availability_pct": 99.6,
   "price_stats": {
     "avg": 2.99,
     "min": 2.69,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.15,
-    "store_count": 7679
+    "store_count": 7680
   },
   "histogram": [
     {
@@ -32,11 +32,11 @@
     },
     {
       "bucket": "$2.79",
-      "count": 549
+      "count": 550
     },
     {
       "bucket": "$2.89",
-      "count": 762
+      "count": 763
     },
     {
       "bucket": "$2.92",
@@ -48,7 +48,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 5976
+      "count": 5975
     },
     {
       "bucket": "$3.00",
@@ -151,7 +151,7 @@
     {
       "state": "VA",
       "avg_price": 3.2,
-      "store_count": 200
+      "store_count": 201
     },
     {
       "state": "CT",
@@ -211,7 +211,7 @@
     {
       "state": "MN",
       "avg_price": 2.99,
-      "store_count": 99
+      "store_count": 100
     },
     {
       "state": "NE",
@@ -256,12 +256,12 @@
     {
       "state": "IL",
       "avg_price": 2.99,
-      "store_count": 288
+      "store_count": 289
     },
     {
       "state": "GA",
       "avg_price": 2.99,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "LA",
@@ -291,7 +291,7 @@
     {
       "state": "MI",
       "avg_price": 2.98,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "IN",
@@ -301,7 +301,7 @@
     {
       "state": "PA",
       "avg_price": 2.98,
-      "store_count": 202
+      "store_count": 201
     },
     {
       "state": "SC",
@@ -376,7 +376,7 @@
     {
       "state": "TX",
       "avg_price": 2.93,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "KS",
@@ -571,6 +571,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "039061",
+      "store_name": "Taco Bell",
+      "city": "Kingston",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:23.649230+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:02.819615+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:47:15.230233+00:00"
+    },
+    {
+      "store_number": "036560",
+      "store_name": "Taco Bell",
+      "city": "Waite Park",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-04-30T20:47:13.677461+00:00"
+    },
     {
       "store_number": "019722",
       "store_name": "Taco Bell",
@@ -3353,8 +3423,8 @@
     }
   ],
   "activity_summary": {
-    "added": 87,
-    "removed": 71,
+    "added": 91,
+    "removed": 74,
     "price_changed": 120,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8411,6 +8481,15 @@
       "Taco Bell",
       "Stillwater",
       "OK"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      2.79,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "040361",
@@ -15271,6 +15350,15 @@
       "WV"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      2.89,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -20941,6 +21029,15 @@
       "UT"
     ],
     [
+      "036560",
+      45.55299749231113,
+      -94.2238041368322,
+      2.99,
+      "Taco Bell",
+      "Waite Park",
+      "MN"
+    ],
+    [
       "036413",
       34.823940647934,
       -87.29134190319175,
@@ -21470,15 +21567,6 @@
       "Taco Bell",
       "Ashland City",
       "TN"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      2.99,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
     ],
     [
       "031534",
@@ -27899,8 +27987,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       2.99,
       "Taco Bell",
       "Loudonville",
@@ -56248,15 +56336,6 @@
       "OH"
     ],
     [
-      "002167",
-      33.80207381502585,
-      -84.4147127866745,
-      2.99,
-      "Taco Bell",
-      "Atlanta",
-      "GA"
-    ],
-    [
       "030719",
       36.79228158342506,
       -121.6653772149134,
@@ -64591,15 +64670,6 @@
       "FL"
     ],
     [
-      "039061",
-      41.25989355052693,
-      -75.8999568969557,
-      2.99,
-      "Taco Bell",
-      "Kingston",
-      "PA"
-    ],
-    [
       "040053",
       39.431341,
       -80.186245,
@@ -69485,6 +69555,15 @@
       "Taco Bell",
       "Parker",
       "CO"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      2.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "039146",

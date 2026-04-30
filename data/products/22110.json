@@ -18,7 +18,7 @@
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7702
+    "store_count": 7705
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 356
+      "count": 357
     },
     {
       "bucket": "$1.89",
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4366
+      "count": 4368
     },
     {
       "bucket": "$2.00",
@@ -235,7 +235,7 @@
     {
       "state": "IL",
       "avg_price": 2.07,
-      "store_count": 288
+      "store_count": 289
     },
     {
       "state": "WA",
@@ -345,7 +345,7 @@
     {
       "state": "VA",
       "avg_price": 1.97,
-      "store_count": 200
+      "store_count": 201
     },
     {
       "state": "GA",
@@ -365,7 +365,7 @@
     {
       "state": "TX",
       "avg_price": 1.94,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "KS",
@@ -580,6 +580,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "033933",
+      "store_name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 1.89,
+      "new_price": 1.99,
+      "observed_at": "2026-04-30T20:49:37.171040+00:00"
+    },
     {
       "store_number": "036214",
       "store_name": "Taco Bell",
@@ -3282,9 +3322,9 @@
     }
   ],
   "activity_summary": {
-    "added": 46,
+    "added": 49,
     "removed": 37,
-    "price_changed": 187,
+    "price_changed": 188,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -8474,6 +8514,15 @@
       1.79,
       "Taco Bell",
       "Nacogdoches",
+      "TX"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      1.79,
+      "Taco Bell",
+      "Midland",
       "TX"
     ],
     [
@@ -16910,15 +16959,6 @@
       "NC"
     ],
     [
-      "033933",
-      32.55630155569918,
-      -83.88546050387518,
-      1.89,
-      "Taco Bell",
-      "Fort Valley",
-      "GA"
-    ],
-    [
       "041191",
       36.77640419756904,
       -108.69733035564423,
@@ -17124,6 +17164,15 @@
       "Taco Bell",
       "Stillwater",
       "OK"
+    ],
+    [
+      "042277",
+      36.951417,
+      -81.068356,
+      1.89,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
     ],
     [
       "040303",
@@ -25884,8 +25933,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       1.99,
       "Taco Bell",
       "Loudonville",
@@ -55700,6 +55749,15 @@
       "CA"
     ],
     [
+      "033933",
+      32.55630155569918,
+      -83.88546050387518,
+      1.99,
+      "Taco Bell",
+      "Fort Valley",
+      "GA"
+    ],
+    [
       "033443",
       29.509858761306624,
       -98.38696717488614,
@@ -56418,6 +56476,15 @@
       "Taco Bell",
       "Parker",
       "CO"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      1.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "037042",

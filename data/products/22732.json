@@ -17,7 +17,7 @@
     "max": 1.09,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6921
+    "store_count": 6924
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.35",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$0.39",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 763
+      "count": 765
     },
     {
       "bucket": "$0.55",
@@ -241,7 +241,7 @@
     {
       "state": "VA",
       "avg_price": 0.65,
-      "store_count": 185
+      "store_count": 186
     },
     {
       "state": "NV",
@@ -271,7 +271,7 @@
     {
       "state": "IN",
       "avg_price": 0.6,
-      "store_count": 248
+      "store_count": 249
     },
     {
       "state": "OH",
@@ -311,7 +311,7 @@
     {
       "state": "IL",
       "avg_price": 0.57,
-      "store_count": 277
+      "store_count": 278
     },
     {
       "state": "KY",
@@ -341,7 +341,7 @@
     {
       "state": "TX",
       "avg_price": 0.54,
-      "store_count": 680
+      "store_count": 681
     },
     {
       "state": "MA",
@@ -360,8 +360,8 @@
     },
     {
       "state": "WV",
-      "avg_price": 0.52,
-      "store_count": 68
+      "avg_price": 0.51,
+      "store_count": 67
     },
     {
       "state": "ID",
@@ -573,6 +573,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "030307",
+      "store_name": "Taco Bell",
+      "city": "Moundsville",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:26.718804+00:00"
+    },
+    {
+      "store_number": "028919",
+      "store_name": "Taco Bell",
+      "city": "Anderson",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-30T20:47:36.530337+00:00"
+    },
     {
       "store_number": "028885",
       "store_name": "Taco Bell",
@@ -10125,8 +10175,8 @@
     }
   ],
   "activity_summary": {
-    "added": 253,
-    "removed": 695,
+    "added": 257,
+    "removed": 696,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16794,6 +16844,15 @@
       "Taco Bell",
       "Scottsville",
       "KY"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      0.35,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "041324",
@@ -31088,6 +31147,24 @@
       "OK"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      0.5,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      0.5,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
       "040717",
       43.11555516686867,
       -77.49130889699528,
@@ -38450,6 +38527,15 @@
       "OH"
     ],
     [
+      "028919",
+      40.106088313482495,
+      -85.65342396497726,
+      0.6,
+      "Taco Bell",
+      "Anderson",
+      "IN"
+    ],
+    [
       "016516",
       40.68399821704789,
       -99.08419400453568,
@@ -43994,15 +44080,6 @@
       "NC"
     ],
     [
-      "030307",
-      39.93081179020826,
-      -80.75230881582684,
-      0.6,
-      "Taco Bell",
-      "Moundsville",
-      "WV"
-    ],
-    [
       "001128",
       37.07960150896805,
       -94.47705991571638,
@@ -45768,8 +45845,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       0.65,
       "Taco Bell",
       "Loudonville",

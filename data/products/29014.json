@@ -17,12 +17,12 @@
     "max": 3.79,
     "median": 2.99,
     "std_dev": 0.08,
-    "store_count": 98
+    "store_count": 97
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 97
+      "count": 96
     },
     {
       "bucket": "$3.79",
@@ -33,7 +33,7 @@
     {
       "state": "FL",
       "avg_price": 3.0,
-      "store_count": 98
+      "store_count": 97
     }
   ],
   "nutrition": {
@@ -195,7 +195,6 @@
     "027990",
     "027987",
     "021472",
-    "039585",
     "023301",
     "027985",
     "022593",
@@ -294,6 +293,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039585",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:04.000950+00:00"
+    },
     {
       "store_number": "027973",
       "store_name": "Taco Bell",
@@ -1347,7 +1356,7 @@
   ],
   "activity_summary": {
     "added": 101,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2002,15 +2011,6 @@
       2.99,
       "Taco Bell",
       "Clermont",
-      "FL"
-    ],
-    [
-      "039585",
-      28.304853694257584,
-      -81.42185122376063,
-      2.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [

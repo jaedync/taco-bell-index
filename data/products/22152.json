@@ -20,7 +20,7 @@
     "max": 5.49,
     "median": 1.39,
     "std_dev": 0.24,
-    "store_count": 7678
+    "store_count": 7682
   },
   "histogram": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 2620
+      "count": 2621
     },
     {
       "bucket": "$1.30",
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$1.39",
-      "count": 932
+      "count": 933
     },
     {
       "bucket": "$1.43",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 1369
+      "count": 1371
     },
     {
       "bucket": "$1.50",
@@ -223,7 +223,7 @@
     {
       "state": "CA",
       "avg_price": 1.59,
-      "store_count": 837
+      "store_count": 838
     },
     {
       "state": "OR",
@@ -253,7 +253,7 @@
     {
       "state": "IL",
       "avg_price": 1.52,
-      "store_count": 286
+      "store_count": 287
     },
     {
       "state": "DE",
@@ -266,14 +266,14 @@
       "store_count": 87
     },
     {
+      "state": "WI",
+      "avg_price": 1.48,
+      "store_count": 142
+    },
+    {
       "state": "UT",
       "avg_price": 1.48,
       "store_count": 64
-    },
-    {
-      "state": "WI",
-      "avg_price": 1.48,
-      "store_count": 143
     },
     {
       "state": "ID",
@@ -313,7 +313,7 @@
     {
       "state": "VA",
       "avg_price": 1.41,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "KY",
@@ -337,8 +337,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 1.38,
-      "store_count": 116
+      "avg_price": 1.37,
+      "store_count": 117
     },
     {
       "state": "KS",
@@ -383,7 +383,7 @@
     {
       "state": "TX",
       "avg_price": 1.3,
-      "store_count": 697
+      "store_count": 698
     },
     {
       "state": "LA",
@@ -638,6 +638,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "032476",
+      "store_name": "Taco Bell",
+      "city": "Pickens",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-04-30T20:48:34.823063+00:00"
+    },
+    {
+      "store_number": "002984",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mission Viejo",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.39,
+      "observed_at": "2026-04-30T20:48:30.404830+00:00"
+    },
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:26.763582+00:00"
+    },
     {
       "store_number": "031760",
       "store_name": "Taco Bell",
@@ -3980,8 +4040,8 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
-    "removed": 55,
+    "added": 76,
+    "removed": 56,
     "price_changed": 208,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7033,15 +7093,6 @@
       "MO"
     ],
     [
-      "032092",
-      43.57078815044906,
-      -89.470567571009,
-      1.19,
-      "Taco Bell",
-      "Portage",
-      "WI"
-    ],
-    [
       "030555",
       35.01908975859628,
       -78.89840930700302,
@@ -7166,6 +7217,15 @@
       "Taco Bell",
       "New Castle",
       "PA"
+    ],
+    [
+      "032476",
+      34.86972769033337,
+      -82.6909696282832,
+      1.19,
+      "Taco Bell",
+      "Pickens",
+      "SC"
     ],
     [
       "028894",
@@ -14828,8 +14888,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       1.29,
       "Taco Bell",
       "Loudonville",
@@ -32503,6 +32563,15 @@
       "FL"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      1.29,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -37793,6 +37862,15 @@
       "Taco Bell",
       "Robbinsville",
       "NJ"
+    ],
+    [
+      "002984",
+      33.651804662352674,
+      -117.64569823445527,
+      1.39,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Mission Viejo",
+      "CA"
     ],
     [
       "001891",
@@ -53237,6 +53315,24 @@
       "Taco Bell",
       "Stillwater",
       "OK"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      1.49,
+      "Taco Bell",
+      "Midland",
+      "TX"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      1.49,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "034793",

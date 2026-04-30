@@ -10,14 +10,14 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.2,
+  "availability_pct": 99.3,
   "price_stats": {
     "avg": 0.82,
     "min": 0.3,
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7645
+    "store_count": 7650
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 265
+      "count": 266
     },
     {
       "bucket": "$0.55",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 169
+      "count": 170
     },
     {
       "bucket": "$0.66",
@@ -74,11 +74,11 @@
     },
     {
       "bucket": "$0.70",
-      "count": 445
+      "count": 446
     },
     {
       "bucket": "$0.75",
-      "count": 812
+      "count": 813
     },
     {
       "bucket": "$0.76",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 138
+      "count": 139
     },
     {
       "bucket": "$0.80",
@@ -234,7 +234,7 @@
     {
       "state": "NY",
       "avg_price": 0.88,
-      "store_count": 250
+      "store_count": 251
     },
     {
       "state": "AK",
@@ -264,7 +264,7 @@
     {
       "state": "VA",
       "avg_price": 0.85,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "MO",
@@ -339,7 +339,7 @@
     {
       "state": "IN",
       "avg_price": 0.77,
-      "store_count": 257
+      "store_count": 258
     },
     {
       "state": "MS",
@@ -374,7 +374,7 @@
     {
       "state": "TX",
       "avg_price": 0.72,
-      "store_count": 700
+      "store_count": 701
     },
     {
       "state": "KS",
@@ -389,7 +389,7 @@
     {
       "state": "IL",
       "avg_price": 0.7,
-      "store_count": 286
+      "store_count": 287
     },
     {
       "state": "UT",
@@ -584,6 +584,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "028858",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-04-30T20:49:22.962753+00:00"
+    },
+    {
+      "store_number": "039998",
+      "store_name": "Taco Bell",
+      "city": "Lockport",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-04-30T20:47:58.613396+00:00"
+    },
     {
       "store_number": "039967",
       "store_name": "Taco Bell",
@@ -2856,7 +2906,7 @@
     }
   ],
   "activity_summary": {
-    "added": 43,
+    "added": 48,
     "removed": 33,
     "price_changed": 151,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6087,6 +6137,15 @@
       "Taco Bell",
       "Chicago",
       "IL"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      0.5,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "034351",
@@ -13676,6 +13735,15 @@
       "IL"
     ],
     [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      0.65,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
       "041488",
       33.63840238391459,
       -84.42932417361067,
@@ -19524,6 +19592,15 @@
       "Taco Bell",
       "Granada Hills",
       "CA"
+    ],
+    [
+      "028858",
+      39.22265283263655,
+      -85.91242123542881,
+      0.7,
+      "Taco Bell",
+      "Columbus",
+      "IN"
     ],
     [
       "033289",
@@ -27257,6 +27334,15 @@
       "CO"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      0.75,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "038844",
       39.02309298359616,
       -104.8183364856189,
@@ -27573,8 +27659,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       0.79,
       "Taco Bell",
       "Loudonville",
@@ -27840,6 +27926,15 @@
       "Taco Bell",
       "Portage",
       "IN"
+    ],
+    [
+      "039998",
+      43.14298457930473,
+      -78.6976780756534,
+      0.79,
+      "Taco Bell",
+      "Lockport",
+      "NY"
     ],
     [
       "029775",

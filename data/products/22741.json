@@ -17,7 +17,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7618
+    "store_count": 7622
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 500
+      "count": 501
     },
     {
       "bucket": "$0.45",
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$0.50",
-      "count": 1105
+      "count": 1107
     },
     {
       "bucket": "$0.55",
-      "count": 280
+      "count": 279
     },
     {
       "bucket": "$0.59",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 844
+      "count": 845
     },
     {
       "bucket": "$0.69",
@@ -142,7 +142,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 261
+      "count": 262
     },
     {
       "bucket": "$1.00",
@@ -216,11 +216,6 @@
       "store_count": 27
     },
     {
-      "state": "VA",
-      "avg_price": 0.66,
-      "store_count": 198
-    },
-    {
       "state": "MD",
       "avg_price": 0.66,
       "store_count": 91
@@ -229,6 +224,11 @@
       "state": "WA",
       "avg_price": 0.66,
       "store_count": 137
+    },
+    {
+      "state": "VA",
+      "avg_price": 0.66,
+      "store_count": 199
     },
     {
       "state": "DE",
@@ -248,7 +248,7 @@
     {
       "state": "OH",
       "avg_price": 0.64,
-      "store_count": 404
+      "store_count": 403
     },
     {
       "state": "GA",
@@ -281,19 +281,19 @@
       "store_count": 155
     },
     {
-      "state": "IL",
-      "avg_price": 0.62,
-      "store_count": 282
-    },
-    {
       "state": "MS",
       "avg_price": 0.62,
       "store_count": 81
     },
     {
+      "state": "IL",
+      "avg_price": 0.62,
+      "store_count": 283
+    },
+    {
       "state": "IN",
       "avg_price": 0.61,
-      "store_count": 258
+      "store_count": 259
     },
     {
       "state": "LA",
@@ -323,7 +323,7 @@
     {
       "state": "PA",
       "avg_price": 0.58,
-      "store_count": 198
+      "store_count": 199
     },
     {
       "state": "MO",
@@ -363,7 +363,7 @@
     {
       "state": "TX",
       "avg_price": 0.54,
-      "store_count": 696
+      "store_count": 697
     },
     {
       "state": "UT",
@@ -570,6 +570,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "038884",
+      "store_name": "Taco Bell",
+      "city": "London",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 0.55,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:23.265645+00:00"
+    },
+    {
+      "store_number": "024409",
+      "store_name": "Taco Bell",
+      "city": "York",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.65,
+      "observed_at": "2026-04-30T20:48:50.349916+00:00"
+    },
+    {
+      "store_number": "042623",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-04-30T20:47:54.989962+00:00"
+    },
     {
       "store_number": "039545",
       "store_name": "Taco Bell",
@@ -1382,8 +1442,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 37,
+    "added": 47,
+    "removed": 38,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12605,6 +12665,15 @@
       "Taco Bell",
       "Stillwater",
       "OK"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      0.4,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "041144",
@@ -28096,6 +28165,24 @@
       "IN"
     ],
     [
+      "042529",
+      31.991728,
+      -102.098081,
+      0.5,
+      "Taco Bell",
+      "Midland",
+      "TX"
+    ],
+    [
+      "042277",
+      36.951417,
+      -81.068356,
+      0.5,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "038871",
       42.411818264438004,
       -82.91333451525527,
@@ -30389,15 +30476,6 @@
       "Taco Bell",
       "Beaver Dam",
       "KY"
-    ],
-    [
-      "038884",
-      39.88423441369728,
-      -83.4508419782469,
-      0.55,
-      "Taco Bell",
-      "London",
-      "OH"
     ],
     [
       "042124",
@@ -44213,6 +44291,15 @@
       "Taco Bell",
       "Aurora",
       "CO"
+    ],
+    [
+      "024409",
+      39.96346866650875,
+      -76.76920932276713,
+      0.65,
+      "Taco Bell",
+      "York",
+      "PA"
     ],
     [
       "036543",
@@ -59903,8 +59990,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       0.79,
       "Taco Bell",
       "Loudonville",
@@ -68491,6 +68578,15 @@
       "042633",
       41.027042755310184,
       -85.1680694595143,
+      0.99,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
+    ],
+    [
+      "042623",
+      41.12184543646923,
+      -85.06201480708354,
       0.99,
       "Taco Bell",
       "Fort Wayne",

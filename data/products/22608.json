@@ -17,7 +17,7 @@
     "max": 13.99,
     "median": 8.79,
     "std_dev": 0.7,
-    "store_count": 7698
+    "store_count": 7700
   },
   "histogram": [
     {
@@ -90,11 +90,11 @@
     },
     {
       "bucket": "$7.89",
-      "count": 347
+      "count": 348
     },
     {
       "bucket": "$7.99",
-      "count": 546
+      "count": 547
     },
     {
       "bucket": "$8.09",
@@ -142,7 +142,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 435
+      "count": 436
     },
     {
       "bucket": "$8.90",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 849
+      "count": 848
     },
     {
       "bucket": "$9.00",
@@ -361,7 +361,7 @@
     {
       "state": "CO",
       "avg_price": 8.86,
-      "store_count": 157
+      "store_count": 156
     },
     {
       "state": "DC",
@@ -421,7 +421,7 @@
     {
       "state": "IL",
       "avg_price": 8.63,
-      "store_count": 288
+      "store_count": 289
     },
     {
       "state": "OH",
@@ -461,7 +461,7 @@
     {
       "state": "VA",
       "avg_price": 8.39,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "TN",
@@ -521,7 +521,7 @@
     {
       "state": "TX",
       "avg_price": 7.98,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "SD",
@@ -699,6 +699,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.89,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.89,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "037414",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:15.111955+00:00"
+    },
     {
       "store_number": "031760",
       "store_name": "Taco Bell",
@@ -14291,8 +14331,8 @@
     }
   ],
   "activity_summary": {
-    "added": 98,
-    "removed": 92,
+    "added": 101,
+    "removed": 93,
     "price_changed": 1169,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25928,6 +25968,15 @@
       "MN"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      7.89,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "040584",
       46.8046,
       -92.0697,
@@ -30840,6 +30889,15 @@
       "Taco Bell",
       "Saint Cloud",
       "MN"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      7.99,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "036714",
@@ -37044,8 +37102,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       8.39,
       "Taco Bell",
       "Loudonville",
@@ -63035,6 +63093,15 @@
       "CO"
     ],
     [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      8.89,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -67650,15 +67717,6 @@
       "Taco Bell",
       "Hialeah",
       "FL"
-    ],
-    [
-      "037414",
-      38.83808221134572,
-      -104.79494020342827,
-      8.99,
-      "Taco Bell",
-      "Colorado Springs",
-      "CO"
     ],
     [
       "027247",

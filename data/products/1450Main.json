@@ -17,7 +17,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 609
+    "store_count": 607
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 125
+      "count": 124
     },
     {
       "bucket": "$1.00",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 54
+      "count": 53
     },
     {
       "bucket": "$1.20",
@@ -133,7 +133,7 @@
     {
       "state": "CA",
       "avg_price": 1.34,
-      "store_count": 149
+      "store_count": 148
     },
     {
       "state": "MD",
@@ -184,11 +184,6 @@
       "state": "KS",
       "avg_price": 0.99,
       "store_count": 23
-    },
-    {
-      "state": "FL",
-      "avg_price": 0.95,
-      "store_count": 5
     },
     {
       "state": "WI",
@@ -384,6 +379,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "020852",
+      "store_name": "Taco Bell",
+      "city": "Orcutt",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:22.641015+00:00"
+    },
+    {
+      "store_number": "042841",
+      "store_name": "Taco Bell",
+      "city": "Cape Coral",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:07.245547+00:00"
+    },
     {
       "store_number": "040473",
       "store_name": "Taco Bell",
@@ -1367,7 +1382,7 @@
   ],
   "activity_summary": {
     "added": 36,
-    "removed": 60,
+    "removed": 62,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3699,15 +3714,6 @@
       "ND"
     ],
     [
-      "042841",
-      26.621883702519558,
-      -81.94119036197668,
-      0.99,
-      "Taco Bell",
-      "Cape Coral",
-      "FL"
-    ],
-    [
       "004120",
       39.03836518191212,
       -95.76130165064725,
@@ -4687,15 +4693,6 @@
       "Taco Bell",
       "Potsdam",
       "NY"
-    ],
-    [
-      "020852",
-      34.86462845447513,
-      -120.4180175811598,
-      1.19,
-      "Taco Bell",
-      "Orcutt",
-      "CA"
     ],
     [
       "040313",

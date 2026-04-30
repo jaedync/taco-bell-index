@@ -17,7 +17,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.91,
-    "store_count": 7585
+    "store_count": 7590
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$19.49",
-      "count": 269
+      "count": 270
     },
     {
       "bucket": "$19.59",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 480
+      "count": 479
     },
     {
       "bucket": "$20.19",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1423
+      "count": 1424
     },
     {
       "bucket": "$22.29",
@@ -194,7 +194,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1791
+      "count": 1793
     },
     {
       "bucket": "$23.00",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 745
+      "count": 747
     },
     {
       "bucket": "$23.50",
@@ -465,7 +465,7 @@
     {
       "state": "PA",
       "avg_price": 22.73,
-      "store_count": 198
+      "store_count": 199
     },
     {
       "state": "UT",
@@ -474,18 +474,18 @@
     },
     {
       "state": "GA",
-      "avg_price": 22.38,
+      "avg_price": 22.4,
       "store_count": 248
     },
     {
       "state": "OH",
       "avg_price": 22.37,
-      "store_count": 405
+      "store_count": 406
     },
     {
       "state": "IL",
       "avg_price": 22.27,
-      "store_count": 284
+      "store_count": 285
     },
     {
       "state": "MI",
@@ -549,8 +549,8 @@
     },
     {
       "state": "VA",
-      "avg_price": 21.32,
-      "store_count": 197
+      "avg_price": 21.31,
+      "store_count": 198
     },
     {
       "state": "ND",
@@ -570,7 +570,7 @@
     {
       "state": "TX",
       "avg_price": 21.11,
-      "store_count": 692
+      "store_count": 693
     },
     {
       "state": "KS",
@@ -762,6 +762,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.99,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 19.49,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 20.99,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "033933",
+      "store_name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 19.99,
+      "new_price": 23.49,
+      "observed_at": "2026-04-30T20:49:37.171040+00:00"
+    },
+    {
+      "store_number": "024747",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 20.99,
+      "new_price": 23.49,
+      "observed_at": "2026-04-30T20:49:32.210069+00:00"
+    },
+    {
+      "store_number": "032215",
+      "store_name": "Taco Bell",
+      "city": "State College",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 21.99,
+      "observed_at": "2026-04-30T20:49:29.186644+00:00"
+    },
+    {
+      "store_number": "038882",
+      "store_name": "Taco Bell",
+      "city": "Logan",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.99,
+      "observed_at": "2026-04-30T20:49:16.115961+00:00"
+    },
     {
       "store_number": "034786",
       "store_name": "Taco Bell",
@@ -2524,9 +2594,9 @@
     }
   ],
   "activity_summary": {
-    "added": 72,
+    "added": 77,
     "removed": 53,
-    "price_changed": 51,
+    "price_changed": 53,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -7975,6 +8045,15 @@
       "KY"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      19.49,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "028900",
       38.73166725948719,
       -88.07678460351212,
@@ -12248,15 +12327,6 @@
       "Taco Bell",
       "Coralville",
       "IA"
-    ],
-    [
-      "033933",
-      32.55630155569918,
-      -83.88546050387518,
-      19.99,
-      "Taco Bell",
-      "Fort Valley",
-      "GA"
     ],
     [
       "033994",
@@ -19225,15 +19295,6 @@
       "TN"
     ],
     [
-      "024747",
-      33.50836652192516,
-      -84.14265096187592,
-      20.99,
-      "Taco Bell / Pizza Hut",
-      "McDonough",
-      "GA"
-    ],
-    [
       "029043",
       36.82030886619707,
       -83.31900776686479,
@@ -19565,6 +19626,15 @@
       "Taco Bell",
       "Stillwater",
       "OK"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      20.99,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "032093",
@@ -33479,6 +33549,15 @@
       "Taco Bell",
       "Dayton",
       "OH"
+    ],
+    [
+      "032215",
+      40.78493863484153,
+      -77.82897730173318,
+      21.99,
+      "Taco Bell",
+      "State College",
+      "PA"
     ],
     [
       "034588",
@@ -49591,6 +49670,15 @@
       "MD"
     ],
     [
+      "038882",
+      39.54293819859752,
+      -82.42642669119424,
+      22.99,
+      "Taco Bell",
+      "Logan",
+      "OH"
+    ],
+    [
       "034409",
       39.07709632877934,
       -94.414326906746,
@@ -52192,6 +52280,15 @@
       "FL"
     ],
     [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      22.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
+    [
       "041494",
       41.781297114102,
       -77.06887830760846,
@@ -53975,8 +54072,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       23.49,
       "Taco Bell",
       "Loudonville",
@@ -58762,6 +58859,15 @@
       "IL"
     ],
     [
+      "024747",
+      33.50836652192516,
+      -84.14265096187592,
+      23.49,
+      "Taco Bell / Pizza Hut",
+      "McDonough",
+      "GA"
+    ],
+    [
       "026737",
       41.86008552256605,
       -87.98115358509682,
@@ -58931,6 +59037,15 @@
       "Taco Bell",
       "Sacramento",
       "CA"
+    ],
+    [
+      "033933",
+      32.55630155569918,
+      -83.88546050387518,
+      23.49,
+      "Taco Bell",
+      "Fort Valley",
+      "GA"
     ],
     [
       "030926",

@@ -10,14 +10,14 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "first_seen_at": "2026-04-16T21:05:37.270406+00:00",
-  "availability_pct": 97.5,
+  "availability_pct": 97.4,
   "price_stats": {
     "avg": 0.6,
     "min": 0.5,
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.03,
-    "store_count": 7511
+    "store_count": 7510
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 7173
+      "count": 7172
     },
     {
       "bucket": "$0.61",
@@ -78,7 +78,7 @@
     {
       "state": "WA",
       "avg_price": 0.71,
-      "store_count": 138
+      "store_count": 139
     },
     {
       "state": "MT",
@@ -103,7 +103,7 @@
     {
       "state": "NY",
       "avg_price": 0.61,
-      "store_count": 248
+      "store_count": 247
     },
     {
       "state": "NM",
@@ -163,7 +163,7 @@
     {
       "state": "VA",
       "avg_price": 0.6,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "TN",
@@ -238,7 +238,7 @@
     {
       "state": "MA",
       "avg_price": 0.6,
-      "store_count": 66
+      "store_count": 63
     },
     {
       "state": "LA",
@@ -258,7 +258,7 @@
     {
       "state": "IL",
       "avg_price": 0.6,
-      "store_count": 285
+      "store_count": 286
     },
     {
       "state": "IA",
@@ -313,12 +313,12 @@
     {
       "state": "FL",
       "avg_price": 0.6,
-      "store_count": 451
+      "store_count": 450
     },
     {
       "state": "TX",
       "avg_price": 0.6,
-      "store_count": 700
+      "store_count": 701
     }
   ],
   "nutrition": {
@@ -490,6 +490,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "031550",
+      "store_name": "Taco Bell",
+      "city": "Everett",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:49:05.230694+00:00"
+    },
+    {
+      "store_number": "029831",
+      "store_name": "Taco Bell",
+      "city": "Pullman",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-04-30T20:48:11.748099+00:00"
+    },
+    {
+      "store_number": "032354",
+      "store_name": "Taco Bell",
+      "city": "Wildwood",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:11.492024+00:00"
+    },
+    {
+      "store_number": "029246",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Springfield",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:08.034703+00:00"
+    },
+    {
+      "store_number": "004006",
+      "store_name": "Taco Bell",
+      "city": "Shirley",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:01.109246+00:00"
+    },
+    {
+      "store_number": "041634",
+      "store_name": "Taco Bell",
+      "city": "Allston",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:47:03.657280+00:00"
+    },
     {
       "store_number": "022229",
       "store_name": "Taco Bell",
@@ -76122,8 +76212,8 @@
     }
   ],
   "activity_summary": {
-    "added": 7539,
-    "removed": 22,
+    "added": 7543,
+    "removed": 27,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -78552,15 +78642,6 @@
       "Taco Bell",
       "Lowell",
       "IN"
-    ],
-    [
-      "041634",
-      42.35004473519911,
-      -71.13056314201336,
-      0.6,
-      "Taco Bell",
-      "Allston",
-      "MA"
     ],
     [
       "041323",
@@ -91812,8 +91893,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       0.6,
       "Taco Bell",
       "Loudonville",
@@ -105482,15 +105563,6 @@
       "OH"
     ],
     [
-      "004006",
-      40.800252711602155,
-      -72.86608234047884,
-      0.6,
-      "Taco Bell",
-      "Shirley",
-      "NY"
-    ],
-    [
       "001648",
       40.660388659108584,
       -73.68205355534022,
@@ -108569,15 +108641,6 @@
       "TX"
     ],
     [
-      "029246",
-      42.08604003483641,
-      -72.56017318547161,
-      0.6,
-      "Taco Bell / Pizza Hut",
-      "Springfield",
-      "MA"
-    ],
-    [
       "020020",
       45.5565070528215,
       -122.68185352536929,
@@ -109631,15 +109694,6 @@
       "TX"
     ],
     [
-      "032354",
-      28.87513427067012,
-      -82.09626495838165,
-      0.6,
-      "Taco Bell",
-      "Wildwood",
-      "FL"
-    ],
-    [
       "029663",
       38.54767634279575,
       -90.29190503063552,
@@ -109665,6 +109719,15 @@
       "Taco Bell",
       "Davis",
       "CA"
+    ],
+    [
+      "029831",
+      46.738732,
+      -117.171069,
+      0.6,
+      "Taco Bell",
+      "Pullman",
+      "WA"
     ],
     [
       "030675",
@@ -127046,15 +127109,6 @@
       "VA"
     ],
     [
-      "031550",
-      42.40220606399566,
-      -71.04223787784576,
-      0.6,
-      "Taco Bell",
-      "Everett",
-      "MA"
-    ],
-    [
       "043065",
       27.85871081561891,
       -82.20340908320395,
@@ -141867,6 +141921,33 @@
       "Taco Bell",
       "Parker",
       "CO"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      0.6,
+      "Taco Bell",
+      "Midland",
+      "TX"
+    ],
+    [
+      "042277",
+      36.951417,
+      -81.068356,
+      0.6,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      0.6,
+      "Taco Bell",
+      "Chicago",
+      "IL"
     ],
     [
       "038844",

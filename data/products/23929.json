@@ -105,16 +105,16 @@
       "price": 4.99
     },
     {
-      "store_number": "035306",
+      "store_number": "041828",
       "name": "Taco Bell",
-      "city": "Brownstown",
+      "city": "Yale",
       "state": "MI",
       "price": 4.99
     },
     {
-      "store_number": "037663",
+      "store_number": "035306",
       "name": "Taco Bell",
-      "city": "Lincoln Park",
+      "city": "Brownstown",
       "state": "MI",
       "price": 4.99
     }
@@ -128,6 +128,7 @@
     "035098",
     "035629",
     "035304",
+    "041828",
     "035306",
     "037663",
     "001510",
@@ -162,7 +163,6 @@
     "001591",
     "039686",
     "033309",
-    "032514",
     "039685",
     "033315",
     "037362",
@@ -194,13 +194,6 @@
       "store_number": "039685",
       "name": "Taco Bell",
       "city": "Lapeer",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "032514",
-      "name": "Taco Bell",
-      "city": "Fowlerville",
       "state": "MI",
       "price": 4.99
     },
@@ -238,9 +231,36 @@
       "city": "Canton",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "037839",
+      "name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:47:31.464147+00:00"
+    },
+    {
+      "store_number": "041828",
+      "store_name": "Taco Bell",
+      "city": "Yale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-30T20:47:18.007663+00:00"
+    },
     {
       "store_number": "037839",
       "store_name": "Taco Bell",
@@ -1233,8 +1253,8 @@
     }
   ],
   "activity_summary": {
-    "added": 73,
-    "removed": 26,
+    "added": 74,
+    "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1313,6 +1333,15 @@
       4.99,
       "Taco Bell",
       "Shelby Township",
+      "MI"
+    ],
+    [
+      "041828",
+      43.13369395718771,
+      -82.79883646585634,
+      4.99,
+      "Taco Bell",
+      "Yale",
       "MI"
     ],
     [
@@ -1619,15 +1648,6 @@
       4.99,
       "Taco Bell",
       "Clarkston",
-      "MI"
-    ],
-    [
-      "032514",
-      42.6514917,
-      -84.0732928,
-      4.99,
-      "Taco Bell",
-      "Fowlerville",
       "MI"
     ],
     [

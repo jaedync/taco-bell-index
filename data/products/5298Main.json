@@ -13,12 +13,12 @@
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.5,
   "price_stats": {
-    "avg": 4.4,
+    "avg": 4.41,
     "min": 2.0,
     "max": 4.99,
-    "median": 4.19,
-    "std_dev": 0.82,
-    "store_count": 37
+    "median": 4.59,
+    "std_dev": 0.83,
+    "store_count": 36
   },
   "histogram": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 16
+      "count": 15
     },
     {
       "bucket": "$4.99",
@@ -37,8 +37,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 4.86,
-      "store_count": 18
+      "avg_price": 4.9,
+      "store_count": 17
     },
     {
       "state": "TX",
@@ -215,6 +215,16 @@
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mission Viejo",
       "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:30.404830+00:00"
+    },
+    {
+      "store_number": "002984",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Mission Viejo",
+      "state": "CA",
       "change_type": "item_added",
       "old_price": null,
       "new_price": 4.19,
@@ -273,7 +283,7 @@
   ],
   "activity_summary": {
     "added": 3,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -415,15 +425,6 @@
       4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Brea",
-      "CA"
-    ],
-    [
-      "002984",
-      33.651804662352674,
-      -117.64569823445527,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Mission Viejo",
       "CA"
     ],
     [

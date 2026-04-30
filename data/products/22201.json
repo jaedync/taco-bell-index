@@ -17,7 +17,7 @@
     "max": 8.49,
     "median": 5.99,
     "std_dev": 0.58,
-    "store_count": 7692
+    "store_count": 7693
   },
   "histogram": [
     {
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 302
+      "count": 303
     },
     {
       "bucket": "$5.00",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 113
+      "count": 111
     },
     {
       "bucket": "$5.29",
@@ -134,7 +134,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 770
+      "count": 769
     },
     {
       "bucket": "$6.22",
@@ -162,7 +162,7 @@
     },
     {
       "bucket": "$6.49",
-      "count": 406
+      "count": 409
     },
     {
       "bucket": "$6.50",
@@ -178,7 +178,7 @@
     },
     {
       "bucket": "$6.69",
-      "count": 349
+      "count": 348
     },
     {
       "bucket": "$6.79",
@@ -226,7 +226,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 30
+      "count": 31
     },
     {
       "bucket": "$8.49",
@@ -271,8 +271,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 6.41,
-      "store_count": 288
+      "avg_price": 6.42,
+      "store_count": 289
     },
     {
       "state": "OR",
@@ -302,7 +302,7 @@
     {
       "state": "MI",
       "avg_price": 6.32,
-      "store_count": 348
+      "store_count": 346
     },
     {
       "state": "CA",
@@ -377,7 +377,7 @@
     {
       "state": "VA",
       "avg_price": 6.04,
-      "store_count": 200
+      "store_count": 201
     },
     {
       "state": "WY",
@@ -442,7 +442,7 @@
     {
       "state": "TX",
       "avg_price": 5.7,
-      "store_count": 700
+      "store_count": 701
     },
     {
       "state": "ND",
@@ -455,14 +455,14 @@
       "store_count": 87
     },
     {
+      "state": "GA",
+      "avg_price": 5.62,
+      "store_count": 257
+    },
+    {
       "state": "AL",
       "avg_price": 5.62,
       "store_count": 161
-    },
-    {
-      "state": "GA",
-      "avg_price": 5.61,
-      "store_count": 257
     },
     {
       "state": "NE",
@@ -476,7 +476,7 @@
     },
     {
       "state": "SC",
-      "avg_price": 5.46,
+      "avg_price": 5.47,
       "store_count": 116
     },
     {
@@ -583,6 +583,13 @@
       "price": 8.49
     },
     {
+      "store_number": "041957",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 7.99
+    },
+    {
       "store_number": "036216",
       "name": "Taco Bell Cantina Cantina",
       "city": "Chicago",
@@ -637,16 +644,89 @@
       "city": "Chicago",
       "state": "IL",
       "price": 7.99
-    },
-    {
-      "store_number": "036181",
-      "name": "Taco Bell",
-      "city": "Cicero",
-      "state": "IL",
-      "price": 7.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.69,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 5.19,
+      "new_price": 6.49,
+      "observed_at": "2026-04-30T20:48:22.571928+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:47:24.328180+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 5.69,
+      "new_price": 6.49,
+      "observed_at": "2026-04-30T20:47:20.369487+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:47:15.230233+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 5.19,
+      "new_price": 6.49,
+      "observed_at": "2026-04-30T20:47:11.366514+00:00"
+    },
     {
       "store_number": "040473",
       "store_name": "Taco Bell",
@@ -18679,9 +18759,9 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
-    "removed": 82,
-    "price_changed": 1632,
+    "added": 92,
+    "removed": 84,
+    "price_changed": 1635,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 390,
@@ -24261,6 +24341,15 @@
       "TX"
     ],
     [
+      "042529",
+      31.991728,
+      -102.098081,
+      4.99,
+      "Taco Bell",
+      "Midland",
+      "TX"
+    ],
+    [
       "041494",
       41.781297114102,
       -77.06887830760846,
@@ -24511,15 +24600,6 @@
       "Taco Bell",
       "Vero Beach",
       "FL"
-    ],
-    [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      5.19,
-      "Taco Bell",
-      "Villa Rica",
-      "GA"
     ],
     [
       "036523",
@@ -24952,15 +25032,6 @@
       "Taco Bell",
       "Miami",
       "FL"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      5.19,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "035075",
@@ -34773,15 +34844,6 @@
       "AL"
     ],
     [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      5.69,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
-    ],
-    [
       "036497",
       35.86182979069217,
       -84.07730326463688,
@@ -35233,8 +35295,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       5.69,
       "Taco Bell",
       "Loudonville",
@@ -38263,6 +38325,15 @@
       "Taco Bell",
       "North Kansas City",
       "MO"
+    ],
+    [
+      "042277",
+      36.951417,
+      -81.068356,
+      5.69,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
     ],
     [
       "040567",
@@ -57363,15 +57434,6 @@
       "TX"
     ],
     [
-      "023745",
-      42.224730175482414,
-      -83.4856314762491,
-      6.19,
-      "Taco Bell",
-      "Belleville",
-      "MI"
-    ],
-    [
       "035688",
       29.642389287808797,
       -95.2402853174226,
@@ -74175,6 +74237,15 @@
       "AZ"
     ],
     [
+      "033481",
+      33.73376376352933,
+      -84.90097259926127,
+      6.49,
+      "Taco Bell",
+      "Villa Rica",
+      "GA"
+    ],
+    [
       "040076",
       40.4635941,
       -79.8252534,
@@ -74353,6 +74424,15 @@
       "Taco Bell",
       "Gilbert",
       "AZ"
+    ],
+    [
+      "032542",
+      32.31307877793498,
+      -81.05568834507177,
+      6.49,
+      "Taco Bell",
+      "Hardeeville",
+      "SC"
     ],
     [
       "037093",
@@ -75757,6 +75837,15 @@
       "Taco Bell",
       "Kent",
       "WA"
+    ],
+    [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      6.49,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
     ],
     [
       "037564",
@@ -79582,15 +79671,6 @@
       "Taco Bell",
       "Walcott",
       "IA"
-    ],
-    [
-      "037166",
-      41.9426279,
-      -84.648124,
-      6.69,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
     ],
     [
       "037074",
@@ -87905,6 +87985,15 @@
       -87.70163886242611,
       7.99,
       "Taco Bell Cantina Cantina",
+      "Chicago",
+      "IL"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      7.99,
+      "Taco Bell",
       "Chicago",
       "IL"
     ],

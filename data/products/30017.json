@@ -17,7 +17,7 @@
     "max": 2.99,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 3456
+    "store_count": 3459
   },
   "histogram": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$1.39",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1529
+      "count": 1530
     },
     {
       "bucket": "$2.00",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 93
+      "count": 94
     },
     {
       "bucket": "$2.20",
@@ -150,7 +150,7 @@
     {
       "state": "CA",
       "avg_price": 1.97,
-      "store_count": 620
+      "store_count": 621
     },
     {
       "state": "CT",
@@ -174,8 +174,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 1.92,
-      "store_count": 114
+      "avg_price": 1.93,
+      "store_count": 115
     },
     {
       "state": "OH",
@@ -199,8 +199,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 1.87,
-      "store_count": 94
+      "avg_price": 1.86,
+      "store_count": 95
     },
     {
       "state": "MN",
@@ -210,7 +210,7 @@
     {
       "state": "FL",
       "avg_price": 1.85,
-      "store_count": 253
+      "store_count": 252
     },
     {
       "state": "UT",
@@ -225,7 +225,7 @@
     {
       "state": "MI",
       "avg_price": 1.82,
-      "store_count": 192
+      "store_count": 193
     },
     {
       "state": "NV",
@@ -506,6 +506,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "033319",
+      "store_name": "Taco Bell",
+      "city": "Flushing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-04-30T20:49:09.111606+00:00"
+    },
+    {
+      "store_number": "042852",
+      "store_name": "Taco Bell",
+      "city": "Lehigh Acres",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.79,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:31.407478+00:00"
+    },
+    {
+      "store_number": "035467",
+      "store_name": "Taco Bell",
+      "city": "Citrus Heights",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-04-30T20:47:44.437179+00:00"
+    },
     {
       "store_number": "040327",
       "store_name": "Taco Bell",
@@ -4638,8 +4688,8 @@
     }
   ],
   "activity_summary": {
-    "added": 172,
-    "removed": 136,
+    "added": 176,
+    "removed": 137,
     "price_changed": 105,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5160,6 +5210,15 @@
       "Taco Bell",
       "Forked River",
       "NJ"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      1.29,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "041266",
@@ -14873,15 +14932,6 @@
       "WA"
     ],
     [
-      "042852",
-      26.61774397988473,
-      -81.66949962081162,
-      1.79,
-      "Taco Bell",
-      "Lehigh Acres",
-      "FL"
-    ],
-    [
       "033873",
       39.62451770315588,
       -105.02122208476067,
@@ -16050,6 +16100,15 @@
       "Taco Bell",
       "Fort Collins",
       "CO"
+    ],
+    [
+      "033319",
+      43.06051052292668,
+      -83.81567625096068,
+      1.79,
+      "Taco Bell",
+      "Flushing",
+      "MI"
     ],
     [
       "042907",
@@ -18177,8 +18236,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       1.89,
       "Taco Bell",
       "Loudonville",
@@ -24564,6 +24623,15 @@
       "Taco Bell",
       "Eagle",
       "CO"
+    ],
+    [
+      "035467",
+      38.706616358950875,
+      -121.27130358363502,
+      1.99,
+      "Taco Bell",
+      "Citrus Heights",
+      "CA"
     ],
     [
       "005469",
@@ -35282,6 +35350,15 @@
       2.19,
       "Taco Bell",
       "Kankakee",
+      "IL"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      2.19,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

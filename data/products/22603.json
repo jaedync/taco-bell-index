@@ -17,7 +17,7 @@
     "max": 15.99,
     "median": 10.79,
     "std_dev": 0.95,
-    "store_count": 7691
+    "store_count": 7695
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 19
+      "count": 20
     },
     {
       "bucket": "$8.89",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$9.19",
-      "count": 65
+      "count": 66
     },
     {
       "bucket": "$9.25",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 800
+      "count": 801
     },
     {
       "bucket": "$10.09",
@@ -150,7 +150,7 @@
     },
     {
       "bucket": "$10.89",
-      "count": 153
+      "count": 154
     },
     {
       "bucket": "$10.90",
@@ -158,7 +158,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 1459
+      "count": 1458
     },
     {
       "bucket": "$11.00",
@@ -218,7 +218,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 225
+      "count": 226
     },
     {
       "bucket": "$12.00",
@@ -401,12 +401,12 @@
     {
       "state": "IL",
       "avg_price": 11.04,
-      "store_count": 288
+      "store_count": 289
     },
     {
       "state": "CO",
       "avg_price": 11.04,
-      "store_count": 157
+      "store_count": 156
     },
     {
       "state": "RI",
@@ -451,7 +451,7 @@
     {
       "state": "VA",
       "avg_price": 10.68,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "OH",
@@ -471,7 +471,7 @@
     {
       "state": "FL",
       "avg_price": 10.43,
-      "store_count": 452
+      "store_count": 453
     },
     {
       "state": "MN",
@@ -516,7 +516,7 @@
     {
       "state": "NC",
       "avg_price": 10.12,
-      "store_count": 263
+      "store_count": 264
     },
     {
       "state": "SD",
@@ -546,7 +546,7 @@
     {
       "state": "TX",
       "avg_price": 9.73,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "AL",
@@ -725,6 +725,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041957",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-04-30T20:49:40.418237+00:00"
+    },
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-04-30T20:49:40.106205+00:00"
+    },
+    {
+      "store_number": "042529",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.19,
+      "observed_at": "2026-04-30T20:49:40.093967+00:00"
+    },
+    {
+      "store_number": "037414",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:15.111955+00:00"
+    },
+    {
+      "store_number": "042845",
+      "store_name": "Taco Bell",
+      "city": "La Belle",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-04-30T20:48:05.178678+00:00"
+    },
+    {
+      "store_number": "030568",
+      "store_name": "Taco Bell",
+      "city": "Cameron",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.79,
+      "observed_at": "2026-04-30T20:47:40.337002+00:00"
+    },
     {
       "store_number": "031760",
       "store_name": "Taco Bell",
@@ -18137,8 +18197,8 @@
     }
   ],
   "activity_summary": {
-    "added": 125,
-    "removed": 117,
+    "added": 130,
+    "removed": 118,
     "price_changed": 1499,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20963,6 +21023,15 @@
       "GA"
     ],
     [
+      "030568",
+      35.26229294485461,
+      -79.04775698484627,
+      8.79,
+      "Taco Bell",
+      "Cameron",
+      "NC"
+    ],
+    [
       "030565",
       35.02673035918971,
       -79.05189335346222,
@@ -23472,6 +23541,15 @@
       "Taco Bell",
       "Bonaire",
       "GA"
+    ],
+    [
+      "042529",
+      31.991728,
+      -102.098081,
+      9.19,
+      "Taco Bell",
+      "Midland",
+      "TX"
     ],
     [
       "026085",
@@ -39917,6 +39995,15 @@
       "FL"
     ],
     [
+      "042277",
+      36.951417,
+      -81.068356,
+      9.99,
+      "Taco Bell",
+      "Wytheville",
+      "VA"
+    ],
+    [
       "028900",
       38.73166725948719,
       -88.07678460351212,
@@ -44769,8 +44856,8 @@
     ],
     [
       "030705",
-      40.63540767917015,
-      -82.23694901661786,
+      40.635496540248276,
+      -82.23836629695893,
       10.39,
       "Taco Bell",
       "Loudonville",
@@ -53903,6 +53990,15 @@
       "FL"
     ],
     [
+      "042845",
+      26.76223746126524,
+      -81.4364568293422,
+      10.89,
+      "Taco Bell",
+      "La Belle",
+      "FL"
+    ],
+    [
       "042875",
       31.2167515667324,
       -81.51767492294312,
@@ -61983,15 +62079,6 @@
       "Taco Bell",
       "McMurray",
       "PA"
-    ],
-    [
-      "037414",
-      38.83808221134572,
-      -104.79494020342827,
-      10.99,
-      "Taco Bell",
-      "Colorado Springs",
-      "CO"
     ],
     [
       "041560",
@@ -83339,6 +83426,15 @@
       11.99,
       "Taco Bell",
       "Cicero",
+      "IL"
+    ],
+    [
+      "041957",
+      41.9095926894,
+      -87.7885319153,
+      11.99,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

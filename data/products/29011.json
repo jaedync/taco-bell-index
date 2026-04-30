@@ -17,13 +17,13 @@
     "min": 3.99,
     "max": 5.49,
     "median": 3.99,
-    "std_dev": 0.26,
-    "store_count": 33
+    "std_dev": 0.27,
+    "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 32
+      "count": 31
     },
     {
       "bucket": "$5.49",
@@ -34,7 +34,7 @@
     {
       "state": "FL",
       "avg_price": 4.04,
-      "store_count": 32
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -138,7 +138,6 @@
     "027981",
     "028353",
     "027982",
-    "022833",
     "023299",
     "027979",
     "028007",
@@ -230,6 +229,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-04-30T20:48:02.319691+00:00"
+    },
     {
       "store_number": "038869",
       "store_name": "Taco Bell",
@@ -583,7 +592,7 @@
   ],
   "activity_summary": {
     "added": 33,
-    "removed": 2,
+    "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -729,15 +738,6 @@
       3.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "022833",
-      28.3538526090358,
-      -81.6757670044899,
-      3.99,
-      "Taco Bell",
-      "Clermont",
       "FL"
     ],
     [
