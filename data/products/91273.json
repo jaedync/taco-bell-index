@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": 0.0202,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.3,
   "price_stats": {
@@ -21,12 +21,12 @@
     "max": 11.99,
     "median": 9.79,
     "std_dev": 0.41,
-    "store_count": 485
+    "store_count": 486
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 43
+      "count": 44
     },
     {
       "bucket": "$9.19",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 82
+      "count": 81
     },
     {
       "bucket": "$9.59",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$9.89",
-      "count": 22
+      "count": 23
     },
     {
       "bucket": "$9.99",
@@ -98,7 +98,7 @@
     {
       "state": "GA",
       "avg_price": 9.8,
-      "store_count": 235
+      "store_count": 236
     },
     {
       "state": "AL",
@@ -226,6 +226,7 @@
     "003408",
     "019753",
     "004091",
+    "002167",
     "004431",
     "005482",
     "003734",
@@ -307,6 +308,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 9.49,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:10.054434+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-05-01T21:44:00.695329+00:00"
+    },
+    {
+      "store_number": "029291",
+      "store_name": "Taco Bell",
+      "city": "Warner Robins",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.89,
+      "observed_at": "2026-05-01T21:43:03.108875+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -8819,8 +8850,8 @@
     }
   ],
   "activity_summary": {
-    "added": 505,
-    "removed": 20,
+    "added": 507,
+    "removed": 21,
     "price_changed": 326,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9188,6 +9219,15 @@
       8.99,
       "Taco Bell",
       "Canton",
+      "GA"
+    ],
+    [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      8.99,
+      "Taco Bell",
+      "Atlanta",
       "GA"
     ],
     [
@@ -10061,15 +10101,6 @@
       9.49,
       "Taco Bell",
       "Forsyth",
-      "GA"
-    ],
-    [
-      "041837",
-      30.85502172223534,
-      -83.94673973321909,
-      9.49,
-      "Taco Bell",
-      "Thomasville",
       "GA"
     ],
     [
@@ -11828,6 +11859,15 @@
       "TN"
     ],
     [
+      "029291",
+      32.55325361777326,
+      -83.69175633305075,
+      9.89,
+      "Taco Bell",
+      "Warner Robins",
+      "GA"
+    ],
+    [
       "029108",
       31.190916123045028,
       -83.76187942924844,
@@ -13233,6 +13273,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 5.9
 }

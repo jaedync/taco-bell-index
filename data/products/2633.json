@@ -102,7 +102,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 79
+      "store_count": 78
     },
     {
       "state": "NM",
@@ -207,7 +207,7 @@
     {
       "state": "FL",
       "avg_price": 0.0,
-      "store_count": 257
+      "store_count": 259
     },
     {
       "state": "DC",
@@ -227,7 +227,7 @@
     {
       "state": "CA",
       "avg_price": 0.0,
-      "store_count": 626
+      "store_count": 625
     },
     {
       "state": "AZ",
@@ -1405,6 +1405,7 @@
     "003915",
     "022346",
     "030762",
+    "023302",
     "025386",
     "004162",
     "029688",
@@ -2816,7 +2817,6 @@
     "029496",
     "003163",
     "001613",
-    "003543",
     "034200",
     "034626",
     "041609",
@@ -3503,7 +3503,6 @@
     "030780",
     "031894",
     "032519",
-    "031881",
     "029283",
     "023050",
     "028858",
@@ -3883,9 +3882,17 @@
     "042904",
     "042529",
     "042277",
-    "041957"
+    "041957",
+    "042876"
   ],
   "priciest_stores": [
+    {
+      "store_number": "042876",
+      "name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "price": 0.0
+    },
     {
       "store_number": "041957",
       "name": "Taco Bell",
@@ -3948,16 +3955,49 @@
       "city": "Spartanburg",
       "state": "SC",
       "price": 0.0
-    },
-    {
-      "store_number": "042967",
-      "name": "Taco Bell",
-      "city": "Middleburg",
-      "state": "FL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042876",
+      "store_name": "Taco Bell",
+      "city": "Jacksonville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-01T21:44:35.002710+00:00"
+    },
+    {
+      "store_number": "031881",
+      "store_name": "Taco Bell",
+      "city": "Henderson",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:29.528764+00:00"
+    },
+    {
+      "store_number": "003543",
+      "store_name": "Taco Bell",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:55.510987+00:00"
+    },
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-01T21:42:59.209244+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -5760,8 +5800,8 @@
     }
   ],
   "activity_summary": {
-    "added": 92,
-    "removed": 88,
+    "added": 94,
+    "removed": 90,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15471,6 +15511,15 @@
       "Taco Bell",
       "Brentwood",
       "CA"
+    ],
+    [
+      "023302",
+      28.340028098278022,
+      -81.59762848915307,
+      0.0,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
     ],
     [
       "025386",
@@ -28172,15 +28221,6 @@
       "NY"
     ],
     [
-      "003543",
-      34.21076962936434,
-      -118.84296633303165,
-      0.0,
-      "Taco Bell",
-      "Thousand Oaks",
-      "CA"
-    ],
-    [
       "034200",
       39.72753076302128,
       -121.80665065349785,
@@ -34355,15 +34395,6 @@
       "CA"
     ],
     [
-      "031881",
-      35.99136266254156,
-      -115.10156571865082,
-      0.0,
-      "Taco Bell",
-      "Henderson",
-      "NV"
-    ],
-    [
       "029283",
       35.82080837744057,
       -78.84972430771086,
@@ -37782,6 +37813,15 @@
       "Taco Bell",
       "Chicago",
       "IL"
+    ],
+    [
+      "042876",
+      30.179809146878867,
+      -81.55406301401999,
+      0.0,
+      "Taco Bell",
+      "Jacksonville",
+      "FL"
     ]
   ],
   "retired_at": null,

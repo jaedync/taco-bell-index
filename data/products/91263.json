@@ -15,12 +15,12 @@
   "first_seen_at": "2026-03-30T00:40:09.662285+00:00",
   "availability_pct": 1.2,
   "price_stats": {
-    "avg": 4.76,
+    "avg": 4.75,
     "min": 3.39,
     "max": 5.89,
     "median": 4.89,
     "std_dev": 0.46,
-    "store_count": 92
+    "store_count": 91
   },
   "histogram": [
     {
@@ -64,10 +64,6 @@
       "count": 11
     },
     {
-      "bucket": "$5.29",
-      "count": 1
-    },
-    {
       "bucket": "$5.39",
       "count": 7
     },
@@ -87,8 +83,8 @@
   "state_prices": [
     {
       "state": "TN",
-      "avg_price": 4.91,
-      "store_count": 17
+      "avg_price": 4.89,
+      "store_count": 16
     },
     {
       "state": "GA",
@@ -263,6 +259,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035461",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:25.337593+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -1306,7 +1312,7 @@
   ],
   "activity_summary": {
     "added": 98,
-    "removed": 6,
+    "removed": 7,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2027,15 +2033,6 @@
       "TN"
     ],
     [
-      "035461",
-      35.75640600000001,
-      -83.9419497,
-      5.29,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "040957",
       35.10588277807757,
       -84.00896564126015,
@@ -2145,6 +2142,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 1.1
 }

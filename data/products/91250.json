@@ -22,7 +22,7 @@
     "max": 2.99,
     "median": 1.59,
     "std_dev": 0.22,
-    "store_count": 496
+    "store_count": 497
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$1.89",
-      "count": 23
+      "count": 24
     },
     {
       "bucket": "$1.99",
@@ -91,7 +91,7 @@
     {
       "state": "GA",
       "avg_price": 1.71,
-      "store_count": 242
+      "store_count": 243
     },
     {
       "state": "TN",
@@ -275,6 +275,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-05-01T21:44:00.695329+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -5357,7 +5367,7 @@
     }
   ],
   "activity_summary": {
-    "added": 499,
+    "added": 500,
     "removed": 3,
     "price_changed": 6,
     "since": "2026-03-31T00:00:00+00:00"
@@ -9535,6 +9545,15 @@
       "GA"
     ],
     [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      1.89,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "004431",
       33.92456432368397,
       -84.57523492863402,
@@ -9833,6 +9852,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 6.0
 }

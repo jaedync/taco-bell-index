@@ -20,7 +20,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.1,
-    "store_count": 7666
+    "store_count": 7665
   },
   "histogram": [
     {
@@ -133,7 +133,7 @@
     },
     {
       "bucket": "$26.99",
-      "count": 443
+      "count": 442
     },
     {
       "bucket": "$27.19",
@@ -221,11 +221,11 @@
     },
     {
       "bucket": "$31.49",
-      "count": 207
+      "count": 206
     },
     {
       "bucket": "$31.99",
-      "count": 649
+      "count": 650
     },
     {
       "bucket": "$32.00",
@@ -381,7 +381,7 @@
     {
       "state": "CA",
       "avg_price": 34.05,
-      "store_count": 839
+      "store_count": 838
     },
     {
       "state": "DE",
@@ -510,13 +510,18 @@
     },
     {
       "state": "MI",
-      "avg_price": 30.07,
-      "store_count": 348
+      "avg_price": 30.06,
+      "store_count": 347
     },
     {
       "state": "MN",
       "avg_price": 30.03,
       "store_count": 100
+    },
+    {
+      "state": "MO",
+      "avg_price": 30.0,
+      "store_count": 225
     },
     {
       "state": "SD",
@@ -532,11 +537,6 @@
       "state": "ND",
       "avg_price": 29.99,
       "store_count": 12
-    },
-    {
-      "state": "MO",
-      "avg_price": 29.98,
-      "store_count": 225
     },
     {
       "state": "DC",
@@ -610,8 +610,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 27.74,
-      "store_count": 700
+      "avg_price": 27.75,
+      "store_count": 701
     },
     {
       "state": "MS",
@@ -777,6 +777,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035742",
+      "store_name": "Taco Bell",
+      "city": "Lumberton",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 31.99,
+      "observed_at": "2026-05-01T21:43:46.218871+00:00"
+    },
+    {
+      "store_number": "029659",
+      "store_name": "Taco Bell",
+      "city": "Byrnes Mill",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 26.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:17.805964+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 31.49,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:28.527256+00:00"
+    },
+    {
+      "store_number": "036251",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 31.99,
+      "observed_at": "2026-05-01T21:42:26.335466+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -3279,8 +3319,8 @@
     }
   ],
   "activity_summary": {
-    "added": 81,
-    "removed": 69,
+    "added": 83,
+    "removed": 71,
     "price_changed": 100,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13966,15 +14006,6 @@
       "Taco Bell",
       "Roswell",
       "GA"
-    ],
-    [
-      "029659",
-      38.41366579116861,
-      -90.58245469631402,
-      26.99,
-      "Taco Bell",
-      "Byrnes Mill",
-      "MO"
     ],
     [
       "022917",
@@ -37306,8 +37337,8 @@
     ],
     [
       "038883",
-      39.11236116230745,
-      -82.53532306382368,
+      39.112355205791765,
+      -82.53524858319321,
       30.99,
       "Taco Bell",
       "Wellston",
@@ -44127,15 +44158,6 @@
       "IA"
     ],
     [
-      "037166",
-      41.9426279,
-      -84.648124,
-      31.49,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
-    ],
-    [
       "036775",
       41.19053404365198,
       -87.19894810025625,
@@ -46276,6 +46298,15 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
+    ],
+    [
+      "036251",
+      39.034202183610354,
+      -94.53198025225383,
+      31.99,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
     ],
     [
       "036220",
@@ -48915,15 +48946,6 @@
       "CO"
     ],
     [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      31.99,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
-    ],
-    [
       "034383",
       39.04940003772915,
       -94.47515576030128,
@@ -49705,6 +49727,15 @@
       "Taco Bell",
       "Muskogee",
       "OK"
+    ],
+    [
+      "035742",
+      30.25265555491531,
+      -94.19707734884469,
+      31.99,
+      "Taco Bell",
+      "Lumberton",
+      "TX"
     ],
     [
       "031872",

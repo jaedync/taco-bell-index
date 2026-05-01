@@ -15,14 +15,14 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.2,
   "price_stats": {
     "avg": 1.47,
     "min": 1.19,
     "max": 2.29,
     "median": 1.39,
     "std_dev": 0.18,
-    "store_count": 483
+    "store_count": 481
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$1.39",
-      "count": 299
+      "count": 298
     },
     {
       "bucket": "$1.49",
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 61
+      "count": 60
     },
     {
       "bucket": "$1.69",
@@ -70,7 +70,7 @@
     {
       "state": "GA",
       "avg_price": 1.54,
-      "store_count": 233
+      "store_count": 232
     },
     {
       "state": "SC",
@@ -85,7 +85,7 @@
     {
       "state": "AL",
       "avg_price": 1.39,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "TN",
@@ -264,6 +264,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037008",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 1.39,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:33.841820+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:21.669874+00:00"
+    },
     {
       "store_number": "026837",
       "store_name": "Taco Bell",
@@ -5597,7 +5617,7 @@
   ],
   "activity_summary": {
     "added": 507,
-    "removed": 24,
+    "removed": 26,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6613,15 +6633,6 @@
       "Taco Bell",
       "Columbus",
       "GA"
-    ],
-    [
-      "037008",
-      33.358462822648114,
-      -86.85306624544107,
-      1.39,
-      "Taco Bell",
-      "Hoover",
-      "AL"
     ],
     [
       "037047",
@@ -8928,15 +8939,6 @@
       "GA"
     ],
     [
-      "041260",
-      33.9951,
-      -83.3367,
-      1.59,
-      "Taco Bell",
-      "Athens",
-      "GA"
-    ],
-    [
       "041226",
       33.63425717999579,
       -84.29043754019565,
@@ -9955,6 +9957,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 5.9
 }

@@ -14,14 +14,14 @@
   "peak_30d_pct": 93.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.8,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 0.23,
     "min": 0.19,
     "max": 1.5,
     "median": 0.2,
     "std_dev": 0.07,
-    "store_count": 7694
+    "store_count": 7695
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$0.20",
-      "count": 5439
+      "count": 5440
     },
     {
       "bucket": "$0.22",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$0.25",
-      "count": 520
+      "count": 521
     },
     {
       "bucket": "$0.28",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 759
+      "count": 757
     },
     {
       "bucket": "$0.33",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 181
+      "count": 182
     },
     {
       "bucket": "$0.55",
@@ -133,7 +133,7 @@
     {
       "state": "KY",
       "avg_price": 0.29,
-      "store_count": 160
+      "store_count": 161
     },
     {
       "state": "MD",
@@ -143,7 +143,7 @@
     {
       "state": "NY",
       "avg_price": 0.28,
-      "store_count": 251
+      "store_count": 250
     },
     {
       "state": "OR",
@@ -173,7 +173,7 @@
     {
       "state": "CA",
       "avg_price": 0.25,
-      "store_count": 837
+      "store_count": 836
     },
     {
       "state": "MT",
@@ -188,7 +188,7 @@
     {
       "state": "IL",
       "avg_price": 0.24,
-      "store_count": 289
+      "store_count": 288
     },
     {
       "state": "ID",
@@ -243,7 +243,7 @@
     {
       "state": "SC",
       "avg_price": 0.22,
-      "store_count": 116
+      "store_count": 117
     },
     {
       "state": "WI",
@@ -258,7 +258,7 @@
     {
       "state": "TX",
       "avg_price": 0.21,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "NJ",
@@ -316,11 +316,6 @@
       "store_count": 12
     },
     {
-      "state": "ME",
-      "avg_price": 0.2,
-      "store_count": 6
-    },
-    {
       "state": "WY",
       "avg_price": 0.2,
       "store_count": 11
@@ -344,6 +339,11 @@
       "state": "OK",
       "avg_price": 0.2,
       "store_count": 128
+    },
+    {
+      "state": "ME",
+      "avg_price": 0.2,
+      "store_count": 7
     },
     {
       "state": "HI",
@@ -524,6 +524,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.3,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:15.566286+00:00"
+    },
+    {
+      "store_number": "035737",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-05-01T21:43:14.458722+00:00"
+    },
+    {
+      "store_number": "039065",
+      "store_name": "Taco Bell",
+      "city": "Elmira",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:53.963087+00:00"
+    },
+    {
+      "store_number": "030733",
+      "store_name": "Taco Bell",
+      "city": "Clover",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-05-01T21:42:41.003648+00:00"
+    },
+    {
+      "store_number": "037677",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-05-01T21:42:36.950543+00:00"
+    },
+    {
+      "store_number": "041070",
+      "store_name": "Taco Bell",
+      "city": "Newport",
+      "state": "ME",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-05-01T21:41:50.186553+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -3986,8 +4046,8 @@
     }
   ],
   "activity_summary": {
-    "added": 156,
-    "removed": 143,
+    "added": 160,
+    "removed": 145,
     "price_changed": 47,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4580,6 +4640,15 @@
       "Taco Bell",
       "Mountain View",
       "AR"
+    ],
+    [
+      "041070",
+      44.83811723530731,
+      -69.28456855398464,
+      0.2,
+      "Taco Bell",
+      "Newport",
+      "ME"
     ],
     [
       "040297",
@@ -13745,8 +13814,8 @@
     ],
     [
       "038883",
-      39.11236116230745,
-      -82.53532306382368,
+      39.112355205791765,
+      -82.53524858319321,
       0.2,
       "Taco Bell",
       "Wellston",
@@ -19295,15 +19364,6 @@
       "Taco Bell",
       "Phoenix",
       "AZ"
-    ],
-    [
-      "039065",
-      42.15506261396658,
-      -76.87981635332108,
-      0.2,
-      "Taco Bell",
-      "Elmira",
-      "NY"
     ],
     [
       "028590",
@@ -26171,6 +26231,15 @@
       "Taco Bell",
       "Newark",
       "NJ"
+    ],
+    [
+      "035737",
+      29.81908056621207,
+      -95.46654082716034,
+      0.2,
+      "Taco Bell",
+      "Houston",
+      "TX"
     ],
     [
       "003827",
@@ -54199,6 +54268,15 @@
       "NC"
     ],
     [
+      "030733",
+      35.117216704004115,
+      -81.07960626483305,
+      0.25,
+      "Taco Bell",
+      "Clover",
+      "SC"
+    ],
+    [
       "009556",
       35.24220531332999,
       -80.88972325622927,
@@ -65998,15 +66076,6 @@
       "CA"
     ],
     [
-      "030404",
-      41.882211,
-      -87.640594,
-      0.3,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "030746",
       37.56582220689264,
       -122.319668672993,
@@ -66374,15 +66443,6 @@
       "Taco Bell",
       "Burton",
       "MI"
-    ],
-    [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      0.3,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
     ],
     [
       "020585",
@@ -71603,6 +71663,15 @@
       "Taco Bell",
       "New York",
       "NY"
+    ],
+    [
+      "037677",
+      38.16611382338842,
+      -85.60164189999999,
+      0.5,
+      "Taco Bell",
+      "Louisville",
+      "KY"
     ],
     [
       "041246",

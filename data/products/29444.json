@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:11.454052+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.7,
   "price_stats": {
     "avg": 11.05,
     "min": 0.0,
     "max": 11.99,
     "median": 10.99,
-    "std_dev": 1.66,
-    "store_count": 50
+    "std_dev": 1.64,
+    "store_count": 51
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 35
+      "count": 36
     },
     {
       "bucket": "$11.99",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 11.28,
-      "store_count": 49
+      "avg_price": 11.27,
+      "store_count": 50
     }
   ],
   "nutrition": null,
@@ -193,6 +193,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002995",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-01T21:43:40.979279+00:00"
+    },
     {
       "store_number": "036011",
       "store_name": "Taco Bell",
@@ -875,7 +885,7 @@
     }
   ],
   "activity_summary": {
-    "added": 59,
+    "added": 60,
     "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1100,6 +1110,15 @@
       10.99,
       "Taco Bell",
       "Cumming",
+      "GA"
+    ],
+    [
+      "002995",
+      33.88866329031674,
+      -84.47492127122132,
+      10.99,
+      "Taco Bell",
+      "Smyrna",
       "GA"
     ],
     [
@@ -1374,6 +1393,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 0.6
 }

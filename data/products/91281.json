@@ -85,12 +85,12 @@
     {
       "state": "GA",
       "avg_price": 12.81,
-      "store_count": 210
+      "store_count": 211
     },
     {
       "state": "AL",
       "avg_price": 12.81,
-      "store_count": 106
+      "store_count": 105
     }
   ],
   "nutrition": {
@@ -202,12 +202,12 @@
     "041222",
     "041980",
     "042019",
+    "039942",
     "042119",
     "040384",
     "041088",
     "041868",
     "042575",
-    "041260",
     "034073",
     "034827",
     "034784",
@@ -263,7 +263,6 @@
     "036497",
     "037191",
     "037127",
-    "037008",
     "037047",
     "037105",
     "037013",
@@ -470,6 +469,7 @@
     "041217",
     "004091",
     "027599",
+    "002167",
     "019713",
     "039937",
     "041239",
@@ -613,6 +613,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-01T21:44:00.695329+00:00"
+    },
+    {
+      "store_number": "037008",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:33.841820+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:21.669874+00:00"
+    },
+    {
+      "store_number": "039942",
+      "store_name": "Taco Bell",
+      "city": "Newnan",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-01T21:42:11.259336+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -5555,8 +5595,8 @@
     }
   ],
   "activity_summary": {
-    "added": 460,
-    "removed": 34,
+    "added": 462,
+    "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5789,6 +5829,15 @@
       "AL"
     ],
     [
+      "039942",
+      33.374945210605844,
+      -84.75347885434401,
+      12.5,
+      "Taco Bell",
+      "Newnan",
+      "GA"
+    ],
+    [
       "042119",
       32.270159,
       -86.355812,
@@ -5831,15 +5880,6 @@
       12.5,
       "Taco Bell",
       "Cartersville",
-      "GA"
-    ],
-    [
-      "041260",
-      33.9951,
-      -83.3367,
-      12.5,
-      "Taco Bell",
-      "Athens",
       "GA"
     ],
     [
@@ -6336,15 +6376,6 @@
       "Taco Bell",
       "Columbus",
       "GA"
-    ],
-    [
-      "037008",
-      33.358462822648114,
-      -86.85306624544107,
-      12.5,
-      "Taco Bell",
-      "Hoover",
-      "AL"
     ],
     [
       "037047",
@@ -8201,6 +8232,15 @@
       "GA"
     ],
     [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      12.5,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "019713",
       30.231264247912293,
       -85.8896670444301,
@@ -9426,6 +9466,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 5.3
 }

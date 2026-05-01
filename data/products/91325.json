@@ -12,21 +12,25 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 1.1,
-  "recent_price_change_pct": 0.0497,
+  "recent_price_change_pct": 0.0422,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 0.1,
+  "availability_pct": 0.2,
   "price_stats": {
-    "avg": 9.57,
+    "avg": 9.5,
     "min": 9.0,
     "max": 11.29,
     "median": 9.0,
-    "std_dev": 1.06,
-    "store_count": 8
+    "std_dev": 0.87,
+    "store_count": 13
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 6
+      "count": 9
+    },
+    {
+      "bucket": "$9.99",
+      "count": 2
     },
     {
       "bucket": "$11.29",
@@ -36,8 +40,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 9.92,
-      "store_count": 5
+      "avg_price": 9.66,
+      "store_count": 10
     }
   ],
   "nutrition": {
@@ -77,6 +81,13 @@
       "price": 9.0
     },
     {
+      "store_number": "041243",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "033643",
       "name": "Taco Bell",
       "city": "Hixson",
@@ -91,6 +102,13 @@
       "price": 9.0
     },
     {
+      "store_number": "002167",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "003668",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -98,27 +116,30 @@
       "price": 9.0
     },
     {
-      "store_number": "041223",
+      "store_number": "029102",
       "name": "Taco Bell",
-      "city": "Ellenwood",
+      "city": "Columbus",
       "state": "GA",
-      "price": 11.29
+      "price": 9.0
     },
     {
-      "store_number": "041212",
+      "store_number": "042903",
       "name": "Taco Bell",
-      "city": "Decatur",
+      "city": "Baxley",
       "state": "GA",
-      "price": 11.29
+      "price": 9.99
     }
   ],
   "min_price_store_numbers": [
     "030359",
     "029050",
     "039923",
+    "041243",
     "033643",
     "041247",
-    "003668"
+    "002167",
+    "003668",
+    "029102"
   ],
   "priciest_stores": [
     {
@@ -136,7 +157,35 @@
       "price": 11.29
     },
     {
+      "store_number": "042881",
+      "name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 9.99
+    },
+    {
+      "store_number": "029102",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
       "store_number": "003668",
+      "name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "price": 9.0
+    },
+    {
+      "store_number": "002167",
       "name": "Taco Bell",
       "city": "Atlanta",
       "state": "GA",
@@ -157,28 +206,64 @@
       "price": 9.0
     },
     {
-      "store_number": "039923",
+      "store_number": "041243",
       "name": "Taco Bell",
-      "city": "Statesboro",
+      "city": "Marietta",
       "state": "GA",
-      "price": 9.0
-    },
-    {
-      "store_number": "029050",
-      "name": "Taco Bell",
-      "city": "Chattanooga",
-      "state": "TN",
-      "price": 9.0
-    },
-    {
-      "store_number": "030359",
-      "name": "Taco Bell",
-      "city": "Maryville",
-      "state": "TN",
       "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042881",
+      "store_name": "Taco Bell",
+      "city": "Jesup",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-01T21:44:29.028327+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-01T21:44:00.695329+00:00"
+    },
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-01T21:43:36.807164+00:00"
+    },
+    {
+      "store_number": "029102",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-01T21:43:20.227207+00:00"
+    },
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-01T21:42:50.250009+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -1781,7 +1866,7 @@
     }
   ],
   "activity_summary": {
-    "added": 54,
+    "added": 59,
     "removed": 106,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1850,6 +1935,15 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      9.0,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "033643",
       35.19944509346963,
       -85.16031995415683,
@@ -1868,12 +1962,48 @@
       "GA"
     ],
     [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      9.0,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "003668",
       33.77267954859662,
       -84.37298566102982,
       9.0,
       "Taco Bell",
       "Atlanta",
+      "GA"
+    ],
+    [
+      "029102",
+      32.46497592061468,
+      -84.91904042576027,
+      9.0,
+      "Taco Bell",
+      "Columbus",
+      "GA"
+    ],
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      9.99,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
+    [
+      "042881",
+      31.616911784903458,
+      -81.87382091583459,
+      9.99,
+      "Taco Bell",
+      "Jesup",
       "GA"
     ],
     [
@@ -1896,6 +2026,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 1.1
 }

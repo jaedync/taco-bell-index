@@ -11,7 +11,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": 0.0212,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.3,
   "price_stats": {
@@ -20,7 +20,7 @@
     "max": 6.99,
     "median": 5.89,
     "std_dev": 0.44,
-    "store_count": 486
+    "store_count": 487
   },
   "histogram": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$6.69",
@@ -112,7 +112,7 @@
     {
       "state": "GA",
       "avg_price": 6.04,
-      "store_count": 238
+      "store_count": 239
     },
     {
       "state": "SC",
@@ -298,6 +298,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041243",
+      "store_name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-05-01T21:43:36.807164+00:00"
+    },
     {
       "store_number": "041223",
       "store_name": "Taco Bell",
@@ -8910,7 +8920,7 @@
     }
   ],
   "activity_summary": {
-    "added": 532,
+    "added": 533,
     "removed": 46,
     "price_changed": 283,
     "since": "2026-03-31T00:00:00+00:00"
@@ -12944,6 +12954,15 @@
       "GA"
     ],
     [
+      "041243",
+      34.02333279764089,
+      -84.52909384668487,
+      6.59,
+      "Taco Bell",
+      "Marietta",
+      "GA"
+    ],
+    [
       "030467",
       34.304485857058424,
       -85.17512485390398,
@@ -13296,6 +13315,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 5.9
 }

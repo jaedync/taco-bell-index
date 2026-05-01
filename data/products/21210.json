@@ -23,16 +23,16 @@
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7076
+    "store_count": 7077
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5238
+      "count": 5239
     },
     {
       "bucket": "$4.19",
-      "count": 57
+      "count": 58
     },
     {
       "bucket": "$4.20",
@@ -100,7 +100,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 124
+      "count": 123
     },
     {
       "bucket": "$6.00",
@@ -191,7 +191,7 @@
     {
       "state": "CA",
       "avg_price": 5.6,
-      "store_count": 774
+      "store_count": 773
     },
     {
       "state": "AZ",
@@ -296,7 +296,7 @@
     {
       "state": "CO",
       "avg_price": 4.14,
-      "store_count": 134
+      "store_count": 136
     },
     {
       "state": "PA",
@@ -321,7 +321,7 @@
     {
       "state": "IA",
       "avg_price": 4.03,
-      "store_count": 43
+      "store_count": 44
     },
     {
       "state": "MI",
@@ -351,7 +351,7 @@
     {
       "state": "TX",
       "avg_price": 4.01,
-      "store_count": 650
+      "store_count": 649
     },
     {
       "state": "MN",
@@ -371,7 +371,7 @@
     {
       "state": "WV",
       "avg_price": 4.0,
-      "store_count": 59
+      "store_count": 58
     },
     {
       "state": "SD",
@@ -396,7 +396,7 @@
     {
       "state": "ND",
       "avg_price": 4.0,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "ME",
@@ -1028,7 +1028,6 @@
     "035629",
     "039991",
     "036328",
-    "036410",
     "036421",
     "040882",
     "035898",
@@ -2331,6 +2330,7 @@
     "033778",
     "028407",
     "016319",
+    "037589",
     "039762",
     "030371",
     "040038",
@@ -3675,6 +3675,7 @@
     "040059",
     "029817",
     "029067",
+    "037058",
     "021199",
     "028508",
     "028485",
@@ -3897,6 +3898,7 @@
     "031597",
     "027858",
     "030884",
+    "030502",
     "016928",
     "031510",
     "024149",
@@ -5161,7 +5163,6 @@
     "033519",
     "004238",
     "029078",
-    "022741",
     "036135",
     "001204",
     "004177",
@@ -5805,6 +5806,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022741",
+      "store_name": "Taco Bell",
+      "city": "Saginaw",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:28.678950+00:00"
+    },
+    {
+      "store_number": "030502",
+      "store_name": "Taco Bell",
+      "city": "Aurora",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-01T21:43:41.479024+00:00"
+    },
+    {
+      "store_number": "037058",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-01T21:43:34.699194+00:00"
+    },
+    {
+      "store_number": "037414",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-05-01T21:43:25.279571+00:00"
+    },
+    {
+      "store_number": "037589",
+      "store_name": "Taco Bell",
+      "city": "West Fargo",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-01T21:42:57.012645+00:00"
+    },
+    {
+      "store_number": "036410",
+      "store_name": "Taco Bell",
+      "city": "Chester",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:26.582564+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -7277,8 +7338,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 69,
+    "added": 68,
+    "removed": 71,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12128,15 +12189,6 @@
       "NY"
     ],
     [
-      "036410",
-      40.613294,
-      -80.56273999999999,
-      4.0,
-      "Taco Bell",
-      "Chester",
-      "WV"
-    ],
-    [
       "036421",
       44.780428737481046,
       -93.50320047122011,
@@ -16935,8 +16987,8 @@
     ],
     [
       "038883",
-      39.11236116230745,
-      -82.53532306382368,
+      39.112355205791765,
+      -82.53524858319321,
       4.0,
       "Taco Bell",
       "Wellston",
@@ -23853,6 +23905,15 @@
       "Taco Bell",
       "West Chester",
       "OH"
+    ],
+    [
+      "037589",
+      46.84349899399891,
+      -96.88408175114091,
+      4.0,
+      "Taco Bell",
+      "West Fargo",
+      "ND"
     ],
     [
       "039762",
@@ -35951,6 +36012,15 @@
       "TN"
     ],
     [
+      "037058",
+      41.96042349443583,
+      -91.71171505960858,
+      4.0,
+      "Taco Bell",
+      "Cedar Rapids",
+      "IA"
+    ],
+    [
       "021199",
       37.22603378518892,
       -95.70843373240677,
@@ -37947,6 +38017,15 @@
       "Taco Bell",
       "Perrysburg",
       "OH"
+    ],
+    [
+      "030502",
+      39.5890456,
+      -104.6894483,
+      4.0,
+      "Taco Bell",
+      "Aurora",
+      "CO"
     ],
     [
       "016928",
@@ -49325,15 +49404,6 @@
       "AL"
     ],
     [
-      "022741",
-      32.87756963207155,
-      -97.37945877719619,
-      4.0,
-      "Taco Bell",
-      "Saginaw",
-      "TX"
-    ],
-    [
       "036135",
       28.461261387202875,
       -82.53953218460083,
@@ -54642,6 +54712,15 @@
       "Taco Bell",
       "Loves Park",
       "IL"
+    ],
+    [
+      "037414",
+      38.83808221134572,
+      -104.79494020342827,
+      4.19,
+      "Taco Bell",
+      "Colorado Springs",
+      "CO"
     ],
     [
       "037408",
@@ -60896,15 +60975,6 @@
       5.99,
       "Taco Bell",
       "Hawthorne",
-      "CA"
-    ],
-    [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      5.99,
-      "Taco Bell",
-      "Los Angeles",
       "CA"
     ],
     [

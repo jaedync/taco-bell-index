@@ -21,7 +21,7 @@
     "max": 4.99,
     "median": 3.89,
     "std_dev": 0.38,
-    "store_count": 168
+    "store_count": 170
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$3.54",
@@ -70,19 +70,19 @@
     },
     {
       "bucket": "$3.69",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$3.79",
-      "count": 22
+      "count": 23
     },
     {
       "bucket": "$3.89",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$3.99",
-      "count": 43
+      "count": 45
     },
     {
       "bucket": "$4.09",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$4.29",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$4.69",
@@ -118,6 +118,11 @@
       "state": "NM",
       "avg_price": 4.12,
       "store_count": 9
+    },
+    {
+      "state": "CO",
+      "avg_price": 4.07,
+      "store_count": 5
     },
     {
       "state": "MO",
@@ -146,13 +151,13 @@
     },
     {
       "state": "GA",
-      "avg_price": 3.79,
-      "store_count": 18
+      "avg_price": 3.8,
+      "store_count": 19
     },
     {
       "state": "NY",
-      "avg_price": 3.72,
-      "store_count": 6
+      "avg_price": 3.73,
+      "store_count": 7
     },
     {
       "state": "IL",
@@ -160,14 +165,14 @@
       "store_count": 6
     },
     {
+      "state": "TX",
+      "avg_price": 3.69,
+      "store_count": 16
+    },
+    {
       "state": "OH",
       "avg_price": 3.69,
       "store_count": 5
-    },
-    {
-      "state": "TX",
-      "avg_price": 3.68,
-      "store_count": 17
     },
     {
       "state": "TN",
@@ -293,13 +298,6 @@
       "price": 4.59
     },
     {
-      "store_number": "019953",
-      "name": "Taco Bell",
-      "city": "Anchorage",
-      "state": "AK",
-      "price": 4.59
-    },
-    {
       "store_number": "020027",
       "name": "Taco Bell",
       "city": "Earle",
@@ -326,9 +324,96 @@
       "city": "Northlake",
       "state": "IL",
       "price": 4.29
+    },
+    {
+      "store_number": "026729",
+      "name": "Taco Bell",
+      "city": "Joplin",
+      "state": "MO",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039055",
+      "store_name": "Taco Bell",
+      "city": "Vestal",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-05-01T21:44:42.158165+00:00"
+    },
+    {
+      "store_number": "041236",
+      "store_name": "Taco Bell",
+      "city": "Smyrna",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-01T21:43:48.282074+00:00"
+    },
+    {
+      "store_number": "035075",
+      "store_name": "Taco Bell",
+      "city": "Hondo",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:34.872943+00:00"
+    },
+    {
+      "store_number": "042634",
+      "store_name": "Taco Bell",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-01T21:43:33.550180+00:00"
+    },
+    {
+      "store_number": "037414",
+      "store_name": "Taco Bell",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.19,
+      "observed_at": "2026-05-01T21:43:25.279571+00:00"
+    },
+    {
+      "store_number": "023076",
+      "store_name": "Taco Bell",
+      "city": "Gillette",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.89,
+      "observed_at": "2026-05-01T21:43:04.199264+00:00"
+    },
+    {
+      "store_number": "019953",
+      "store_name": "Taco Bell",
+      "city": "Anchorage",
+      "state": "AK",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:53.333272+00:00"
+    },
+    {
+      "store_number": "026818",
+      "store_name": "Taco Bell",
+      "city": "Kenova",
+      "state": "WV",
+      "change_type": "item_removed",
+      "old_price": 3.69,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:37.929330+00:00"
+    },
     {
       "store_number": "042277",
       "store_name": "Taco Bell",
@@ -3621,8 +3706,8 @@
     }
   ],
   "activity_summary": {
-    "added": 121,
-    "removed": 183,
+    "added": 126,
+    "removed": 186,
     "price_changed": 25,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3866,15 +3951,6 @@
       "OH"
     ],
     [
-      "035075",
-      29.34820228205095,
-      -99.1215949736708,
-      3.49,
-      "Taco Bell",
-      "Hondo",
-      "TX"
-    ],
-    [
       "041774",
       36.81108907934477,
       -119.74777222883577,
@@ -4026,15 +4102,6 @@
       "Taco Bell",
       "Window Rock",
       "AZ"
-    ],
-    [
-      "026818",
-      38.39170754461298,
-      -82.57599279284477,
-      3.69,
-      "Taco Bell",
-      "Kenova",
-      "WV"
     ],
     [
       "026656",
@@ -4379,6 +4446,15 @@
       "GA"
     ],
     [
+      "039055",
+      42.0952927837266,
+      -76.00875422358513,
+      3.79,
+      "Taco Bell",
+      "Vestal",
+      "NY"
+    ],
+    [
       "034785",
       36.5179,
       -86.0135,
@@ -4512,6 +4588,15 @@
       "Taco Bell",
       "Chillicothe",
       "OH"
+    ],
+    [
+      "023076",
+      44.27674039801169,
+      -105.49467977546311,
+      3.89,
+      "Taco Bell",
+      "Gillette",
+      "WY"
     ],
     [
       "041134",
@@ -4901,6 +4986,24 @@
       "TX"
     ],
     [
+      "042634",
+      43.02070476985877,
+      -85.68843215703964,
+      3.99,
+      "Taco Bell",
+      "Grand Rapids",
+      "MI"
+    ],
+    [
+      "041236",
+      33.90099978026089,
+      -84.54167340697495,
+      3.99,
+      "Taco Bell",
+      "Smyrna",
+      "GA"
+    ],
+    [
       "003991",
       40.405731305744325,
       -120.6333485870065,
@@ -5027,6 +5130,15 @@
       "DE"
     ],
     [
+      "037414",
+      38.83808221134572,
+      -104.79494020342827,
+      4.19,
+      "Taco Bell",
+      "Colorado Springs",
+      "CO"
+    ],
+    [
       "041488",
       33.63840238391459,
       -84.42932417361067,
@@ -5088,15 +5200,6 @@
       "Taco Bell",
       "Earle",
       "AR"
-    ],
-    [
-      "019953",
-      61.140487540417645,
-      -149.8629730148332,
-      4.59,
-      "Taco Bell",
-      "Anchorage",
-      "AK"
     ],
     [
       "042792",

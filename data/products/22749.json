@@ -13,14 +13,14 @@
   "peak_30d_pct": 92.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 98.7,
+  "availability_pct": 98.8,
   "price_stats": {
     "avg": 0.38,
     "min": 0.0,
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7610
+    "store_count": 7611
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$0.10",
-      "count": 446
+      "count": 447
     },
     {
       "bucket": "$0.15",
@@ -45,7 +45,7 @@
     },
     {
       "bucket": "$0.25",
-      "count": 150
+      "count": 151
     },
     {
       "bucket": "$0.29",
@@ -121,7 +121,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 241
+      "count": 240
     },
     {
       "bucket": "$0.79",
@@ -178,7 +178,7 @@
     {
       "state": "OR",
       "avg_price": 0.52,
-      "store_count": 117
+      "store_count": 118
     },
     {
       "state": "NV",
@@ -278,7 +278,7 @@
     {
       "state": "MI",
       "avg_price": 0.38,
-      "store_count": 344
+      "store_count": 345
     },
     {
       "state": "PA",
@@ -353,7 +353,7 @@
     {
       "state": "IN",
       "avg_price": 0.3,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "CO",
@@ -847,6 +847,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040296",
+      "store_name": "Taco Bell",
+      "city": "West Baden Springs",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:40.784072+00:00"
+    },
+    {
+      "store_number": "038828",
+      "store_name": "Taco Bell",
+      "city": "Madras",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-05-01T21:43:19.837561+00:00"
+    },
+    {
+      "store_number": "018916",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.1,
+      "observed_at": "2026-05-01T21:42:57.714488+00:00"
+    },
+    {
+      "store_number": "042669",
+      "store_name": "Taco Bell",
+      "city": "Brighton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-05-01T21:42:30.962720+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -1879,8 +1919,8 @@
     }
   ],
   "activity_summary": {
-    "added": 45,
-    "removed": 39,
+    "added": 48,
+    "removed": 40,
     "price_changed": 19,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5425,6 +5465,15 @@
       "Taco Bell",
       "Covington",
       "VA"
+    ],
+    [
+      "018916",
+      38.464567242793485,
+      -121.37127448620049,
+      0.1,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
     ],
     [
       "028761",
@@ -14553,6 +14602,15 @@
       "HI"
     ],
     [
+      "038828",
+      44.63555134070558,
+      -121.13039374351501,
+      0.25,
+      "Taco Bell",
+      "Madras",
+      "OR"
+    ],
+    [
       "009243",
       21.27682,
       -157.787042,
@@ -17667,6 +17725,15 @@
       "IL"
     ],
     [
+      "042669",
+      42.50641190883397,
+      -83.76157922006747,
+      0.3,
+      "Taco Bell",
+      "Brighton",
+      "MI"
+    ],
+    [
       "042695",
       39.08223240296084,
       -84.15357450203369,
@@ -18829,8 +18896,8 @@
     ],
     [
       "038883",
-      39.11236116230745,
-      -82.53532306382368,
+      39.112355205791765,
+      -82.53524858319321,
       0.3,
       "Taco Bell",
       "Wellston",
@@ -26125,15 +26192,6 @@
       "Taco Bell",
       "Chandler",
       "AZ"
-    ],
-    [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      0.3,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
     ],
     [
       "035433",
@@ -67390,15 +67448,6 @@
       "Taco Bell",
       "White Lake",
       "MI"
-    ],
-    [
-      "040296",
-      38.562036562658754,
-      -86.61446040588466,
-      0.75,
-      "Taco Bell",
-      "West Baden Springs",
-      "IN"
     ],
     [
       "040608",

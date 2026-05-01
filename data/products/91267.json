@@ -12,7 +12,7 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 5.9,
-  "recent_price_change_pct": 0.0349,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.3,
   "price_stats": {
@@ -26,11 +26,11 @@
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 53
+      "count": 52
     },
     {
       "bucket": "$3.19",
-      "count": 247
+      "count": 248
     },
     {
       "bucket": "$3.29",
@@ -195,7 +195,6 @@
     "004091",
     "002167",
     "041836",
-    "041837",
     "042126",
     "042125",
     "004431",
@@ -281,6 +280,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:10.054434+00:00"
+    },
+    {
+      "store_number": "029291",
+      "store_name": "Taco Bell",
+      "city": "Warner Robins",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-01T21:43:03.108875+00:00"
+    },
     {
       "store_number": "029291",
       "store_name": "Taco Bell",
@@ -8573,14 +8592,14 @@
     }
   ],
   "activity_summary": {
-    "added": 506,
-    "removed": 17,
+    "added": 507,
+    "removed": 18,
     "price_changed": 306,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 320,
-  "calories_min": 320,
-  "calories_max": 320,
+  "calories_from_menu": 270,
+  "calories_min": 270,
+  "calories_max": 270,
   "combo_groups": [
     {
       "group_id": "674",
@@ -8964,15 +8983,6 @@
       "Taco Bell",
       "Quincy",
       "FL"
-    ],
-    [
-      "041837",
-      30.85502172223534,
-      -83.94673973321909,
-      2.99,
-      "Taco Bell",
-      "Thomasville",
-      "GA"
     ],
     [
       "042126",
@@ -10277,6 +10287,15 @@
       3.19,
       "Taco Bell",
       "Americus",
+      "GA"
+    ],
+    [
+      "029291",
+      32.55325361777326,
+      -83.69175633305075,
+      3.19,
+      "Taco Bell",
+      "Warner Robins",
       "GA"
     ],
     [
@@ -12999,6 +13018,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 5.9
 }

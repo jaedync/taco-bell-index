@@ -22,7 +22,7 @@
     "max": 7.99,
     "median": 2.99,
     "std_dev": 0.16,
-    "store_count": 7160
+    "store_count": 7161
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 6744
+      "count": 6745
     },
     {
       "bucket": "$3.00",
@@ -144,7 +144,7 @@
     {
       "state": "CA",
       "avg_price": 3.03,
-      "store_count": 835
+      "store_count": 834
     },
     {
       "state": "CO",
@@ -209,7 +209,7 @@
     {
       "state": "MI",
       "avg_price": 2.99,
-      "store_count": 348
+      "store_count": 349
     },
     {
       "state": "SC",
@@ -219,7 +219,7 @@
     {
       "state": "MO",
       "avg_price": 2.99,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "TX",
@@ -229,7 +229,7 @@
     {
       "state": "OH",
       "avg_price": 2.99,
-      "store_count": 407
+      "store_count": 406
     },
     {
       "state": "NE",
@@ -244,7 +244,7 @@
     {
       "state": "WI",
       "avg_price": 2.99,
-      "store_count": 138
+      "store_count": 139
     },
     {
       "state": "UT",
@@ -287,11 +287,6 @@
       "store_count": 79
     },
     {
-      "state": "ME",
-      "avg_price": 2.99,
-      "store_count": 6
-    },
-    {
       "state": "LA",
       "avg_price": 2.99,
       "store_count": 133
@@ -314,7 +309,7 @@
     {
       "state": "IA",
       "avg_price": 2.99,
-      "store_count": 48
+      "store_count": 47
     },
     {
       "state": "FL",
@@ -335,6 +330,11 @@
       "state": "AL",
       "avg_price": 2.99,
       "store_count": 39
+    },
+    {
+      "state": "ME",
+      "avg_price": 2.99,
+      "store_count": 7
     },
     {
       "state": "GA",
@@ -554,6 +554,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038911",
+      "store_name": "Taco Bell",
+      "city": "Newark",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:31.363430+00:00"
+    },
+    {
+      "store_number": "032092",
+      "store_name": "Taco Bell",
+      "city": "Portage",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-01T21:43:36.481408+00:00"
+    },
+    {
+      "store_number": "043026",
+      "store_name": "Taco Bell",
+      "city": "Keokuk",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:30.090056+00:00"
+    },
+    {
+      "store_number": "041388",
+      "store_name": "Taco Bell",
+      "city": "Brookfield",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-01T21:42:31.279054+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-01T21:42:28.527256+00:00"
+    },
+    {
+      "store_number": "041070",
+      "store_name": "Taco Bell",
+      "city": "Newport",
+      "state": "ME",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-01T21:41:50.186553+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -8576,8 +8636,8 @@
     }
   ],
   "activity_summary": {
-    "added": 161,
-    "removed": 627,
+    "added": 165,
+    "removed": 629,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9926,6 +9986,15 @@
       "Taco Bell",
       "Mountain View",
       "AR"
+    ],
+    [
+      "041070",
+      44.83811723530731,
+      -69.28456855398464,
+      2.99,
+      "Taco Bell",
+      "Newport",
+      "ME"
     ],
     [
       "040368",
@@ -15787,6 +15856,15 @@
       "TN"
     ],
     [
+      "037166",
+      41.9426279,
+      -84.648124,
+      2.99,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
+    ],
+    [
       "031534",
       38.737850413196675,
       -77.52972379691799,
@@ -17153,6 +17231,15 @@
       "Taco Bell",
       "Arcade",
       "NY"
+    ],
+    [
+      "041388",
+      39.77508,
+      -93.069392,
+      2.99,
+      "Taco Bell",
+      "Brookfield",
+      "MO"
     ],
     [
       "042603",
@@ -20396,8 +20483,8 @@
     ],
     [
       "038883",
-      39.11236116230745,
-      -82.53532306382368,
+      39.112355205791765,
+      -82.53524858319321,
       2.99,
       "Taco Bell",
       "Wellston",
@@ -40213,15 +40300,6 @@
       "MO"
     ],
     [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      2.99,
-      "Taco Bell",
-      "Los Angeles",
-      "CA"
-    ],
-    [
       "036204",
       41.788945512505826,
       -89.69694583251564,
@@ -42922,15 +43000,6 @@
       "TN"
     ],
     [
-      "043026",
-      40.41874551235729,
-      -91.4078844040796,
-      2.99,
-      "Taco Bell",
-      "Keokuk",
-      "IA"
-    ],
-    [
       "032090",
       41.1696539825518,
       -85.49322286251481,
@@ -45431,6 +45500,15 @@
       "Taco Bell",
       "Georgetown",
       "TX"
+    ],
+    [
+      "032092",
+      43.57078815044906,
+      -89.470567571009,
+      2.99,
+      "Taco Bell",
+      "Portage",
+      "WI"
     ],
     [
       "030555",
@@ -64142,15 +64220,6 @@
       "Taco Bell",
       "Riverside",
       "CA"
-    ],
-    [
-      "038911",
-      40.07846157619223,
-      -82.42877130212037,
-      2.99,
-      "Taco Bell",
-      "Newark",
-      "OH"
     ],
     [
       "034211",

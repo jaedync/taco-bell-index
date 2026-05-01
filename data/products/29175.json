@@ -14,26 +14,26 @@
   "peak_30d_pct": 1.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.568905+00:00",
-  "availability_pct": 1.2,
+  "availability_pct": 1.3,
   "price_stats": {
     "avg": 9.0,
     "min": 9.0,
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 95
+    "store_count": 98
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 95
+      "count": 98
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 95
+      "store_count": 98
     }
   ],
   "nutrition": {
@@ -73,6 +73,13 @@
       "price": 9.0
     },
     {
+      "store_number": "040315",
+      "name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "price": 9.0
+    },
+    {
       "store_number": "033376",
       "name": "Taco Bell",
       "city": "Roseville",
@@ -83,6 +90,13 @@
       "store_number": "034814",
       "name": "Taco Bell",
       "city": "New Hudson",
+      "state": "MI",
+      "price": 9.0
+    },
+    {
+      "store_number": "034817",
+      "name": "Taco Bell",
+      "city": "Clinton Township",
       "state": "MI",
       "price": 9.0
     },
@@ -106,28 +120,16 @@
       "city": "Westland",
       "state": "MI",
       "price": 9.0
-    },
-    {
-      "store_number": "036234",
-      "name": "Taco Bell",
-      "city": "Auburn Hills",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
-      "store_number": "035098",
-      "name": "Taco Bell",
-      "city": "Warren",
-      "state": "MI",
-      "price": 9.0
     }
   ],
   "min_price_store_numbers": [
     "040303",
     "040437",
     "039704",
+    "040315",
     "033376",
     "034814",
+    "034817",
     "034021",
     "033808",
     "034418",
@@ -179,6 +181,7 @@
     "029258",
     "003190",
     "003297",
+    "040657",
     "003293",
     "005018",
     "017105",
@@ -292,6 +295,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040657",
+      "store_name": "Taco Bell",
+      "city": "Ypsilanti",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-01T21:42:40.628933+00:00"
+    },
+    {
+      "store_number": "034817",
+      "store_name": "Taco Bell",
+      "city": "Clinton Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-01T21:42:22.077254+00:00"
+    },
+    {
+      "store_number": "040315",
+      "store_name": "Taco Bell",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-01T21:42:08.605961+00:00"
+    },
     {
       "store_number": "023745",
       "store_name": "Taco Bell",
@@ -4144,7 +4177,7 @@
     }
   ],
   "activity_summary": {
-    "added": 240,
+    "added": 243,
     "removed": 145,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4219,6 +4252,15 @@
       "MI"
     ],
     [
+      "040315",
+      42.298977471869904,
+      -83.72247008159732,
+      9.0,
+      "Taco Bell",
+      "Ann Arbor",
+      "MI"
+    ],
+    [
       "033376",
       42.52531969809968,
       -82.90784267609217,
@@ -4234,6 +4276,15 @@
       9.0,
       "Taco Bell",
       "New Hudson",
+      "MI"
+    ],
+    [
+      "034817",
+      42.6266,
+      -82.9679,
+      9.0,
+      "Taco Bell",
+      "Clinton Township",
       "MI"
     ],
     [
@@ -4696,6 +4747,15 @@
       "MI"
     ],
     [
+      "040657",
+      42.24904816405527,
+      -83.65285827781008,
+      9.0,
+      "Taco Bell",
+      "Ypsilanti",
+      "MI"
+    ],
+    [
       "003293",
       42.4395872518979,
       -83.31623877179388,
@@ -5048,6 +5108,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-04-30",
+  "last_seen_date": "2026-05-01",
   "peak_availability_pct": 1.2
 }

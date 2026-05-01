@@ -20,7 +20,7 @@
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 607
+    "store_count": 605
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 161
+      "count": 160
     },
     {
       "bucket": "$0.89",
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 124
+      "count": 121
     },
     {
       "bucket": "$1.00",
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 53
+      "count": 54
     },
     {
       "bucket": "$1.20",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 64
+      "count": 65
     },
     {
       "bucket": "$1.39",
@@ -119,11 +119,6 @@
       "store_count": 7
     },
     {
-      "state": "CO",
-      "avg_price": 1.75,
-      "store_count": 5
-    },
-    {
       "state": "MT",
       "avg_price": 1.65,
       "store_count": 10
@@ -169,14 +164,14 @@
       "store_count": 5
     },
     {
+      "state": "IL",
+      "avg_price": 1.14,
+      "store_count": 29
+    },
+    {
       "state": "OR",
       "avg_price": 1.14,
       "store_count": 56
-    },
-    {
-      "state": "IL",
-      "avg_price": 1.14,
-      "store_count": 28
     },
     {
       "state": "ND",
@@ -382,6 +377,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031113",
+      "store_name": "Taco Bell",
+      "city": "Placerville",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-05-01T21:44:22.051175+00:00"
+    },
+    {
+      "store_number": "028837",
+      "store_name": "Taco Bell",
+      "city": "Palo Alto",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:02.692649+00:00"
+    },
+    {
+      "store_number": "019713",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:44:02.135362+00:00"
+    },
+    {
+      "store_number": "043027",
+      "store_name": "Taco Bell",
+      "city": "Quincy",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.19,
+      "observed_at": "2026-05-01T21:42:56.509950+00:00"
+    },
+    {
+      "store_number": "037161",
+      "store_name": "Taco Bell",
+      "city": "Albany",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:28.905120+00:00"
+    },
+    {
+      "store_number": "035012",
+      "store_name": "Taco Bell",
+      "city": "Grand Junction",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:22.761941+00:00"
+    },
     {
       "store_number": "020852",
       "store_name": "Taco Bell",
@@ -1384,8 +1439,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 62,
+    "added": 38,
+    "removed": 66,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2853,15 +2908,6 @@
       "WY"
     ],
     [
-      "035012",
-      39.0769756198535,
-      -108.51603145048563,
-      0.79,
-      "Taco Bell",
-      "Grand Junction",
-      "CO"
-    ],
-    [
       "016462",
       43.78321747367723,
       -88.41234673128267,
@@ -2950,15 +2996,6 @@
       "Taco Bell",
       "Puyallup",
       "WA"
-    ],
-    [
-      "037161",
-      31.570316602733534,
-      -84.10721704931768,
-      0.99,
-      "Taco Bell",
-      "Albany",
-      "GA"
     ],
     [
       "042417",
@@ -3672,15 +3709,6 @@
       "FL"
     ],
     [
-      "019713",
-      30.231264247912293,
-      -85.8896670444301,
-      0.99,
-      "Taco Bell",
-      "Panama City Beach",
-      "FL"
-    ],
-    [
       "020195",
       37.126932915956885,
       -94.4761226279752,
@@ -3688,15 +3716,6 @@
       "Taco Bell",
       "Webb City",
       "MO"
-    ],
-    [
-      "028837",
-      37.4590714663671,
-      -122.13729402334383,
-      0.99,
-      "Taco Bell",
-      "Palo Alto",
-      "CA"
     ],
     [
       "024790",
@@ -4734,6 +4753,15 @@
       "NY"
     ],
     [
+      "043027",
+      39.93519394494881,
+      -91.40215694904327,
+      1.19,
+      "Taco Bell",
+      "Quincy",
+      "IL"
+    ],
+    [
       "034924",
       42.19827424653977,
       -121.75775284203476,
@@ -5253,6 +5281,15 @@
       1.29,
       "Taco Bell",
       "Willows",
+      "CA"
+    ],
+    [
+      "031113",
+      38.73086797874962,
+      -120.78617110848427,
+      1.29,
+      "Taco Bell",
+      "Placerville",
       "CA"
     ],
     [

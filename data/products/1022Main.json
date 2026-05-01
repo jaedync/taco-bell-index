@@ -20,8 +20,8 @@
     "min": 2.29,
     "max": 3.49,
     "median": 3.19,
-    "std_dev": 0.24,
-    "store_count": 716
+    "std_dev": 0.23,
+    "store_count": 719
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 22
+      "count": 21
     },
     {
       "bucket": "$2.59",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 29
+      "count": 30
     },
     {
       "bucket": "$2.79",
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 187
+      "count": 188
     },
     {
       "bucket": "$3.29",
-      "count": 218
+      "count": 220
     },
     {
       "bucket": "$3.39",
@@ -86,7 +86,7 @@
     {
       "state": "AR",
       "avg_price": 3.28,
-      "store_count": 93
+      "store_count": 94
     },
     {
       "state": "CA",
@@ -111,7 +111,7 @@
     {
       "state": "TX",
       "avg_price": 2.99,
-      "store_count": 431
+      "store_count": 432
     },
     {
       "state": "GA",
@@ -273,6 +273,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029599",
+      "store_name": "Taco Bell",
+      "city": "Crossett",
+      "state": "AR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-01T21:44:32.912913+00:00"
+    },
+    {
+      "store_number": "033776",
+      "store_name": "Taco Bell",
+      "city": "Piqua",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-05-01T21:44:22.470005+00:00"
+    },
+    {
+      "store_number": "030108",
+      "store_name": "Taco Bell",
+      "city": "Temple",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-05-01T21:44:09.701626+00:00"
+    },
+    {
+      "store_number": "035736",
+      "store_name": "Taco Bell",
+      "city": "Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:37.230524+00:00"
+    },
+    {
+      "store_number": "035737",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-01T21:43:14.458722+00:00"
+    },
+    {
+      "store_number": "032512",
+      "store_name": "Taco Bell",
+      "city": "Crockett",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:50.514833+00:00"
+    },
+    {
+      "store_number": "031782",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:42:49.197706+00:00"
+    },
+    {
+      "store_number": "035718",
+      "store_name": "Taco Bell / KFC",
+      "city": "Rosenberg",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-01T21:42:41.920677+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-05-01T21:42:26.587497+00:00"
+    },
     {
       "store_number": "030108",
       "store_name": "Taco Bell",
@@ -3845,8 +3935,8 @@
     }
   ],
   "activity_summary": {
-    "added": 96,
-    "removed": 115,
+    "added": 102,
+    "removed": 118,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4150,15 +4240,6 @@
       2.49,
       "Taco Bell",
       "Lubbock",
-      "TX"
-    ],
-    [
-      "032512",
-      31.327651797194893,
-      -95.44013977546308,
-      2.49,
-      "Taco Bell",
-      "Crockett",
       "TX"
     ],
     [
@@ -4466,6 +4547,15 @@
       "Taco Bell",
       "Gridley",
       "CA"
+    ],
+    [
+      "033776",
+      40.1513852855471,
+      -84.21415910130236,
+      2.69,
+      "Taco Bell",
+      "Piqua",
+      "OH"
     ],
     [
       "036000",
@@ -5395,6 +5485,15 @@
       "TX"
     ],
     [
+      "030108",
+      31.10226008065569,
+      -97.35637128353119,
+      2.89,
+      "Taco Bell",
+      "Temple",
+      "TX"
+    ],
+    [
       "030134",
       29.569557593362678,
       -97.93962962213831,
@@ -5555,15 +5654,6 @@
       "Taco Bell",
       "East Point",
       "GA"
-    ],
-    [
-      "031782",
-      34.106899062665036,
-      -80.90085227789137,
-      2.89,
-      "Taco Bell",
-      "Columbia",
-      "SC"
     ],
     [
       "040361",
@@ -7105,6 +7195,15 @@
       "TX"
     ],
     [
+      "035718",
+      29.54514380488333,
+      -95.74617441211682,
+      3.19,
+      "Taco Bell / KFC",
+      "Rosenberg",
+      "TX"
+    ],
+    [
       "035728",
       29.64847816237083,
       -95.1632174057977,
@@ -7546,6 +7645,15 @@
       "TX"
     ],
     [
+      "035737",
+      29.81908056621207,
+      -95.46654082716034,
+      3.19,
+      "Taco Bell",
+      "Houston",
+      "TX"
+    ],
+    [
       "031576",
       29.483676972671333,
       -98.39938472883603,
@@ -7714,15 +7822,6 @@
       3.19,
       "Taco Bell",
       "Orange",
-      "TX"
-    ],
-    [
-      "035736",
-      30.116463969203043,
-      -95.38358357014842,
-      3.19,
-      "Taco Bell",
-      "Spring",
       "TX"
     ],
     [
@@ -9895,6 +9994,15 @@
       "AR"
     ],
     [
+      "029599",
+      33.13506202021908,
+      -91.96270648352113,
+      3.29,
+      "Taco Bell",
+      "Crossett",
+      "AR"
+    ],
+    [
       "004285",
       36.17473830317983,
       -94.55238193273539,
@@ -10163,6 +10271,15 @@
       "Taco Bell",
       "Crossville",
       "TN"
+    ],
+    [
+      "036328",
+      42.09826888342504,
+      -79.30401088300437,
+      3.29,
+      "Taco Bell",
+      "Lakewood",
+      "NY"
     ],
     [
       "036251",

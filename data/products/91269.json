@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:41:27.222393+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 6.94,
+    "avg": 6.88,
     "min": 6.49,
     "max": 7.49,
-    "median": 6.89,
-    "std_dev": 0.5,
-    "store_count": 6
+    "median": 6.49,
+    "std_dev": 0.48,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$6.49",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$7.29",
@@ -41,7 +41,13 @@
       "count": 1
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "GA",
+      "avg_price": 7.03,
+      "store_count": 5
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -57,6 +63,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 6.49
+    },
     {
       "store_number": "031389",
       "name": "Taco Bell / KFC",
@@ -101,6 +114,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "042903",
     "031389",
     "024403",
     "026432"
@@ -147,9 +161,26 @@
       "city": "Locust Grove",
       "state": "GA",
       "price": 6.49
+    },
+    {
+      "store_number": "042903",
+      "name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "price": 6.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042903",
+      "store_name": "Taco Bell",
+      "city": "Baxley",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-01T21:42:50.250009+00:00"
+    },
     {
       "store_number": "024403",
       "store_name": "Taco Bell",
@@ -482,7 +513,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -511,6 +542,15 @@
     }
   ],
   "map_data": [
+    [
+      "042903",
+      31.783928,
+      -82.363196,
+      6.49,
+      "Taco Bell",
+      "Baxley",
+      "GA"
+    ],
     [
       "031389",
       33.352032936024656,

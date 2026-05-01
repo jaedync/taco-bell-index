@@ -20,7 +20,7 @@
     "max": 1.99,
     "median": 0.95,
     "std_dev": 0.18,
-    "store_count": 7676
+    "store_count": 7679
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 170
+      "count": 171
     },
     {
       "bucket": "$0.72",
@@ -73,15 +73,15 @@
     },
     {
       "bucket": "$0.75",
-      "count": 193
+      "count": 194
     },
     {
       "bucket": "$0.79",
-      "count": 131
+      "count": 132
     },
     {
       "bucket": "$0.80",
-      "count": 498
+      "count": 499
     },
     {
       "bucket": "$0.85",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$0.95",
-      "count": 468
+      "count": 467
     },
     {
       "bucket": "$0.99",
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 2153
+      "count": 2154
     },
     {
       "bucket": "$1.04",
@@ -153,7 +153,7 @@
     },
     {
       "bucket": "$1.25",
-      "count": 22
+      "count": 21
     },
     {
       "bucket": "$1.29",
@@ -325,7 +325,7 @@
     {
       "state": "OH",
       "avg_price": 0.93,
-      "store_count": 409
+      "store_count": 410
     },
     {
       "state": "DE",
@@ -360,12 +360,12 @@
     {
       "state": "GA",
       "avg_price": 0.9,
-      "store_count": 256
+      "store_count": 257
     },
     {
       "state": "IA",
       "avg_price": 0.89,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "AR",
@@ -379,8 +379,8 @@
     },
     {
       "state": "AK",
-      "avg_price": 0.88,
-      "store_count": 14
+      "avg_price": 0.87,
+      "store_count": 13
     },
     {
       "state": "OK",
@@ -425,7 +425,7 @@
     {
       "state": "WI",
       "avg_price": 0.76,
-      "store_count": 141
+      "store_count": 142
     },
     {
       "state": "ND",
@@ -597,6 +597,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016940",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-05-01T21:44:37.276406+00:00"
+    },
+    {
+      "store_number": "002167",
+      "store_name": "Taco Bell",
+      "city": "Atlanta",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-05-01T21:44:00.695329+00:00"
+    },
+    {
+      "store_number": "037058",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-05-01T21:43:34.699194+00:00"
+    },
+    {
+      "store_number": "030763",
+      "store_name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-05-01T21:43:28.028763+00:00"
+    },
+    {
+      "store_number": "015852",
+      "store_name": "Taco Bell",
+      "city": "Soldotna",
+      "state": "AK",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-05-01T21:43:19.960414+00:00"
+    },
+    {
+      "store_number": "037062",
+      "store_name": "Taco Bell",
+      "city": "Rice Lake",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-05-01T21:42:28.734956+00:00"
+    },
     {
       "store_number": "041957",
       "store_name": "Taco Bell",
@@ -1649,8 +1709,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 23,
+    "added": 41,
+    "removed": 24,
     "price_changed": 46,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9544,6 +9604,15 @@
       "TX"
     ],
     [
+      "002167",
+      33.80207381502585,
+      -84.4147127866745,
+      0.7,
+      "Taco Bell",
+      "Atlanta",
+      "GA"
+    ],
+    [
       "041416",
       43.47947367268601,
       -88.82061570322762,
@@ -11587,6 +11656,15 @@
       "IN"
     ],
     [
+      "016940",
+      39.106362366096604,
+      -84.53397586941725,
+      0.75,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
+    ],
+    [
       "041919",
       29.89858944867293,
       -90.14226664604388,
@@ -12376,6 +12454,15 @@
       0.79,
       "Taco Bell",
       "Sioux City",
+      "IA"
+    ],
+    [
+      "037058",
+      41.96042349443583,
+      -91.71171505960858,
+      0.79,
+      "Taco Bell",
+      "Cedar Rapids",
       "IA"
     ],
     [
@@ -17389,6 +17476,15 @@
       0.8,
       "Taco Bell",
       "Eau Claire",
+      "WI"
+    ],
+    [
+      "037062",
+      45.47765908183094,
+      -91.73469021466224,
+      0.8,
+      "Taco Bell",
+      "Rice Lake",
       "WI"
     ],
     [
@@ -33305,8 +33401,8 @@
     ],
     [
       "038883",
-      39.11236116230745,
-      -82.53532306382368,
+      39.112355205791765,
+      -82.53524858319321,
       0.95,
       "Taco Bell",
       "Wellston",
@@ -34418,15 +34514,6 @@
       "Taco Bell",
       "Glendale",
       "AZ"
-    ],
-    [
-      "015852",
-      60.48912768024368,
-      -151.05179637918272,
-      0.95,
-      "Taco Bell",
-      "Soldotna",
-      "AK"
     ],
     [
       "033304",
@@ -60925,6 +61012,15 @@
       "IL"
     ],
     [
+      "030763",
+      37.79375041784199,
+      -122.2011595442973,
+      1.0,
+      "Taco Bell",
+      "Oakland",
+      "CA"
+    ],
+    [
       "032954",
       39.03570243248032,
       -77.05521037225668,
@@ -66853,15 +66949,6 @@
       1.25,
       "Taco Bell",
       "North Hollywood",
-      "CA"
-    ],
-    [
-      "004634",
-      34.01120720033605,
-      -118.33848039926798,
-      1.25,
-      "Taco Bell",
-      "Los Angeles",
       "CA"
     ],
     [
