@@ -15,14 +15,14 @@
   "peak_30d_pct": 93.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.6,
+  "availability_pct": 99.7,
   "price_stats": {
     "avg": 2.99,
     "min": 2.69,
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.15,
-    "store_count": 7679
+    "store_count": 7680
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 5976
+      "count": 5977
     },
     {
       "bucket": "$3.00",
@@ -158,8 +158,8 @@
     },
     {
       "state": "CT",
-      "avg_price": 3.11,
-      "store_count": 49
+      "avg_price": 3.12,
+      "store_count": 48
     },
     {
       "state": "DC",
@@ -254,7 +254,7 @@
     {
       "state": "AK",
       "avg_price": 2.99,
-      "store_count": 13
+      "store_count": 14
     },
     {
       "state": "IL",
@@ -339,7 +339,7 @@
     {
       "state": "OR",
       "avg_price": 2.96,
-      "store_count": 120
+      "store_count": 121
     },
     {
       "state": "AZ",
@@ -574,6 +574,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015852",
+      "store_name": "Taco Bell",
+      "city": "Soldotna",
+      "state": "AK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-02T21:21:25.437153+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:53.329590+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-02T21:01:08.867937+00:00"
+    },
     {
       "store_number": "039061",
       "store_name": "Taco Bell",
@@ -3526,8 +3556,8 @@
     }
   ],
   "activity_summary": {
-    "added": 96,
-    "removed": 79,
+    "added": 98,
+    "removed": 80,
     "price_changed": 120,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -16882,6 +16912,15 @@
       "Taco Bell",
       "Briarcliff Manor",
       "NY"
+    ],
+    [
+      "041378",
+      44.78154,
+      -117.82173,
+      2.99,
+      "Taco Bell",
+      "Baker City",
+      "OR"
     ],
     [
       "040518",
@@ -33201,15 +33240,6 @@
       "IL"
     ],
     [
-      "029328",
-      41.55402977505185,
-      -72.68083959817892,
-      2.99,
-      "Taco Bell",
-      "Middletown",
-      "CT"
-    ],
-    [
       "028906",
       39.85468881088163,
       -86.39402494649397,
@@ -43000,6 +43030,15 @@
       "Taco Bell",
       "Glendale",
       "AZ"
+    ],
+    [
+      "015852",
+      60.48912768024368,
+      -151.05179637918272,
+      2.99,
+      "Taco Bell",
+      "Soldotna",
+      "AK"
     ],
     [
       "029602",

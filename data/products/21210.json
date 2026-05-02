@@ -16,19 +16,19 @@
   "peak_30d_pct": 86.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 91.8,
+  "availability_pct": 91.9,
   "price_stats": {
     "avg": 4.64,
     "min": 4.0,
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7077
+    "store_count": 7079
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5239
+      "count": 5242
     },
     {
       "bucket": "$4.19",
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 497
+      "count": 496
     },
     {
       "bucket": "$5.19",
@@ -175,8 +175,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 6.02,
-      "store_count": 115
+      "avg_price": 6.03,
+      "store_count": 114
     },
     {
       "state": "WA",
@@ -301,7 +301,7 @@
     {
       "state": "PA",
       "avg_price": 4.12,
-      "store_count": 179
+      "store_count": 180
     },
     {
       "state": "MA",
@@ -326,7 +326,7 @@
     {
       "state": "MI",
       "avg_price": 4.03,
-      "store_count": 331
+      "store_count": 332
     },
     {
       "state": "VA",
@@ -371,7 +371,7 @@
     {
       "state": "WV",
       "avg_price": 4.0,
-      "store_count": 58
+      "store_count": 59
     },
     {
       "state": "SD",
@@ -1028,6 +1028,7 @@
     "035629",
     "039991",
     "036328",
+    "036410",
     "036421",
     "040882",
     "035898",
@@ -1101,6 +1102,7 @@
     "037009",
     "039993",
     "036250",
+    "037166",
     "037050",
     "031534",
     "037100",
@@ -5731,7 +5733,8 @@
     "002384",
     "042529",
     "042277",
-    "041957"
+    "041957",
+    "032540"
   ],
   "priciest_stores": [
     {
@@ -5806,6 +5809,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037738",
+      "store_name": "Taco Bell",
+      "city": "Sweet Home",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 5.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:39.424859+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-02T21:05:48.617800+00:00"
+    },
+    {
+      "store_number": "036410",
+      "store_name": "Taco Bell",
+      "city": "Chester",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-02T21:04:45.981527+00:00"
+    },
+    {
+      "store_number": "032540",
+      "store_name": "Taco Bell",
+      "city": "Stroudsburg",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-02T21:01:40.028928+00:00"
+    },
     {
       "store_number": "022741",
       "store_name": "Taco Bell",
@@ -7338,8 +7381,8 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
-    "removed": 71,
+    "added": 71,
+    "removed": 72,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12189,6 +12232,15 @@
       "NY"
     ],
     [
+      "036410",
+      40.613294,
+      -80.56273999999999,
+      4.0,
+      "Taco Bell",
+      "Chester",
+      "WV"
+    ],
+    [
       "036421",
       44.780428737481046,
       -93.50320047122011,
@@ -12844,6 +12896,15 @@
       "Taco Bell",
       "Ashland City",
       "TN"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      4.0,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "037050",
@@ -54525,6 +54586,15 @@
       "IL"
     ],
     [
+      "032540",
+      40.99930720583125,
+      -75.26179360103521,
+      4.0,
+      "Taco Bell",
+      "Stroudsburg",
+      "PA"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -60094,15 +60164,6 @@
       "Taco Bell",
       "Longview",
       "WA"
-    ],
-    [
-      "037738",
-      44.398648143753476,
-      -122.72650975868241,
-      5.0,
-      "Taco Bell",
-      "Sweet Home",
-      "OR"
     ],
     [
       "003147",

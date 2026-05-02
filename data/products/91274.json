@@ -19,9 +19,9 @@
     "avg": 11.16,
     "min": 10.49,
     "max": 12.59,
-    "median": 10.99,
+    "median": 11.09,
     "std_dev": 0.4,
-    "store_count": 485
+    "store_count": 484
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 154
+      "count": 153
     },
     {
       "bucket": "$11.19",
@@ -95,7 +95,7 @@
     {
       "state": "GA",
       "avg_price": 11.06,
-      "store_count": 237
+      "store_count": 236
     },
     {
       "state": "SC",
@@ -311,6 +311,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:14.983804+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -8534,7 +8544,7 @@
   ],
   "activity_summary": {
     "added": 503,
-    "removed": 18,
+    "removed": 19,
     "price_changed": 301,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9986,15 +9996,6 @@
       "Taco Bell",
       "Fort Payne",
       "AL"
-    ],
-    [
-      "041259",
-      34.57876717849458,
-      -83.76470231775006,
-      10.99,
-      "Taco Bell",
-      "Cleveland",
-      "GA"
     ],
     [
       "041256",
@@ -12941,6 +12942,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 5.9
 }

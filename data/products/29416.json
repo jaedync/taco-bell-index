@@ -16,17 +16,17 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.74,
+    "avg": 11.77,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.65,
-    "store_count": 28
+    "std_dev": 0.64,
+    "store_count": 27
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 9
+      "count": 8
     },
     {
       "bucket": "$11.99",
@@ -116,17 +116,17 @@
       "price": 10.99
     },
     {
-      "store_number": "041321",
-      "name": "Taco Bell",
-      "city": "Grayson",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "029536",
       "name": "Taco Bell / KFC",
       "city": "Miami",
       "state": "FL",
+      "price": 11.99
+    },
+    {
+      "store_number": "029354",
+      "name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "NC",
       "price": 11.99
     }
   ],
@@ -138,8 +138,7 @@
     "021493",
     "031389",
     "024033",
-    "038897",
-    "041321"
+    "038897"
   ],
   "priciest_stores": [
     {
@@ -214,6 +213,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041321",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:03.814588+00:00"
+    },
     {
       "store_number": "041321",
       "store_name": "Taco Bell",
@@ -577,7 +586,7 @@
   ],
   "activity_summary": {
     "added": 32,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -700,15 +709,6 @@
       "Taco Bell",
       "Minerva",
       "OH"
-    ],
-    [
-      "041321",
-      33.89951093273385,
-      -83.96198987746997,
-      10.99,
-      "Taco Bell",
-      "Grayson",
-      "GA"
     ],
     [
       "029536",
@@ -883,6 +883,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 0.3
 }

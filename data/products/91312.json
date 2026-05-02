@@ -14,27 +14,27 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 2.7,
+  "availability_pct": 2.5,
   "price_stats": {
-    "avg": 2.7,
+    "avg": 2.69,
     "min": 2.49,
     "max": 3.49,
     "median": 2.69,
-    "std_dev": 0.23,
-    "store_count": 205
+    "std_dev": 0.22,
+    "store_count": 196
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 89
+      "count": 86
     },
     {
       "bucket": "$2.69",
-      "count": 58
+      "count": 57
     },
     {
       "bucket": "$2.99",
-      "count": 55
+      "count": 50
     },
     {
       "bucket": "$3.49",
@@ -50,17 +50,17 @@
     {
       "state": "GA",
       "avg_price": 2.75,
-      "store_count": 109
-    },
-    {
-      "state": "TN",
-      "avg_price": 2.61,
-      "store_count": 32
+      "store_count": 101
     },
     {
       "state": "AL",
       "avg_price": 2.61,
       "store_count": 48
+    },
+    {
+      "state": "TN",
+      "avg_price": 2.6,
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -193,11 +193,9 @@
     "003859",
     "016289",
     "029108",
-    "032577",
     "005323",
     "018166",
     "029102",
-    "029086",
     "029085",
     "003779",
     "030252",
@@ -221,7 +219,6 @@
     "019753",
     "029738",
     "002167",
-    "023742",
     "032755",
     "032029",
     "004109",
@@ -313,6 +310,96 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023742",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:08.599846+00:00"
+    },
+    {
+      "store_number": "039933",
+      "store_name": "Taco Bell",
+      "city": "La Grange",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:40.021479+00:00"
+    },
+    {
+      "store_number": "029086",
+      "store_name": "Taco Bell",
+      "city": "Warner Robins",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:27.789332+00:00"
+    },
+    {
+      "store_number": "032577",
+      "store_name": "Taco Bell",
+      "city": "Holly Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:22.984694+00:00"
+    },
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:18.365926+00:00"
+    },
+    {
+      "store_number": "041798",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:16.909527+00:00"
+    },
+    {
+      "store_number": "041256",
+      "store_name": "Taco Bell",
+      "city": "Cumming",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:15.211817+00:00"
+    },
+    {
+      "store_number": "041261",
+      "store_name": "Taco Bell",
+      "city": "Buford",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:11:25.814095+00:00"
+    },
+    {
+      "store_number": "037050",
+      "store_name": "Taco Bell",
+      "city": "Wartburg",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:05:48.653517+00:00"
+    },
     {
       "store_number": "033643",
       "store_name": "Taco Bell",
@@ -9126,7 +9213,7 @@
   ],
   "activity_summary": {
     "added": 543,
-    "removed": 338,
+    "removed": 347,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9523,15 +9610,6 @@
       "GA"
     ],
     [
-      "032577",
-      34.14453924750143,
-      -84.5124462613013,
-      2.49,
-      "Taco Bell",
-      "Holly Springs",
-      "GA"
-    ],
-    [
       "005323",
       33.56937733716951,
       -84.54044566996062,
@@ -9556,15 +9634,6 @@
       2.49,
       "Taco Bell",
       "Columbus",
-      "GA"
-    ],
-    [
-      "029086",
-      32.6281385919758,
-      -83.61350131663616,
-      2.49,
-      "Taco Bell",
-      "Warner Robins",
       "GA"
     ],
     [
@@ -9772,15 +9841,6 @@
       2.49,
       "Taco Bell",
       "Atlanta",
-      "GA"
-    ],
-    [
-      "023742",
-      33.54462982748955,
-      -85.07332757978452,
-      2.49,
-      "Taco Bell",
-      "Carrollton",
       "GA"
     ],
     [
@@ -10306,15 +10366,6 @@
       "AL"
     ],
     [
-      "041798",
-      33.29478815954969,
-      -83.96059935717133,
-      2.69,
-      "Taco Bell",
-      "Jackson",
-      "GA"
-    ],
-    [
       "042821",
       30.590763308910145,
       -88.17006348098568,
@@ -10522,15 +10573,6 @@
       "TN"
     ],
     [
-      "037050",
-      36.10306709232148,
-      -84.58455685815763,
-      2.99,
-      "Taco Bell",
-      "Wartburg",
-      "TN"
-    ],
-    [
       "041963",
       33.0528176,
       -84.1538343,
@@ -10573,15 +10615,6 @@
       2.99,
       "Taco Bell",
       "Lagrange",
-      "GA"
-    ],
-    [
-      "041261",
-      34.103918515573575,
-      -83.97431800962246,
-      2.99,
-      "Taco Bell",
-      "Buford",
       "GA"
     ],
     [
@@ -10648,15 +10681,6 @@
       "GA"
     ],
     [
-      "041256",
-      34.16491976646548,
-      -84.17636456542422,
-      2.99,
-      "Taco Bell",
-      "Cumming",
-      "GA"
-    ],
-    [
       "041248",
       33.71830055882164,
       -84.76882606744766,
@@ -10681,15 +10705,6 @@
       2.99,
       "Taco Bell",
       "Blue Ridge",
-      "GA"
-    ],
-    [
-      "041228",
-      33.70089923153877,
-      -84.16987270116806,
-      2.99,
-      "Taco Bell",
-      "Lithonia",
       "GA"
     ],
     [
@@ -10753,15 +10768,6 @@
       2.99,
       "Taco Bell",
       "Augusta",
-      "GA"
-    ],
-    [
-      "039933",
-      33.04909770811266,
-      -85.028005516687,
-      2.99,
-      "Taco Bell",
-      "La Grange",
       "GA"
     ],
     [
@@ -10982,6 +10988,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 5.9
 }

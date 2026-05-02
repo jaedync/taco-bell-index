@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:07.243504+00:00",
   "availability_pct": 2.2,
   "price_stats": {
-    "avg": 3.82,
+    "avg": 3.83,
     "min": 2.09,
     "max": 4.99,
     "median": 3.89,
     "std_dev": 0.38,
-    "store_count": 170
+    "store_count": 169
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 5
+      "count": 4
     },
     {
       "bucket": "$3.39",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$3.49",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$3.54",
@@ -70,11 +70,11 @@
     },
     {
       "bucket": "$3.69",
-      "count": 19
+      "count": 20
     },
     {
       "bucket": "$3.79",
-      "count": 23
+      "count": 22
     },
     {
       "bucket": "$3.89",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 45
+      "count": 46
     },
     {
       "bucket": "$4.09",
@@ -126,13 +126,13 @@
     },
     {
       "state": "MO",
-      "avg_price": 4.02,
-      "store_count": 7
+      "avg_price": 3.98,
+      "store_count": 8
     },
     {
       "state": "AL",
-      "avg_price": 3.93,
-      "store_count": 9
+      "avg_price": 3.94,
+      "store_count": 10
     },
     {
       "state": "FL",
@@ -168,11 +168,6 @@
       "state": "TX",
       "avg_price": 3.69,
       "store_count": 16
-    },
-    {
-      "state": "OH",
-      "avg_price": 3.69,
-      "store_count": 5
     },
     {
       "state": "TN",
@@ -334,6 +329,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028476",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 3.49,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:22.753862+00:00"
+    },
+    {
+      "store_number": "031909",
+      "store_name": "Taco Bell",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:33.535397+00:00"
+    },
+    {
+      "store_number": "029650",
+      "store_name": "Taco Bell",
+      "city": "Saint Peters",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-05-02T21:21:27.885909+00:00"
+    },
+    {
+      "store_number": "040382",
+      "store_name": "Taco Bell",
+      "city": "Tallassee",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-02T21:20:42.629255+00:00"
+    },
+    {
+      "store_number": "040531",
+      "store_name": "Taco Bell",
+      "city": "Chardon",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:38.031245+00:00"
+    },
     {
       "store_number": "039055",
       "store_name": "Taco Bell",
@@ -3706,8 +3751,8 @@
     }
   ],
   "activity_summary": {
-    "added": 126,
-    "removed": 186,
+    "added": 128,
+    "removed": 189,
     "price_changed": 25,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3834,15 +3879,6 @@
       "MS"
     ],
     [
-      "040531",
-      41.58128313422767,
-      -81.21314902764493,
-      3.29,
-      "Taco Bell",
-      "Chardon",
-      "OH"
-    ],
-    [
       "030681",
       39.60344602191663,
       -87.68728784508916,
@@ -3940,15 +3976,6 @@
       "Taco Bell",
       "Joplin",
       "MO"
-    ],
-    [
-      "028476",
-      39.98886011058618,
-      -83.04159085727096,
-      3.49,
-      "Taco Bell",
-      "Columbus",
-      "OH"
     ],
     [
       "041774",
@@ -4248,6 +4275,15 @@
       "VA"
     ],
     [
+      "029650",
+      38.7916778356872,
+      -90.57457745075226,
+      3.69,
+      "Taco Bell",
+      "Saint Peters",
+      "MO"
+    ],
+    [
       "040418",
       32.6318,
       -85.4985,
@@ -4426,15 +4462,6 @@
       "Taco Bell",
       "Elmira",
       "NY"
-    ],
-    [
-      "031909",
-      36.276065059442224,
-      -115.1453054398462,
-      3.79,
-      "Taco Bell",
-      "North Las Vegas",
-      "NV"
     ],
     [
       "027506",
@@ -5002,6 +5029,15 @@
       "Taco Bell",
       "Smyrna",
       "GA"
+    ],
+    [
+      "040382",
+      32.544172412004265,
+      -85.90615375967491,
+      3.99,
+      "Taco Bell",
+      "Tallassee",
+      "AL"
     ],
     [
       "003991",

@@ -20,7 +20,7 @@
     "max": 6.99,
     "median": 5.89,
     "std_dev": 0.44,
-    "store_count": 487
+    "store_count": 484
   },
   "histogram": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 15
+      "count": 12
     },
     {
       "bucket": "$6.29",
@@ -112,7 +112,7 @@
     {
       "state": "GA",
       "avg_price": 6.04,
-      "store_count": 239
+      "store_count": 236
     },
     {
       "state": "SC",
@@ -298,6 +298,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:20.607083+00:00"
+    },
+    {
+      "store_number": "042944",
+      "store_name": "Taco Bell",
+      "city": "Elberton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:15.380525+00:00"
+    },
+    {
+      "store_number": "042958",
+      "store_name": "Taco Bell",
+      "city": "Toccoa",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:05.216166+00:00"
+    },
     {
       "store_number": "041243",
       "store_name": "Taco Bell",
@@ -8921,7 +8951,7 @@
   ],
   "activity_summary": {
     "added": 533,
-    "removed": 46,
+    "removed": 49,
     "price_changed": 283,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12252,24 +12282,6 @@
       "FL"
     ],
     [
-      "042958",
-      34.57130151774336,
-      -83.30742357913648,
-      6.19,
-      "Taco Bell",
-      "Toccoa",
-      "GA"
-    ],
-    [
-      "042944",
-      34.104451872847974,
-      -82.85250762108262,
-      6.19,
-      "Taco Bell",
-      "Elberton",
-      "GA"
-    ],
-    [
       "042829",
       30.458093509232302,
       -87.29877294124185,
@@ -12304,15 +12316,6 @@
       "Taco Bell",
       "Pensacola",
       "FL"
-    ],
-    [
-      "042945",
-      34.44515828481069,
-      -83.11913877725601,
-      6.19,
-      "Taco Bell",
-      "Lavonia",
-      "GA"
     ],
     [
       "002863",
@@ -13315,6 +13318,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 5.9
 }

@@ -20,7 +20,7 @@
     "max": 15.99,
     "median": 10.79,
     "std_dev": 0.95,
-    "store_count": 7695
+    "store_count": 7696
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$8.89",
@@ -153,7 +153,7 @@
     },
     {
       "bucket": "$10.89",
-      "count": 154
+      "count": 155
     },
     {
       "bucket": "$10.90",
@@ -277,7 +277,7 @@
     },
     {
       "bucket": "$12.69",
-      "count": 45
+      "count": 44
     },
     {
       "bucket": "$12.79",
@@ -324,7 +324,7 @@
     {
       "state": "CT",
       "avg_price": 12.23,
-      "store_count": 49
+      "store_count": 48
     },
     {
       "state": "AK",
@@ -449,7 +449,7 @@
     {
       "state": "OR",
       "avg_price": 10.71,
-      "store_count": 121
+      "store_count": 122
     },
     {
       "state": "VA",
@@ -533,8 +533,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 9.94,
-      "store_count": 258
+      "avg_price": 9.93,
+      "store_count": 259
     },
     {
       "state": "TN",
@@ -728,6 +728,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028880",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.79,
+      "observed_at": "2026-05-02T21:21:06.840332+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 12.69,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:53.329590+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.89,
+      "observed_at": "2026-05-02T21:01:08.867937+00:00"
+    },
     {
       "store_number": "037414",
       "store_name": "Taco Bell",
@@ -18210,8 +18240,8 @@
     }
   ],
   "activity_summary": {
-    "added": 131,
-    "removed": 118,
+    "added": 133,
+    "removed": 119,
     "price_changed": 1499,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21057,6 +21087,15 @@
       "028867",
       39.884251377707585,
       -86.21007777907809,
+      8.79,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
+      "028880",
+      39.781984127668075,
+      -86.04584185173735,
       8.79,
       "Taco Bell",
       "Indianapolis",
@@ -53452,6 +53491,15 @@
       "Taco Bell",
       "St Johns",
       "FL"
+    ],
+    [
+      "041378",
+      44.78154,
+      -117.82173,
+      10.89,
+      "Taco Bell",
+      "Baker City",
+      "OR"
     ],
     [
       "040761",
@@ -86760,15 +86808,6 @@
       12.69,
       "Taco Bell",
       "Windsor Locks",
-      "CT"
-    ],
-    [
-      "029328",
-      41.55402977505185,
-      -72.68083959817892,
-      12.69,
-      "Taco Bell",
-      "Middletown",
       "CT"
     ],
     [

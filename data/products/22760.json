@@ -20,12 +20,12 @@
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 7664
+    "store_count": 7665
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 7664
+      "count": 7665
     }
   ],
   "state_prices": [
@@ -47,7 +47,7 @@
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 136
+      "store_count": 137
     },
     {
       "state": "VA",
@@ -67,7 +67,7 @@
     {
       "state": "TN",
       "avg_price": 0.0,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "SD",
@@ -162,12 +162,12 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 98
+      "store_count": 99
     },
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 348
+      "store_count": 347
     },
     {
       "state": "ME",
@@ -197,17 +197,17 @@
     {
       "state": "KS",
       "avg_price": 0.0,
-      "store_count": 90
+      "store_count": 91
     },
     {
       "state": "IN",
       "avg_price": 0.0,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "IL",
       "avg_price": 0.0,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "ID",
@@ -540,7 +540,6 @@
     "040306",
     "041125",
     "040730",
-    "041468",
     "041736",
     "041267",
     "037042",
@@ -919,6 +918,7 @@
     "042973",
     "033939",
     "033927",
+    "035381",
     "035136",
     "035891",
     "035416",
@@ -1028,6 +1028,7 @@
     "035121",
     "035456",
     "036004",
+    "036305",
     "039856",
     "035227",
     "034757",
@@ -2896,7 +2897,6 @@
     "004958",
     "034177",
     "038936",
-    "036178",
     "002079",
     "031620",
     "040066",
@@ -3510,7 +3510,6 @@
     "032118",
     "032950",
     "041219",
-    "042633",
     "039050",
     "040028",
     "039052",
@@ -5891,6 +5890,7 @@
     "023217",
     "033007",
     "031595",
+    "031340",
     "039791",
     "034340",
     "041573",
@@ -7141,6 +7141,7 @@
     "033043",
     "040402",
     "039731",
+    "002518",
     "003192",
     "027494",
     "026927",
@@ -8105,6 +8106,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002518",
+      "store_name": "Taco Bell",
+      "city": "Manhattan",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-02T21:22:29.946852+00:00"
+    },
+    {
+      "store_number": "031340",
+      "store_name": "Taco Bell",
+      "city": "Redmond",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-02T21:22:01.663207+00:00"
+    },
+    {
+      "store_number": "042633",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:12.257732+00:00"
+    },
+    {
+      "store_number": "036178",
+      "store_name": "Taco Bell",
+      "city": "Melrose Park",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:55.884717+00:00"
+    },
+    {
+      "store_number": "036305",
+      "store_name": "Taco Bell",
+      "city": "Oakdale",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-02T21:02:17.770223+00:00"
+    },
+    {
+      "store_number": "035381",
+      "store_name": "Taco Bell",
+      "city": "Cordova",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-02T21:02:14.020796+00:00"
+    },
+    {
+      "store_number": "041468",
+      "store_name": "Taco Bell",
+      "city": "Buchanan",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:01:11.161998+00:00"
+    },
     {
       "store_number": "031954",
       "store_name": "Taco Bell",
@@ -10487,8 +10558,8 @@
     }
   ],
   "activity_summary": {
-    "added": 114,
-    "removed": 124,
+    "added": 118,
+    "removed": 127,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12053,15 +12124,6 @@
       "Taco Bell",
       "Edgewater",
       "FL"
-    ],
-    [
-      "041468",
-      41.82699652905817,
-      -86.3524387828207,
-      0.0,
-      "Taco Bell",
-      "Buchanan",
-      "MI"
     ],
     [
       "041736",
@@ -15466,6 +15528,15 @@
       "FL"
     ],
     [
+      "035381",
+      35.1582627524025,
+      -89.72807204561748,
+      0.0,
+      "Taco Bell",
+      "Cordova",
+      "TN"
+    ],
+    [
       "035136",
       40.28534224647491,
       -81.56645940922304,
@@ -16445,6 +16516,15 @@
       "Taco Bell",
       "Tulsa",
       "OK"
+    ],
+    [
+      "036305",
+      44.961648,
+      -92.9629501,
+      0.0,
+      "Taco Bell",
+      "Oakdale",
+      "MN"
     ],
     [
       "039856",
@@ -33259,15 +33339,6 @@
       "WA"
     ],
     [
-      "036178",
-      41.90869910461482,
-      -87.84426663817612,
-      0.0,
-      "Taco Bell",
-      "Melrose Park",
-      "IL"
-    ],
-    [
       "002079",
       29.9872385795129,
       -91.82487561369271,
@@ -38783,15 +38854,6 @@
       "Taco Bell",
       "Morrow",
       "GA"
-    ],
-    [
-      "042633",
-      41.027042755310184,
-      -85.1680694595143,
-      0.0,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
     ],
     [
       "039050",
@@ -60214,6 +60276,15 @@
       "KY"
     ],
     [
+      "031340",
+      47.627458123612854,
+      -122.14273050427437,
+      0.0,
+      "Taco Bell",
+      "Redmond",
+      "WA"
+    ],
+    [
       "039791",
       34.29795202039969,
       -118.4379118680954,
@@ -71462,6 +71533,15 @@
       "Taco Bell",
       "Charlottesville",
       "VA"
+    ],
+    [
+      "002518",
+      39.19256372557171,
+      -96.60670072655194,
+      0.0,
+      "Taco Bell",
+      "Manhattan",
+      "KS"
     ],
     [
       "003192",

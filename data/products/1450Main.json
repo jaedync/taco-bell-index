@@ -13,14 +13,14 @@
   "peak_30d_pct": 7.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
-  "availability_pct": 7.9,
+  "availability_pct": 7.8,
   "price_stats": {
     "avg": 1.19,
     "min": 0.69,
     "max": 2.39,
     "median": 1.05,
     "std_dev": 0.38,
-    "store_count": 605
+    "store_count": 603
   },
   "histogram": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 160
+      "count": 161
     },
     {
       "bucket": "$0.89",
@@ -37,7 +37,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 121
+      "count": 120
     },
     {
       "bucket": "$1.00",
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$1.19",
-      "count": 54
+      "count": 53
     },
     {
       "bucket": "$1.20",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$1.29",
-      "count": 65
+      "count": 64
     },
     {
       "bucket": "$1.39",
@@ -69,11 +69,11 @@
     },
     {
       "bucket": "$1.49",
-      "count": 54
+      "count": 53
     },
     {
       "bucket": "$1.59",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$1.69",
@@ -131,7 +131,7 @@
     {
       "state": "CA",
       "avg_price": 1.34,
-      "store_count": 148
+      "store_count": 145
     },
     {
       "state": "MD",
@@ -147,6 +147,11 @@
       "state": "MI",
       "avg_price": 1.31,
       "store_count": 11
+    },
+    {
+      "state": "OH",
+      "avg_price": 1.21,
+      "store_count": 5
     },
     {
       "state": "NY",
@@ -206,7 +211,7 @@
     {
       "state": "MN",
       "avg_price": 0.8,
-      "store_count": 82
+      "store_count": 83
     },
     {
       "state": "WY",
@@ -377,6 +382,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002531",
+      "store_name": "Taco Bell",
+      "city": "Victorville",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:13.707212+00:00"
+    },
+    {
+      "store_number": "030751",
+      "store_name": "Taco Bell",
+      "city": "Scotts Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.49,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:52.102478+00:00"
+    },
+    {
+      "store_number": "027724",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 1.29,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:51.678338+00:00"
+    },
+    {
+      "store_number": "004370",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:06.285515+00:00"
+    },
+    {
+      "store_number": "024764",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-05-02T21:20:40.120393+00:00"
+    },
+    {
+      "store_number": "041408",
+      "store_name": "Taco Bell",
+      "city": "White Bear Lake",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-05-02T21:01:07.078079+00:00"
+    },
     {
       "store_number": "031113",
       "store_name": "Taco Bell",
@@ -1439,8 +1504,8 @@
     }
   ],
   "activity_summary": {
-    "added": 38,
-    "removed": 66,
+    "added": 40,
+    "removed": 70,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2908,6 +2973,15 @@
       "WY"
     ],
     [
+      "041408",
+      45.08081231,
+      -93.05468196,
+      0.79,
+      "Taco Bell",
+      "White Bear Lake",
+      "MN"
+    ],
+    [
       "016462",
       43.78321747367723,
       -88.41234673128267,
@@ -3194,15 +3268,6 @@
       "Taco Bell",
       "Dodge City",
       "KS"
-    ],
-    [
-      "004370",
-      30.189150774079152,
-      -85.76022725986559,
-      0.99,
-      "Taco Bell",
-      "Panama City Beach",
-      "FL"
     ],
     [
       "031332",
@@ -4582,15 +4647,6 @@
       "WI"
     ],
     [
-      "002531",
-      34.50674250807087,
-      -117.32778941096512,
-      1.19,
-      "Taco Bell",
-      "Victorville",
-      "CA"
-    ],
-    [
       "033431",
       45.80830963881274,
       -88.05044174194336,
@@ -5101,15 +5157,6 @@
       1.29,
       "Taco Bell",
       "Lodi",
-      "CA"
-    ],
-    [
-      "027724",
-      39.75533672533532,
-      -121.85949955882279,
-      1.29,
-      "Taco Bell",
-      "Chico",
       "CA"
     ],
     [
@@ -5660,15 +5707,6 @@
       "Taco Bell",
       "Billings",
       "MT"
-    ],
-    [
-      "030751",
-      37.045575267916306,
-      -122.02823464574067,
-      1.49,
-      "Taco Bell",
-      "Scotts Valley",
-      "CA"
     ],
     [
       "030795",
@@ -6272,6 +6310,15 @@
       "Taco Bell",
       "Longview",
       "WA"
+    ],
+    [
+      "024764",
+      41.41912028925022,
+      -81.73638492822647,
+      1.59,
+      "Taco Bell",
+      "Cleveland",
+      "OH"
     ],
     [
       "039651",

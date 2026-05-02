@@ -19,8 +19,8 @@
     "min": 3.19,
     "max": 6.79,
     "median": 5.59,
-    "std_dev": 0.39,
-    "store_count": 495
+    "std_dev": 0.4,
+    "store_count": 492
   },
   "histogram": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "bucket": "$5.89",
-      "count": 31
+      "count": 28
     },
     {
       "bucket": "$5.99",
@@ -104,7 +104,7 @@
     {
       "state": "GA",
       "avg_price": 5.7,
-      "store_count": 242
+      "store_count": 239
     },
     {
       "state": "TN",
@@ -290,6 +290,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042945",
+      "store_name": "Taco Bell",
+      "city": "Lavonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:20.607083+00:00"
+    },
+    {
+      "store_number": "042944",
+      "store_name": "Taco Bell",
+      "city": "Elberton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:15.380525+00:00"
+    },
+    {
+      "store_number": "042958",
+      "store_name": "Taco Bell",
+      "city": "Toccoa",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:05.216166+00:00"
+    },
     {
       "store_number": "041254",
       "store_name": "Taco Bell",
@@ -8343,7 +8373,7 @@
   ],
   "activity_summary": {
     "added": 507,
-    "removed": 12,
+    "removed": 15,
     "price_changed": 286,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11764,24 +11794,6 @@
       "TN"
     ],
     [
-      "042958",
-      34.57130151774336,
-      -83.30742357913648,
-      5.89,
-      "Taco Bell",
-      "Toccoa",
-      "GA"
-    ],
-    [
-      "042944",
-      34.104451872847974,
-      -82.85250762108262,
-      5.89,
-      "Taco Bell",
-      "Elberton",
-      "GA"
-    ],
-    [
       "042829",
       30.458093509232302,
       -87.29877294124185,
@@ -11896,15 +11908,6 @@
       5.89,
       "Taco Bell",
       "Conyers",
-      "GA"
-    ],
-    [
-      "042945",
-      34.44515828481069,
-      -83.11913877725601,
-      5.89,
-      "Taco Bell",
-      "Lavonia",
       "GA"
     ],
     [
@@ -12809,6 +12812,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 6.0
 }

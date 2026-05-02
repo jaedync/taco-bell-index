@@ -21,7 +21,7 @@
     "max": 13.99,
     "median": 8.19,
     "std_dev": 0.57,
-    "store_count": 6454
+    "store_count": 6456
   },
   "histogram": [
     {
@@ -70,11 +70,11 @@
     },
     {
       "bucket": "$7.89",
-      "count": 65
+      "count": 66
     },
     {
       "bucket": "$7.99",
-      "count": 2328
+      "count": 2329
     },
     {
       "bucket": "$8.00",
@@ -110,7 +110,7 @@
     },
     {
       "bucket": "$8.49",
-      "count": 364
+      "count": 365
     },
     {
       "bucket": "$8.59",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 618
+      "count": 617
     },
     {
       "bucket": "$8.80",
@@ -293,7 +293,7 @@
     {
       "state": "MD",
       "avg_price": 8.79,
-      "store_count": 88
+      "store_count": 87
     },
     {
       "state": "IA",
@@ -313,7 +313,7 @@
     {
       "state": "CA",
       "avg_price": 8.65,
-      "store_count": 823
+      "store_count": 825
     },
     {
       "state": "NJ",
@@ -337,8 +337,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 8.49,
-      "store_count": 121
+      "avg_price": 8.48,
+      "store_count": 122
     },
     {
       "state": "NM",
@@ -376,14 +376,14 @@
       "store_count": 14
     },
     {
-      "state": "IN",
+      "state": "KY",
       "avg_price": 8.31,
-      "store_count": 228
+      "store_count": 151
     },
     {
-      "state": "KY",
+      "state": "IN",
       "avg_price": 8.3,
-      "store_count": 152
+      "store_count": 229
     },
     {
       "state": "NV",
@@ -665,6 +665,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039049",
+      "store_name": "Taco Bell",
+      "city": "Largo",
+      "state": "MD",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:37.220578+00:00"
+    },
+    {
+      "store_number": "034200",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-02T21:22:02.277736+00:00"
+    },
+    {
+      "store_number": "024111",
+      "store_name": "Taco Bell",
+      "city": "Sacramento",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.49,
+      "observed_at": "2026-05-02T21:21:19.650470+00:00"
+    },
+    {
+      "store_number": "028880",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.89,
+      "observed_at": "2026-05-02T21:21:06.840332+00:00"
+    },
+    {
+      "store_number": "035007",
+      "store_name": "Taco Bell",
+      "city": "Scottsville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:31.967743+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-02T21:01:08.867937+00:00"
+    },
     {
       "store_number": "030951",
       "store_name": "Taco Bell",
@@ -21847,8 +21907,8 @@
     }
   ],
   "activity_summary": {
-    "added": 165,
-    "removed": 1291,
+    "added": 169,
+    "removed": 1293,
     "price_changed": 662,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25872,6 +25932,15 @@
       "WI"
     ],
     [
+      "028880",
+      39.781984127668075,
+      -86.04584185173735,
+      7.89,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "031966",
       42.99420710252962,
       -89.51953856041655,
@@ -26707,6 +26776,15 @@
       "Taco Bell",
       "Jay",
       "OK"
+    ],
+    [
+      "041378",
+      44.78154,
+      -117.82173,
+      7.99,
+      "Taco Bell",
+      "Baker City",
+      "OR"
     ],
     [
       "038748",
@@ -30640,15 +30718,6 @@
       "Taco Bell",
       "Franklin",
       "TN"
-    ],
-    [
-      "035007",
-      36.73741206313465,
-      -86.21216040032846,
-      7.99,
-      "Taco Bell",
-      "Scottsville",
-      "KY"
     ],
     [
       "029165",
@@ -47193,6 +47262,15 @@
       "MA"
     ],
     [
+      "034200",
+      39.72753076302128,
+      -121.80665065349785,
+      7.99,
+      "Taco Bell",
+      "Chico",
+      "CA"
+    ],
+    [
       "029250",
       41.74231508100437,
       -72.71143823862076,
@@ -55453,6 +55531,15 @@
       "Taco Bell",
       "Saint Louis",
       "MO"
+    ],
+    [
+      "024111",
+      38.663428271433425,
+      -121.34329408407211,
+      8.49,
+      "Taco Bell",
+      "Sacramento",
+      "CA"
     ],
     [
       "027641",
@@ -69114,15 +69201,6 @@
       8.79,
       "Taco Bell",
       "Pocomoke City",
-      "MD"
-    ],
-    [
-      "039049",
-      38.90285010265593,
-      -76.83481691172346,
-      8.79,
-      "Taco Bell",
-      "Largo",
       "MD"
     ],
     [

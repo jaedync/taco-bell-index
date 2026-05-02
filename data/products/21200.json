@@ -20,7 +20,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.1,
-    "store_count": 7665
+    "store_count": 7666
   },
   "histogram": [
     {
@@ -169,7 +169,7 @@
     },
     {
       "bucket": "$27.99",
-      "count": 292
+      "count": 293
     },
     {
       "bucket": "$28.29",
@@ -221,7 +221,7 @@
     },
     {
       "bucket": "$31.49",
-      "count": 206
+      "count": 207
     },
     {
       "bucket": "$31.99",
@@ -297,7 +297,7 @@
     },
     {
       "bucket": "$34.99",
-      "count": 409
+      "count": 408
     },
     {
       "bucket": "$35.00",
@@ -420,8 +420,8 @@
     },
     {
       "state": "CT",
-      "avg_price": 32.99,
-      "store_count": 49
+      "avg_price": 32.95,
+      "store_count": 48
     },
     {
       "state": "NV",
@@ -505,13 +505,13 @@
     },
     {
       "state": "OR",
-      "avg_price": 30.13,
-      "store_count": 120
+      "avg_price": 30.11,
+      "store_count": 121
     },
     {
       "state": "MI",
-      "avg_price": 30.06,
-      "store_count": 347
+      "avg_price": 30.07,
+      "store_count": 348
     },
     {
       "state": "MN",
@@ -777,6 +777,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034786",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 25.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:25.064341+00:00"
+    },
+    {
+      "store_number": "028880",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 25.99,
+      "observed_at": "2026-05-02T21:21:06.840332+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 34.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:53.329590+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 31.49,
+      "observed_at": "2026-05-02T21:05:48.617800+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 27.99,
+      "observed_at": "2026-05-02T21:01:08.867937+00:00"
+    },
     {
       "store_number": "035742",
       "store_name": "Taco Bell",
@@ -3319,8 +3369,8 @@
     }
   ],
   "activity_summary": {
-    "added": 83,
-    "removed": 71,
+    "added": 86,
+    "removed": 73,
     "price_changed": 100,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9328,6 +9378,15 @@
       "IN"
     ],
     [
+      "028880",
+      39.781984127668075,
+      -86.04584185173735,
+      25.99,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "004977",
       39.82258016088906,
       -86.28159690877938,
@@ -9533,15 +9592,6 @@
       "Taco Bell",
       "Haltom City",
       "TX"
-    ],
-    [
-      "034786",
-      37.97724933062687,
-      -87.6292207436168,
-      25.99,
-      "Taco Bell",
-      "Evansville",
-      "IN"
     ],
     [
       "028909",
@@ -17336,6 +17386,15 @@
       "Taco Bell",
       "Sandersville",
       "GA"
+    ],
+    [
+      "041378",
+      44.78154,
+      -117.82173,
+      27.99,
+      "Taco Bell",
+      "Baker City",
+      "OR"
     ],
     [
       "041372",
@@ -44158,6 +44217,15 @@
       "IA"
     ],
     [
+      "037166",
+      41.9426279,
+      -84.648124,
+      31.49,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
+    ],
+    [
       "036775",
       41.19053404365198,
       -87.19894810025625,
@@ -66656,15 +66724,6 @@
       "Taco Bell",
       "Orange",
       "CA"
-    ],
-    [
-      "029328",
-      41.55402977505185,
-      -72.68083959817892,
-      34.99,
-      "Taco Bell",
-      "Middletown",
-      "CT"
     ],
     [
       "028706",

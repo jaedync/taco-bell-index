@@ -83,14 +83,14 @@
       "store_count": 79
     },
     {
-      "state": "GA",
-      "avg_price": 12.81,
-      "store_count": 211
-    },
-    {
       "state": "AL",
       "avg_price": 12.81,
-      "store_count": 105
+      "store_count": 104
+    },
+    {
+      "state": "GA",
+      "avg_price": 12.81,
+      "store_count": 212
     }
   ],
   "nutrition": {
@@ -208,6 +208,7 @@
     "041088",
     "041868",
     "042575",
+    "041260",
     "034073",
     "034827",
     "034784",
@@ -327,7 +328,6 @@
     "029717",
     "004142",
     "029066",
-    "029110",
     "040113",
     "040114",
     "040162",
@@ -613,6 +613,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029110",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:41.137043+00:00"
+    },
+    {
+      "store_number": "041260",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.5,
+      "observed_at": "2026-05-02T21:01:42.697512+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -5595,8 +5615,8 @@
     }
   ],
   "activity_summary": {
-    "added": 462,
-    "removed": 36,
+    "added": 463,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5880,6 +5900,15 @@
       12.5,
       "Taco Bell",
       "Cartersville",
+      "GA"
+    ],
+    [
+      "041260",
+      33.9951,
+      -83.3367,
+      12.5,
+      "Taco Bell",
+      "Athens",
       "GA"
     ],
     [
@@ -6952,15 +6981,6 @@
       "Taco Bell",
       "Soddy Daisy",
       "TN"
-    ],
-    [
-      "029110",
-      33.59457015755221,
-      -86.69442415237432,
-      12.5,
-      "Taco Bell",
-      "Birmingham",
-      "AL"
     ],
     [
       "040113",
@@ -9466,6 +9486,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 5.3
 }

@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 49
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 49
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 49
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -141,7 +141,6 @@
     "040656",
     "033310",
     "021299",
-    "024745",
     "030700",
     "000848",
     "004161",
@@ -160,7 +159,6 @@
     "033316",
     "004298",
     "033301",
-    "023045",
     "040006",
     "024658",
     "039687",
@@ -246,6 +244,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023045",
+      "store_name": "Taco Bell",
+      "city": "Port Huron",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:39.784759+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:33.033311+00:00"
+    },
     {
       "store_number": "024653",
       "store_name": "Taco Bell",
@@ -2059,7 +2077,7 @@
   ],
   "activity_summary": {
     "added": 115,
-    "removed": 66,
+    "removed": 68,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2268,15 +2286,6 @@
       "MI"
     ],
     [
-      "024745",
-      42.21337151111523,
-      -83.5428901715295,
-      9.0,
-      "Taco Bell",
-      "Belleville",
-      "MI"
-    ],
-    [
       "030700",
       42.64717297287085,
       -83.17160936441803,
@@ -2439,15 +2448,6 @@
       "MI"
     ],
     [
-      "023045",
-      42.97589743492643,
-      -82.45334157434944,
-      9.0,
-      "Taco Bell",
-      "Port Huron",
-      "MI"
-    ],
-    [
       "040006",
       42.740257156814764,
       -83.37902734534232,
@@ -2548,6 +2548,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 0.6
 }

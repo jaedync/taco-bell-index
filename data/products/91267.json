@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 489
+    "store_count": 488
   },
   "histogram": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 51
+      "count": 50
     },
     {
       "bucket": "$3.99",
@@ -57,7 +57,7 @@
     {
       "state": "GA",
       "avg_price": 3.3,
-      "store_count": 238
+      "store_count": 237
     },
     {
       "state": "SC",
@@ -280,6 +280,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:14.983804+00:00"
+    },
     {
       "store_number": "041837",
       "store_name": "Taco Bell",
@@ -8593,7 +8603,7 @@
   ],
   "activity_summary": {
     "added": 507,
-    "removed": 18,
+    "removed": 19,
     "price_changed": 306,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12639,15 +12649,6 @@
       "GA"
     ],
     [
-      "041259",
-      34.57876717849458,
-      -83.76470231775006,
-      3.59,
-      "Taco Bell",
-      "Cleveland",
-      "GA"
-    ],
-    [
       "041256",
       34.16491976646548,
       -84.17636456542422,
@@ -13018,6 +13019,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 5.9
 }

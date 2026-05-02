@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 98
+    "store_count": 99
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 98
+      "count": 99
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 98
+      "store_count": 99
     }
   ],
   "nutrition": {
@@ -144,6 +144,7 @@
     "030367",
     "029978",
     "037842",
+    "023745",
     "002260",
     "027886",
     "001571",
@@ -164,6 +165,7 @@
     "033299",
     "003990",
     "028167",
+    "001795",
     "003783",
     "016415",
     "002937",
@@ -212,7 +214,6 @@
     "039686",
     "033309",
     "040007",
-    "032514",
     "001661",
     "003294",
     "029334",
@@ -280,21 +281,51 @@
       "price": 9.0
     },
     {
-      "store_number": "032514",
-      "name": "Taco Bell",
-      "city": "Fowlerville",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
       "store_number": "040007",
       "name": "Taco Bell",
       "city": "Lake Orion",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "033309",
+      "name": "Taco Bell",
+      "city": "Clarkston",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:40.365976+00:00"
+    },
+    {
+      "store_number": "001795",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-02T21:20:32.515512+00:00"
+    },
+    {
+      "store_number": "023745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-02T21:20:29.834543+00:00"
+    },
     {
       "store_number": "040657",
       "store_name": "Taco Bell",
@@ -4177,8 +4208,8 @@
     }
   ],
   "activity_summary": {
-    "added": 243,
-    "removed": 145,
+    "added": 245,
+    "removed": 146,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4414,6 +4445,15 @@
       "MI"
     ],
     [
+      "023745",
+      42.224730175482414,
+      -83.4856314762491,
+      9.0,
+      "Taco Bell",
+      "Belleville",
+      "MI"
+    ],
+    [
       "002260",
       42.46009074071353,
       -83.14707800745964,
@@ -4591,6 +4631,15 @@
       9.0,
       "Taco Bell",
       "Macomb",
+      "MI"
+    ],
+    [
+      "001795",
+      42.30977693893683,
+      -83.34892281415368,
+      9.0,
+      "Taco Bell",
+      "Westland",
       "MI"
     ],
     [
@@ -5026,15 +5075,6 @@
       "MI"
     ],
     [
-      "032514",
-      42.6514917,
-      -84.0732928,
-      9.0,
-      "Taco Bell",
-      "Fowlerville",
-      "MI"
-    ],
-    [
       "001661",
       42.35000651139183,
       -83.27328178973356,
@@ -5108,6 +5148,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 1.2
 }

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
   "availability_pct": 6.3,
   "price_stats": {
-    "avg": 9.2,
+    "avg": 9.19,
     "min": 0.0,
     "max": 12.99,
     "median": 9.0,
-    "std_dev": 0.74,
-    "store_count": 489
+    "std_dev": 0.73,
+    "store_count": 488
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$11.29",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$11.99",
@@ -66,8 +66,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.32,
-      "store_count": 236
+      "avg_price": 9.31,
+      "store_count": 235
     },
     {
       "state": "AL",
@@ -242,6 +242,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041228",
+      "store_name": "Taco Bell",
+      "city": "Lithonia",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 11.29,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:18.365926+00:00"
+    },
     {
       "store_number": "002995",
       "store_name": "Taco Bell",
@@ -15325,7 +15335,7 @@
   ],
   "activity_summary": {
     "added": 996,
-    "removed": 507,
+    "removed": 508,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19614,15 +19624,6 @@
       "GA"
     ],
     [
-      "041228",
-      33.70089923153877,
-      -84.16987270116806,
-      11.29,
-      "Taco Bell",
-      "Lithonia",
-      "GA"
-    ],
-    [
       "041209",
       33.79624014524105,
       -84.2242420061801,
@@ -19768,6 +19769,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 6.0
 }

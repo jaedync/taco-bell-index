@@ -20,7 +20,7 @@
     "max": 1.79,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7619
+    "store_count": 7620
   },
   "histogram": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "bucket": "$0.55",
-      "count": 279
+      "count": 280
     },
     {
       "bucket": "$0.59",
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 795
+      "count": 794
     },
     {
       "bucket": "$0.72",
@@ -145,7 +145,7 @@
     },
     {
       "bucket": "$0.99",
-      "count": 262
+      "count": 263
     },
     {
       "bucket": "$1.00",
@@ -211,7 +211,7 @@
     {
       "state": "MI",
       "avg_price": 0.67,
-      "store_count": 345
+      "store_count": 346
     },
     {
       "state": "MT",
@@ -251,7 +251,7 @@
     {
       "state": "OH",
       "avg_price": 0.64,
-      "store_count": 403
+      "store_count": 404
     },
     {
       "state": "GA",
@@ -319,14 +319,14 @@
       "store_count": 116
     },
     {
-      "state": "TN",
-      "avg_price": 0.58,
-      "store_count": 252
-    },
-    {
       "state": "PA",
       "avg_price": 0.58,
       "store_count": 198
+    },
+    {
+      "state": "TN",
+      "avg_price": 0.58,
+      "store_count": 251
     },
     {
       "state": "MO",
@@ -573,6 +573,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "038884",
+      "store_name": "Taco Bell",
+      "city": "London",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.55,
+      "observed_at": "2026-05-02T21:22:32.913159+00:00"
+    },
+    {
+      "store_number": "029025",
+      "store_name": "Taco Bell",
+      "city": "Bristol",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:22:31.690727+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-05-02T21:05:48.617800+00:00"
+    },
     {
       "store_number": "002595",
       "store_name": "Taco Bell",
@@ -1505,8 +1535,8 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
-    "removed": 42,
+    "added": 51,
+    "removed": 43,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30532,6 +30562,15 @@
       "KY"
     ],
     [
+      "038884",
+      39.88423441369728,
+      -83.4508419782469,
+      0.55,
+      "Taco Bell",
+      "London",
+      "OH"
+    ],
+    [
       "042124",
       30.522978445511598,
       -86.49525940418243,
@@ -53797,15 +53836,6 @@
       "TN"
     ],
     [
-      "029025",
-      36.57198389304784,
-      -82.19318389892584,
-      0.7,
-      "Taco Bell",
-      "Bristol",
-      "TN"
-    ],
-    [
       "036294",
       34.14284292395508,
       -118.24111344687002,
@@ -67682,6 +67712,15 @@
       "Taco Bell",
       "Farmington",
       "CT"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      0.99,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "036775",

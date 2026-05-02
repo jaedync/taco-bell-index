@@ -20,7 +20,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.91,
-    "store_count": 7590
+    "store_count": 7591
   },
   "histogram": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "bucket": "$18.59",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$18.79",
@@ -165,7 +165,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1425
+      "count": 1426
     },
     {
       "bucket": "$22.29",
@@ -213,7 +213,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 746
+      "count": 748
     },
     {
       "bucket": "$23.50",
@@ -257,7 +257,7 @@
     },
     {
       "bucket": "$24.49",
-      "count": 90
+      "count": 89
     },
     {
       "bucket": "$24.99",
@@ -378,7 +378,7 @@
     {
       "state": "CT",
       "avg_price": 24.42,
-      "store_count": 49
+      "store_count": 48
     },
     {
       "state": "DC",
@@ -438,7 +438,7 @@
     {
       "state": "OR",
       "avg_price": 23.07,
-      "store_count": 119
+      "store_count": 120
     },
     {
       "state": "RI",
@@ -493,7 +493,7 @@
     {
       "state": "MI",
       "avg_price": 22.22,
-      "store_count": 345
+      "store_count": 346
     },
     {
       "state": "WI",
@@ -513,7 +513,7 @@
     {
       "state": "OK",
       "avg_price": 21.89,
-      "store_count": 126
+      "store_count": 127
     },
     {
       "state": "AR",
@@ -592,8 +592,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 20.54,
-      "store_count": 258
+      "avg_price": 20.55,
+      "store_count": 257
     },
     {
       "state": "WY",
@@ -765,6 +765,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034786",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 18.59,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:25.064341+00:00"
+    },
+    {
+      "store_number": "030390",
+      "store_name": "Taco Bell",
+      "city": "Shawnee",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 21.99,
+      "observed_at": "2026-05-02T21:21:22.816839+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 24.49,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:20:53.329590+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-05-02T21:05:48.617800+00:00"
+    },
+    {
+      "store_number": "041378",
+      "store_name": "Taco Bell",
+      "city": "Baker City",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 23.49,
+      "observed_at": "2026-05-02T21:01:08.867937+00:00"
+    },
     {
       "store_number": "035742",
       "store_name": "Taco Bell",
@@ -2647,8 +2697,8 @@
     }
   ],
   "activity_summary": {
-    "added": 80,
-    "removed": 55,
+    "added": 83,
+    "removed": 57,
     "price_changed": 53,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4195,15 +4245,6 @@
       "028864",
       38.02002692366876,
       -87.57374882698059,
-      18.59,
-      "Taco Bell",
-      "Evansville",
-      "IN"
-    ],
-    [
-      "034786",
-      37.97724933062687,
-      -87.6292207436168,
       18.59,
       "Taco Bell",
       "Evansville",
@@ -34369,6 +34410,15 @@
       "MO"
     ],
     [
+      "030390",
+      35.38117111812413,
+      -96.92929118871689,
+      21.99,
+      "Taco Bell",
+      "Shawnee",
+      "OK"
+    ],
+    [
       "034859",
       28.59831098412045,
       -81.20885426661394,
@@ -53341,6 +53391,15 @@
       "MD"
     ],
     [
+      "037166",
+      41.9426279,
+      -84.648124,
+      23.49,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
+    ],
+    [
       "037014",
       39.15837927183151,
       -122.14118016343343,
@@ -59279,6 +59338,15 @@
       "Taco Bell",
       "Longview",
       "WA"
+    ],
+    [
+      "041378",
+      44.78154,
+      -117.82173,
+      23.49,
+      "Taco Bell",
+      "Baker City",
+      "OR"
     ],
     [
       "038753",
@@ -66064,15 +66132,6 @@
       24.49,
       "Taco Bell",
       "Windsor Locks",
-      "CT"
-    ],
-    [
-      "029328",
-      41.55402977505185,
-      -72.68083959817892,
-      24.49,
-      "Taco Bell",
-      "Middletown",
       "CT"
     ],
     [

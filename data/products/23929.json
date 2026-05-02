@@ -21,19 +21,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 47
+    "store_count": 49
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 47
+      "count": 49
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 47
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -143,6 +143,7 @@
     "005095",
     "020212",
     "002837",
+    "001795",
     "016415",
     "002937",
     "004986",
@@ -157,6 +158,7 @@
     "001896",
     "030253",
     "019191",
+    "003584",
     "024444",
     "027361",
     "024650",
@@ -244,6 +246,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003584",
+      "store_name": "Taco Bell",
+      "city": "Wayne",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-02T21:20:35.299548+00:00"
+    },
+    {
+      "store_number": "001795",
+      "store_name": "Taco Bell",
+      "city": "Westland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-02T21:20:32.515512+00:00"
+    },
     {
       "store_number": "032514",
       "store_name": "Taco Bell",
@@ -1256,7 +1278,7 @@
     }
   ],
   "activity_summary": {
-    "added": 74,
+    "added": 76,
     "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1447,6 +1469,15 @@
       "MI"
     ],
     [
+      "001795",
+      42.30977693893683,
+      -83.34892281415368,
+      4.99,
+      "Taco Bell",
+      "Westland",
+      "MI"
+    ],
+    [
       "016415",
       42.45039385307994,
       -83.20009849504913,
@@ -1570,6 +1601,15 @@
       4.99,
       "Taco Bell",
       "Marysville",
+      "MI"
+    ],
+    [
+      "003584",
+      42.283657013486945,
+      -83.36389831734891,
+      4.99,
+      "Taco Bell",
+      "Wayne",
       "MI"
     ],
     [

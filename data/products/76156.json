@@ -14,14 +14,14 @@
   "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:49.567170+00:00",
-  "availability_pct": 0.3,
+  "availability_pct": 0.4,
   "price_stats": {
     "avg": 3.5,
     "min": 3.19,
     "max": 3.79,
     "median": 3.49,
     "std_dev": 0.24,
-    "store_count": 26
+    "store_count": 27
   },
   "histogram": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 3
+      "count": 4
     },
     {
       "bucket": "$3.69",
@@ -226,6 +226,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023838",
+      "store_name": "Taco Bell",
+      "city": "Albuquerque",
+      "state": "NM",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-02T21:21:09.204762+00:00"
+    },
     {
       "store_number": "029412",
       "store_name": "Taco Bell",
@@ -668,7 +678,7 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
+    "added": 36,
     "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -827,6 +837,15 @@
       "NM"
     ],
     [
+      "023838",
+      35.192716085819484,
+      -106.72643780708313,
+      3.59,
+      "Taco Bell",
+      "Albuquerque",
+      "NM"
+    ],
+    [
       "004173",
       35.024659261301075,
       -106.68138560141642,
@@ -927,6 +946,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 0.3
 }

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.4,
   "price_stats": {
-    "avg": 8.64,
+    "avg": 8.63,
     "min": 7.69,
     "max": 10.49,
     "median": 8.59,
-    "std_dev": 0.49,
-    "store_count": 492
+    "std_dev": 0.5,
+    "store_count": 490
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$8.59",
-      "count": 88
+      "count": 87
     },
     {
       "bucket": "$8.69",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 43
+      "count": 42
     },
     {
       "bucket": "$9.59",
@@ -93,7 +93,7 @@
     {
       "state": "GA",
       "avg_price": 8.8,
-      "store_count": 241
+      "store_count": 240
     },
     {
       "state": "AL",
@@ -108,7 +108,7 @@
     {
       "state": "TN",
       "avg_price": 8.49,
-      "store_count": 86
+      "store_count": 85
     },
     {
       "state": "FL",
@@ -279,6 +279,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 8.59,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:52.190399+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:14.983804+00:00"
+    },
     {
       "store_number": "035461",
       "store_name": "Taco Bell",
@@ -8122,7 +8142,7 @@
   ],
   "activity_summary": {
     "added": 506,
-    "removed": 14,
+    "removed": 16,
     "price_changed": 264,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10656,15 +10676,6 @@
       "TN"
     ],
     [
-      "030359",
-      35.71724098570292,
-      -84.01247182491716,
-      8.59,
-      "Taco Bell",
-      "Maryville",
-      "TN"
-    ],
-    [
       "002649",
       32.787389264873106,
       -79.95377679524928,
@@ -12042,15 +12053,6 @@
       "GA"
     ],
     [
-      "041259",
-      34.57876717849458,
-      -83.76470231775006,
-      8.99,
-      "Taco Bell",
-      "Cleveland",
-      "GA"
-    ],
-    [
       "041256",
       34.16491976646548,
       -84.17636456542422,
@@ -12574,6 +12576,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-01",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 6.0
 }

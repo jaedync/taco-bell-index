@@ -21,12 +21,12 @@
     "max": 3.79,
     "median": 2.99,
     "std_dev": 0.1,
-    "store_count": 102
+    "store_count": 101
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 99
+      "count": 98
     },
     {
       "bucket": "$3.39",
@@ -45,7 +45,7 @@
     {
       "state": "FL",
       "avg_price": 3.0,
-      "store_count": 101
+      "store_count": 100
     }
   ],
   "nutrition": {
@@ -187,7 +187,6 @@
     "028007",
     "022590",
     "027971",
-    "039584",
     "042932",
     "022595",
     "042933",
@@ -308,6 +307,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039584",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:33.084567+00:00"
+    },
     {
       "store_number": "039585",
       "store_name": "Taco Bell",
@@ -1381,7 +1390,7 @@
   ],
   "activity_summary": {
     "added": 103,
-    "removed": 4,
+    "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1856,15 +1865,6 @@
       2.99,
       "Taco Bell",
       "Cocoa Beach",
-      "FL"
-    ],
-    [
-      "039584",
-      28.248935698712764,
-      -81.31078787153456,
-      2.99,
-      "Taco Bell",
-      "Saint Cloud",
       "FL"
     ],
     [

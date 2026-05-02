@@ -21,10 +21,15 @@
     "min": 5.99,
     "max": 5.99,
     "median": 5.99,
-    "std_dev": null,
+    "std_dev": 0.0,
     "store_count": 1
   },
-  "histogram": [],
+  "histogram": [
+    {
+      "bucket": "$5.99",
+      "count": 1
+    }
+  ],
   "state_prices": [],
   "nutrition": {
     "calories": 64.6517,
@@ -40,10 +45,38 @@
     "protein_g": 0.4394,
     "serving_size_g": 28.3497
   },
-  "cheapest_stores": [],
-  "min_price_store_numbers": [],
-  "priciest_stores": [],
+  "cheapest_stores": [
+    {
+      "store_number": "003294",
+      "name": "Taco Bell",
+      "city": "Dearborn",
+      "state": "MI",
+      "price": 5.99
+    }
+  ],
+  "min_price_store_numbers": [
+    "003294"
+  ],
+  "priciest_stores": [
+    {
+      "store_number": "003294",
+      "name": "Taco Bell",
+      "city": "Dearborn",
+      "state": "MI",
+      "price": 5.99
+    }
+  ],
   "price_changes": [
+    {
+      "store_number": "003294",
+      "store_name": "Taco Bell",
+      "city": "Dearborn",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-02T21:20:40.669761+00:00"
+    },
     {
       "store_number": "001661",
       "store_name": "Taco Bell",
@@ -66,17 +99,27 @@
     }
   ],
   "activity_summary": {
-    "added": 1,
+    "added": 2,
     "removed": 1,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": null,
+  "calories_from_menu": 680,
   "calories_min": 680,
   "calories_max": 680,
   "combo_groups": [],
-  "map_data": [],
+  "map_data": [
+    [
+      "003294",
+      42.34483992057749,
+      -83.15676929975423,
+      5.99,
+      "Taco Bell",
+      "Dearborn",
+      "MI"
+    ]
+  ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-04-08",
+  "last_seen_date": "2026-05-02",
   "peak_availability_pct": 0.0
 }

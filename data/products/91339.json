@@ -21,7 +21,7 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.19,
-    "store_count": 24
+    "store_count": 25
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 20
+      "count": 21
     }
   ],
   "state_prices": [
@@ -41,8 +41,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 5.41,
-      "store_count": 6
+      "avg_price": 5.42,
+      "store_count": 7
     }
   ],
   "nutrition": {
@@ -139,6 +139,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "029110",
+      "name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "price": 5.49
+    },
+    {
       "store_number": "026837",
       "name": "Taco Bell",
       "city": "Alcoa",
@@ -200,16 +207,19 @@
       "city": "Griffin",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "037155",
-      "name": "Taco Bell",
-      "city": "Cullman",
-      "state": "AL",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029110",
+      "store_name": "Taco Bell",
+      "city": "Birmingham",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-02T21:20:41.137043+00:00"
+    },
     {
       "store_number": "036011",
       "store_name": "Taco Bell",
@@ -932,7 +942,7 @@
     }
   ],
   "activity_summary": {
-    "added": 35,
+    "added": 36,
     "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1157,6 +1167,15 @@
       "Taco Bell",
       "Alcoa",
       "TN"
+    ],
+    [
+      "029110",
+      33.59457015755221,
+      -86.69442415237432,
+      5.49,
+      "Taco Bell",
+      "Birmingham",
+      "AL"
     ]
   ],
   "retired_at": null,

@@ -21,7 +21,7 @@
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7198
+    "store_count": 7197
   },
   "histogram": [
     {
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 384
+      "count": 383
     },
     {
       "bucket": "$5.49",
@@ -138,11 +138,11 @@
     },
     {
       "bucket": "$5.89",
-      "count": 339
+      "count": 340
     },
     {
       "bucket": "$5.99",
-      "count": 1745
+      "count": 1746
     },
     {
       "bucket": "$6.00",
@@ -210,11 +210,11 @@
     },
     {
       "bucket": "$6.89",
-      "count": 51
+      "count": 50
     },
     {
       "bucket": "$6.99",
-      "count": 64
+      "count": 63
     },
     {
       "bucket": "$7.19",
@@ -263,7 +263,7 @@
     {
       "state": "IL",
       "avg_price": 6.36,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "DC",
@@ -408,7 +408,7 @@
     {
       "state": "OH",
       "avg_price": 5.76,
-      "store_count": 409
+      "store_count": 410
     },
     {
       "state": "MO",
@@ -433,7 +433,7 @@
     {
       "state": "IN",
       "avg_price": 5.66,
-      "store_count": 260
+      "store_count": 259
     },
     {
       "state": "WV",
@@ -443,12 +443,12 @@
     {
       "state": "FL",
       "avg_price": 5.55,
-      "store_count": 420
+      "store_count": 421
     },
     {
       "state": "TX",
       "avg_price": 5.52,
-      "store_count": 700
+      "store_count": 699
     },
     {
       "state": "SC",
@@ -650,6 +650,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030401",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 6.89,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:29.810650+00:00"
+    },
+    {
+      "store_number": "030156",
+      "store_name": "Taco Bell",
+      "city": "San Marcos",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.39,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:21:29.385133+00:00"
+    },
+    {
+      "store_number": "021478",
+      "store_name": "Taco Bell",
+      "city": "Sandusky",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.89,
+      "observed_at": "2026-05-02T21:20:29.537677+00:00"
+    },
+    {
+      "store_number": "036452",
+      "store_name": "Taco Bell",
+      "city": "Hammond",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-02T21:11:25.231598+00:00"
+    },
+    {
+      "store_number": "035462",
+      "store_name": "Taco Bell Cantina",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-02T21:05:53.697416+00:00"
+    },
     {
       "store_number": "022741",
       "store_name": "Taco Bell",
@@ -17182,8 +17232,8 @@
     }
   ],
   "activity_summary": {
-    "added": 86,
-    "removed": 569,
+    "added": 88,
+    "removed": 572,
     "price_changed": 998,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31222,15 +31272,6 @@
       "Taco Bell",
       "Rogersville",
       "TN"
-    ],
-    [
-      "030156",
-      29.82632037675009,
-      -97.98610381320032,
-      5.39,
-      "Taco Bell",
-      "San Marcos",
-      "TX"
     ],
     [
       "031783",
@@ -48171,6 +48212,15 @@
       "TX"
     ],
     [
+      "021478",
+      41.40384923491452,
+      -82.66042605042458,
+      5.89,
+      "Taco Bell",
+      "Sandusky",
+      "OH"
+    ],
+    [
       "035696",
       29.828256351886722,
       -95.37958181929753,
@@ -52786,6 +52836,15 @@
       "Taco Bell Cantina",
       "Danville",
       "CA"
+    ],
+    [
+      "035462",
+      28.541891996394657,
+      -81.37876977112303,
+      5.99,
+      "Taco Bell Cantina",
+      "Orlando",
+      "FL"
     ],
     [
       "042769",
@@ -80229,15 +80288,6 @@
       "IL"
     ],
     [
-      "030401",
-      42.31036604284584,
-      -88.43329583110062,
-      6.89,
-      "Taco Bell",
-      "Woodstock",
-      "IL"
-    ],
-    [
       "030651",
       41.68507573984795,
       -88.38088591150962,
@@ -80578,15 +80628,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "036452",
-      41.69621457058919,
-      -87.51837660385304,
-      6.99,
-      "Taco Bell",
-      "Hammond",
-      "IN"
     ],
     [
       "041824",

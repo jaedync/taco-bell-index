@@ -20,7 +20,7 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 283
+    "store_count": 284
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$0.25",
-      "count": 30
+      "count": 31
     },
     {
       "bucket": "$0.30",
@@ -101,7 +101,7 @@
     {
       "state": "WA",
       "avg_price": 0.23,
-      "store_count": 28
+      "store_count": 29
     },
     {
       "state": "AZ",
@@ -344,6 +344,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037299",
+      "store_name": "Taco Bell",
+      "city": "Belfair",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-05-02T21:21:51.844186+00:00"
+    },
     {
       "store_number": "002474",
       "store_name": "Taco Bell",
@@ -766,7 +776,7 @@
     }
   ],
   "activity_summary": {
-    "added": 18,
+    "added": 19,
     "removed": 24,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1720,6 +1730,15 @@
       "Taco Bell / Pizza Hut",
       "Albuquerque",
       "NM"
+    ],
+    [
+      "037299",
+      47.45281310681201,
+      -122.82450069487709,
+      0.25,
+      "Taco Bell",
+      "Belfair",
+      "WA"
     ],
     [
       "041697",
