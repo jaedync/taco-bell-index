@@ -14,19 +14,19 @@
   "peak_30d_pct": 7.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.766950+00:00",
-  "availability_pct": 7.9,
+  "availability_pct": 8.0,
   "price_stats": {
     "avg": 10.46,
     "min": 9.99,
     "max": 13.59,
     "median": 9.99,
     "std_dev": 0.69,
-    "store_count": 612
+    "store_count": 613
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 376
+      "count": 375
     },
     {
       "bucket": "$10.09",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 143
+      "count": 145
     },
     {
       "bucket": "$11.09",
@@ -137,6 +137,11 @@
       "store_count": 31
     },
     {
+      "state": "CO",
+      "avg_price": 10.79,
+      "store_count": 5
+    },
+    {
       "state": "WI",
       "avg_price": 10.59,
       "store_count": 15
@@ -197,14 +202,14 @@
       "store_count": 14
     },
     {
+      "state": "IN",
+      "avg_price": 10.07,
+      "store_count": 51
+    },
+    {
       "state": "VA",
       "avg_price": 10.07,
       "store_count": 13
-    },
-    {
-      "state": "IN",
-      "avg_price": 10.07,
-      "store_count": 52
     },
     {
       "state": "TX",
@@ -244,7 +249,7 @@
     {
       "state": "MN",
       "avg_price": 9.99,
-      "store_count": 13
+      "store_count": 14
     },
     {
       "state": "ID",
@@ -613,7 +618,6 @@
     "017101",
     "031657",
     "029403",
-    "036029",
     "041964",
     "042977",
     "038857",
@@ -716,10 +720,10 @@
     "036263",
     "029452",
     "028880",
-    "028861",
     "030390",
     "040045",
-    "037485"
+    "037485",
+    "041989"
   ],
   "priciest_stores": [
     {
@@ -794,6 +798,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028861",
+      "store_name": "Taco Bell",
+      "city": "Speedway",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:08.812870+00:00"
+    },
+    {
+      "store_number": "005599",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-03T21:17:07.255249+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-03T21:16:58.392067+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
+    {
+      "store_number": "041989",
+      "store_name": "Taco Bell",
+      "city": "North Saint Paul",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-03T21:13:17.895172+00:00"
+    },
     {
       "store_number": "036927",
       "store_name": "Taco Bell",
@@ -9676,8 +9730,8 @@
     }
   ],
   "activity_summary": {
-    "added": 750,
-    "removed": 138,
+    "added": 753,
+    "removed": 140,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12133,15 +12187,6 @@
       "NC"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      9.99,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "041964",
       28.303987409427087,
       -81.23885304982832,
@@ -13060,15 +13105,6 @@
       "IN"
     ],
     [
-      "028861",
-      39.80032567328473,
-      -86.26901320651086,
-      9.99,
-      "Taco Bell",
-      "Speedway",
-      "IN"
-    ],
-    [
       "030390",
       35.38117111812413,
       -96.92929118871689,
@@ -13094,6 +13130,15 @@
       "Taco Bell",
       "Paducah",
       "KY"
+    ],
+    [
+      "041989",
+      45.013622308643356,
+      -93.00643226309424,
+      9.99,
+      "Taco Bell",
+      "North Saint Paul",
+      "MN"
     ],
     [
       "021027",
@@ -14590,6 +14635,24 @@
       "CA"
     ],
     [
+      "029328",
+      41.55402977505185,
+      -72.68083959817892,
+      10.99,
+      "Taco Bell",
+      "Middletown",
+      "CT"
+    ],
+    [
+      "005599",
+      39.66728467665894,
+      -104.91410682209016,
+      10.99,
+      "Taco Bell",
+      "Denver",
+      "CO"
+    ],
+    [
       "016995",
       39.39672093976099,
       -84.55284480752198,
@@ -15221,6 +15284,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 7.7
 }

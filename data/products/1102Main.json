@@ -11,21 +11,21 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 0.1,
-  "recent_price_change_pct": 0.0342,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.895910+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 2.52,
+    "avg": 2.48,
     "min": 2.19,
     "max": 2.79,
-    "median": 2.54,
-    "std_dev": 0.25,
-    "store_count": 6
+    "median": 2.49,
+    "std_dev": 0.26,
+    "store_count": 7
   },
   "histogram": [
     {
       "bucket": "$2.19",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -58,6 +58,13 @@
       "name": "Taco Bell",
       "city": "Jamaica",
       "state": "NY",
+      "price": 2.19
+    },
+    {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
       "price": 2.19
     },
     {
@@ -97,7 +104,8 @@
     }
   ],
   "min_price_store_numbers": [
-    "038757"
+    "038757",
+    "041105"
   ],
   "priciest_stores": [
     {
@@ -136,6 +144,13 @@
       "price": 2.29
     },
     {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "price": 2.19
+    },
+    {
       "store_number": "038757",
       "name": "Taco Bell",
       "city": "Jamaica",
@@ -144,6 +159,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-05-03T21:13:16.456230+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -296,7 +321,7 @@
     }
   ],
   "activity_summary": {
-    "added": 6,
+    "added": 7,
     "removed": 9,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -314,6 +339,15 @@
       "Taco Bell",
       "Jamaica",
       "NY"
+    ],
+    [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      2.19,
+      "Taco Bell",
+      "Jefferson",
+      "GA"
     ],
     [
       "040658",

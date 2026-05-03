@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 87.5,
+  "peak_30d_pct": 86.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.3,
+  "availability_pct": 92.2,
   "price_stats": {
     "avg": 2.53,
     "min": 2.25,
     "max": 5.99,
     "median": 2.49,
     "std_dev": 0.26,
-    "store_count": 7109
+    "store_count": 7107
   },
   "histogram": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 2441
+      "count": 2439
     },
     {
       "bucket": "$2.31",
@@ -43,11 +43,11 @@
     },
     {
       "bucket": "$2.39",
-      "count": 934
+      "count": 935
     },
     {
       "bucket": "$2.49",
-      "count": 1177
+      "count": 1176
     },
     {
       "bucket": "$2.50",
@@ -175,8 +175,8 @@
     },
     {
       "state": "CA",
-      "avg_price": 2.83,
-      "store_count": 824
+      "avg_price": 2.82,
+      "store_count": 825
     },
     {
       "state": "MD",
@@ -201,7 +201,7 @@
     {
       "state": "MA",
       "avg_price": 2.69,
-      "store_count": 65
+      "store_count": 64
     },
     {
       "state": "PA",
@@ -209,14 +209,14 @@
       "store_count": 199
     },
     {
+      "state": "UT",
+      "avg_price": 2.64,
+      "store_count": 63
+    },
+    {
       "state": "OR",
       "avg_price": 2.64,
       "store_count": 122
-    },
-    {
-      "state": "UT",
-      "avg_price": 2.64,
-      "store_count": 64
     },
     {
       "state": "NY",
@@ -296,7 +296,7 @@
     {
       "state": "MO",
       "avg_price": 2.4,
-      "store_count": 224
+      "store_count": 225
     },
     {
       "state": "SC",
@@ -306,7 +306,7 @@
     {
       "state": "TN",
       "avg_price": 2.39,
-      "store_count": 164
+      "store_count": 163
     },
     {
       "state": "TX",
@@ -331,7 +331,7 @@
     {
       "state": "IN",
       "avg_price": 2.35,
-      "store_count": 257
+      "store_count": 256
     },
     {
       "state": "OK",
@@ -556,6 +556,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034202",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-03T21:17:02.302582+00:00"
+    },
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "029638",
+      "store_name": "Taco Bell",
+      "city": "Saint Louis",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.39,
+      "observed_at": "2026-05-03T21:16:58.065497+00:00"
+    },
+    {
+      "store_number": "034810",
+      "store_name": "Taco Bell",
+      "city": "Herriman",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:53.949661+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
+    {
+      "store_number": "042246",
+      "store_name": "Taco Bell",
+      "city": "McKenzie",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.883068+00:00"
+    },
     {
       "store_number": "034822",
       "store_name": "Taco Bell",
@@ -14738,8 +14798,8 @@
     }
   ],
   "activity_summary": {
-    "added": 499,
-    "removed": 891,
+    "added": 501,
+    "removed": 895,
     "price_changed": 28,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17555,15 +17615,6 @@
       "Taco Bell",
       "Williston",
       "ND"
-    ],
-    [
-      "042246",
-      36.13001983668526,
-      -88.50913771658497,
-      2.29,
-      "Taco Bell",
-      "McKenzie",
-      "TN"
     ],
     [
       "042195",
@@ -22298,15 +22349,6 @@
       "Taco Bell",
       "Germantown",
       "TN"
-    ],
-    [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      2.29,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
     ],
     [
       "030349",
@@ -39184,6 +39226,15 @@
       "FL"
     ],
     [
+      "029638",
+      38.65897254292612,
+      -90.2990459473052,
+      2.39,
+      "Taco Bell",
+      "Saint Louis",
+      "MO"
+    ],
+    [
       "004438",
       39.6170987008308,
       -105.09187375010697,
@@ -48551,15 +48602,6 @@
       "Taco Bell",
       "Lansing",
       "MI"
-    ],
-    [
-      "034810",
-      40.53439523931044,
-      -112.01527957114716,
-      2.49,
-      "Taco Bell",
-      "Herriman",
-      "UT"
     ],
     [
       "038515",
@@ -63034,15 +63076,6 @@
       "WA"
     ],
     [
-      "042727",
-      39.31046,
-      -85.213516,
-      2.79,
-      "Taco Bell",
-      "Batesville",
-      "IN"
-    ],
-    [
       "042861",
       37.9250041,
       -122.3186082,
@@ -63625,6 +63658,15 @@
       2.79,
       "Taco Bell",
       "Sacramento",
+      "CA"
+    ],
+    [
+      "034202",
+      39.760635194702786,
+      -121.84889578075854,
+      2.79,
+      "Taco Bell",
+      "Chico",
       "CA"
     ],
     [

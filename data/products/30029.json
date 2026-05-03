@@ -20,7 +20,7 @@
     "max": 6.29,
     "median": 4.99,
     "std_dev": 0.55,
-    "store_count": 3345
+    "store_count": 3346
   },
   "histogram": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 239
+      "count": 238
     },
     {
       "bucket": "$4.69",
@@ -105,7 +105,7 @@
     },
     {
       "bucket": "$4.89",
-      "count": 345
+      "count": 346
     },
     {
       "bucket": "$4.95",
@@ -113,7 +113,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 601
+      "count": 602
     },
     {
       "bucket": "$5.09",
@@ -125,7 +125,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 141
+      "count": 142
     },
     {
       "bucket": "$5.29",
@@ -137,7 +137,7 @@
     },
     {
       "bucket": "$5.39",
-      "count": 138
+      "count": 137
     },
     {
       "bucket": "$5.47",
@@ -213,7 +213,7 @@
     {
       "state": "WA",
       "avg_price": 5.29,
-      "store_count": 133
+      "store_count": 132
     },
     {
       "state": "NY",
@@ -243,17 +243,17 @@
     {
       "state": "CA",
       "avg_price": 5.07,
-      "store_count": 620
+      "store_count": 621
     },
     {
       "state": "MN",
       "avg_price": 4.98,
-      "store_count": 96
+      "store_count": 97
     },
     {
       "state": "FL",
-      "avg_price": 4.95,
-      "store_count": 237
+      "avg_price": 4.96,
+      "store_count": 236
     },
     {
       "state": "OH",
@@ -298,7 +298,7 @@
     {
       "state": "IN",
       "avg_price": 4.74,
-      "store_count": 124
+      "store_count": 125
     },
     {
       "state": "UT",
@@ -549,6 +549,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034202",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-05-03T21:17:02.302582+00:00"
+    },
+    {
+      "store_number": "005095",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.39,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:42.875600+00:00"
+    },
+    {
+      "store_number": "037663",
+      "store_name": "Taco Bell",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.19,
+      "observed_at": "2026-05-03T21:16:40.888705+00:00"
+    },
+    {
+      "store_number": "036426",
+      "store_name": "Taco Bell",
+      "city": "Puyallup",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 5.29,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:27.619148+00:00"
+    },
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.89,
+      "observed_at": "2026-05-03T21:16:26.698479+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:26.285960+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-03T21:12:14.540517+00:00"
+    },
     {
       "store_number": "034441",
       "store_name": "Taco Bell",
@@ -7001,8 +7071,8 @@
     }
   ],
   "activity_summary": {
-    "added": 236,
-    "removed": 291,
+    "added": 240,
+    "removed": 294,
     "price_changed": 118,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14005,15 +14075,6 @@
       "CA"
     ],
     [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      4.59,
-      "Taco Bell",
-      "Dunnellon",
-      "FL"
-    ],
-    [
       "034809",
       28.93077353365337,
       -81.66661659010451,
@@ -18190,6 +18251,15 @@
       "MA"
     ],
     [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      4.89,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "036447",
       33.83031435999646,
       -78.67822448958397,
@@ -21689,6 +21759,15 @@
       "Taco Bell",
       "Salisbury",
       "NC"
+    ],
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      4.99,
+      "Taco Bell",
+      "Roseville",
+      "MN"
     ],
     [
       "040933",
@@ -27298,6 +27377,15 @@
       "KY"
     ],
     [
+      "037663",
+      42.25149994869898,
+      -83.18267856558234,
+      5.19,
+      "Taco Bell",
+      "Lincoln Park",
+      "MI"
+    ],
+    [
       "031703",
       34.699699127623276,
       -79.9328500932541,
@@ -28351,15 +28439,6 @@
       "CA"
     ],
     [
-      "036426",
-      47.18437939720152,
-      -122.25693117255726,
-      5.29,
-      "Taco Bell",
-      "Puyallup",
-      "WA"
-    ],
-    [
       "042603",
       42.19815480968533,
       -83.15206366358976,
@@ -28573,6 +28652,15 @@
       5.29,
       "Taco Bell",
       "Citrus Heights",
+      "CA"
+    ],
+    [
+      "034202",
+      39.760635194702786,
+      -121.84889578075854,
+      5.29,
+      "Taco Bell",
+      "Chico",
       "CA"
     ],
     [
@@ -31039,15 +31127,6 @@
       5.39,
       "Taco Bell",
       "Garden City",
-      "MI"
-    ],
-    [
-      "005095",
-      42.198830921493176,
-      -83.19256271757894,
-      5.39,
-      "Taco Bell",
-      "Southgate",
       "MI"
     ],
     [

@@ -20,7 +20,7 @@
     "max": 13.99,
     "median": 8.79,
     "std_dev": 0.7,
-    "store_count": 7700
+    "store_count": 7699
   },
   "histogram": [
     {
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 547
+      "count": 546
     },
     {
       "bucket": "$8.09",
@@ -153,7 +153,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 848
+      "count": 847
     },
     {
       "bucket": "$9.00",
@@ -237,7 +237,7 @@
     },
     {
       "bucket": "$10.49",
-      "count": 40
+      "count": 41
     },
     {
       "bucket": "$10.54",
@@ -303,8 +303,8 @@
   "state_prices": [
     {
       "state": "CT",
-      "avg_price": 10.16,
-      "store_count": 48
+      "avg_price": 10.17,
+      "store_count": 49
     },
     {
       "state": "NY",
@@ -319,7 +319,7 @@
     {
       "state": "MA",
       "avg_price": 9.18,
-      "store_count": 66
+      "store_count": 65
     },
     {
       "state": "WA",
@@ -484,7 +484,7 @@
     {
       "state": "IN",
       "avg_price": 8.24,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "KY",
@@ -702,6 +702,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.49,
+      "observed_at": "2026-05-03T21:16:58.392067+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
     {
       "store_number": "028880",
       "store_name": "Taco Bell",
@@ -14364,8 +14394,8 @@
     }
   ],
   "activity_summary": {
-    "added": 103,
-    "removed": 94,
+    "added": 104,
+    "removed": 96,
     "price_changed": 1169,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26620,15 +26650,6 @@
       "Taco Bell",
       "Kingsport",
       "TN"
-    ],
-    [
-      "042727",
-      39.31046,
-      -85.213516,
-      7.99,
-      "Taco Bell",
-      "Batesville",
-      "IN"
     ],
     [
       "042560",
@@ -66213,15 +66234,6 @@
       "MO"
     ],
     [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      8.99,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
-    ],
-    [
       "017131",
       34.25932398431372,
       -118.30463541234997,
@@ -82752,6 +82764,15 @@
       10.49,
       "Taco Bell",
       "Windsor Locks",
+      "CT"
+    ],
+    [
+      "029328",
+      41.55402977505185,
+      -72.68083959817892,
+      10.49,
+      "Taco Bell",
+      "Middletown",
       "CT"
     ],
     [

@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 47
+    "store_count": 48
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 47
+      "count": 48
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 47
+      "store_count": 48
     }
   ],
   "nutrition": {
@@ -159,6 +159,7 @@
     "033316",
     "004298",
     "033301",
+    "023045",
     "040006",
     "024658",
     "039687",
@@ -244,6 +245,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023045",
+      "store_name": "Taco Bell",
+      "city": "Port Huron",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-03T21:16:51.983066+00:00"
+    },
     {
       "store_number": "023045",
       "store_name": "Taco Bell",
@@ -2076,7 +2087,7 @@
     }
   ],
   "activity_summary": {
-    "added": 115,
+    "added": 116,
     "removed": 68,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2448,6 +2459,15 @@
       "MI"
     ],
     [
+      "023045",
+      42.97589743492643,
+      -82.45334157434944,
+      9.0,
+      "Taco Bell",
+      "Port Huron",
+      "MI"
+    ],
+    [
       "040006",
       42.740257156814764,
       -83.37902734534232,
@@ -2548,6 +2568,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 0.6
 }

@@ -20,21 +20,21 @@
     "min": 2.49,
     "max": 3.49,
     "median": 2.69,
-    "std_dev": 0.22,
-    "store_count": 196
+    "std_dev": 0.23,
+    "store_count": 190
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 86
+      "count": 85
     },
     {
       "bucket": "$2.69",
-      "count": 57
+      "count": 53
     },
     {
       "bucket": "$2.99",
-      "count": 50
+      "count": 49
     },
     {
       "bucket": "$3.49",
@@ -50,17 +50,17 @@
     {
       "state": "GA",
       "avg_price": 2.75,
-      "store_count": 101
+      "store_count": 99
     },
     {
       "state": "AL",
       "avg_price": 2.61,
-      "store_count": 48
+      "store_count": 47
     },
     {
       "state": "TN",
       "avg_price": 2.6,
-      "store_count": 31
+      "store_count": 28
     }
   ],
   "nutrition": {
@@ -184,7 +184,6 @@
     "036370",
     "029053",
     "029098",
-    "009575",
     "004370",
     "029068",
     "004170",
@@ -310,6 +309,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009575",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:02.903313+00:00"
+    },
+    {
+      "store_number": "042577",
+      "store_name": "Taco Bell",
+      "city": "Dallas",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:54.283855+00:00"
+    },
+    {
+      "store_number": "042226",
+      "store_name": "Taco Bell",
+      "city": "Ooltewah",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:29.662304+00:00"
+    },
+    {
+      "store_number": "042581",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.134599+00:00"
+    },
+    {
+      "store_number": "038870",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:12:14.740890+00:00"
+    },
+    {
+      "store_number": "041188",
+      "store_name": "Taco Bell",
+      "city": "Dothan",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:12:14.491565+00:00"
+    },
     {
       "store_number": "023742",
       "store_name": "Taco Bell",
@@ -9213,7 +9272,7 @@
   ],
   "activity_summary": {
     "added": 543,
-    "removed": 347,
+    "removed": 353,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9527,15 +9586,6 @@
       "Taco Bell",
       "Warner Robins",
       "GA"
-    ],
-    [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      2.49,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "004370",
@@ -10033,15 +10083,6 @@
       "AL"
     ],
     [
-      "041188",
-      31.267431,
-      -85.378863,
-      2.69,
-      "Taco Bell",
-      "Dothan",
-      "AL"
-    ],
-    [
       "041685",
       33.1715584091,
       -86.2821782065,
@@ -10049,15 +10090,6 @@
       "Taco Bell",
       "Sylacauga",
       "AL"
-    ],
-    [
-      "038870",
-      35.78569324608056,
-      -83.98713379459087,
-      2.69,
-      "Taco Bell",
-      "Alcoa",
-      "TN"
     ],
     [
       "041739",
@@ -10120,15 +10152,6 @@
       2.69,
       "Taco Bell",
       "Athens",
-      "TN"
-    ],
-    [
-      "042226",
-      35.088708,
-      -85.064803,
-      2.69,
-      "Taco Bell",
-      "Ooltewah",
       "TN"
     ],
     [
@@ -10274,15 +10297,6 @@
       "Taco Bell",
       "McDonald",
       "TN"
-    ],
-    [
-      "042577",
-      33.92625404412495,
-      -84.74611869194156,
-      2.69,
-      "Taco Bell",
-      "Dallas",
-      "GA"
     ],
     [
       "040571",
@@ -10543,15 +10557,6 @@
       2.99,
       "Taco Bell",
       "Ellijay",
-      "GA"
-    ],
-    [
-      "042581",
-      34.256253,
-      -84.35856199999999,
-      2.99,
-      "Taco Bell",
-      "Canton",
       "GA"
     ],
     [
@@ -10988,6 +10993,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 5.9
 }

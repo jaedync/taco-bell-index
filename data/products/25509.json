@@ -22,12 +22,12 @@
     "max": 5.99,
     "median": 2.49,
     "std_dev": 0.21,
-    "store_count": 7651
+    "store_count": 7652
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 4840
+      "count": 4841
     },
     {
       "bucket": "$2.50",
@@ -43,7 +43,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 539
+      "count": 540
     },
     {
       "bucket": "$2.62",
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 597
+      "count": 596
     },
     {
       "bucket": "$2.71",
@@ -177,12 +177,12 @@
     {
       "state": "CA",
       "avg_price": 2.78,
-      "store_count": 829
+      "store_count": 830
     },
     {
       "state": "PA",
-      "avg_price": 2.76,
-      "store_count": 200
+      "avg_price": 2.75,
+      "store_count": 201
     },
     {
       "state": "OR",
@@ -207,17 +207,17 @@
     {
       "state": "NV",
       "avg_price": 2.73,
-      "store_count": 87
-    },
-    {
-      "state": "MA",
-      "avg_price": 2.68,
-      "store_count": 65
+      "store_count": 86
     },
     {
       "state": "DC",
       "avg_price": 2.68,
       "store_count": 7
+    },
+    {
+      "state": "MA",
+      "avg_price": 2.67,
+      "store_count": 66
     },
     {
       "state": "KS",
@@ -292,7 +292,7 @@
     {
       "state": "TX",
       "avg_price": 2.53,
-      "store_count": 700
+      "store_count": 699
     },
     {
       "state": "GA",
@@ -721,6 +721,7 @@
     "040903",
     "041954",
     "041207",
+    "041901",
     "040721",
     "041753",
     "041844",
@@ -1147,7 +1148,6 @@
     "042458",
     "042768",
     "042248",
-    "041621",
     "042144",
     "042512",
     "041828",
@@ -2321,6 +2321,7 @@
     "003997",
     "018678",
     "034700",
+    "029264",
     "030349",
     "030407",
     "038894",
@@ -5378,6 +5379,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031892",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:07.415346+00:00"
+    },
+    {
+      "store_number": "034202",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-05-03T21:17:02.302582+00:00"
+    },
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "041621",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.050438+00:00"
+    },
+    {
+      "store_number": "041901",
+      "store_name": "Taco Bell",
+      "city": "Lock Haven",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-05-03T21:16:18.444367+00:00"
+    },
     {
       "store_number": "030784",
       "store_name": "Taco Bell",
@@ -8700,8 +8751,8 @@
     }
   ],
   "activity_summary": {
-    "added": 176,
-    "removed": 136,
+    "added": 179,
+    "removed": 138,
     "price_changed": 20,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11035,6 +11086,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "041901",
+      41.12963083504987,
+      -77.46670908799614,
+      2.49,
+      "Taco Bell",
+      "Lock Haven",
+      "PA"
     ],
     [
       "040721",
@@ -14869,15 +14929,6 @@
       "Taco Bell",
       "Murrells Inlet",
       "SC"
-    ],
-    [
-      "041621",
-      29.8645164066,
-      -95.6078184002,
-      2.49,
-      "Taco Bell",
-      "Houston",
-      "TX"
     ],
     [
       "042144",
@@ -25435,6 +25486,15 @@
       "Taco Bell",
       "Germantown",
       "TN"
+    ],
+    [
+      "029264",
+      42.68932958211096,
+      -71.14899910735949,
+      2.49,
+      "Taco Bell",
+      "Lawrence",
+      "MA"
     ],
     [
       "030349",
@@ -53778,6 +53838,15 @@
       "TX"
     ],
     [
+      "034202",
+      39.760635194702786,
+      -121.84889578075854,
+      2.59,
+      "Taco Bell",
+      "Chico",
+      "CA"
+    ],
+    [
       "024767",
       32.75675263124118,
       -96.46600663661957,
@@ -59050,15 +59119,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "031892",
-      36.08440886884082,
-      -115.03147155046463,
-      2.69,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "019010",

@@ -21,12 +21,12 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 190
+    "store_count": 189
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 190
+      "count": 189
     }
   ],
   "state_prices": [
@@ -48,7 +48,7 @@
     {
       "state": "IN",
       "avg_price": 4.99,
-      "store_count": 17
+      "store_count": 16
     }
   ],
   "nutrition": {
@@ -202,7 +202,6 @@
     "004014",
     "040656",
     "002236",
-    "027996",
     "003990",
     "004986",
     "002937",
@@ -249,6 +248,7 @@
     "039686",
     "040007",
     "024658",
+    "028000",
     "040006",
     "001856",
     "023045",
@@ -270,7 +270,6 @@
     "035402",
     "035400",
     "022447",
-    "042623",
     "032091",
     "016043",
     "032112",
@@ -402,6 +401,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042623",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:08.675355+00:00"
+    },
+    {
+      "store_number": "028000",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-03T21:16:51.915108+00:00"
+    },
+    {
+      "store_number": "027996",
+      "store_name": "Taco Bell / Long John Silver's",
+      "city": "North Canton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:43.830788+00:00"
+    },
     {
       "store_number": "024449",
       "store_name": "Taco Bell",
@@ -13674,8 +13703,8 @@
     }
   ],
   "activity_summary": {
-    "added": 759,
-    "removed": 568,
+    "added": 760,
+    "removed": 570,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14261,15 +14290,6 @@
       "MI"
     ],
     [
-      "027996",
-      40.89570956846749,
-      -81.40601724386215,
-      4.99,
-      "Taco Bell / Long John Silver's",
-      "North Canton",
-      "OH"
-    ],
-    [
       "003990",
       42.17169338970902,
       -83.18975723815129,
@@ -14684,6 +14704,15 @@
       "MI"
     ],
     [
+      "028000",
+      40.87596010008669,
+      -81.36434952914612,
+      4.99,
+      "Taco Bell",
+      "Canton",
+      "OH"
+    ],
+    [
       "040006",
       42.740257156814764,
       -83.37902734534232,
@@ -14871,15 +14900,6 @@
       "Taco Bell",
       "Tiffin",
       "OH"
-    ],
-    [
-      "042623",
-      41.12184543646923,
-      -85.06201480708354,
-      4.99,
-      "Taco Bell",
-      "Fort Wayne",
-      "IN"
     ],
     [
       "032091",
@@ -15396,6 +15416,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 7.0
 }

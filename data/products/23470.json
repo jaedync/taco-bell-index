@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 87.8,
+  "peak_30d_pct": 85.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 91.7,
@@ -21,7 +21,7 @@
     "max": 7.49,
     "median": 3.39,
     "std_dev": 0.3,
-    "store_count": 7064
+    "store_count": 7063
   },
   "histogram": [
     {
@@ -42,11 +42,11 @@
     },
     {
       "bucket": "$3.29",
-      "count": 1185
+      "count": 1184
     },
     {
       "bucket": "$3.39",
-      "count": 1204
+      "count": 1205
     },
     {
       "bucket": "$3.40",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 620
+      "count": 619
     },
     {
       "bucket": "$3.62",
@@ -306,14 +306,14 @@
       "store_count": 12
     },
     {
+      "state": "ME",
+      "avg_price": 3.29,
+      "store_count": 6
+    },
+    {
       "state": "RI",
       "avg_price": 3.29,
       "store_count": 15
-    },
-    {
-      "state": "ME",
-      "avg_price": 3.29,
-      "store_count": 7
     },
     {
       "state": "IN",
@@ -333,7 +333,7 @@
     {
       "state": "KY",
       "avg_price": 3.27,
-      "store_count": 158
+      "store_count": 157
     },
     {
       "state": "ID",
@@ -378,7 +378,7 @@
     {
       "state": "WV",
       "avg_price": 3.15,
-      "store_count": 71
+      "store_count": 72
     },
     {
       "state": "GA",
@@ -570,6 +570,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032362",
+      "store_name": "Taco Bell",
+      "city": "Wheeling",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-03T21:17:02.124208+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.746211+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
     {
       "store_number": "033129",
       "store_name": "Taco Bell",
@@ -29022,8 +29052,8 @@
     }
   ],
   "activity_summary": {
-    "added": 276,
-    "removed": 755,
+    "added": 277,
+    "removed": 757,
     "price_changed": 1814,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -50754,15 +50784,6 @@
       "ME"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      3.29,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "036461",
       39.65578457712192,
       -87.42863015785889,
@@ -64837,6 +64858,15 @@
       "Taco Bell",
       "Hazelwood",
       "MO"
+    ],
+    [
+      "032362",
+      40.075937449579435,
+      -80.69801586170358,
+      3.39,
+      "Taco Bell",
+      "Wheeling",
+      "WV"
     ],
     [
       "029535",
@@ -83017,15 +83047,6 @@
       "Taco Bell",
       "North Kansas City",
       "MO"
-    ],
-    [
-      "042410",
-      38.19671929207219,
-      -85.78242777036012,
-      3.59,
-      "Taco Bell",
-      "Louisville",
-      "KY"
     ],
     [
       "033774",

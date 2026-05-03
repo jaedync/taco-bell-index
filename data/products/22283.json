@@ -14,7 +14,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 89.5,
+  "peak_30d_pct": 87.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 93.4,
@@ -24,7 +24,7 @@
     "max": 6.99,
     "median": 1.59,
     "std_dev": 0.31,
-    "store_count": 7201
+    "store_count": 7200
   },
   "histogram": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 1673
+      "count": 1672
     },
     {
       "bucket": "$1.61",
@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 950
+      "count": 949
     },
     {
       "bucket": "$1.75",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$1.89",
-      "count": 361
+      "count": 362
     },
     {
       "bucket": "$1.90",
@@ -257,7 +257,7 @@
     {
       "state": "CA",
       "avg_price": 1.9,
-      "store_count": 836
+      "store_count": 837
     },
     {
       "state": "MT",
@@ -332,7 +332,7 @@
     {
       "state": "NC",
       "avg_price": 1.66,
-      "store_count": 259
+      "store_count": 258
     },
     {
       "state": "OH",
@@ -412,7 +412,7 @@
     {
       "state": "OK",
       "avg_price": 1.56,
-      "store_count": 128
+      "store_count": 127
     },
     {
       "state": "NM",
@@ -667,6 +667,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034202",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-05-03T21:17:02.302582+00:00"
+    },
+    {
+      "store_number": "030384",
+      "store_name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:54.930959+00:00"
+    },
+    {
+      "store_number": "042105",
+      "store_name": "Taco Bell",
+      "city": "Apex",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 1.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.389218+00:00"
+    },
     {
       "store_number": "037582",
       "store_name": "Taco Bell",
@@ -8829,8 +8859,8 @@
     }
   ],
   "activity_summary": {
-    "added": 87,
-    "removed": 573,
+    "added": 88,
+    "removed": 575,
     "price_changed": 156,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -32807,15 +32837,6 @@
       "AR"
     ],
     [
-      "030384",
-      35.4971053401798,
-      -97.74209359411932,
-      1.59,
-      "Taco Bell",
-      "Yukon",
-      "OK"
-    ],
-    [
       "002403",
       45.5192152515349,
       -123.00095952582524,
@@ -44289,15 +44310,6 @@
       "Taco Bell",
       "Middleborough",
       "MA"
-    ],
-    [
-      "042105",
-      35.741667,
-      -78.917378,
-      1.69,
-      "Taco Bell",
-      "Apex",
-      "NC"
     ],
     [
       "041388",
@@ -56699,6 +56711,15 @@
       1.89,
       "Taco Bell",
       "Sacramento",
+      "CA"
+    ],
+    [
+      "034202",
+      39.760635194702786,
+      -121.84889578075854,
+      1.89,
+      "Taco Bell",
+      "Chico",
       "CA"
     ],
     [

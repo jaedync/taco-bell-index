@@ -12,17 +12,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 88.8,
+  "peak_30d_pct": 86.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.9,
+  "availability_pct": 92.8,
   "price_stats": {
     "avg": 3.01,
     "min": 2.39,
     "max": 7.99,
     "median": 2.99,
     "std_dev": 0.16,
-    "store_count": 7156
+    "store_count": 7153
   },
   "histogram": [
     {
@@ -35,7 +35,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 6741
+      "count": 6738
     },
     {
       "bucket": "$3.00",
@@ -139,7 +139,7 @@
     {
       "state": "MA",
       "avg_price": 3.05,
-      "store_count": 65
+      "store_count": 64
     },
     {
       "state": "CA",
@@ -254,7 +254,7 @@
     {
       "state": "TN",
       "avg_price": 2.99,
-      "store_count": 167
+      "store_count": 166
     },
     {
       "state": "SD",
@@ -285,6 +285,11 @@
       "state": "MS",
       "avg_price": 2.99,
       "store_count": 79
+    },
+    {
+      "state": "ME",
+      "avg_price": 2.99,
+      "store_count": 6
     },
     {
       "state": "LA",
@@ -330,11 +335,6 @@
       "state": "AL",
       "avg_price": 2.99,
       "store_count": 39
-    },
-    {
-      "state": "ME",
-      "avg_price": 2.99,
-      "store_count": 7
     },
     {
       "state": "GA",
@@ -554,6 +554,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "042246",
+      "store_name": "Taco Bell",
+      "city": "McKenzie",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.883068+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
     {
       "store_number": "034822",
       "store_name": "Taco Bell",
@@ -8687,7 +8717,7 @@
   ],
   "activity_summary": {
     "added": 165,
-    "removed": 634,
+    "removed": 637,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -14313,15 +14343,6 @@
       "ME"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      2.99,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "036306",
       36.089485918820436,
       -96.0128002031043,
@@ -16669,15 +16690,6 @@
       "Taco Bell",
       "Williston",
       "ND"
-    ],
-    [
-      "042246",
-      36.13001983668526,
-      -88.50913771658497,
-      2.99,
-      "Taco Bell",
-      "McKenzie",
-      "TN"
     ],
     [
       "042195",
@@ -29737,15 +29749,6 @@
       "Taco Bell",
       "Germantown",
       "TN"
-    ],
-    [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      2.99,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
     ],
     [
       "031805",

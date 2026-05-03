@@ -21,7 +21,7 @@
     "max": 4.99,
     "median": 2.99,
     "std_dev": 0.22,
-    "store_count": 7416
+    "store_count": 7412
   },
   "histogram": [
     {
@@ -62,11 +62,11 @@
     },
     {
       "bucket": "$2.79",
-      "count": 850
+      "count": 851
     },
     {
       "bucket": "$2.89",
-      "count": 1132
+      "count": 1131
     },
     {
       "bucket": "$2.92",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2999
+      "count": 2997
     },
     {
       "bucket": "$3.00",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 648
+      "count": 646
     },
     {
       "bucket": "$3.23",
@@ -231,7 +231,7 @@
     {
       "state": "PA",
       "avg_price": 3.02,
-      "store_count": 193
+      "store_count": 192
     },
     {
       "state": "WA",
@@ -240,8 +240,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 3.01,
-      "store_count": 48
+      "avg_price": 3.0,
+      "store_count": 47
     },
     {
       "state": "OR",
@@ -261,7 +261,7 @@
     {
       "state": "MO",
       "avg_price": 2.99,
-      "store_count": 220
+      "store_count": 219
     },
     {
       "state": "AR",
@@ -276,7 +276,7 @@
     {
       "state": "IL",
       "avg_price": 2.96,
-      "store_count": 282
+      "store_count": 281
     },
     {
       "state": "AZ",
@@ -376,7 +376,7 @@
     {
       "state": "KY",
       "avg_price": 2.78,
-      "store_count": 152
+      "store_count": 153
     },
     {
       "state": "SC",
@@ -396,7 +396,7 @@
     {
       "state": "OH",
       "avg_price": 2.69,
-      "store_count": 393
+      "store_count": 392
     },
     {
       "state": "MS",
@@ -571,6 +571,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033645",
+      "store_name": "Taco Bell",
+      "city": "Florence",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-03T21:17:06.436234+00:00"
+    },
+    {
+      "store_number": "037353",
+      "store_name": "Taco Bell",
+      "city": "Harwood Heights",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:53.368981+00:00"
+    },
+    {
+      "store_number": "035352",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:51.139031+00:00"
+    },
+    {
+      "store_number": "041999",
+      "store_name": "Taco Bell",
+      "city": "Mountain Top",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:13:19.314217+00:00"
+    },
+    {
+      "store_number": "041386",
+      "store_name": "Taco Bell",
+      "city": "Marshalltown",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:13:15.807248+00:00"
+    },
+    {
+      "store_number": "041056",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:12:15.299472+00:00"
+    },
     {
       "store_number": "032349",
       "store_name": "Taco Bell",
@@ -26223,8 +26283,8 @@
     }
   ],
   "activity_summary": {
-    "added": 590,
-    "removed": 568,
+    "added": 591,
+    "removed": 573,
     "price_changed": 1407,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -41345,6 +41405,15 @@
       "TN"
     ],
     [
+      "033645",
+      39.00464301529069,
+      -84.62074358762948,
+      2.79,
+      "Taco Bell",
+      "Florence",
+      "KY"
+    ],
+    [
       "030435",
       36.425916367307586,
       -82.31757645767209,
@@ -47580,15 +47649,6 @@
       "Taco Bell",
       "Galveston",
       "TX"
-    ],
-    [
-      "035352",
-      41.40557033739376,
-      -81.6915799677372,
-      2.89,
-      "Taco Bell",
-      "Parma",
-      "OH"
     ],
     [
       "027806",
@@ -55979,15 +56039,6 @@
       "DE"
     ],
     [
-      "041056",
-      39.0699,
-      -94.5213,
-      2.99,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
-    ],
-    [
       "041027",
       41.9491,
       -83.401,
@@ -61962,15 +62013,6 @@
       "Taco Bell",
       "Dayton",
       "TX"
-    ],
-    [
-      "037353",
-      41.97223363460947,
-      -87.80749245161358,
-      2.99,
-      "Taco Bell",
-      "Harwood Heights",
-      "IL"
     ],
     [
       "040417",
@@ -83933,15 +83975,6 @@
       "OH"
     ],
     [
-      "041386",
-      42.00619214427507,
-      -92.91660743155012,
-      3.19,
-      "Taco Bell",
-      "Marshalltown",
-      "IA"
-    ],
-    [
       "040902",
       41.6519,
       -88.08,
@@ -84039,15 +84072,6 @@
       "Taco Bell",
       "Stirling",
       "NJ"
-    ],
-    [
-      "041999",
-      41.16413672654036,
-      -75.88466816217104,
-      3.19,
-      "Taco Bell",
-      "Mountain Top",
-      "PA"
     ],
     [
       "041658",

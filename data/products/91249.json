@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 2.29,
     "std_dev": 0.15,
-    "store_count": 488
+    "store_count": 487
   },
   "histogram": [
     {
       "bucket": "$2.29",
-      "count": 275
+      "count": 274
     },
     {
       "bucket": "$2.39",
@@ -76,7 +76,7 @@
     {
       "state": "TN",
       "avg_price": 2.38,
-      "store_count": 88
+      "store_count": 87
     },
     {
       "state": "AL",
@@ -326,7 +326,6 @@
     "041227",
     "041225",
     "029137",
-    "009575",
     "029097",
     "039945",
     "029057",
@@ -520,6 +519,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009575",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:02.903313+00:00"
+    },
     {
       "store_number": "042903",
       "store_name": "Taco Bell",
@@ -5643,7 +5652,7 @@
   ],
   "activity_summary": {
     "added": 500,
-    "removed": 12,
+    "removed": 13,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7046,15 +7055,6 @@
       "Taco Bell",
       "Albertville",
       "AL"
-    ],
-    [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      2.29,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "029097",
@@ -10046,6 +10046,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 5.9
 }

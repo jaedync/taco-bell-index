@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 87.3,
+  "peak_30d_pct": 85.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 87.2,
@@ -20,7 +20,7 @@
     "max": 1.1,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 6720
+    "store_count": 6717
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$0.35",
-      "count": 102
+      "count": 103
     },
     {
       "bucket": "$0.39",
@@ -89,11 +89,11 @@
     },
     {
       "bucket": "$0.79",
-      "count": 157
+      "count": 156
     },
     {
       "bucket": "$0.80",
-      "count": 608
+      "count": 607
     },
     {
       "bucket": "$0.85",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 38
+      "count": 37
     },
     {
       "bucket": "$0.90",
@@ -133,7 +133,7 @@
     },
     {
       "bucket": "$1.06",
-      "count": 7
+      "count": 6
     },
     {
       "bucket": "$1.09",
@@ -188,7 +188,7 @@
     {
       "state": "NY",
       "avg_price": 0.7,
-      "store_count": 203
+      "store_count": 201
     },
     {
       "state": "AL",
@@ -226,19 +226,19 @@
       "store_count": 7
     },
     {
-      "state": "VA",
-      "avg_price": 0.64,
-      "store_count": 185
-    },
-    {
       "state": "CO",
       "avg_price": 0.64,
       "store_count": 155
     },
     {
+      "state": "VA",
+      "avg_price": 0.64,
+      "store_count": 186
+    },
+    {
       "state": "FL",
       "avg_price": 0.64,
-      "store_count": 288
+      "store_count": 287
     },
     {
       "state": "OH",
@@ -282,8 +282,8 @@
     },
     {
       "state": "NC",
-      "avg_price": 0.6,
-      "store_count": 172
+      "avg_price": 0.59,
+      "store_count": 171
     },
     {
       "state": "LA",
@@ -543,21 +543,71 @@
       "price": 1.06
     },
     {
-      "store_number": "037085",
-      "name": "Taco Bell",
-      "city": "New Windsor",
-      "state": "NY",
-      "price": 1.06
-    },
-    {
       "store_number": "039145",
       "name": "Taco Bell",
       "city": "Catskill",
       "state": "NY",
       "price": 1.06
+    },
+    {
+      "store_number": "039549",
+      "name": "Taco Bell",
+      "city": "Milford",
+      "state": "PA",
+      "price": 1.04
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042941",
+      "store_name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 0.8,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:02.095444+00:00"
+    },
+    {
+      "store_number": "030701",
+      "store_name": "Taco Bell",
+      "city": "Waxhaw",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:46.763764+00:00"
+    },
+    {
+      "store_number": "037085",
+      "store_name": "Taco Bell",
+      "city": "New Windsor",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.06,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:37.456063+00:00"
+    },
+    {
+      "store_number": "037132",
+      "store_name": "Taco Bell",
+      "city": "Saint Paul",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-05-03T21:16:33.606211+00:00"
+    },
+    {
+      "store_number": "036429",
+      "store_name": "Taco Bell",
+      "city": "East Elmhurst",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:29.362485+00:00"
+    },
     {
       "store_number": "037083",
       "store_name": "Taco Bell",
@@ -9180,8 +9230,8 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
-    "removed": 820,
+    "added": 35,
+    "removed": 824,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13266,6 +13316,15 @@
       "Taco Bell",
       "Monahans",
       "TX"
+    ],
+    [
+      "037132",
+      36.9066,
+      -82.3172,
+      0.35,
+      "Taco Bell",
+      "Saint Paul",
+      "VA"
     ],
     [
       "037287",
@@ -60248,15 +60307,6 @@
       "NC"
     ],
     [
-      "036429",
-      40.764350645102276,
-      -73.88540897745342,
-      0.79,
-      "Taco Bell",
-      "East Elmhurst",
-      "NY"
-    ],
-    [
       "036224",
       38.34710241956651,
       -121.99776496298706,
@@ -63594,15 +63644,6 @@
       "Taco Bell",
       "Spartanburg",
       "SC"
-    ],
-    [
-      "042941",
-      29.116219923790815,
-      -82.02579715851243,
-      0.8,
-      "Taco Bell",
-      "Ocala",
-      "FL"
     ],
     [
       "026752",
@@ -67547,15 +67588,6 @@
       "MI"
     ],
     [
-      "030701",
-      34.95560136610708,
-      -80.75610995292664,
-      0.89,
-      "Taco Bell",
-      "Waxhaw",
-      "NC"
-    ],
-    [
       "015919",
       42.48635964983356,
       -83.0058436095714,
@@ -69587,15 +69619,6 @@
       1.06,
       "Taco Bell",
       "Catskill",
-      "NY"
-    ],
-    [
-      "037085",
-      41.45880953576493,
-      -74.05515537253805,
-      1.06,
-      "Taco Bell",
-      "New Windsor",
       "NY"
     ],
     [

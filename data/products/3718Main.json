@@ -15,14 +15,14 @@
   "peak_30d_pct": 83.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 89.9,
+  "availability_pct": 89.8,
   "price_stats": {
     "avg": 4.03,
     "min": 2.99,
     "max": 6.99,
     "median": 3.99,
-    "std_dev": 0.32,
-    "store_count": 6924
+    "std_dev": 0.31,
+    "store_count": 6923
   },
   "histogram": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 601
+      "count": 602
     },
     {
       "bucket": "$3.89",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$4.19",
-      "count": 1107
+      "count": 1106
     },
     {
       "bucket": "$4.20",
@@ -155,7 +155,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 90
+      "count": 89
     },
     {
       "bucket": "$5.10",
@@ -213,8 +213,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 4.3,
-      "store_count": 229
+      "avg_price": 4.29,
+      "store_count": 228
     },
     {
       "state": "FL",
@@ -274,7 +274,7 @@
     {
       "state": "CA",
       "avg_price": 4.08,
-      "store_count": 740
+      "store_count": 739
     },
     {
       "state": "PA",
@@ -294,7 +294,7 @@
     {
       "state": "NC",
       "avg_price": 4.05,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "IL",
@@ -404,7 +404,7 @@
     {
       "state": "WV",
       "avg_price": 3.88,
-      "store_count": 64
+      "store_count": 65
     },
     {
       "state": "AL",
@@ -429,7 +429,7 @@
     {
       "state": "OH",
       "avg_price": 3.74,
-      "store_count": 380
+      "store_count": 379
     },
     {
       "state": "MS",
@@ -600,6 +600,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035352",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:51.139031+00:00"
+    },
+    {
+      "store_number": "034568",
+      "store_name": "Taco Bell",
+      "city": "Charleston",
+      "state": "WV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-05-03T21:16:48.642128+00:00"
+    },
+    {
+      "store_number": "035334",
+      "store_name": "Taco Bell",
+      "city": "Flushing",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:21.008174+00:00"
+    },
+    {
+      "store_number": "035256",
+      "store_name": "Taco Bell",
+      "city": "Morganton",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-03T21:16:20.569170+00:00"
+    },
+    {
+      "store_number": "036022",
+      "store_name": "Taco Bell",
+      "city": "Fresno",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:12:14.553080+00:00"
+    },
     {
       "store_number": "033013",
       "store_name": "Taco Bell",
@@ -7382,8 +7432,8 @@
     }
   ],
   "activity_summary": {
-    "added": 368,
-    "removed": 302,
+    "added": 370,
+    "removed": 305,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -17246,6 +17296,15 @@
       "Taco Bell",
       "Houston",
       "TX"
+    ],
+    [
+      "034568",
+      38.32861923630378,
+      -81.59832231236123,
+      3.79,
+      "Taco Bell",
+      "Charleston",
+      "WV"
     ],
     [
       "027793",
@@ -27508,6 +27567,15 @@
       "CA"
     ],
     [
+      "035256",
+      35.734409435832724,
+      -81.72792872656782,
+      3.99,
+      "Taco Bell",
+      "Morganton",
+      "NC"
+    ],
+    [
       "034960",
       27.43267934106139,
       -82.38662156965808,
@@ -31331,15 +31399,6 @@
       "Taco Bell",
       "Bakersfield",
       "CA"
-    ],
-    [
-      "035352",
-      41.40557033739376,
-      -81.6915799677372,
-      3.99,
-      "Taco Bell",
-      "Parma",
-      "OH"
     ],
     [
       "003566",
@@ -51466,15 +51525,6 @@
       "WI"
     ],
     [
-      "036022",
-      36.835455912921546,
-      -119.92023750634412,
-      4.19,
-      "Taco Bell",
-      "Fresno",
-      "CA"
-    ],
-    [
       "041485",
       35.97798456193026,
       -94.29844174108715,
@@ -68609,15 +68659,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "035334",
-      40.7689,
-      -73.8342,
-      4.99,
-      "Taco Bell",
-      "Flushing",
-      "NY"
     ],
     [
       "041823",

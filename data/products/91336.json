@@ -22,12 +22,12 @@
     "max": 3.19,
     "median": 2.49,
     "std_dev": 0.06,
-    "store_count": 487
+    "store_count": 488
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 470
+      "count": 471
     },
     {
       "bucket": "$2.59",
@@ -60,7 +60,7 @@
     {
       "state": "GA",
       "avg_price": 2.49,
-      "store_count": 235
+      "store_count": 236
     },
     {
       "state": "AL",
@@ -179,6 +179,7 @@
     "040929",
     "038735",
     "041881",
+    "041105",
     "041902",
     "039941",
     "041222",
@@ -704,6 +705,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-05-03T21:13:16.456230+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -5856,7 +5867,7 @@
     }
   ],
   "activity_summary": {
-    "added": 501,
+    "added": 502,
     "removed": 14,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6035,6 +6046,15 @@
       2.49,
       "Taco Bell",
       "Columbus",
+      "GA"
+    ],
+    [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      2.49,
+      "Taco Bell",
+      "Jefferson",
       "GA"
     ],
     [
@@ -10251,6 +10271,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 6.0
 }

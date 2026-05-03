@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 88.5,
+  "peak_30d_pct": 86.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 92.3,
@@ -20,12 +20,12 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7113
+    "store_count": 7115
   },
   "histogram": [
     {
       "bucket": "$0.10",
-      "count": 346
+      "count": 345
     },
     {
       "bucket": "$0.19",
@@ -81,7 +81,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1119
+      "count": 1120
     },
     {
       "bucket": "$0.65",
@@ -101,11 +101,11 @@
     },
     {
       "bucket": "$0.79",
-      "count": 150
+      "count": 151
     },
     {
       "bucket": "$0.80",
-      "count": 845
+      "count": 846
     },
     {
       "bucket": "$0.85",
@@ -195,7 +195,7 @@
     {
       "state": "CA",
       "avg_price": 0.7,
-      "store_count": 824
+      "store_count": 825
     },
     {
       "state": "NY",
@@ -280,7 +280,7 @@
     {
       "state": "NC",
       "avg_price": 0.61,
-      "store_count": 256
+      "store_count": 257
     },
     {
       "state": "UT",
@@ -290,7 +290,7 @@
     {
       "state": "SC",
       "avg_price": 0.6,
-      "store_count": 103
+      "store_count": 104
     },
     {
       "state": "NH",
@@ -400,7 +400,7 @@
     {
       "state": "OK",
       "avg_price": 0.2,
-      "store_count": 124
+      "store_count": 123
     },
     {
       "state": "AR",
@@ -578,7 +578,6 @@
     "030397",
     "028483",
     "031577",
-    "030384",
     "004565",
     "026722",
     "030386",
@@ -915,6 +914,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003743",
+      "store_name": "Taco Bell",
+      "city": "Orangeburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-05-03T21:17:06.032376+00:00"
+    },
+    {
+      "store_number": "034202",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-05-03T21:17:02.302582+00:00"
+    },
+    {
+      "store_number": "030384",
+      "store_name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 0.1,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:54.930959+00:00"
+    },
+    {
+      "store_number": "022926",
+      "store_name": "Taco Bell",
+      "city": "Harrisburg",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-05-03T21:16:49.103577+00:00"
+    },
     {
       "store_number": "034200",
       "store_name": "Taco Bell",
@@ -6977,8 +7016,8 @@
     }
   ],
   "activity_summary": {
-    "added": 52,
-    "removed": 546,
+    "added": 55,
+    "removed": 547,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7733,15 +7772,6 @@
       "Taco Bell",
       "Morrilton",
       "AR"
-    ],
-    [
-      "030384",
-      35.4971053401798,
-      -97.74209359411932,
-      0.1,
-      "Taco Bell",
-      "Yukon",
-      "OK"
     ],
     [
       "004565",
@@ -34753,6 +34783,15 @@
       "NC"
     ],
     [
+      "003743",
+      33.490842241661085,
+      -80.85470259189606,
+      0.6,
+      "Taco Bell",
+      "Orangeburg",
+      "SC"
+    ],
+    [
       "026120",
       42.05570962122882,
       -80.08761946926825,
@@ -59791,6 +59830,15 @@
       "NC"
     ],
     [
+      "022926",
+      35.32334088342363,
+      -80.64282081556712,
+      0.79,
+      "Taco Bell",
+      "Harrisburg",
+      "NC"
+    ],
+    [
       "001691",
       41.92836960562754,
       -83.41266377831744,
@@ -63425,6 +63473,15 @@
       "Taco Bell",
       "Romeoville",
       "IL"
+    ],
+    [
+      "034202",
+      39.760635194702786,
+      -121.84889578075854,
+      0.8,
+      "Taco Bell",
+      "Chico",
+      "CA"
     ],
     [
       "032318",

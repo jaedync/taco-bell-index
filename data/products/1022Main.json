@@ -21,7 +21,7 @@
     "max": 3.49,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 717
+    "store_count": 718
   },
   "histogram": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 12
+      "count": 13
     },
     {
       "bucket": "$3.49",
@@ -115,8 +115,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 2.89,
-      "store_count": 5
+      "avg_price": 2.97,
+      "store_count": 6
     },
     {
       "state": "NM",
@@ -209,6 +209,13 @@
       "price": 3.49
     },
     {
+      "store_number": "041105",
+      "name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "price": 3.39
+    },
+    {
       "store_number": "031885",
       "name": "Taco Bell",
       "city": "Elko",
@@ -263,16 +270,19 @@
       "city": "Independence",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "034383",
-      "name": "Taco Bell",
-      "city": "Kansas City",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-03T21:13:16.456230+00:00"
+    },
     {
       "store_number": "041135",
       "store_name": "Taco Bell",
@@ -4035,7 +4045,7 @@
     }
   ],
   "activity_summary": {
-    "added": 106,
+    "added": 107,
     "removed": 124,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
@@ -10488,6 +10498,15 @@
       "Taco Bell",
       "Elko",
       "NV"
+    ],
+    [
+      "041105",
+      34.123606790741,
+      -83.60452047516594,
+      3.39,
+      "Taco Bell",
+      "Jefferson",
+      "GA"
     ],
     [
       "038783",

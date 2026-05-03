@@ -21,12 +21,12 @@
     "max": 10.99,
     "median": 6.99,
     "std_dev": 0.46,
-    "store_count": 76
+    "store_count": 75
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 75
+      "count": 74
     },
     {
       "bucket": "$10.99",
@@ -37,7 +37,7 @@
     {
       "state": "FL",
       "avg_price": 7.04,
-      "store_count": 75
+      "store_count": 74
     }
   ],
   "nutrition": {
@@ -137,7 +137,6 @@
     "036287",
     "036021",
     "035177",
-    "034783",
     "035998",
     "035462",
     "036232",
@@ -276,6 +275,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:26.285960+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -1619,7 +1628,7 @@
   ],
   "activity_summary": {
     "added": 104,
-    "removed": 30,
+    "removed": 31,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1735,15 +1744,6 @@
       6.99,
       "Taco Bell",
       "Palm Bay",
-      "FL"
-    ],
-    [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      6.99,
-      "Taco Bell",
-      "Dunnellon",
       "FL"
     ],
     [

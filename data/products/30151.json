@@ -20,7 +20,7 @@
     "max": 6.69,
     "median": 4.59,
     "std_dev": 0.6,
-    "store_count": 3437
+    "store_count": 3436
   },
   "histogram": [
     {
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 287
+      "count": 288
     },
     {
       "bucket": "$4.69",
@@ -125,7 +125,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 374
+      "count": 372
     },
     {
       "bucket": "$5.06",
@@ -220,7 +220,7 @@
     {
       "state": "WA",
       "avg_price": 5.01,
-      "store_count": 132
+      "store_count": 131
     },
     {
       "state": "CA",
@@ -239,8 +239,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 4.7,
-      "store_count": 193
+      "avg_price": 4.69,
+      "store_count": 192
     },
     {
       "state": "CO",
@@ -295,7 +295,7 @@
     {
       "state": "IN",
       "avg_price": 4.41,
-      "store_count": 123
+      "store_count": 124
     },
     {
       "state": "KY",
@@ -565,6 +565,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "005095",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:42.875600+00:00"
+    },
+    {
+      "store_number": "036426",
+      "store_name": "Taco Bell",
+      "city": "Puyallup",
+      "state": "WA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:27.619148+00:00"
+    },
+    {
+      "store_number": "043006",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.59,
+      "observed_at": "2026-05-03T21:16:26.698479+00:00"
+    },
     {
       "store_number": "031716",
       "store_name": "Taco Bell",
@@ -5197,8 +5227,8 @@
     }
   ],
   "activity_summary": {
-    "added": 182,
-    "removed": 145,
+    "added": 183,
+    "removed": 147,
     "price_changed": 136,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -20508,6 +20538,15 @@
       "NY"
     ],
     [
+      "043006",
+      39.79695284567275,
+      -86.01268830428725,
+      4.59,
+      "Taco Bell",
+      "Indianapolis",
+      "IN"
+    ],
+    [
       "043005",
       39.80137097745973,
       -86.15649241549765,
@@ -28824,15 +28863,6 @@
       "NY"
     ],
     [
-      "036426",
-      47.18437939720152,
-      -122.25693117255726,
-      4.99,
-      "Taco Bell",
-      "Puyallup",
-      "WA"
-    ],
-    [
       "030724",
       33.92225174259553,
       -116.8055075813824,
@@ -29052,15 +29082,6 @@
       "021292",
       42.215707493747495,
       -83.18165165889548,
-      4.99,
-      "Taco Bell",
-      "Southgate",
-      "MI"
-    ],
-    [
-      "005095",
-      42.198830921493176,
-      -83.19256271757894,
       4.99,
       "Taco Bell",
       "Southgate",

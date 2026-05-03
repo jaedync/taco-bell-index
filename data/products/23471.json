@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 86.7,
+  "peak_30d_pct": 85.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 90.9,
@@ -21,7 +21,7 @@
     "max": 7.49,
     "median": 3.39,
     "std_dev": 0.31,
-    "store_count": 7008
+    "store_count": 7006
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 1331
+      "count": 1330
     },
     {
       "bucket": "$3.09",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 1196
+      "count": 1197
     },
     {
       "bucket": "$3.42",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 553
+      "count": 552
     },
     {
       "bucket": "$3.60",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 57
+      "count": 56
     },
     {
       "bucket": "$4.00",
@@ -193,7 +193,7 @@
     {
       "state": "NJ",
       "avg_price": 3.71,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "WA",
@@ -228,7 +228,7 @@
     {
       "state": "MD",
       "avg_price": 3.51,
-      "store_count": 89
+      "store_count": 90
     },
     {
       "state": "RI",
@@ -337,8 +337,8 @@
     },
     {
       "state": "KY",
-      "avg_price": 3.27,
-      "store_count": 158
+      "avg_price": 3.26,
+      "store_count": 157
     },
     {
       "state": "MO",
@@ -408,7 +408,7 @@
     {
       "state": "OK",
       "avg_price": 3.01,
-      "store_count": 126
+      "store_count": 125
     },
     {
       "state": "SD",
@@ -570,6 +570,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040028",
+      "store_name": "Taco Bell",
+      "city": "Westminster",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-03T21:17:08.548389+00:00"
+    },
+    {
+      "store_number": "030384",
+      "store_name": "Taco Bell",
+      "city": "Yukon",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:54.930959+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 3.59,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.746211+00:00"
+    },
+    {
+      "store_number": "039146",
+      "store_name": "Taco Bell",
+      "city": "Haskell",
+      "state": "NJ",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:12:14.231150+00:00"
+    },
     {
       "store_number": "033129",
       "store_name": "Taco Bell",
@@ -31672,8 +31712,8 @@
     }
   ],
   "activity_summary": {
-    "added": 475,
-    "removed": 923,
+    "added": 476,
+    "removed": 926,
     "price_changed": 1712,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -34889,15 +34929,6 @@
       "Taco Bell",
       "Saint Louis",
       "MO"
-    ],
-    [
-      "030384",
-      35.4971053401798,
-      -97.74209359411932,
-      2.99,
-      "Taco Bell",
-      "Yukon",
-      "OK"
     ],
     [
       "032315",
@@ -67471,6 +67502,15 @@
       "NC"
     ],
     [
+      "040028",
+      39.56239729777317,
+      -76.97206214817015,
+      3.39,
+      "Taco Bell",
+      "Westminster",
+      "MD"
+    ],
+    [
       "040958",
       35.46302737341167,
       -83.31318794641984,
@@ -84463,15 +84503,6 @@
       "KY"
     ],
     [
-      "042410",
-      38.19671929207219,
-      -85.78242777036012,
-      3.59,
-      "Taco Bell",
-      "Louisville",
-      "KY"
-    ],
-    [
       "034409",
       39.07709632877934,
       -94.414326906746,
@@ -92777,15 +92808,6 @@
       "Taco Bell",
       "Milford",
       "PA"
-    ],
-    [
-      "039146",
-      41.01819421050541,
-      -74.3005802366573,
-      3.99,
-      "Taco Bell",
-      "Haskell",
-      "NJ"
     ],
     [
       "041498",

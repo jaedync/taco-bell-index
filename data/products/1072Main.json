@@ -21,7 +21,7 @@
     "max": 4.64,
     "median": 2.79,
     "std_dev": 0.27,
-    "store_count": 2680
+    "store_count": 2678
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 418
+      "count": 417
     },
     {
       "bucket": "$2.91",
@@ -122,7 +122,7 @@
     },
     {
       "bucket": "$3.39",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$3.49",
@@ -159,7 +159,7 @@
     {
       "state": "CA",
       "avg_price": 2.94,
-      "store_count": 170
+      "store_count": 169
     },
     {
       "state": "WA",
@@ -207,14 +207,14 @@
       "store_count": 43
     },
     {
-      "state": "NY",
-      "avg_price": 2.8,
-      "store_count": 178
-    },
-    {
       "state": "PA",
       "avg_price": 2.8,
       "store_count": 88
+    },
+    {
+      "state": "NY",
+      "avg_price": 2.8,
+      "store_count": 177
     },
     {
       "state": "FL",
@@ -510,6 +510,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034177",
+      "store_name": "Taco Bell",
+      "city": "Modesto",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:59.608290+00:00"
+    },
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:21.529065+00:00"
+    },
     {
       "store_number": "033338",
       "store_name": "Taco Bell",
@@ -15683,7 +15703,7 @@
   ],
   "activity_summary": {
     "added": 461,
-    "removed": 445,
+    "removed": 447,
     "price_changed": 611,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -32910,15 +32930,6 @@
       "CA"
     ],
     [
-      "034177",
-      37.63838722522282,
-      -121.00022345781326,
-      2.89,
-      "Taco Bell",
-      "Modesto",
-      "CA"
-    ],
-    [
       "034214",
       37.40596944872225,
       -120.85054241803753,
@@ -39594,15 +39605,6 @@
       3.39,
       "Taco Bell Cantina Cantina",
       "Bronx",
-      "NY"
-    ],
-    [
-      "035416",
-      40.86429248720709,
-      -73.92606473960909,
-      3.39,
-      "Taco Bell Cantina Cantina",
-      "New York",
       "NY"
     ],
     [

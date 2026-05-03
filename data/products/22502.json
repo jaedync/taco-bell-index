@@ -11,17 +11,17 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 92.5,
+  "peak_30d_pct": 92.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 97.9,
+  "availability_pct": 98.0,
   "price_stats": {
     "avg": 6.9,
     "min": 4.35,
     "max": 9.99,
     "median": 6.99,
     "std_dev": 0.6,
-    "store_count": 7548
+    "store_count": 7550
   },
   "histogram": [
     {
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$6.49",
-      "count": 428
+      "count": 429
     },
     {
       "bucket": "$6.59",
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$6.79",
-      "count": 312
+      "count": 311
     },
     {
       "bucket": "$6.89",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$6.99",
-      "count": 2255
+      "count": 2256
     },
     {
       "bucket": "$7.00",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 392
+      "count": 393
     },
     {
       "bucket": "$8.19",
@@ -258,8 +258,8 @@
     },
     {
       "state": "CT",
-      "avg_price": 7.58,
-      "store_count": 48
+      "avg_price": 7.59,
+      "store_count": 49
     },
     {
       "state": "DE",
@@ -319,7 +319,7 @@
     {
       "state": "PA",
       "avg_price": 7.17,
-      "store_count": 201
+      "store_count": 202
     },
     {
       "state": "DC",
@@ -359,12 +359,12 @@
     {
       "state": "MO",
       "avg_price": 6.97,
-      "store_count": 227
+      "store_count": 228
     },
     {
       "state": "IN",
       "avg_price": 6.95,
-      "store_count": 257
+      "store_count": 256
     },
     {
       "state": "WY",
@@ -419,7 +419,7 @@
     {
       "state": "OH",
       "avg_price": 6.77,
-      "store_count": 407
+      "store_count": 408
     },
     {
       "state": "OR",
@@ -479,7 +479,7 @@
     {
       "state": "TX",
       "avg_price": 6.43,
-      "store_count": 647
+      "store_count": 646
     },
     {
       "state": "KS",
@@ -659,6 +659,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029417",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-03T21:17:06.889541+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-03T21:16:58.392067+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 6.79,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
+    {
+      "store_number": "041621",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.050438+00:00"
+    },
+    {
+      "store_number": "036001",
+      "store_name": "Taco Bell",
+      "city": "Lees Summit",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-05-03T21:16:22.097028+00:00"
+    },
+    {
+      "store_number": "041901",
+      "store_name": "Taco Bell",
+      "city": "Lock Haven",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-03T21:16:18.444367+00:00"
+    },
     {
       "store_number": "028497",
       "store_name": "Taco Bell",
@@ -20691,8 +20751,8 @@
     }
   ],
   "activity_summary": {
-    "added": 229,
-    "removed": 323,
+    "added": 233,
+    "removed": 325,
     "price_changed": 1451,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -36137,6 +36197,15 @@
       "TN"
     ],
     [
+      "036001",
+      38.91266043055793,
+      -94.44654034121892,
+      6.49,
+      "Taco Bell",
+      "Lees Summit",
+      "MO"
+    ],
+    [
       "036308",
       31.140220923347393,
       -97.32807426333902,
@@ -43787,15 +43856,6 @@
       "DC"
     ],
     [
-      "042727",
-      39.31046,
-      -85.213516,
-      6.79,
-      "Taco Bell",
-      "Batesville",
-      "IN"
-    ],
-    [
       "042861",
       37.9250041,
       -122.3186082,
@@ -49178,6 +49238,15 @@
       "TX"
     ],
     [
+      "041901",
+      41.12963083504987,
+      -77.46670908799614,
+      6.99,
+      "Taco Bell",
+      "Lock Haven",
+      "PA"
+    ],
+    [
       "040721",
       29.5721341,
       -95.0267692,
@@ -50895,15 +50964,6 @@
       "Taco Bell",
       "Ramsey",
       "MN"
-    ],
-    [
-      "041621",
-      29.8645164066,
-      -95.6078184002,
-      6.99,
-      "Taco Bell",
-      "Houston",
-      "TX"
     ],
     [
       "042694",
@@ -56034,6 +56094,15 @@
       "Taco Bell",
       "Rancho Cucamonga",
       "CA"
+    ],
+    [
+      "029417",
+      39.155577625545796,
+      -84.6294905943887,
+      6.99,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
     ],
     [
       "042949",
@@ -84824,6 +84893,15 @@
       7.99,
       "Taco Bell",
       "Windsor Locks",
+      "CT"
+    ],
+    [
+      "029328",
+      41.55402977505185,
+      -72.68083959817892,
+      7.99,
+      "Taco Bell",
+      "Middletown",
       "CT"
     ],
     [

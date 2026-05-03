@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 87.7,
+  "peak_30d_pct": 85.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 91.9,
@@ -21,7 +21,7 @@
     "max": 9.99,
     "median": 6.69,
     "std_dev": 0.61,
-    "store_count": 7082
+    "store_count": 7081
   },
   "histogram": [
     {
@@ -202,7 +202,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 143
+      "count": 142
     },
     {
       "bucket": "$8.19",
@@ -307,14 +307,14 @@
       "store_count": 15
     },
     {
-      "state": "ME",
-      "avg_price": 6.99,
-      "store_count": 7
-    },
-    {
       "state": "NH",
       "avg_price": 6.99,
       "store_count": 12
+    },
+    {
+      "state": "ME",
+      "avg_price": 6.99,
+      "store_count": 6
     },
     {
       "state": "CA",
@@ -329,7 +329,7 @@
     {
       "state": "NY",
       "avg_price": 6.96,
-      "store_count": 245
+      "store_count": 246
     },
     {
       "state": "IL",
@@ -358,8 +358,8 @@
     },
     {
       "state": "KY",
-      "avg_price": 6.86,
-      "store_count": 159
+      "avg_price": 6.85,
+      "store_count": 158
     },
     {
       "state": "CO",
@@ -646,6 +646,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.746211+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-03T21:16:25.262338+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
     {
       "store_number": "033129",
       "store_name": "Taco Bell",
@@ -29568,8 +29598,8 @@
     }
   ],
   "activity_summary": {
-    "added": 350,
-    "removed": 802,
+    "added": 351,
+    "removed": 804,
     "price_changed": 1740,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -70821,15 +70851,6 @@
       "ME"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      6.99,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "034611",
       40.371738586521595,
       -80.68859002919037,
@@ -71008,6 +71029,15 @@
       "Taco Bell",
       "Girard",
       "PA"
+    ],
+    [
+      "036328",
+      42.09826888342504,
+      -79.30401088300437,
+      6.99,
+      "Taco Bell",
+      "Lakewood",
+      "NY"
     ],
     [
       "036410",
@@ -92229,15 +92259,6 @@
       7.99,
       "Taco Bell",
       "Shelbyville",
-      "KY"
-    ],
-    [
-      "042410",
-      38.19671929207219,
-      -85.78242777036012,
-      7.99,
-      "Taco Bell",
-      "Louisville",
       "KY"
     ],
     [

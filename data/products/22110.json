@@ -14,16 +14,20 @@
   "peak_30d_pct": 93.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.03,
-    "min": 1.59,
+    "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7703
+    "store_count": 7702
   },
   "histogram": [
+    {
+      "bucket": "$0.99",
+      "count": 1
+    },
     {
       "bucket": "$1.59",
       "count": 1
@@ -46,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4367
+      "count": 4365
     },
     {
       "bucket": "$2.00",
@@ -66,7 +70,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1078
+      "count": 1077
     },
     {
       "bucket": "$2.20",
@@ -126,7 +130,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 50
+      "count": 51
     },
     {
       "bucket": "$2.89",
@@ -173,7 +177,7 @@
     {
       "state": "CT",
       "avg_price": 2.68,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "NY",
@@ -183,7 +187,7 @@
     {
       "state": "MA",
       "avg_price": 2.3,
-      "store_count": 66
+      "store_count": 65
     },
     {
       "state": "CA",
@@ -343,7 +347,7 @@
     {
       "state": "IN",
       "avg_price": 1.98,
-      "store_count": 261
+      "store_count": 260
     },
     {
       "state": "VA",
@@ -437,6 +441,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "040318",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.99
+    },
+    {
       "store_number": "031484",
       "name": "Taco Bell",
       "city": "Window Rock",
@@ -498,17 +509,10 @@
       "city": "Battle Creek",
       "state": "MI",
       "price": 1.69
-    },
-    {
-      "store_number": "040891",
-      "name": "Taco Bell",
-      "city": "Lakeville",
-      "state": "MN",
-      "price": 1.69
     }
   ],
   "min_price_store_numbers": [
-    "031484"
+    "040318"
   ],
   "priciest_stores": [
     {
@@ -583,6 +587,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-03T21:16:58.392067+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
+    {
+      "store_number": "040318",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "price_change",
+      "old_price": 1.99,
+      "new_price": 0.99,
+      "observed_at": "2026-05-03T21:13:16.106601+00:00"
+    },
     {
       "store_number": "029328",
       "store_name": "Taco Bell",
@@ -3335,9 +3379,9 @@
     }
   ],
   "activity_summary": {
-    "added": 49,
-    "removed": 38,
-    "price_changed": 188,
+    "added": 50,
+    "removed": 40,
+    "price_changed": 189,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 180,
@@ -3345,6 +3389,15 @@
   "calories_max": 180,
   "combo_groups": [],
   "map_data": [
+    [
+      "040318",
+      41.807919921888036,
+      -87.74351908680534,
+      0.99,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "031484",
       35.66402882084004,
@@ -18142,15 +18195,6 @@
       "AR"
     ],
     [
-      "040318",
-      41.807919921888036,
-      -87.74351908680534,
-      1.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "041646",
       36.132926,
       -95.924655,
@@ -22658,15 +22702,6 @@
       "Taco Bell",
       "Selmer",
       "TN"
-    ],
-    [
-      "042727",
-      39.31046,
-      -85.213516,
-      1.99,
-      "Taco Bell",
-      "Batesville",
-      "IN"
     ],
     [
       "042681",
@@ -60199,15 +60234,6 @@
       "CA"
     ],
     [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      2.19,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
-    ],
-    [
       "031805",
       40.073290002810296,
       -75.08424917790978,
@@ -71572,6 +71598,15 @@
       2.79,
       "Taco Bell",
       "Windsor Locks",
+      "CT"
+    ],
+    [
+      "029328",
+      41.55402977505185,
+      -72.68083959817892,
+      2.79,
+      "Taco Bell",
+      "Middletown",
       "CT"
     ],
     [

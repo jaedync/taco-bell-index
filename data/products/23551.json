@@ -22,7 +22,7 @@
     "max": 18.99,
     "median": 6.99,
     "std_dev": 1.35,
-    "store_count": 6884
+    "store_count": 6880
   },
   "histogram": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 999
+      "count": 997
     },
     {
       "bucket": "$6.00",
@@ -87,11 +87,11 @@
     },
     {
       "bucket": "$6.99",
-      "count": 1197
+      "count": 1196
     },
     {
       "bucket": "$7.00",
-      "count": 752
+      "count": 751
     },
     {
       "bucket": "$7.09",
@@ -99,7 +99,7 @@
     },
     {
       "bucket": "$7.19",
-      "count": 62
+      "count": 61
     },
     {
       "bucket": "$7.25",
@@ -131,7 +131,7 @@
     },
     {
       "bucket": "$7.59",
-      "count": 36
+      "count": 37
     },
     {
       "bucket": "$7.69",
@@ -308,8 +308,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 7.98,
-      "store_count": 399
+      "avg_price": 7.99,
+      "store_count": 398
     },
     {
       "state": "MI",
@@ -318,8 +318,8 @@
     },
     {
       "state": "CT",
-      "avg_price": 7.95,
-      "store_count": 43
+      "avg_price": 7.94,
+      "store_count": 44
     },
     {
       "state": "IL",
@@ -344,7 +344,7 @@
     {
       "state": "IN",
       "avg_price": 7.31,
-      "store_count": 230
+      "store_count": 229
     },
     {
       "state": "MA",
@@ -389,7 +389,7 @@
     {
       "state": "OH",
       "avg_price": 7.06,
-      "store_count": 350
+      "store_count": 349
     },
     {
       "state": "NH",
@@ -399,7 +399,7 @@
     {
       "state": "ME",
       "avg_price": 7.0,
-      "store_count": 7
+      "store_count": 6
     },
     {
       "state": "LA",
@@ -474,7 +474,7 @@
     {
       "state": "TX",
       "avg_price": 6.46,
-      "store_count": 644
+      "store_count": 643
     },
     {
       "state": "ID",
@@ -747,6 +747,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-05-03T21:16:58.392067+00:00"
+    },
+    {
+      "store_number": "005283",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:49.999227+00:00"
+    },
+    {
+      "store_number": "040535",
+      "store_name": "Taco Bell",
+      "city": "East Cleveland",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-05-03T21:16:43.101873+00:00"
+    },
+    {
+      "store_number": "036793",
+      "store_name": "Taco Bell",
+      "city": "Medina",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 7.19,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:40.290175+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
+    {
+      "store_number": "041621",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.050438+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:26.285960+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
     {
       "store_number": "039547",
       "store_name": "Taco Bell",
@@ -16699,8 +16779,8 @@
     }
   ],
   "activity_summary": {
-    "added": 826,
-    "removed": 755,
+    "added": 828,
+    "removed": 761,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -18796,15 +18876,6 @@
       "MO"
     ],
     [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      5.99,
-      "Taco Bell",
-      "Dunnellon",
-      "FL"
-    ],
-    [
       "039752",
       36.133706347446584,
       -79.78917770350999,
@@ -19100,15 +19171,6 @@
       "Taco Bell",
       "Battle Mountain",
       "NV"
-    ],
-    [
-      "041621",
-      29.8645164066,
-      -95.6078184002,
-      5.99,
-      "Taco Bell",
-      "Houston",
-      "TX"
     ],
     [
       "042512",
@@ -42250,15 +42312,6 @@
       "MI"
     ],
     [
-      "042727",
-      39.31046,
-      -85.213516,
-      6.99,
-      "Taco Bell",
-      "Batesville",
-      "IN"
-    ],
-    [
       "042870",
       43.40747671659171,
       -85.03253609905441,
@@ -51943,15 +51996,6 @@
       "ME"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      7.0,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "034611",
       40.371738586521595,
       -80.68859002919037,
@@ -52546,6 +52590,15 @@
       "OH"
     ],
     [
+      "040535",
+      41.52477514962175,
+      -81.58726255092614,
+      7.0,
+      "Taco Bell",
+      "East Cleveland",
+      "OH"
+    ],
+    [
       "030665",
       41.032298,
       -81.490899,
@@ -52702,15 +52755,6 @@
       "040530",
       41.447602176636636,
       -81.56517054140465,
-      7.0,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
-    ],
-    [
-      "005283",
-      41.52009893986867,
-      -81.51647195888482,
       7.0,
       "Taco Bell",
       "Cleveland",
@@ -58603,15 +58647,6 @@
       "MI"
     ],
     [
-      "036793",
-      41.15633214157802,
-      -81.86314942119543,
-      7.19,
-      "Taco Bell",
-      "Medina",
-      "OH"
-    ],
-    [
       "027702",
       41.366811810849754,
       -82.11067236495188,
@@ -64297,6 +64332,15 @@
       7.59,
       "Taco Bell",
       "Windsor Locks",
+      "CT"
+    ],
+    [
+      "029328",
+      41.55402977505185,
+      -72.68083959817892,
+      7.59,
+      "Taco Bell",
+      "Middletown",
       "CT"
     ],
     [

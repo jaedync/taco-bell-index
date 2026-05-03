@@ -21,7 +21,7 @@
     "max": 4.29,
     "median": 2.79,
     "std_dev": 0.23,
-    "store_count": 6436
+    "store_count": 6432
   },
   "histogram": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 89
+      "count": 90
     },
     {
       "bucket": "$2.29",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 542
+      "count": 541
     },
     {
       "bucket": "$2.59",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 1425
+      "count": 1424
     },
     {
       "bucket": "$2.80",
@@ -94,7 +94,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 1109
+      "count": 1107
     },
     {
       "bucket": "$2.91",
@@ -118,7 +118,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 650
+      "count": 649
     },
     {
       "bucket": "$3.00",
@@ -205,11 +205,6 @@
       "store_count": 11
     },
     {
-      "state": "ME",
-      "avg_price": 2.89,
-      "store_count": 6
-    },
-    {
       "state": "OR",
       "avg_price": 2.88,
       "store_count": 115
@@ -267,7 +262,7 @@
     {
       "state": "PA",
       "avg_price": 2.8,
-      "store_count": 178
+      "store_count": 177
     },
     {
       "state": "MO",
@@ -372,12 +367,12 @@
     {
       "state": "TX",
       "avg_price": 2.62,
-      "store_count": 202
+      "store_count": 201
     },
     {
       "state": "GA",
       "avg_price": 2.62,
-      "store_count": 226
+      "store_count": 227
     },
     {
       "state": "IN",
@@ -397,7 +392,7 @@
     {
       "state": "OH",
       "avg_price": 2.51,
-      "store_count": 393
+      "store_count": 392
     },
     {
       "state": "NE",
@@ -582,6 +577,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035447",
+      "store_name": "Taco Bell",
+      "city": "Denton",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:06.053708+00:00"
+    },
+    {
+      "store_number": "035352",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:51.139031+00:00"
+    },
+    {
+      "store_number": "042754",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-05-03T21:16:33.349505+00:00"
+    },
+    {
+      "store_number": "042173",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.950577+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
+    {
+      "store_number": "041070",
+      "store_name": "Taco Bell",
+      "city": "Newport",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 2.89,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:12:14.903374+00:00"
+    },
     {
       "store_number": "024689",
       "store_name": "Taco Bell",
@@ -24454,8 +24509,8 @@
     }
   ],
   "activity_summary": {
-    "added": 517,
-    "removed": 464,
+    "added": 518,
+    "removed": 469,
     "price_changed": 1406,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26668,6 +26723,15 @@
       "Taco Bell",
       "Midland",
       "TX"
+    ],
+    [
+      "042754",
+      32.35068221245207,
+      -81.29641845950718,
+      2.19,
+      "Taco Bell",
+      "Springfield",
+      "GA"
     ],
     [
       "040386",
@@ -34255,15 +34319,6 @@
       "Taco Bell",
       "Englewood",
       "OH"
-    ],
-    [
-      "035447",
-      33.19891359717754,
-      -97.13740740718094,
-      2.49,
-      "Taco Bell",
-      "Denton",
-      "TX"
     ],
     [
       "036280",
@@ -54525,15 +54580,6 @@
       "MI"
     ],
     [
-      "035352",
-      41.40557033739376,
-      -81.6915799677372,
-      2.79,
-      "Taco Bell",
-      "Parma",
-      "OH"
-    ],
-    [
       "035358",
       41.44028763704379,
       -81.7272537499656,
@@ -64587,15 +64633,6 @@
       "AR"
     ],
     [
-      "041070",
-      44.83811723530731,
-      -69.28456855398464,
-      2.89,
-      "Taco Bell",
-      "Newport",
-      "ME"
-    ],
-    [
       "040297",
       36.83725755525886,
       -76.30765122227399,
@@ -65295,15 +65332,6 @@
       2.89,
       "Taco Bell",
       "Augusta",
-      "ME"
-    ],
-    [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      2.89,
-      "Taco Bell",
-      "Portland",
       "ME"
     ],
     [
@@ -75700,15 +75728,6 @@
       "Taco Bell",
       "Perris",
       "CA"
-    ],
-    [
-      "042173",
-      39.95124065528925,
-      -75.16795417485142,
-      2.99,
-      "Taco Bell",
-      "Philadelphia",
-      "PA"
     ],
     [
       "041163",

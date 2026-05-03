@@ -21,12 +21,12 @@
     "max": 11.49,
     "median": 9.99,
     "std_dev": 0.35,
-    "store_count": 485
+    "store_count": 484
   },
   "histogram": [
     {
       "bucket": "$9.99",
-      "count": 421
+      "count": 420
     },
     {
       "bucket": "$10.99",
@@ -46,7 +46,7 @@
     {
       "state": "TN",
       "avg_price": 9.99,
-      "store_count": 89
+      "store_count": 88
     },
     {
       "state": "SC",
@@ -357,7 +357,6 @@
     "042572",
     "018678",
     "042833",
-    "009575",
     "039945",
     "039923",
     "029097",
@@ -646,6 +645,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009575",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 9.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:02.903313+00:00"
+    },
     {
       "store_number": "042945",
       "store_name": "Taco Bell",
@@ -8539,7 +8548,7 @@
   ],
   "activity_summary": {
     "added": 637,
-    "removed": 152,
+    "removed": 153,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10426,15 +10435,6 @@
       "Taco Bell",
       "Mobile",
       "AL"
-    ],
-    [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      9.99,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
     ],
     [
       "039945",

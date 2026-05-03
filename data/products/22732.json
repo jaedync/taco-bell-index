@@ -10,7 +10,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 85.4,
+  "peak_30d_pct": 84.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 89.9,
@@ -20,7 +20,7 @@
     "max": 1.09,
     "median": 0.6,
     "std_dev": 0.18,
-    "store_count": 6929
+    "store_count": 6928
   },
   "histogram": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "bucket": "$0.44",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$0.45",
@@ -344,7 +344,7 @@
     {
       "state": "TX",
       "avg_price": 0.54,
-      "store_count": 681
+      "store_count": 680
     },
     {
       "state": "MA",
@@ -576,6 +576,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041621",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.44,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.050438+00:00"
+    },
     {
       "store_number": "034201",
       "store_name": "Taco Bell",
@@ -10239,7 +10249,7 @@
   ],
   "activity_summary": {
     "added": 263,
-    "removed": 696,
+    "removed": 697,
     "price_changed": 7,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -21775,15 +21785,6 @@
       0.44,
       "Taco Bell",
       "Bulverde",
-      "TX"
-    ],
-    [
-      "041621",
-      29.8645164066,
-      -95.6078184002,
-      0.44,
-      "Taco Bell",
-      "Houston",
       "TX"
     ],
     [

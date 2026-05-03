@@ -19,8 +19,8 @@
     "min": 3.39,
     "max": 6.99,
     "median": 5.89,
-    "std_dev": 0.44,
-    "store_count": 484
+    "std_dev": 0.45,
+    "store_count": 483
   },
   "histogram": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 77
+      "count": 76
     },
     {
       "bucket": "$6.19",
@@ -127,7 +127,7 @@
     {
       "state": "TN",
       "avg_price": 5.82,
-      "store_count": 86
+      "store_count": 85
     },
     {
       "state": "FL",
@@ -298,6 +298,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "009575",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:02.903313+00:00"
+    },
     {
       "store_number": "042945",
       "store_name": "Taco Bell",
@@ -8951,7 +8961,7 @@
   ],
   "activity_summary": {
     "added": 533,
-    "removed": 49,
+    "removed": 50,
     "price_changed": 283,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11787,15 +11797,6 @@
       "GA"
     ],
     [
-      "009575",
-      35.92910610401162,
-      -84.03315244256207,
-      5.99,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "016335",
       35.810910605655216,
       -84.26391898537986,
@@ -13318,6 +13319,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-02",
+  "last_seen_date": "2026-05-03",
   "peak_availability_pct": 5.9
 }

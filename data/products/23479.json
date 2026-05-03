@@ -11,7 +11,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": false,
-  "peak_30d_pct": 87.0,
+  "peak_30d_pct": 85.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 91.1,
@@ -21,7 +21,7 @@
     "max": 18.99,
     "median": 11.29,
     "std_dev": 0.85,
-    "store_count": 7023
+    "store_count": 7018
   },
   "histogram": [
     {
@@ -42,11 +42,11 @@
     },
     {
       "bucket": "$10.69",
-      "count": 267
+      "count": 265
     },
     {
       "bucket": "$10.79",
-      "count": 377
+      "count": 376
     },
     {
       "bucket": "$10.89",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 778
+      "count": 776
     },
     {
       "bucket": "$11.09",
@@ -114,7 +114,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 478
+      "count": 477
     },
     {
       "bucket": "$12.00",
@@ -186,7 +186,7 @@
     },
     {
       "bucket": "$12.89",
-      "count": 55
+      "count": 56
     },
     {
       "bucket": "$12.90",
@@ -276,8 +276,8 @@
     },
     {
       "state": "CT",
-      "avg_price": 12.67,
-      "store_count": 48
+      "avg_price": 12.68,
+      "store_count": 49
     },
     {
       "state": "RI",
@@ -300,19 +300,19 @@
       "store_count": 46
     },
     {
+      "state": "MI",
+      "avg_price": 11.96,
+      "store_count": 338
+    },
+    {
       "state": "CA",
       "avg_price": 11.95,
       "store_count": 825
     },
     {
-      "state": "MI",
-      "avg_price": 11.95,
-      "store_count": 339
-    },
-    {
       "state": "MA",
-      "avg_price": 11.89,
-      "store_count": 65
+      "avg_price": 11.91,
+      "store_count": 64
     },
     {
       "state": "NY",
@@ -432,7 +432,7 @@
     {
       "state": "KY",
       "avg_price": 11.05,
-      "store_count": 160
+      "store_count": 159
     },
     {
       "state": "KS",
@@ -442,7 +442,7 @@
     {
       "state": "IN",
       "avg_price": 11.03,
-      "store_count": 242
+      "store_count": 241
     },
     {
       "state": "MO",
@@ -456,8 +456,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 10.92,
-      "store_count": 689
+      "avg_price": 10.93,
+      "store_count": 688
     },
     {
       "state": "MN",
@@ -482,7 +482,7 @@
     {
       "state": "ME",
       "avg_price": 10.69,
-      "store_count": 6
+      "store_count": 5
     },
     {
       "state": "MS",
@@ -775,6 +775,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "029328",
+      "store_name": "Taco Bell",
+      "city": "Middletown",
+      "state": "CT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.89,
+      "observed_at": "2026-05-03T21:16:58.392067+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:45.760315+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
+    {
+      "store_number": "041621",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 10.79,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.050438+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:30.746211+00:00"
+    },
+    {
+      "store_number": "036029",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "ME",
+      "change_type": "item_removed",
+      "old_price": 10.69,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:22.838340+00:00"
+    },
     {
       "store_number": "033129",
       "store_name": "Taco Bell",
@@ -32417,8 +32487,8 @@
     }
   ],
   "activity_summary": {
-    "added": 479,
-    "removed": 954,
+    "added": 480,
+    "removed": 960,
     "price_changed": 1731,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -42800,15 +42870,6 @@
       "ME"
     ],
     [
-      "036029",
-      43.6993839466971,
-      -70.28726846567676,
-      10.69,
-      "Taco Bell",
-      "Portland",
-      "ME"
-    ],
-    [
       "035137",
       40.00077496566127,
       -105.0156923623561,
@@ -43221,15 +43282,6 @@
       "Taco Bell",
       "Littleton",
       "CO"
-    ],
-    [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      10.69,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
     ],
     [
       "004241",
@@ -45318,15 +45370,6 @@
       "Taco Bell",
       "Mitchell",
       "IN"
-    ],
-    [
-      "041621",
-      29.8645164066,
-      -95.6078184002,
-      10.79,
-      "Taco Bell",
-      "Houston",
-      "TX"
     ],
     [
       "041271",
@@ -54725,15 +54768,6 @@
       "MI"
     ],
     [
-      "024745",
-      42.21337151111523,
-      -83.5428901715295,
-      10.99,
-      "Taco Bell",
-      "Belleville",
-      "MI"
-    ],
-    [
       "036778",
       36.50870180900128,
       -87.27546747028725,
@@ -59835,15 +59869,6 @@
       "Taco Bell",
       "Schenectady",
       "NY"
-    ],
-    [
-      "042410",
-      38.19671929207219,
-      -85.78242777036012,
-      10.99,
-      "Taco Bell",
-      "Louisville",
-      "KY"
     ],
     [
       "036431",
@@ -78143,15 +78168,6 @@
       "NJ"
     ],
     [
-      "042727",
-      39.31046,
-      -85.213516,
-      11.99,
-      "Taco Bell",
-      "Batesville",
-      "IN"
-    ],
-    [
       "042233",
       39.95566,
       -75.2001,
@@ -92612,6 +92628,15 @@
       12.89,
       "Taco Bell",
       "Windsor Locks",
+      "CT"
+    ],
+    [
+      "029328",
+      41.55402977505185,
+      -72.68083959817892,
+      12.89,
+      "Taco Bell",
+      "Middletown",
       "CT"
     ],
     [

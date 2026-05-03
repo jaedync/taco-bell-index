@@ -14,14 +14,14 @@
   "peak_30d_pct": 91.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 97.5,
+  "availability_pct": 97.4,
   "price_stats": {
     "avg": 5.38,
     "min": 3.29,
     "max": 8.99,
     "median": 5.39,
     "std_dev": 0.63,
-    "store_count": 7512
+    "store_count": 7507
   },
   "histogram": [
     {
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 277
+      "count": 276
     },
     {
       "bucket": "$4.89",
@@ -126,11 +126,11 @@
     },
     {
       "bucket": "$5.49",
-      "count": 702
+      "count": 700
     },
     {
       "bucket": "$5.59",
-      "count": 329
+      "count": 328
     },
     {
       "bucket": "$5.66",
@@ -174,7 +174,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 511
+      "count": 510
     },
     {
       "bucket": "$6.09",
@@ -182,7 +182,7 @@
     },
     {
       "bucket": "$6.19",
-      "count": 305
+      "count": 304
     },
     {
       "bucket": "$6.20",
@@ -222,7 +222,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 61
+      "count": 62
     },
     {
       "bucket": "$6.60",
@@ -346,7 +346,7 @@
     {
       "state": "OH",
       "avg_price": 5.58,
-      "store_count": 401
+      "store_count": 400
     },
     {
       "state": "NY",
@@ -379,14 +379,14 @@
       "store_count": 149
     },
     {
-      "state": "MA",
-      "avg_price": 5.49,
-      "store_count": 62
-    },
-    {
       "state": "LA",
       "avg_price": 5.48,
       "store_count": 134
+    },
+    {
+      "state": "MA",
+      "avg_price": 5.47,
+      "store_count": 60
     },
     {
       "state": "WV",
@@ -420,8 +420,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.17,
-      "store_count": 442
+      "avg_price": 5.18,
+      "store_count": 441
     },
     {
       "state": "NC",
@@ -485,8 +485,8 @@
     },
     {
       "state": "IN",
-      "avg_price": 4.81,
-      "store_count": 254
+      "avg_price": 4.8,
+      "store_count": 253
     },
     {
       "state": "SD",
@@ -672,6 +672,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034202",
+      "store_name": "Taco Bell",
+      "city": "Chico",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.59,
+      "observed_at": "2026-05-03T21:17:02.302582+00:00"
+    },
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 6.19,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:01.274100+00:00"
+    },
+    {
+      "store_number": "030774",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:00.934126+00:00"
+    },
+    {
+      "store_number": "040872",
+      "store_name": "Taco Bell",
+      "city": "New Bedford",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 5.59,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:58.360210+00:00"
+    },
+    {
+      "store_number": "005283",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:49.999227+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:32.888588+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:26.285960+00:00"
+    },
     {
       "store_number": "040763",
       "store_name": "Taco Bell Cantina Cantina",
@@ -32864,8 +32934,8 @@
     }
   ],
   "activity_summary": {
-    "added": 678,
-    "removed": 575,
+    "added": 679,
+    "removed": 581,
     "price_changed": 1966,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -42997,15 +43067,6 @@
       4.79,
       "Taco Bell",
       "Palm Bay",
-      "FL"
-    ],
-    [
-      "034783",
-      29.05630760923329,
-      -82.45670382723803,
-      4.79,
-      "Taco Bell",
-      "Dunnellon",
       "FL"
     ],
     [
@@ -70819,15 +70880,6 @@
       "MI"
     ],
     [
-      "005283",
-      41.52009893986867,
-      -81.51647195888482,
-      5.49,
-      "Taco Bell",
-      "Cleveland",
-      "OH"
-    ],
-    [
       "020465",
       40.87998442823379,
       -81.43787398005776,
@@ -71482,15 +71534,6 @@
       5.49,
       "Taco Bell",
       "Fillmore",
-      "CA"
-    ],
-    [
-      "030774",
-      37.71398398344926,
-      -122.1573954820633,
-      5.49,
-      "Taco Bell",
-      "San Leandro",
       "CA"
     ],
     [
@@ -76640,15 +76683,6 @@
       "Taco Bell",
       "Warwick",
       "RI"
-    ],
-    [
-      "040872",
-      41.65710710754818,
-      -70.92017229656201,
-      5.59,
-      "Taco Bell",
-      "New Bedford",
-      "MA"
     ],
     [
       "035740",
@@ -88378,15 +88412,6 @@
       "OH"
     ],
     [
-      "042727",
-      39.31046,
-      -85.213516,
-      5.99,
-      "Taco Bell",
-      "Batesville",
-      "IN"
-    ],
-    [
       "037348",
       45.667560817458465,
       -120.83672555398465,
@@ -93589,15 +93614,6 @@
       "MI"
     ],
     [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      6.19,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
-    ],
-    [
       "031715",
       42.35034979667174,
       -71.49922460317612,
@@ -98410,6 +98426,15 @@
       6.59,
       "Taco Bell",
       "Citrus Heights",
+      "CA"
+    ],
+    [
+      "034202",
+      39.760635194702786,
+      -121.84889578075854,
+      6.59,
+      "Taco Bell",
+      "Chico",
       "CA"
     ],
     [

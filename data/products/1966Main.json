@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 173
+      "count": 172
     },
     {
       "bucket": "$1.69",
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 234
+      "count": 235
     },
     {
       "bucket": "$1.89",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1058
+      "count": 1057
     },
     {
       "bucket": "$2.08",
@@ -98,7 +98,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 212
+      "count": 211
     },
     {
       "bucket": "$2.57",
@@ -138,7 +138,7 @@
     },
     {
       "bucket": "$3.03",
-      "count": 7
+      "count": 9
     },
     {
       "bucket": "$3.39",
@@ -157,8 +157,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 2.52,
-      "store_count": 108
+      "avg_price": 2.53,
+      "store_count": 110
     },
     {
       "state": "NH",
@@ -203,7 +203,7 @@
     {
       "state": "GA",
       "avg_price": 2.18,
-      "store_count": 102
+      "store_count": 101
     },
     {
       "state": "KY",
@@ -248,7 +248,7 @@
     {
       "state": "FL",
       "avg_price": 2.01,
-      "store_count": 196
+      "store_count": 197
     },
     {
       "state": "NV",
@@ -328,7 +328,7 @@
     {
       "state": "MI",
       "avg_price": 1.81,
-      "store_count": 187
+      "store_count": 186
     },
     {
       "state": "SC",
@@ -366,14 +366,14 @@
       "store_count": 11
     },
     {
+      "state": "IN",
+      "avg_price": 1.65,
+      "store_count": 55
+    },
+    {
       "state": "MO",
       "avg_price": 1.65,
       "store_count": 79
-    },
-    {
-      "state": "IN",
-      "avg_price": 1.65,
-      "store_count": 56
     },
     {
       "state": "AR",
@@ -512,7 +512,21 @@
       "price": 3.39
     },
     {
+      "store_number": "036795",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 3.03
+    },
+    {
       "store_number": "037389",
+      "name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "price": 3.03
+    },
+    {
+      "store_number": "036455",
       "name": "Taco Bell",
       "city": "Brooklyn",
       "state": "NY",
@@ -545,23 +559,69 @@
       "city": "Howard Beach",
       "state": "NY",
       "price": 3.03
-    },
-    {
-      "store_number": "039957",
-      "name": "Taco Bell",
-      "city": "Ridgewood",
-      "state": "NY",
-      "price": 3.03
-    },
-    {
-      "store_number": "037051",
-      "name": "Taco Bell",
-      "city": "Brooklyn",
-      "state": "NY",
-      "price": 3.03
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041319",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:09.404339+00:00"
+    },
+    {
+      "store_number": "016044",
+      "store_name": "Taco Bell",
+      "city": "Muncie",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 1.59,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:17:05.471157+00:00"
+    },
+    {
+      "store_number": "004370",
+      "store_name": "Taco Bell",
+      "city": "Panama City Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-05-03T21:17:05.250449+00:00"
+    },
+    {
+      "store_number": "001999",
+      "store_name": "Taco Bell",
+      "city": "Beverly Hills",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-05-03T21:16:47.644230+00:00"
+    },
+    {
+      "store_number": "036795",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.03,
+      "observed_at": "2026-05-03T21:16:28.479234+00:00"
+    },
+    {
+      "store_number": "036455",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.03,
+      "observed_at": "2026-05-03T21:16:27.343382+00:00"
+    },
     {
       "store_number": "039106",
       "store_name": "Taco Bell",
@@ -13974,8 +14034,8 @@
     }
   ],
   "activity_summary": {
-    "added": 775,
-    "removed": 563,
+    "added": 778,
+    "removed": 566,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -18150,15 +18210,6 @@
       "Taco Bell",
       "Mount Morris",
       "MI"
-    ],
-    [
-      "016044",
-      40.18829465303522,
-      -85.41947208350393,
-      1.59,
-      "Taco Bell",
-      "Muncie",
-      "IN"
     ],
     [
       "002367",
@@ -22445,6 +22496,15 @@
       "AZ"
     ],
     [
+      "004370",
+      30.189150774079152,
+      -85.76022725986559,
+      1.79,
+      "Taco Bell",
+      "Panama City Beach",
+      "FL"
+    ],
+    [
       "029423",
       38.531755929387835,
       -121.95580020549642,
@@ -26726,15 +26786,6 @@
       1.99,
       "Taco Bell",
       "Novi",
-      "MI"
-    ],
-    [
-      "001999",
-      42.519359096000706,
-      -83.2238550391321,
-      1.99,
-      "Taco Bell",
-      "Beverly Hills",
       "MI"
     ],
     [
@@ -40805,15 +40856,6 @@
       "CA"
     ],
     [
-      "041319",
-      34.17765211148667,
-      -84.42180990125053,
-      2.49,
-      "Taco Bell",
-      "Canton",
-      "GA"
-    ],
-    [
       "031977",
       33.12109809935797,
       -117.31969450415818,
@@ -43775,11 +43817,29 @@
       "NY"
     ],
     [
+      "036455",
+      40.6697473363658,
+      -73.91195812676696,
+      3.03,
+      "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
       "037389",
       40.60494854533512,
       -73.99835681056516,
       3.03,
       "Taco Bell",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "036795",
+      40.57579838830771,
+      -73.97948212062366,
+      3.03,
+      "Taco Bell Cantina Cantina",
       "Brooklyn",
       "NY"
     ],
