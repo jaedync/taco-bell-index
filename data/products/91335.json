@@ -22,12 +22,12 @@
     "max": 3.99,
     "median": 2.79,
     "std_dev": 0.1,
-    "store_count": 484
+    "store_count": 482
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 471
+      "count": 469
     },
     {
       "bucket": "$2.99",
@@ -56,7 +56,7 @@
     {
       "state": "TN",
       "avg_price": 2.79,
-      "store_count": 86
+      "store_count": 85
     },
     {
       "state": "SC",
@@ -66,7 +66,7 @@
     {
       "state": "AL",
       "avg_price": 2.79,
-      "store_count": 118
+      "store_count": 117
     }
   ],
   "nutrition": {
@@ -254,7 +254,6 @@
     "037191",
     "037127",
     "037047",
-    "037105",
     "037038",
     "037013",
     "037370",
@@ -325,7 +324,6 @@
     "029037",
     "029622",
     "029024",
-    "016818",
     "029013",
     "034362",
     "029144",
@@ -701,6 +699,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016818",
+      "store_name": "Taco Bell",
+      "city": "Dayton",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:51.956351+00:00"
+    },
+    {
+      "store_number": "037105",
+      "store_name": "Taco Bell",
+      "city": "Talladega",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:08.811247+00:00"
+    },
     {
       "store_number": "041260",
       "store_name": "Taco Bell",
@@ -6124,7 +6142,7 @@
   ],
   "activity_summary": {
     "added": 513,
-    "removed": 29,
+    "removed": 31,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7016,15 +7034,6 @@
       "GA"
     ],
     [
-      "037105",
-      33.4393026,
-      -86.0823143,
-      2.79,
-      "Taco Bell",
-      "Talladega",
-      "AL"
-    ],
-    [
       "037038",
       36.43596602758595,
       -84.93641937395971,
@@ -7652,15 +7661,6 @@
       2.79,
       "Taco Bell",
       "Chattanooga",
-      "TN"
-    ],
-    [
-      "016818",
-      35.51297706558932,
-      -84.99908131874218,
-      2.79,
-      "Taco Bell",
-      "Dayton",
       "TN"
     ],
     [
@@ -10491,6 +10491,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.9
 }

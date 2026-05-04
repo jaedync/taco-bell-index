@@ -13,14 +13,14 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.2,
   "price_stats": {
     "avg": 5.93,
     "min": 3.39,
     "max": 6.99,
     "median": 5.89,
-    "std_dev": 0.45,
-    "store_count": 483
+    "std_dev": 0.44,
+    "store_count": 478
   },
   "histogram": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$4.89",
@@ -61,15 +61,15 @@
     },
     {
       "bucket": "$5.79",
-      "count": 129
+      "count": 128
     },
     {
       "bucket": "$5.89",
-      "count": 61
+      "count": 60
     },
     {
       "bucket": "$5.99",
-      "count": 76
+      "count": 75
     },
     {
       "bucket": "$6.19",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 43
+      "count": 42
     },
     {
       "bucket": "$6.69",
@@ -112,12 +112,12 @@
     {
       "state": "GA",
       "avg_price": 6.04,
-      "store_count": 236
+      "store_count": 233
     },
     {
       "state": "SC",
       "avg_price": 5.88,
-      "store_count": 8
+      "store_count": 7
     },
     {
       "state": "AL",
@@ -127,7 +127,7 @@
     {
       "state": "TN",
       "avg_price": 5.82,
-      "store_count": 85
+      "store_count": 84
     },
     {
       "state": "FL",
@@ -207,18 +207,18 @@
       "price": 4.79
     },
     {
-      "store_number": "041802",
-      "name": "Taco Bell",
-      "city": "Athens",
-      "state": "GA",
-      "price": 4.79
-    },
-    {
       "store_number": "033933",
       "name": "Taco Bell",
       "city": "Fort Valley",
       "state": "GA",
       "price": 4.79
+    },
+    {
+      "store_number": "026342",
+      "name": "Taco Bell",
+      "city": "Lawrenceville",
+      "state": "GA",
+      "price": 4.89
     }
   ],
   "min_price_store_numbers": [
@@ -298,6 +298,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029014",
+      "store_name": "Taco Bell",
+      "city": "Knoxville",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:28:30.859431+00:00"
+    },
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 5.89,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:26:24.370900+00:00"
+    },
+    {
+      "store_number": "041802",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 4.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:19.079967+00:00"
+    },
+    {
+      "store_number": "041235",
+      "store_name": "Taco Bell",
+      "city": "Suwanee",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 6.59,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:56.901187+00:00"
+    },
+    {
+      "store_number": "041209",
+      "store_name": "Taco Bell",
+      "city": "Stone Mountain",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:05.365969+00:00"
+    },
     {
       "store_number": "009575",
       "store_name": "Taco Bell",
@@ -8961,7 +9011,7 @@
   ],
   "activity_summary": {
     "added": 533,
-    "removed": 50,
+    "removed": 55,
     "price_changed": 283,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9040,15 +9090,6 @@
       4.79,
       "Taco Bell",
       "Doraville",
-      "GA"
-    ],
-    [
-      "041802",
-      33.94081012771555,
-      -83.45053468646256,
-      4.79,
-      "Taco Bell",
-      "Athens",
       "GA"
     ],
     [
@@ -10780,15 +10821,6 @@
       "TN"
     ],
     [
-      "029014",
-      35.954860301979295,
-      -83.93603503704071,
-      5.79,
-      "Taco Bell",
-      "Knoxville",
-      "TN"
-    ],
-    [
       "037173",
       32.89904958758378,
       -83.68933711947642,
@@ -11417,15 +11449,6 @@
       "Taco Bell",
       "Jacksboro",
       "TN"
-    ],
-    [
-      "002649",
-      32.787389264873106,
-      -79.95377679524928,
-      5.89,
-      "Taco Bell / KFC",
-      "Charleston",
-      "SC"
     ],
     [
       "031394",
@@ -12208,15 +12231,6 @@
       5.99,
       "Taco Bell",
       "Lithonia",
-      "GA"
-    ],
-    [
-      "041209",
-      33.79624014524105,
-      -84.2242420061801,
-      5.99,
-      "Taco Bell",
-      "Stone Mountain",
       "GA"
     ],
     [
@@ -13111,15 +13125,6 @@
       "GA"
     ],
     [
-      "041235",
-      34.07381942775987,
-      -84.16499994233163,
-      6.59,
-      "Taco Bell",
-      "Suwanee",
-      "GA"
-    ],
-    [
       "041238",
       33.92281058279636,
       -83.34047734737396,
@@ -13319,6 +13324,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.9
 }

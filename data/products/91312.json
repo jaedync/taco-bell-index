@@ -14,27 +14,27 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 2.5,
+  "availability_pct": 2.3,
   "price_stats": {
     "avg": 2.69,
     "min": 2.49,
     "max": 3.49,
     "median": 2.69,
     "std_dev": 0.23,
-    "store_count": 190
+    "store_count": 180
   },
   "histogram": [
     {
       "bucket": "$2.49",
-      "count": 85
+      "count": 82
     },
     {
       "bucket": "$2.69",
-      "count": 53
+      "count": 49
     },
     {
       "bucket": "$2.99",
-      "count": 49
+      "count": 46
     },
     {
       "bucket": "$3.49",
@@ -44,23 +44,23 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 2.77,
-      "store_count": 13
+      "avg_price": 2.76,
+      "store_count": 12
     },
     {
       "state": "GA",
       "avg_price": 2.75,
-      "store_count": 99
+      "store_count": 95
     },
     {
       "state": "AL",
       "avg_price": 2.61,
-      "store_count": 47
+      "store_count": 43
     },
     {
       "state": "TN",
       "avg_price": 2.6,
-      "store_count": 28
+      "store_count": 27
     }
   ],
   "nutrition": {
@@ -202,7 +202,6 @@
     "024364",
     "029103",
     "032323",
-    "029015",
     "027711",
     "036369",
     "005623",
@@ -211,7 +210,6 @@
     "029082",
     "003404",
     "031394",
-    "003408",
     "031583",
     "026432",
     "029081",
@@ -229,7 +227,6 @@
     "030451",
     "004431",
     "005482",
-    "029143",
     "024747",
     "033470",
     "033933",
@@ -309,6 +306,106 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029143",
+      "store_name": "Taco Bell",
+      "city": "Boaz",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:59.240531+00:00"
+    },
+    {
+      "store_number": "042126",
+      "store_name": "Taco Bell",
+      "city": "Defuniak Springs",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:32:58.874839+00:00"
+    },
+    {
+      "store_number": "003408",
+      "store_name": "Taco Bell",
+      "city": "Chamblee",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:26:25.846718+00:00"
+    },
+    {
+      "store_number": "041799",
+      "store_name": "Taco Bell",
+      "city": "Doraville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:13.828430+00:00"
+    },
+    {
+      "store_number": "029015",
+      "store_name": "Taco Bell",
+      "city": "Pigeon Forge",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:12.634186+00:00"
+    },
+    {
+      "store_number": "043140",
+      "store_name": "Taco Bell",
+      "city": "Blue Ridge",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:01.566556+00:00"
+    },
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:56.644634+00:00"
+    },
+    {
+      "store_number": "042356",
+      "store_name": "Taco Bell",
+      "city": "Prattville",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:40.085566+00:00"
+    },
+    {
+      "store_number": "037155",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:33.372935+00:00"
+    },
+    {
+      "store_number": "041739",
+      "store_name": "Taco Bell",
+      "city": "Centreville",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:18:05.936245+00:00"
+    },
     {
       "store_number": "009575",
       "store_name": "Taco Bell",
@@ -9272,7 +9369,7 @@
   ],
   "activity_summary": {
     "added": 543,
-    "removed": 353,
+    "removed": 363,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9750,15 +9847,6 @@
       "AL"
     ],
     [
-      "029015",
-      35.789296992414,
-      -83.55763086679872,
-      2.49,
-      "Taco Bell",
-      "Pigeon Forge",
-      "TN"
-    ],
-    [
       "027711",
       34.03142591145449,
       -84.57802757626268,
@@ -9829,15 +9917,6 @@
       "Taco Bell",
       "Brewton",
       "AL"
-    ],
-    [
-      "003408",
-      33.91943767886257,
-      -84.3037999767464,
-      2.49,
-      "Taco Bell",
-      "Chamblee",
-      "GA"
     ],
     [
       "031583",
@@ -9993,15 +10072,6 @@
       "GA"
     ],
     [
-      "029143",
-      34.201593878387094,
-      -86.15097105503082,
-      2.49,
-      "Taco Bell",
-      "Boaz",
-      "AL"
-    ],
-    [
       "024747",
       33.50836652192516,
       -84.14265096187592,
@@ -10092,15 +10162,6 @@
       "AL"
     ],
     [
-      "041739",
-      32.9445258,
-      -87.14302183956661,
-      2.69,
-      "Taco Bell",
-      "Centreville",
-      "AL"
-    ],
-    [
       "041902",
       33.21345839728032,
       -86.82820985512913,
@@ -10125,15 +10186,6 @@
       2.69,
       "Taco Bell",
       "Warrior",
-      "AL"
-    ],
-    [
-      "037155",
-      34.15676427597664,
-      -86.83395521550965,
-      2.69,
-      "Taco Bell",
-      "Cullman",
       "AL"
     ],
     [
@@ -10162,15 +10214,6 @@
       "Taco Bell",
       "Rossville",
       "GA"
-    ],
-    [
-      "042356",
-      32.4606815,
-      -86.4000911,
-      2.69,
-      "Taco Bell",
-      "Prattville",
-      "AL"
     ],
     [
       "042511",
@@ -10434,15 +10477,6 @@
       "GA"
     ],
     [
-      "041799",
-      33.885857333198175,
-      -84.24760736527782,
-      2.69,
-      "Taco Bell",
-      "Doraville",
-      "GA"
-    ],
-    [
       "036481",
       32.43162441618136,
       -87.03538213671891,
@@ -10686,15 +10720,6 @@
       "GA"
     ],
     [
-      "041248",
-      33.71830055882164,
-      -84.76882606744766,
-      2.99,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "042829",
       30.458093509232302,
       -87.29877294124185,
@@ -10702,15 +10727,6 @@
       "Taco Bell",
       "Pensacola",
       "FL"
-    ],
-    [
-      "043140",
-      34.87733788732936,
-      -84.30024102778052,
-      2.99,
-      "Taco Bell",
-      "Blue Ridge",
-      "GA"
     ],
     [
       "041213",
@@ -10893,15 +10909,6 @@
       "GA"
     ],
     [
-      "042126",
-      30.701080181738643,
-      -86.12210662608975,
-      2.99,
-      "Taco Bell",
-      "Defuniak Springs",
-      "FL"
-    ],
-    [
       "039920",
       31.981552075862567,
       -81.16996265483067,
@@ -10993,6 +11000,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.9
 }

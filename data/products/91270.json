@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.4,
   "price_stats": {
-    "avg": 8.63,
+    "avg": 8.64,
     "min": 7.69,
     "max": 10.49,
     "median": 8.59,
-    "std_dev": 0.5,
-    "store_count": 490
+    "std_dev": 0.49,
+    "store_count": 491
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$7.79",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$7.89",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$8.59",
-      "count": 87
+      "count": 88
     },
     {
       "bucket": "$8.69",
@@ -74,7 +74,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 42
+      "count": 43
     },
     {
       "bucket": "$9.59",
@@ -93,7 +93,7 @@
     {
       "state": "GA",
       "avg_price": 8.8,
-      "store_count": 240
+      "store_count": 241
     },
     {
       "state": "AL",
@@ -108,12 +108,12 @@
     {
       "state": "TN",
       "avg_price": 8.49,
-      "store_count": 85
+      "store_count": 86
     },
     {
       "state": "FL",
-      "avg_price": 8.03,
-      "store_count": 32
+      "avg_price": 8.04,
+      "store_count": 31
     }
   ],
   "nutrition": {
@@ -279,6 +279,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 7.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:34:09.964231+00:00"
+    },
+    {
+      "store_number": "030359",
+      "store_name": "Taco Bell",
+      "city": "Maryville",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.59,
+      "observed_at": "2026-05-04T21:24:55.388822+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-05-04T21:22:54.804556+00:00"
+    },
     {
       "store_number": "030359",
       "store_name": "Taco Bell",
@@ -8141,14 +8171,14 @@
     }
   ],
   "activity_summary": {
-    "added": 506,
-    "removed": 16,
+    "added": 508,
+    "removed": 17,
     "price_changed": 264,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 480,
-  "calories_min": 530,
-  "calories_max": 530,
+  "calories_min": 480,
+  "calories_max": 480,
   "combo_groups": [
     {
       "group_id": "675",
@@ -8312,15 +8342,6 @@
       "042124",
       30.522978445511598,
       -86.49525940418243,
-      7.79,
-      "Taco Bell",
-      "Niceville",
-      "FL"
-    ],
-    [
-      "042123",
-      30.48259156216648,
-      -86.41599865257577,
       7.79,
       "Taco Bell",
       "Niceville",
@@ -10676,6 +10697,15 @@
       "TN"
     ],
     [
+      "030359",
+      35.71724098570292,
+      -84.01247182491716,
+      8.59,
+      "Taco Bell",
+      "Maryville",
+      "TN"
+    ],
+    [
       "002649",
       32.787389264873106,
       -79.95377679524928,
@@ -12053,6 +12083,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      8.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "041256",
       34.16491976646548,
       -84.17636456542422,
@@ -12576,6 +12615,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 6.0
 }

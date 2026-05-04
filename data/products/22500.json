@@ -22,7 +22,7 @@
     "max": 5.49,
     "median": 2.99,
     "std_dev": 0.29,
-    "store_count": 7700
+    "store_count": 7696
   },
   "histogram": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 201
+      "count": 200
     },
     {
       "bucket": "$2.29",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 537
+      "count": 536
     },
     {
       "bucket": "$2.69",
@@ -95,7 +95,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 563
+      "count": 562
     },
     {
       "bucket": "$2.80",
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$2.89",
-      "count": 669
+      "count": 670
     },
     {
       "bucket": "$2.91",
@@ -123,7 +123,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 3723
+      "count": 3720
     },
     {
       "bucket": "$3.00",
@@ -147,7 +147,7 @@
     },
     {
       "bucket": "$3.19",
-      "count": 191
+      "count": 192
     },
     {
       "bucket": "$3.20",
@@ -330,7 +330,7 @@
     {
       "state": "KY",
       "avg_price": 2.89,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "ND",
@@ -338,14 +338,14 @@
       "store_count": 12
     },
     {
+      "state": "MA",
+      "avg_price": 2.88,
+      "store_count": 66
+    },
+    {
       "state": "DC",
       "avg_price": 2.88,
       "store_count": 7
-    },
-    {
-      "state": "MA",
-      "avg_price": 2.87,
-      "store_count": 65
     },
     {
       "state": "ID",
@@ -355,7 +355,7 @@
     {
       "state": "FL",
       "avg_price": 2.86,
-      "store_count": 453
+      "store_count": 451
     },
     {
       "state": "NM",
@@ -364,8 +364,8 @@
     },
     {
       "state": "CT",
-      "avg_price": 2.86,
-      "store_count": 49
+      "avg_price": 2.85,
+      "store_count": 48
     },
     {
       "state": "IL",
@@ -385,12 +385,12 @@
     {
       "state": "TX",
       "avg_price": 2.82,
-      "store_count": 701
+      "store_count": 702
     },
     {
       "state": "MO",
       "avg_price": 2.82,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "IN",
@@ -424,8 +424,8 @@
     },
     {
       "state": "IA",
-      "avg_price": 2.72,
-      "store_count": 49
+      "avg_price": 2.73,
+      "store_count": 48
     },
     {
       "state": "TN",
@@ -621,6 +621,106 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030784",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-05-04T21:39:01.121492+00:00"
+    },
+    {
+      "store_number": "034661",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:56.615330+00:00"
+    },
+    {
+      "store_number": "037058",
+      "store_name": "Taco Bell",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:29.791829+00:00"
+    },
+    {
+      "store_number": "030763",
+      "store_name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:58.963140+00:00"
+    },
+    {
+      "store_number": "042935",
+      "store_name": "Taco Bell",
+      "city": "Lauderdale Lakes",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:41.597014+00:00"
+    },
+    {
+      "store_number": "029308",
+      "store_name": "Taco Bell",
+      "city": "New London",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:38.133164+00:00"
+    },
+    {
+      "store_number": "029659",
+      "store_name": "Taco Bell",
+      "city": "Byrnes Mill",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:14.386197+00:00"
+    },
+    {
+      "store_number": "029702",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:55.042993+00:00"
+    },
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-05-04T21:22:24.835118+00:00"
+    },
+    {
+      "store_number": "041621",
+      "store_name": "Taco Bell",
+      "city": "Houston",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-05-04T21:20:49.559190+00:00"
+    },
     {
       "store_number": "029264",
       "store_name": "Taco Bell",
@@ -5263,8 +5363,8 @@
     }
   ],
   "activity_summary": {
-    "added": 83,
-    "removed": 68,
+    "added": 86,
+    "removed": 75,
     "price_changed": 313,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8098,15 +8198,6 @@
       "Taco Bell",
       "West Long Branch",
       "NJ"
-    ],
-    [
-      "037058",
-      41.96042349443583,
-      -91.71171505960858,
-      2.19,
-      "Taco Bell",
-      "Cedar Rapids",
-      "IA"
     ],
     [
       "039074",
@@ -15066,15 +15157,6 @@
       "TX"
     ],
     [
-      "030763",
-      37.79375041784199,
-      -122.2011595442973,
-      2.59,
-      "Taco Bell",
-      "Oakland",
-      "CA"
-    ],
-    [
       "024364",
       33.65548299964909,
       -84.50117473305909,
@@ -20133,15 +20215,6 @@
       "NY"
     ],
     [
-      "042935",
-      26.16439489479855,
-      -80.2020996704232,
-      2.69,
-      "Taco Bell",
-      "Lauderdale Lakes",
-      "FL"
-    ],
-    [
       "032490",
       41.68289460155715,
       -86.89345707000939,
@@ -21967,6 +22040,15 @@
       "Taco Bell",
       "Aiken",
       "SC"
+    ],
+    [
+      "030784",
+      37.68964688186491,
+      -122.13063508272171,
+      2.69,
+      "Taco Bell",
+      "San Leandro",
+      "CA"
     ],
     [
       "003384",
@@ -25785,15 +25867,6 @@
       "OK"
     ],
     [
-      "029659",
-      38.41366579116861,
-      -90.58245469631402,
-      2.79,
-      "Taco Bell",
-      "Byrnes Mill",
-      "MO"
-    ],
-    [
       "004897",
       44.991772166209536,
       -123.02605567267165,
@@ -29527,6 +29600,15 @@
       "Taco Bell",
       "Chattanooga",
       "TN"
+    ],
+    [
+      "041621",
+      29.8645164066,
+      -95.6078184002,
+      2.89,
+      "Taco Bell",
+      "Houston",
+      "TX"
     ],
     [
       "042795",
@@ -49374,15 +49456,6 @@
       "NC"
     ],
     [
-      "029702",
-      27.990701948896085,
-      -81.68913513422012,
-      2.99,
-      "Taco Bell",
-      "Winter Haven",
-      "FL"
-    ],
-    [
       "039599",
       28.405901834178415,
       -81.45819582047807,
@@ -52684,15 +52757,6 @@
       "Taco Bell",
       "Orange",
       "CA"
-    ],
-    [
-      "029308",
-      41.35999294416016,
-      -72.1163506098901,
-      2.99,
-      "Taco Bell",
-      "New London",
-      "CT"
     ],
     [
       "037565",
@@ -65241,15 +65305,6 @@
       "WY"
     ],
     [
-      "034661",
-      38.245380554984266,
-      -85.75267374515533,
-      2.99,
-      "Taco Bell",
-      "Louisville",
-      "KY"
-    ],
-    [
       "032183",
       41.59471633815446,
       -73.11161531750382,
@@ -69199,6 +69254,15 @@
       "Taco Bell",
       "San Bernardino",
       "CA"
+    ],
+    [
+      "029264",
+      42.68932958211096,
+      -71.14899910735949,
+      3.19,
+      "Taco Bell",
+      "Lawrence",
+      "MA"
     ],
     [
       "030407",

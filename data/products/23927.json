@@ -21,19 +21,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 50
+    "store_count": 49
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 50
+      "count": 49
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 50
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -168,7 +168,6 @@
     "002440",
     "040464",
     "030922",
-    "024449",
     "040700",
     "040164",
     "040608",
@@ -200,13 +199,6 @@
       "store_number": "040700",
       "name": "Taco Bell",
       "city": "Marlette",
-      "state": "MI",
-      "price": 5.49
-    },
-    {
-      "store_number": "024449",
-      "name": "Taco Bell",
-      "city": "Detroit",
       "state": "MI",
       "price": 5.49
     },
@@ -244,9 +236,26 @@
       "city": "Imlay City",
       "state": "MI",
       "price": 5.49
+    },
+    {
+      "store_number": "024658",
+      "name": "Taco Bell",
+      "city": "Richmond",
+      "state": "MI",
+      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024449",
+      "store_name": "Taco Bell",
+      "city": "Detroit",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:31:38.222631+00:00"
+    },
     {
       "store_number": "023045",
       "store_name": "Taco Bell",
@@ -1150,7 +1159,7 @@
   ],
   "activity_summary": {
     "added": 70,
-    "removed": 20,
+    "removed": 21,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1575,15 +1584,6 @@
       5.49,
       "Taco Bell",
       "Chesterfield",
-      "MI"
-    ],
-    [
-      "024449",
-      42.416237399123474,
-      -83.20122738184182,
-      5.49,
-      "Taco Bell",
-      "Detroit",
       "MI"
     ],
     [

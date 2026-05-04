@@ -41,7 +41,7 @@
     },
     {
       "bucket": "$0.50",
-      "count": 86
+      "count": 85
     },
     {
       "bucket": "$0.55",
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 188
+      "count": 186
     },
     {
       "bucket": "$0.60",
@@ -61,7 +61,7 @@
     },
     {
       "bucket": "$0.69",
-      "count": 22
+      "count": 20
     },
     {
       "bucket": "$0.70",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 110
+      "count": 111
     },
     {
       "bucket": "$0.90",
@@ -129,7 +129,7 @@
     },
     {
       "bucket": "$1.15",
-      "count": 355
+      "count": 354
     },
     {
       "bucket": "$1.19",
@@ -193,7 +193,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 95
+      "count": 100
     },
     {
       "bucket": "$1.50",
@@ -250,7 +250,7 @@
     {
       "state": "TN",
       "avg_price": 1.11,
-      "store_count": 253
+      "store_count": 252
     },
     {
       "state": "OR",
@@ -290,7 +290,12 @@
     {
       "state": "IA",
       "avg_price": 1.03,
-      "store_count": 47
+      "store_count": 48
+    },
+    {
+      "state": "GA",
+      "avg_price": 1.03,
+      "store_count": 254
     },
     {
       "state": "FL",
@@ -313,11 +318,6 @@
       "store_count": 137
     },
     {
-      "state": "GA",
-      "avg_price": 1.02,
-      "store_count": 254
-    },
-    {
       "state": "RI",
       "avg_price": 1.0,
       "store_count": 15
@@ -333,6 +333,11 @@
       "store_count": 86
     },
     {
+      "state": "SC",
+      "avg_price": 0.99,
+      "store_count": 114
+    },
+    {
       "state": "LA",
       "avg_price": 0.98,
       "store_count": 134
@@ -341,11 +346,6 @@
       "state": "DE",
       "avg_price": 0.98,
       "store_count": 15
-    },
-    {
-      "state": "SC",
-      "avg_price": 0.98,
-      "store_count": 114
     },
     {
       "state": "NM",
@@ -636,6 +636,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033933",
+      "store_name": "Taco Bell",
+      "city": "Fort Valley",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.5,
+      "new_price": 1.49,
+      "observed_at": "2026-05-04T21:34:12.617953+00:00"
+    },
+    {
+      "store_number": "024747",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "McDonough",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.59,
+      "new_price": 1.49,
+      "observed_at": "2026-05-04T21:34:07.269637+00:00"
+    },
+    {
+      "store_number": "026837",
+      "store_name": "Taco Bell",
+      "city": "Alcoa",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 1.15,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:38.322376+00:00"
+    },
+    {
+      "store_number": "037477",
+      "store_name": "Taco Bell",
+      "city": "Sioux City",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.89,
+      "observed_at": "2026-05-04T21:24:25.125156+00:00"
+    },
+    {
+      "store_number": "031389",
+      "store_name": "Taco Bell / KFC",
+      "city": "Locust Grove",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.69,
+      "new_price": 1.49,
+      "observed_at": "2026-05-04T21:24:24.495465+00:00"
+    },
+    {
+      "store_number": "032542",
+      "store_name": "Taco Bell",
+      "city": "Hardeeville",
+      "state": "SC",
+      "change_type": "price_change",
+      "old_price": 0.59,
+      "new_price": 1.49,
+      "observed_at": "2026-05-04T21:21:07.235600+00:00"
+    },
+    {
+      "store_number": "033481",
+      "store_name": "Taco Bell",
+      "city": "Villa Rica",
+      "state": "GA",
+      "change_type": "price_change",
+      "old_price": 0.69,
+      "new_price": 1.49,
+      "observed_at": "2026-05-04T21:20:12.557904+00:00"
+    },
     {
       "store_number": "037477",
       "store_name": "Taco Bell",
@@ -7548,9 +7618,9 @@
     }
   ],
   "activity_summary": {
-    "added": 33,
-    "removed": 632,
-    "price_changed": 26,
+    "added": 34,
+    "removed": 633,
+    "price_changed": 31,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 80,
@@ -9557,15 +9627,6 @@
       "WV"
     ],
     [
-      "033933",
-      32.55630155569918,
-      -83.88546050387518,
-      0.5,
-      "Taco Bell",
-      "Fort Valley",
-      "GA"
-    ],
-    [
       "032188",
       33.18136479031209,
       -102.27472027002403,
@@ -10320,15 +10381,6 @@
       "Taco Bell",
       "Benbrook",
       "TX"
-    ],
-    [
-      "032542",
-      32.31307877793498,
-      -81.05568834507177,
-      0.59,
-      "Taco Bell",
-      "Hardeeville",
-      "SC"
     ],
     [
       "037151",
@@ -11778,15 +11830,6 @@
       "Taco Bell",
       "Longview",
       "TX"
-    ],
-    [
-      "024747",
-      33.50836652192516,
-      -84.14265096187592,
-      0.59,
-      "Taco Bell / Pizza Hut",
-      "McDonough",
-      "GA"
     ],
     [
       "040025",
@@ -13985,15 +14028,6 @@
       "TX"
     ],
     [
-      "033481",
-      33.73376376352933,
-      -84.90097259926127,
-      0.69,
-      "Taco Bell",
-      "Villa Rica",
-      "GA"
-    ],
-    [
       "034602",
       41.61826,
       -90.781386,
@@ -14073,15 +14107,6 @@
       "Taco Bell",
       "Spencer",
       "IA"
-    ],
-    [
-      "031389",
-      33.352032936024656,
-      -84.120770439522,
-      0.69,
-      "Taco Bell / KFC",
-      "Locust Grove",
-      "GA"
     ],
     [
       "035075",
@@ -29192,6 +29217,15 @@
       0.89,
       "Taco Bell",
       "Council Bluffs",
+      "IA"
+    ],
+    [
+      "037477",
+      42.489787564050744,
+      -96.3667537719175,
+      0.89,
+      "Taco Bell",
+      "Sioux City",
       "IA"
     ],
     [
@@ -59660,15 +59694,6 @@
       "FL"
     ],
     [
-      "026837",
-      35.76009726491193,
-      -83.97547312083594,
-      1.15,
-      "Taco Bell",
-      "Alcoa",
-      "TN"
-    ],
-    [
       "042893",
       27.240240039501263,
       -80.27085234226433,
@@ -69065,6 +69090,15 @@
       "TN"
     ],
     [
+      "033481",
+      33.73376376352933,
+      -84.90097259926127,
+      1.49,
+      "Taco Bell",
+      "Villa Rica",
+      "GA"
+    ],
+    [
       "042003",
       34.723605296026115,
       -81.6398366465861,
@@ -69081,6 +69115,15 @@
       "Taco Bell",
       "Hudson",
       "NC"
+    ],
+    [
+      "032542",
+      32.31307877793498,
+      -81.05568834507177,
+      1.49,
+      "Taco Bell",
+      "Hardeeville",
+      "SC"
     ],
     [
       "037671",
@@ -69569,6 +69612,15 @@
       "CA"
     ],
     [
+      "031389",
+      33.352032936024656,
+      -84.120770439522,
+      1.49,
+      "Taco Bell / KFC",
+      "Locust Grove",
+      "GA"
+    ],
+    [
       "018568",
       40.78067366801856,
       -124.18571606258817,
@@ -69821,6 +69873,15 @@
       "CA"
     ],
     [
+      "024747",
+      33.50836652192516,
+      -84.14265096187592,
+      1.49,
+      "Taco Bell / Pizza Hut",
+      "McDonough",
+      "GA"
+    ],
+    [
       "032200",
       61.599191,
       -149.127888,
@@ -69828,6 +69889,15 @@
       "Taco Bell",
       "Palmer",
       "AK"
+    ],
+    [
+      "033933",
+      32.55630155569918,
+      -83.88546050387518,
+      1.49,
+      "Taco Bell",
+      "Fort Valley",
+      "GA"
     ],
     [
       "032180",

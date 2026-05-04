@@ -12,21 +12,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.5,
-  "recent_price_change_pct": -0.0255,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:41:33.325148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 4.62,
+    "avg": 4.64,
     "min": 4.19,
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.4,
-    "store_count": 34
+    "store_count": 33
   },
   "histogram": [
     {
       "bucket": "$4.19",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$4.49",
@@ -46,7 +46,7 @@
     {
       "state": "TX",
       "avg_price": 4.19,
-      "store_count": 13
+      "store_count": 12
     }
   ],
   "nutrition": {
@@ -93,13 +93,6 @@
       "price": 4.19
     },
     {
-      "store_number": "002689",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Deer Park",
-      "state": "TX",
-      "price": 4.19
-    },
-    {
       "store_number": "002851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Humble",
@@ -133,6 +126,13 @@
       "city": "Irvine",
       "state": "CA",
       "price": 4.19
+    },
+    {
+      "store_number": "021196",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "price": 4.19
     }
   ],
   "min_price_store_numbers": [
@@ -140,7 +140,6 @@
     "022811",
     "024393",
     "021176",
-    "002689",
     "002851",
     "002981",
     "001089",
@@ -225,6 +224,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002689",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Deer Park",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:46.092159+00:00"
+    },
     {
       "store_number": "019252",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -378,7 +387,7 @@
   ],
   "activity_summary": {
     "added": 5,
-    "removed": 9,
+    "removed": 10,
     "price_changed": 1,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -421,15 +430,6 @@
       4.19,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Tomball",
-      "TX"
-    ],
-    [
-      "002689",
-      29.680382783181383,
-      -95.12291199994706,
-      4.19,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Deer Park",
       "TX"
     ],
     [

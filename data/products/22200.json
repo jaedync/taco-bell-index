@@ -19,9 +19,9 @@
     "avg": 2.39,
     "min": 1.59,
     "max": 5.79,
-    "median": 2.39,
+    "median": 2.34,
     "std_dev": 0.38,
-    "store_count": 7700
+    "store_count": 7698
   },
   "histogram": [
     {
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$2.59",
-      "count": 406
+      "count": 405
     },
     {
       "bucket": "$2.69",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 410
+      "count": 409
     },
     {
       "bucket": "$2.80",
@@ -278,14 +278,14 @@
       "store_count": 27
     },
     {
-      "state": "IA",
-      "avg_price": 2.58,
-      "store_count": 48
-    },
-    {
       "state": "MI",
       "avg_price": 2.58,
       "store_count": 348
+    },
+    {
+      "state": "IA",
+      "avg_price": 2.57,
+      "store_count": 49
     },
     {
       "state": "DC",
@@ -310,7 +310,7 @@
     {
       "state": "WI",
       "avg_price": 2.4,
-      "store_count": 143
+      "store_count": 142
     },
     {
       "state": "MO",
@@ -340,7 +340,7 @@
     {
       "state": "KY",
       "avg_price": 2.29,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "GA",
@@ -375,7 +375,7 @@
     {
       "state": "VA",
       "avg_price": 2.22,
-      "store_count": 201
+      "store_count": 200
     },
     {
       "state": "IN",
@@ -615,6 +615,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039723",
+      "store_name": "Taco Bell",
+      "city": "Galax",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:57.128869+00:00"
+    },
+    {
+      "store_number": "034661",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:56.615330+00:00"
+    },
+    {
+      "store_number": "028892",
+      "store_name": "Taco Bell",
+      "city": "Washington",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.09,
+      "observed_at": "2026-05-04T21:32:41.647489+00:00"
+    },
+    {
+      "store_number": "043026",
+      "store_name": "Taco Bell",
+      "city": "Keokuk",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-04T21:24:08.881924+00:00"
+    },
+    {
+      "store_number": "036270",
+      "store_name": "Taco Bell",
+      "city": "Stevens Point",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:22.469455+00:00"
+    },
+    {
+      "store_number": "034786",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 2.09,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:19.716507+00:00"
+    },
     {
       "store_number": "037582",
       "store_name": "Taco Bell",
@@ -10087,8 +10147,8 @@
     }
   ],
   "activity_summary": {
-    "added": 77,
-    "removed": 67,
+    "added": 79,
+    "removed": 71,
     "price_changed": 803,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24111,6 +24171,15 @@
       "TN"
     ],
     [
+      "043026",
+      40.41874551235729,
+      -91.4078844040796,
+      1.99,
+      "Taco Bell",
+      "Keokuk",
+      "IA"
+    ],
+    [
       "003798",
       43.63701120267759,
       -116.23160102966722,
@@ -29322,15 +29391,6 @@
       "FL"
     ],
     [
-      "039723",
-      36.68606923854097,
-      -80.8866611123085,
-      1.99,
-      "Taco Bell",
-      "Galax",
-      "VA"
-    ],
-    [
       "004653",
       38.03670530155656,
       -84.45383548736572,
@@ -31068,15 +31128,6 @@
       "NC"
     ],
     [
-      "034786",
-      37.97724933062687,
-      -87.6292207436168,
-      2.09,
-      "Taco Bell",
-      "Evansville",
-      "IN"
-    ],
-    [
       "028909",
       39.693524271197724,
       -86.14933316411225,
@@ -31479,6 +31530,15 @@
       2.09,
       "Taco Bell",
       "Elwood",
+      "IN"
+    ],
+    [
+      "028892",
+      38.65268374073738,
+      -87.15562218834319,
+      2.09,
+      "Taco Bell",
+      "Washington",
       "IN"
     ],
     [
@@ -57771,15 +57831,6 @@
       "IL"
     ],
     [
-      "036270",
-      44.53072048795075,
-      -89.57436023047194,
-      2.59,
-      "Taco Bell",
-      "Stevens Point",
-      "WI"
-    ],
-    [
       "003668",
       33.77267954859662,
       -84.37298566102982,
@@ -67840,15 +67891,6 @@
       "Taco Bell",
       "Alpharetta",
       "GA"
-    ],
-    [
-      "034661",
-      38.245380554984266,
-      -85.75267374515533,
-      2.79,
-      "Taco Bell",
-      "Louisville",
-      "KY"
     ],
     [
       "032183",

@@ -21,12 +21,12 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 488
+    "store_count": 489
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$3.19",
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 56
+      "count": 55
     },
     {
       "bucket": "$3.39",
@@ -46,7 +46,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 50
+      "count": 51
     },
     {
       "bucket": "$3.99",
@@ -57,7 +57,7 @@
     {
       "state": "GA",
       "avg_price": 3.3,
-      "store_count": 237
+      "store_count": 239
     },
     {
       "state": "SC",
@@ -76,8 +76,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 3.18,
-      "store_count": 32
+      "avg_price": 3.17,
+      "store_count": 31
     }
   ],
   "nutrition": null,
@@ -195,6 +195,7 @@
     "004091",
     "002167",
     "041836",
+    "041837",
     "042126",
     "042125",
     "004431",
@@ -280,6 +281,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:34:09.964231+00:00"
+    },
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-04T21:32:42.424901+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-04T21:22:54.804556+00:00"
+    },
     {
       "store_number": "041259",
       "store_name": "Taco Bell",
@@ -8602,14 +8633,14 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 19,
+    "added": 509,
+    "removed": 20,
     "price_changed": 306,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 270,
-  "calories_min": 320,
-  "calories_max": 320,
+  "calories_min": 270,
+  "calories_max": 270,
   "combo_groups": [
     {
       "group_id": "674",
@@ -8993,6 +9024,15 @@
       "Taco Bell",
       "Quincy",
       "FL"
+    ],
+    [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      2.99,
+      "Taco Bell",
+      "Thomasville",
+      "GA"
     ],
     [
       "042126",
@@ -11803,15 +11843,6 @@
       "FL"
     ],
     [
-      "042123",
-      30.48259156216648,
-      -86.41599865257577,
-      3.29,
-      "Taco Bell",
-      "Niceville",
-      "FL"
-    ],
-    [
       "033445",
       33.101925767425,
       -86.8609822651587,
@@ -12649,6 +12680,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      3.59,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "041256",
       34.16491976646548,
       -84.17636456542422,
@@ -13019,6 +13059,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.9
 }

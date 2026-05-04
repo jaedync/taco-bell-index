@@ -11,7 +11,7 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 3.6,
-  "recent_price_change_pct": 0.0399,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.698758+00:00",
   "availability_pct": 3.7,
   "price_stats": {
@@ -20,12 +20,12 @@
     "max": 0.8,
     "median": 0.4,
     "std_dev": 0.2,
-    "store_count": 284
+    "store_count": 283
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 74
+      "count": 73
     },
     {
       "bucket": "$0.20",
@@ -232,7 +232,6 @@
     "037562",
     "017226",
     "034204",
-    "032720",
     "031502",
     "004181",
     "033503",
@@ -344,6 +343,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032720",
+      "store_name": "Taco Bell",
+      "city": "Alamogordo",
+      "state": "NM",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:10.777949+00:00"
+    },
     {
       "store_number": "037299",
       "store_name": "Taco Bell",
@@ -777,7 +786,7 @@
   ],
   "activity_summary": {
     "added": 19,
-    "removed": 24,
+    "removed": 25,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1109,15 +1118,6 @@
       "Taco Bell",
       "Livingston",
       "CA"
-    ],
-    [
-      "032720",
-      32.934361,
-      -105.964557,
-      0.0,
-      "Taco Bell",
-      "Alamogordo",
-      "NM"
     ],
     [
       "031502",

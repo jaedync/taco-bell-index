@@ -16,14 +16,14 @@
   "peak_30d_pct": 86.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 91.9,
+  "availability_pct": 91.8,
   "price_stats": {
     "avg": 4.64,
     "min": 4.0,
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7079
+    "store_count": 7077
   },
   "histogram": [
     {
@@ -80,7 +80,7 @@
     },
     {
       "bucket": "$5.00",
-      "count": 496
+      "count": 494
     },
     {
       "bucket": "$5.19",
@@ -245,8 +245,8 @@
     },
     {
       "state": "MS",
-      "avg_price": 4.57,
-      "store_count": 72
+      "avg_price": 4.56,
+      "store_count": 71
     },
     {
       "state": "AL",
@@ -266,7 +266,7 @@
     {
       "state": "WI",
       "avg_price": 4.3,
-      "store_count": 136
+      "store_count": 135
     },
     {
       "state": "OH",
@@ -296,7 +296,7 @@
     {
       "state": "CO",
       "avg_price": 4.14,
-      "store_count": 136
+      "store_count": 135
     },
     {
       "state": "PA",
@@ -361,7 +361,7 @@
     {
       "state": "MD",
       "avg_price": 4.0,
-      "store_count": 82
+      "store_count": 83
     },
     {
       "state": "WY",
@@ -983,7 +983,6 @@
     "036305",
     "035227",
     "035845",
-    "035137",
     "034826",
     "036435",
     "040881",
@@ -5734,7 +5733,8 @@
     "042529",
     "042277",
     "041957",
-    "032540"
+    "032540",
+    "039987"
   ],
   "priciest_stores": [
     {
@@ -5809,6 +5809,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "031504",
+      "store_name": "Taco Bell",
+      "city": "Neenah",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 5.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:47.772710+00:00"
+    },
+    {
+      "store_number": "039987",
+      "store_name": "Taco Bell",
+      "city": "Annapolis",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-05-04T21:29:03.205108+00:00"
+    },
+    {
+      "store_number": "032318",
+      "store_name": "Taco Bell",
+      "city": "Olive Branch",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 5.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:28.366966+00:00"
+    },
+    {
+      "store_number": "035137",
+      "store_name": "Taco Bell",
+      "city": "Erie",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 4.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:14.403782+00:00"
+    },
     {
       "store_number": "037738",
       "store_name": "Taco Bell",
@@ -7381,8 +7421,8 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
-    "removed": 72,
+    "added": 72,
+    "removed": 75,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11825,15 +11865,6 @@
       "Taco Bell",
       "Duluth",
       "MN"
-    ],
-    [
-      "035137",
-      40.00077496566127,
-      -105.0156923623561,
-      4.0,
-      "Taco Bell",
-      "Erie",
-      "CO"
     ],
     [
       "034826",
@@ -54595,6 +54626,15 @@
       "PA"
     ],
     [
+      "039987",
+      38.97956469751526,
+      -76.52167832200331,
+      4.0,
+      "Taco Bell",
+      "Annapolis",
+      "MD"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -57511,15 +57551,6 @@
       "CA"
     ],
     [
-      "032318",
-      34.96284585726576,
-      -89.85560287536828,
-      5.0,
-      "Taco Bell",
-      "Olive Branch",
-      "MS"
-    ],
-    [
       "003975",
       19.6430611818485,
       -155.9960089623928,
@@ -59804,15 +59835,6 @@
       "Taco Bell",
       "Vancouver",
       "WA"
-    ],
-    [
-      "031504",
-      44.17426321763048,
-      -88.49348632385954,
-      5.0,
-      "Taco Bell",
-      "Neenah",
-      "WI"
     ],
     [
       "032321",

@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 33
+    "store_count": 32
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 33
+      "count": 32
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 33
+      "store_count": 32
     }
   ],
   "nutrition": {
@@ -135,7 +135,6 @@
     "042977",
     "032537",
     "032177",
-    "023302",
     "027978",
     "022266",
     "022596",
@@ -230,6 +229,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:25.752215+00:00"
+    },
     {
       "store_number": "035462",
       "store_name": "Taco Bell Cantina",
@@ -1263,7 +1272,7 @@
   ],
   "activity_summary": {
     "added": 68,
-    "removed": 35,
+    "removed": 36,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1409,15 +1418,6 @@
       10.99,
       "Taco Bell",
       "Windermere",
-      "FL"
-    ],
-    [
-      "023302",
-      28.340028098278022,
-      -81.59762848915307,
-      10.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -1602,6 +1602,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 0.4
 }

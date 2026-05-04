@@ -21,7 +21,7 @@
     "max": 7.99,
     "median": 5.89,
     "std_dev": 0.55,
-    "store_count": 7197
+    "store_count": 7194
   },
   "histogram": [
     {
@@ -106,7 +106,7 @@
     },
     {
       "bucket": "$5.59",
-      "count": 227
+      "count": 226
     },
     {
       "bucket": "$5.66",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$5.79",
-      "count": 470
+      "count": 469
     },
     {
       "bucket": "$5.82",
@@ -198,7 +198,7 @@
     },
     {
       "bucket": "$6.59",
-      "count": 155
+      "count": 153
     },
     {
       "bucket": "$6.69",
@@ -210,7 +210,7 @@
     },
     {
       "bucket": "$6.89",
-      "count": 50
+      "count": 51
     },
     {
       "bucket": "$6.99",
@@ -263,7 +263,7 @@
     {
       "state": "IL",
       "avg_price": 6.36,
-      "store_count": 287
+      "store_count": 288
     },
     {
       "state": "DC",
@@ -276,11 +276,6 @@
       "store_count": 157
     },
     {
-      "state": "CT",
-      "avg_price": 6.19,
-      "store_count": 49
-    },
-    {
       "state": "NH",
       "avg_price": 6.19,
       "store_count": 12
@@ -289,6 +284,11 @@
       "state": "ME",
       "avg_price": 6.19,
       "store_count": 7
+    },
+    {
+      "state": "CT",
+      "avg_price": 6.18,
+      "store_count": 48
     },
     {
       "state": "MT",
@@ -332,8 +332,8 @@
     },
     {
       "state": "WI",
-      "avg_price": 5.96,
-      "store_count": 143
+      "avg_price": 5.95,
+      "store_count": 142
     },
     {
       "state": "CA",
@@ -353,7 +353,7 @@
     {
       "state": "OR",
       "avg_price": 5.91,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "MD",
@@ -412,8 +412,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 5.75,
-      "store_count": 228
+      "avg_price": 5.76,
+      "store_count": 227
     },
     {
       "state": "NC",
@@ -650,6 +650,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029310",
+      "store_name": "Taco Bell",
+      "city": "Milford",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 6.59,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:32:58.747129+00:00"
+    },
+    {
+      "store_number": "023176",
+      "store_name": "Taco Bell",
+      "city": "Fullerton",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-04T21:24:35.653038+00:00"
+    },
+    {
+      "store_number": "030401",
+      "store_name": "Taco Bell",
+      "city": "Woodstock",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.89,
+      "observed_at": "2026-05-04T21:23:39.851188+00:00"
+    },
+    {
+      "store_number": "041418",
+      "store_name": "Taco Bell",
+      "city": "Johnson Creek",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:26.326712+00:00"
+    },
+    {
+      "store_number": "035471",
+      "store_name": "Taco Bell",
+      "city": "Fair Oaks",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 6.59,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:22.216853+00:00"
+    },
+    {
+      "store_number": "039641",
+      "store_name": "Taco Bell",
+      "city": "Monmouth",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:57.673269+00:00"
+    },
+    {
+      "store_number": "037174",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 5.59,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:37.243712+00:00"
+    },
     {
       "store_number": "034202",
       "store_name": "Taco Bell",
@@ -17252,8 +17322,8 @@
     }
   ],
   "activity_summary": {
-    "added": 89,
-    "removed": 573,
+    "added": 91,
+    "removed": 578,
     "price_changed": 998,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -37270,15 +37340,6 @@
       "MO"
     ],
     [
-      "037174",
-      39.0955929143889,
-      -94.55213828090659,
-      5.59,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
-    ],
-    [
       "042066",
       42.36819,
       -71.07786,
@@ -45044,15 +45105,6 @@
       "Taco Bell",
       "Sherman",
       "TX"
-    ],
-    [
-      "039641",
-      44.85080864926697,
-      -123.21717139429244,
-      5.79,
-      "Taco Bell",
-      "Monmouth",
-      "OR"
     ],
     [
       "039577",
@@ -58582,15 +58634,6 @@
       "MN"
     ],
     [
-      "041418",
-      43.082112624514764,
-      -88.7627043697033,
-      5.99,
-      "Taco Bell",
-      "Johnson Creek",
-      "WI"
-    ],
-    [
       "021459",
       45.161730681880705,
       -93.16198545492543,
@@ -59849,6 +59892,15 @@
       "Taco Bell",
       "Elizabeth City",
       "NC"
+    ],
+    [
+      "023176",
+      33.87068769461627,
+      -117.9196197688907,
+      5.99,
+      "Taco Bell",
+      "Fullerton",
+      "CA"
     ],
     [
       "032737",
@@ -76582,15 +76634,6 @@
       "CA"
     ],
     [
-      "035471",
-      38.64448867761824,
-      -121.27272382378573,
-      6.59,
-      "Taco Bell",
-      "Fair Oaks",
-      "CA"
-    ],
-    [
       "034173",
       37.98707734795462,
       -121.24699741601944,
@@ -77138,15 +77181,6 @@
       "Taco Bell",
       "Modesto",
       "CA"
-    ],
-    [
-      "029310",
-      41.242496474403296,
-      -73.03083027589078,
-      6.59,
-      "Taco Bell",
-      "Milford",
-      "CT"
     ],
     [
       "028522",
@@ -80305,6 +80339,15 @@
       6.89,
       "Taco Bell",
       "Ottawa",
+      "IL"
+    ],
+    [
+      "030401",
+      42.31036604284584,
+      -88.43329583110062,
+      6.89,
+      "Taco Bell",
+      "Woodstock",
       "IL"
     ],
     [

@@ -11,11 +11,11 @@
   "is_meatless": false,
   "is_limited": false,
   "peak_30d_pct": 22.4,
-  "recent_price_change_pct": -0.0208,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 23.6,
   "price_stats": {
-    "avg": 3.39,
+    "avg": 3.4,
     "min": 1.79,
     "max": 4.89,
     "median": 3.39,
@@ -29,7 +29,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$2.29",
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 677
+      "count": 676
     },
     {
       "bucket": "$3.00",
@@ -93,7 +93,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 135
+      "count": 136
     },
     {
       "bucket": "$3.69",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$3.79",
-      "count": 102
+      "count": 101
     },
     {
       "bucket": "$3.89",
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 266
+      "count": 268
     },
     {
       "bucket": "$4.19",
@@ -167,8 +167,8 @@
     },
     {
       "state": "WY",
-      "avg_price": 3.87,
-      "store_count": 8
+      "avg_price": 3.88,
+      "store_count": 9
     },
     {
       "state": "WV",
@@ -183,7 +183,7 @@
     {
       "state": "IN",
       "avg_price": 3.51,
-      "store_count": 174
+      "store_count": 175
     },
     {
       "state": "IL",
@@ -202,13 +202,18 @@
     },
     {
       "state": "WI",
-      "avg_price": 3.41,
-      "store_count": 69
+      "avg_price": 3.42,
+      "store_count": 68
     },
     {
       "state": "OH",
       "avg_price": 3.39,
       "store_count": 378
+    },
+    {
+      "state": "VA",
+      "avg_price": 3.29,
+      "store_count": 9
     },
     {
       "state": "MS",
@@ -218,22 +223,12 @@
     {
       "state": "MI",
       "avg_price": 3.24,
-      "store_count": 207
+      "store_count": 206
     },
     {
       "state": "KY",
       "avg_price": 3.22,
       "store_count": 91
-    },
-    {
-      "state": "VA",
-      "avg_price": 3.2,
-      "store_count": 8
-    },
-    {
-      "state": "CA",
-      "avg_price": 3.05,
-      "store_count": 5
     },
     {
       "state": "GA",
@@ -368,18 +363,18 @@
       "price": 2.19
     },
     {
-      "store_number": "042669",
-      "name": "Taco Bell",
-      "city": "Brighton",
-      "state": "MI",
-      "price": 2.19
-    },
-    {
       "store_number": "037188",
       "name": "Taco Bell",
       "city": "Corbin",
       "state": "KY",
       "price": 2.29
+    },
+    {
+      "store_number": "026628",
+      "name": "Taco Bell",
+      "city": "Grapevine",
+      "state": "TX",
+      "price": 2.39
     }
   ],
   "min_price_store_numbers": [
@@ -463,6 +458,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004429",
+      "store_name": "Taco Bell",
+      "city": "Galt",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:57.978587+00:00"
+    },
+    {
+      "store_number": "042625",
+      "store_name": "Taco Bell",
+      "city": "Gaylord",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-04T21:33:08.306050+00:00"
+    },
+    {
+      "store_number": "023074",
+      "store_name": "Taco Bell",
+      "city": "Cheyenne",
+      "state": "WY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-04T21:24:50.861795+00:00"
+    },
+    {
+      "store_number": "031824",
+      "store_name": "Taco Bell",
+      "city": "Bay City",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:49.153535+00:00"
+    },
+    {
+      "store_number": "015775",
+      "store_name": "Taco Bell",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-04T21:24:45.681920+00:00"
+    },
+    {
+      "store_number": "031491",
+      "store_name": "Taco Bell",
+      "city": "Appleton",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:43.949681+00:00"
+    },
+    {
+      "store_number": "042727",
+      "store_name": "Taco Bell",
+      "city": "Batesville",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-05-04T21:20:53.336431+00:00"
+    },
+    {
+      "store_number": "042669",
+      "store_name": "Taco Bell",
+      "city": "Brighton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:48.735218+00:00"
+    },
     {
       "store_number": "029638",
       "store_name": "Taco Bell",
@@ -18955,8 +19030,8 @@
     }
   ],
   "activity_summary": {
-    "added": 910,
-    "removed": 939,
+    "added": 914,
+    "removed": 943,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19036,15 +19111,6 @@
       "Taco Bell",
       "Enid",
       "OK"
-    ],
-    [
-      "042669",
-      42.50641190883397,
-      -83.76157922006747,
-      2.19,
-      "Taco Bell",
-      "Brighton",
-      "MI"
     ],
     [
       "037188",
@@ -26031,15 +26097,6 @@
       "KY"
     ],
     [
-      "004429",
-      38.25349085636249,
-      -121.2958353013073,
-      2.99,
-      "Taco Bell",
-      "Galt",
-      "CA"
-    ],
-    [
       "031569",
       33.753597971429095,
       -78.96264781059472,
@@ -26400,13 +26457,13 @@
       "MI"
     ],
     [
-      "031491",
-      44.262356037439226,
-      -88.45056549293865,
+      "042625",
+      45.027866017381456,
+      -84.69575999071822,
       2.99,
       "Taco Bell",
-      "Appleton",
-      "WI"
+      "Gaylord",
+      "MI"
     ],
     [
       "037070",
@@ -28207,6 +28264,15 @@
       "Taco Bell",
       "Batavia",
       "OH"
+    ],
+    [
+      "042727",
+      39.31046,
+      -85.213516,
+      3.59,
+      "Taco Bell",
+      "Batesville",
+      "IN"
     ],
     [
       "041665",
@@ -31107,15 +31173,6 @@
       "MI"
     ],
     [
-      "031824",
-      43.59285788522184,
-      -83.88822938773149,
-      3.79,
-      "Taco Bell",
-      "Bay City",
-      "MI"
-    ],
-    [
       "032991",
       42.79655284205683,
       -86.0772706929193,
@@ -33213,6 +33270,15 @@
       "OH"
     ],
     [
+      "015775",
+      36.82354084740702,
+      -76.06761315468248,
+      3.99,
+      "Taco Bell",
+      "Virginia Beach",
+      "VA"
+    ],
+    [
       "033798",
       39.839080834219615,
       -83.08011338999798,
@@ -33310,6 +33376,15 @@
       "Taco Bell",
       "Dayton",
       "OH"
+    ],
+    [
+      "023074",
+      41.1388001852768,
+      -104.78724454344956,
+      3.99,
+      "Taco Bell",
+      "Cheyenne",
+      "WY"
     ],
     [
       "033852",

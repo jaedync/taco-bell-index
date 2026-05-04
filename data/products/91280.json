@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 6.0,
   "price_stats": {
-    "avg": 21.49,
+    "avg": 21.48,
     "min": 19.99,
     "max": 34.99,
     "median": 20.83,
     "std_dev": 1.64,
-    "store_count": 461
+    "store_count": 459
   },
   "histogram": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 73
+      "count": 71
     },
     {
       "bucket": "$24.83",
@@ -93,14 +93,14 @@
       "store_count": 7
     },
     {
-      "state": "GA",
-      "avg_price": 21.55,
-      "store_count": 224
-    },
-    {
       "state": "TN",
       "avg_price": 21.54,
       "store_count": 83
+    },
+    {
+      "state": "GA",
+      "avg_price": 21.54,
+      "store_count": 222
     },
     {
       "state": "AL",
@@ -273,6 +273,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041245",
+      "store_name": "Taco Bell",
+      "city": "Austell",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:31:35.608872+00:00"
+    },
+    {
+      "store_number": "041234",
+      "store_name": "Taco Bell",
+      "city": "Winder",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 22.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:27.666413+00:00"
+    },
     {
       "store_number": "002167",
       "store_name": "Taco Bell",
@@ -5506,7 +5526,7 @@
   ],
   "activity_summary": {
     "added": 492,
-    "removed": 31,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9312,15 +9332,6 @@
       "GA"
     ],
     [
-      "041234",
-      33.98958032634979,
-      -83.721671149151,
-      22.99,
-      "Taco Bell",
-      "Winder",
-      "GA"
-    ],
-    [
       "042826",
       30.403916243280175,
       -87.27756415309159,
@@ -9426,15 +9437,6 @@
       22.99,
       "Taco Bell",
       "Marietta",
-      "GA"
-    ],
-    [
-      "041245",
-      33.85866928729595,
-      -84.6006282372764,
-      22.99,
-      "Taco Bell",
-      "Austell",
       "GA"
     ],
     [
@@ -9691,6 +9693,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.8
 }

@@ -20,7 +20,7 @@
     "max": 1.6,
     "median": 0.85,
     "std_dev": 0.16,
-    "store_count": 7651
+    "store_count": 7649
   },
   "histogram": [
     {
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$0.59",
-      "count": 191
+      "count": 192
     },
     {
       "bucket": "$0.60",
@@ -77,11 +77,11 @@
     },
     {
       "bucket": "$0.70",
-      "count": 447
+      "count": 446
     },
     {
       "bucket": "$0.75",
-      "count": 812
+      "count": 811
     },
     {
       "bucket": "$0.76",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 139
+      "count": 138
     },
     {
       "bucket": "$0.80",
@@ -267,7 +267,7 @@
     {
       "state": "VA",
       "avg_price": 0.85,
-      "store_count": 200
+      "store_count": 199
     },
     {
       "state": "MO",
@@ -322,7 +322,7 @@
     {
       "state": "NE",
       "avg_price": 0.8,
-      "store_count": 44
+      "store_count": 43
     },
     {
       "state": "KY",
@@ -362,17 +362,17 @@
     {
       "state": "SC",
       "avg_price": 0.75,
-      "store_count": 116
+      "store_count": 115
     },
     {
       "state": "CO",
       "avg_price": 0.74,
-      "store_count": 155
+      "store_count": 154
     },
     {
       "state": "ND",
       "avg_price": 0.73,
-      "store_count": 11
+      "store_count": 12
     },
     {
       "state": "TX",
@@ -382,7 +382,7 @@
     {
       "state": "KS",
       "avg_price": 0.71,
-      "store_count": 90
+      "store_count": 91
     },
     {
       "state": "WI",
@@ -587,6 +587,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002274",
+      "store_name": "Taco Bell",
+      "city": "Topeka",
+      "state": "KS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.59,
+      "observed_at": "2026-05-04T21:34:01.658420+00:00"
+    },
+    {
+      "store_number": "030987",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:09.037249+00:00"
+    },
+    {
+      "store_number": "023306",
+      "store_name": "Taco Bell",
+      "city": "Thornton",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:06.194387+00:00"
+    },
+    {
+      "store_number": "037582",
+      "store_name": "Taco Bell",
+      "city": "Dickinson",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.75,
+      "observed_at": "2026-05-04T21:33:05.641090+00:00"
+    },
+    {
+      "store_number": "035394",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-05-04T21:24:11.494732+00:00"
+    },
+    {
+      "store_number": "035284",
+      "store_name": "Taco Bell",
+      "city": "Omaha",
+      "state": "NE",
+      "change_type": "item_removed",
+      "old_price": 0.79,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:45.615641+00:00"
+    },
+    {
+      "store_number": "039757",
+      "store_name": "Taco Bell",
+      "city": "Blacksburg",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:51.519732+00:00"
+    },
+    {
+      "store_number": "031437",
+      "store_name": "Taco Bell",
+      "city": "Summerville",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:00.645299+00:00"
+    },
     {
       "store_number": "029671",
       "store_name": "Taco Bell",
@@ -2949,8 +3029,8 @@
     }
   ],
   "activity_summary": {
-    "added": 51,
-    "removed": 34,
+    "added": 54,
+    "removed": 39,
     "price_changed": 151,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8108,6 +8188,15 @@
       "KS"
     ],
     [
+      "002274",
+      39.0147877694527,
+      -95.6812978238031,
+      0.59,
+      "Taco Bell",
+      "Topeka",
+      "KS"
+    ],
+    [
       "018021",
       26.23359038411604,
       -98.17678142832386,
@@ -8997,15 +9086,6 @@
       "Taco Bell",
       "Peoria",
       "AZ"
-    ],
-    [
-      "031437",
-      32.99673031624207,
-      -80.18525809049606,
-      0.6,
-      "Taco Bell",
-      "Summerville",
-      "SC"
     ],
     [
       "031782",
@@ -10194,6 +10274,15 @@
       "Taco Bell",
       "Bremerton",
       "WA"
+    ],
+    [
+      "035394",
+      41.13347095396696,
+      -85.10041549801821,
+      0.6,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
     ],
     [
       "004907",
@@ -19331,15 +19420,6 @@
       "TX"
     ],
     [
-      "030987",
-      39.98369425652976,
-      -86.00301325332117,
-      0.7,
-      "Taco Bell",
-      "Fishers",
-      "IN"
-    ],
-    [
       "029888",
       33.01737905538142,
       -96.68196621631527,
@@ -23012,15 +23092,6 @@
       "UT"
     ],
     [
-      "039757",
-      37.233779653440465,
-      -80.41844491662232,
-      0.75,
-      "Taco Bell",
-      "Blacksburg",
-      "VA"
-    ],
-    [
       "032725",
       32.26751898479305,
       -107.7651715278626,
@@ -25865,6 +25936,15 @@
       "ND"
     ],
     [
+      "037582",
+      46.90019126278829,
+      -102.78885573148727,
+      0.75,
+      "Taco Bell",
+      "Dickinson",
+      "ND"
+    ],
+    [
       "030096",
       30.559615280411325,
       -97.84548684954643,
@@ -26105,15 +26185,6 @@
       0.75,
       "Taco Bell",
       "Colorado Springs",
-      "CO"
-    ],
-    [
-      "023306",
-      39.945084092238204,
-      -104.93975193055121,
-      0.75,
-      "Taco Bell",
-      "Thornton",
       "CO"
     ],
     [
@@ -28109,15 +28180,6 @@
       "035272",
       41.220994504465274,
       -95.97535566310393,
-      0.79,
-      "Taco Bell",
-      "Omaha",
-      "NE"
-    ],
-    [
-      "035284",
-      41.25932562746179,
-      -95.97073674201965,
       0.79,
       "Taco Bell",
       "Omaha",

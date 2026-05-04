@@ -21,19 +21,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 49
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 48
+      "count": 49
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 48
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -161,6 +161,7 @@
     "003584",
     "024444",
     "027361",
+    "024650",
     "037839",
     "001732",
     "033314",
@@ -245,6 +246,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024650",
+      "store_name": "Taco Bell",
+      "city": "Clinton Township",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-04T21:21:46.709867+00:00"
+    },
     {
       "store_number": "024650",
       "store_name": "Taco Bell",
@@ -1287,7 +1298,7 @@
     }
   ],
   "activity_summary": {
-    "added": 76,
+    "added": 77,
     "removed": 28,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1634,6 +1645,15 @@
       "027361",
       42.54992472502078,
       -82.92630142999315,
+      4.99,
+      "Taco Bell",
+      "Clinton Township",
+      "MI"
+    ],
+    [
+      "024650",
+      42.57316357122493,
+      -82.88906022906309,
       4.99,
       "Taco Bell",
       "Clinton Township",

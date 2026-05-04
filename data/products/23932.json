@@ -20,8 +20,8 @@
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
-    "std_dev": 0.32,
-    "store_count": 33
+    "std_dev": 0.33,
+    "store_count": 32
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 25
+      "count": 24
     },
     {
       "bucket": "$7.29",
@@ -41,7 +41,7 @@
     {
       "state": "NC",
       "avg_price": 5.99,
-      "store_count": 10
+      "store_count": 9
     }
   ],
   "nutrition": {
@@ -212,6 +212,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029406",
+      "store_name": "Taco Bell",
+      "city": "Durham",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:55.941311+00:00"
+    },
     {
       "store_number": "035718",
       "store_name": "Taco Bell / KFC",
@@ -565,7 +575,7 @@
   ],
   "activity_summary": {
     "added": 34,
-    "removed": 1,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -752,15 +762,6 @@
       5.99,
       "Taco Bell",
       "Oxford",
-      "NC"
-    ],
-    [
-      "029406",
-      36.022485677062306,
-      -78.95267031623126,
-      5.99,
-      "Taco Bell",
-      "Durham",
       "NC"
     ],
     [

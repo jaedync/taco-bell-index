@@ -16,12 +16,12 @@
   "first_seen_at": "2026-04-16T21:05:37.526671+00:00",
   "availability_pct": 6.3,
   "price_stats": {
-    "avg": 10.13,
+    "avg": 10.12,
     "min": 9.99,
     "max": 11.49,
     "median": 9.99,
     "std_dev": 0.35,
-    "store_count": 484
+    "store_count": 483
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 61
+      "count": 60
     },
     {
       "bucket": "$11.49",
@@ -41,7 +41,7 @@
     {
       "state": "GA",
       "avg_price": 10.27,
-      "store_count": 233
+      "store_count": 232
     },
     {
       "state": "TN",
@@ -595,13 +595,6 @@
       "price": 11.49
     },
     {
-      "store_number": "041248",
-      "name": "Taco Bell",
-      "city": "Douglasville",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
       "store_number": "041241",
       "name": "Taco Bell",
       "city": "Athens",
@@ -642,9 +635,26 @@
       "city": "Austell",
       "state": "GA",
       "price": 10.99
+    },
+    {
+      "store_number": "041239",
+      "name": "Taco Bell",
+      "city": "Marietta",
+      "state": "GA",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:56.644634+00:00"
+    },
     {
       "store_number": "009575",
       "store_name": "Taco Bell",
@@ -8548,7 +8558,7 @@
   ],
   "activity_summary": {
     "added": 637,
-    "removed": 153,
+    "removed": 154,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12900,15 +12910,6 @@
       10.99,
       "Taco Bell",
       "Athens",
-      "GA"
-    ],
-    [
-      "041248",
-      33.71830055882164,
-      -84.76882606744766,
-      10.99,
-      "Taco Bell",
-      "Douglasville",
       "GA"
     ],
     [

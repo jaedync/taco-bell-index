@@ -21,7 +21,7 @@
     "max": 11.99,
     "median": 9.79,
     "std_dev": 0.41,
-    "store_count": 485
+    "store_count": 486
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$9.29",
-      "count": 11
+      "count": 10
     },
     {
       "bucket": "$9.39",
@@ -42,7 +42,7 @@
     },
     {
       "bucket": "$9.49",
-      "count": 81
+      "count": 82
     },
     {
       "bucket": "$9.59",
@@ -62,7 +62,7 @@
     },
     {
       "bucket": "$9.99",
-      "count": 71
+      "count": 72
     },
     {
       "bucket": "$10.19",
@@ -97,8 +97,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 9.8,
-      "store_count": 235
+      "avg_price": 9.79,
+      "store_count": 237
     },
     {
       "state": "AL",
@@ -112,8 +112,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 9.58,
-      "store_count": 30
+      "avg_price": 9.59,
+      "store_count": 29
     }
   ],
   "nutrition": null,
@@ -308,6 +308,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.29,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:34:09.964231+00:00"
+    },
+    {
+      "store_number": "041837",
+      "store_name": "Taco Bell",
+      "city": "Thomasville",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.49,
+      "observed_at": "2026-05-04T21:32:42.424901+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.99,
+      "observed_at": "2026-05-04T21:22:54.804556+00:00"
+    },
     {
       "store_number": "041259",
       "store_name": "Taco Bell",
@@ -8860,8 +8890,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 22,
+    "added": 509,
+    "removed": 23,
     "price_changed": 326,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9442,15 +9472,6 @@
       "042124",
       30.522978445511598,
       -86.49525940418243,
-      9.29,
-      "Taco Bell",
-      "Niceville",
-      "FL"
-    ],
-    [
-      "042123",
-      30.48259156216648,
-      -86.41599865257577,
       9.29,
       "Taco Bell",
       "Niceville",
@@ -10111,6 +10132,15 @@
       9.49,
       "Taco Bell",
       "Forsyth",
+      "GA"
+    ],
+    [
+      "041837",
+      30.85502172223534,
+      -83.94673973321909,
+      9.49,
+      "Taco Bell",
+      "Thomasville",
       "GA"
     ],
     [
@@ -12157,6 +12187,15 @@
       "GA"
     ],
     [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      9.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
+    ],
+    [
       "040962",
       35.18370637706397,
       -83.35587926686479,
@@ -13274,6 +13313,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.9
 }

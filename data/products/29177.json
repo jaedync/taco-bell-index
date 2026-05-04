@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 63
+    "store_count": 62
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 63
+      "count": 62
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 63
+      "store_count": 62
     }
   ],
   "nutrition": {
@@ -80,6 +80,13 @@
       "price": 10.99
     },
     {
+      "store_number": "034783",
+      "name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "034809",
       "name": "Taco Bell",
       "city": "Umatilla",
@@ -113,13 +120,6 @@
       "city": "Daytona Beach",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "037110",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -127,12 +127,12 @@
     "040450",
     "034859",
     "036021",
+    "034783",
     "034809",
     "041964",
     "036232",
     "036438",
     "037372",
-    "037110",
     "037187",
     "039587",
     "031840",
@@ -167,7 +167,6 @@
     "023289",
     "027969",
     "027973",
-    "027990",
     "027987",
     "021472",
     "039585",
@@ -260,6 +259,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027990",
+      "store_name": "Taco Bell",
+      "city": "New Smyrna Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:28:31.363578+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:24.465588+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-04T21:20:25.328048+00:00"
+    },
     {
       "store_number": "034783",
       "store_name": "Taco Bell",
@@ -1052,8 +1081,8 @@
     }
   ],
   "activity_summary": {
-    "added": 71,
-    "removed": 8,
+    "added": 72,
+    "removed": 10,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1130,6 +1159,15 @@
       "FL"
     ],
     [
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
+      10.99,
+      "Taco Bell",
+      "Dunnellon",
+      "FL"
+    ],
+    [
       "034809",
       28.93077353365337,
       -81.66661659010451,
@@ -1172,15 +1210,6 @@
       10.99,
       "Taco Bell",
       "Daytona Beach",
-      "FL"
-    ],
-    [
-      "037110",
-      28.34617964975096,
-      -81.64492094604472,
-      10.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -1487,15 +1516,6 @@
       10.99,
       "Taco Bell",
       "Rockledge",
-      "FL"
-    ],
-    [
-      "027990",
-      29.01345130657388,
-      -80.94385196631548,
-      10.99,
-      "Taco Bell",
-      "New Smyrna Beach",
       "FL"
     ],
     [

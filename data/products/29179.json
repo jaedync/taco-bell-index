@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 95
+    "store_count": 91
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 95
+      "count": 91
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 9.0,
-      "store_count": 95
+      "store_count": 91
     }
   ],
   "nutrition": {
@@ -133,7 +133,7 @@
     "033927",
     "036287",
     "036021",
-    "035177",
+    "034783",
     "034809",
     "035998",
     "041964",
@@ -158,7 +158,6 @@
     "027981",
     "027978",
     "027975",
-    "027988",
     "022266",
     "027982",
     "022833",
@@ -168,7 +167,6 @@
     "023293",
     "017290",
     "027976",
-    "027970",
     "027979",
     "028007",
     "022590",
@@ -181,7 +179,6 @@
     "022589",
     "027980",
     "023296",
-    "027972",
     "023298",
     "042914",
     "022587",
@@ -193,7 +190,6 @@
     "027990",
     "027987",
     "021472",
-    "039585",
     "023301",
     "027985",
     "022593",
@@ -292,6 +288,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039585",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:29:37.344089+00:00"
+    },
+    {
+      "store_number": "027972",
+      "store_name": "Taco Bell",
+      "city": "Melbourne",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:52.155118+00:00"
+    },
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:34.792135+00:00"
+    },
+    {
+      "store_number": "027988",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:51.645463+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-04T21:20:25.328048+00:00"
+    },
+    {
+      "store_number": "035177",
+      "store_name": "Taco Bell",
+      "city": "Palm Bay",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:24.106511+00:00"
+    },
     {
       "store_number": "034783",
       "store_name": "Taco Bell",
@@ -3484,8 +3540,8 @@
     }
   ],
   "activity_summary": {
-    "added": 207,
-    "removed": 112,
+    "added": 208,
+    "removed": 117,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3616,12 +3672,12 @@
       "FL"
     ],
     [
-      "035177",
-      28.034745821603277,
-      -80.63173264643589,
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
       9.0,
       "Taco Bell",
-      "Palm Bay",
+      "Dunnellon",
       "FL"
     ],
     [
@@ -3841,15 +3897,6 @@
       "FL"
     ],
     [
-      "027988",
-      28.47491997799977,
-      -81.28932432086913,
-      9.0,
-      "Taco Bell",
-      "Orlando",
-      "FL"
-    ],
-    [
       "022266",
       28.53756096341434,
       -81.20877279901833,
@@ -3928,15 +3975,6 @@
       9.0,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "027970",
-      28.36376816960354,
-      -80.69987878203392,
-      9.0,
-      "Taco Bell",
-      "Merritt Island",
       "FL"
     ],
     [
@@ -4048,15 +4086,6 @@
       "FL"
     ],
     [
-      "027972",
-      28.14532685391547,
-      -80.67222346367089,
-      9.0,
-      "Taco Bell",
-      "Melbourne",
-      "FL"
-    ],
-    [
       "023298",
       28.515978176332453,
       -81.48444129319549,
@@ -4153,15 +4182,6 @@
       9.0,
       "Taco Bell",
       "Clermont",
-      "FL"
-    ],
-    [
-      "039585",
-      28.304853694257584,
-      -81.42185122376063,
-      9.0,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -4382,6 +4402,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 1.2
 }

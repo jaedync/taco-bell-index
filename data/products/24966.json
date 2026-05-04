@@ -20,13 +20,13 @@
     "min": 6.99,
     "max": 10.99,
     "median": 6.99,
-    "std_dev": 0.46,
-    "store_count": 75
+    "std_dev": 0.45,
+    "store_count": 78
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 74
+      "count": 77
     },
     {
       "bucket": "$10.99",
@@ -37,7 +37,7 @@
     {
       "state": "FL",
       "avg_price": 7.04,
-      "store_count": 74
+      "store_count": 77
     }
   ],
   "nutrition": {
@@ -137,6 +137,7 @@
     "036287",
     "036021",
     "035177",
+    "034783",
     "035998",
     "035462",
     "036232",
@@ -146,6 +147,7 @@
     "032537",
     "031840",
     "023290",
+    "023302",
     "042941",
     "022592",
     "027983",
@@ -159,6 +161,7 @@
     "005646",
     "023293",
     "017290",
+    "027976",
     "028007",
     "022590",
     "027971",
@@ -179,7 +182,6 @@
     "042924",
     "023289",
     "027973",
-    "027990",
     "021472",
     "023301",
     "027985",
@@ -199,6 +201,7 @@
     "027977",
     "023300",
     "034162",
+    "034163",
     "042971",
     "032959"
   ],
@@ -221,6 +224,13 @@
       "store_number": "042971",
       "name": "Taco Bell",
       "city": "Palm Coast",
+      "state": "FL",
+      "price": 6.99
+    },
+    {
+      "store_number": "034163",
+      "name": "Taco Bell",
+      "city": "Saint Cloud",
       "state": "FL",
       "price": 6.99
     },
@@ -265,16 +275,59 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 6.99
-    },
-    {
-      "store_number": "042928",
-      "name": "Taco Bell",
-      "city": "Palm Coast",
-      "state": "FL",
-      "price": 6.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "034163",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-04T21:34:13.781865+00:00"
+    },
+    {
+      "store_number": "027990",
+      "store_name": "Taco Bell",
+      "city": "New Smyrna Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:28:31.363578+00:00"
+    },
+    {
+      "store_number": "027976",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-04T21:23:26.456596+00:00"
+    },
+    {
+      "store_number": "023302",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-04T21:22:25.752215+00:00"
+    },
+    {
+      "store_number": "034783",
+      "store_name": "Taco Bell",
+      "city": "Dunnellon",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-04T21:20:25.328048+00:00"
+    },
     {
       "store_number": "034783",
       "store_name": "Taco Bell",
@@ -1627,8 +1680,8 @@
     }
   ],
   "activity_summary": {
-    "added": 104,
-    "removed": 31,
+    "added": 108,
+    "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1747,6 +1800,15 @@
       "FL"
     ],
     [
+      "034783",
+      29.05630760923329,
+      -82.45670382723803,
+      6.99,
+      "Taco Bell",
+      "Dunnellon",
+      "FL"
+    ],
+    [
       "035998",
       28.363064573082465,
       -81.42408256620308,
@@ -1825,6 +1887,15 @@
       6.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "023302",
+      28.340028098278022,
+      -81.59762848915307,
+      6.99,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [
@@ -1942,6 +2013,15 @@
       6.99,
       "Taco Bell",
       "Casselberry",
+      "FL"
+    ],
+    [
+      "027976",
+      28.553754689889452,
+      -81.33276176918858,
+      6.99,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [
@@ -2125,15 +2205,6 @@
       "FL"
     ],
     [
-      "027990",
-      29.01345130657388,
-      -80.94385196631548,
-      6.99,
-      "Taco Bell",
-      "New Smyrna Beach",
-      "FL"
-    ],
-    [
       "021472",
       28.547364532355125,
       -81.72223337000105,
@@ -2302,6 +2373,15 @@
       6.99,
       "Taco Bell",
       "Kissimmee",
+      "FL"
+    ],
+    [
+      "034163",
+      28.24668494787806,
+      -81.24437438517288,
+      6.99,
+      "Taco Bell",
+      "Saint Cloud",
       "FL"
     ],
     [

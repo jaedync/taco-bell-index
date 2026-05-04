@@ -35,14 +35,14 @@
   ],
   "state_prices": [
     {
-      "state": "AL",
-      "avg_price": 5.42,
-      "store_count": 7
-    },
-    {
       "state": "GA",
       "avg_price": 5.41,
       "store_count": 13
+    },
+    {
+      "state": "AL",
+      "avg_price": 5.41,
+      "store_count": 6
     }
   ],
   "nutrition": {
@@ -139,6 +139,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042123",
+      "name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "price": 5.49
+    },
+    {
       "store_number": "029110",
       "name": "Taco Bell",
       "city": "Birmingham",
@@ -200,16 +207,29 @@
       "city": "Griffin",
       "state": "GA",
       "price": 5.49
-    },
-    {
-      "store_number": "037155",
-      "name": "Taco Bell",
-      "city": "Cullman",
-      "state": "AL",
-      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.49,
+      "observed_at": "2026-05-04T21:34:09.964231+00:00"
+    },
+    {
+      "store_number": "037155",
+      "store_name": "Taco Bell",
+      "city": "Cullman",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:20:33.372935+00:00"
+    },
     {
       "store_number": "036011",
       "store_name": "Taco Bell",
@@ -952,8 +972,8 @@
     }
   ],
   "activity_summary": {
-    "added": 36,
-    "removed": 38,
+    "added": 37,
+    "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1089,15 +1109,6 @@
       "GA"
     ],
     [
-      "037155",
-      34.15676427597664,
-      -86.83395521550965,
-      5.49,
-      "Taco Bell",
-      "Cullman",
-      "AL"
-    ],
-    [
       "039944",
       33.27618130148277,
       -84.29192100855713,
@@ -1177,6 +1188,15 @@
       "Taco Bell",
       "Birmingham",
       "AL"
+    ],
+    [
+      "042123",
+      30.48259156216648,
+      -86.41599865257577,
+      5.49,
+      "Taco Bell",
+      "Niceville",
+      "FL"
     ]
   ],
   "retired_at": null,

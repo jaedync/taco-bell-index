@@ -20,7 +20,7 @@
     "max": 0.99,
     "median": 0.6,
     "std_dev": 0.14,
-    "store_count": 493
+    "store_count": 492
   },
   "histogram": [
     {
@@ -73,7 +73,7 @@
     },
     {
       "bucket": "$0.75",
-      "count": 42
+      "count": 41
     },
     {
       "bucket": "$0.79",
@@ -111,7 +111,7 @@
     {
       "state": "GA",
       "avg_price": 0.59,
-      "store_count": 239
+      "store_count": 238
     },
     {
       "state": "SC",
@@ -284,6 +284,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041248",
+      "store_name": "Taco Bell",
+      "city": "Douglasville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 0.75,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:56.644634+00:00"
+    },
     {
       "store_number": "041223",
       "store_name": "Taco Bell",
@@ -5357,7 +5367,7 @@
   ],
   "activity_summary": {
     "added": 499,
-    "removed": 6,
+    "removed": 7,
     "price_changed": 2,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8922,15 +8932,6 @@
       "GA"
     ],
     [
-      "041248",
-      33.71830055882164,
-      -84.76882606744766,
-      0.75,
-      "Taco Bell",
-      "Douglasville",
-      "GA"
-    ],
-    [
       "041322",
       34.00032217144678,
       -83.90880189647538,
@@ -9805,6 +9806,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 6.0
 }

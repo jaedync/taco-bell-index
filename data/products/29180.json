@@ -21,19 +21,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 32
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 32
+      "count": 30
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 32
+      "store_count": 30
     }
   ],
   "nutrition": {
@@ -80,13 +80,6 @@
       "price": 10.99
     },
     {
-      "store_number": "037110",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "039587",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -120,6 +113,13 @@
       "city": "Winter Park",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "028353",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -127,7 +127,6 @@
     "034809",
     "036232",
     "036438",
-    "037110",
     "039587",
     "023290",
     "030349",
@@ -146,7 +145,6 @@
     "023298",
     "042914",
     "042924",
-    "027990",
     "021472",
     "022588",
     "004435",
@@ -214,14 +212,14 @@
       "price": 10.99
     },
     {
-      "store_number": "027990",
+      "store_number": "042924",
       "name": "Taco Bell",
-      "city": "New Smyrna Beach",
+      "city": "Ocala",
       "state": "FL",
       "price": 10.99
     },
     {
-      "store_number": "042924",
+      "store_number": "042914",
       "name": "Taco Bell",
       "city": "Ocala",
       "state": "FL",
@@ -229,6 +227,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027990",
+      "store_name": "Taco Bell",
+      "city": "New Smyrna Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:28:31.363578+00:00"
+    },
+    {
+      "store_number": "037110",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:24.465588+00:00"
+    },
     {
       "store_number": "027979",
       "store_name": "Taco Bell",
@@ -1252,7 +1270,7 @@
   ],
   "activity_summary": {
     "added": 67,
-    "removed": 35,
+    "removed": 37,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1326,15 +1344,6 @@
       10.99,
       "Taco Bell",
       "Minneola",
-      "FL"
-    ],
-    [
-      "037110",
-      28.34617964975096,
-      -81.64492094604472,
-      10.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -1497,15 +1506,6 @@
       10.99,
       "Taco Bell",
       "Ocala",
-      "FL"
-    ],
-    [
-      "027990",
-      29.01345130657388,
-      -80.94385196631548,
-      10.99,
-      "Taco Bell",
-      "New Smyrna Beach",
       "FL"
     ],
     [

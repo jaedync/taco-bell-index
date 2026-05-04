@@ -13,19 +13,19 @@
   "peak_30d_pct": 43.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 46.2,
+  "availability_pct": 46.1,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3558
+    "store_count": 3555
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3558
+      "count": 3555
     }
   ],
   "state_prices": [
@@ -37,17 +37,17 @@
     {
       "state": "WI",
       "avg_price": 0.0,
-      "store_count": 72
+      "store_count": 71
     },
     {
       "state": "WA",
       "avg_price": 0.0,
-      "store_count": 131
+      "store_count": 132
     },
     {
       "state": "VA",
       "avg_price": 0.0,
-      "store_count": 45
+      "store_count": 44
     },
     {
       "state": "UT",
@@ -102,7 +102,7 @@
     {
       "state": "NV",
       "avg_price": 0.0,
-      "store_count": 78
+      "store_count": 77
     },
     {
       "state": "NM",
@@ -142,7 +142,7 @@
     {
       "state": "MN",
       "avg_price": 0.0,
-      "store_count": 98
+      "store_count": 97
     },
     {
       "state": "MI",
@@ -459,7 +459,6 @@
     "041432",
     "042081",
     "041832",
-    "042250",
     "041903",
     "041434",
     "041327",
@@ -631,6 +630,7 @@
     "036455",
     "034816",
     "036443",
+    "036426",
     "036387",
     "019909",
     "024278",
@@ -1887,7 +1887,6 @@
     "016498",
     "029250",
     "002698",
-    "005470",
     "031822",
     "035281",
     "020088",
@@ -2267,7 +2266,6 @@
     "032098",
     "031344",
     "034369",
-    "031485",
     "024467",
     "002188",
     "037478",
@@ -3882,7 +3880,6 @@
     "035696",
     "042904",
     "042529",
-    "042277",
     "041957",
     "042876"
   ],
@@ -3899,13 +3896,6 @@
       "name": "Taco Bell",
       "city": "Chicago",
       "state": "IL",
-      "price": 0.0
-    },
-    {
-      "store_number": "042277",
-      "name": "Taco Bell",
-      "city": "Wytheville",
-      "state": "VA",
       "price": 0.0
     },
     {
@@ -3956,9 +3946,66 @@
       "city": "Spartanburg",
       "state": "SC",
       "price": 0.0
+    },
+    {
+      "store_number": "042967",
+      "name": "Taco Bell",
+      "city": "Middleburg",
+      "state": "FL",
+      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042277",
+      "store_name": "Taco Bell",
+      "city": "Wytheville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:34:16.203550+00:00"
+    },
+    {
+      "store_number": "031485",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:24:19.018411+00:00"
+    },
+    {
+      "store_number": "005470",
+      "store_name": "Taco Bell",
+      "city": "Alexandria",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:23:12.387746+00:00"
+    },
+    {
+      "store_number": "036426",
+      "store_name": "Taco Bell",
+      "city": "Puyallup",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-04T21:20:29.244654+00:00"
+    },
+    {
+      "store_number": "042250",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:19:37.651161+00:00"
+    },
     {
       "store_number": "036426",
       "store_name": "Taco Bell",
@@ -5871,8 +5918,8 @@
     }
   ],
   "activity_summary": {
-    "added": 98,
-    "removed": 93,
+    "added": 99,
+    "removed": 97,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7068,15 +7115,6 @@
       "Taco Bell",
       "Saint Croix Falls",
       "WI"
-    ],
-    [
-      "042250",
-      39.5445,
-      -119.81623,
-      0.0,
-      "Taco Bell",
-      "Reno",
-      "NV"
     ],
     [
       "041903",
@@ -8616,6 +8654,15 @@
       "Taco Bell",
       "Garrettsville",
       "OH"
+    ],
+    [
+      "036426",
+      47.18437939720152,
+      -122.25693117255726,
+      0.0,
+      "Taco Bell",
+      "Puyallup",
+      "WA"
     ],
     [
       "036387",
@@ -19922,15 +19969,6 @@
       "NY"
     ],
     [
-      "005470",
-      45.8472860660512,
-      -95.38711449901095,
-      0.0,
-      "Taco Bell",
-      "Alexandria",
-      "MN"
-    ],
-    [
       "031822",
       35.13168815558774,
       -106.64295212839343,
@@ -23340,15 +23378,6 @@
       "Taco Bell",
       "Goodlettsville",
       "TN"
-    ],
-    [
-      "031485",
-      42.986130962699995,
-      -88.00816972555367,
-      0.0,
-      "Taco Bell",
-      "Milwaukee",
-      "WI"
     ],
     [
       "024467",
@@ -37875,15 +37904,6 @@
       "Taco Bell",
       "Midland",
       "TX"
-    ],
-    [
-      "042277",
-      36.951417,
-      -81.068356,
-      0.0,
-      "Taco Bell",
-      "Wytheville",
-      "VA"
     ],
     [
       "041957",

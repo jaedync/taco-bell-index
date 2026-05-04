@@ -12,16 +12,16 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.4,
-  "recent_price_change_pct": -0.0299,
+  "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 10.95,
+    "avg": 10.96,
     "min": 9.99,
     "max": 12.99,
     "median": 10.99,
-    "std_dev": 0.84,
-    "store_count": 28
+    "std_dev": 0.82,
+    "store_count": 29
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$10.99",
-      "count": 15
+      "count": 16
     },
     {
       "bucket": "$11.99",
@@ -181,6 +181,13 @@
       "price": 11.99
     },
     {
+      "store_number": "030424",
+      "name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "price": 10.99
+    },
+    {
       "store_number": "029482",
       "name": "Taco Bell",
       "city": "Pittsboro",
@@ -207,16 +214,19 @@
       "city": "Benson",
       "state": "NC",
       "price": 10.99
-    },
-    {
-      "store_number": "029402",
-      "name": "Taco Bell",
-      "city": "Creedmoor",
-      "state": "NC",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030424",
+      "store_name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-04T21:33:58.060982+00:00"
+    },
     {
       "store_number": "041321",
       "store_name": "Taco Bell",
@@ -659,7 +669,7 @@
     }
   ],
   "activity_summary": {
-    "added": 34,
+    "added": 35,
     "removed": 6,
     "price_changed": 4,
     "since": "2026-03-31T00:00:00+00:00"
@@ -914,6 +924,15 @@
       "NC"
     ],
     [
+      "030424",
+      41.02537540476871,
+      -93.79682839663474,
+      10.99,
+      "Taco Bell / KFC",
+      "Osceola",
+      "IA"
+    ],
+    [
       "026028",
       41.71567814277641,
       -87.78261208259407,
@@ -960,6 +979,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 0.4
 }

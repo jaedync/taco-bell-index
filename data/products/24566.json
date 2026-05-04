@@ -15,14 +15,18 @@
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 0.7,
   "price_stats": {
-    "avg": 7.33,
-    "min": 5.1,
+    "avg": 7.28,
+    "min": 5.0,
     "max": 9.23,
     "median": 7.39,
-    "std_dev": 0.78,
-    "store_count": 56
+    "std_dev": 0.83,
+    "store_count": 57
   },
   "histogram": [
+    {
+      "bucket": "$5.00",
+      "count": 1
+    },
     {
       "bucket": "$5.10",
       "count": 1
@@ -100,6 +104,13 @@
   "nutrition": null,
   "cheapest_stores": [
     {
+      "store_number": "042149",
+      "name": "Taco Bell Cantina Cantina",
+      "city": "Bloomington",
+      "state": "IN",
+      "price": 5.0
+    },
+    {
       "store_number": "041966",
       "name": "Taco Bell",
       "city": "Jersey City",
@@ -161,17 +172,10 @@
       "city": "Chicago",
       "state": "IL",
       "price": 6.49
-    },
-    {
-      "store_number": "040515",
-      "name": "Taco Bell Cantina",
-      "city": "Arlington",
-      "state": "VA",
-      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
-    "041966"
+    "042149"
   ],
   "priciest_stores": [
     {
@@ -251,6 +255,16 @@
       "store_name": "Taco Bell Cantina Cantina",
       "city": "Bloomington",
       "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.0,
+      "observed_at": "2026-05-04T21:19:38.597062+00:00"
+    },
+    {
+      "store_number": "042149",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Bloomington",
+      "state": "IN",
       "change_type": "item_removed",
       "old_price": 5.0,
       "new_price": null,
@@ -298,7 +312,7 @@
     }
   ],
   "activity_summary": {
-    "added": 2,
+    "added": 3,
     "removed": 3,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -308,6 +322,15 @@
   "calories_max": 980,
   "combo_groups": [],
   "map_data": [
+    [
+      "042149",
+      39.1646346159661,
+      -86.50046960491085,
+      5.0,
+      "Taco Bell Cantina Cantina",
+      "Bloomington",
+      "IN"
+    ],
     [
       "041966",
       40.73244496953231,

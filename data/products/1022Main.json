@@ -18,9 +18,9 @@
   "price_stats": {
     "avg": 3.08,
     "min": 2.29,
-    "max": 3.49,
+    "max": 3.99,
     "median": 3.19,
-    "std_dev": 0.23,
+    "std_dev": 0.24,
     "store_count": 718
   },
   "histogram": [
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 21
+      "count": 20
     },
     {
       "bucket": "$2.59",
@@ -50,11 +50,11 @@
     },
     {
       "bucket": "$2.89",
-      "count": 82
+      "count": 84
     },
     {
       "bucket": "$2.99",
-      "count": 102
+      "count": 101
     },
     {
       "bucket": "$3.09",
@@ -62,18 +62,22 @@
     },
     {
       "bucket": "$3.19",
-      "count": 190
+      "count": 189
     },
     {
       "bucket": "$3.29",
-      "count": 220
+      "count": 219
     },
     {
       "bucket": "$3.39",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$3.49",
+      "count": 1
+    },
+    {
+      "bucket": "$3.99",
       "count": 1
     }
   ],
@@ -99,18 +103,8 @@
       "store_count": 5
     },
     {
-      "state": "LA",
-      "avg_price": 3.11,
-      "store_count": 5
-    },
-    {
-      "state": "FL",
-      "avg_price": 3.03,
-      "store_count": 5
-    },
-    {
       "state": "TX",
-      "avg_price": 2.99,
+      "avg_price": 3.0,
       "store_count": 434
     },
     {
@@ -202,6 +196,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042187",
+      "name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "price": 3.99
+    },
+    {
       "store_number": "038783",
       "name": "Taco Bell Cantina",
       "city": "Kansas City",
@@ -220,6 +221,13 @@
       "name": "Taco Bell",
       "city": "Elko",
       "state": "NV",
+      "price": 3.39
+    },
+    {
+      "store_number": "041270",
+      "name": "Taco Bell",
+      "city": "Belvidere",
+      "state": "IL",
       "price": 3.39
     },
     {
@@ -256,23 +264,89 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.39
-    },
-    {
-      "store_number": "035232",
-      "name": "Taco Bell",
-      "city": "Liberty",
-      "state": "MO",
-      "price": 3.39
-    },
-    {
-      "store_number": "035243",
-      "name": "Taco Bell",
-      "city": "Independence",
-      "state": "MO",
-      "price": 3.39
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041135",
+      "store_name": "Taco Bell",
+      "city": "Jarrell",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-05-04T21:34:15.844622+00:00"
+    },
+    {
+      "store_number": "031569",
+      "store_name": "Taco Bell",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.89,
+      "observed_at": "2026-05-04T21:33:58.606835+00:00"
+    },
+    {
+      "store_number": "042125",
+      "store_name": "Taco Bell",
+      "city": "Crestview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:33:43.979078+00:00"
+    },
+    {
+      "store_number": "042212",
+      "store_name": "Taco Bell",
+      "city": "Bossier City",
+      "state": "LA",
+      "change_type": "item_removed",
+      "old_price": 3.19,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:28:28.908129+00:00"
+    },
+    {
+      "store_number": "042187",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-04T21:24:53.083354+00:00"
+    },
+    {
+      "store_number": "029264",
+      "store_name": "Taco Bell",
+      "city": "Lawrence",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:22:24.835118+00:00"
+    },
+    {
+      "store_number": "041588",
+      "store_name": "Taco Bell",
+      "city": "Lubbock",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.49,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:19:06.779859+00:00"
+    },
+    {
+      "store_number": "041270",
+      "store_name": "Taco Bell",
+      "city": "Belvidere",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-05-04T21:18:04.547505+00:00"
+    },
     {
       "store_number": "041105",
       "store_name": "Taco Bell",
@@ -4045,8 +4119,8 @@
     }
   ],
   "activity_summary": {
-    "added": 107,
-    "removed": 124,
+    "added": 111,
+    "removed": 128,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4341,15 +4415,6 @@
       2.49,
       "Taco Bell",
       "Brownfield",
-      "TX"
-    ],
-    [
-      "041588",
-      33.549461,
-      -101.9111999,
-      2.49,
-      "Taco Bell",
-      "Lubbock",
       "TX"
     ],
     [
@@ -5739,6 +5804,15 @@
       "TX"
     ],
     [
+      "041135",
+      30.815413855831896,
+      -97.60985265889549,
+      2.89,
+      "Taco Bell",
+      "Jarrell",
+      "TX"
+    ],
+    [
       "034699",
       35.07501446373359,
       -89.90580444039551,
@@ -5755,6 +5829,15 @@
       "Taco Bell",
       "East Point",
       "GA"
+    ],
+    [
+      "031569",
+      33.753597971429095,
+      -78.96264781059472,
+      2.89,
+      "Taco Bell",
+      "Myrtle Beach",
+      "SC"
     ],
     [
       "040361",
@@ -6538,15 +6621,6 @@
       "Taco Bell",
       "Austin",
       "TX"
-    ],
-    [
-      "042125",
-      30.786388890498326,
-      -86.5598059594958,
-      2.99,
-      "Taco Bell",
-      "Crestview",
-      "FL"
     ],
     [
       "036281",
@@ -8023,15 +8097,6 @@
       "Taco Bell",
       "Sweetwater",
       "TX"
-    ],
-    [
-      "042212",
-      32.52812427953121,
-      -93.70109170675278,
-      3.19,
-      "Taco Bell",
-      "Bossier City",
-      "LA"
     ],
     [
       "034340",
@@ -10347,15 +10412,6 @@
       "OK"
     ],
     [
-      "029264",
-      42.68932958211096,
-      -71.14899910735949,
-      3.29,
-      "Taco Bell",
-      "Lawrence",
-      "MA"
-    ],
-    [
       "001896",
       42.51641840702473,
       -83.36022384000444,
@@ -10491,6 +10547,15 @@
       "NC"
     ],
     [
+      "041270",
+      42.240347,
+      -88.819067,
+      3.39,
+      "Taco Bell",
+      "Belvidere",
+      "IL"
+    ],
+    [
       "031885",
       40.834828746404284,
       -115.78682546319214,
@@ -10516,6 +10581,15 @@
       "Taco Bell Cantina",
       "Kansas City",
       "MO"
+    ],
+    [
+      "042187",
+      39.92183928957404,
+      -75.1875776946872,
+      3.99,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ]
   ],
   "retired_at": null,
@@ -10526,7 +10600,7 @@
       "size": "LARGE",
       "avg_price": 3.09,
       "min_price": 2.29,
-      "max_price": 3.49,
+      "max_price": 3.99,
       "calories": 0,
       "happier_hour_avg": null
     },
@@ -10534,7 +10608,7 @@
       "size": "MEDIUM",
       "avg_price": 2.86,
       "min_price": 2.19,
-      "max_price": 3.29,
+      "max_price": 3.59,
       "calories": 0,
       "happier_hour_avg": 1.03
     },

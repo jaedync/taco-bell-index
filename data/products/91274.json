@@ -38,11 +38,11 @@
     },
     {
       "bucket": "$10.89",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$10.99",
-      "count": 153
+      "count": 154
     },
     {
       "bucket": "$11.19",
@@ -95,7 +95,7 @@
     {
       "state": "GA",
       "avg_price": 11.06,
-      "store_count": 236
+      "store_count": 237
     },
     {
       "state": "SC",
@@ -105,7 +105,7 @@
     {
       "state": "FL",
       "avg_price": 10.82,
-      "store_count": 30
+      "store_count": 29
     }
   ],
   "nutrition": null,
@@ -311,6 +311,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042123",
+      "store_name": "Taco Bell",
+      "city": "Niceville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.89,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:34:09.964231+00:00"
+    },
+    {
+      "store_number": "041259",
+      "store_name": "Taco Bell",
+      "city": "Cleveland",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-05-04T21:22:54.804556+00:00"
+    },
     {
       "store_number": "041259",
       "store_name": "Taco Bell",
@@ -8543,8 +8563,8 @@
     }
   ],
   "activity_summary": {
-    "added": 503,
-    "removed": 19,
+    "added": 504,
+    "removed": 20,
     "price_changed": 301,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9377,15 +9397,6 @@
       "FL"
     ],
     [
-      "042123",
-      30.48259156216648,
-      -86.41599865257577,
-      10.89,
-      "Taco Bell",
-      "Niceville",
-      "FL"
-    ],
-    [
       "041333",
       35.9877670904,
       -84.0492502669,
@@ -9996,6 +10007,15 @@
       "Taco Bell",
       "Fort Payne",
       "AL"
+    ],
+    [
+      "041259",
+      34.57876717849458,
+      -83.76470231775006,
+      10.99,
+      "Taco Bell",
+      "Cleveland",
+      "GA"
     ],
     [
       "041256",
@@ -12942,6 +12962,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 5.9
 }

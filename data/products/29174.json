@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 46
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 48
+      "count": 46
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 48
+      "store_count": 46
     }
   ],
   "nutrition": {
@@ -151,7 +151,6 @@
     "001738",
     "037840",
     "003296",
-    "041875",
     "024150",
     "024651",
     "002681",
@@ -166,7 +165,6 @@
     "041877",
     "040464",
     "030922",
-    "024449",
     "040700",
     "040164",
     "040608",
@@ -198,13 +196,6 @@
       "store_number": "040700",
       "name": "Taco Bell",
       "city": "Marlette",
-      "state": "MI",
-      "price": 9.0
-    },
-    {
-      "store_number": "024449",
-      "name": "Taco Bell",
-      "city": "Detroit",
       "state": "MI",
       "price": 9.0
     },
@@ -242,9 +233,36 @@
       "city": "Richmond",
       "state": "MI",
       "price": 9.0
+    },
+    {
+      "store_number": "040006",
+      "name": "Taco Bell",
+      "city": "Clarkston",
+      "state": "MI",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024449",
+      "store_name": "Taco Bell",
+      "city": "Detroit",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:31:38.222631+00:00"
+    },
+    {
+      "store_number": "041875",
+      "store_name": "Taco Bell",
+      "city": "Fort Gratiot",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 9.0,
+      "new_price": null,
+      "observed_at": "2026-05-04T21:21:47.327841+00:00"
+    },
     {
       "store_number": "023045",
       "store_name": "Taco Bell",
@@ -2088,7 +2106,7 @@
   ],
   "activity_summary": {
     "added": 116,
-    "removed": 68,
+    "removed": 70,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2387,15 +2405,6 @@
       "MI"
     ],
     [
-      "041875",
-      43.02456381414757,
-      -82.45632998180554,
-      9.0,
-      "Taco Bell",
-      "Fort Gratiot",
-      "MI"
-    ],
-    [
       "024150",
       42.594206469177095,
       -83.09059249092847,
@@ -2522,15 +2531,6 @@
       "MI"
     ],
     [
-      "024449",
-      42.416237399123474,
-      -83.20122738184182,
-      9.0,
-      "Taco Bell",
-      "Detroit",
-      "MI"
-    ],
-    [
       "040700",
       43.3317,
       -83.0794,
@@ -2568,6 +2568,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 0.6
 }

@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.77,
+    "avg": 11.78,
     "min": 10.99,
     "max": 13.99,
     "median": 11.99,
-    "std_dev": 0.64,
-    "store_count": 27
+    "std_dev": 0.63,
+    "store_count": 28
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$11.99",
-      "count": 18
+      "count": 19
     },
     {
       "bucket": "$13.99",
@@ -149,6 +149,13 @@
       "price": 13.99
     },
     {
+      "store_number": "030424",
+      "name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "price": 11.99
+    },
+    {
       "store_number": "029402",
       "name": "Taco Bell",
       "city": "Creedmoor",
@@ -203,16 +210,19 @@
       "city": "Northampton",
       "state": "MA",
       "price": 11.99
-    },
-    {
-      "store_number": "041399",
-      "name": "Taco Bell",
-      "city": "Louisburg",
-      "state": "NC",
-      "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030424",
+      "store_name": "Taco Bell / KFC",
+      "city": "Osceola",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 11.99,
+      "observed_at": "2026-05-04T21:33:58.060982+00:00"
+    },
     {
       "store_number": "041321",
       "store_name": "Taco Bell",
@@ -585,7 +595,7 @@
     }
   ],
   "activity_summary": {
-    "added": 32,
+    "added": 33,
     "removed": 5,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -873,6 +883,15 @@
       "NC"
     ],
     [
+      "030424",
+      41.02537540476871,
+      -93.79682839663474,
+      11.99,
+      "Taco Bell / KFC",
+      "Osceola",
+      "IA"
+    ],
+    [
       "026028",
       41.71567814277641,
       -87.78261208259407,
@@ -883,6 +902,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-03",
+  "last_seen_date": "2026-05-04",
   "peak_availability_pct": 0.3
 }
