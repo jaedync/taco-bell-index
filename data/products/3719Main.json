@@ -15,14 +15,14 @@
   "peak_30d_pct": 89.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 95.2,
+  "availability_pct": 95.3,
   "price_stats": {
     "avg": 4.02,
     "min": 2.99,
     "max": 6.49,
     "median": 3.99,
     "std_dev": 0.31,
-    "store_count": 7336
+    "store_count": 7340
   },
   "histogram": [
     {
@@ -71,7 +71,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 3001
+      "count": 3003
     },
     {
       "bucket": "$4.00",
@@ -155,7 +155,7 @@
     },
     {
       "bucket": "$4.79",
-      "count": 7
+      "count": 8
     },
     {
       "bucket": "$4.89",
@@ -163,7 +163,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 91
+      "count": 92
     },
     {
       "bucket": "$5.10",
@@ -227,7 +227,7 @@
     {
       "state": "FL",
       "avg_price": 4.27,
-      "store_count": 437
+      "store_count": 438
     },
     {
       "state": "MI",
@@ -275,19 +275,19 @@
       "store_count": 107
     },
     {
+      "state": "PA",
+      "avg_price": 4.08,
+      "store_count": 194
+    },
+    {
       "state": "IA",
       "avg_price": 4.08,
       "store_count": 46
     },
     {
-      "state": "PA",
-      "avg_price": 4.08,
-      "store_count": 193
-    },
-    {
       "state": "CA",
       "avg_price": 4.06,
-      "store_count": 797
+      "store_count": 798
     },
     {
       "state": "WA",
@@ -337,7 +337,7 @@
     {
       "state": "GA",
       "avg_price": 4.0,
-      "store_count": 239
+      "store_count": 240
     },
     {
       "state": "RI",
@@ -613,6 +613,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003859",
+      "store_name": "Taco Bell",
+      "city": "Carrollton",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:53.904518+00:00"
+    },
+    {
+      "store_number": "029423",
+      "store_name": "Taco Bell",
+      "city": "Winters",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:44.496335+00:00"
+    },
+    {
+      "store_number": "026365",
+      "store_name": "Taco Bell",
+      "city": "Oneonta",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:41.560717+00:00"
+    },
+    {
+      "store_number": "002779",
+      "store_name": "Taco Bell",
+      "city": "Largo",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:31.929073+00:00"
+    },
+    {
+      "store_number": "027995",
+      "store_name": "Taco Bell",
+      "city": "Youngstown",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:27.757199+00:00"
+    },
+    {
+      "store_number": "035352",
+      "store_name": "Taco Bell",
+      "city": "Parma",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:19.740611+00:00"
+    },
+    {
+      "store_number": "042173",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:01.936512+00:00"
+    },
+    {
+      "store_number": "035896",
+      "store_name": "Taco Bell",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.79,
+      "observed_at": "2026-05-05T21:01:56.213452+00:00"
+    },
     {
       "store_number": "016927",
       "store_name": "Taco Bell",
@@ -5935,8 +6015,8 @@
     }
   ],
   "activity_summary": {
-    "added": 270,
-    "removed": 254,
+    "added": 276,
+    "removed": 256,
     "price_changed": 8,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -31443,6 +31523,15 @@
       "CA"
     ],
     [
+      "035352",
+      41.40557033739376,
+      -81.6915799677372,
+      3.99,
+      "Taco Bell",
+      "Parma",
+      "OH"
+    ],
+    [
       "003566",
       29.77443647835783,
       -95.75122080279016,
@@ -32271,15 +32360,6 @@
       "AZ"
     ],
     [
-      "027995",
-      41.024630276969226,
-      -80.63542932271957,
-      3.99,
-      "Taco Bell",
-      "Youngstown",
-      "OH"
-    ],
-    [
       "040049",
       38.96489478719999,
       -76.84549684124258,
@@ -32926,6 +33006,15 @@
       "Taco Bell",
       "Greenwood Village",
       "CO"
+    ],
+    [
+      "002779",
+      27.895001495263276,
+      -82.75911468415376,
+      3.99,
+      "Taco Bell",
+      "Largo",
+      "FL"
     ],
     [
       "023053",
@@ -34312,15 +34401,6 @@
       "Taco Bell",
       "Tampa",
       "FL"
-    ],
-    [
-      "026365",
-      42.44629848153074,
-      -75.05410567672698,
-      3.99,
-      "Taco Bell",
-      "Oneonta",
-      "NY"
     ],
     [
       "030664",
@@ -36382,6 +36462,15 @@
       "Taco Bell",
       "Hummelstown",
       "PA"
+    ],
+    [
+      "003859",
+      33.586510422578534,
+      -85.05791187286377,
+      3.99,
+      "Taco Bell",
+      "Carrollton",
+      "GA"
     ],
     [
       "035312",
@@ -52617,6 +52706,15 @@
       3.99,
       "Taco Bell",
       "Hemet",
+      "CA"
+    ],
+    [
+      "029423",
+      38.531755929387835,
+      -121.95580020549642,
+      3.99,
+      "Taco Bell",
+      "Winters",
       "CA"
     ],
     [
@@ -69090,6 +69188,15 @@
       "NY"
     ],
     [
+      "035896",
+      40.776311888569296,
+      -73.95263852392519,
+      4.79,
+      "Taco Bell",
+      "New York",
+      "NY"
+    ],
+    [
       "042983",
       30.1034,
       -81.5428,
@@ -71005,6 +71112,15 @@
       "Taco Bell",
       "Stanton",
       "MI"
+    ],
+    [
+      "042173",
+      39.95124065528925,
+      -75.16795417485142,
+      4.99,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
     ],
     [
       "042728",

@@ -21,19 +21,19 @@
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 49
+    "store_count": 48
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 49
+      "count": 48
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 49
+      "store_count": 48
     }
   ],
   "nutrition": {
@@ -69,13 +69,6 @@
       "store_number": "033376",
       "name": "Taco Bell",
       "city": "Roseville",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "034021",
-      "name": "Taco Bell",
-      "city": "White Lake",
       "state": "MI",
       "price": 4.99
     },
@@ -120,13 +113,19 @@
       "city": "Brownstown",
       "state": "MI",
       "price": 4.99
+    },
+    {
+      "store_number": "037663",
+      "name": "Taco Bell",
+      "city": "Lincoln Park",
+      "state": "MI",
+      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
     "039704",
     "040315",
     "033376",
-    "034021",
     "036234",
     "035098",
     "035629",
@@ -149,7 +148,6 @@
     "004986",
     "002029",
     "003527",
-    "026084",
     "001469",
     "000867",
     "029258",
@@ -168,6 +166,7 @@
     "001591",
     "039686",
     "033309",
+    "032514",
     "039685",
     "033315",
     "037362",
@@ -199,6 +198,13 @@
       "store_number": "039685",
       "name": "Taco Bell",
       "city": "Lapeer",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
+      "store_number": "032514",
+      "name": "Taco Bell",
+      "city": "Fowlerville",
       "state": "MI",
       "price": 4.99
     },
@@ -236,16 +242,39 @@
       "city": "Canton",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "037839",
-      "name": "Taco Bell",
-      "city": "Ann Arbor",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032514",
+      "store_name": "Taco Bell",
+      "city": "Fowlerville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:21.509735+00:00"
+    },
+    {
+      "store_number": "026084",
+      "store_name": "Taco Bell",
+      "city": "Berkley",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:14.237930+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:54.778691+00:00"
+    },
     {
       "store_number": "024650",
       "store_name": "Taco Bell",
@@ -1298,8 +1327,8 @@
     }
   ],
   "activity_summary": {
-    "added": 77,
-    "removed": 28,
+    "added": 78,
+    "removed": 30,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1333,15 +1362,6 @@
       4.99,
       "Taco Bell",
       "Roseville",
-      "MI"
-    ],
-    [
-      "034021",
-      42.614842963738916,
-      -83.44493113404984,
-      4.99,
-      "Taco Bell",
-      "White Lake",
       "MI"
     ],
     [
@@ -1543,15 +1563,6 @@
       "MI"
     ],
     [
-      "026084",
-      42.49323190345928,
-      -83.18321581184762,
-      4.99,
-      "Taco Bell",
-      "Berkley",
-      "MI"
-    ],
-    [
       "001469",
       42.291758682661715,
       -83.38639006018644,
@@ -1711,6 +1722,15 @@
       4.99,
       "Taco Bell",
       "Clarkston",
+      "MI"
+    ],
+    [
+      "032514",
+      42.6514917,
+      -84.0732928,
+      4.99,
+      "Taco Bell",
+      "Fowlerville",
       "MI"
     ],
     [

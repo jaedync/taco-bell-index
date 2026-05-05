@@ -21,19 +21,19 @@
     "max": 9.0,
     "median": 9.0,
     "std_dev": 0.0,
-    "store_count": 46
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 46
+      "count": 47
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 9.0,
-      "store_count": 46
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -151,6 +151,7 @@
     "001738",
     "037840",
     "003296",
+    "041875",
     "024150",
     "024651",
     "002681",
@@ -243,6 +244,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041875",
+      "store_name": "Taco Bell",
+      "city": "Fort Gratiot",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-05-05T21:10:17.646134+00:00"
+    },
     {
       "store_number": "024449",
       "store_name": "Taco Bell",
@@ -2105,7 +2116,7 @@
     }
   ],
   "activity_summary": {
-    "added": 116,
+    "added": 117,
     "removed": 70,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2405,6 +2416,15 @@
       "MI"
     ],
     [
+      "041875",
+      43.02456381414757,
+      -82.45632998180554,
+      9.0,
+      "Taco Bell",
+      "Fort Gratiot",
+      "MI"
+    ],
+    [
       "024150",
       42.594206469177095,
       -83.09059249092847,
@@ -2568,6 +2588,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 0.6
 }

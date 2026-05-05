@@ -21,19 +21,19 @@
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.0,
-    "store_count": 49
+    "store_count": 48
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 49
+      "count": 48
     }
   ],
   "state_prices": [
     {
       "state": "MI",
       "avg_price": 5.49,
-      "store_count": 49
+      "store_count": 48
     }
   ],
   "nutrition": {
@@ -140,7 +140,6 @@
     "002236",
     "040656",
     "021299",
-    "024745",
     "030700",
     "000848",
     "004161",
@@ -246,6 +245,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:14.051747+00:00"
+    },
     {
       "store_number": "024449",
       "store_name": "Taco Bell",
@@ -1159,7 +1168,7 @@
   ],
   "activity_summary": {
     "added": 70,
-    "removed": 21,
+    "removed": 22,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1332,15 +1341,6 @@
       5.49,
       "Taco Bell",
       "Eastpointe",
-      "MI"
-    ],
-    [
-      "024745",
-      42.21337151111523,
-      -83.5428901715295,
-      5.49,
-      "Taco Bell",
-      "Belleville",
       "MI"
     ],
     [

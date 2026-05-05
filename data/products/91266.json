@@ -14,19 +14,19 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.4,
   "price_stats": {
     "avg": 3.25,
     "min": 2.99,
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.17,
-    "store_count": 489
+    "store_count": 490
   },
   "histogram": [
     {
       "bucket": "$2.99",
-      "count": 58
+      "count": 59
     },
     {
       "bucket": "$3.09",
@@ -61,7 +61,7 @@
     {
       "state": "GA",
       "avg_price": 3.29,
-      "store_count": 238
+      "store_count": 239
     },
     {
       "state": "TN",
@@ -176,6 +176,7 @@
     "017019",
     "016818",
     "004142",
+    "003824",
     "018678",
     "041838",
     "002994",
@@ -290,6 +291,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-05T21:10:25.765822+00:00"
+    },
     {
       "store_number": "042123",
       "store_name": "Taco Bell",
@@ -8472,14 +8483,14 @@
     }
   ],
   "activity_summary": {
-    "added": 502,
+    "added": 503,
     "removed": 13,
     "price_changed": 303,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 210,
-  "calories_min": 210,
-  "calories_max": 210,
+  "calories_from_menu": 260,
+  "calories_min": 260,
+  "calories_max": 260,
   "combo_groups": [
     {
       "group_id": "673",
@@ -8655,6 +8666,15 @@
       2.99,
       "Taco Bell",
       "La Fayette",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      2.99,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -12898,6 +12918,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 5.9
 }

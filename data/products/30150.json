@@ -13,19 +13,19 @@
   "peak_30d_pct": 3.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.959150+00:00",
-  "availability_pct": 4.0,
+  "availability_pct": 4.1,
   "price_stats": {
     "avg": 4.99,
     "min": 4.99,
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 311
+    "store_count": 313
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 311
+      "count": 313
     }
   ],
   "state_prices": [
@@ -37,7 +37,7 @@
     {
       "state": "MI",
       "avg_price": 4.99,
-      "store_count": 183
+      "store_count": 185
     },
     {
       "state": "IN",
@@ -442,9 +442,25 @@
     "035629",
     "017264",
     "042230",
-    "040006"
+    "040006",
+    "041687",
+    "033316"
   ],
   "priciest_stores": [
+    {
+      "store_number": "033316",
+      "name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "price": 4.99
+    },
+    {
+      "store_number": "041687",
+      "name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "price": 4.99
+    },
     {
       "store_number": "040006",
       "name": "Taco Bell",
@@ -500,23 +516,29 @@
       "city": "Garden City",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "004161",
-      "name": "Taco Bell",
-      "city": "Rochester Hills",
-      "state": "MI",
-      "price": 4.99
-    },
-    {
-      "store_number": "033999",
-      "name": "Taco Bell",
-      "city": "Grand Blanc",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:18.990351+00:00"
+    },
+    {
+      "store_number": "041687",
+      "store_name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:00:53.679648+00:00"
+    },
     {
       "store_number": "040656",
       "store_name": "Taco Bell",
@@ -4169,7 +4191,7 @@
     }
   ],
   "activity_summary": {
-    "added": 338,
+    "added": 340,
     "removed": 27,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -6977,9 +6999,27 @@
       "Taco Bell",
       "Clarkston",
       "MI"
+    ],
+    [
+      "041687",
+      43.725323658800306,
+      -83.44542143332238,
+      4.99,
+      "Taco Bell",
+      "Sebewaing",
+      "MI"
+    ],
+    [
+      "033316",
+      42.709640520946245,
+      -83.30659079290703,
+      4.99,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 3.8
 }

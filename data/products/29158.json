@@ -22,7 +22,7 @@
     "max": 10.98,
     "median": 6.99,
     "std_dev": 0.41,
-    "store_count": 7128
+    "store_count": 7126
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$7.00",
-      "count": 4
+      "count": 3
     },
     {
       "bucket": "$7.06",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$7.59",
-      "count": 279
+      "count": 278
     },
     {
       "bucket": "$7.69",
@@ -192,7 +192,7 @@
     {
       "state": "CO",
       "avg_price": 7.4,
-      "store_count": 154
+      "store_count": 153
     },
     {
       "state": "DE",
@@ -252,7 +252,7 @@
     {
       "state": "OH",
       "avg_price": 7.06,
-      "store_count": 406
+      "store_count": 405
     },
     {
       "state": "KY",
@@ -282,7 +282,7 @@
     {
       "state": "VA",
       "avg_price": 7.0,
-      "store_count": 199
+      "store_count": 200
     },
     {
       "state": "AZ",
@@ -292,7 +292,7 @@
     {
       "state": "OR",
       "avg_price": 7.0,
-      "store_count": 120
+      "store_count": 121
     },
     {
       "state": "RI",
@@ -337,7 +337,7 @@
     {
       "state": "MO",
       "avg_price": 6.93,
-      "store_count": 227
+      "store_count": 226
     },
     {
       "state": "NC",
@@ -362,7 +362,7 @@
     {
       "state": "SC",
       "avg_price": 6.86,
-      "store_count": 106
+      "store_count": 105
     },
     {
       "state": "MS",
@@ -592,6 +592,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039757",
+      "store_name": "Taco Bell",
+      "city": "Blacksburg",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-05T21:10:49.926532+00:00"
+    },
+    {
+      "store_number": "040969",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-05T21:10:46.873019+00:00"
+    },
+    {
+      "store_number": "003743",
+      "store_name": "Taco Bell",
+      "city": "Orangeburg",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 6.69,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:44.848242+00:00"
+    },
+    {
+      "store_number": "039641",
+      "store_name": "Taco Bell",
+      "city": "Monmouth",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.69,
+      "observed_at": "2026-05-05T21:10:24.272115+00:00"
+    },
+    {
+      "store_number": "039656",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 7.59,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:23.788516+00:00"
+    },
+    {
+      "store_number": "001590",
+      "store_name": "Taco Bell",
+      "city": "North Olmsted",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:15.126291+00:00"
+    },
+    {
+      "store_number": "031604",
+      "store_name": "Taco Bell",
+      "city": "Kenly",
+      "state": "NC",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:09:59.331373+00:00"
+    },
+    {
+      "store_number": "036251",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:02:29.253728+00:00"
+    },
     {
       "store_number": "039845",
       "store_name": "Taco Bell",
@@ -15414,8 +15494,8 @@
     }
   ],
   "activity_summary": {
-    "added": 416,
-    "removed": 910,
+    "added": 419,
+    "removed": 915,
     "price_changed": 156,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -19575,6 +19655,15 @@
       "TX"
     ],
     [
+      "039641",
+      44.85080864926697,
+      -123.21717139429244,
+      6.69,
+      "Taco Bell",
+      "Monmouth",
+      "OR"
+    ],
+    [
       "040020",
       35.96729080516429,
       -88.9302847939566,
@@ -21157,15 +21246,6 @@
       "Taco Bell",
       "Fort Bragg",
       "CA"
-    ],
-    [
-      "003743",
-      33.490842241661085,
-      -80.85470259189606,
-      6.69,
-      "Taco Bell",
-      "Orangeburg",
-      "SC"
     ],
     [
       "032997",
@@ -35127,15 +35207,6 @@
       "NY"
     ],
     [
-      "036251",
-      39.034202183610354,
-      -94.53198025225383,
-      6.99,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
-    ],
-    [
       "036410",
       40.613294,
       -80.56273999999999,
@@ -39373,15 +39444,6 @@
       "Taco Bell",
       "Hickory",
       "NC"
-    ],
-    [
-      "001590",
-      41.42821201754905,
-      -81.89038395881659,
-      6.99,
-      "Taco Bell",
-      "North Olmsted",
-      "OH"
     ],
     [
       "004939",
@@ -45225,6 +45287,15 @@
       "CA"
     ],
     [
+      "040969",
+      35.5517877915585,
+      -82.85029418301747,
+      6.99,
+      "Taco Bell",
+      "Canton",
+      "NC"
+    ],
+    [
       "031893",
       36.28003081839173,
       -115.26565365498755,
@@ -45934,6 +46005,15 @@
       "Taco Bell",
       "Saint George",
       "UT"
+    ],
+    [
+      "039757",
+      37.233779653440465,
+      -80.41844491662232,
+      6.99,
+      "Taco Bell",
+      "Blacksburg",
+      "VA"
     ],
     [
       "021493",
@@ -65979,15 +66059,6 @@
       "KY"
     ],
     [
-      "031604",
-      35.58206491163208,
-      -78.14579588897227,
-      7.0,
-      "Taco Bell",
-      "Kenly",
-      "NC"
-    ],
-    [
       "029740",
       47.494735345103734,
       -111.27440750598907,
@@ -70666,15 +70737,6 @@
       "Taco Bell",
       "Mount Joy",
       "PA"
-    ],
-    [
-      "039656",
-      39.7439075,
-      -104.9900451,
-      7.59,
-      "Taco Bell",
-      "Denver",
-      "CO"
     ],
     [
       "037202",

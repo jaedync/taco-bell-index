@@ -13,14 +13,14 @@
   "peak_30d_pct": 41.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 44.5,
+  "availability_pct": 44.6,
   "price_stats": {
     "avg": 2.1,
     "min": 1.19,
     "max": 4.12,
     "median": 1.99,
     "std_dev": 0.32,
-    "store_count": 3432
+    "store_count": 3434
   },
   "histogram": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1354
+      "count": 1355
     },
     {
       "bucket": "$2.00",
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 405
+      "count": 406
     },
     {
       "bucket": "$2.25",
@@ -216,7 +216,7 @@
     {
       "state": "MI",
       "avg_price": 2.17,
-      "store_count": 192
+      "store_count": 194
     },
     {
       "state": "WA",
@@ -523,6 +523,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-05-05T21:10:18.990351+00:00"
+    },
+    {
+      "store_number": "015919",
+      "store_name": "Taco Bell",
+      "city": "Warren",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.59,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:15.507765+00:00"
+    },
+    {
+      "store_number": "005095",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.59,
+      "observed_at": "2026-05-05T21:10:12.005179+00:00"
+    },
+    {
+      "store_number": "041687",
+      "store_name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-05T21:00:53.679648+00:00"
+    },
     {
       "store_number": "028911",
       "store_name": "Taco Bell",
@@ -4405,8 +4445,8 @@
     }
   ],
   "activity_summary": {
-    "added": 185,
-    "removed": 154,
+    "added": 188,
+    "removed": 155,
     "price_changed": 49,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -23082,6 +23122,15 @@
       "CA"
     ],
     [
+      "041687",
+      43.725323658800306,
+      -83.44542143332238,
+      1.99,
+      "Taco Bell",
+      "Sebewaing",
+      "MI"
+    ],
+    [
       "041644",
       45.67924445993421,
       -111.18667699035905,
@@ -26850,6 +26899,15 @@
       2.19,
       "Taco Bell",
       "Clarkston",
+      "MI"
+    ],
+    [
+      "033316",
+      42.709640520946245,
+      -83.30659079290703,
+      2.19,
+      "Taco Bell",
+      "Lake Orion",
       "MI"
     ],
     [
@@ -32865,6 +32923,15 @@
       "CA"
     ],
     [
+      "005095",
+      42.198830921493176,
+      -83.19256271757894,
+      2.59,
+      "Taco Bell",
+      "Southgate",
+      "MI"
+    ],
+    [
       "032525",
       35.7754491269832,
       -119.2288402434415,
@@ -32890,15 +32957,6 @@
       "Taco Bell",
       "Wasco",
       "CA"
-    ],
-    [
-      "015919",
-      42.48635964983356,
-      -83.0058436095714,
-      2.59,
-      "Taco Bell",
-      "Warren",
-      "MI"
     ],
     [
       "005018",

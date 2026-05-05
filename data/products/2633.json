@@ -13,19 +13,19 @@
   "peak_30d_pct": 43.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 46.1,
+  "availability_pct": 46.2,
   "price_stats": {
     "avg": 0.0,
     "min": 0.0,
     "max": 0.0,
     "median": 0.0,
     "std_dev": 0.0,
-    "store_count": 3555
+    "store_count": 3557
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 3555
+      "count": 3557
     }
   ],
   "state_prices": [
@@ -147,7 +147,7 @@
     {
       "state": "MI",
       "avg_price": 0.0,
-      "store_count": 194
+      "store_count": 195
     },
     {
       "state": "MD",
@@ -167,7 +167,7 @@
     {
       "state": "KY",
       "avg_price": 0.0,
-      "store_count": 38
+      "store_count": 39
     },
     {
       "state": "KS",
@@ -3881,9 +3881,25 @@
     "042904",
     "042529",
     "041957",
-    "042876"
+    "042876",
+    "041687",
+    "017256"
   ],
   "priciest_stores": [
+    {
+      "store_number": "017256",
+      "name": "Taco Bell",
+      "city": "Grayson",
+      "state": "KY",
+      "price": 0.0
+    },
+    {
+      "store_number": "041687",
+      "name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "price": 0.0
+    },
     {
       "store_number": "042876",
       "name": "Taco Bell",
@@ -3939,23 +3955,29 @@
       "city": "Parker",
       "state": "CO",
       "price": 0.0
-    },
-    {
-      "store_number": "042960",
-      "name": "Taco Bell",
-      "city": "Spartanburg",
-      "state": "SC",
-      "price": 0.0
-    },
-    {
-      "store_number": "042967",
-      "name": "Taco Bell",
-      "city": "Middleburg",
-      "state": "FL",
-      "price": 0.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "017256",
+      "store_name": "Taco Bell",
+      "city": "Grayson",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-05T21:10:20.927479+00:00"
+    },
+    {
+      "store_number": "041687",
+      "store_name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-05-05T21:00:53.679648+00:00"
+    },
     {
       "store_number": "042277",
       "store_name": "Taco Bell",
@@ -5918,7 +5940,7 @@
     }
   ],
   "activity_summary": {
-    "added": 99,
+    "added": 101,
     "removed": 97,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -37922,6 +37944,24 @@
       "Taco Bell",
       "Jacksonville",
       "FL"
+    ],
+    [
+      "041687",
+      43.725323658800306,
+      -83.44542143332238,
+      0.0,
+      "Taco Bell",
+      "Sebewaing",
+      "MI"
+    ],
+    [
+      "017256",
+      38.34070945919987,
+      -82.94238186910206,
+      0.0,
+      "Taco Bell",
+      "Grayson",
+      "KY"
     ]
   ],
   "retired_at": null,

@@ -20,7 +20,7 @@
     "max": 13.99,
     "median": 8.79,
     "std_dev": 0.7,
-    "store_count": 7693
+    "store_count": 7694
   },
   "histogram": [
     {
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 542
+      "count": 545
     },
     {
       "bucket": "$8.09",
@@ -109,7 +109,7 @@
     },
     {
       "bucket": "$8.29",
-      "count": 445
+      "count": 444
     },
     {
       "bucket": "$8.39",
@@ -137,7 +137,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 1183
+      "count": 1182
     },
     {
       "bucket": "$8.80",
@@ -429,7 +429,7 @@
     {
       "state": "OH",
       "avg_price": 8.6,
-      "store_count": 410
+      "store_count": 409
     },
     {
       "state": "FL",
@@ -523,8 +523,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 7.98,
-      "store_count": 702
+      "avg_price": 7.97,
+      "store_count": 701
     },
     {
       "state": "SD",
@@ -534,7 +534,7 @@
     {
       "state": "MN",
       "avg_price": 7.95,
-      "store_count": 96
+      "store_count": 99
     },
     {
       "state": "AL",
@@ -702,6 +702,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003307",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-05T21:10:57.810087+00:00"
+    },
+    {
+      "store_number": "040535",
+      "store_name": "Taco Bell",
+      "city": "East Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:12.195834+00:00"
+    },
+    {
+      "store_number": "038999",
+      "store_name": "Taco Bell",
+      "city": "Stewartville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-05T21:10:09.127819+00:00"
+    },
+    {
+      "store_number": "036175",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-05-05T21:01:56.796763+00:00"
+    },
+    {
+      "store_number": "041331",
+      "store_name": "Taco Bell",
+      "city": "Port Lavaca",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 8.29,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:21.739511+00:00"
+    },
     {
       "store_number": "031504",
       "store_name": "Taco Bell",
@@ -14494,8 +14544,8 @@
     }
   ],
   "activity_summary": {
-    "added": 106,
-    "removed": 104,
+    "added": 109,
+    "removed": 106,
     "price_changed": 1169,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -26491,6 +26541,15 @@
       "MO"
     ],
     [
+      "036175",
+      43.98882817,
+      -92.46104033,
+      7.99,
+      "Taco Bell",
+      "Rochester",
+      "MN"
+    ],
+    [
       "038965",
       44.49259564914186,
       -88.09692264986174,
@@ -26885,6 +26944,15 @@
       "Taco Bell",
       "Port Barre",
       "LA"
+    ],
+    [
+      "038999",
+      43.876322516536156,
+      -92.48932869285045,
+      7.99,
+      "Taco Bell",
+      "Stewartville",
+      "MN"
     ],
     [
       "039000",
@@ -28217,6 +28285,15 @@
       "Taco Bell",
       "Richardson",
       "TX"
+    ],
+    [
+      "003307",
+      44.02872890101641,
+      -92.46248863175424,
+      7.99,
+      "Taco Bell",
+      "Rochester",
+      "MN"
     ],
     [
       "019694",
@@ -32834,15 +32911,6 @@
       "Taco Bell",
       "Taylorsville",
       "KY"
-    ],
-    [
-      "041331",
-      28.634228519172424,
-      -96.62462662114658,
-      8.29,
-      "Taco Bell",
-      "Port Lavaca",
-      "TX"
     ],
     [
       "041202",
@@ -50807,15 +50875,6 @@
       "Taco Bell",
       "Charlotte",
       "NC"
-    ],
-    [
-      "040535",
-      41.52477514962175,
-      -81.58726255092614,
-      8.79,
-      "Taco Bell",
-      "East Cleveland",
-      "OH"
     ],
     [
       "040533",

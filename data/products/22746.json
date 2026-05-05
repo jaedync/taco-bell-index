@@ -77,7 +77,7 @@
     },
     {
       "bucket": "$0.79",
-      "count": 131
+      "count": 132
     },
     {
       "bucket": "$0.80",
@@ -149,7 +149,7 @@
     },
     {
       "bucket": "$1.20",
-      "count": 132
+      "count": 131
     },
     {
       "bucket": "$1.25",
@@ -198,14 +198,14 @@
   ],
   "state_prices": [
     {
-      "state": "CT",
-      "avg_price": 1.09,
-      "store_count": 48
-    },
-    {
       "state": "MT",
       "avg_price": 1.09,
       "store_count": 27
+    },
+    {
+      "state": "CT",
+      "avg_price": 1.09,
+      "store_count": 47
     },
     {
       "state": "NY",
@@ -265,7 +265,7 @@
     {
       "state": "FL",
       "avg_price": 0.98,
-      "store_count": 450
+      "store_count": 451
     },
     {
       "state": "LA",
@@ -597,6 +597,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029702",
+      "store_name": "Taco Bell",
+      "city": "Winter Haven",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.79,
+      "observed_at": "2026-05-05T21:10:51.682904+00:00"
+    },
+    {
+      "store_number": "029313",
+      "store_name": "Taco Bell",
+      "city": "Windsor Locks",
+      "state": "CT",
+      "change_type": "item_removed",
+      "old_price": 1.2,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:32.259376+00:00"
+    },
     {
       "store_number": "034661",
       "store_name": "Taco Bell",
@@ -1769,8 +1789,8 @@
     }
   ],
   "activity_summary": {
-    "added": 42,
-    "removed": 29,
+    "added": 43,
+    "removed": 30,
     "price_changed": 46,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12289,6 +12309,15 @@
       0.79,
       "Taco Bell",
       "Ellenton",
+      "FL"
+    ],
+    [
+      "029702",
+      27.990701948896085,
+      -81.68913513422012,
+      0.79,
+      "Taco Bell",
+      "Winter Haven",
       "FL"
     ],
     [
@@ -65975,15 +66004,6 @@
       "Taco Bell",
       "Orangevale",
       "CA"
-    ],
-    [
-      "029313",
-      41.921200755728826,
-      -72.67117403453085,
-      1.2,
-      "Taco Bell",
-      "Windsor Locks",
-      "CT"
     ],
     [
       "029328",

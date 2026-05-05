@@ -20,7 +20,7 @@
     "max": 6.99,
     "median": 2.99,
     "std_dev": 0.2,
-    "store_count": 7693
+    "store_count": 7694
   },
   "histogram": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$2.79",
-      "count": 409
+      "count": 412
     },
     {
       "bucket": "$2.89",
@@ -57,7 +57,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 4131
+      "count": 4129
     },
     {
       "bucket": "$3.00",
@@ -273,7 +273,7 @@
     {
       "state": "OH",
       "avg_price": 3.04,
-      "store_count": 410
+      "store_count": 409
     },
     {
       "state": "MO",
@@ -403,7 +403,7 @@
     {
       "state": "TX",
       "avg_price": 2.88,
-      "store_count": 702
+      "store_count": 701
     },
     {
       "state": "SD",
@@ -423,7 +423,7 @@
     {
       "state": "MN",
       "avg_price": 2.79,
-      "store_count": 96
+      "store_count": 99
     },
     {
       "state": "ND",
@@ -601,6 +601,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003307",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-05T21:10:57.810087+00:00"
+    },
+    {
+      "store_number": "040535",
+      "store_name": "Taco Bell",
+      "city": "East Cleveland",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:12.195834+00:00"
+    },
+    {
+      "store_number": "038999",
+      "store_name": "Taco Bell",
+      "city": "Stewartville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-05T21:10:09.127819+00:00"
+    },
+    {
+      "store_number": "036175",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-05-05T21:01:56.796763+00:00"
+    },
+    {
+      "store_number": "041331",
+      "store_name": "Taco Bell",
+      "city": "Port Lavaca",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:21.739511+00:00"
+    },
     {
       "store_number": "033000",
       "store_name": "Taco Bell",
@@ -4493,8 +4543,8 @@
     }
   ],
   "activity_summary": {
-    "added": 64,
-    "removed": 57,
+    "added": 67,
+    "removed": 59,
     "price_changed": 268,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8770,6 +8820,15 @@
       "MN"
     ],
     [
+      "036175",
+      43.98882817,
+      -92.46104033,
+      2.79,
+      "Taco Bell",
+      "Rochester",
+      "MN"
+    ],
+    [
       "035296",
       32.04750604272783,
       -81.1669233349839,
@@ -9011,6 +9070,15 @@
       "Taco Bell",
       "Lincoln",
       "NE"
+    ],
+    [
+      "038999",
+      43.876322516536156,
+      -92.48932869285045,
+      2.79,
+      "Taco Bell",
+      "Stewartville",
+      "MN"
     ],
     [
       "039000",
@@ -9919,6 +9987,15 @@
       2.79,
       "Taco Bell",
       "Faribault",
+      "MN"
+    ],
+    [
+      "003307",
+      44.02872890101641,
+      -92.46248863175424,
+      2.79,
+      "Taco Bell",
+      "Rochester",
       "MN"
     ],
     [
@@ -21901,15 +21978,6 @@
       "TN"
     ],
     [
-      "041331",
-      28.634228519172424,
-      -96.62462662114658,
-      2.99,
-      "Taco Bell",
-      "Port Lavaca",
-      "TX"
-    ],
-    [
       "041675",
       36.415948,
       -94.810721,
@@ -29207,15 +29275,6 @@
       "Taco Bell",
       "Auburn Hills",
       "MI"
-    ],
-    [
-      "040535",
-      41.52477514962175,
-      -81.58726255092614,
-      2.99,
-      "Taco Bell",
-      "East Cleveland",
-      "OH"
     ],
     [
       "026580",

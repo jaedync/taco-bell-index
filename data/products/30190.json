@@ -61,7 +61,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 18
+      "count": 17
     },
     {
       "bucket": "$6.19",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$6.79",
-      "count": 73
+      "count": 74
     },
     {
       "bucket": "$6.89",
@@ -97,11 +97,11 @@
     },
     {
       "bucket": "$6.99",
-      "count": 477
+      "count": 478
     },
     {
       "bucket": "$7.19",
-      "count": 79
+      "count": 78
     },
     {
       "bucket": "$7.29",
@@ -113,7 +113,7 @@
     },
     {
       "bucket": "$7.39",
-      "count": 122
+      "count": 123
     },
     {
       "bucket": "$7.40",
@@ -205,7 +205,7 @@
     },
     {
       "bucket": "$8.99",
-      "count": 118
+      "count": 117
     },
     {
       "bucket": "$9.19",
@@ -261,7 +261,7 @@
     {
       "state": "NY",
       "avg_price": 8.06,
-      "store_count": 111
+      "store_count": 110
     },
     {
       "state": "CA",
@@ -295,8 +295,8 @@
     },
     {
       "state": "AZ",
-      "avg_price": 7.71,
-      "store_count": 133
+      "avg_price": 7.72,
+      "store_count": 132
     },
     {
       "state": "IL",
@@ -306,7 +306,7 @@
     {
       "state": "FL",
       "avg_price": 7.63,
-      "store_count": 206
+      "store_count": 207
     },
     {
       "state": "OR",
@@ -354,14 +354,14 @@
       "store_count": 51
     },
     {
+      "state": "IN",
+      "avg_price": 7.29,
+      "store_count": 111
+    },
+    {
       "state": "OK",
       "avg_price": 7.29,
       "store_count": 22
-    },
-    {
-      "state": "IN",
-      "avg_price": 7.28,
-      "store_count": 112
     },
     {
       "state": "KS",
@@ -370,13 +370,13 @@
     },
     {
       "state": "MN",
-      "avg_price": 7.18,
-      "store_count": 84
+      "avg_price": 7.19,
+      "store_count": 85
     },
     {
       "state": "MI",
       "avg_price": 7.13,
-      "store_count": 164
+      "store_count": 165
     },
     {
       "state": "ND",
@@ -578,6 +578,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028873",
+      "store_name": "Taco Bell",
+      "city": "Peru",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:41.831910+00:00"
+    },
+    {
+      "store_number": "042855",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-05T21:10:30.704439+00:00"
+    },
+    {
+      "store_number": "042227",
+      "store_name": "Taco Bell",
+      "city": "Peoria",
+      "state": "AZ",
+      "change_type": "item_removed",
+      "old_price": 7.19,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:28.787294+00:00"
+    },
+    {
+      "store_number": "003293",
+      "store_name": "Taco Bell",
+      "city": "Redford",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:15.821658+00:00"
+    },
+    {
+      "store_number": "005095",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-05T21:10:12.005179+00:00"
+    },
+    {
+      "store_number": "042034",
+      "store_name": "Taco Bell",
+      "city": "Elmira",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:03.585862+00:00"
+    },
+    {
+      "store_number": "041687",
+      "store_name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.79,
+      "observed_at": "2026-05-05T21:00:53.679648+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.39,
+      "observed_at": "2026-05-05T21:00:51.210113+00:00"
+    },
     {
       "store_number": "032184",
       "store_name": "Taco Bell",
@@ -10520,8 +10600,8 @@
     }
   ],
   "activity_summary": {
-    "added": 477,
-    "removed": 421,
+    "added": 481,
+    "removed": 425,
     "price_changed": 96,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -11205,15 +11285,6 @@
       "Taco Bell",
       "Spartanburg",
       "SC"
-    ],
-    [
-      "028873",
-      40.76561383258228,
-      -86.07735246419907,
-      5.99,
-      "Taco Bell",
-      "Peru",
-      "IN"
     ],
     [
       "031436",
@@ -13331,6 +13402,15 @@
       "TX"
     ],
     [
+      "041687",
+      43.725323658800306,
+      -83.44542143332238,
+      6.79,
+      "Taco Bell",
+      "Sebewaing",
+      "MI"
+    ],
+    [
       "041082",
       39.03479026181428,
       -94.38711461242217,
@@ -14825,15 +14905,6 @@
       "TX"
     ],
     [
-      "003293",
-      42.4395872518979,
-      -83.31623877179388,
-      6.99,
-      "Taco Bell",
-      "Redford",
-      "MI"
-    ],
-    [
       "021342",
       42.50267155442686,
       -82.89829722229429,
@@ -15147,6 +15218,15 @@
       "Taco Bell",
       "Grand Blanc",
       "MI"
+    ],
+    [
+      "042855",
+      26.612122039412586,
+      -81.80924959482127,
+      6.99,
+      "Taco Bell",
+      "Fort Myers",
+      "FL"
     ],
     [
       "042585",
@@ -17957,6 +18037,15 @@
       "FL"
     ],
     [
+      "005095",
+      42.198830921493176,
+      -83.19256271757894,
+      6.99,
+      "Taco Bell",
+      "Southgate",
+      "MI"
+    ],
+    [
       "042849",
       26.67907488079136,
       -81.80672317743301,
@@ -18585,15 +18674,6 @@
       "Taco Bell",
       "Frederick",
       "MD"
-    ],
-    [
-      "042227",
-      33.65216427933272,
-      -112.25730679934713,
-      7.19,
-      "Taco Bell",
-      "Peoria",
-      "AZ"
     ],
     [
       "017329",
@@ -21086,6 +21166,15 @@
       7.39,
       "Taco Bell",
       "Andover",
+      "MN"
+    ],
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      7.39,
+      "Taco Bell",
+      "Roseville",
       "MN"
     ],
     [
@@ -34893,15 +34982,6 @@
       "Taco Bell",
       "Redmond",
       "WA"
-    ],
-    [
-      "042034",
-      42.08048,
-      -76.80423,
-      8.99,
-      "Taco Bell",
-      "Elmira",
-      "NY"
     ],
     [
       "037316",

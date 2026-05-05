@@ -20,7 +20,7 @@
     "max": 36.99,
     "median": 22.99,
     "std_dev": 1.91,
-    "store_count": 7583
+    "store_count": 7584
   },
   "histogram": [
     {
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$19.99",
-      "count": 474
+      "count": 476
     },
     {
       "bucket": "$20.19",
@@ -165,7 +165,7 @@
     },
     {
       "bucket": "$21.99",
-      "count": 1426
+      "count": 1425
     },
     {
       "bucket": "$22.29",
@@ -197,7 +197,7 @@
     },
     {
       "bucket": "$22.99",
-      "count": 1792
+      "count": 1793
     },
     {
       "bucket": "$23.00",
@@ -213,7 +213,7 @@
     },
     {
       "bucket": "$23.49",
-      "count": 747
+      "count": 746
     },
     {
       "bucket": "$23.50",
@@ -453,7 +453,7 @@
     {
       "state": "AZ",
       "avg_price": 22.91,
-      "store_count": 192
+      "store_count": 193
     },
     {
       "state": "FL",
@@ -487,8 +487,8 @@
     },
     {
       "state": "IL",
-      "avg_price": 22.27,
-      "store_count": 285
+      "avg_price": 22.26,
+      "store_count": 284
     },
     {
       "state": "MI",
@@ -508,7 +508,7 @@
     {
       "state": "OK",
       "avg_price": 21.89,
-      "store_count": 127
+      "store_count": 126
     },
     {
       "state": "AR",
@@ -608,7 +608,7 @@
     {
       "state": "MN",
       "avg_price": 20.07,
-      "store_count": 96
+      "store_count": 98
     },
     {
       "state": "NE",
@@ -765,6 +765,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030404",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 23.49,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:11:00.231152+00:00"
+    },
+    {
+      "store_number": "003307",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 19.99,
+      "observed_at": "2026-05-05T21:10:57.810087+00:00"
+    },
+    {
+      "store_number": "003233",
+      "store_name": "Taco Bell",
+      "city": "Tulsa",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 21.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:38.275254+00:00"
+    },
+    {
+      "store_number": "038999",
+      "store_name": "Taco Bell",
+      "city": "Stewartville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 19.99,
+      "observed_at": "2026-05-05T21:10:09.127819+00:00"
+    },
+    {
+      "store_number": "036560",
+      "store_name": "Taco Bell",
+      "city": "Waite Park",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 19.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:02:30.184766+00:00"
+    },
+    {
+      "store_number": "036175",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 19.99,
+      "observed_at": "2026-05-05T21:01:56.796763+00:00"
+    },
+    {
+      "store_number": "040508",
+      "store_name": "Taco Bell",
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 22.99,
+      "observed_at": "2026-05-05T21:00:50.038142+00:00"
+    },
     {
       "store_number": "031624",
       "store_name": "Taco Bell",
@@ -2877,8 +2947,8 @@
     }
   ],
   "activity_summary": {
-    "added": 88,
-    "removed": 70,
+    "added": 92,
+    "removed": 73,
     "price_changed": 53,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -8634,6 +8704,15 @@
       "MO"
     ],
     [
+      "036175",
+      43.98882817,
+      -92.46104033,
+      19.99,
+      "Taco Bell",
+      "Rochester",
+      "MN"
+    ],
+    [
       "036305",
       44.961648,
       -92.9629501,
@@ -8740,15 +8819,6 @@
       "Taco Bell",
       "Granger",
       "IN"
-    ],
-    [
-      "036560",
-      45.55299749231113,
-      -94.2238041368322,
-      19.99,
-      "Taco Bell",
-      "Waite Park",
-      "MN"
     ],
     [
       "036413",
@@ -9064,6 +9134,15 @@
       "Taco Bell",
       "Ishpeming",
       "MI"
+    ],
+    [
+      "038999",
+      43.876322516536156,
+      -92.48932869285045,
+      19.99,
+      "Taco Bell",
+      "Stewartville",
+      "MN"
     ],
     [
       "039000",
@@ -10279,6 +10358,15 @@
       "Taco Bell",
       "Omaha",
       "NE"
+    ],
+    [
+      "003307",
+      44.02872890101641,
+      -92.46248863175424,
+      19.99,
+      "Taco Bell",
+      "Rochester",
+      "MN"
     ],
     [
       "015843",
@@ -27003,15 +27091,6 @@
       "MD"
     ],
     [
-      "003233",
-      36.16034526521753,
-      -95.88991103461012,
-      21.99,
-      "Taco Bell",
-      "Tulsa",
-      "OK"
-    ],
-    [
       "004241",
       38.537783293207,
       -91.00491395017012,
@@ -36433,6 +36512,15 @@
       "Taco Bell",
       "Georgetown",
       "OH"
+    ],
+    [
+      "040508",
+      31.505907709334757,
+      -110.25681404051018,
+      22.99,
+      "Taco Bell",
+      "Sierra Vista",
+      "AZ"
     ],
     [
       "034909",
@@ -55972,15 +56060,6 @@
       "Taco Bell",
       "Auburn",
       "WA"
-    ],
-    [
-      "030404",
-      41.882211,
-      -87.640594,
-      23.49,
-      "Taco Bell",
-      "Chicago",
-      "IL"
     ],
     [
       "031951",

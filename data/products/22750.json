@@ -11,7 +11,7 @@
   "is_meatless": true,
   "is_limited": false,
   "peak_30d_pct": 93.1,
-  "recent_price_change_pct": null,
+  "recent_price_change_pct": 0.0394,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
   "availability_pct": 99.5,
   "price_stats": {
@@ -230,7 +230,7 @@
     {
       "state": "KY",
       "avg_price": 0.34,
-      "store_count": 158
+      "store_count": 159
     },
     {
       "state": "DE",
@@ -255,7 +255,7 @@
     {
       "state": "PA",
       "avg_price": 0.31,
-      "store_count": 202
+      "store_count": 201
     },
     {
       "state": "OK",
@@ -2712,6 +2712,26 @@
   ],
   "price_changes": [
     {
+      "store_number": "037837",
+      "store_name": "Taco Bell",
+      "city": "Lititz",
+      "state": "PA",
+      "change_type": "item_removed",
+      "old_price": 0.25,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:08.643462+00:00"
+    },
+    {
+      "store_number": "035299",
+      "store_name": "Taco Bell",
+      "city": "Pikeville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.25,
+      "observed_at": "2026-05-05T21:01:57.106177+00:00"
+    },
+    {
       "store_number": "019676",
       "store_name": "Taco Bell",
       "city": "Post Falls",
@@ -3103,8 +3123,8 @@
     }
   ],
   "activity_summary": {
-    "added": 19,
-    "removed": 8,
+    "added": 20,
+    "removed": 9,
     "price_changed": 12,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25911,6 +25931,15 @@
       "FL"
     ],
     [
+      "035299",
+      37.4665123561317,
+      -82.53181456569088,
+      0.25,
+      "Taco Bell",
+      "Pikeville",
+      "KY"
+    ],
+    [
       "041633",
       33.2494663807732,
       -111.56460244633571,
@@ -27376,15 +27405,6 @@
       "Taco Bell",
       "Elizabeth City",
       "NC"
-    ],
-    [
-      "037837",
-      40.138284897903745,
-      -76.30369058005945,
-      0.25,
-      "Taco Bell",
-      "Lititz",
-      "PA"
     ],
     [
       "037368",

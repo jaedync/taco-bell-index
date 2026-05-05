@@ -21,7 +21,7 @@
     "max": 5.99,
     "median": 2.19,
     "std_dev": 0.42,
-    "store_count": 7554
+    "store_count": 7551
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.89",
-      "count": 603
+      "count": 602
     },
     {
       "bucket": "$1.92",
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1296
+      "count": 1298
     },
     {
       "bucket": "$2.09",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$2.19",
-      "count": 1093
+      "count": 1091
     },
     {
       "bucket": "$2.25",
@@ -146,7 +146,7 @@
     },
     {
       "bucket": "$3.09",
-      "count": 9
+      "count": 7
     },
     {
       "bucket": "$3.10",
@@ -198,7 +198,7 @@
     {
       "state": "NY",
       "avg_price": 2.66,
-      "store_count": 247
+      "store_count": 244
     },
     {
       "state": "DC",
@@ -226,14 +226,14 @@
       "store_count": 64
     },
     {
-      "state": "VA",
-      "avg_price": 2.49,
-      "store_count": 195
-    },
-    {
       "state": "CA",
       "avg_price": 2.48,
       "store_count": 818
+    },
+    {
+      "state": "VA",
+      "avg_price": 2.48,
+      "store_count": 196
     },
     {
       "state": "CT",
@@ -303,7 +303,7 @@
     {
       "state": "OR",
       "avg_price": 2.22,
-      "store_count": 122
+      "store_count": 121
     },
     {
       "state": "PA",
@@ -363,7 +363,7 @@
     {
       "state": "SC",
       "avg_price": 2.13,
-      "store_count": 114
+      "store_count": 113
     },
     {
       "state": "CO",
@@ -378,7 +378,7 @@
     {
       "state": "NC",
       "avg_price": 2.08,
-      "store_count": 260
+      "store_count": 261
     },
     {
       "state": "KY",
@@ -603,6 +603,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "015521",
+      "store_name": "Taco Bell",
+      "city": "Saint Helens",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:52.533804+00:00"
+    },
+    {
+      "store_number": "039757",
+      "store_name": "Taco Bell",
+      "city": "Blacksburg",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-05T21:10:49.926532+00:00"
+    },
+    {
+      "store_number": "042034",
+      "store_name": "Taco Bell",
+      "city": "Elmira",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:03.585862+00:00"
+    },
+    {
+      "store_number": "042105",
+      "store_name": "Taco Bell",
+      "city": "Apex",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-05T21:10:03.252834+00:00"
+    },
+    {
+      "store_number": "041334",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.09,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:02.973811+00:00"
+    },
+    {
+      "store_number": "034777",
+      "store_name": "Taco Bell",
+      "city": "Goose Creek",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 1.89,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:56.502999+00:00"
+    },
+    {
+      "store_number": "042033",
+      "store_name": "Taco Bell",
+      "city": "Long Island",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.09,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:26.999282+00:00"
+    },
     {
       "store_number": "002469",
       "store_name": "Taco Bell",
@@ -14095,8 +14165,8 @@
     }
   ],
   "activity_summary": {
-    "added": 201,
-    "removed": 180,
+    "added": 203,
+    "removed": 185,
     "price_changed": 968,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25635,15 +25705,6 @@
       "TN"
     ],
     [
-      "034777",
-      33.03984927121388,
-      -80.0706573075425,
-      1.89,
-      "Taco Bell",
-      "Goose Creek",
-      "SC"
-    ],
-    [
       "036170",
       25.916367232139045,
       -97.47133192032904,
@@ -32151,6 +32212,15 @@
       "SC"
     ],
     [
+      "042105",
+      35.741667,
+      -78.917378,
+      1.99,
+      "Taco Bell",
+      "Apex",
+      "NC"
+    ],
+    [
       "042243",
       42.532660203169186,
       -78.44649819182357,
@@ -35164,6 +35234,15 @@
       "Taco Bell",
       "Kendallville",
       "IN"
+    ],
+    [
+      "039757",
+      37.233779653440465,
+      -80.41844491662232,
+      1.99,
+      "Taco Bell",
+      "Blacksburg",
+      "VA"
     ],
     [
       "021493",
@@ -43680,15 +43759,6 @@
       "TX"
     ],
     [
-      "042034",
-      42.08048,
-      -76.80423,
-      2.19,
-      "Taco Bell",
-      "Elmira",
-      "NY"
-    ],
-    [
       "041482",
       29.377168,
       -95.810598,
@@ -46387,15 +46457,6 @@
       "Taco Bell",
       "Salinas",
       "CA"
-    ],
-    [
-      "015521",
-      45.84821483414798,
-      -122.83299542964869,
-      2.19,
-      "Taco Bell",
-      "Saint Helens",
-      "OR"
     ],
     [
       "028515",
@@ -80175,15 +80236,6 @@
       "IL"
     ],
     [
-      "042033",
-      40.754870229712466,
-      -73.9413018984621,
-      3.09,
-      "Taco Bell",
-      "Long Island",
-      "NY"
-    ],
-    [
       "041498",
       40.712315906187335,
       -73.78620275124072,
@@ -80208,15 +80260,6 @@
       3.09,
       "Taco Bell / Pizza Hut",
       "Jamaica",
-      "NY"
-    ],
-    [
-      "041334",
-      40.69229211177486,
-      -73.99141198374691,
-      3.09,
-      "Taco Bell",
-      "Brooklyn",
       "NY"
     ],
     [

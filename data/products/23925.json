@@ -14,19 +14,19 @@
   "peak_30d_pct": 7.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 2.4,
+  "availability_pct": 2.5,
   "price_stats": {
     "avg": 4.99,
     "min": 4.99,
     "max": 4.99,
     "median": 4.99,
     "std_dev": 0.0,
-    "store_count": 188
+    "store_count": 189
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 188
+      "count": 189
     }
   ],
   "state_prices": [
@@ -38,7 +38,7 @@
     {
       "state": "OH",
       "avg_price": 4.99,
-      "store_count": 69
+      "store_count": 68
     },
     {
       "state": "MI",
@@ -48,7 +48,7 @@
     {
       "state": "IN",
       "avg_price": 4.99,
-      "store_count": 15
+      "store_count": 17
     }
   ],
   "nutrition": {
@@ -156,12 +156,10 @@
     "042062",
     "041987",
     "042230",
-    "040932",
     "042015",
     "034276",
     "034817",
     "035253",
-    "034021",
     "034418",
     "035832",
     "036237",
@@ -197,7 +195,6 @@
     "038975",
     "033300",
     "033308",
-    "030668",
     "033311",
     "004014",
     "040656",
@@ -213,6 +210,7 @@
     "028400",
     "029258",
     "000867",
+    "003190",
     "002147",
     "022444",
     "040657",
@@ -252,6 +250,7 @@
     "001856",
     "023045",
     "039687",
+    "035361",
     "024764",
     "001661",
     "020014",
@@ -270,9 +269,11 @@
     "035402",
     "035400",
     "022447",
+    "042623",
     "032091",
     "016043",
     "032112",
+    "035410",
     "035356",
     "035414",
     "035364",
@@ -400,6 +401,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "035410",
+      "store_name": "Taco Bell",
+      "city": "Warsaw",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:56.441878+00:00"
+    },
+    {
+      "store_number": "042623",
+      "store_name": "Taco Bell",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:48.788654+00:00"
+    },
+    {
+      "store_number": "035361",
+      "store_name": "Taco Bell",
+      "city": "Mentor",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:21.113813+00:00"
+    },
+    {
+      "store_number": "003190",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:15.393211+00:00"
+    },
+    {
+      "store_number": "030668",
+      "store_name": "Taco Bell",
+      "city": "Orrville",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:12.159404+00:00"
+    },
+    {
+      "store_number": "034021",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:54.778691+00:00"
+    },
+    {
+      "store_number": "040932",
+      "store_name": "Taco Bell",
+      "city": "Ravenna",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:53.889493+00:00"
+    },
     {
       "store_number": "041876",
       "store_name": "Taco Bell",
@@ -13792,8 +13863,8 @@
     }
   ],
   "activity_summary": {
-    "added": 764,
-    "removed": 575,
+    "added": 768,
+    "removed": 578,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -13965,15 +14036,6 @@
       "MI"
     ],
     [
-      "040932",
-      41.15760986808629,
-      -81.29908210167885,
-      4.99,
-      "Taco Bell",
-      "Ravenna",
-      "OH"
-    ],
-    [
       "042015",
       41.238005352414625,
       -80.74495010796929,
@@ -14008,15 +14070,6 @@
       "Taco Bell",
       "Mansfield",
       "OH"
-    ],
-    [
-      "034021",
-      42.614842963738916,
-      -83.44493113404984,
-      4.99,
-      "Taco Bell",
-      "White Lake",
-      "MI"
     ],
     [
       "034418",
@@ -14334,15 +14387,6 @@
       "MI"
     ],
     [
-      "030668",
-      40.85399499327554,
-      -81.76432944373573,
-      4.99,
-      "Taco Bell",
-      "Orrville",
-      "OH"
-    ],
-    [
       "033311",
       42.659754043340165,
       -83.24630512858676,
@@ -14475,6 +14519,15 @@
       4.99,
       "Taco Bell",
       "Dearborn",
+      "MI"
+    ],
+    [
+      "003190",
+      42.48379808690309,
+      -82.94468663168573,
+      4.99,
+      "Taco Bell",
+      "Roseville",
       "MI"
     ],
     [
@@ -14829,6 +14882,15 @@
       "MI"
     ],
     [
+      "035361",
+      41.66061822718759,
+      -81.36391855311558,
+      4.99,
+      "Taco Bell",
+      "Mentor",
+      "OH"
+    ],
+    [
       "024764",
       41.41912028925022,
       -81.73638492822647,
@@ -14991,6 +15053,15 @@
       "OH"
     ],
     [
+      "042623",
+      41.12184543646923,
+      -85.06201480708354,
+      4.99,
+      "Taco Bell",
+      "Fort Wayne",
+      "IN"
+    ],
+    [
       "032091",
       41.45104454034972,
       -85.24693863738355,
@@ -15015,6 +15086,15 @@
       4.99,
       "Taco Bell",
       "Elkhart",
+      "IN"
+    ],
+    [
+      "035410",
+      41.27797780446125,
+      -85.85350468754768,
+      4.99,
+      "Taco Bell",
+      "Warsaw",
       "IN"
     ],
     [
@@ -15496,6 +15576,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 7.0
 }

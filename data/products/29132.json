@@ -21,7 +21,7 @@
     "max": 13.99,
     "median": 8.19,
     "std_dev": 0.57,
-    "store_count": 6445
+    "store_count": 6444
   },
   "histogram": [
     {
@@ -66,15 +66,15 @@
     },
     {
       "bucket": "$7.79",
-      "count": 98
+      "count": 101
     },
     {
       "bucket": "$7.89",
-      "count": 67
+      "count": 66
     },
     {
       "bucket": "$7.99",
-      "count": 2329
+      "count": 2328
     },
     {
       "bucket": "$8.00",
@@ -126,7 +126,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 617
+      "count": 616
     },
     {
       "bucket": "$8.80",
@@ -134,7 +134,7 @@
     },
     {
       "bucket": "$8.89",
-      "count": 65
+      "count": 64
     },
     {
       "bucket": "$8.95",
@@ -263,7 +263,7 @@
     {
       "state": "NY",
       "avg_price": 9.05,
-      "store_count": 247
+      "store_count": 246
     },
     {
       "state": "NH",
@@ -313,7 +313,7 @@
     {
       "state": "CA",
       "avg_price": 8.65,
-      "store_count": 825
+      "store_count": 824
     },
     {
       "state": "NJ",
@@ -337,8 +337,8 @@
     },
     {
       "state": "OR",
-      "avg_price": 8.48,
-      "store_count": 122
+      "avg_price": 8.49,
+      "store_count": 121
     },
     {
       "state": "NM",
@@ -378,7 +378,7 @@
     {
       "state": "IN",
       "avg_price": 8.3,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "KY",
@@ -441,11 +441,6 @@
       "store_count": 112
     },
     {
-      "state": "MN",
-      "avg_price": 7.99,
-      "store_count": 95
-    },
-    {
       "state": "WY",
       "avg_price": 7.99,
       "store_count": 11
@@ -464,6 +459,11 @@
       "state": "ND",
       "avg_price": 7.99,
       "store_count": 12
+    },
+    {
+      "state": "MN",
+      "avg_price": 7.98,
+      "store_count": 98
     },
     {
       "state": "KS",
@@ -665,6 +665,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003307",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-05-05T21:10:57.810087+00:00"
+    },
+    {
+      "store_number": "015521",
+      "store_name": "Taco Bell",
+      "city": "Saint Helens",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:52.533804+00:00"
+    },
+    {
+      "store_number": "028880",
+      "store_name": "Taco Bell",
+      "city": "Indianapolis",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 7.89,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:44.613671+00:00"
+    },
+    {
+      "store_number": "030774",
+      "store_name": "Taco Bell",
+      "city": "San Leandro",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:37.289802+00:00"
+    },
+    {
+      "store_number": "038999",
+      "store_name": "Taco Bell",
+      "city": "Stewartville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-05-05T21:10:09.127819+00:00"
+    },
+    {
+      "store_number": "042034",
+      "store_name": "Taco Bell",
+      "city": "Elmira",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 8.89,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:03.585862+00:00"
+    },
+    {
+      "store_number": "036175",
+      "store_name": "Taco Bell",
+      "city": "Rochester",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.79,
+      "observed_at": "2026-05-05T21:01:56.796763+00:00"
+    },
     {
       "store_number": "036244",
       "store_name": "Taco Bell",
@@ -22157,8 +22227,8 @@
     }
   ],
   "activity_summary": {
-    "added": 176,
-    "removed": 1311,
+    "added": 179,
+    "removed": 1315,
     "price_changed": 662,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25219,6 +25289,15 @@
       "IL"
     ],
     [
+      "036175",
+      43.98882817,
+      -92.46104033,
+      7.79,
+      "Taco Bell",
+      "Rochester",
+      "MN"
+    ],
+    [
       "034957",
       38.39473076270414,
       -82.41529506070697,
@@ -25298,6 +25377,15 @@
       "Taco Bell",
       "Ishpeming",
       "MI"
+    ],
+    [
+      "038999",
+      43.876322516536156,
+      -92.48932869285045,
+      7.79,
+      "Taco Bell",
+      "Stewartville",
+      "MN"
     ],
     [
       "039587",
@@ -25523,6 +25611,15 @@
       "Taco Bell",
       "Escanaba",
       "MI"
+    ],
+    [
+      "003307",
+      44.02872890101641,
+      -92.46248863175424,
+      7.79,
+      "Taco Bell",
+      "Rochester",
+      "MN"
     ],
     [
       "017107",
@@ -26144,15 +26241,6 @@
       "Taco Bell",
       "Madison",
       "WI"
-    ],
-    [
-      "028880",
-      39.781984127668075,
-      -86.04584185173735,
-      7.89,
-      "Taco Bell",
-      "Indianapolis",
-      "IN"
     ],
     [
       "031966",
@@ -35603,15 +35691,6 @@
       "Taco Bell",
       "Merriam",
       "KS"
-    ],
-    [
-      "015521",
-      45.84821483414798,
-      -122.83299542964869,
-      7.99,
-      "Taco Bell",
-      "Saint Helens",
-      "OR"
     ],
     [
       "004523",
@@ -65629,15 +65708,6 @@
       "MD"
     ],
     [
-      "030774",
-      37.71398398344926,
-      -122.1573954820633,
-      8.79,
-      "Taco Bell",
-      "San Leandro",
-      "CA"
-    ],
-    [
       "039070",
       40.209943713771224,
       -74.02697040701241,
@@ -70144,15 +70214,6 @@
       8.89,
       "Taco Bell",
       "Owego",
-      "NY"
-    ],
-    [
-      "042034",
-      42.08048,
-      -76.80423,
-      8.89,
-      "Taco Bell",
-      "Elmira",
       "NY"
     ],
     [

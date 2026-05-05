@@ -21,7 +21,7 @@
     "max": 9.59,
     "median": 6.79,
     "std_dev": 0.6,
-    "store_count": 7179
+    "store_count": 7182
   },
   "histogram": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "bucket": "$5.69",
-      "count": 79
+      "count": 80
     },
     {
       "bucket": "$5.79",
@@ -70,7 +70,7 @@
     },
     {
       "bucket": "$5.99",
-      "count": 419
+      "count": 420
     },
     {
       "bucket": "$6.09",
@@ -86,7 +86,7 @@
     },
     {
       "bucket": "$6.29",
-      "count": 305
+      "count": 304
     },
     {
       "bucket": "$6.39",
@@ -174,7 +174,7 @@
     },
     {
       "bucket": "$7.29",
-      "count": 122
+      "count": 123
     },
     {
       "bucket": "$7.35",
@@ -190,7 +190,7 @@
     },
     {
       "bucket": "$7.49",
-      "count": 184
+      "count": 185
     },
     {
       "bucket": "$7.59",
@@ -317,14 +317,14 @@
       "store_count": 29
     },
     {
+      "state": "OR",
+      "avg_price": 6.91,
+      "store_count": 121
+    },
+    {
       "state": "DE",
       "avg_price": 6.91,
       "store_count": 16
-    },
-    {
-      "state": "OR",
-      "avg_price": 6.91,
-      "store_count": 120
     },
     {
       "state": "NH",
@@ -434,17 +434,17 @@
     {
       "state": "FL",
       "avg_price": 6.4,
-      "store_count": 419
+      "store_count": 420
+    },
+    {
+      "state": "IN",
+      "avg_price": 6.36,
+      "store_count": 259
     },
     {
       "state": "NJ",
       "avg_price": 6.35,
       "store_count": 122
-    },
-    {
-      "state": "IN",
-      "avg_price": 6.35,
-      "store_count": 258
     },
     {
       "state": "NV",
@@ -459,7 +459,7 @@
     {
       "state": "SC",
       "avg_price": 6.24,
-      "store_count": 109
+      "store_count": 108
     },
     {
       "state": "ND",
@@ -469,7 +469,7 @@
     {
       "state": "TX",
       "avg_price": 6.18,
-      "store_count": 696
+      "store_count": 697
     },
     {
       "state": "MS",
@@ -648,6 +648,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "019752",
+      "store_name": "Taco Bell",
+      "city": "Hobart",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.49,
+      "observed_at": "2026-05-05T21:11:03.292811+00:00"
+    },
+    {
+      "store_number": "042689",
+      "store_name": "Taco Bell",
+      "city": "Midland",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.69,
+      "observed_at": "2026-05-05T21:11:02.829379+00:00"
+    },
+    {
+      "store_number": "004814",
+      "store_name": "Taco Bell",
+      "city": "North Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 6.29,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:41.093751+00:00"
+    },
+    {
+      "store_number": "039641",
+      "store_name": "Taco Bell",
+      "city": "Monmouth",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.29,
+      "observed_at": "2026-05-05T21:10:24.272115+00:00"
+    },
+    {
+      "store_number": "041103",
+      "store_name": "Taco Bell",
+      "city": "Palmetto",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-05-05T21:01:24.951240+00:00"
+    },
     {
       "store_number": "034822",
       "store_name": "Taco Bell",
@@ -21610,8 +21660,8 @@
     }
   ],
   "activity_summary": {
-    "added": 172,
-    "removed": 656,
+    "added": 176,
+    "removed": 657,
     "price_changed": 1268,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24651,6 +24701,15 @@
       5.69,
       "Taco Bell",
       "Frisco",
+      "TX"
+    ],
+    [
+      "042689",
+      32.03666123449583,
+      -102.13087499141693,
+      5.69,
+      "Taco Bell",
+      "Midland",
       "TX"
     ],
     [
@@ -28405,6 +28464,15 @@
       "Taco Bell",
       "Lucasville",
       "OH"
+    ],
+    [
+      "041103",
+      27.6001,
+      -82.501,
+      5.99,
+      "Taco Bell",
+      "Palmetto",
+      "FL"
     ],
     [
       "041999",
@@ -37603,15 +37671,6 @@
       "Taco Bell",
       "Gainesville",
       "FL"
-    ],
-    [
-      "004814",
-      32.93572467123159,
-      -80.04548375310151,
-      6.29,
-      "Taco Bell",
-      "North Charleston",
-      "SC"
     ],
     [
       "042884",
@@ -79617,6 +79676,15 @@
       "OH"
     ],
     [
+      "039641",
+      44.85080864926697,
+      -123.21717139429244,
+      7.29,
+      "Taco Bell",
+      "Monmouth",
+      "OR"
+    ],
+    [
       "017194",
       33.94586214192393,
       -118.26566428853353,
@@ -81973,6 +82041,15 @@
       "Taco Bell",
       "Lynnwood",
       "WA"
+    ],
+    [
+      "019752",
+      41.50679756775669,
+      -87.31513691468405,
+      7.49,
+      "Taco Bell",
+      "Hobart",
+      "IN"
     ],
     [
       "015971",

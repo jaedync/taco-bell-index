@@ -15,14 +15,14 @@
   "peak_30d_pct": 85.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 91.0,
+  "availability_pct": 91.1,
   "price_stats": {
     "avg": 3.29,
     "min": 1.59,
     "max": 6.29,
     "median": 3.19,
     "std_dev": 0.42,
-    "store_count": 7015
+    "store_count": 7017
   },
   "histogram": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$2.69",
-      "count": 91
+      "count": 92
     },
     {
       "bucket": "$2.79",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 2552
+      "count": 2553
     },
     {
       "bucket": "$3.09",
@@ -296,14 +296,14 @@
       "store_count": 121
     },
     {
-      "state": "OH",
-      "avg_price": 3.31,
-      "store_count": 193
-    },
-    {
       "state": "ID",
       "avg_price": 3.3,
       "store_count": 35
+    },
+    {
+      "state": "OH",
+      "avg_price": 3.3,
+      "store_count": 194
     },
     {
       "state": "IN",
@@ -433,7 +433,7 @@
     {
       "state": "TN",
       "avg_price": 3.01,
-      "store_count": 254
+      "store_count": 255
     },
     {
       "state": "AL",
@@ -628,6 +628,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004882",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-05-05T21:11:02.775087+00:00"
+    },
+    {
+      "store_number": "039152",
+      "store_name": "Taco Bell",
+      "city": "Milan",
+      "state": "TN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-05-05T21:10:23.312331+00:00"
+    },
     {
       "store_number": "030784",
       "store_name": "Taco Bell",
@@ -17320,7 +17340,7 @@
     }
   ],
   "activity_summary": {
-    "added": 93,
+    "added": 95,
     "removed": 682,
     "price_changed": 894,
     "since": "2026-03-31T00:00:00+00:00"
@@ -19876,6 +19896,15 @@
       "Taco Bell",
       "Richmond Hill",
       "GA"
+    ],
+    [
+      "039152",
+      35.90841756357119,
+      -88.75218697864946,
+      2.69,
+      "Taco Bell",
+      "Milan",
+      "TN"
     ],
     [
       "040020",
@@ -33205,6 +33234,15 @@
       "Taco Bell",
       "Austin",
       "TX"
+    ],
+    [
+      "004882",
+      40.066301669418145,
+      -83.09261861897147,
+      2.99,
+      "Taco Bell",
+      "Columbus",
+      "OH"
     ],
     [
       "039712",

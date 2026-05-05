@@ -17,17 +17,17 @@
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
   "availability_pct": 5.5,
   "price_stats": {
-    "avg": 12.95,
+    "avg": 12.96,
     "min": 12.5,
     "max": 19.99,
     "median": 12.5,
-    "std_dev": 1.24,
-    "store_count": 426
+    "std_dev": 1.25,
+    "store_count": 425
   },
   "histogram": [
     {
       "bucket": "$12.50",
-      "count": 359
+      "count": 358
     },
     {
       "bucket": "$12.99",
@@ -85,7 +85,7 @@
     {
       "state": "AL",
       "avg_price": 12.81,
-      "store_count": 104
+      "store_count": 103
     },
     {
       "state": "GA",
@@ -287,7 +287,6 @@
     "029064",
     "030296",
     "029120",
-    "029153",
     "017019",
     "029119",
     "030297",
@@ -613,6 +612,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029153",
+      "store_name": "Taco Bell",
+      "city": "Hoover",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 12.5,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:13.335371+00:00"
+    },
     {
       "store_number": "027858",
       "store_name": "Taco Bell",
@@ -5636,7 +5645,7 @@
   ],
   "activity_summary": {
     "added": 464,
-    "removed": 38,
+    "removed": 39,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -6631,15 +6640,6 @@
       12.5,
       "Taco Bell",
       "Leeds",
-      "AL"
-    ],
-    [
-      "029153",
-      33.37553645889424,
-      -86.80206133982665,
-      12.5,
-      "Taco Bell",
-      "Hoover",
       "AL"
     ],
     [
@@ -9506,6 +9506,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 5.3
 }

@@ -20,7 +20,7 @@
     "max": 6.99,
     "median": 5.89,
     "std_dev": 0.44,
-    "store_count": 478
+    "store_count": 477
   },
   "histogram": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 22
+      "count": 21
     },
     {
       "bucket": "$5.59",
@@ -111,8 +111,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.04,
-      "store_count": 233
+      "avg_price": 6.05,
+      "store_count": 232
     },
     {
       "state": "SC",
@@ -298,6 +298,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016289",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:58.577929+00:00"
+    },
     {
       "store_number": "029014",
       "store_name": "Taco Bell",
@@ -9011,7 +9021,7 @@
   ],
   "activity_summary": {
     "added": 533,
-    "removed": 55,
+    "removed": 56,
     "price_changed": 283,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -9288,15 +9298,6 @@
       5.49,
       "Taco Bell",
       "Smyrna",
-      "GA"
-    ],
-    [
-      "016289",
-      33.61549907748702,
-      -84.47322343291489,
-      5.49,
-      "Taco Bell",
-      "College Park",
       "GA"
     ],
     [
@@ -13324,6 +13325,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 5.9
 }

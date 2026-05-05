@@ -21,12 +21,12 @@
     "max": 11.99,
     "median": 9.79,
     "std_dev": 0.41,
-    "store_count": 486
+    "store_count": 487
   },
   "histogram": [
     {
       "bucket": "$8.99",
-      "count": 44
+      "count": 45
     },
     {
       "bucket": "$9.19",
@@ -98,7 +98,7 @@
     {
       "state": "GA",
       "avg_price": 9.79,
-      "store_count": 237
+      "store_count": 238
     },
     {
       "state": "AL",
@@ -202,6 +202,7 @@
     "038733",
     "017019",
     "004142",
+    "003824",
     "018678",
     "002994",
     "041798",
@@ -308,6 +309,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 8.99,
+      "observed_at": "2026-05-05T21:10:25.765822+00:00"
+    },
     {
       "store_number": "042123",
       "store_name": "Taco Bell",
@@ -8890,7 +8901,7 @@
     }
   ],
   "activity_summary": {
-    "added": 509,
+    "added": 510,
     "removed": 23,
     "price_changed": 326,
     "since": "2026-03-31T00:00:00+00:00"
@@ -9043,6 +9054,15 @@
       8.99,
       "Taco Bell",
       "La Fayette",
+      "GA"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      8.99,
+      "Taco Bell",
+      "Lithia Springs",
       "GA"
     ],
     [
@@ -13313,6 +13333,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 5.9
 }

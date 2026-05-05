@@ -14,14 +14,14 @@
   "peak_30d_pct": 5.9,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.3,
+  "availability_pct": 6.4,
   "price_stats": {
-    "avg": 6.38,
+    "avg": 6.37,
     "min": 4.99,
     "max": 7.99,
     "median": 6.19,
     "std_dev": 0.6,
-    "store_count": 489
+    "store_count": 490
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$5.29",
-      "count": 22
+      "count": 23
     },
     {
       "bucket": "$5.39",
@@ -112,8 +112,8 @@
   "state_prices": [
     {
       "state": "GA",
-      "avg_price": 6.52,
-      "store_count": 238
+      "avg_price": 6.51,
+      "store_count": 239
     },
     {
       "state": "TN",
@@ -188,6 +188,13 @@
       "price": 5.29
     },
     {
+      "store_number": "003824",
+      "name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "price": 5.29
+    },
+    {
       "store_number": "004370",
       "name": "Taco Bell",
       "city": "Panama City Beach",
@@ -199,13 +206,6 @@
       "name": "Taco Bell",
       "city": "Sandy Springs",
       "state": "GA",
-      "price": 5.29
-    },
-    {
-      "store_number": "030707",
-      "name": "Taco Bell",
-      "city": "Panama City Beach",
-      "state": "FL",
       "price": 5.29
     }
   ],
@@ -285,6 +285,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.29,
+      "observed_at": "2026-05-05T21:10:25.765822+00:00"
+    },
     {
       "store_number": "042123",
       "store_name": "Taco Bell",
@@ -7027,14 +7037,14 @@
     }
   ],
   "activity_summary": {
-    "added": 502,
+    "added": 503,
     "removed": 13,
     "price_changed": 159,
     "since": "2026-03-31T00:00:00+00:00"
   },
   "calories_from_menu": 530,
-  "calories_min": 530,
-  "calories_max": 530,
+  "calories_min": 570,
+  "calories_max": 570,
   "combo_groups": [
     {
       "group_id": "657",
@@ -7112,6 +7122,15 @@
       "Taco Bell",
       "Port St Joe",
       "FL"
+    ],
+    [
+      "003824",
+      33.77885297807616,
+      -84.60735438158736,
+      5.29,
+      "Taco Bell",
+      "Lithia Springs",
+      "GA"
     ],
     [
       "004370",
@@ -11453,6 +11472,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 5.9
 }

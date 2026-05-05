@@ -14,14 +14,14 @@
   "peak_30d_pct": 5.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:08.411720+00:00",
-  "availability_pct": 6.0,
+  "availability_pct": 5.9,
   "price_stats": {
     "avg": 21.48,
     "min": 19.99,
     "max": 34.99,
     "median": 20.83,
     "std_dev": 1.64,
-    "store_count": 459
+    "store_count": 458
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$20.83",
-      "count": 341
+      "count": 340
     },
     {
       "bucket": "$20.99",
@@ -100,7 +100,7 @@
     {
       "state": "GA",
       "avg_price": 21.54,
-      "store_count": 222
+      "store_count": 221
     },
     {
       "state": "AL",
@@ -273,6 +273,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042582",
+      "store_name": "Taco Bell",
+      "city": "Dacula",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 20.83,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:00:50.677572+00:00"
+    },
     {
       "store_number": "041245",
       "store_name": "Taco Bell",
@@ -5526,7 +5536,7 @@
   ],
   "activity_summary": {
     "added": 492,
-    "removed": 33,
+    "removed": 34,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5649,15 +5659,6 @@
       "Taco Bell",
       "Knoxville",
       "TN"
-    ],
-    [
-      "042582",
-      34.03186002111262,
-      -83.88571668620189,
-      20.83,
-      "Taco Bell",
-      "Dacula",
-      "GA"
     ],
     [
       "040418",
@@ -9693,6 +9694,6 @@
     ]
   ],
   "retired_at": "2026-03-30T21:19:11.403388+00:00",
-  "last_seen_date": "2026-05-04",
+  "last_seen_date": "2026-05-05",
   "peak_availability_pct": 5.8
 }

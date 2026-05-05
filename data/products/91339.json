@@ -16,12 +16,12 @@
   "first_seen_at": "2026-03-30T00:41:04.043083+00:00",
   "availability_pct": 0.3,
   "price_stats": {
-    "avg": 5.41,
+    "avg": 5.4,
     "min": 4.99,
     "max": 5.49,
     "median": 5.49,
     "std_dev": 0.19,
-    "store_count": 24
+    "store_count": 23
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$5.49",
-      "count": 20
+      "count": 19
     }
   ],
   "state_prices": [
@@ -41,8 +41,8 @@
     },
     {
       "state": "AL",
-      "avg_price": 5.41,
-      "store_count": 6
+      "avg_price": 5.39,
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -160,13 +160,6 @@
       "price": 5.49
     },
     {
-      "store_number": "037370",
-      "name": "Taco Bell",
-      "city": "Phenix City",
-      "state": "AL",
-      "price": 5.49
-    },
-    {
       "store_number": "003668",
       "name": "Taco Bell",
       "city": "Atlanta",
@@ -207,9 +200,26 @@
       "city": "Griffin",
       "state": "GA",
       "price": 5.49
+    },
+    {
+      "store_number": "039946",
+      "name": "Taco Bell",
+      "city": "Monroe",
+      "state": "GA",
+      "price": 5.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037370",
+      "store_name": "Taco Bell",
+      "city": "Phenix City",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:07.596873+00:00"
+    },
     {
       "store_number": "042123",
       "store_name": "Taco Bell",
@@ -973,7 +983,7 @@
   ],
   "activity_summary": {
     "added": 37,
-    "removed": 39,
+    "removed": 40,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1161,15 +1171,6 @@
       "Taco Bell",
       "Atlanta",
       "GA"
-    ],
-    [
-      "037370",
-      32.46998098963569,
-      -85.08497364706245,
-      5.49,
-      "Taco Bell",
-      "Phenix City",
-      "AL"
     ],
     [
       "026837",

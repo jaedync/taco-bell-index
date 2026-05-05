@@ -20,7 +20,7 @@
     "max": 4.18,
     "median": 1.99,
     "std_dev": 0.33,
-    "store_count": 3252
+    "store_count": 3254
   },
   "histogram": [
     {
@@ -69,7 +69,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 1426
+      "count": 1428
     },
     {
       "bucket": "$2.00",
@@ -93,7 +93,7 @@
     },
     {
       "bucket": "$2.29",
-      "count": 249
+      "count": 248
     },
     {
       "bucket": "$2.39",
@@ -101,7 +101,7 @@
     },
     {
       "bucket": "$2.49",
-      "count": 133
+      "count": 134
     },
     {
       "bucket": "$2.50",
@@ -169,7 +169,7 @@
     {
       "state": "NY",
       "avg_price": 2.35,
-      "store_count": 119
+      "store_count": 118
     },
     {
       "state": "MT",
@@ -214,7 +214,7 @@
     {
       "state": "MI",
       "avg_price": 2.13,
-      "store_count": 180
+      "store_count": 182
     },
     {
       "state": "IL",
@@ -237,14 +237,14 @@
       "store_count": 117
     },
     {
-      "state": "FL",
-      "avg_price": 2.02,
-      "store_count": 240
-    },
-    {
       "state": "GA",
       "avg_price": 2.02,
       "store_count": 61
+    },
+    {
+      "state": "FL",
+      "avg_price": 2.02,
+      "store_count": 241
     },
     {
       "state": "NV",
@@ -525,6 +525,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042855",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-05T21:10:30.704439+00:00"
+    },
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.19,
+      "observed_at": "2026-05-05T21:10:18.990351+00:00"
+    },
+    {
+      "store_number": "003293",
+      "store_name": "Taco Bell",
+      "city": "Redford",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 2.29,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:15.821658+00:00"
+    },
+    {
+      "store_number": "005095",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.49,
+      "observed_at": "2026-05-05T21:10:12.005179+00:00"
+    },
+    {
+      "store_number": "042034",
+      "store_name": "Taco Bell",
+      "city": "Elmira",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 2.19,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:03.585862+00:00"
+    },
+    {
+      "store_number": "041687",
+      "store_name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-05-05T21:00:53.679648+00:00"
+    },
     {
       "store_number": "028911",
       "store_name": "Taco Bell",
@@ -6797,8 +6857,8 @@
     }
   ],
   "activity_summary": {
-    "added": 296,
-    "removed": 262,
+    "added": 300,
+    "removed": 264,
     "price_changed": 69,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -15482,6 +15542,15 @@
       "Taco Bell",
       "Anchorage",
       "AK"
+    ],
+    [
+      "042855",
+      26.612122039412586,
+      -81.80924959482127,
+      1.99,
+      "Taco Bell",
+      "Fort Myers",
+      "FL"
     ],
     [
       "016279",
@@ -25231,6 +25300,15 @@
       "CO"
     ],
     [
+      "041687",
+      43.725323658800306,
+      -83.44542143332238,
+      1.99,
+      "Taco Bell",
+      "Sebewaing",
+      "MI"
+    ],
+    [
       "041644",
       45.67924445993421,
       -111.18667699035905,
@@ -25706,15 +25784,6 @@
       "Taco Bell",
       "Portland",
       "OR"
-    ],
-    [
-      "042034",
-      42.08048,
-      -76.80423,
-      2.19,
-      "Taco Bell",
-      "Elmira",
-      "NY"
     ],
     [
       "042681",
@@ -29119,6 +29188,15 @@
       "CA"
     ],
     [
+      "033316",
+      42.709640520946245,
+      -83.30659079290703,
+      2.19,
+      "Taco Bell",
+      "Lake Orion",
+      "MI"
+    ],
+    [
       "037042",
       44.55202678406714,
       -123.30576852761268,
@@ -30034,15 +30112,6 @@
       2.29,
       "Taco Bell",
       "Flat Rock",
-      "MI"
-    ],
-    [
-      "003293",
-      42.4395872518979,
-      -83.31623877179388,
-      2.29,
-      "Taco Bell",
-      "Redford",
       "MI"
     ],
     [
@@ -33617,6 +33686,15 @@
       "Taco Bell",
       "Uhrichsville",
       "OH"
+    ],
+    [
+      "005095",
+      42.198830921493176,
+      -83.19256271757894,
+      2.49,
+      "Taco Bell",
+      "Southgate",
+      "MI"
     ],
     [
       "020054",

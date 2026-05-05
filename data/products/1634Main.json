@@ -14,14 +14,14 @@
   "peak_30d_pct": 2.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.243504+00:00",
-  "availability_pct": 2.2,
+  "availability_pct": 2.3,
   "price_stats": {
     "avg": 3.83,
     "min": 2.09,
     "max": 4.99,
     "median": 3.89,
     "std_dev": 0.37,
-    "store_count": 173
+    "store_count": 174
   },
   "histogram": [
     {
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 48
+      "count": 50
     },
     {
       "bucket": "$4.09",
@@ -102,7 +102,7 @@
     },
     {
       "bucket": "$4.59",
-      "count": 3
+      "count": 2
     },
     {
       "bucket": "$4.69",
@@ -135,19 +135,19 @@
       "store_count": 10
     },
     {
-      "state": "CA",
-      "avg_price": 3.93,
-      "store_count": 18
-    },
-    {
       "state": "FL",
       "avg_price": 3.92,
       "store_count": 6
     },
     {
+      "state": "CA",
+      "avg_price": 3.89,
+      "store_count": 18
+    },
+    {
       "state": "VA",
-      "avg_price": 3.84,
-      "store_count": 8
+      "avg_price": 3.86,
+      "store_count": 9
     },
     {
       "state": "GA",
@@ -166,8 +166,8 @@
     },
     {
       "state": "TX",
-      "avg_price": 3.7,
-      "store_count": 17
+      "avg_price": 3.69,
+      "store_count": 16
     },
     {
       "state": "TN",
@@ -286,13 +286,6 @@
       "price": 4.59
     },
     {
-      "store_number": "042792",
-      "name": "Taco Bell",
-      "city": "Oakland",
-      "state": "CA",
-      "price": 4.59
-    },
-    {
       "store_number": "020027",
       "name": "Taco Bell",
       "city": "Earle",
@@ -326,9 +319,66 @@
       "city": "Joplin",
       "state": "MO",
       "price": 4.29
+    },
+    {
+      "store_number": "040483",
+      "name": "Taco Bell",
+      "city": "West Valley City",
+      "state": "UT",
+      "price": 4.29
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042792",
+      "store_name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.59,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:50.929532+00:00"
+    },
+    {
+      "store_number": "002633",
+      "store_name": "Taco Bell",
+      "city": "Fort Worth",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 3.79,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:49.280543+00:00"
+    },
+    {
+      "store_number": "002224",
+      "store_name": "Taco Bell",
+      "city": "Richmond",
+      "state": "VA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:45.978666+00:00"
+    },
+    {
+      "store_number": "041616",
+      "store_name": "Taco Bell",
+      "city": "Lemon Grove",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:42.530893+00:00"
+    },
+    {
+      "store_number": "039072",
+      "store_name": "Taco Bell",
+      "city": "College Park",
+      "state": "MD",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-05-05T21:10:33.686996+00:00"
+    },
     {
       "store_number": "040887",
       "store_name": "Taco Bell",
@@ -3911,8 +3961,8 @@
     }
   ],
   "activity_summary": {
-    "added": 138,
-    "removed": 195,
+    "added": 141,
+    "removed": 197,
     "price_changed": 25,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -4615,15 +4665,6 @@
       "TN"
     ],
     [
-      "002633",
-      32.74571833111253,
-      -97.223239839077,
-      3.79,
-      "Taco Bell",
-      "Fort Worth",
-      "TX"
-    ],
-    [
       "002302",
       35.97311902232418,
       -83.9845335127915,
@@ -4640,6 +4681,15 @@
       "Taco Bell",
       "Carlstadt",
       "NJ"
+    ],
+    [
+      "039072",
+      38.9943499833536,
+      -76.93290448699653,
+      3.79,
+      "Taco Bell",
+      "College Park",
+      "MD"
     ],
     [
       "034785",
@@ -5236,6 +5286,24 @@
       "CA"
     ],
     [
+      "041616",
+      32.7428825557662,
+      -117.04197093844414,
+      3.99,
+      "Taco Bell",
+      "Lemon Grove",
+      "CA"
+    ],
+    [
+      "002224",
+      37.5028919753367,
+      -77.51989663393942,
+      3.99,
+      "Taco Bell",
+      "Richmond",
+      "VA"
+    ],
+    [
       "003991",
       40.405731305744325,
       -120.6333485870065,
@@ -5432,15 +5500,6 @@
       "Taco Bell",
       "Earle",
       "AR"
-    ],
-    [
-      "042792",
-      37.84706784120103,
-      -122.26125451415163,
-      4.59,
-      "Taco Bell",
-      "Oakland",
-      "CA"
     ],
     [
       "042304",

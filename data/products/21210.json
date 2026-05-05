@@ -16,14 +16,14 @@
   "peak_30d_pct": 86.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 91.8,
+  "availability_pct": 91.9,
   "price_stats": {
-    "avg": 4.64,
+    "avg": 4.63,
     "min": 4.0,
     "max": 19.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7077
+    "store_count": 7078
   },
   "histogram": [
     {
@@ -76,11 +76,11 @@
     },
     {
       "bucket": "$4.99",
-      "count": 13
+      "count": 14
     },
     {
       "bucket": "$5.00",
-      "count": 494
+      "count": 495
     },
     {
       "bucket": "$5.19",
@@ -124,7 +124,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 538
+      "count": 537
     },
     {
       "bucket": "$8.00",
@@ -185,8 +185,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 5.75,
-      "store_count": 433
+      "avg_price": 5.74,
+      "store_count": 432
     },
     {
       "state": "CA",
@@ -245,8 +245,8 @@
     },
     {
       "state": "MS",
-      "avg_price": 4.56,
-      "store_count": 71
+      "avg_price": 4.57,
+      "store_count": 72
     },
     {
       "state": "AL",
@@ -300,8 +300,8 @@
     },
     {
       "state": "PA",
-      "avg_price": 4.12,
-      "store_count": 180
+      "avg_price": 4.13,
+      "store_count": 181
     },
     {
       "state": "MA",
@@ -5810,6 +5810,36 @@
   ],
   "price_changes": [
     {
+      "store_number": "032318",
+      "store_name": "Taco Bell",
+      "city": "Olive Branch",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.0,
+      "observed_at": "2026-05-05T21:10:39.956913+00:00"
+    },
+    {
+      "store_number": "042855",
+      "store_name": "Taco Bell",
+      "city": "Fort Myers",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:30.704439+00:00"
+    },
+    {
+      "store_number": "042173",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:10:01.936512+00:00"
+    },
+    {
       "store_number": "031504",
       "store_name": "Taco Bell",
       "city": "Neenah",
@@ -7421,8 +7451,8 @@
     }
   ],
   "activity_summary": {
-    "added": 72,
-    "removed": 75,
+    "added": 74,
+    "removed": 76,
     "price_changed": 14,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -55949,6 +55979,15 @@
       "PA"
     ],
     [
+      "042173",
+      39.95124065528925,
+      -75.16795417485142,
+      4.99,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
+    ],
+    [
       "034909",
       41.520379064625956,
       -81.46883524730293,
@@ -57549,6 +57588,15 @@
       "Taco Bell",
       "Chico",
       "CA"
+    ],
+    [
+      "032318",
+      34.96284585726576,
+      -89.85560287536828,
+      5.0,
+      "Taco Bell",
+      "Olive Branch",
+      "MS"
     ],
     [
       "003975",
@@ -66152,15 +66200,6 @@
       7.99,
       "Taco Bell",
       "Coral Springs",
-      "FL"
-    ],
-    [
-      "042855",
-      26.612122039412586,
-      -81.80924959482127,
-      7.99,
-      "Taco Bell",
-      "Fort Myers",
       "FL"
     ],
     [

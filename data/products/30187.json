@@ -20,7 +20,7 @@
     "max": 7.59,
     "median": 5.19,
     "std_dev": 0.58,
-    "store_count": 3412
+    "store_count": 3415
   },
   "histogram": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "bucket": "$4.29",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$4.32",
@@ -77,11 +77,11 @@
     },
     {
       "bucket": "$4.89",
-      "count": 181
+      "count": 182
     },
     {
       "bucket": "$4.99",
-      "count": 733
+      "count": 734
     },
     {
       "bucket": "$5.09",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$5.19",
-      "count": 76
+      "count": 77
     },
     {
       "bucket": "$5.29",
@@ -125,7 +125,7 @@
     },
     {
       "bucket": "$5.89",
-      "count": 145
+      "count": 146
     },
     {
       "bucket": "$5.90",
@@ -256,14 +256,14 @@
       "store_count": 61
     },
     {
+      "state": "MI",
+      "avg_price": 5.14,
+      "store_count": 191
+    },
+    {
       "state": "AZ",
       "avg_price": 5.14,
       "store_count": 174
-    },
-    {
-      "state": "MI",
-      "avg_price": 5.14,
-      "store_count": 188
     },
     {
       "state": "OH",
@@ -323,7 +323,7 @@
     {
       "state": "IN",
       "avg_price": 4.92,
-      "store_count": 124
+      "store_count": 123
     },
     {
       "state": "KY",
@@ -338,7 +338,7 @@
     {
       "state": "MN",
       "avg_price": 4.84,
-      "store_count": 96
+      "store_count": 97
     },
     {
       "state": "DC",
@@ -554,6 +554,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028873",
+      "store_name": "Taco Bell",
+      "city": "Peru",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 4.29,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:41.831910+00:00"
+    },
+    {
+      "store_number": "033316",
+      "store_name": "Taco Bell",
+      "city": "Lake Orion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.19,
+      "observed_at": "2026-05-05T21:10:18.990351+00:00"
+    },
+    {
+      "store_number": "005095",
+      "store_name": "Taco Bell",
+      "city": "Southgate",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.89,
+      "observed_at": "2026-05-05T21:10:12.005179+00:00"
+    },
+    {
+      "store_number": "041687",
+      "store_name": "Taco Bell",
+      "city": "Sebewaing",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-05-05T21:00:53.679648+00:00"
+    },
+    {
+      "store_number": "041269",
+      "store_name": "Taco Bell",
+      "city": "Roseville",
+      "state": "MN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.89,
+      "observed_at": "2026-05-05T21:00:51.210113+00:00"
+    },
     {
       "store_number": "028911",
       "store_name": "Taco Bell",
@@ -6196,8 +6246,8 @@
     }
   ],
   "activity_summary": {
-    "added": 243,
-    "removed": 215,
+    "added": 247,
+    "removed": 216,
     "price_changed": 106,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7572,15 +7622,6 @@
       4.29,
       "Taco Bell",
       "Westfield",
-      "IN"
-    ],
-    [
-      "028873",
-      40.76561383258228,
-      -86.07735246419907,
-      4.29,
-      "Taco Bell",
-      "Peru",
       "IN"
     ],
     [
@@ -12640,6 +12681,15 @@
       "Taco Bell",
       "Canton",
       "OH"
+    ],
+    [
+      "041269",
+      45.021568,
+      -93.173593,
+      4.89,
+      "Taco Bell",
+      "Roseville",
+      "MN"
     ],
     [
       "040301",
@@ -20832,6 +20882,15 @@
       "NV"
     ],
     [
+      "041687",
+      43.725323658800306,
+      -83.44542143332238,
+      4.99,
+      "Taco Bell",
+      "Sebewaing",
+      "MI"
+    ],
+    [
       "034014",
       40.72744245069915,
       -73.70829895590028,
@@ -21567,6 +21626,15 @@
       5.19,
       "Taco Bell",
       "Clarkston",
+      "MI"
+    ],
+    [
+      "033316",
+      42.709640520946245,
+      -83.30659079290703,
+      5.19,
+      "Taco Bell",
+      "Lake Orion",
       "MI"
     ],
     [
@@ -31098,6 +31166,15 @@
       5.89,
       "Taco Bell",
       "Taylor",
+      "MI"
+    ],
+    [
+      "005095",
+      42.198830921493176,
+      -83.19256271757894,
+      5.89,
+      "Taco Bell",
+      "Southgate",
       "MI"
     ],
     [

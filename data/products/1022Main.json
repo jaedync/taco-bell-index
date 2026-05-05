@@ -21,7 +21,7 @@
     "max": 3.99,
     "median": 3.19,
     "std_dev": 0.24,
-    "store_count": 718
+    "store_count": 717
   },
   "histogram": [
     {
@@ -66,11 +66,11 @@
     },
     {
       "bucket": "$3.29",
-      "count": 219
+      "count": 218
     },
     {
       "bucket": "$3.39",
-      "count": 14
+      "count": 13
     },
     {
       "bucket": "$3.49",
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$3.99",
-      "count": 1
+      "count": 2
     }
   ],
   "state_prices": [
@@ -109,8 +109,8 @@
     },
     {
       "state": "GA",
-      "avg_price": 2.97,
-      "store_count": 6
+      "avg_price": 2.89,
+      "store_count": 5
     },
     {
       "state": "NM",
@@ -196,6 +196,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "042173",
+      "name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "price": 3.99
+    },
+    {
       "store_number": "042187",
       "name": "Taco Bell",
       "city": "Philadelphia",
@@ -208,13 +215,6 @@
       "city": "Kansas City",
       "state": "MO",
       "price": 3.49
-    },
-    {
-      "store_number": "041105",
-      "name": "Taco Bell",
-      "city": "Jefferson",
-      "state": "GA",
-      "price": 3.39
     },
     {
       "store_number": "031885",
@@ -267,6 +267,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042173",
+      "store_name": "Taco Bell",
+      "city": "Philadelphia",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-05-05T21:10:01.936512+00:00"
+    },
+    {
+      "store_number": "036328",
+      "store_name": "Taco Bell",
+      "city": "Lakewood",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:02:29.264913+00:00"
+    },
+    {
+      "store_number": "041105",
+      "store_name": "Taco Bell",
+      "city": "Jefferson",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:01:22.593126+00:00"
+    },
     {
       "store_number": "041135",
       "store_name": "Taco Bell",
@@ -4119,8 +4149,8 @@
     }
   ],
   "activity_summary": {
-    "added": 111,
-    "removed": 128,
+    "added": 112,
+    "removed": 130,
     "price_changed": 146,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -10439,15 +10469,6 @@
       "TN"
     ],
     [
-      "036328",
-      42.09826888342504,
-      -79.30401088300437,
-      3.29,
-      "Taco Bell",
-      "Lakewood",
-      "NY"
-    ],
-    [
       "036452",
       41.69621457058919,
       -87.51837660385304,
@@ -10565,15 +10586,6 @@
       "NV"
     ],
     [
-      "041105",
-      34.123606790741,
-      -83.60452047516594,
-      3.39,
-      "Taco Bell",
-      "Jefferson",
-      "GA"
-    ],
-    [
       "038783",
       39.050835,
       -94.5884833,
@@ -10586,6 +10598,15 @@
       "042187",
       39.92183928957404,
       -75.1875776946872,
+      3.99,
+      "Taco Bell",
+      "Philadelphia",
+      "PA"
+    ],
+    [
+      "042173",
+      39.95124065528925,
+      -75.16795417485142,
       3.99,
       "Taco Bell",
       "Philadelphia",

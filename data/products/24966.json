@@ -21,12 +21,12 @@
     "max": 10.99,
     "median": 6.99,
     "std_dev": 0.45,
-    "store_count": 78
+    "store_count": 79
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 77
+      "count": 78
     },
     {
       "bucket": "$10.99",
@@ -37,7 +37,7 @@
     {
       "state": "FL",
       "avg_price": 7.04,
-      "store_count": 77
+      "store_count": 78
     }
   ],
   "nutrition": {
@@ -154,9 +154,10 @@
     "027978",
     "028353",
     "027975",
+    "027988",
     "022266",
     "027982",
-    "023299",
+    "022833",
     "022596",
     "005646",
     "023293",
@@ -278,6 +279,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023299",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 6.99,
+      "new_price": null,
+      "observed_at": "2026-05-05T21:10:57.781592+00:00"
+    },
+    {
+      "store_number": "022833",
+      "store_name": "Taco Bell",
+      "city": "Clermont",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-05T21:10:57.156276+00:00"
+    },
+    {
+      "store_number": "027988",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-05-05T21:10:50.013405+00:00"
+    },
     {
       "store_number": "034163",
       "store_name": "Taco Bell",
@@ -1680,8 +1711,8 @@
     }
   ],
   "activity_summary": {
-    "added": 108,
-    "removed": 32,
+    "added": 110,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1953,6 +1984,15 @@
       "FL"
     ],
     [
+      "027988",
+      28.47491997799977,
+      -81.28932432086913,
+      6.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
       "022266",
       28.53756096341434,
       -81.20877279901833,
@@ -1971,12 +2011,12 @@
       "FL"
     ],
     [
-      "023299",
-      28.48727227380717,
-      -81.45812411607949,
+      "022833",
+      28.3538526090358,
+      -81.6757670044899,
       6.99,
       "Taco Bell",
-      "Orlando",
+      "Clermont",
       "FL"
     ],
     [
