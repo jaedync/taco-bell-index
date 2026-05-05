@@ -23,4 +23,4 @@ Not affiliated with Taco Bell Corp.
 
 ## Live Site
 
-**[jaedync.github.io/taco-bell-index](https://jaedync.github.io/taco-bell-index)**
+**[jaedync.github.io/taco-index](https://jaedync.github.io/taco-index)**
