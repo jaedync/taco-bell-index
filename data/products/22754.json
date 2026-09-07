@@ -15,14 +15,14 @@
   "peak_30d_pct": 92.8,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 99.6,
+  "availability_pct": 99.5,
   "price_stats": {
     "avg": 0.84,
     "min": 0.3,
     "max": 1.7,
     "median": 0.89,
     "std_dev": 0.16,
-    "store_count": 7695
+    "store_count": 7692
   },
   "histogram": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "bucket": "$0.65",
-      "count": 151
+      "count": 150
     },
     {
       "bucket": "$0.66",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 428
+      "count": 426
     },
     {
       "bucket": "$0.75",
@@ -95,7 +95,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 588
+      "count": 589
     },
     {
       "bucket": "$0.85",
@@ -123,7 +123,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 649
+      "count": 648
     },
     {
       "bucket": "$1.03",
@@ -191,7 +191,7 @@
     {
       "state": "MA",
       "avg_price": 1.02,
-      "store_count": 68
+      "store_count": 67
     },
     {
       "state": "NH",
@@ -316,7 +316,7 @@
     {
       "state": "MI",
       "avg_price": 0.83,
-      "store_count": 346
+      "store_count": 345
     },
     {
       "state": "IA",
@@ -341,7 +341,7 @@
     {
       "state": "NC",
       "avg_price": 0.81,
-      "store_count": 262
+      "store_count": 263
     },
     {
       "state": "NE",
@@ -366,7 +366,7 @@
     {
       "state": "IN",
       "avg_price": 0.77,
-      "store_count": 257
+      "store_count": 255
     },
     {
       "state": "CO",
@@ -596,6 +596,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028908",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:20.562758+00:00"
+    },
+    {
+      "store_number": "020260",
+      "store_name": "Taco Bell",
+      "city": "Henderson",
+      "state": "NC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-07T20:40:56.963314+00:00"
+    },
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:39.417017+00:00"
+    },
+    {
+      "store_number": "004399",
+      "store_name": "Taco Bell",
+      "city": "Sault Sainte Marie",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:38.485602+00:00"
+    },
+    {
+      "store_number": "032490",
+      "store_name": "Taco Bell",
+      "city": "Michigan City",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.7,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:24.045083+00:00"
+    },
     {
       "store_number": "033440",
       "store_name": "Taco Bell",
@@ -14988,8 +15038,8 @@
     }
   ],
   "activity_summary": {
-    "added": 227,
-    "removed": 143,
+    "added": 228,
+    "removed": 147,
     "price_changed": 1069,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24611,15 +24661,6 @@
       "NC"
     ],
     [
-      "004399",
-      46.474895137706675,
-      -84.35584594310967,
-      0.65,
-      "Taco Bell",
-      "Sault Sainte Marie",
-      "MI"
-    ],
-    [
       "036193",
       41.928346754216264,
       -87.86439970135694,
@@ -29192,15 +29233,6 @@
       "TX"
     ],
     [
-      "032490",
-      41.68289460155715,
-      -86.89345707000939,
-      0.7,
-      "Taco Bell",
-      "Michigan City",
-      "IN"
-    ],
-    [
       "032319",
       32.76996019461887,
       -89.12728862766936,
@@ -31017,15 +31049,6 @@
       "Taco Bell",
       "Pampa",
       "TX"
-    ],
-    [
-      "028908",
-      37.9860075326598,
-      -87.49214820566522,
-      0.7,
-      "Taco Bell",
-      "Evansville",
-      "IN"
     ],
     [
       "029684",
@@ -43194,6 +43217,15 @@
       "Taco Bell",
       "Rogersville",
       "MO"
+    ],
+    [
+      "020260",
+      36.335785617132366,
+      -78.4396531345644,
+      0.8,
+      "Taco Bell",
+      "Henderson",
+      "NC"
     ],
     [
       "003564",
@@ -79437,15 +79469,6 @@
       "Taco Bell",
       "Norristown",
       "PA"
-    ],
-    [
-      "029263",
-      42.50358312787979,
-      -70.92246077476568,
-      1.0,
-      "Taco Bell",
-      "Salem",
-      "MA"
     ],
     [
       "033774",

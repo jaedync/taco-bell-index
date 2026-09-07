@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 103
+    "store_count": 102
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 103
+      "count": 102
     }
   ],
   "state_prices": [
     {
       "state": "CO",
       "avg_price": 7.0,
-      "store_count": 103
+      "store_count": 102
     }
   ],
   "nutrition": {
@@ -188,7 +188,6 @@
     "036110",
     "033874",
     "003155",
-    "033848",
     "027370",
     "033837",
     "033855",
@@ -300,6 +299,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033848",
+      "store_name": "Taco Bell",
+      "city": "Longmont",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 7.0,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:51.523438+00:00"
+    },
     {
       "store_number": "033873",
       "store_name": "Taco Bell",
@@ -1553,7 +1562,7 @@
   ],
   "activity_summary": {
     "added": 114,
-    "removed": 11,
+    "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2176,15 +2185,6 @@
       7.0,
       "Taco Bell",
       "Denver",
-      "CO"
-    ],
-    [
-      "033848",
-      40.14482592340326,
-      -105.12669324874872,
-      7.0,
-      "Taco Bell",
-      "Longmont",
       "CO"
     ],
     [

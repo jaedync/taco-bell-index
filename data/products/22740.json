@@ -15,14 +15,14 @@
   "peak_30d_pct": 92.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.997009+00:00",
-  "availability_pct": 98.7,
+  "availability_pct": 98.6,
   "price_stats": {
     "avg": 0.97,
     "min": 0.3,
     "max": 2.19,
     "median": 1.0,
     "std_dev": 0.22,
-    "store_count": 7626
+    "store_count": 7624
   },
   "histogram": [
     {
@@ -59,11 +59,11 @@
     },
     {
       "bucket": "$0.65",
-      "count": 51
+      "count": 50
     },
     {
       "bucket": "$0.69",
-      "count": 22
+      "count": 21
     },
     {
       "bucket": "$0.70",
@@ -83,7 +83,7 @@
     },
     {
       "bucket": "$0.85",
-      "count": 783
+      "count": 782
     },
     {
       "bucket": "$0.86",
@@ -107,11 +107,11 @@
     },
     {
       "bucket": "$0.99",
-      "count": 364
+      "count": 365
     },
     {
       "bucket": "$1.00",
-      "count": 2441
+      "count": 2440
     },
     {
       "bucket": "$1.04",
@@ -203,7 +203,7 @@
     },
     {
       "bucket": "$1.50",
-      "count": 54
+      "count": 55
     },
     {
       "bucket": "$1.75",
@@ -256,7 +256,7 @@
     {
       "state": "OR",
       "avg_price": 1.12,
-      "store_count": 120
+      "store_count": 121
     },
     {
       "state": "TN",
@@ -321,12 +321,12 @@
     {
       "state": "WA",
       "avg_price": 1.02,
-      "store_count": 137
+      "store_count": 138
     },
     {
       "state": "MI",
       "avg_price": 1.01,
-      "store_count": 343
+      "store_count": 342
     },
     {
       "state": "RI",
@@ -371,7 +371,7 @@
     {
       "state": "IN",
       "avg_price": 0.96,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "OH",
@@ -421,7 +421,7 @@
     {
       "state": "TX",
       "avg_price": 0.83,
-      "store_count": 703
+      "store_count": 702
     },
     {
       "state": "UT",
@@ -456,7 +456,7 @@
     {
       "state": "ND",
       "avg_price": 0.63,
-      "store_count": 12
+      "store_count": 11
     },
     {
       "state": "WY",
@@ -637,6 +637,66 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028908",
+      "store_name": "Taco Bell",
+      "city": "Evansville",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.85,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:20.562758+00:00"
+    },
+    {
+      "store_number": "037578",
+      "store_name": "Taco Bell",
+      "city": "Grand Forks",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 0.65,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:08.979469+00:00"
+    },
+    {
+      "store_number": "031662",
+      "store_name": "Taco Bell",
+      "city": "Grants Pass",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.5,
+      "observed_at": "2026-09-07T20:40:58.817931+00:00"
+    },
+    {
+      "store_number": "031343",
+      "store_name": "Taco Bell",
+      "city": "Oak Harbor",
+      "state": "WA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.99,
+      "observed_at": "2026-09-07T20:40:31.515015+00:00"
+    },
+    {
+      "store_number": "001651",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:37.037962+00:00"
+    },
+    {
+      "store_number": "041807",
+      "store_name": "Taco Bell",
+      "city": "Beeville",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.69,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:32.138067+00:00"
+    },
     {
       "store_number": "043063",
       "store_name": "Taco Bell",
@@ -18669,8 +18729,8 @@
     }
   ],
   "activity_summary": {
-    "added": 802,
-    "removed": 762,
+    "added": 804,
+    "removed": 766,
     "price_changed": 239,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24773,15 +24833,6 @@
       "ND"
     ],
     [
-      "037578",
-      47.90883353888597,
-      -97.04455323055299,
-      0.65,
-      "Taco Bell",
-      "Grand Forks",
-      "ND"
-    ],
-    [
       "031979",
       33.760314168624106,
       -117.85227354840717,
@@ -24852,15 +24903,6 @@
       "Taco Bell",
       "Minot",
       "ND"
-    ],
-    [
-      "041807",
-      28.421700782164162,
-      -97.75636780122339,
-      0.69,
-      "Taco Bell",
-      "Beeville",
-      "TX"
     ],
     [
       "035329",
@@ -38687,15 +38729,6 @@
       "MO"
     ],
     [
-      "028908",
-      37.9860075326598,
-      -87.49214820566522,
-      0.85,
-      "Taco Bell",
-      "Evansville",
-      "IN"
-    ],
-    [
       "029684",
       38.69140246493201,
       -89.98514663062222,
@@ -46047,6 +46080,15 @@
       "Taco Bell",
       "Cairo",
       "GA"
+    ],
+    [
+      "031343",
+      48.30445809943917,
+      -122.64523525537697,
+      0.99,
+      "Taco Bell",
+      "Oak Harbor",
+      "WA"
     ],
     [
       "031549",
@@ -67415,15 +67457,6 @@
       "MI"
     ],
     [
-      "001651",
-      42.25422907874331,
-      -84.4236646592617,
-      1.0,
-      "Taco Bell",
-      "Jackson",
-      "MI"
-    ],
-    [
       "039688",
       43.483094435794754,
       -83.4035168638924,
@@ -86942,6 +86975,15 @@
       1.5,
       "Taco Bell",
       "Roseburg",
+      "OR"
+    ],
+    [
+      "031662",
+      42.42028817130417,
+      -123.35189368034948,
+      1.5,
+      "Taco Bell",
+      "Grants Pass",
       "OR"
     ],
     [

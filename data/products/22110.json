@@ -14,14 +14,14 @@
   "peak_30d_pct": 93.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 100.0,
+  "availability_pct": 99.9,
   "price_stats": {
     "avg": 2.04,
     "min": 0.99,
     "max": 5.79,
     "median": 1.99,
     "std_dev": 0.21,
-    "store_count": 7728
+    "store_count": 7725
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$1.69",
-      "count": 185
+      "count": 186
     },
     {
       "bucket": "$1.75",
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 4289
+      "count": 4285
     },
     {
       "bucket": "$2.00",
@@ -306,7 +306,7 @@
     {
       "state": "FL",
       "avg_price": 2.0,
-      "store_count": 453
+      "store_count": 451
     },
     {
       "state": "VA",
@@ -316,7 +316,7 @@
     {
       "state": "MO",
       "avg_price": 2.0,
-      "store_count": 228
+      "store_count": 227
     },
     {
       "state": "SC",
@@ -371,7 +371,7 @@
     {
       "state": "WI",
       "avg_price": 1.95,
-      "store_count": 142
+      "store_count": 143
     },
     {
       "state": "MS",
@@ -391,7 +391,7 @@
     {
       "state": "KY",
       "avg_price": 1.92,
-      "store_count": 161
+      "store_count": 160
     },
     {
       "state": "LA",
@@ -592,6 +592,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041839",
+      "store_name": "Taco Bell",
+      "city": "Crawfordville",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:23.590380+00:00"
+    },
+    {
+      "store_number": "041836",
+      "store_name": "Taco Bell",
+      "city": "Quincy",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:02.265212+00:00"
+    },
+    {
+      "store_number": "034411",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:27.005646+00:00"
+    },
+    {
+      "store_number": "040160",
+      "store_name": "Taco Bell",
+      "city": "Superior",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.69,
+      "observed_at": "2026-09-07T20:39:25.187405+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:56.910454+00:00"
+    },
     {
       "store_number": "040160",
       "store_name": "Taco Bell",
@@ -18324,8 +18374,8 @@
     }
   ],
   "activity_summary": {
-    "added": 253,
-    "removed": 194,
+    "added": 254,
+    "removed": 198,
     "price_changed": 1326,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -18666,6 +18716,15 @@
       "Taco Bell",
       "Sauk Centre",
       "MN"
+    ],
+    [
+      "040160",
+      46.696715633992035,
+      -92.10490124792814,
+      1.69,
+      "Taco Bell",
+      "Superior",
+      "WI"
     ],
     [
       "023837",
@@ -36576,15 +36635,6 @@
       "Taco Bell",
       "North Royalton",
       "OH"
-    ],
-    [
-      "042410",
-      38.19671929207219,
-      -85.78242777036012,
-      1.99,
-      "Taco Bell",
-      "Louisville",
-      "KY"
     ],
     [
       "042231",
@@ -62489,15 +62539,6 @@
       "AZ"
     ],
     [
-      "041836",
-      30.58692456525793,
-      -84.59584338998732,
-      1.99,
-      "Taco Bell",
-      "Quincy",
-      "FL"
-    ],
-    [
       "002821",
       40.50989448048966,
       -88.95701685551103,
@@ -68888,15 +68929,6 @@
       "FL"
     ],
     [
-      "041839",
-      30.209777100072273,
-      -84.36565016453422,
-      1.99,
-      "Taco Bell",
-      "Crawfordville",
-      "FL"
-    ],
-    [
       "032208",
       40.05600377829216,
       -78.51077195739651,
@@ -70083,15 +70115,6 @@
       "Taco Bell",
       "Newcomerstown",
       "OH"
-    ],
-    [
-      "034411",
-      39.26627528508462,
-      -94.57636316122262,
-      1.99,
-      "Taco Bell",
-      "Kansas City",
-      "MO"
     ],
     [
       "031435",

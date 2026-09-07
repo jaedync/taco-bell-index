@@ -24,12 +24,12 @@
     "max": 5.49,
     "median": 4.99,
     "std_dev": 0.19,
-    "store_count": 105
+    "store_count": 106
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 86
+      "count": 87
     },
     {
       "bucket": "$5.49",
@@ -49,8 +49,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 5.1,
-      "store_count": 19
+      "avg_price": 5.09,
+      "store_count": 20
     },
     {
       "state": "MI",
@@ -116,6 +116,13 @@
       "price": 4.99
     },
     {
+      "store_number": "036302",
+      "name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "OH",
+      "price": 4.99
+    },
+    {
       "store_number": "035098",
       "name": "Taco Bell",
       "city": "Warren",
@@ -135,13 +142,6 @@
       "city": "Hillsdale",
       "state": "MI",
       "price": 4.99
-    },
-    {
-      "store_number": "042648",
-      "name": "Taco Bell",
-      "city": "Reed City",
-      "state": "MI",
-      "price": 4.99
     }
   ],
   "min_price_store_numbers": [
@@ -151,6 +151,7 @@
     "041745",
     "042164",
     "034276",
+    "036302",
     "035098",
     "035304",
     "037166",
@@ -305,6 +306,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036302",
+      "store_name": "Taco Bell",
+      "city": "Brunswick",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-07T20:38:44.432653+00:00"
+    },
     {
       "store_number": "033075",
       "store_name": "Taco Bell",
@@ -157287,7 +157298,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7902,
+    "added": 7903,
     "removed": 7796,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -157350,6 +157361,15 @@
       "Taco Bell",
       "Sandusky",
       "MI"
+    ],
+    [
+      "036302",
+      41.2266507,
+      -81.84142349999999,
+      4.99,
+      "Taco Bell",
+      "Brunswick",
+      "OH"
     ],
     [
       "035098",

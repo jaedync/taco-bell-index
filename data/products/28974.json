@@ -16,17 +16,17 @@
   "first_seen_at": "2026-08-20T21:40:36.903880+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 5.89,
+    "avg": 5.9,
     "min": 5.49,
     "max": 7.29,
     "median": 5.99,
     "std_dev": 0.37,
-    "store_count": 31
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$5.49",
-      "count": 10
+      "count": 9
     },
     {
       "bucket": "$5.99",
@@ -127,11 +127,11 @@
       "price": 5.49
     },
     {
-      "store_number": "002649",
+      "store_number": "029536",
       "name": "Taco Bell / KFC",
-      "city": "Charleston",
-      "state": "SC",
-      "price": 5.49
+      "city": "Miami",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
@@ -143,8 +143,7 @@
     "003881",
     "028153",
     "003758",
-    "024033",
-    "002649"
+    "024033"
   ],
   "priciest_stores": [
     {
@@ -219,6 +218,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "002649",
+      "store_name": "Taco Bell / KFC",
+      "city": "Charleston",
+      "state": "SC",
+      "change_type": "item_removed",
+      "old_price": 5.49,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:47.070832+00:00"
+    },
     {
       "store_number": "002649",
       "store_name": "Taco Bell / KFC",
@@ -1172,7 +1181,7 @@
   ],
   "activity_summary": {
     "added": 63,
-    "removed": 32,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1261,15 +1270,6 @@
       "Taco Bell",
       "Clare",
       "MI"
-    ],
-    [
-      "002649",
-      32.787389264873106,
-      -79.95377679524928,
-      5.49,
-      "Taco Bell / KFC",
-      "Charleston",
-      "SC"
     ],
     [
       "029536",
@@ -1462,6 +1462,6 @@
     ]
   ],
   "retired_at": "2026-08-21T20:54:24.064145+00:00",
-  "last_seen_date": "2026-09-06",
+  "last_seen_date": "2026-09-07",
   "peak_availability_pct": 0.4
 }

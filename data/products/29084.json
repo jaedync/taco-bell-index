@@ -19,13 +19,13 @@
     "min": 5.99,
     "max": 6.99,
     "median": 5.99,
-    "std_dev": 0.14,
-    "store_count": 50
+    "std_dev": 0.15,
+    "store_count": 47
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 49
+      "count": 46
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "FL",
       "avg_price": 6.01,
-      "store_count": 50
+      "store_count": 47
     }
   ],
   "nutrition": {
@@ -65,20 +65,6 @@
       "store_number": "034859",
       "name": "Taco Bell Cantina Cantina",
       "city": "Orlando",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
-      "store_number": "041844",
-      "name": "Taco Bell",
-      "city": "Winter Springs",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
-      "store_number": "039586",
-      "name": "Taco Bell",
-      "city": "Kissimmee",
       "state": "FL",
       "price": 5.99
     },
@@ -123,13 +109,25 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "036232",
+      "name": "Taco Bell",
+      "city": "Apopka",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "042977",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
     "034859",
-    "041844",
-    "039586",
     "042753",
     "033927",
     "034809",
@@ -139,7 +137,6 @@
     "036232",
     "042977",
     "042941",
-    "022592",
     "027983",
     "027981",
     "027978",
@@ -161,8 +158,8 @@
     "023289",
     "027987",
     "021472",
-    "027985",
     "022593",
+    "022591",
     "042942",
     "023304",
     "004435",
@@ -249,6 +246,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022591",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-07T20:41:05.534435+00:00"
+    },
+    {
+      "store_number": "027985",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:58.326570+00:00"
+    },
+    {
+      "store_number": "022592",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:41.329214+00:00"
+    },
+    {
+      "store_number": "039586",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:39.115427+00:00"
+    },
+    {
+      "store_number": "041844",
+      "store_name": "Taco Bell",
+      "city": "Winter Springs",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:34.432535+00:00"
+    },
     {
       "store_number": "032959",
       "store_name": "Taco Bell",
@@ -3061,8 +3108,8 @@
     }
   ],
   "activity_summary": {
-    "added": 165,
-    "removed": 116,
+    "added": 166,
+    "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3087,24 +3134,6 @@
       5.99,
       "Taco Bell Cantina Cantina",
       "Orlando",
-      "FL"
-    ],
-    [
-      "041844",
-      28.69860316595981,
-      -81.30198314871296,
-      5.99,
-      "Taco Bell",
-      "Winter Springs",
-      "FL"
-    ],
-    [
-      "039586",
-      28.160147167630527,
-      -81.44070410952173,
-      5.99,
-      "Taco Bell",
-      "Kissimmee",
       "FL"
     ],
     [
@@ -3186,15 +3215,6 @@
       5.99,
       "Taco Bell",
       "Ocala",
-      "FL"
-    ],
-    [
-      "022592",
-      29.218208788850156,
-      -81.04734418680891,
-      5.99,
-      "Taco Bell",
-      "Daytona Beach",
       "FL"
     ],
     [
@@ -3387,21 +3407,21 @@
       "FL"
     ],
     [
-      "027985",
-      28.560556364542418,
-      -81.13136172294617,
-      5.99,
-      "Taco Bell",
-      "Orlando",
-      "FL"
-    ],
-    [
       "022593",
       29.055431082490866,
       -81.30400560334243,
       5.99,
       "Taco Bell",
       "Deland",
+      "FL"
+    ],
+    [
+      "022591",
+      29.171333409946573,
+      -81.03924379968414,
+      5.99,
+      "Taco Bell",
+      "Daytona Beach",
       "FL"
     ],
     [

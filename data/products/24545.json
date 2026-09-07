@@ -22,13 +22,13 @@
     "min": 5.99,
     "max": 11.99,
     "median": 5.99,
-    "std_dev": 1.17,
-    "store_count": 123
+    "std_dev": 1.19,
+    "store_count": 120
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 90
+      "count": 88
     },
     {
       "bucket": "$6.49",
@@ -44,7 +44,7 @@
     },
     {
       "bucket": "$7.19",
-      "count": 6
+      "count": 5
     },
     {
       "bucket": "$7.39",
@@ -85,17 +85,12 @@
   ],
   "state_prices": [
     {
-      "state": "IL",
-      "avg_price": 8.39,
-      "store_count": 5
-    },
-    {
       "state": "NY",
-      "avg_price": 8.01,
-      "store_count": 22
+      "avg_price": 8.05,
+      "store_count": 21
     },
     {
-      "state": "MI",
+      "state": "OH",
       "avg_price": 5.99,
       "store_count": 27
     },
@@ -105,7 +100,7 @@
       "store_count": 27
     },
     {
-      "state": "OH",
+      "state": "MI",
       "avg_price": 5.99,
       "store_count": 26
     }
@@ -214,7 +209,6 @@
     "029978",
     "027886",
     "027042",
-    "024745",
     "037841",
     "001590",
     "003190",
@@ -240,6 +234,7 @@
     "032997",
     "029417",
     "036197",
+    "042656",
     "028861",
     "019290",
     "032091",
@@ -252,15 +247,14 @@
     "028227",
     "026911",
     "033785",
-    "036185",
     "032090",
     "003302",
+    "033787",
     "028890",
     "035398",
     "033767",
     "028870",
     "033786",
-    "030831",
     "026734",
     "032350",
     "032489",
@@ -276,7 +270,6 @@
     "042654",
     "033043",
     "033002",
-    "028893",
     "020219",
     "031070",
     "028908",
@@ -361,6 +354,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028893",
+      "store_name": "Taco Bell",
+      "city": "Fishers",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:14.570420+00:00"
+    },
+    {
+      "store_number": "030831",
+      "store_name": "Taco Bell",
+      "city": "Independence",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:51.202229+00:00"
+    },
+    {
+      "store_number": "033787",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-07T20:40:36.542724+00:00"
+    },
+    {
+      "store_number": "036185",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:27.989922+00:00"
+    },
+    {
+      "store_number": "042656",
+      "store_name": "Taco Bell",
+      "city": "Decatur",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-07T20:39:49.364516+00:00"
+    },
+    {
+      "store_number": "024745",
+      "store_name": "Taco Bell",
+      "city": "Belleville",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:43.704228+00:00"
+    },
+    {
+      "store_number": "035069",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Bronx",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 7.19,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:41.427852+00:00"
+    },
     {
       "store_number": "026911",
       "store_name": "Taco Bell",
@@ -29923,8 +29986,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1507,
-    "removed": 1436,
+    "added": 1509,
+    "removed": 1441,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30085,15 +30148,6 @@
       "Taco Bell",
       "Vermilion",
       "OH"
-    ],
-    [
-      "024745",
-      42.21337151111523,
-      -83.5428901715295,
-      5.99,
-      "Taco Bell",
-      "Belleville",
-      "MI"
     ],
     [
       "037841",
@@ -30321,6 +30375,15 @@
       "IL"
     ],
     [
+      "042656",
+      40.83539869065111,
+      -84.93818505674432,
+      5.99,
+      "Taco Bell",
+      "Decatur",
+      "IN"
+    ],
+    [
       "028861",
       39.80032567328473,
       -86.26901320651086,
@@ -30429,15 +30492,6 @@
       "OH"
     ],
     [
-      "036185",
-      41.99703140096711,
-      -87.71655593814103,
-      5.99,
-      "Taco Bell",
-      "Chicago",
-      "IL"
-    ],
-    [
       "032090",
       41.1696539825518,
       -85.49322286251481,
@@ -30454,6 +30508,15 @@
       "Taco Bell",
       "Newport",
       "KY"
+    ],
+    [
+      "033787",
+      39.96417840866663,
+      -83.7850115150377,
+      5.99,
+      "Taco Bell",
+      "Springfield",
+      "OH"
     ],
     [
       "028890",
@@ -30499,15 +30562,6 @@
       "Taco Bell",
       "Xenia",
       "OH"
-    ],
-    [
-      "030831",
-      38.92971412514728,
-      -84.54335957460863,
-      5.99,
-      "Taco Bell",
-      "Independence",
-      "KY"
     ],
     [
       "026734",
@@ -30643,15 +30697,6 @@
       "Taco Bell",
       "Holland",
       "MI"
-    ],
-    [
-      "028893",
-      39.95391533947413,
-      -86.04067158219901,
-      5.99,
-      "Taco Bell",
-      "Fishers",
-      "IN"
     ],
     [
       "020219",
@@ -30804,15 +30849,6 @@
       7.19,
       "Taco Bell Cantina",
       "Brooklyn",
-      "NY"
-    ],
-    [
-      "035069",
-      40.85349737814087,
-      -73.90731431902589,
-      7.19,
-      "Taco Bell Cantina Cantina",
-      "Bronx",
       "NY"
     ],
     [

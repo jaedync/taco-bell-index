@@ -18,12 +18,12 @@
   "first_seen_at": "2026-06-18T21:25:22.257043+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 5.65,
+    "avg": 5.62,
     "min": 5.19,
     "max": 5.79,
     "median": 5.79,
-    "std_dev": 0.21,
-    "store_count": 11
+    "std_dev": 0.22,
+    "store_count": 9
   },
   "histogram": [
     {
@@ -36,14 +36,14 @@
     },
     {
       "bucket": "$5.79",
-      "count": 7
+      "count": 5
     }
   ],
   "state_prices": [
     {
       "state": "CA",
       "avg_price": 5.79,
-      "store_count": 7
+      "store_count": 5
     }
   ],
   "nutrition": {
@@ -90,13 +90,6 @@
       "price": 5.49
     },
     {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
-      "state": "CA",
-      "price": 5.79
-    },
-    {
       "store_number": "039804",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Orange",
@@ -137,13 +130,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "039841",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Riverside",
-      "state": "CA",
-      "price": 5.79
-    },
-    {
       "store_number": "039851",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Lake Forest",
@@ -179,13 +165,6 @@
       "price": 5.79
     },
     {
-      "store_number": "039811",
-      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "city": "Palmdale",
-      "state": "CA",
-      "price": 5.79
-    },
-    {
       "store_number": "027489",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
       "city": "Mesquite",
@@ -205,9 +184,36 @@
       "city": "Watauga",
       "state": "TX",
       "price": 5.49
+    },
+    {
+      "store_number": "019252",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Spring",
+      "state": "TX",
+      "price": 5.19
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039841",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Riverside",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:04.892161+00:00"
+    },
+    {
+      "store_number": "039811",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Palmdale",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 5.79,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:41.465155+00:00"
+    },
     {
       "store_number": "002689",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -941,7 +947,7 @@
   ],
   "activity_summary": {
     "added": 42,
-    "removed": 31,
+    "removed": 33,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -1000,15 +1006,6 @@
       "TX"
     ],
     [
-      "039811",
-      34.60209988736434,
-      -118.14504776896683,
-      5.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Palmdale",
-      "CA"
-    ],
-    [
       "039804",
       33.78127193927385,
       -117.86784589290619,
@@ -1051,15 +1048,6 @@
       5.79,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Lake Forest",
-      "CA"
-    ],
-    [
-      "039841",
-      33.97529500533722,
-      -117.34255380933973,
-      5.79,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Riverside",
       "CA"
     ]
   ],

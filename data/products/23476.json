@@ -158,7 +158,7 @@
     {
       "state": "NY",
       "avg_price": 0.28,
-      "store_count": 254
+      "store_count": 253
     },
     {
       "state": "OR",
@@ -321,6 +321,11 @@
       "store_count": 12
     },
     {
+      "state": "ND",
+      "avg_price": 0.2,
+      "store_count": 12
+    },
+    {
       "state": "WY",
       "avg_price": 0.2,
       "store_count": 11
@@ -344,11 +349,6 @@
       "state": "OK",
       "avg_price": 0.2,
       "store_count": 128
-    },
-    {
-      "state": "ND",
-      "avg_price": 0.2,
-      "store_count": 11
     },
     {
       "state": "MS",
@@ -533,6 +533,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041883",
+      "store_name": "Taco Bell",
+      "city": "Williston",
+      "state": "ND",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.2,
+      "observed_at": "2026-09-07T20:38:57.094820+00:00"
+    },
+    {
+      "store_number": "035416",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "New York",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.2,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:41.656812+00:00"
+    },
     {
       "store_number": "035456",
       "store_name": "Taco Bell Cantina Cantina",
@@ -14545,8 +14565,8 @@
     }
   ],
   "activity_summary": {
-    "added": 587,
-    "removed": 557,
+    "added": 588,
+    "removed": 558,
     "price_changed": 257,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -18201,15 +18221,6 @@
       "AR"
     ],
     [
-      "035416",
-      40.86429248720709,
-      -73.92606473960909,
-      0.2,
-      "Taco Bell Cantina Cantina",
-      "New York",
-      "NY"
-    ],
-    [
       "036000",
       34.076910339390565,
       -98.55837532831053,
@@ -20836,6 +20847,15 @@
       "Taco Bell",
       "Jasper",
       "AL"
+    ],
+    [
+      "041883",
+      48.173424515469144,
+      -103.62728089416856,
+      0.2,
+      "Taco Bell",
+      "Williston",
+      "ND"
     ],
     [
       "042246",

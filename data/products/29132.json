@@ -21,7 +21,7 @@
     "max": 13.99,
     "median": 8.29,
     "std_dev": 0.6,
-    "store_count": 7598
+    "store_count": 7594
   },
   "histogram": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 2062
+      "count": 2061
     },
     {
       "bucket": "$8.09",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$8.19",
-      "count": 1001
+      "count": 1000
     },
     {
       "bucket": "$8.29",
@@ -130,7 +130,7 @@
     },
     {
       "bucket": "$8.79",
-      "count": 631
+      "count": 630
     },
     {
       "bucket": "$8.89",
@@ -142,11 +142,11 @@
     },
     {
       "bucket": "$8.95",
-      "count": 17
+      "count": 16
     },
     {
       "bucket": "$8.99",
-      "count": 1092
+      "count": 1091
     },
     {
       "bucket": "$9.00",
@@ -206,7 +206,7 @@
     },
     {
       "bucket": "$9.89",
-      "count": 52
+      "count": 53
     },
     {
       "bucket": "$9.99",
@@ -279,7 +279,7 @@
     {
       "state": "NY",
       "avg_price": 9.17,
-      "store_count": 250
+      "store_count": 249
     },
     {
       "state": "IA",
@@ -323,8 +323,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 8.85,
-      "store_count": 344
+      "avg_price": 8.86,
+      "store_count": 343
     },
     {
       "state": "NJ",
@@ -334,7 +334,7 @@
     {
       "state": "IL",
       "avg_price": 8.72,
-      "store_count": 279
+      "store_count": 280
     },
     {
       "state": "FL",
@@ -344,7 +344,7 @@
     {
       "state": "CA",
       "avg_price": 8.67,
-      "store_count": 825
+      "store_count": 824
     },
     {
       "state": "UT",
@@ -419,7 +419,7 @@
     {
       "state": "GA",
       "avg_price": 8.32,
-      "store_count": 256
+      "store_count": 255
     },
     {
       "state": "NC",
@@ -439,7 +439,7 @@
     {
       "state": "NV",
       "avg_price": 8.25,
-      "store_count": 84
+      "store_count": 83
     },
     {
       "state": "MO",
@@ -666,6 +666,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027900",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.89,
+      "observed_at": "2026-09-07T20:40:59.219148+00:00"
+    },
+    {
+      "store_number": "004399",
+      "store_name": "Taco Bell",
+      "city": "Sault Sainte Marie",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 7.59,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:38.485602+00:00"
+    },
+    {
+      "store_number": "033787",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 7.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:36.542724+00:00"
+    },
+    {
+      "store_number": "030763",
+      "store_name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 8.79,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:27.694545+00:00"
+    },
+    {
+      "store_number": "041229",
+      "store_name": "Taco Bell",
+      "city": "Powder Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 8.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:22.659242+00:00"
+    },
+    {
+      "store_number": "031904",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 8.19,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:39.065464+00:00"
+    },
+    {
+      "store_number": "022262",
+      "store_name": "Taco Bell",
+      "city": "Uhrichsville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.59,
+      "observed_at": "2026-09-07T20:39:10.390219+00:00"
+    },
+    {
+      "store_number": "036795",
+      "store_name": "Taco Bell Cantina Cantina",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 8.95,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:38:53.568696+00:00"
+    },
     {
       "store_number": "030271",
       "store_name": "Taco Bell",
@@ -65438,8 +65518,8 @@
     }
   ],
   "activity_summary": {
-    "added": 2020,
-    "removed": 1985,
+    "added": 2022,
+    "removed": 1991,
     "price_changed": 2472,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -68059,15 +68139,6 @@
       "MI"
     ],
     [
-      "004399",
-      46.474895137706675,
-      -84.35584594310967,
-      7.59,
-      "Taco Bell",
-      "Sault Sainte Marie",
-      "MI"
-    ],
-    [
       "028153",
       43.29202104434658,
       -84.58605750473907,
@@ -68111,6 +68182,15 @@
       "Taco Bell",
       "McAllen",
       "TX"
+    ],
+    [
+      "022262",
+      40.40994355707365,
+      -81.34797289967543,
+      7.59,
+      "Taco Bell",
+      "Uhrichsville",
+      "OH"
     ],
     [
       "032105",
@@ -79732,15 +79812,6 @@
       "MA"
     ],
     [
-      "033787",
-      39.96417840866663,
-      -83.7850115150377,
-      7.99,
-      "Taco Bell",
-      "Springfield",
-      "OH"
-    ],
-    [
       "034589",
       32.072964817149746,
       -96.44364615305243,
@@ -91232,15 +91303,6 @@
       "Taco Bell",
       "Citrus Heights",
       "CA"
-    ],
-    [
-      "031904",
-      36.143177213109794,
-      -115.25935468962416,
-      8.19,
-      "Taco Bell",
-      "Las Vegas",
-      "NV"
     ],
     [
       "042960",
@@ -114526,15 +114588,6 @@
       "FL"
     ],
     [
-      "030763",
-      37.79375041784199,
-      -122.2011595442973,
-      8.79,
-      "Taco Bell",
-      "Oakland",
-      "CA"
-    ],
-    [
       "036185",
       41.99703140096711,
       -87.71655593814103,
@@ -118187,15 +118240,6 @@
       "Taco Bell",
       "Haskell",
       "NJ"
-    ],
-    [
-      "036795",
-      40.57579838830771,
-      -73.97948212062366,
-      8.95,
-      "Taco Bell Cantina Cantina",
-      "Brooklyn",
-      "NY"
     ],
     [
       "037051",
@@ -127603,15 +127647,6 @@
       "OH"
     ],
     [
-      "041229",
-      33.85923288371655,
-      -84.67192824394984,
-      8.99,
-      "Taco Bell",
-      "Powder Springs",
-      "GA"
-    ],
-    [
       "030662",
       41.523892892841296,
       -82.8568042722327,
@@ -132424,6 +132459,15 @@
       9.89,
       "Taco Bell",
       "Morris",
+      "IL"
+    ],
+    [
+      "027900",
+      41.721495915090145,
+      -87.66450754836114,
+      9.89,
+      "Taco Bell",
+      "Chicago",
       "IL"
     ],
     [

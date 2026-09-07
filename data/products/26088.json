@@ -23,12 +23,12 @@
     "max": 2.79,
     "median": 2.79,
     "std_dev": 0.0,
-    "store_count": 93
+    "store_count": 95
   },
   "histogram": [
     {
       "bucket": "$2.79",
-      "count": 93
+      "count": 95
     }
   ],
   "state_prices": [
@@ -40,7 +40,7 @@
     {
       "state": "OH",
       "avg_price": 2.79,
-      "store_count": 22
+      "store_count": 25
     },
     {
       "state": "MI",
@@ -157,6 +157,7 @@
     "020465",
     "001591",
     "030255",
+    "003804",
     "005228",
     "040536",
     "040006",
@@ -183,9 +184,11 @@
     "031488",
     "001813",
     "042639",
+    "033784",
     "019752",
     "033304",
     "033650",
+    "032033",
     "033785",
     "029976",
     "023270",
@@ -218,7 +221,6 @@
     "035403",
     "028908",
     "040445",
-    "040385",
     "032045"
   ],
   "priciest_stores": [
@@ -227,13 +229,6 @@
       "name": "Taco Bell",
       "city": "Toledo",
       "state": "OH",
-      "price": 2.79
-    },
-    {
-      "store_number": "040385",
-      "name": "Taco Bell",
-      "city": "Bellevue",
-      "state": "KY",
       "price": 2.79
     },
     {
@@ -291,9 +286,56 @@
       "city": "Holland",
       "state": "MI",
       "price": 2.79
+    },
+    {
+      "store_number": "032105",
+      "name": "Taco Bell",
+      "city": "Dowagiac",
+      "state": "MI",
+      "price": 2.79
     }
   ],
   "price_changes": [
+    {
+      "store_number": "040385",
+      "store_name": "Taco Bell",
+      "city": "Bellevue",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 2.79,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:41:23.203712+00:00"
+    },
+    {
+      "store_number": "032033",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-07T20:40:24.470924+00:00"
+    },
+    {
+      "store_number": "033784",
+      "store_name": "Taco Bell",
+      "city": "Dublin",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-07T20:40:11.668319+00:00"
+    },
+    {
+      "store_number": "003804",
+      "store_name": "Taco Bell",
+      "city": "Macedonia",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.79,
+      "observed_at": "2026-09-07T20:39:21.124076+00:00"
+    },
     {
       "store_number": "033075",
       "store_name": "Taco Bell",
@@ -27856,8 +27898,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1425,
-    "removed": 1331,
+    "added": 1428,
+    "removed": 1332,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -28137,6 +28179,15 @@
       "OH"
     ],
     [
+      "003804",
+      41.31428929658778,
+      -81.51877368986504,
+      2.79,
+      "Taco Bell",
+      "Macedonia",
+      "OH"
+    ],
+    [
       "005228",
       42.28927944668305,
       -83.84088374210023,
@@ -28371,6 +28422,15 @@
       "MI"
     ],
     [
+      "033784",
+      40.07664500403639,
+      -83.12635659123771,
+      2.79,
+      "Taco Bell",
+      "Dublin",
+      "OH"
+    ],
+    [
       "019752",
       41.50679756775669,
       -87.31513691468405,
@@ -28396,6 +28456,15 @@
       "Taco Bell",
       "Florence",
       "KY"
+    ],
+    [
+      "032033",
+      39.14676052592771,
+      -84.40517485141754,
+      2.79,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
     ],
     [
       "033785",
@@ -28684,15 +28753,6 @@
       "Taco Bell",
       "Berea",
       "OH"
-    ],
-    [
-      "040385",
-      39.09897050211629,
-      -84.48076583271337,
-      2.79,
-      "Taco Bell",
-      "Bellevue",
-      "KY"
     ],
     [
       "032045",

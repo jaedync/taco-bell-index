@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 19
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 19
+      "count": 18
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 19
+      "store_count": 18
     }
   ],
   "nutrition": {
@@ -90,13 +90,6 @@
       "price": 10.99
     },
     {
-      "store_number": "022592",
-      "name": "Taco Bell",
-      "city": "Daytona Beach",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "027983",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -123,6 +116,13 @@
       "city": "Ormond Beach",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "042933",
+      "name": "Taco Bell",
+      "city": "Ocala",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -131,7 +131,6 @@
     "034809",
     "036232",
     "042941",
-    "022592",
     "027983",
     "027982",
     "005646",
@@ -139,8 +138,8 @@
     "042933",
     "042914",
     "042924",
-    "027987",
     "021472",
+    "022591",
     "004435",
     "042927",
     "037822",
@@ -176,16 +175,16 @@
       "price": 10.99
     },
     {
-      "store_number": "021472",
+      "store_number": "022591",
       "name": "Taco Bell",
-      "city": "Clermont",
+      "city": "Daytona Beach",
       "state": "FL",
       "price": 10.99
     },
     {
-      "store_number": "027987",
+      "store_number": "021472",
       "name": "Taco Bell",
-      "city": "Oviedo",
+      "city": "Clermont",
       "state": "FL",
       "price": 10.99
     },
@@ -219,6 +218,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022591",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-07T20:41:05.534435+00:00"
+    },
+    {
+      "store_number": "027987",
+      "store_name": "Taco Bell",
+      "city": "Oviedo",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:40:54.605223+00:00"
+    },
+    {
+      "store_number": "022592",
+      "store_name": "Taco Bell",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:41.329214+00:00"
+    },
     {
       "store_number": "039584",
       "store_name": "Taco Bell",
@@ -2831,8 +2860,8 @@
     }
   ],
   "activity_summary": {
-    "added": 140,
-    "removed": 121,
+    "added": 141,
+    "removed": 123,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2918,15 +2947,6 @@
       "FL"
     ],
     [
-      "022592",
-      29.218208788850156,
-      -81.04734418680891,
-      10.99,
-      "Taco Bell",
-      "Daytona Beach",
-      "FL"
-    ],
-    [
       "027983",
       28.608677522862287,
       -81.39008417441511,
@@ -2990,21 +3010,21 @@
       "FL"
     ],
     [
-      "027987",
-      28.657739479407898,
-      -81.17707944944408,
-      10.99,
-      "Taco Bell",
-      "Oviedo",
-      "FL"
-    ],
-    [
       "021472",
       28.547364532355125,
       -81.72223337000105,
       10.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "022591",
+      29.171333409946573,
+      -81.03924379968414,
+      10.99,
+      "Taco Bell",
+      "Daytona Beach",
       "FL"
     ],
     [

@@ -12,7 +12,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 28.5,
+  "peak_30d_pct": 27.0,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-17T20:56:58.322414+00:00",
   "availability_pct": 12.4,
@@ -22,12 +22,12 @@
     "max": 3.99,
     "median": 0.89,
     "std_dev": 0.11,
-    "store_count": 962
+    "store_count": 961
   },
   "histogram": [
     {
       "bucket": "$0.89",
-      "count": 913
+      "count": 912
     },
     {
       "bucket": "$0.99",
@@ -225,7 +225,7 @@
     {
       "state": "HI",
       "avg_price": 0.89,
-      "store_count": 6
+      "store_count": 5
     },
     {
       "state": "GA",
@@ -527,7 +527,6 @@
     "037813",
     "038859",
     "038744",
-    "036776",
     "039123",
     "039532",
     "001971",
@@ -1317,6 +1316,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "036776",
+      "store_name": "Taco Bell",
+      "city": "Kahului",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-09-07T20:39:09.624649+00:00"
+    },
     {
       "store_number": "042676",
       "store_name": "Taco Bell",
@@ -150120,7 +150129,7 @@
   ],
   "activity_summary": {
     "added": 7916,
-    "removed": 6943,
+    "removed": 6944,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -151901,15 +151910,6 @@
       "Taco Bell",
       "Cypress",
       "TX"
-    ],
-    [
-      "036776",
-      20.879,
-      -156.445,
-      0.89,
-      "Taco Bell",
-      "Kahului",
-      "HI"
     ],
     [
       "039123",
