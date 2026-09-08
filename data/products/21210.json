@@ -16,19 +16,19 @@
   "peak_30d_pct": 86.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:06.945499+00:00",
-  "availability_pct": 92.5,
+  "availability_pct": 92.6,
   "price_stats": {
     "avg": 4.64,
     "min": 4.0,
     "max": 12.99,
     "median": 4.0,
     "std_dev": 1.33,
-    "store_count": 7152
+    "store_count": 7154
   },
   "histogram": [
     {
       "bucket": "$4.00",
-      "count": 5290
+      "count": 5291
     },
     {
       "bucket": "$4.19",
@@ -120,7 +120,7 @@
     },
     {
       "bucket": "$7.99",
-      "count": 541
+      "count": 542
     },
     {
       "bucket": "$8.00",
@@ -187,7 +187,7 @@
     {
       "state": "CA",
       "avg_price": 5.6,
-      "store_count": 780
+      "store_count": 781
     },
     {
       "state": "AZ",
@@ -201,8 +201,8 @@
     },
     {
       "state": "UT",
-      "avg_price": 5.07,
-      "store_count": 62
+      "avg_price": 5.05,
+      "store_count": 63
     },
     {
       "state": "SC",
@@ -5778,7 +5778,8 @@
     "035162",
     "043244",
     "033789",
-    "042676"
+    "042676",
+    "025386"
   ],
   "priciest_stores": [
     {
@@ -5853,6 +5854,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "030763",
+      "store_name": "Taco Bell",
+      "city": "Oakland",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.99,
+      "observed_at": "2026-09-08T20:37:51.950493+00:00"
+    },
+    {
+      "store_number": "025386",
+      "store_name": "Taco Bell",
+      "city": "Cedar City",
+      "state": "UT",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.0,
+      "observed_at": "2026-09-08T20:36:46.864787+00:00"
+    },
     {
       "store_number": "030763",
       "store_name": "Taco Bell",
@@ -14185,7 +14206,7 @@
     }
   ],
   "activity_summary": {
-    "added": 435,
+    "added": 437,
     "removed": 342,
     "price_changed": 56,
     "since": "2026-03-31T00:00:00+00:00"
@@ -61831,6 +61852,15 @@
       "AR"
     ],
     [
+      "025386",
+      37.68054175954488,
+      -113.0733597278595,
+      4.0,
+      "Taco Bell",
+      "Cedar City",
+      "UT"
+    ],
+    [
       "040310",
       38.82654633392733,
       -104.7287764914666,
@@ -74996,6 +75026,15 @@
       "Taco Bell",
       "Durham",
       "NC"
+    ],
+    [
+      "030763",
+      37.79375041784199,
+      -122.2011595442973,
+      7.99,
+      "Taco Bell",
+      "Oakland",
+      "CA"
     ],
     [
       "042929",

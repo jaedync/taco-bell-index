@@ -14,7 +14,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.4,
+  "peak_30d_pct": 0.3,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:42.051001+00:00",
   "availability_pct": 0.2,
@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 13
+    "store_count": 14
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 13
+      "count": 14
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 13
+      "store_count": 14
     }
   ],
   "nutrition": {
@@ -76,9 +76,23 @@
       "price": 10.99
     },
     {
+      "store_number": "039587",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "042941",
       "name": "Taco Bell",
       "city": "Ocala",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "028353",
+      "name": "Taco Bell",
+      "city": "Leesburg",
       "state": "FL",
       "price": 10.99
     },
@@ -109,34 +123,21 @@
       "city": "Ocala",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "021472",
-      "name": "Taco Bell",
-      "city": "Clermont",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "004435",
-      "name": "Taco Bell",
-      "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
     "034859",
     "034809",
     "036232",
+    "039587",
     "042941",
+    "028353",
     "027982",
     "042933",
     "042914",
     "042924",
     "021472",
     "004435",
-    "042927",
     "037822",
     "032959"
   ],
@@ -156,13 +157,6 @@
       "price": 10.99
     },
     {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
       "store_number": "004435",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -205,6 +199,13 @@
       "price": 10.99
     },
     {
+      "store_number": "028353",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "042941",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -213,6 +214,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:56.813830+00:00"
+    },
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-08T20:36:58.327988+00:00"
+    },
+    {
+      "store_number": "039587",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-08T20:35:50.594961+00:00"
+    },
     {
       "store_number": "042927",
       "store_name": "Taco Bell",
@@ -2085,8 +2116,8 @@
     }
   ],
   "activity_summary": {
-    "added": 100,
-    "removed": 87,
+    "added": 102,
+    "removed": 88,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2154,12 +2185,30 @@
       "FL"
     ],
     [
+      "039587",
+      28.39987,
+      -81.490788,
+      10.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
       "042941",
       29.116219923790815,
       -82.02579715851243,
       10.99,
       "Taco Bell",
       "Ocala",
+      "FL"
+    ],
+    [
+      "028353",
+      28.81817457980822,
+      -81.88791497494094,
+      10.99,
+      "Taco Bell",
+      "Leesburg",
       "FL"
     ],
     [
@@ -2214,15 +2263,6 @@
       10.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "042927",
-      29.07398294969833,
-      -82.07236339153496,
-      10.99,
-      "Taco Bell",
-      "Belleview",
       "FL"
     ],
     [

@@ -18,13 +18,17 @@
   "availability_pct": 5.3,
   "price_stats": {
     "avg": 1.04,
-    "min": 0.5,
+    "min": 0.35,
     "max": 1.59,
     "median": 0.95,
-    "std_dev": 0.22,
+    "std_dev": 0.23,
     "store_count": 407
   },
   "histogram": [
+    {
+      "bucket": "$0.35",
+      "count": 1
+    },
     {
       "bucket": "$0.50",
       "count": 1
@@ -55,11 +59,11 @@
     },
     {
       "bucket": "$0.90",
-      "count": 123
+      "count": 120
     },
     {
       "bucket": "$0.95",
-      "count": 44
+      "count": 45
     },
     {
       "bucket": "$0.98",
@@ -71,11 +75,11 @@
     },
     {
       "bucket": "$1.00",
-      "count": 90
+      "count": 91
     },
     {
       "bucket": "$1.10",
-      "count": 15
+      "count": 14
     },
     {
       "bucket": "$1.19",
@@ -83,7 +87,7 @@
     },
     {
       "bucket": "$1.20",
-      "count": 20
+      "count": 19
     },
     {
       "bucket": "$1.29",
@@ -91,7 +95,7 @@
     },
     {
       "bucket": "$1.49",
-      "count": 63
+      "count": 65
     },
     {
       "bucket": "$1.59",
@@ -102,11 +106,11 @@
     {
       "state": "MI",
       "avg_price": 1.19,
-      "store_count": 102
+      "store_count": 104
     },
     {
       "state": "IL",
-      "avg_price": 1.18,
+      "avg_price": 1.16,
       "store_count": 45
     },
     {
@@ -127,12 +131,12 @@
     {
       "state": "MO",
       "avg_price": 0.98,
-      "store_count": 15
+      "store_count": 13
     },
     {
       "state": "OH",
       "avg_price": 0.97,
-      "store_count": 35
+      "store_count": 36
     },
     {
       "state": "WI",
@@ -142,7 +146,7 @@
     {
       "state": "IN",
       "avg_price": 0.94,
-      "store_count": 39
+      "store_count": 38
     },
     {
       "state": "KS",
@@ -172,7 +176,7 @@
     {
       "state": "AR",
       "avg_price": 0.88,
-      "store_count": 18
+      "store_count": 17
     }
   ],
   "nutrition": {
@@ -190,6 +194,13 @@
     "serving_size_g": 56.699
   },
   "cheapest_stores": [
+    {
+      "store_number": "041885",
+      "name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "price": 0.35
+    },
     {
       "store_number": "042599",
       "name": "Taco Bell",
@@ -252,17 +263,10 @@
       "city": "West Milwaukee",
       "state": "WI",
       "price": 0.75
-    },
-    {
-      "store_number": "031989",
-      "name": "Taco Bell",
-      "city": "Mukwonago",
-      "state": "WI",
-      "price": 0.75
     }
   ],
   "min_price_store_numbers": [
-    "042599"
+    "041885"
   ],
   "priciest_stores": [
     {
@@ -271,6 +275,13 @@
       "city": "Williston",
       "state": "ND",
       "price": 1.59
+    },
+    {
+      "store_number": "023362",
+      "name": "Taco Bell",
+      "city": "Perry",
+      "state": "MI",
+      "price": 1.49
     },
     {
       "store_number": "041174",
@@ -327,16 +338,109 @@
       "city": "Bay City",
       "state": "MI",
       "price": 1.49
-    },
-    {
-      "store_number": "034299",
-      "name": "Taco Bell",
-      "city": "Lansing",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016207",
+      "store_name": "Taco Bell",
+      "city": "Clinton",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:57.020053+00:00"
+    },
+    {
+      "store_number": "023362",
+      "store_name": "Taco Bell",
+      "city": "Perry",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-09-08T20:38:04.627262+00:00"
+    },
+    {
+      "store_number": "024751",
+      "store_name": "Taco Bell",
+      "city": "Marion",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:57.318994+00:00"
+    },
+    {
+      "store_number": "000456",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 1.1,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:39.409856+00:00"
+    },
+    {
+      "store_number": "043023",
+      "store_name": "Taco Bell",
+      "city": "Hannibal",
+      "state": "MO",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:31.741650+00:00"
+    },
+    {
+      "store_number": "036198",
+      "store_name": "Taco Bell / Pizza Hut",
+      "city": "Bourbonnais",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 1.2,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:06.731715+00:00"
+    },
+    {
+      "store_number": "030678",
+      "store_name": "Taco Bell",
+      "city": "Mercer",
+      "state": "PA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-08T20:36:24.826505+00:00"
+    },
+    {
+      "store_number": "021521",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-09-08T20:36:09.502265+00:00"
+    },
+    {
+      "store_number": "029743",
+      "store_name": "Taco Bell",
+      "city": "Lorain",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.95,
+      "observed_at": "2026-09-08T20:36:07.488485+00:00"
+    },
+    {
+      "store_number": "041885",
+      "store_name": "Taco Bell",
+      "city": "Chicago",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.35,
+      "observed_at": "2026-09-08T20:35:38.708763+00:00"
+    },
     {
       "store_number": "038801",
       "store_name": "Taco Bell",
@@ -24219,8 +24323,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1303,
-    "removed": 1085,
+    "added": 1308,
+    "removed": 1090,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24229,6 +24333,15 @@
   "calories_max": 60,
   "combo_groups": [],
   "map_data": [
+    [
+      "041885",
+      41.9752703,
+      -87.7692994,
+      0.35,
+      "Taco Bell",
+      "Chicago",
+      "IL"
+    ],
     [
       "042599",
       35.738413,
@@ -25247,15 +25360,6 @@
       "MO"
     ],
     [
-      "024751",
-      40.53148357762274,
-      -85.67415167392937,
-      0.9,
-      "Taco Bell",
-      "Marion",
-      "IN"
-    ],
-    [
       "028493",
       38.14006275324775,
       -89.70296144485474,
@@ -25427,15 +25531,6 @@
       "AR"
     ],
     [
-      "016207",
-      35.59955540779433,
-      -92.46229199459776,
-      0.9,
-      "Taco Bell",
-      "Clinton",
-      "AR"
-    ],
-    [
       "041054",
       40.2853,
       -87.2344,
@@ -25452,15 +25547,6 @@
       "Taco Bell",
       "Bartlesville",
       "OK"
-    ],
-    [
-      "043023",
-      39.72125331072642,
-      -91.3926617056677,
-      0.9,
-      "Taco Bell",
-      "Hannibal",
-      "MO"
     ],
     [
       "040889",
@@ -26073,6 +26159,15 @@
       "Taco Bell",
       "Bloomington",
       "IN"
+    ],
+    [
+      "029743",
+      41.43733761298764,
+      -82.18502319884499,
+      0.95,
+      "Taco Bell",
+      "Lorain",
+      "OH"
     ],
     [
       "031450",
@@ -26696,6 +26791,15 @@
       "AL"
     ],
     [
+      "030678",
+      41.1426653797082,
+      -80.16387377680985,
+      1.0,
+      "Taco Bell",
+      "Mercer",
+      "PA"
+    ],
+    [
       "040006",
       42.740257156814764,
       -83.37902734534232,
@@ -27011,15 +27115,6 @@
       "OR"
     ],
     [
-      "000456",
-      38.94675185782623,
-      -92.33476102352142,
-      1.1,
-      "Taco Bell",
-      "Columbia",
-      "MO"
-    ],
-    [
       "032293",
       39.23451434601065,
       -84.50904879041714,
@@ -27170,15 +27265,6 @@
       1.2,
       "Taco Bell",
       "Skokie",
-      "IL"
-    ],
-    [
-      "036198",
-      41.15874989811457,
-      -87.88639877738206,
-      1.2,
-      "Taco Bell / Pizza Hut",
-      "Bourbonnais",
       "IL"
     ],
     [
@@ -27432,6 +27518,15 @@
       "Taco Bell",
       "Delphos",
       "OH"
+    ],
+    [
+      "021521",
+      42.27505747978539,
+      -83.4783241955785,
+      1.49,
+      "Taco Bell",
+      "Canton",
+      "MI"
     ],
     [
       "037169",
@@ -27884,6 +27979,15 @@
       "MI"
     ],
     [
+      "023362",
+      42.835950413677665,
+      -84.21738092602936,
+      1.49,
+      "Taco Bell",
+      "Perry",
+      "MI"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -27894,6 +27998,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-09-07",
+  "last_seen_date": "2026-09-08",
   "peak_availability_pct": 13.6
 }

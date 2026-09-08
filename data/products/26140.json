@@ -20,7 +20,7 @@
     "min": 10.19,
     "max": 12.59,
     "median": 11.19,
-    "std_dev": 0.78,
+    "std_dev": 0.77,
     "store_count": 100
   },
   "histogram": [
@@ -54,11 +54,11 @@
     },
     {
       "bucket": "$12.29",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$12.59",
-      "count": 9
+      "count": 8
     }
   ],
   "state_prices": [
@@ -168,13 +168,6 @@
   ],
   "priciest_stores": [
     {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
-      "state": "FL",
-      "price": 12.59
-    },
-    {
       "store_number": "042942",
       "name": "Taco Bell",
       "city": "Ocala",
@@ -231,6 +224,13 @@
       "price": 12.59
     },
     {
+      "store_number": "042971",
+      "name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "price": 12.29
+    },
+    {
       "store_number": "042928",
       "name": "Taco Bell",
       "city": "Palm Coast",
@@ -239,6 +239,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042971",
+      "store_name": "Taco Bell",
+      "city": "Palm Coast",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 12.29,
+      "observed_at": "2026-09-08T20:39:06.210507+00:00"
+    },
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 12.59,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:56.813830+00:00"
+    },
     {
       "store_number": "042971",
       "store_name": "Taco Bell",
@@ -4271,8 +4291,8 @@
     }
   ],
   "activity_summary": {
-    "added": 232,
-    "removed": 132,
+    "added": 233,
+    "removed": 133,
     "price_changed": 39,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -5126,6 +5146,15 @@
       "FL"
     ],
     [
+      "042971",
+      29.475060096911534,
+      -81.2211965854139,
+      12.29,
+      "Taco Bell",
+      "Palm Coast",
+      "FL"
+    ],
+    [
       "042753",
       28.63381,
       -81.32042,
@@ -5196,18 +5225,9 @@
       "Taco Bell",
       "Ocala",
       "FL"
-    ],
-    [
-      "042927",
-      29.07398294969833,
-      -82.07236339153496,
-      12.59,
-      "Taco Bell",
-      "Belleview",
-      "FL"
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-07",
+  "last_seen_date": "2026-09-08",
   "peak_availability_pct": 1.2
 }

@@ -17,33 +17,33 @@
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.75,
+    "avg": 11.76,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.44,
-    "store_count": 33
+    "std_dev": 0.43,
+    "store_count": 30
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 8
+      "count": 7
     },
     {
       "bucket": "$11.99",
-      "count": 25
+      "count": 23
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 10
+      "store_count": 8
     },
     {
       "state": "GA",
-      "avg_price": 11.64,
-      "store_count": 23
+      "avg_price": 11.67,
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -79,13 +79,6 @@
       "store_number": "042575",
       "name": "Taco Bell",
       "city": "Cartersville",
-      "state": "GA",
-      "price": 10.99
-    },
-    {
-      "store_number": "042583",
-      "name": "Taco Bell",
-      "city": "Clarkesville",
       "state": "GA",
       "price": 10.99
     },
@@ -130,13 +123,19 @@
       "city": "Fort Myers",
       "state": "FL",
       "price": 11.99
+    },
+    {
+      "store_number": "042906",
+      "name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "price": 11.99
     }
   ],
   "min_price_store_numbers": [
     "042582",
     "042584",
     "042575",
-    "042583",
     "042581",
     "042585",
     "042572",
@@ -207,14 +206,44 @@
       "price": 11.99
     },
     {
-      "store_number": "042937",
+      "store_number": "023742",
       "name": "Taco Bell",
-      "city": "Weston",
-      "state": "FL",
+      "city": "Carrollton",
+      "state": "GA",
       "price": 11.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042937",
+      "store_name": "Taco Bell",
+      "city": "Weston",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:37.077797+00:00"
+    },
+    {
+      "store_number": "042909",
+      "store_name": "Taco Bell",
+      "city": "Miami",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:58.906934+00:00"
+    },
+    {
+      "store_number": "042583",
+      "store_name": "Taco Bell",
+      "city": "Clarkesville",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:35:14.488389+00:00"
+    },
     {
       "store_number": "042577",
       "store_name": "Taco Bell",
@@ -3608,7 +3637,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 153,
+    "removed": 156,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3661,15 +3690,6 @@
       10.99,
       "Taco Bell",
       "Cartersville",
-      "GA"
-    ],
-    [
-      "042583",
-      34.60104444338766,
-      -83.51778554254794,
-      10.99,
-      "Taco Bell",
-      "Clarkesville",
       "GA"
     ],
     [
@@ -3799,15 +3819,6 @@
       "GA"
     ],
     [
-      "042909",
-      25.74976682549731,
-      -80.2461174219596,
-      11.99,
-      "Taco Bell",
-      "Miami",
-      "FL"
-    ],
-    [
       "042893",
       27.240240039501263,
       -80.27085234226433,
@@ -3842,15 +3853,6 @@
       "Taco Bell",
       "Carrollton",
       "GA"
-    ],
-    [
-      "042937",
-      26.10159423588431,
-      -80.3645662218878,
-      11.99,
-      "Taco Bell",
-      "Weston",
-      "FL"
     ],
     [
       "042945",
@@ -3935,6 +3937,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-07",
+  "last_seen_date": "2026-09-08",
   "peak_availability_pct": 1.1
 }

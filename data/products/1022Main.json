@@ -21,7 +21,7 @@
     "max": 3.39,
     "median": 3.19,
     "std_dev": 0.23,
-    "store_count": 736
+    "store_count": 735
   },
   "histogram": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 103
+      "count": 102
     },
     {
       "bucket": "$3.09",
@@ -58,11 +58,11 @@
     },
     {
       "bucket": "$3.19",
-      "count": 194
+      "count": 195
     },
     {
       "bucket": "$3.29",
-      "count": 227
+      "count": 226
     },
     {
       "bucket": "$3.39",
@@ -83,7 +83,7 @@
     {
       "state": "OK",
       "avg_price": 3.23,
-      "store_count": 118
+      "store_count": 117
     },
     {
       "state": "CA",
@@ -204,6 +204,13 @@
   ],
   "priciest_stores": [
     {
+      "store_number": "039805",
+      "name": "Taco Bell",
+      "city": "Orange",
+      "state": "CA",
+      "price": 3.39
+    },
+    {
       "store_number": "036242",
       "name": "Taco Bell",
       "city": "Sparks",
@@ -214,13 +221,6 @@
       "store_number": "030742",
       "name": "Taco Bell",
       "city": "Oakland",
-      "state": "CA",
-      "price": 3.39
-    },
-    {
-      "store_number": "030751",
-      "name": "Taco Bell",
-      "city": "Scotts Valley",
       "state": "CA",
       "price": 3.39
     },
@@ -275,6 +275,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032156",
+      "store_name": "Taco Bell",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "change_type": "item_removed",
+      "old_price": 3.29,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:55.376177+00:00"
+    },
+    {
+      "store_number": "033837",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_removed",
+      "old_price": 2.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:21.718159+00:00"
+    },
+    {
+      "store_number": "039805",
+      "store_name": "Taco Bell",
+      "city": "Orange",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.39,
+      "observed_at": "2026-09-08T20:38:15.407124+00:00"
+    },
+    {
+      "store_number": "032109",
+      "store_name": "Taco Bell",
+      "city": "Roseland",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.19,
+      "observed_at": "2026-09-08T20:38:13.847241+00:00"
+    },
+    {
+      "store_number": "030751",
+      "store_name": "Taco Bell",
+      "city": "Scotts Valley",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 3.39,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:13.056243+00:00"
+    },
+    {
+      "store_number": "042289",
+      "store_name": "Taco Bell",
+      "city": "Big Spring",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 2.69,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:11.812856+00:00"
+    },
+    {
+      "store_number": "037111",
+      "store_name": "Taco Bell",
+      "city": "Denton",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.69,
+      "observed_at": "2026-09-08T20:35:49.885561+00:00"
+    },
     {
       "store_number": "038749",
       "store_name": "Taco Bell",
@@ -11987,8 +12057,8 @@
     }
   ],
   "activity_summary": {
-    "added": 507,
-    "removed": 503,
+    "added": 510,
+    "removed": 507,
     "price_changed": 161,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -12574,6 +12644,15 @@
       "TX"
     ],
     [
+      "037111",
+      33.25664233693091,
+      -97.10876181248749,
+      2.69,
+      "Taco Bell",
+      "Denton",
+      "TX"
+    ],
+    [
       "017116",
       39.35935180179898,
       -121.68838708171434,
@@ -12616,15 +12695,6 @@
       2.69,
       "Taco Bell",
       "Midland",
-      "TX"
-    ],
-    [
-      "042289",
-      32.23083000309263,
-      -101.4704646170685,
-      2.69,
-      "Taco Bell",
-      "Big Spring",
       "TX"
     ],
     [
@@ -14707,15 +14777,6 @@
       "CO"
     ],
     [
-      "033837",
-      39.68082691452019,
-      -105.02457618713379,
-      2.99,
-      "Taco Bell",
-      "Denver",
-      "CO"
-    ],
-    [
       "022088",
       29.480563205666712,
       -95.3976809084395,
@@ -16489,6 +16550,15 @@
       "TX"
     ],
     [
+      "032109",
+      41.7181625970646,
+      -86.2509235739708,
+      3.19,
+      "Taco Bell",
+      "Roseland",
+      "IN"
+    ],
+    [
       "041134",
       35.25553019058207,
       -95.10887520652496,
@@ -18199,15 +18269,6 @@
       "OK"
     ],
     [
-      "032156",
-      35.39474414858871,
-      -97.5660236817833,
-      3.29,
-      "Taco Bell",
-      "Oklahoma City",
-      "OK"
-    ],
-    [
       "030892",
       35.512298,
       -93.822414,
@@ -18595,15 +18656,6 @@
       "NM"
     ],
     [
-      "030751",
-      37.045575267916306,
-      -122.02823464574067,
-      3.39,
-      "Taco Bell",
-      "Scotts Valley",
-      "CA"
-    ],
-    [
       "030742",
       37.76806120796381,
       -122.17905424070523,
@@ -18620,6 +18672,15 @@
       "Taco Bell",
       "Sparks",
       "NV"
+    ],
+    [
+      "039805",
+      33.8250528351026,
+      -117.8356625140259,
+      3.39,
+      "Taco Bell",
+      "Orange",
+      "CA"
     ]
   ],
   "retired_at": null,

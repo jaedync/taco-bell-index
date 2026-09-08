@@ -13,14 +13,14 @@
   "peak_30d_pct": 7.4,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:40:07.824257+00:00",
-  "availability_pct": 7.8,
+  "availability_pct": 7.9,
   "price_stats": {
     "avg": 1.2,
     "min": 0.69,
     "max": 7.99,
     "median": 1.05,
     "std_dev": 0.46,
-    "store_count": 606
+    "store_count": 607
   },
   "histogram": [
     {
@@ -45,11 +45,11 @@
     },
     {
       "bucket": "$1.05",
-      "count": 20
+      "count": 21
     },
     {
       "bucket": "$1.19",
-      "count": 51
+      "count": 50
     },
     {
       "bucket": "$1.20",
@@ -89,7 +89,7 @@
     },
     {
       "bucket": "$1.99",
-      "count": 26
+      "count": 27
     },
     {
       "bucket": "$2.02",
@@ -152,7 +152,7 @@
     {
       "state": "NY",
       "avg_price": 1.21,
-      "store_count": 21
+      "store_count": 20
     },
     {
       "state": "KY",
@@ -162,7 +162,7 @@
     {
       "state": "OR",
       "avg_price": 1.14,
-      "store_count": 48
+      "store_count": 49
     },
     {
       "state": "IL",
@@ -362,6 +362,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033876",
+      "store_name": "Taco Bell",
+      "city": "Denver",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-09-08T20:37:29.818946+00:00"
+    },
+    {
+      "store_number": "003286",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.05,
+      "observed_at": "2026-09-08T20:36:50.225909+00:00"
+    },
+    {
+      "store_number": "004025",
+      "store_name": "Taco Bell",
+      "city": "Watertown",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.19,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:36:19.907260+00:00"
+    },
     {
       "store_number": "037826",
       "store_name": "Taco Bell",
@@ -4764,8 +4794,8 @@
     }
   ],
   "activity_summary": {
-    "added": 206,
-    "removed": 229,
+    "added": 208,
+    "removed": 230,
     "price_changed": 5,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -7430,6 +7460,15 @@
       "OR"
     ],
     [
+      "003286",
+      45.57669529496729,
+      -122.66169755086554,
+      1.05,
+      "Taco Bell",
+      "Portland",
+      "OR"
+    ],
+    [
       "021416",
       45.55009375662376,
       -122.90659218650819,
@@ -7634,15 +7673,6 @@
       1.19,
       "Taco Bell",
       "Rochester",
-      "NY"
-    ],
-    [
-      "004025",
-      43.97638532409241,
-      -75.93249425915201,
-      1.19,
-      "Taco Bell",
-      "Watertown",
       "NY"
     ],
     [
@@ -10115,6 +10145,15 @@
       "033871",
       39.78958561330466,
       -105.02485781908035,
+      1.99,
+      "Taco Bell",
+      "Denver",
+      "CO"
+    ],
+    [
+      "033876",
+      39.777203,
+      -104.846652,
       1.99,
       "Taco Bell",
       "Denver",

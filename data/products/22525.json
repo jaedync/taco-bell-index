@@ -25,7 +25,7 @@
     "max": 3.99,
     "median": 1.69,
     "std_dev": 0.29,
-    "store_count": 7710
+    "store_count": 7712
   },
   "histogram": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "bucket": "$1.10",
-      "count": 8
+      "count": 9
     },
     {
       "bucket": "$1.15",
@@ -66,7 +66,7 @@
     },
     {
       "bucket": "$1.59",
-      "count": 1160
+      "count": 1161
     },
     {
       "bucket": "$1.60",
@@ -82,7 +82,7 @@
     },
     {
       "bucket": "$1.79",
-      "count": 1249
+      "count": 1250
     },
     {
       "bucket": "$1.80",
@@ -90,7 +90,7 @@
     },
     {
       "bucket": "$1.89",
-      "count": 890
+      "count": 889
     },
     {
       "bucket": "$1.90",
@@ -307,7 +307,7 @@
     {
       "state": "WI",
       "avg_price": 1.75,
-      "store_count": 142
+      "store_count": 141
     },
     {
       "state": "GA",
@@ -342,7 +342,7 @@
     {
       "state": "OH",
       "avg_price": 1.69,
-      "store_count": 408
+      "store_count": 409
     },
     {
       "state": "UT",
@@ -356,8 +356,8 @@
     },
     {
       "state": "FL",
-      "avg_price": 1.68,
-      "store_count": 451
+      "avg_price": 1.67,
+      "store_count": 452
     },
     {
       "state": "NV",
@@ -372,7 +372,7 @@
     {
       "state": "MS",
       "avg_price": 1.62,
-      "store_count": 80
+      "store_count": 81
     },
     {
       "state": "ND",
@@ -935,6 +935,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041839",
+      "store_name": "Taco Bell",
+      "city": "Crawfordville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.1,
+      "observed_at": "2026-09-08T20:39:02.392014+00:00"
+    },
+    {
+      "store_number": "034630",
+      "store_name": "Taco Bell",
+      "city": "Biloxi",
+      "state": "MS",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.59,
+      "observed_at": "2026-09-08T20:38:13.181455+00:00"
+    },
+    {
+      "store_number": "031493",
+      "store_name": "Taco Bell",
+      "city": "Glendale",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 1.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:10.790832+00:00"
+    },
+    {
+      "store_number": "041751",
+      "store_name": "Taco Bell",
+      "city": "Aurora",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.79,
+      "observed_at": "2026-09-08T20:35:07.778170+00:00"
+    },
     {
       "store_number": "041839",
       "store_name": "Taco Bell",
@@ -76687,8 +76727,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1879,
-    "removed": 1822,
+    "added": 1882,
+    "removed": 1823,
     "price_changed": 3874,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -79908,6 +79948,15 @@
       1.1,
       "Taco Bell",
       "Perry",
+      "FL"
+    ],
+    [
+      "041839",
+      30.209777100072273,
+      -84.36565016453422,
+      1.1,
+      "Taco Bell",
+      "Crawfordville",
       "FL"
     ],
     [
@@ -99963,6 +100012,15 @@
       "TN"
     ],
     [
+      "034630",
+      30.40204588255282,
+      -88.97197861971108,
+      1.59,
+      "Taco Bell",
+      "Biloxi",
+      "MS"
+    ],
+    [
       "028846",
       38.271193665399664,
       -122.03384582699982,
@@ -111967,6 +112025,15 @@
       "Taco Bell",
       "Hope Hull",
       "AL"
+    ],
+    [
+      "041751",
+      41.35231616568379,
+      -81.38958916669499,
+      1.79,
+      "Taco Bell",
+      "Aurora",
+      "OH"
     ],
     [
       "041822",
@@ -125746,15 +125813,6 @@
       "Taco Bell",
       "Sacramento",
       "CA"
-    ],
-    [
-      "031493",
-      43.11808014363118,
-      -87.91621186161439,
-      1.89,
-      "Taco Bell",
-      "Glendale",
-      "WI"
     ],
     [
       "032218",

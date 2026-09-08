@@ -22,7 +22,7 @@
     "max": 1.7,
     "median": 0.89,
     "std_dev": 0.16,
-    "store_count": 7692
+    "store_count": 7693
   },
   "histogram": [
     {
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$0.70",
-      "count": 426
+      "count": 427
     },
     {
       "bucket": "$0.75",
@@ -107,7 +107,7 @@
     },
     {
       "bucket": "$0.89",
-      "count": 144
+      "count": 143
     },
     {
       "bucket": "$0.90",
@@ -123,7 +123,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 648
+      "count": 649
     },
     {
       "bucket": "$1.03",
@@ -191,7 +191,7 @@
     {
       "state": "MA",
       "avg_price": 1.02,
-      "store_count": 67
+      "store_count": 68
     },
     {
       "state": "NH",
@@ -261,7 +261,7 @@
     {
       "state": "NY",
       "avg_price": 0.89,
-      "store_count": 253
+      "store_count": 252
     },
     {
       "state": "DC",
@@ -366,7 +366,7 @@
     {
       "state": "IN",
       "avg_price": 0.77,
-      "store_count": 255
+      "store_count": 256
     },
     {
       "state": "CO",
@@ -596,6 +596,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "029263",
+      "store_name": "Taco Bell",
+      "city": "Salem",
+      "state": "MA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-08T20:38:07.703890+00:00"
+    },
+    {
+      "store_number": "032490",
+      "store_name": "Taco Bell",
+      "city": "Michigan City",
+      "state": "IN",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.7,
+      "observed_at": "2026-09-08T20:37:44.703596+00:00"
+    },
+    {
+      "store_number": "039995",
+      "store_name": "Taco Bell",
+      "city": "Amherst",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:36.381992+00:00"
+    },
     {
       "store_number": "028908",
       "store_name": "Taco Bell",
@@ -15038,8 +15068,8 @@
     }
   ],
   "activity_summary": {
-    "added": 228,
-    "removed": 147,
+    "added": 230,
+    "removed": 148,
     "price_changed": 1069,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -29231,6 +29261,15 @@
       "Taco Bell",
       "Vernon",
       "TX"
+    ],
+    [
+      "032490",
+      41.68289460155715,
+      -86.89345707000939,
+      0.7,
+      "Taco Bell",
+      "Michigan City",
+      "IN"
     ],
     [
       "032319",
@@ -49157,15 +49196,6 @@
       "Taco Bell",
       "Kansas City",
       "MO"
-    ],
-    [
-      "039995",
-      42.99138789041456,
-      -78.80494771292433,
-      0.89,
-      "Taco Bell",
-      "Amherst",
-      "NY"
     ],
     [
       "003487",
@@ -79469,6 +79499,15 @@
       "Taco Bell",
       "Norristown",
       "PA"
+    ],
+    [
+      "029263",
+      42.50358312787979,
+      -70.92246077476568,
+      1.0,
+      "Taco Bell",
+      "Salem",
+      "MA"
     ],
     [
       "033774",

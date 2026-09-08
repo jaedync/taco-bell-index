@@ -20,7 +20,7 @@
     "max": 6.69,
     "median": 4.59,
     "std_dev": 0.6,
-    "store_count": 3469
+    "store_count": 3470
   },
   "histogram": [
     {
@@ -65,7 +65,7 @@
     },
     {
       "bucket": "$3.69",
-      "count": 151
+      "count": 152
     },
     {
       "bucket": "$3.79",
@@ -77,11 +77,11 @@
     },
     {
       "bucket": "$3.99",
-      "count": 269
+      "count": 270
     },
     {
       "bucket": "$4.19",
-      "count": 278
+      "count": 277
     },
     {
       "bucket": "$4.20",
@@ -97,7 +97,7 @@
     },
     {
       "bucket": "$4.49",
-      "count": 265
+      "count": 266
     },
     {
       "bucket": "$4.59",
@@ -125,7 +125,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 402
+      "count": 401
     },
     {
       "bucket": "$5.06",
@@ -238,7 +238,7 @@
     },
     {
       "state": "MI",
-      "avg_price": 4.8,
+      "avg_price": 4.79,
       "store_count": 193
     },
     {
@@ -337,14 +337,14 @@
       "store_count": 5
     },
     {
-      "state": "SC",
-      "avg_price": 4.17,
-      "store_count": 52
-    },
-    {
       "state": "SD",
       "avg_price": 4.17,
       "store_count": 17
+    },
+    {
+      "state": "SC",
+      "avg_price": 4.16,
+      "store_count": 53
     },
     {
       "state": "PA",
@@ -359,7 +359,7 @@
     {
       "state": "WI",
       "avg_price": 4.06,
-      "store_count": 68
+      "store_count": 67
     },
     {
       "state": "WY",
@@ -374,7 +374,7 @@
     {
       "state": "MO",
       "avg_price": 4.04,
-      "store_count": 60
+      "store_count": 62
     },
     {
       "state": "AZ",
@@ -384,7 +384,7 @@
     {
       "state": "ND",
       "avg_price": 3.99,
-      "store_count": 11
+      "store_count": 10
     },
     {
       "state": "IA",
@@ -569,6 +569,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "037580",
+      "store_name": "Taco Bell",
+      "city": "Minot",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 3.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:31.280660+00:00"
+    },
+    {
+      "store_number": "033015",
+      "store_name": "Taco Bell",
+      "city": "Holland",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.49,
+      "observed_at": "2026-09-08T20:37:53.678888+00:00"
+    },
+    {
+      "store_number": "031493",
+      "store_name": "Taco Bell",
+      "city": "Glendale",
+      "state": "WI",
+      "change_type": "item_removed",
+      "old_price": 4.19,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:10.790832+00:00"
+    },
+    {
+      "store_number": "034388",
+      "store_name": "Taco Bell",
+      "city": "Gladstone",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-08T20:36:58.956436+00:00"
+    },
+    {
+      "store_number": "042960",
+      "store_name": "Taco Bell",
+      "city": "Spartanburg",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.69,
+      "observed_at": "2026-09-08T20:36:48.683397+00:00"
+    },
+    {
+      "store_number": "035236",
+      "store_name": "Taco Bell",
+      "city": "Blue Springs",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-08T20:36:20.703946+00:00"
+    },
+    {
+      "store_number": "001732",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:36:09.861820+00:00"
+    },
     {
       "store_number": "033999",
       "store_name": "Taco Bell",
@@ -21581,8 +21651,8 @@
     }
   ],
   "activity_summary": {
-    "added": 796,
-    "removed": 724,
+    "added": 800,
+    "removed": 727,
     "price_changed": 581,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -25057,6 +25127,15 @@
       "SC"
     ],
     [
+      "042960",
+      34.93612890844735,
+      -82.00218582664483,
+      3.69,
+      "Taco Bell",
+      "Spartanburg",
+      "SC"
+    ],
+    [
       "042876",
       30.179809146878867,
       -81.55406301401999,
@@ -26414,6 +26493,15 @@
       "Taco Bell",
       "Hudson",
       "FL"
+    ],
+    [
+      "035236",
+      39.007233582996655,
+      -94.27201196551323,
+      3.99,
+      "Taco Bell",
+      "Blue Springs",
+      "MO"
     ],
     [
       "034410",
@@ -27784,15 +27872,6 @@
       "OH"
     ],
     [
-      "037580",
-      48.21664774208806,
-      -101.29665406462303,
-      3.99,
-      "Taco Bell",
-      "Minot",
-      "ND"
-    ],
-    [
       "035392",
       41.67280545424092,
       -86.00271485748641,
@@ -28268,6 +28347,15 @@
       "Taco Bell",
       "Fargo",
       "ND"
+    ],
+    [
+      "034388",
+      39.209235854089265,
+      -94.57585536714966,
+      3.99,
+      "Taco Bell",
+      "Gladstone",
+      "MO"
     ],
     [
       "040027",
@@ -29420,15 +29508,6 @@
       "Taco Bell",
       "Las Vegas",
       "NV"
-    ],
-    [
-      "031493",
-      43.11808014363118,
-      -87.91621186161439,
-      4.19,
-      "Taco Bell",
-      "Glendale",
-      "WI"
     ],
     [
       "003452",
@@ -35225,6 +35304,15 @@
       "Taco Bell",
       "Oakland",
       "CA"
+    ],
+    [
+      "033015",
+      42.8313575945687,
+      -86.09484677018372,
+      4.49,
+      "Taco Bell",
+      "Holland",
+      "MI"
     ],
     [
       "002253",
@@ -45799,15 +45887,6 @@
       4.99,
       "Taco Bell",
       "Clinton Township",
-      "MI"
-    ],
-    [
-      "001732",
-      42.32247892201157,
-      -83.48488225604342,
-      4.99,
-      "Taco Bell",
-      "Canton",
       "MI"
     ],
     [

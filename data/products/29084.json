@@ -13,19 +13,19 @@
   "peak_30d_pct": 1.2,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:42:17.482555+00:00",
-  "availability_pct": 0.6,
+  "availability_pct": 0.7,
   "price_stats": {
     "avg": 6.01,
     "min": 5.99,
     "max": 6.99,
     "median": 5.99,
-    "std_dev": 0.15,
-    "store_count": 47
+    "std_dev": 0.14,
+    "store_count": 51
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 46
+      "count": 50
     },
     {
       "bucket": "$6.99",
@@ -36,7 +36,7 @@
     {
       "state": "FL",
       "avg_price": 6.01,
-      "store_count": 47
+      "store_count": 51
     }
   ],
   "nutrition": {
@@ -69,6 +69,13 @@
       "price": 5.99
     },
     {
+      "store_number": "039586",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
       "store_number": "042753",
       "name": "Taco Bell",
       "city": "Casselberry",
@@ -79,6 +86,13 @@
       "store_number": "033927",
       "name": "Taco Bell",
       "city": "Kissimmee",
+      "state": "FL",
+      "price": 5.99
+    },
+    {
+      "store_number": "036021",
+      "name": "Taco Bell",
+      "city": "Longwood",
       "state": "FL",
       "price": 5.99
     },
@@ -109,33 +123,22 @@
       "city": "Orlando",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "036232",
-      "name": "Taco Bell",
-      "city": "Apopka",
-      "state": "FL",
-      "price": 5.99
-    },
-    {
-      "store_number": "042977",
-      "name": "Taco Bell",
-      "city": "Leesburg",
-      "state": "FL",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "039700",
     "034859",
+    "039586",
     "042753",
     "033927",
+    "036021",
     "034809",
     "035998",
     "041833",
     "035462",
     "036232",
     "042977",
+    "039587",
     "042941",
     "027983",
     "027981",
@@ -158,6 +161,7 @@
     "023289",
     "027987",
     "021472",
+    "027985",
     "022593",
     "022591",
     "042942",
@@ -246,6 +250,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027985",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-08T20:38:29.940188+00:00"
+    },
+    {
+      "store_number": "039587",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-08T20:35:50.594961+00:00"
+    },
+    {
+      "store_number": "036021",
+      "store_name": "Taco Bell",
+      "city": "Longwood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-08T20:35:20.984101+00:00"
+    },
+    {
+      "store_number": "039586",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-08T20:35:14.289080+00:00"
+    },
     {
       "store_number": "022591",
       "store_name": "Taco Bell",
@@ -3108,7 +3152,7 @@
     }
   ],
   "activity_summary": {
-    "added": 166,
+    "added": 170,
     "removed": 120,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3137,6 +3181,15 @@
       "FL"
     ],
     [
+      "039586",
+      28.160147167630527,
+      -81.44070410952173,
+      5.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
+    [
       "042753",
       28.63381,
       -81.32042,
@@ -3152,6 +3205,15 @@
       5.99,
       "Taco Bell",
       "Kissimmee",
+      "FL"
+    ],
+    [
+      "036021",
+      28.6974885390408,
+      -81.34655332918419,
+      5.99,
+      "Taco Bell",
+      "Longwood",
       "FL"
     ],
     [
@@ -3206,6 +3268,15 @@
       5.99,
       "Taco Bell",
       "Leesburg",
+      "FL"
+    ],
+    [
+      "039587",
+      28.39987,
+      -81.490788,
+      5.99,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [
@@ -3404,6 +3475,15 @@
       5.99,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "027985",
+      28.560556364542418,
+      -81.13136172294617,
+      5.99,
+      "Taco Bell",
+      "Orlando",
       "FL"
     ],
     [

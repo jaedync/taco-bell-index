@@ -73,11 +73,11 @@
     },
     {
       "bucket": "$1.89",
-      "count": 277
+      "count": 278
     },
     {
       "bucket": "$1.99",
-      "count": 1522
+      "count": 1521
     },
     {
       "bucket": "$2.00",
@@ -150,6 +150,11 @@
       "store_count": 116
     },
     {
+      "state": "DC",
+      "avg_price": 1.99,
+      "store_count": 5
+    },
+    {
       "state": "VA",
       "avg_price": 1.98,
       "store_count": 46
@@ -162,7 +167,7 @@
     {
       "state": "CA",
       "avg_price": 1.97,
-      "store_count": 625
+      "store_count": 626
     },
     {
       "state": "PA",
@@ -182,7 +187,7 @@
     {
       "state": "OH",
       "avg_price": 1.95,
-      "store_count": 204
+      "store_count": 203
     },
     {
       "state": "GA",
@@ -197,12 +202,12 @@
     {
       "state": "ND",
       "avg_price": 1.89,
-      "store_count": 11
+      "store_count": 10
     },
     {
       "state": "OR",
-      "avg_price": 1.89,
-      "store_count": 112
+      "avg_price": 1.88,
+      "store_count": 111
     },
     {
       "state": "KY",
@@ -217,7 +222,7 @@
     {
       "state": "MN",
       "avg_price": 1.86,
-      "store_count": 99
+      "store_count": 98
     },
     {
       "state": "MI",
@@ -267,7 +272,7 @@
     {
       "state": "MO",
       "avg_price": 1.78,
-      "store_count": 61
+      "store_count": 63
     },
     {
       "state": "CO",
@@ -506,6 +511,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039788",
+      "store_name": "Taco Bell",
+      "city": "Simi Valley",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-09-08T20:38:36.829069+00:00"
+    },
+    {
+      "store_number": "037580",
+      "store_name": "Taco Bell",
+      "city": "Minot",
+      "state": "ND",
+      "change_type": "item_removed",
+      "old_price": 1.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:31.280660+00:00"
+    },
+    {
+      "store_number": "032932",
+      "store_name": "Taco Bell",
+      "city": "Portland",
+      "state": "OR",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:25.346569+00:00"
+    },
+    {
+      "store_number": "004907",
+      "store_name": "Taco Bell",
+      "city": "Saint Cloud",
+      "state": "MN",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:56.364858+00:00"
+    },
+    {
+      "store_number": "034388",
+      "store_name": "Taco Bell",
+      "city": "Gladstone",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-09-08T20:36:58.956436+00:00"
+    },
+    {
+      "store_number": "033780",
+      "store_name": "Taco Bell",
+      "city": "Springboro",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 1.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:36:30.241832+00:00"
+    },
+    {
+      "store_number": "035236",
+      "store_name": "Taco Bell",
+      "city": "Blue Springs",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.89,
+      "observed_at": "2026-09-08T20:36:20.703946+00:00"
+    },
+    {
+      "store_number": "041337",
+      "store_name": "Taco Bell  Cantina",
+      "city": "Washington",
+      "state": "DC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.99,
+      "observed_at": "2026-09-08T20:35:40.717498+00:00"
+    },
     {
       "store_number": "033999",
       "store_name": "Taco Bell",
@@ -20558,8 +20643,8 @@
     }
   ],
   "activity_summary": {
-    "added": 778,
-    "removed": 728,
+    "added": 782,
+    "removed": 732,
     "price_changed": 499,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -33709,6 +33794,15 @@
       "MO"
     ],
     [
+      "035236",
+      39.007233582996655,
+      -94.27201196551323,
+      1.89,
+      "Taco Bell",
+      "Blue Springs",
+      "MO"
+    ],
+    [
       "035244",
       38.8123173462299,
       -94.46951776742935,
@@ -34049,6 +34143,15 @@
       "Taco Bell",
       "Lake Worth",
       "FL"
+    ],
+    [
+      "034388",
+      39.209235854089265,
+      -94.57585536714966,
+      1.89,
+      "Taco Bell",
+      "Gladstone",
+      "MO"
     ],
     [
       "000236",
@@ -34922,15 +35025,6 @@
       "Taco Bell",
       "Morgan Hill",
       "CA"
-    ],
-    [
-      "037580",
-      48.21664774208806,
-      -101.29665406462303,
-      1.89,
-      "Taco Bell",
-      "Minot",
-      "ND"
     ],
     [
       "027630",
@@ -37073,6 +37167,15 @@
       "Taco Bell",
       "Elmira",
       "NY"
+    ],
+    [
+      "041337",
+      38.88332701793072,
+      -76.99525982227141,
+      1.99,
+      "Taco Bell  Cantina",
+      "Washington",
+      "DC"
     ],
     [
       "042727",
@@ -39539,15 +39642,6 @@
       "Taco Bell",
       "Middletown",
       "CT"
-    ],
-    [
-      "033780",
-      39.56313498337006,
-      -84.2621970071923,
-      1.99,
-      "Taco Bell",
-      "Springboro",
-      "OH"
     ],
     [
       "029866",
@@ -42817,15 +42911,6 @@
       "TX"
     ],
     [
-      "004907",
-      45.549982257455824,
-      -94.19873227180688,
-      1.99,
-      "Taco Bell",
-      "Saint Cloud",
-      "MN"
-    ],
-    [
       "039852",
       33.746993553105185,
       -117.00733342770036,
@@ -45373,15 +45458,6 @@
       "OR"
     ],
     [
-      "032932",
-      45.51889862693988,
-      -122.47232437133789,
-      1.99,
-      "Taco Bell",
-      "Portland",
-      "OR"
-    ],
-    [
       "031955",
       42.523662797701,
       -89.03438329696655,
@@ -46513,6 +46589,15 @@
       1.99,
       "Taco Bell",
       "Norwalk",
+      "CA"
+    ],
+    [
+      "039788",
+      34.271370135459215,
+      -118.77117902040482,
+      1.99,
+      "Taco Bell",
+      "Simi Valley",
       "CA"
     ],
     [

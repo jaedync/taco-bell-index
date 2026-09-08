@@ -20,7 +20,7 @@
     "max": 44.99,
     "median": 30.99,
     "std_dev": 3.12,
-    "store_count": 7644
+    "store_count": 7643
   },
   "histogram": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "bucket": "$29.99",
-      "count": 761
+      "count": 760
     },
     {
       "bucket": "$30.49",
@@ -225,11 +225,11 @@
     },
     {
       "bucket": "$31.49",
-      "count": 199
+      "count": 198
     },
     {
       "bucket": "$31.99",
-      "count": 607
+      "count": 609
     },
     {
       "bucket": "$32.00",
@@ -273,7 +273,7 @@
     },
     {
       "bucket": "$33.49",
-      "count": 249
+      "count": 250
     },
     {
       "bucket": "$33.69",
@@ -309,7 +309,7 @@
     },
     {
       "bucket": "$34.99",
-      "count": 419
+      "count": 418
     },
     {
       "bucket": "$35.00",
@@ -329,7 +329,7 @@
     },
     {
       "bucket": "$35.68",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$35.89",
@@ -401,7 +401,7 @@
     {
       "state": "CA",
       "avg_price": 34.12,
-      "store_count": 834
+      "store_count": 833
     },
     {
       "state": "MT",
@@ -450,8 +450,8 @@
     },
     {
       "state": "NY",
-      "avg_price": 32.88,
-      "store_count": 251
+      "avg_price": 32.87,
+      "store_count": 250
     },
     {
       "state": "NV",
@@ -499,14 +499,14 @@
       "store_count": 286
     },
     {
+      "state": "FL",
+      "avg_price": 30.78,
+      "store_count": 443
+    },
+    {
       "state": "NM",
       "avg_price": 30.77,
       "store_count": 58
-    },
-    {
-      "state": "FL",
-      "avg_price": 30.77,
-      "store_count": 442
     },
     {
       "state": "MA",
@@ -520,8 +520,8 @@
     },
     {
       "state": "OH",
-      "avg_price": 30.33,
-      "store_count": 404
+      "avg_price": 30.34,
+      "store_count": 405
     },
     {
       "state": "OR",
@@ -530,8 +530,8 @@
     },
     {
       "state": "MI",
-      "avg_price": 30.1,
-      "store_count": 344
+      "avg_price": 30.09,
+      "store_count": 343
     },
     {
       "state": "MN",
@@ -560,8 +560,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 29.9,
-      "store_count": 221
+      "avg_price": 29.91,
+      "store_count": 222
     },
     {
       "state": "AZ",
@@ -611,7 +611,7 @@
     {
       "state": "GA",
       "avg_price": 28.54,
-      "store_count": 255
+      "store_count": 254
     },
     {
       "state": "KS",
@@ -797,6 +797,76 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041839",
+      "store_name": "Taco Bell",
+      "city": "Crawfordville",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 31.99,
+      "observed_at": "2026-09-08T20:39:02.392014+00:00"
+    },
+    {
+      "store_number": "041835",
+      "store_name": "Taco Bell",
+      "city": "Cairo",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 29.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:56.941074+00:00"
+    },
+    {
+      "store_number": "026126",
+      "store_name": "Taco Bell",
+      "city": "King City",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 34.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:05.199583+00:00"
+    },
+    {
+      "store_number": "039960",
+      "store_name": "Taco Bell",
+      "city": "Woodside",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 35.68,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:37:03.379802+00:00"
+    },
+    {
+      "store_number": "034411",
+      "store_name": "Taco Bell",
+      "city": "Kansas City",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 31.99,
+      "observed_at": "2026-09-08T20:36:18.969044+00:00"
+    },
+    {
+      "store_number": "037070",
+      "store_name": "Taco Bell",
+      "city": "Toledo",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 33.49,
+      "observed_at": "2026-09-08T20:35:43.597678+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_removed",
+      "old_price": 31.49,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:35:33.383870+00:00"
+    },
     {
       "store_number": "041836",
       "store_name": "Taco Bell",
@@ -12369,8 +12439,8 @@
     }
   ],
   "activity_summary": {
-    "added": 451,
-    "removed": 347,
+    "added": 454,
+    "removed": 351,
     "price_changed": 359,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -40860,15 +40930,6 @@
       "MA"
     ],
     [
-      "041835",
-      30.885261549808035,
-      -84.20397450008613,
-      29.99,
-      "Taco Bell",
-      "Cairo",
-      "GA"
-    ],
-    [
       "033003",
       43.4086537057727,
       -86.32327638569222,
@@ -52767,15 +52828,6 @@
       "TX"
     ],
     [
-      "037166",
-      41.9426279,
-      -84.648124,
-      31.49,
-      "Taco Bell",
-      "Hillsdale",
-      "MI"
-    ],
-    [
       "036775",
       41.19053404365198,
       -87.19894810025625,
@@ -59508,6 +59560,15 @@
       "IA"
     ],
     [
+      "041839",
+      30.209777100072273,
+      -84.36565016453422,
+      31.99,
+      "Taco Bell",
+      "Crawfordville",
+      "FL"
+    ],
+    [
       "042123",
       30.48259156216648,
       -86.41599865257577,
@@ -59740,6 +59801,15 @@
       "Taco Bell",
       "Mont Belvieu",
       "TX"
+    ],
+    [
+      "034411",
+      39.26627528508462,
+      -94.57636316122262,
+      31.99,
+      "Taco Bell",
+      "Kansas City",
+      "MO"
     ],
     [
       "029974",
@@ -68283,6 +68353,15 @@
       "PA"
     ],
     [
+      "037070",
+      41.69135506097448,
+      -83.56254863521914,
+      33.49,
+      "Taco Bell",
+      "Toledo",
+      "OH"
+    ],
+    [
       "037096",
       40.03377605115515,
       -79.07490076998114,
@@ -75816,15 +75895,6 @@
       "NY"
     ],
     [
-      "026126",
-      36.202670643626824,
-      -121.13545767361063,
-      34.99,
-      "Taco Bell",
-      "King City",
-      "CA"
-    ],
-    [
       "027302",
       36.66820690181963,
       -121.6553185960299,
@@ -78828,15 +78898,6 @@
       35.68,
       "Taco Bell",
       "Bronx",
-      "NY"
-    ],
-    [
-      "039960",
-      40.75358989827396,
-      -73.9017782877615,
-      35.68,
-      "Taco Bell",
-      "Woodside",
       "NY"
     ],
     [

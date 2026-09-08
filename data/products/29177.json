@@ -17,26 +17,26 @@
   "peak_30d_pct": 0.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
-  "availability_pct": 0.2,
+  "availability_pct": 0.3,
   "price_stats": {
     "avg": 10.99,
     "min": 10.99,
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 18
+    "store_count": 20
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 18
+      "count": 20
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 18
+      "store_count": 20
     }
   ],
   "nutrition": {
@@ -69,6 +69,13 @@
       "price": 10.99
     },
     {
+      "store_number": "036021",
+      "name": "Taco Bell",
+      "city": "Longwood",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "034809",
       "name": "Taco Bell",
       "city": "Umatilla",
@@ -79,6 +86,13 @@
       "store_number": "036232",
       "name": "Taco Bell",
       "city": "Apopka",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "039587",
+      "name": "Taco Bell",
+      "city": "Orlando",
       "state": "FL",
       "price": 10.99
     },
@@ -97,30 +111,16 @@
       "price": 10.99
     },
     {
+      "store_number": "028353",
+      "name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "027982",
       "name": "Taco Bell",
       "city": "Orlando",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "005646",
-      "name": "Taco Bell",
-      "city": "Altamonte Springs",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "022590",
-      "name": "Taco Bell",
-      "city": "Ormond Beach",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042933",
-      "name": "Taco Bell",
-      "city": "Ocala",
       "state": "FL",
       "price": 10.99
     }
@@ -128,10 +128,13 @@
   "min_price_store_numbers": [
     "039700",
     "034859",
+    "036021",
     "034809",
     "036232",
+    "039587",
     "042941",
     "027983",
+    "028353",
     "027982",
     "005646",
     "022590",
@@ -141,7 +144,6 @@
     "021472",
     "022591",
     "004435",
-    "042927",
     "037822",
     "034162"
   ],
@@ -157,13 +159,6 @@
       "store_number": "037822",
       "name": "Taco Bell",
       "city": "Lady Lake",
-      "state": "FL",
-      "price": 10.99
-    },
-    {
-      "store_number": "042927",
-      "name": "Taco Bell",
-      "city": "Belleview",
       "state": "FL",
       "price": 10.99
     },
@@ -215,9 +210,56 @@
       "city": "Ormond Beach",
       "state": "FL",
       "price": 10.99
+    },
+    {
+      "store_number": "005646",
+      "name": "Taco Bell",
+      "city": "Altamonte Springs",
+      "state": "FL",
+      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 10.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:56.813830+00:00"
+    },
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-08T20:36:58.327988+00:00"
+    },
+    {
+      "store_number": "039587",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-08T20:35:50.594961+00:00"
+    },
+    {
+      "store_number": "036021",
+      "store_name": "Taco Bell",
+      "city": "Longwood",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-08T20:35:20.984101+00:00"
+    },
     {
       "store_number": "022591",
       "store_name": "Taco Bell",
@@ -2860,8 +2902,8 @@
     }
   ],
   "activity_summary": {
-    "added": 141,
-    "removed": 123,
+    "added": 144,
+    "removed": 124,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -2920,6 +2962,15 @@
       "FL"
     ],
     [
+      "036021",
+      28.6974885390408,
+      -81.34655332918419,
+      10.99,
+      "Taco Bell",
+      "Longwood",
+      "FL"
+    ],
+    [
       "034809",
       28.93077353365337,
       -81.66661659010451,
@@ -2938,6 +2989,15 @@
       "FL"
     ],
     [
+      "039587",
+      28.39987,
+      -81.490788,
+      10.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
       "042941",
       29.116219923790815,
       -82.02579715851243,
@@ -2953,6 +3013,15 @@
       10.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "028353",
+      28.81817457980822,
+      -81.88791497494094,
+      10.99,
+      "Taco Bell",
+      "Leesburg",
       "FL"
     ],
     [
@@ -3034,15 +3103,6 @@
       10.99,
       "Taco Bell",
       "Orlando",
-      "FL"
-    ],
-    [
-      "042927",
-      29.07398294969833,
-      -82.07236339153496,
-      10.99,
-      "Taco Bell",
-      "Belleview",
       "FL"
     ],
     [

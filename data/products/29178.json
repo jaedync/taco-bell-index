@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 15
+    "store_count": 16
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 15
+      "count": 16
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 15
+      "store_count": 16
     }
   ],
   "nutrition": {
@@ -54,6 +54,13 @@
     "serving_size_g": 92.1358
   },
   "cheapest_stores": [
+    {
+      "store_number": "039586",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 10.99
+    },
     {
       "store_number": "042753",
       "name": "Taco Bell",
@@ -116,16 +123,10 @@
       "city": "Apopka",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "027980",
-      "name": "Taco Bell",
-      "city": "Orange City",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
+    "039586",
     "042753",
     "041833",
     "035462",
@@ -215,6 +216,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "039586",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-08T20:35:14.289080+00:00"
+    },
     {
       "store_number": "027985",
       "store_name": "Taco Bell",
@@ -2007,7 +2018,7 @@
     }
   ],
   "activity_summary": {
-    "added": 97,
+    "added": 98,
     "removed": 82,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2029,6 +2040,12 @@
       "default_product_name": "Avocado Ranch Crispy Chicken Burrito"
     },
     {
+      "group_id": "18",
+      "title": "Nacho Cheese Doritos\u00ae Locos Tacos",
+      "default_product_code": "22172",
+      "default_product_name": "Nacho Cheese Doritos\u00ae Locos Tacos"
+    },
+    {
       "group_id": "419",
       "title": "Seasoned Fries",
       "default_product_code": "28068",
@@ -2042,6 +2059,15 @@
     }
   ],
   "map_data": [
+    [
+      "039586",
+      28.160147167630527,
+      -81.44070410952173,
+      10.99,
+      "Taco Bell",
+      "Kissimmee",
+      "FL"
+    ],
     [
       "042753",
       28.63381,
@@ -2179,6 +2205,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-07",
+  "last_seen_date": "2026-09-08",
   "peak_availability_pct": 0.4
 }

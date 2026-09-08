@@ -12,7 +12,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 26.1,
+  "peak_30d_pct": 25.6,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:58:16.238260+00:00",
   "availability_pct": 9.6,
@@ -22,12 +22,12 @@
     "max": 0.79,
     "median": 0.5,
     "std_dev": 0.03,
-    "store_count": 744
+    "store_count": 739
   },
   "histogram": [
     {
       "bucket": "$0.50",
-      "count": 723
+      "count": 718
     },
     {
       "bucket": "$0.59",
@@ -56,14 +56,14 @@
   ],
   "state_prices": [
     {
+      "state": "NY",
+      "avg_price": 0.57,
+      "store_count": 26
+    },
+    {
       "state": "OR",
       "avg_price": 0.57,
       "store_count": 13
-    },
-    {
-      "state": "NY",
-      "avg_price": 0.57,
-      "store_count": 27
     },
     {
       "state": "PA",
@@ -148,7 +148,7 @@
     {
       "state": "MS",
       "avg_price": 0.5,
-      "store_count": 21
+      "store_count": 20
     },
     {
       "state": "MO",
@@ -178,7 +178,7 @@
     {
       "state": "KY",
       "avg_price": 0.5,
-      "store_count": 17
+      "store_count": 16
     },
     {
       "state": "KS",
@@ -213,7 +213,7 @@
     {
       "state": "CA",
       "avg_price": 0.5,
-      "store_count": 78
+      "store_count": 77
     },
     {
       "state": "AZ",
@@ -378,7 +378,6 @@
     "037476",
     "035880",
     "036242",
-    "029496",
     "003543",
     "023052",
     "039768",
@@ -804,7 +803,6 @@
     "036481",
     "041578",
     "042893",
-    "023279",
     "029071",
     "039737",
     "029601",
@@ -874,7 +872,6 @@
     "029099",
     "035435",
     "026715",
-    "033072",
     "023963",
     "020877",
     "042629",
@@ -935,7 +932,6 @@
     "033753",
     "033994",
     "034156",
-    "038834",
     "038839",
     "043044",
     "038749",
@@ -1037,7 +1033,6 @@
     "040627",
     "035272",
     "003488",
-    "042796",
     "043244",
     "009633",
     "042676"
@@ -1115,6 +1110,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042796",
+      "store_name": "Taco Bell",
+      "city": "Smithfield",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:39:08.936485+00:00"
+    },
+    {
+      "store_number": "038834",
+      "store_name": "Taco Bell",
+      "city": "Diamondhead",
+      "state": "MS",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:39:06.436140+00:00"
+    },
+    {
+      "store_number": "033072",
+      "store_name": "Taco Bell",
+      "city": "La Mirada",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:35.631958+00:00"
+    },
+    {
+      "store_number": "029496",
+      "store_name": "Taco Bell",
+      "city": "East Meadow",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:22.726142+00:00"
+    },
+    {
+      "store_number": "023279",
+      "store_name": "Taco Bell",
+      "city": "Lexington",
+      "state": "KY",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:04.441461+00:00"
+    },
     {
       "store_number": "042676",
       "store_name": "Taco Bell",
@@ -75388,7 +75433,7 @@
   ],
   "activity_summary": {
     "added": 4086,
-    "removed": 3338,
+    "removed": 3343,
     "price_changed": 3,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -75936,15 +75981,6 @@
       "Taco Bell",
       "Sparks",
       "NV"
-    ],
-    [
-      "029496",
-      40.724606116248616,
-      -73.56453895568848,
-      0.5,
-      "Taco Bell",
-      "East Meadow",
-      "NY"
     ],
     [
       "003543",
@@ -79772,15 +79808,6 @@
       "FL"
     ],
     [
-      "023279",
-      38.00444846113835,
-      -84.44835729899756,
-      0.5,
-      "Taco Bell",
-      "Lexington",
-      "KY"
-    ],
-    [
       "029071",
       32.601756220043065,
       -85.47965371385469,
@@ -80402,15 +80429,6 @@
       "MS"
     ],
     [
-      "033072",
-      33.92640496510454,
-      -118.01235795021057,
-      0.5,
-      "Taco Bell",
-      "La Mirada",
-      "CA"
-    ],
-    [
       "023963",
       39.74070648276051,
       -104.81852794409438,
@@ -80949,15 +80967,6 @@
       "Taco Bell",
       "St Rose",
       "LA"
-    ],
-    [
-      "038834",
-      30.3753,
-      -89.3743,
-      0.5,
-      "Taco Bell",
-      "Diamondhead",
-      "MS"
     ],
     [
       "038839",
@@ -81867,15 +81876,6 @@
       "Taco Bell",
       "Lihue",
       "HI"
-    ],
-    [
-      "042796",
-      41.815358,
-      -111.833467,
-      0.5,
-      "Taco Bell",
-      "Smithfield",
-      "UT"
     ],
     [
       "043244",

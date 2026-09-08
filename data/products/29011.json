@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:42:30.961618+00:00",
   "availability_pct": 0.2,
   "price_stats": {
-    "avg": 4.08,
+    "avg": 4.07,
     "min": 3.99,
     "max": 5.49,
     "median": 3.99,
-    "std_dev": 0.38,
-    "store_count": 16
+    "std_dev": 0.35,
+    "store_count": 18
   },
   "histogram": [
     {
       "bucket": "$3.99",
-      "count": 15
+      "count": 17
     },
     {
       "bucket": "$5.49",
@@ -38,8 +38,8 @@
   "state_prices": [
     {
       "state": "FL",
-      "avg_price": 4.09,
-      "store_count": 15
+      "avg_price": 4.08,
+      "store_count": 17
     }
   ],
   "nutrition": {
@@ -86,9 +86,23 @@
       "price": 3.99
     },
     {
+      "store_number": "039587",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
       "store_number": "042941",
       "name": "Taco Bell",
       "city": "Ocala",
+      "state": "FL",
+      "price": 3.99
+    },
+    {
+      "store_number": "028353",
+      "name": "Taco Bell",
+      "city": "Leesburg",
       "state": "FL",
       "price": 3.99
     },
@@ -112,20 +126,6 @@
       "city": "Ocala",
       "state": "FL",
       "price": 3.99
-    },
-    {
-      "store_number": "042914",
-      "name": "Taco Bell",
-      "city": "Ocala",
-      "state": "FL",
-      "price": 3.99
-    },
-    {
-      "store_number": "042924",
-      "name": "Taco Bell",
-      "city": "Ocala",
-      "state": "FL",
-      "price": 3.99
     }
   ],
   "min_price_store_numbers": [
@@ -133,7 +133,9 @@
     "034859",
     "034809",
     "036232",
+    "039587",
     "042941",
+    "028353",
     "027982",
     "022833",
     "042933",
@@ -218,6 +220,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028353",
+      "store_name": "Taco Bell",
+      "city": "Leesburg",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-08T20:36:58.327988+00:00"
+    },
+    {
+      "store_number": "039587",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.99,
+      "observed_at": "2026-09-08T20:35:50.594961+00:00"
+    },
     {
       "store_number": "032959",
       "store_name": "Taco Bell",
@@ -1440,7 +1462,7 @@
     }
   ],
   "activity_summary": {
-    "added": 68,
+    "added": 70,
     "removed": 54,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1500,12 +1522,30 @@
       "FL"
     ],
     [
+      "039587",
+      28.39987,
+      -81.490788,
+      3.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
       "042941",
       29.116219923790815,
       -82.02579715851243,
       3.99,
       "Taco Bell",
       "Ocala",
+      "FL"
+    ],
+    [
+      "028353",
+      28.81817457980822,
+      -81.88791497494094,
+      3.99,
+      "Taco Bell",
+      "Leesburg",
       "FL"
     ],
     [

@@ -12,7 +12,7 @@
   "is_vegetarian": true,
   "is_meatless": true,
   "is_limited": false,
-  "peak_30d_pct": 27.0,
+  "peak_30d_pct": 26.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-06-17T20:56:58.322414+00:00",
   "availability_pct": 12.4,
@@ -22,16 +22,16 @@
     "max": 3.99,
     "median": 0.89,
     "std_dev": 0.11,
-    "store_count": 961
+    "store_count": 956
   },
   "histogram": [
     {
       "bucket": "$0.89",
-      "count": 912
+      "count": 908
     },
     {
       "bucket": "$0.99",
-      "count": 37
+      "count": 36
     },
     {
       "bucket": "$1.00",
@@ -89,8 +89,8 @@
     },
     {
       "state": "VA",
-      "avg_price": 0.91,
-      "store_count": 25
+      "avg_price": 0.92,
+      "store_count": 24
     },
     {
       "state": "NY",
@@ -110,12 +110,12 @@
     {
       "state": "CA",
       "avg_price": 0.9,
-      "store_count": 123
+      "store_count": 122
     },
     {
       "state": "TX",
       "avg_price": 0.9,
-      "store_count": 99
+      "store_count": 98
     },
     {
       "state": "IL",
@@ -221,11 +221,6 @@
       "state": "KS",
       "avg_price": 0.89,
       "store_count": 15
-    },
-    {
-      "state": "HI",
-      "avg_price": 0.89,
-      "store_count": 5
     },
     {
       "state": "GA",
@@ -398,7 +393,6 @@
     "036400",
     "041160",
     "036218",
-    "041866",
     "034790",
     "033376",
     "040880",
@@ -882,7 +876,6 @@
     "004318",
     "004264",
     "032704",
-    "035075",
     "040941",
     "026360",
     "005118",
@@ -1072,7 +1065,6 @@
     "015958",
     "031652",
     "028493",
-    "039716",
     "039076",
     "017577",
     "029666",
@@ -1099,7 +1091,6 @@
     "018414",
     "035235",
     "018101",
-    "037669",
     "002619",
     "028488",
     "030351",
@@ -1316,6 +1307,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042796",
+      "store_name": "Taco Bell",
+      "city": "Smithfield",
+      "state": "UT",
+      "change_type": "item_removed",
+      "old_price": 0.99,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:39:08.936485+00:00"
+    },
+    {
+      "store_number": "037669",
+      "store_name": "Taco Bell",
+      "city": "Kihei",
+      "state": "HI",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:42.370082+00:00"
+    },
+    {
+      "store_number": "039716",
+      "store_name": "Taco Bell",
+      "city": "Charlottesville",
+      "state": "VA",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:38.689517+00:00"
+    },
+    {
+      "store_number": "035075",
+      "store_name": "Taco Bell",
+      "city": "Hondo",
+      "state": "TX",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:38:01.827659+00:00"
+    },
+    {
+      "store_number": "041866",
+      "store_name": "Taco Bell",
+      "city": "San Ysidro",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 0.89,
+      "new_price": null,
+      "observed_at": "2026-09-08T20:35:05.802272+00:00"
+    },
     {
       "store_number": "036776",
       "store_name": "Taco Bell",
@@ -150129,7 +150170,7 @@
   ],
   "activity_summary": {
     "added": 7916,
-    "removed": 6944,
+    "removed": 6949,
     "price_changed": 21,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -150749,15 +150790,6 @@
       "Taco Bell",
       "Chicago",
       "IL"
-    ],
-    [
-      "041866",
-      32.56098656017389,
-      -117.06282936179794,
-      0.89,
-      "Taco Bell",
-      "San Ysidro",
-      "CA"
     ],
     [
       "034790",
@@ -155107,15 +155139,6 @@
       "TX"
     ],
     [
-      "035075",
-      29.34820228205095,
-      -99.1215949736708,
-      0.89,
-      "Taco Bell",
-      "Hondo",
-      "TX"
-    ],
-    [
       "040941",
       37.81062119682547,
       -80.43397088350503,
@@ -156817,15 +156840,6 @@
       "IL"
     ],
     [
-      "039716",
-      38.03265331622867,
-      -78.45565974712372,
-      0.89,
-      "Taco Bell",
-      "Charlottesville",
-      "VA"
-    ],
-    [
       "039076",
       40.931357398139085,
       -74.26820576190948,
@@ -157058,15 +157072,6 @@
       "Taco Bell",
       "Forest Lake",
       "MN"
-    ],
-    [
-      "037669",
-      20.734717535465613,
-      -156.45280342616533,
-      0.89,
-      "Taco Bell",
-      "Kihei",
-      "HI"
     ],
     [
       "002619",
@@ -158668,15 +158673,6 @@
       0.99,
       "Taco Bell",
       "Salt Lake City",
-      "UT"
-    ],
-    [
-      "042796",
-      41.815358,
-      -111.833467,
-      0.99,
-      "Taco Bell",
-      "Smithfield",
       "UT"
     ],
     [

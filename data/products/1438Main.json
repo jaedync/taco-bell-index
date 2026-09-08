@@ -12,7 +12,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 0.2,
+  "peak_30d_pct": 0.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:56.350587+00:00",
   "availability_pct": 0.1,
@@ -22,15 +22,21 @@
     "max": 3.79,
     "median": 3.79,
     "std_dev": 0.0,
-    "store_count": 4
+    "store_count": 5
   },
   "histogram": [
     {
       "bucket": "$3.79",
-      "count": 4
+      "count": 5
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "TX",
+      "avg_price": 3.79,
+      "store_count": 5
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -73,15 +79,30 @@
       "city": "Dallas",
       "state": "TX",
       "price": 3.79
+    },
+    {
+      "store_number": "027416",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "price": 3.79
     }
   ],
   "min_price_store_numbers": [
     "024393",
     "021176",
     "021196",
-    "001331"
+    "001331",
+    "027416"
   ],
   "priciest_stores": [
+    {
+      "store_number": "027416",
+      "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "price": 3.79
+    },
     {
       "store_number": "001331",
       "name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -112,6 +133,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027416",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Irving",
+      "state": "TX",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.79,
+      "observed_at": "2026-09-08T20:38:55.839755+00:00"
+    },
     {
       "store_number": "040343",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -514,7 +545,7 @@
     }
   ],
   "activity_summary": {
-    "added": 8,
+    "added": 9,
     "removed": 32,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -558,6 +589,15 @@
       3.79,
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Dallas",
+      "TX"
+    ],
+    [
+      "027416",
+      32.83776989676744,
+      -96.95856750011444,
+      3.79,
+      "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "Irving",
       "TX"
     ]
   ],

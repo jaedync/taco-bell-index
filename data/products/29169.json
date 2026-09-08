@@ -15,21 +15,21 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0617,
+  "recent_price_change_pct": 0.0435,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
-  "availability_pct": 0.0,
+  "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.66,
+    "avg": 9.5,
     "min": 9.0,
     "max": 9.99,
-    "median": 9.99,
+    "median": 9.5,
     "std_dev": 0.57,
-    "store_count": 3
+    "store_count": 4
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 1
+      "count": 2
     },
     {
       "bucket": "$9.99",
@@ -53,6 +53,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "027978",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
@@ -75,6 +82,7 @@
     }
   ],
   "min_price_store_numbers": [
+    "027978",
     "022833"
   ],
   "priciest_stores": [
@@ -98,9 +106,26 @@
       "city": "Clermont",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "027978",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027978",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-08T20:36:56.469658+00:00"
+    },
     {
       "store_number": "042971",
       "store_name": "Taco Bell",
@@ -4893,7 +4918,7 @@
     }
   ],
   "activity_summary": {
-    "added": 241,
+    "added": 242,
     "removed": 238,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4935,6 +4960,15 @@
   ],
   "map_data": [
     [
+      "027978",
+      28.552565072072,
+      -81.47350690794156,
+      9.0,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
       "022833",
       28.3538526090358,
       -81.6757670044899,
@@ -4963,6 +4997,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-09-07",
+  "last_seen_date": "2026-09-08",
   "peak_availability_pct": 1.2
 }
