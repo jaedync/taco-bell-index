@@ -18,17 +18,17 @@
   "first_seen_at": "2026-03-30T00:40:09.997470+00:00",
   "availability_pct": 1.6,
   "price_stats": {
-    "avg": 6.54,
+    "avg": 6.55,
     "min": 5.99,
     "max": 11.99,
     "median": 5.99,
-    "std_dev": 1.18,
-    "store_count": 121
+    "std_dev": 1.17,
+    "store_count": 123
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 89
+      "count": 90
     },
     {
       "bucket": "$6.49",
@@ -56,7 +56,7 @@
     },
     {
       "bucket": "$7.76",
-      "count": 5
+      "count": 6
     },
     {
       "bucket": "$7.89",
@@ -91,8 +91,13 @@
     },
     {
       "state": "NY",
-      "avg_price": 8.02,
-      "store_count": 21
+      "avg_price": 8.01,
+      "store_count": 22
+    },
+    {
+      "state": "OH",
+      "avg_price": 5.99,
+      "store_count": 27
     },
     {
       "state": "IN",
@@ -100,14 +105,9 @@
       "store_count": 27
     },
     {
-      "state": "OH",
-      "avg_price": 5.99,
-      "store_count": 28
-    },
-    {
       "state": "MI",
       "avg_price": 5.99,
-      "store_count": 24
+      "store_count": 26
     }
   ],
   "nutrition": {
@@ -140,6 +140,13 @@
       "price": 5.99
     },
     {
+      "store_number": "041937",
+      "name": "Taco Bell",
+      "city": "Cheboygan",
+      "state": "MI",
+      "price": 5.99
+    },
+    {
       "store_number": "036386",
       "name": "Taco Bell",
       "city": "Durand",
@@ -168,6 +175,13 @@
       "price": 5.99
     },
     {
+      "store_number": "037166",
+      "name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "price": 5.99
+    },
+    {
       "store_number": "042694",
       "name": "Taco Bell",
       "city": "Evansville",
@@ -180,29 +194,17 @@
       "city": "Edmore",
       "state": "MI",
       "price": 5.99
-    },
-    {
-      "store_number": "036707",
-      "name": "Taco Bell",
-      "city": "Grove City",
-      "state": "OH",
-      "price": 5.99
-    },
-    {
-      "store_number": "037070",
-      "name": "Taco Bell",
-      "city": "Toledo",
-      "state": "OH",
-      "price": 5.99
     }
   ],
   "min_price_store_numbers": [
     "041760",
     "034791",
+    "041937",
     "036386",
     "036234",
     "035098",
     "035304",
+    "037166",
     "042694",
     "042870",
     "036707",
@@ -216,7 +218,6 @@
     "037841",
     "001590",
     "003190",
-    "028231",
     "001896",
     "004941",
     "030925",
@@ -360,6 +361,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "028231",
+      "store_name": "Taco Bell",
+      "city": "Canton",
+      "state": "OH",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:41:04.534011+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-09T21:40:43.942530+00:00"
+    },
+    {
+      "store_number": "036455",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.76,
+      "observed_at": "2026-09-09T21:40:43.373185+00:00"
+    },
+    {
+      "store_number": "041937",
+      "store_name": "Taco Bell",
+      "city": "Cheboygan",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 5.99,
+      "observed_at": "2026-09-09T21:40:34.861838+00:00"
+    },
     {
       "store_number": "030831",
       "store_name": "Taco Bell",
@@ -30062,8 +30103,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1513,
-    "removed": 1444,
+    "added": 1516,
+    "removed": 1445,
     "price_changed": 13,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -30089,6 +30130,15 @@
       "Taco Bell",
       "Syracuse",
       "IN"
+    ],
+    [
+      "041937",
+      45.627258,
+      -84.479413,
+      5.99,
+      "Taco Bell",
+      "Cheboygan",
+      "MI"
     ],
     [
       "036386",
@@ -30124,6 +30174,15 @@
       5.99,
       "Taco Bell",
       "Shelby Township",
+      "MI"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      5.99,
+      "Taco Bell",
+      "Hillsdale",
       "MI"
     ],
     [
@@ -30242,15 +30301,6 @@
       "Taco Bell",
       "Roseville",
       "MI"
-    ],
-    [
-      "028231",
-      40.8357645,
-      -81.3361133,
-      5.99,
-      "Taco Bell",
-      "Canton",
-      "OH"
     ],
     [
       "001896",
@@ -31023,6 +31073,15 @@
       -73.97948212062366,
       7.76,
       "Taco Bell Cantina Cantina",
+      "Brooklyn",
+      "NY"
+    ],
+    [
+      "036455",
+      40.6697473363658,
+      -73.91195812676696,
+      7.76,
+      "Taco Bell",
       "Brooklyn",
       "NY"
     ],

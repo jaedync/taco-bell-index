@@ -17,19 +17,19 @@
   "peak_30d_pct": 91.5,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-07-31T21:17:56.359326+00:00",
-  "availability_pct": 1.3,
+  "availability_pct": 1.4,
   "price_stats": {
     "avg": 5.08,
     "min": 4.99,
     "max": 5.49,
     "median": 4.99,
     "std_dev": 0.19,
-    "store_count": 103
+    "store_count": 108
   },
   "histogram": [
     {
       "bucket": "$4.99",
-      "count": 84
+      "count": 89
     },
     {
       "bucket": "$5.49",
@@ -49,13 +49,13 @@
     },
     {
       "state": "OH",
-      "avg_price": 5.09,
-      "store_count": 20
+      "avg_price": 5.08,
+      "store_count": 22
     },
     {
       "state": "MI",
       "avg_price": 5.04,
-      "store_count": 38
+      "store_count": 41
     }
   ],
   "nutrition": {
@@ -137,9 +137,9 @@
       "price": 4.99
     },
     {
-      "store_number": "042648",
+      "store_number": "037166",
       "name": "Taco Bell",
-      "city": "Reed City",
+      "city": "Hillsdale",
       "state": "MI",
       "price": 4.99
     }
@@ -154,6 +154,7 @@
     "036302",
     "035098",
     "035304",
+    "037166",
     "042648",
     "042604",
     "041998",
@@ -165,12 +166,14 @@
     "038792",
     "039575",
     "037330",
+    "022262",
     "001937",
     "001795",
     "026083",
     "024745",
     "017105",
     "001567",
+    "030705",
     "021229",
     "002494",
     "002681",
@@ -181,6 +184,7 @@
     "024764",
     "003294",
     "015453",
+    "033315",
     "002187",
     "031442",
     "028915",
@@ -226,6 +230,7 @@
     "037359",
     "042652",
     "040385",
+    "032574",
     "032045",
     "033999",
     "036213"
@@ -303,6 +308,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032574",
+      "store_name": "Taco Bell",
+      "city": "Rockford",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-09T21:42:54.282450+00:00"
+    },
+    {
+      "store_number": "033315",
+      "store_name": "Taco Bell",
+      "city": "White Lake",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-09T21:41:12.261446+00:00"
+    },
+    {
+      "store_number": "030705",
+      "store_name": "Taco Bell",
+      "city": "Loudonville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-09T21:41:06.308938+00:00"
+    },
+    {
+      "store_number": "022262",
+      "store_name": "Taco Bell",
+      "city": "Uhrichsville",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-09T21:40:57.710177+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 4.99,
+      "observed_at": "2026-09-09T21:40:43.942530+00:00"
+    },
     {
       "store_number": "033002",
       "store_name": "Taco Bell",
@@ -157325,7 +157380,7 @@
     }
   ],
   "activity_summary": {
-    "added": 7903,
+    "added": 7908,
     "removed": 7799,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -157414,6 +157469,15 @@
       4.99,
       "Taco Bell",
       "Shelby Township",
+      "MI"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      4.99,
+      "Taco Bell",
+      "Hillsdale",
       "MI"
     ],
     [
@@ -157516,6 +157580,15 @@
       "IL"
     ],
     [
+      "022262",
+      40.40994355707365,
+      -81.34797289967543,
+      4.99,
+      "Taco Bell",
+      "Uhrichsville",
+      "OH"
+    ],
+    [
       "001937",
       41.86218318727714,
       -80.79882144927979,
@@ -157568,6 +157641,15 @@
       "Taco Bell",
       "Roseville",
       "MI"
+    ],
+    [
+      "030705",
+      40.635496540248276,
+      -82.23836629695893,
+      4.99,
+      "Taco Bell",
+      "Loudonville",
+      "OH"
     ],
     [
       "021229",
@@ -157658,6 +157740,15 @@
       "Taco Bell",
       "Twinsburg",
       "OH"
+    ],
+    [
+      "033315",
+      42.65798086181296,
+      -83.46379458904266,
+      4.99,
+      "Taco Bell",
+      "White Lake",
+      "MI"
     ],
     [
       "002187",
@@ -158063,6 +158154,15 @@
       "Taco Bell",
       "Bellevue",
       "KY"
+    ],
+    [
+      "032574",
+      43.117519747728664,
+      -85.59696595583704,
+      4.99,
+      "Taco Bell",
+      "Rockford",
+      "MI"
     ],
     [
       "032045",

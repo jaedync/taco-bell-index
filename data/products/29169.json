@@ -15,28 +15,34 @@
   "is_meatless": false,
   "is_limited": true,
   "peak_30d_pct": 0.2,
-  "recent_price_change_pct": 0.0435,
+  "recent_price_change_pct": 0.0254,
   "first_seen_at": "2026-05-21T21:03:48.140679+00:00",
   "availability_pct": 0.1,
   "price_stats": {
-    "avg": 9.5,
+    "avg": 9.33,
     "min": 9.0,
     "max": 9.99,
-    "median": 9.5,
-    "std_dev": 0.57,
-    "store_count": 4
+    "median": 9.0,
+    "std_dev": 0.51,
+    "store_count": 6
   },
   "histogram": [
     {
       "bucket": "$9.00",
-      "count": 2
+      "count": 4
     },
     {
       "bucket": "$9.99",
       "count": 2
     }
   ],
-  "state_prices": [],
+  "state_prices": [
+    {
+      "state": "FL",
+      "avg_price": 9.33,
+      "store_count": 6
+    }
+  ],
   "nutrition": {
     "calories": 183.0992,
     "total_fat_g": 8.3175,
@@ -53,6 +59,13 @@
   },
   "cheapest_stores": [
     {
+      "store_number": "036287",
+      "name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "027978",
       "name": "Taco Bell",
       "city": "Orlando",
@@ -63,6 +76,13 @@
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
+      "store_number": "023293",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
       "state": "FL",
       "price": 9.0
     },
@@ -82,8 +102,10 @@
     }
   ],
   "min_price_store_numbers": [
+    "036287",
     "027978",
-    "022833"
+    "022833",
+    "023293"
   ],
   "priciest_stores": [
     {
@@ -101,6 +123,13 @@
       "price": 9.99
     },
     {
+      "store_number": "023293",
+      "name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "price": 9.0
+    },
+    {
       "store_number": "022833",
       "name": "Taco Bell",
       "city": "Clermont",
@@ -113,9 +142,36 @@
       "city": "Orlando",
       "state": "FL",
       "price": 9.0
+    },
+    {
+      "store_number": "036287",
+      "name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "price": 9.0
     }
   ],
   "price_changes": [
+    {
+      "store_number": "023293",
+      "store_name": "Taco Bell",
+      "city": "Kissimmee",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-09T21:41:43.707346+00:00"
+    },
+    {
+      "store_number": "036287",
+      "store_name": "Taco Bell",
+      "city": "Port Orange",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 9.0,
+      "observed_at": "2026-09-09T21:40:38.895431+00:00"
+    },
     {
       "store_number": "027978",
       "store_name": "Taco Bell",
@@ -4918,7 +4974,7 @@
     }
   ],
   "activity_summary": {
-    "added": 242,
+    "added": 244,
     "removed": 238,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -4960,6 +5016,15 @@
   ],
   "map_data": [
     [
+      "036287",
+      29.110829512237228,
+      -81.02506886165676,
+      9.0,
+      "Taco Bell",
+      "Port Orange",
+      "FL"
+    ],
+    [
       "027978",
       28.552565072072,
       -81.47350690794156,
@@ -4975,6 +5040,15 @@
       9.0,
       "Taco Bell",
       "Clermont",
+      "FL"
+    ],
+    [
+      "023293",
+      28.333579317890024,
+      -81.48036539554596,
+      9.0,
+      "Taco Bell",
+      "Kissimmee",
       "FL"
     ],
     [
@@ -4997,6 +5071,6 @@
     ]
   ],
   "retired_at": "2026-05-22T21:46:22.117822+00:00",
-  "last_seen_date": "2026-09-08",
+  "last_seen_date": "2026-09-09",
   "peak_availability_pct": 1.2
 }

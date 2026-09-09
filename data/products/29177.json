@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 20
+    "store_count": 22
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 20
+      "count": 22
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 20
+      "store_count": 22
     }
   ],
   "nutrition": {
@@ -137,6 +137,7 @@
     "028353",
     "027982",
     "005646",
+    "027970",
     "022590",
     "042933",
     "042914",
@@ -144,6 +145,7 @@
     "021472",
     "022591",
     "004435",
+    "042927",
     "037822",
     "034162"
   ],
@@ -159,6 +161,13 @@
       "store_number": "037822",
       "name": "Taco Bell",
       "city": "Lady Lake",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042927",
+      "name": "Taco Bell",
+      "city": "Belleview",
       "state": "FL",
       "price": 10.99
     },
@@ -210,16 +219,29 @@
       "city": "Ormond Beach",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "005646",
-      "name": "Taco Bell",
-      "city": "Altamonte Springs",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-09T21:42:48.595450+00:00"
+    },
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-09T21:41:49.906772+00:00"
+    },
     {
       "store_number": "042927",
       "store_name": "Taco Bell",
@@ -2902,7 +2924,7 @@
     }
   ],
   "activity_summary": {
-    "added": 144,
+    "added": 146,
     "removed": 124,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3043,6 +3065,15 @@
       "FL"
     ],
     [
+      "027970",
+      28.36376816960354,
+      -80.69987878203392,
+      10.99,
+      "Taco Bell",
+      "Merritt Island",
+      "FL"
+    ],
+    [
       "022590",
       29.2812221737573,
       -81.06851139667924,
@@ -3103,6 +3134,15 @@
       10.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "042927",
+      29.07398294969833,
+      -82.07236339153496,
+      10.99,
+      "Taco Bell",
+      "Belleview",
       "FL"
     ],
     [

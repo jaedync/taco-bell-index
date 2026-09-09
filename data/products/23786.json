@@ -21,19 +21,19 @@
     "max": 7.0,
     "median": 7.0,
     "std_dev": 0.0,
-    "store_count": 102
+    "store_count": 104
   },
   "histogram": [
     {
       "bucket": "$7.00",
-      "count": 102
+      "count": 104
     }
   ],
   "state_prices": [
     {
       "state": "CO",
       "avg_price": 7.0,
-      "store_count": 102
+      "store_count": 104
     }
   ],
   "nutrition": {
@@ -152,6 +152,7 @@
     "020924",
     "020537",
     "033838",
+    "005716",
     "033841",
     "033857",
     "033869",
@@ -178,6 +179,7 @@
     "033866",
     "036109",
     "004264",
+    "033873",
     "030502",
     "033868",
     "033852",
@@ -299,6 +301,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "033873",
+      "store_name": "Taco Bell",
+      "city": "Littleton",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-09-09T21:42:05.678682+00:00"
+    },
+    {
+      "store_number": "005716",
+      "store_name": "Taco Bell",
+      "city": "Littleton",
+      "state": "CO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 7.0,
+      "observed_at": "2026-09-09T21:41:38.915616+00:00"
+    },
     {
       "store_number": "033848",
       "store_name": "Taco Bell",
@@ -1561,7 +1583,7 @@
     }
   ],
   "activity_summary": {
-    "added": 114,
+    "added": 116,
     "removed": 12,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -1864,6 +1886,15 @@
       "CO"
     ],
     [
+      "005716",
+      39.61569229583697,
+      -104.98759680408197,
+      7.0,
+      "Taco Bell",
+      "Littleton",
+      "CO"
+    ],
+    [
       "033841",
       39.92437763153233,
       -105.09144821766313,
@@ -2095,6 +2126,15 @@
       7.0,
       "Taco Bell",
       "Wheat Ridge",
+      "CO"
+    ],
+    [
+      "033873",
+      39.62451770315588,
+      -105.02122208476067,
+      7.0,
+      "Taco Bell",
+      "Littleton",
       "CO"
     ],
     [

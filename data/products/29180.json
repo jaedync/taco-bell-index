@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 14
+    "store_count": 15
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 14
+      "count": 15
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 14
+      "store_count": 15
     }
   ],
   "nutrition": {
@@ -138,6 +138,7 @@
     "042924",
     "021472",
     "004435",
+    "042927",
     "037822",
     "032959"
   ],
@@ -153,6 +154,13 @@
       "store_number": "037822",
       "name": "Taco Bell",
       "city": "Lady Lake",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
+      "store_number": "042927",
+      "name": "Taco Bell",
+      "city": "Belleview",
       "state": "FL",
       "price": 10.99
     },
@@ -204,16 +212,19 @@
       "city": "Leesburg",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "042941",
-      "name": "Taco Bell",
-      "city": "Ocala",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042927",
+      "store_name": "Taco Bell",
+      "city": "Belleview",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-09T21:42:48.595450+00:00"
+    },
     {
       "store_number": "042927",
       "store_name": "Taco Bell",
@@ -2116,7 +2127,7 @@
     }
   ],
   "activity_summary": {
-    "added": 102,
+    "added": 103,
     "removed": 88,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2263,6 +2274,15 @@
       10.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "042927",
+      29.07398294969833,
+      -82.07236339153496,
+      10.99,
+      "Taco Bell",
+      "Belleview",
       "FL"
     ],
     [

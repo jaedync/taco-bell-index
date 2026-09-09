@@ -20,8 +20,8 @@
     "min": 4.69,
     "max": 5.49,
     "median": 4.99,
-    "std_dev": 0.33,
-    "store_count": 36
+    "std_dev": 0.34,
+    "store_count": 35
   },
   "histogram": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "bucket": "$4.99",
-      "count": 12
+      "count": 11
     },
     {
       "bucket": "$5.49",
@@ -40,8 +40,8 @@
   "state_prices": [
     {
       "state": "CA",
-      "avg_price": 5.38,
-      "store_count": 18
+      "avg_price": 5.4,
+      "store_count": 17
     },
     {
       "state": "TX",
@@ -218,6 +218,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "016276",
+      "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
+      "city": "Brea",
+      "state": "CA",
+      "change_type": "item_removed",
+      "old_price": 4.99,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:42:01.791942+00:00"
+    },
     {
       "store_number": "039811",
       "store_name": "Taco Bell - Live M\u00e1s Caf\u00e9",
@@ -641,7 +651,7 @@
   ],
   "activity_summary": {
     "added": 39,
-    "removed": 3,
+    "removed": 4,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -775,15 +785,6 @@
       "Taco Bell - Live M\u00e1s Caf\u00e9",
       "Dallas",
       "TX"
-    ],
-    [
-      "016276",
-      33.917687157419614,
-      -117.90252108873574,
-      4.99,
-      "Taco Bell - Live M\u00e1s Caf\u00e9",
-      "Brea",
-      "CA"
     ],
     [
       "009489",

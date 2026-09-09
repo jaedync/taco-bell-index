@@ -16,14 +16,14 @@
   "peak_30d_pct": 91.7,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-03-30T00:43:14.837235+00:00",
-  "availability_pct": 98.2,
+  "availability_pct": 98.3,
   "price_stats": {
     "avg": 3.19,
     "min": 2.95,
     "max": 5.99,
     "median": 3.29,
     "std_dev": 0.18,
-    "store_count": 7589
+    "store_count": 7597
   },
   "histogram": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "bucket": "$2.99",
-      "count": 3015
+      "count": 3017
     },
     {
       "bucket": "$3.19",
@@ -40,7 +40,7 @@
     },
     {
       "bucket": "$3.29",
-      "count": 3864
+      "count": 3869
     },
     {
       "bucket": "$3.30",
@@ -72,7 +72,7 @@
     },
     {
       "bucket": "$3.59",
-      "count": 203
+      "count": 204
     },
     {
       "bucket": "$3.69",
@@ -158,7 +158,7 @@
     {
       "state": "MI",
       "avg_price": 3.29,
-      "store_count": 344
+      "store_count": 346
     },
     {
       "state": "MN",
@@ -188,7 +188,7 @@
     {
       "state": "CA",
       "avg_price": 3.25,
-      "store_count": 837
+      "store_count": 838
     },
     {
       "state": "IN",
@@ -203,7 +203,7 @@
     {
       "state": "FL",
       "avg_price": 3.23,
-      "store_count": 448
+      "store_count": 450
     },
     {
       "state": "IL",
@@ -251,14 +251,14 @@
       "store_count": 80
     },
     {
+      "state": "KY",
+      "avg_price": 3.1,
+      "store_count": 161
+    },
+    {
       "state": "OR",
       "avg_price": 3.1,
       "store_count": 122
-    },
-    {
-      "state": "KY",
-      "avg_price": 3.1,
-      "store_count": 159
     },
     {
       "state": "VA",
@@ -303,7 +303,7 @@
     {
       "state": "AL",
       "avg_price": 3.01,
-      "store_count": 162
+      "store_count": 163
     },
     {
       "state": "OK",
@@ -559,6 +559,86 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041406",
+      "store_name": "Taco Bell",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-09T21:42:57.918913+00:00"
+    },
+    {
+      "store_number": "034661",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-09T21:42:46.307480+00:00"
+    },
+    {
+      "store_number": "028525",
+      "store_name": "Taco Bell",
+      "city": "Norwalk",
+      "state": "CA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.59,
+      "observed_at": "2026-09-09T21:42:45.138402+00:00"
+    },
+    {
+      "store_number": "030271",
+      "store_name": "Taco Bell",
+      "city": "Athens",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-09T21:42:44.167946+00:00"
+    },
+    {
+      "store_number": "033026",
+      "store_name": "Taco Bell",
+      "city": "Albion",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-09T21:42:30.567698+00:00"
+    },
+    {
+      "store_number": "041836",
+      "store_name": "Taco Bell",
+      "city": "Quincy",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 2.99,
+      "observed_at": "2026-09-09T21:42:28.297200+00:00"
+    },
+    {
+      "store_number": "042410",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-09T21:40:46.038323+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 3.29,
+      "observed_at": "2026-09-09T21:40:43.942530+00:00"
+    },
     {
       "store_number": "041839",
       "store_name": "Taco Bell",
@@ -229691,7 +229771,7 @@
     }
   ],
   "activity_summary": {
-    "added": 15240,
+    "added": 15248,
     "removed": 7650,
     "price_changed": 23,
     "since": "2026-03-31T00:00:00+00:00"
@@ -251455,6 +251535,15 @@
       "AZ"
     ],
     [
+      "041836",
+      30.58692456525793,
+      -84.59584338998732,
+      2.99,
+      "Taco Bell",
+      "Quincy",
+      "FL"
+    ],
+    [
       "021187",
       33.45967064345374,
       -112.34040751901438,
@@ -254162,6 +254251,15 @@
       "Taco Bell",
       "Pittsburg",
       "KS"
+    ],
+    [
+      "030271",
+      34.79024302285312,
+      -86.9722497047921,
+      2.99,
+      "Taco Bell",
+      "Athens",
+      "AL"
     ],
     [
       "029078",
@@ -262120,6 +262218,15 @@
       "VA"
     ],
     [
+      "037166",
+      41.9426279,
+      -84.648124,
+      3.29,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
+    ],
+    [
       "037014",
       39.15837927183151,
       -122.14118016343343,
@@ -262532,6 +262639,15 @@
       "Taco Bell",
       "Philadelphia",
       "PA"
+    ],
+    [
+      "042410",
+      38.19671929207219,
+      -85.78242777036012,
+      3.29,
+      "Taco Bell",
+      "Louisville",
+      "KY"
     ],
     [
       "041426",
@@ -286879,6 +286995,15 @@
       "MI"
     ],
     [
+      "033026",
+      42.26129276711484,
+      -84.75579047064694,
+      3.29,
+      "Taco Bell",
+      "Albion",
+      "MI"
+    ],
+    [
       "004758",
       37.29771100537295,
       -120.48142767361071,
@@ -290218,6 +290343,15 @@
       "GA"
     ],
     [
+      "034661",
+      38.245380554984266,
+      -85.75267374515533,
+      3.29,
+      "Taco Bell",
+      "Louisville",
+      "KY"
+    ],
+    [
       "040035",
       39.416941550261846,
       -77.4455285356398,
@@ -293159,6 +293293,15 @@
       "Taco Bell",
       "Landrum",
       "SC"
+    ],
+    [
+      "041406",
+      30.00783,
+      -81.69326,
+      3.29,
+      "Taco Bell",
+      "Green Cove Springs",
+      "FL"
     ],
     [
       "038753",
@@ -297100,6 +297243,15 @@
       3.59,
       "Taco Bell",
       "Lynwood",
+      "CA"
+    ],
+    [
+      "028525",
+      33.91736901518146,
+      -118.09879727667067,
+      3.59,
+      "Taco Bell",
+      "Norwalk",
       "CA"
     ],
     [

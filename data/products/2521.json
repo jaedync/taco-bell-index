@@ -22,7 +22,7 @@
     "max": 1.1,
     "median": 0.6,
     "std_dev": 0.16,
-    "store_count": 7465
+    "store_count": 7466
   },
   "histogram": [
     {
@@ -123,7 +123,7 @@
     },
     {
       "bucket": "$0.91",
-      "count": 11
+      "count": 12
     },
     {
       "bucket": "$0.95",
@@ -202,7 +202,7 @@
     {
       "state": "NY",
       "avg_price": 0.69,
-      "store_count": 233
+      "store_count": 234
     },
     {
       "state": "MI",
@@ -272,7 +272,7 @@
     {
       "state": "FL",
       "avg_price": 0.62,
-      "store_count": 417
+      "store_count": 418
     },
     {
       "state": "MS",
@@ -307,7 +307,7 @@
     {
       "state": "IL",
       "avg_price": 0.58,
-      "store_count": 283
+      "store_count": 282
     },
     {
       "state": "WI",
@@ -575,6 +575,36 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041406",
+      "store_name": "Taco Bell",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-09-09T21:42:57.918913+00:00"
+    },
+    {
+      "store_number": "036200",
+      "store_name": "Taco Bell",
+      "city": "Des Plaines",
+      "state": "IL",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:41:15.371016+00:00"
+    },
+    {
+      "store_number": "036455",
+      "store_name": "Taco Bell",
+      "city": "Brooklyn",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.91,
+      "observed_at": "2026-09-09T21:40:43.373185+00:00"
+    },
     {
       "store_number": "037677",
       "store_name": "Taco Bell",
@@ -20617,8 +20647,8 @@
     }
   ],
   "activity_summary": {
-    "added": 931,
-    "removed": 952,
+    "added": 933,
+    "removed": 953,
     "price_changed": 121,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -38682,15 +38712,6 @@
       "CA"
     ],
     [
-      "036200",
-      42.06056872214917,
-      -87.84452317049727,
-      0.5,
-      "Taco Bell",
-      "Des Plaines",
-      "IL"
-    ],
-    [
       "031782",
       34.106899062665036,
       -80.90085227789137,
@@ -42343,6 +42364,15 @@
       "Taco Bell",
       "Kings Beach",
       "CA"
+    ],
+    [
+      "041406",
+      30.00783,
+      -81.69326,
+      0.5,
+      "Taco Bell",
+      "Green Cove Springs",
+      "FL"
     ],
     [
       "041488",
@@ -86856,6 +86886,15 @@
       0.91,
       "Taco Bell",
       "Bronx",
+      "NY"
+    ],
+    [
+      "036455",
+      40.6697473363658,
+      -73.91195812676696,
+      0.91,
+      "Taco Bell",
+      "Brooklyn",
       "NY"
     ],
     [

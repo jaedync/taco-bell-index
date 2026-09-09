@@ -22,12 +22,12 @@
     "max": 1.0,
     "median": 0.25,
     "std_dev": 0.23,
-    "store_count": 7684
+    "store_count": 7686
   },
   "histogram": [
     {
       "bucket": "$0.00",
-      "count": 2108
+      "count": 2109
     },
     {
       "bucket": "$0.10",
@@ -107,7 +107,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 514
+      "count": 515
     },
     {
       "bucket": "$0.65",
@@ -241,7 +241,7 @@
     {
       "state": "KY",
       "avg_price": 0.34,
-      "store_count": 157
+      "store_count": 158
     },
     {
       "state": "DE",
@@ -251,7 +251,7 @@
     {
       "state": "FL",
       "avg_price": 0.34,
-      "store_count": 453
+      "store_count": 454
     },
     {
       "state": "NC",
@@ -2608,7 +2608,8 @@
     "041858",
     "042770",
     "043223",
-    "031549"
+    "031549",
+    "041406"
   ],
   "priciest_stores": [
     {
@@ -2683,6 +2684,26 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041406",
+      "store_name": "Taco Bell",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.0,
+      "observed_at": "2026-09-09T21:42:57.918913+00:00"
+    },
+    {
+      "store_number": "040308",
+      "store_name": "Taco Bell",
+      "city": "Springfield",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-09-09T21:41:13.754601+00:00"
+    },
     {
       "store_number": "033002",
       "store_name": "Taco Bell",
@@ -6095,7 +6116,7 @@
     }
   ],
   "activity_summary": {
-    "added": 133,
+    "added": 135,
     "removed": 86,
     "price_changed": 122,
     "since": "2026-03-31T00:00:00+00:00"
@@ -25076,6 +25097,15 @@
       "Taco Bell",
       "Fitchburg",
       "MA"
+    ],
+    [
+      "041406",
+      30.00783,
+      -81.69326,
+      0.0,
+      "Taco Bell",
+      "Green Cove Springs",
+      "FL"
     ],
     [
       "040880",
@@ -72974,6 +73004,15 @@
       "Taco Bell",
       "Smithfield",
       "UT"
+    ],
+    [
+      "040308",
+      37.69784346038849,
+      -85.22184147387745,
+      0.6,
+      "Taco Bell",
+      "Springfield",
+      "KY"
     ],
     [
       "035849",

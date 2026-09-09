@@ -22,7 +22,7 @@
     "max": 1.99,
     "median": 0.35,
     "std_dev": 0.19,
-    "store_count": 7596
+    "store_count": 7599
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$0.30",
-      "count": 2293
+      "count": 2295
     },
     {
       "bucket": "$0.35",
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 335
+      "count": 336
     },
     {
       "bucket": "$0.65",
@@ -185,12 +185,12 @@
     {
       "state": "NV",
       "avg_price": 0.51,
-      "store_count": 77
+      "store_count": 76
     },
     {
       "state": "NY",
       "avg_price": 0.5,
-      "store_count": 246
+      "store_count": 247
     },
     {
       "state": "CA",
@@ -275,7 +275,7 @@
     {
       "state": "OH",
       "avg_price": 0.39,
-      "store_count": 402
+      "store_count": 403
     },
     {
       "state": "MI",
@@ -313,14 +313,14 @@
       "store_count": 224
     },
     {
+      "state": "KY",
+      "avg_price": 0.34,
+      "store_count": 157
+    },
+    {
       "state": "KS",
       "avg_price": 0.34,
       "store_count": 88
-    },
-    {
-      "state": "KY",
-      "avg_price": 0.34,
-      "store_count": 156
     },
     {
       "state": "NC",
@@ -335,7 +335,7 @@
     {
       "state": "FL",
       "avg_price": 0.33,
-      "store_count": 450
+      "store_count": 451
     },
     {
       "state": "IL",
@@ -852,6 +852,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041406",
+      "store_name": "Taco Bell",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-09-09T21:42:57.918913+00:00"
+    },
+    {
+      "store_number": "029417",
+      "store_name": "Taco Bell",
+      "city": "Cincinnati",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.3,
+      "observed_at": "2026-09-09T21:41:32.710926+00:00"
+    },
+    {
+      "store_number": "017490",
+      "store_name": "Taco Bell",
+      "city": "Cortland",
+      "state": "NY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.5,
+      "observed_at": "2026-09-09T21:41:20.498941+00:00"
+    },
+    {
+      "store_number": "036155",
+      "store_name": "Taco Bell",
+      "city": "Jeffersontown",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.6,
+      "observed_at": "2026-09-09T21:41:19.399881+00:00"
+    },
+    {
+      "store_number": "037679",
+      "store_name": "Taco Bell",
+      "city": "Reno",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.5,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:40:53.033214+00:00"
+    },
     {
       "store_number": "031866",
       "store_name": "Taco Bell",
@@ -6764,8 +6814,8 @@
     }
   ],
   "activity_summary": {
-    "added": 281,
-    "removed": 267,
+    "added": 285,
+    "removed": 268,
     "price_changed": 43,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -28474,6 +28524,15 @@
       "IL"
     ],
     [
+      "029417",
+      39.155577625545796,
+      -84.6294905943887,
+      0.3,
+      "Taco Bell",
+      "Cincinnati",
+      "OH"
+    ],
+    [
       "028283",
       32.30916342442886,
       -95.47225647389403,
@@ -40829,6 +40888,15 @@
       "Taco Bell",
       "Minot",
       "ND"
+    ],
+    [
+      "041406",
+      30.00783,
+      -81.69326,
+      0.3,
+      "Taco Bell",
+      "Green Cove Springs",
+      "FL"
     ],
     [
       "040979",
@@ -57805,15 +57873,6 @@
       "NC"
     ],
     [
-      "037679",
-      39.403270317817864,
-      -119.74010121964197,
-      0.5,
-      "Taco Bell",
-      "Reno",
-      "NV"
-    ],
-    [
       "038737",
       44.04595854726271,
       -123.16922281603603,
@@ -58982,6 +59041,15 @@
       "Taco Bell",
       "Raytown",
       "MO"
+    ],
+    [
+      "017490",
+      42.60646504220575,
+      -76.16564279019818,
+      0.5,
+      "Taco Bell",
+      "Cortland",
+      "NY"
     ],
     [
       "042585",
@@ -69629,6 +69697,15 @@
       "Taco Bell",
       "Smithfield",
       "UT"
+    ],
+    [
+      "036155",
+      38.213276454229025,
+      -85.58881223201752,
+      0.6,
+      "Taco Bell",
+      "Jeffersontown",
+      "KY"
     ],
     [
       "042792",

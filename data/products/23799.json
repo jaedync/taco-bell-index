@@ -16,17 +16,21 @@
   "first_seen_at": "2026-09-02T21:33:12.856004+00:00",
   "availability_pct": 0.0,
   "price_stats": {
-    "avg": 5.99,
+    "avg": 6.24,
     "min": 5.99,
-    "max": 5.99,
-    "median": 5.99,
-    "std_dev": 0.0,
+    "max": 6.49,
+    "median": 6.24,
+    "std_dev": 0.35,
     "store_count": 2
   },
   "histogram": [
     {
       "bucket": "$5.99",
-      "count": 2
+      "count": 1
+    },
+    {
+      "bucket": "$6.49",
+      "count": 1
     }
   ],
   "state_prices": [],
@@ -46,41 +50,60 @@
   },
   "cheapest_stores": [
     {
-      "store_number": "003824",
-      "name": "Taco Bell",
-      "city": "Lithia Springs",
-      "state": "GA",
-      "price": 5.99
-    },
-    {
       "store_number": "029578",
       "name": "Taco Bell",
       "city": "Tampa",
       "state": "FL",
       "price": 5.99
+    },
+    {
+      "store_number": "004304",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "price": 6.49
     }
   ],
   "min_price_store_numbers": [
-    "003824",
     "029578"
   ],
   "priciest_stores": [
     {
+      "store_number": "004304",
+      "name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "price": 6.49
+    },
+    {
       "store_number": "029578",
       "name": "Taco Bell",
       "city": "Tampa",
       "state": "FL",
       "price": 5.99
-    },
-    {
-      "store_number": "003824",
-      "name": "Taco Bell",
-      "city": "Lithia Springs",
-      "state": "GA",
-      "price": 5.99
     }
   ],
   "price_changes": [
+    {
+      "store_number": "004304",
+      "store_name": "Taco Bell",
+      "city": "Columbus",
+      "state": "OH",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.49,
+      "observed_at": "2026-09-09T21:41:22.163309+00:00"
+    },
+    {
+      "store_number": "003824",
+      "store_name": "Taco Bell",
+      "city": "Lithia Springs",
+      "state": "GA",
+      "change_type": "item_removed",
+      "old_price": 5.99,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:41:15.444716+00:00"
+    },
     {
       "store_number": "029578",
       "store_name": "Taco Bell",
@@ -123,25 +146,16 @@
     }
   ],
   "activity_summary": {
-    "added": 3,
-    "removed": 1,
+    "added": 4,
+    "removed": 2,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
-  "calories_from_menu": 0,
+  "calories_from_menu": 340,
   "calories_min": 340,
   "calories_max": 340,
   "combo_groups": [],
   "map_data": [
-    [
-      "003824",
-      33.77885297807616,
-      -84.60735438158736,
-      5.99,
-      "Taco Bell",
-      "Lithia Springs",
-      "GA"
-    ],
     [
       "029578",
       28.05492577759653,
@@ -150,9 +164,18 @@
       "Taco Bell",
       "Tampa",
       "FL"
+    ],
+    [
+      "004304",
+      40.135080304574686,
+      -83.01621010853222,
+      6.49,
+      "Taco Bell",
+      "Columbus",
+      "OH"
     ]
   ],
   "retired_at": "2026-09-03T21:56:29.145645+00:00",
-  "last_seen_date": "2026-09-08",
+  "last_seen_date": "2026-09-09",
   "peak_availability_pct": 0.0
 }

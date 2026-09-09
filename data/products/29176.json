@@ -13,7 +13,7 @@
   "is_vegetarian": false,
   "is_meatless": false,
   "is_limited": true,
-  "peak_30d_pct": 1.2,
+  "peak_30d_pct": 1.1,
   "recent_price_change_pct": null,
   "first_seen_at": "2026-04-16T21:05:37.421561+00:00",
   "availability_pct": 0.6,
@@ -23,19 +23,19 @@
     "max": 6.99,
     "median": 6.99,
     "std_dev": 0.0,
-    "store_count": 48
+    "store_count": 49
   },
   "histogram": [
     {
       "bucket": "$6.99",
-      "count": 48
+      "count": 49
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 6.99,
-      "store_count": 48
+      "store_count": 49
     }
   ],
   "nutrition": {
@@ -151,6 +151,7 @@
     "005646",
     "017290",
     "027976",
+    "027970",
     "022590",
     "027971",
     "039584",
@@ -247,6 +248,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "027970",
+      "store_name": "Taco Bell",
+      "city": "Merritt Island",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 6.99,
+      "observed_at": "2026-09-09T21:41:49.906772+00:00"
+    },
     {
       "store_number": "028353",
       "store_name": "Taco Bell",
@@ -3689,7 +3700,7 @@
     }
   ],
   "activity_summary": {
-    "added": 196,
+    "added": 197,
     "removed": 148,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -3931,6 +3942,15 @@
       6.99,
       "Taco Bell",
       "Orlando",
+      "FL"
+    ],
+    [
+      "027970",
+      28.36376816960354,
+      -80.69987878203392,
+      6.99,
+      "Taco Bell",
+      "Merritt Island",
       "FL"
     ],
     [

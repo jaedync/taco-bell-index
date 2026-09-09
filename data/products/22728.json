@@ -20,9 +20,9 @@
     "avg": 1.04,
     "min": 0.35,
     "max": 1.59,
-    "median": 0.95,
+    "median": 0.99,
     "std_dev": 0.23,
-    "store_count": 407
+    "store_count": 413
   },
   "histogram": [
     {
@@ -51,7 +51,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 25
+      "count": 26
     },
     {
       "bucket": "$0.85",
@@ -79,7 +79,7 @@
     },
     {
       "bucket": "$1.10",
-      "count": 14
+      "count": 15
     },
     {
       "bucket": "$1.19",
@@ -91,11 +91,11 @@
     },
     {
       "bucket": "$1.29",
-      "count": 5
+      "count": 7
     },
     {
       "bucket": "$1.49",
-      "count": 65
+      "count": 67
     },
     {
       "bucket": "$1.59",
@@ -105,18 +105,18 @@
   "state_prices": [
     {
       "state": "MI",
-      "avg_price": 1.19,
-      "store_count": 104
+      "avg_price": 1.2,
+      "store_count": 105
     },
     {
       "state": "IL",
-      "avg_price": 1.16,
-      "store_count": 45
+      "avg_price": 1.17,
+      "store_count": 46
     },
     {
       "state": "KY",
-      "avg_price": 1.11,
-      "store_count": 15
+      "avg_price": 1.13,
+      "store_count": 17
     },
     {
       "state": "AL",
@@ -130,8 +130,8 @@
     },
     {
       "state": "MO",
-      "avg_price": 0.98,
-      "store_count": 13
+      "avg_price": 0.99,
+      "store_count": 14
     },
     {
       "state": "OH",
@@ -140,13 +140,13 @@
     },
     {
       "state": "WI",
-      "avg_price": 0.97,
-      "store_count": 16
+      "avg_price": 0.96,
+      "store_count": 17
     },
     {
       "state": "IN",
-      "avg_price": 0.94,
-      "store_count": 38
+      "avg_price": 0.95,
+      "store_count": 37
     },
     {
       "state": "KS",
@@ -161,7 +161,7 @@
     {
       "state": "OK",
       "avg_price": 0.9,
-      "store_count": 32
+      "store_count": 34
     },
     {
       "state": "NE",
@@ -176,7 +176,7 @@
     {
       "state": "AR",
       "avg_price": 0.88,
-      "store_count": 17
+      "store_count": 16
     }
   ],
   "nutrition": {
@@ -277,6 +277,13 @@
       "price": 1.59
     },
     {
+      "store_number": "032134",
+      "name": "Taco Bell",
+      "city": "Calumet Park",
+      "state": "IL",
+      "price": 1.49
+    },
+    {
       "store_number": "023362",
       "name": "Taco Bell",
       "city": "Perry",
@@ -331,16 +338,129 @@
       "city": "Cedarburg",
       "state": "WI",
       "price": 1.49
-    },
-    {
-      "store_number": "041173",
-      "name": "Taco Bell",
-      "city": "Bay City",
-      "state": "MI",
-      "price": 1.49
     }
   ],
   "price_changes": [
+    {
+      "store_number": "032134",
+      "store_name": "Taco Bell",
+      "city": "Calumet Park",
+      "state": "IL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-09-09T21:42:55.529387+00:00"
+    },
+    {
+      "store_number": "029977",
+      "store_name": "Taco Bell",
+      "city": "Tulsa",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-09-09T21:42:27.945074+00:00"
+    },
+    {
+      "store_number": "036160",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-09-09T21:42:21.917217+00:00"
+    },
+    {
+      "store_number": "036159",
+      "store_name": "Taco Bell",
+      "city": "Louisville",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.29,
+      "observed_at": "2026-09-09T21:42:00.509110+00:00"
+    },
+    {
+      "store_number": "000456",
+      "store_name": "Taco Bell",
+      "city": "Columbia",
+      "state": "MO",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.1,
+      "observed_at": "2026-09-09T21:41:49.216906+00:00"
+    },
+    {
+      "store_number": "031487",
+      "store_name": "Taco Bell",
+      "city": "Milwaukee",
+      "state": "WI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-09T21:41:38.549287+00:00"
+    },
+    {
+      "store_number": "027034",
+      "store_name": "Taco Bell",
+      "city": "Mountain Home",
+      "state": "AR",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:41:22.596097+00:00"
+    },
+    {
+      "store_number": "017156",
+      "store_name": "Taco Bell",
+      "city": "Owasso",
+      "state": "OK",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.9,
+      "observed_at": "2026-09-09T21:41:21.300056+00:00"
+    },
+    {
+      "store_number": "029140",
+      "store_name": "Taco Bell",
+      "city": "Gardendale",
+      "state": "AL",
+      "change_type": "item_removed",
+      "old_price": 1.0,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:41:09.373049+00:00"
+    },
+    {
+      "store_number": "029166",
+      "store_name": "Taco Bell",
+      "city": "Bessemer",
+      "state": "AL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-09T21:41:09.053517+00:00"
+    },
+    {
+      "store_number": "037166",
+      "store_name": "Taco Bell",
+      "city": "Hillsdale",
+      "state": "MI",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.49,
+      "observed_at": "2026-09-09T21:40:43.942530+00:00"
+    },
+    {
+      "store_number": "041054",
+      "store_name": "Taco Bell",
+      "city": "Attica",
+      "state": "IN",
+      "change_type": "item_removed",
+      "old_price": 0.9,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:40:25.682914+00:00"
+    },
     {
       "store_number": "016207",
       "store_name": "Taco Bell",
@@ -24323,8 +24443,8 @@
     }
   ],
   "activity_summary": {
-    "added": 1308,
-    "removed": 1090,
+    "added": 1317,
+    "removed": 1093,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -24673,6 +24793,15 @@
       0.8,
       "Taco Bell",
       "Fort Atkinson",
+      "WI"
+    ],
+    [
+      "031487",
+      43.0609192555013,
+      -87.9838168454713,
+      0.8,
+      "Taco Bell",
+      "Milwaukee",
       "WI"
     ],
     [
@@ -25324,15 +25453,6 @@
       "AR"
     ],
     [
-      "027034",
-      36.3482249909194,
-      -92.37486380345217,
-      0.9,
-      "Taco Bell",
-      "Mountain Home",
-      "AR"
-    ],
-    [
       "016942",
       35.98809282869573,
       -96.10381265468467,
@@ -25529,15 +25649,6 @@
       "Taco Bell",
       "Russellville",
       "AR"
-    ],
-    [
-      "041054",
-      40.2853,
-      -87.2344,
-      0.9,
-      "Taco Bell",
-      "Attica",
-      "IN"
     ],
     [
       "026911",
@@ -25763,6 +25874,24 @@
       "Taco Bell",
       "Faribault",
       "MN"
+    ],
+    [
+      "017156",
+      36.27765868130851,
+      -95.84714953600951,
+      0.9,
+      "Taco Bell",
+      "Owasso",
+      "OK"
+    ],
+    [
+      "029977",
+      36.178250289075926,
+      -95.9750640839502,
+      0.9,
+      "Taco Bell",
+      "Tulsa",
+      "OK"
     ],
     [
       "041086",
@@ -26764,15 +26893,6 @@
       "AL"
     ],
     [
-      "029140",
-      33.65166734960094,
-      -86.8197226077308,
-      1.0,
-      "Taco Bell",
-      "Gardendale",
-      "AL"
-    ],
-    [
       "038833",
       34.239100701383464,
       -87.59939026381947,
@@ -27052,6 +27172,15 @@
       "IN"
     ],
     [
+      "029166",
+      33.33339473972188,
+      -86.99581415870725,
+      1.0,
+      "Taco Bell",
+      "Bessemer",
+      "AL"
+    ],
+    [
       "033650",
       38.95676829361747,
       -84.62919294834137,
@@ -27113,6 +27242,15 @@
       "Taco Bell",
       "Eugene",
       "OR"
+    ],
+    [
+      "000456",
+      38.94675185782623,
+      -92.33476102352142,
+      1.1,
+      "Taco Bell",
+      "Columbia",
+      "MO"
     ],
     [
       "032293",
@@ -27403,6 +27541,24 @@
       "KY"
     ],
     [
+      "036159",
+      38.212169490530904,
+      -85.72046972741934,
+      1.29,
+      "Taco Bell",
+      "Louisville",
+      "KY"
+    ],
+    [
+      "036160",
+      38.21621733853933,
+      -85.53822040557861,
+      1.29,
+      "Taco Bell",
+      "Louisville",
+      "KY"
+    ],
+    [
       "041114",
       42.0981,
       -84.2469,
@@ -27608,6 +27764,15 @@
       "Taco Bell",
       "Romeoville",
       "IL"
+    ],
+    [
+      "037166",
+      41.9426279,
+      -84.648124,
+      1.49,
+      "Taco Bell",
+      "Hillsdale",
+      "MI"
     ],
     [
       "001795",
@@ -27988,6 +28153,15 @@
       "MI"
     ],
     [
+      "032134",
+      41.66128890772303,
+      -87.6612511867838,
+      1.49,
+      "Taco Bell",
+      "Calumet Park",
+      "IL"
+    ],
+    [
       "041883",
       48.173424515469144,
       -103.62728089416856,
@@ -27998,6 +28172,6 @@
     ]
   ],
   "retired_at": "2026-04-16T21:12:51.589918+00:00",
-  "last_seen_date": "2026-09-08",
+  "last_seen_date": "2026-09-09",
   "peak_availability_pct": 13.6
 }

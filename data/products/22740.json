@@ -22,7 +22,7 @@
     "max": 2.19,
     "median": 1.0,
     "std_dev": 0.22,
-    "store_count": 7624
+    "store_count": 7625
   },
   "histogram": [
     {
@@ -103,7 +103,7 @@
     },
     {
       "bucket": "$0.95",
-      "count": 170
+      "count": 169
     },
     {
       "bucket": "$0.99",
@@ -111,7 +111,7 @@
     },
     {
       "bucket": "$1.00",
-      "count": 2439
+      "count": 2440
     },
     {
       "bucket": "$1.04",
@@ -127,7 +127,7 @@
     },
     {
       "bucket": "$1.10",
-      "count": 430
+      "count": 431
     },
     {
       "bucket": "$1.13",
@@ -241,7 +241,7 @@
     {
       "state": "NY",
       "avg_price": 1.19,
-      "store_count": 252
+      "store_count": 251
     },
     {
       "state": "CT",
@@ -261,7 +261,7 @@
     {
       "state": "TN",
       "avg_price": 1.11,
-      "store_count": 253
+      "store_count": 252
     },
     {
       "state": "MT",
@@ -306,7 +306,7 @@
     {
       "state": "FL",
       "avg_price": 1.02,
-      "store_count": 443
+      "store_count": 444
     },
     {
       "state": "AL",
@@ -341,7 +341,7 @@
     {
       "state": "NV",
       "avg_price": 1.0,
-      "store_count": 85
+      "store_count": 86
     },
     {
       "state": "DE",
@@ -355,8 +355,8 @@
     },
     {
       "state": "SC",
-      "avg_price": 0.97,
-      "store_count": 116
+      "avg_price": 0.98,
+      "store_count": 117
     },
     {
       "state": "MD",
@@ -637,6 +637,56 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041406",
+      "store_name": "Taco Bell",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.1,
+      "observed_at": "2026-09-09T21:42:57.918913+00:00"
+    },
+    {
+      "store_number": "026388",
+      "store_name": "Taco Bell",
+      "city": "Central Islip",
+      "state": "NY",
+      "change_type": "item_removed",
+      "old_price": 1.15,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:42:26.697479+00:00"
+    },
+    {
+      "store_number": "034691",
+      "store_name": "Taco Bell",
+      "city": "Jackson",
+      "state": "TN",
+      "change_type": "item_removed",
+      "old_price": 0.95,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:42:18.112864+00:00"
+    },
+    {
+      "store_number": "042952",
+      "store_name": "Taco Bell",
+      "city": "Easley",
+      "state": "SC",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.15,
+      "observed_at": "2026-09-09T21:41:40.962633+00:00"
+    },
+    {
+      "store_number": "031904",
+      "store_name": "Taco Bell",
+      "city": "Las Vegas",
+      "state": "NV",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 1.0,
+      "observed_at": "2026-09-09T21:41:26.650520+00:00"
+    },
     {
       "store_number": "001651",
       "store_name": "Taco Bell",
@@ -18769,8 +18819,8 @@
     }
   ],
   "activity_summary": {
-    "added": 806,
-    "removed": 768,
+    "added": 809,
+    "removed": 770,
     "price_changed": 239,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -44061,15 +44111,6 @@
       "TN"
     ],
     [
-      "034691",
-      35.659648762026016,
-      -88.85424159001104,
-      0.95,
-      "Taco Bell",
-      "Jackson",
-      "TN"
-    ],
-    [
       "039975",
       38.72908943898855,
       -75.13135671615595,
@@ -53059,6 +53100,15 @@
       "Taco Bell",
       "Citrus Heights",
       "CA"
+    ],
+    [
+      "031904",
+      36.143177213109794,
+      -115.25935468962416,
+      1.0,
+      "Taco Bell",
+      "Las Vegas",
+      "NV"
     ],
     [
       "030932",
@@ -73671,6 +73721,15 @@
       "VA"
     ],
     [
+      "041406",
+      30.00783,
+      -81.69326,
+      1.1,
+      "Taco Bell",
+      "Green Cove Springs",
+      "FL"
+    ],
+    [
       "042616",
       29.7137928,
       -81.507759,
@@ -75111,6 +75170,15 @@
       "AL"
     ],
     [
+      "042952",
+      34.824139443273296,
+      -82.55927860736847,
+      1.15,
+      "Taco Bell",
+      "Easley",
+      "SC"
+    ],
+    [
       "042889",
       30.268294710241545,
       -81.61518757046906,
@@ -76234,15 +76302,6 @@
       "Taco Bell",
       "Greenwood",
       "SC"
-    ],
-    [
-      "026388",
-      40.789836717551786,
-      -73.20480727169577,
-      1.15,
-      "Taco Bell",
-      "Central Islip",
-      "NY"
     ],
     [
       "043129",

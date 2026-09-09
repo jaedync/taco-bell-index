@@ -24,19 +24,19 @@
     "max": 10.99,
     "median": 10.99,
     "std_dev": 0.0,
-    "store_count": 16
+    "store_count": 17
   },
   "histogram": [
     {
       "bucket": "$10.99",
-      "count": 16
+      "count": 17
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 10.99,
-      "store_count": 16
+      "store_count": 17
     }
   ],
   "nutrition": {
@@ -97,6 +97,13 @@
       "price": 10.99
     },
     {
+      "store_number": "022266",
+      "name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "price": 10.99
+    },
+    {
       "store_number": "022596",
       "name": "Taco Bell",
       "city": "Ormond Beach",
@@ -116,13 +123,6 @@
       "city": "Orlando",
       "state": "FL",
       "price": 10.99
-    },
-    {
-      "store_number": "004318",
-      "name": "Taco Bell",
-      "city": "Apopka",
-      "state": "FL",
-      "price": 10.99
     }
   ],
   "min_price_store_numbers": [
@@ -132,6 +132,7 @@
     "035462",
     "042977",
     "027978",
+    "022266",
     "022596",
     "017290",
     "027976",
@@ -216,6 +217,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "022266",
+      "store_name": "Taco Bell",
+      "city": "Orlando",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 10.99,
+      "observed_at": "2026-09-09T21:41:37.818615+00:00"
+    },
     {
       "store_number": "039586",
       "store_name": "Taco Bell",
@@ -2018,7 +2029,7 @@
     }
   ],
   "activity_summary": {
-    "added": 98,
+    "added": 99,
     "removed": 82,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
@@ -2108,6 +2119,15 @@
       "027978",
       28.552565072072,
       -81.47350690794156,
+      10.99,
+      "Taco Bell",
+      "Orlando",
+      "FL"
+    ],
+    [
+      "022266",
+      28.53756096341434,
+      -81.20877279901833,
       10.99,
       "Taco Bell",
       "Orlando",
@@ -2205,6 +2225,6 @@
     ]
   ],
   "retired_at": "2026-04-17T21:06:31.710449+00:00",
-  "last_seen_date": "2026-09-08",
+  "last_seen_date": "2026-09-09",
   "peak_availability_pct": 0.4
 }

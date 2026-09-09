@@ -22,7 +22,7 @@
     "max": 1.14,
     "median": 0.6,
     "std_dev": 0.19,
-    "store_count": 7645
+    "store_count": 7647
   },
   "histogram": [
     {
@@ -55,7 +55,7 @@
     },
     {
       "bucket": "$0.40",
-      "count": 332
+      "count": 333
     },
     {
       "bucket": "$0.43",
@@ -63,7 +63,7 @@
     },
     {
       "bucket": "$0.45",
-      "count": 209
+      "count": 210
     },
     {
       "bucket": "$0.48",
@@ -91,7 +91,7 @@
     },
     {
       "bucket": "$0.60",
-      "count": 1290
+      "count": 1289
     },
     {
       "bucket": "$0.65",
@@ -119,7 +119,7 @@
     },
     {
       "bucket": "$0.80",
-      "count": 937
+      "count": 938
     },
     {
       "bucket": "$0.85",
@@ -194,7 +194,7 @@
     {
       "state": "IA",
       "avg_price": 0.72,
-      "store_count": 46
+      "store_count": 47
     },
     {
       "state": "MD",
@@ -239,7 +239,7 @@
     {
       "state": "FL",
       "avg_price": 0.66,
-      "store_count": 448
+      "store_count": 449
     },
     {
       "state": "NE",
@@ -289,7 +289,7 @@
     {
       "state": "NV",
       "avg_price": 0.61,
-      "store_count": 84
+      "store_count": 83
     },
     {
       "state": "NC",
@@ -344,7 +344,7 @@
     {
       "state": "KY",
       "avg_price": 0.58,
-      "store_count": 159
+      "store_count": 160
     },
     {
       "state": "WI",
@@ -931,6 +931,46 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "041406",
+      "store_name": "Taco Bell",
+      "city": "Green Cove Springs",
+      "state": "FL",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.4,
+      "observed_at": "2026-09-09T21:42:57.918913+00:00"
+    },
+    {
+      "store_number": "021543",
+      "store_name": "Taco Bell",
+      "city": "Berea",
+      "state": "KY",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.45,
+      "observed_at": "2026-09-09T21:42:41.298693+00:00"
+    },
+    {
+      "store_number": "031906",
+      "store_name": "Taco Bell",
+      "city": "Fernley",
+      "state": "NV",
+      "change_type": "item_removed",
+      "old_price": 0.6,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:42:24.364295+00:00"
+    },
+    {
+      "store_number": "030414",
+      "store_name": "Taco Bell",
+      "city": "Ottumwa",
+      "state": "IA",
+      "change_type": "item_added",
+      "old_price": null,
+      "new_price": 0.8,
+      "observed_at": "2026-09-09T21:41:18.102149+00:00"
+    },
     {
       "store_number": "030414",
       "store_name": "Taco Bell",
@@ -21643,8 +21683,8 @@
     }
   ],
   "activity_summary": {
-    "added": 999,
-    "removed": 939,
+    "added": 1002,
+    "removed": 940,
     "price_changed": 133,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -32094,6 +32134,15 @@
       "FL"
     ],
     [
+      "041406",
+      30.00783,
+      -81.69326,
+      0.4,
+      "Taco Bell",
+      "Green Cove Springs",
+      "FL"
+    ],
+    [
       "031457",
       38.10696037006704,
       -122.57796317338943,
@@ -33774,6 +33823,15 @@
       0.45,
       "Taco Bell",
       "Barbourville",
+      "KY"
+    ],
+    [
+      "021543",
+      37.56753967587725,
+      -84.31270837783819,
+      0.45,
+      "Taco Bell",
+      "Berea",
       "KY"
     ],
     [
@@ -54565,15 +54623,6 @@
       "Taco Bell",
       "Moberly",
       "MO"
-    ],
-    [
-      "031906",
-      39.60734480415909,
-      -119.2220602392526,
-      0.6,
-      "Taco Bell",
-      "Fernley",
-      "NV"
     ],
     [
       "030938",
@@ -81619,6 +81668,15 @@
       "Taco Bell",
       "Bishop",
       "CA"
+    ],
+    [
+      "030414",
+      41.013481694575994,
+      -92.43884548544884,
+      0.8,
+      "Taco Bell",
+      "Ottumwa",
+      "IA"
     ],
     [
       "042626",

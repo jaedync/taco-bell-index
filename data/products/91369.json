@@ -17,12 +17,12 @@
   "first_seen_at": "2026-07-23T20:47:03.076148+00:00",
   "availability_pct": 0.4,
   "price_stats": {
-    "avg": 11.76,
+    "avg": 11.75,
     "min": 10.99,
     "max": 11.99,
     "median": 11.99,
-    "std_dev": 0.43,
-    "store_count": 30
+    "std_dev": 0.44,
+    "store_count": 29
   },
   "histogram": [
     {
@@ -31,14 +31,14 @@
     },
     {
       "bucket": "$11.99",
-      "count": 23
+      "count": 22
     }
   ],
   "state_prices": [
     {
       "state": "FL",
       "avg_price": 11.99,
-      "store_count": 8
+      "store_count": 7
     },
     {
       "state": "GA",
@@ -214,6 +214,16 @@
     }
   ],
   "price_changes": [
+    {
+      "store_number": "042893",
+      "store_name": "Taco Bell",
+      "city": "Jensen Beach",
+      "state": "FL",
+      "change_type": "item_removed",
+      "old_price": 11.99,
+      "new_price": null,
+      "observed_at": "2026-09-09T21:42:03.154099+00:00"
+    },
     {
       "store_number": "042937",
       "store_name": "Taco Bell",
@@ -3637,7 +3647,7 @@
   ],
   "activity_summary": {
     "added": 186,
-    "removed": 156,
+    "removed": 157,
     "price_changed": 0,
     "since": "2026-03-31T00:00:00+00:00"
   },
@@ -3819,15 +3829,6 @@
       "GA"
     ],
     [
-      "042893",
-      27.240240039501263,
-      -80.27085234226433,
-      11.99,
-      "Taco Bell",
-      "Jensen Beach",
-      "FL"
-    ],
-    [
       "023238",
       33.624919000000006,
       -83.97712250429907,
@@ -3937,6 +3938,6 @@
     ]
   ],
   "retired_at": "2026-07-24T21:40:14.928351+00:00",
-  "last_seen_date": "2026-09-08",
+  "last_seen_date": "2026-09-09",
   "peak_availability_pct": 1.1
 }
